@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Málaga Live — Concerts & Festivals Agenda</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--amber:#EF9F27;--bg:#f7f8f9;--line:#e4e8eb;--muted:#5f6b78;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--navy);font-family:'Inter',system-ui,sans-serif;line-height:1.55;}
+  .wrap{max-width:840px;margin:0 auto;padding:0 18px 64px;}
+  header.site{background:#fff;border-bottom:1px solid var(--line);}
+  .head-in{max-width:840px;margin:0 auto;padding:22px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+  .badge{width:56px;height:56px;border-radius:13px;background:var(--sea);display:flex;align-items:center;justify-content:center;flex:none;}
+  .wm{font-family:'Anton',sans-serif;font-size:38px;letter-spacing:1px;line-height:1;}
+  .tagline{flex-basis:100%;font-size:12.5px;font-weight:500;letter-spacing:1.5px;color:var(--navy);text-transform:uppercase;margin-top:2px;}
+  .subbar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:16px 0 6px;border-bottom:1px solid var(--line);margin-bottom:8px;}
+  .count{font-family:'Anton',sans-serif;font-size:15px;letter-spacing:.5px;color:var(--sea);}
+  .controls{margin-left:auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+  select{font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff;color:var(--navy);cursor:pointer;}
+  .lang{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+  .lang button{border:0;background:#fff;color:var(--muted);font:600 13px 'Inter';padding:7px 12px;cursor:pointer;}
+  .lang button.on{background:var(--sea);color:#fff;}
+  label.chk{font-size:13px;display:inline-flex;align-items:center;gap:6px;cursor:pointer;color:var(--muted);}
+  h2.day{font-family:'Anton',sans-serif;font-weight:400;font-size:20px;letter-spacing:.5px;color:var(--navy);margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--coral);}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:8px 0;display:flex;gap:14px;align-items:flex-start;}
+  .card.isfree{background:#fbfdf8;border-color:#dce8cf;}
+  .cmain{flex:1;min-width:0;}
+  .meta{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
+  .act{font-size:16px;font-weight:600;margin:3px 0 5px;color:var(--navy);}
+  .why{font-size:13.5px;color:#36434f;margin:0;}
+  .cside{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex:none;}
+  .pill{font-size:12px;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;}
+  .pill.price{background:#eaf1f7;color:var(--sea);}
+  .pill.free{background:#e6f3d8;color:#3b6d11;}
+  .btn{font-size:13px;font-weight:600;text-decoration:none;color:#fff;background:var(--coral);padding:7px 13px;border-radius:8px;white-space:nowrap;}
+  .btn:hover{background:#cf551f;}
+  footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);}
+  @media(max-width:560px){.card{flex-direction:column;}.cside{flex-direction:row;align-items:center;}.wm{font-size:30px;}}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="head-in">
+    <span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span>
+    <span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span>
+    <div class="tagline" data-en="The pulse of concerts &amp; festivals · Málaga city &amp; Costa del Sol" data-es="El pulso de los conciertos y festivales · Málaga ciudad y Costa del Sol">The pulse of concerts &amp; festivals · Málaga city &amp; Costa del Sol</div>
+  </div>
+</header>
+<div class="wrap">
+  <div class="subbar">
+    <span class="count"><span data-en="27 EVENTS · 8–21 JUN 2026" data-es="27 EVENTOS · 8–21 JUN 2026">27 EVENTS · 8–21 JUN 2026</span></span>
+    <div class="controls">
+      <label class="chk"><input type="checkbox" id="freeonly"> <span data-en="Free only" data-es="Solo gratis">Free only</span></label>
+      <select id="cityf"><option value="" data-en="All areas" data-es="Todas las zonas">All areas</option>
+<option value="Benalmádena (Arroyo de la Miel)">Benalmádena (Arroyo de la Miel)</option>
+<option value="Fuengirola">Fuengirola</option>
+<option value="Marbella">Marbella</option>
+<option value="Marbella (Benahavís)">Marbella (Benahavís)</option>
+<option value="Marbella (Puerto Banús)">Marbella (Puerto Banús)</option>
+<option value="Málaga">Málaga</option>
+<option value="Nerja">Nerja</option>
+<option value="Torremolinos">Torremolinos</option></select>
+      <span class="lang"><button id="en" class="on">EN</button><button id="es">ES</button></span>
+    </div>
+  </div>
+<h2 class="day" data-en="Mon 8 Jun" data-es="Lun 8 jun">Mon 8 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (Terral, night 1)</h3>
+  <p class="why" data-en="Málaga&#x27;s best-loved songwriter opens a six-night Terral residency." data-es="El cantautor más querido de Málaga abre su residencia de seis noches en el Terral.">Málaga&#x27;s best-loved songwriter opens a six-night Terral residency.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Tue 9 Jun" data-es="Mar 9 jun">Tue 9 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (night 2)</h3>
+  <p class="why" data-en="Second night of the hometown songwriter&#x27;s Terral run." data-es="Segunda noche de la residencia del cantautor malagueño en el Terral.">Second night of the hometown songwriter&#x27;s Terral run.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Wed 10 Jun" data-es="Mié 10 jun">Wed 10 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (night 3)</h3>
+  <p class="why" data-en="Midweek night of the Terral residency." data-es="Noche entre semana de la residencia del Terral.">Midweek night of the Terral residency.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Fri 12 Jun" data-es="Vie 12 jun">Fri 12 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">22:00 · Málaga · Auditorio Municipal Cortijo de Torres</div><h3 class="act">Miguel Poveda — 15th Anniversary &#x27;Coplas del Querer&#x27;</h3>
+  <p class="why" data-en="One of flamenco&#x27;s great voices marks 15 years of &#x27;Coplas del Querer&#x27; in the open air." data-es="Una de las grandes voces del flamenco celebra los 15 años de &#x27;Coplas del Querer&#x27; al aire libre.">One of flamenco&#x27;s great voices marks 15 years of &#x27;Coplas del Querer&#x27; in the open air.</p></div>
+  <div class="cside"><span class="pill price">from €44</span><a class="btn" href="https://www.taquilla.com/entradas/miguel-poveda" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (night 4)</h3>
+  <p class="why" data-en="Fourth night of the sold-out Terral residency." data-es="Cuarta noche de la residencia del Terral.">Fourth night of the sold-out Terral residency.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Marbella" data-free="1">
+  <div class="cmain"><div class="meta">evening · Marbella · Templete Parque Arroyo de la Represa</div><h3 class="act">Feria de San Bernabé: Spanish-pop tribute (Los Calvin + Alejados)</h3>
+  <p class="why" data-en="Free fair singalong on the first concert night of Marbella&#x27;s feria (8–14 Jun)." data-es="Feria gratis para cantar en la primera noche de conciertos de la feria de Marbella (8–14 jun).">Free fair singalong on the first concert night of Marbella&#x27;s feria (8–14 Jun).</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://www.marbella.es/" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Sat 13 Jun" data-es="Sáb 13 jun">Sat 13 Jun</h2>
+<article class="card" data-city="Fuengirola" data-free="0">
+  <div class="cmain"><div class="meta">21:00 · Fuengirola · Marenostrum Fuengirola</div><h3 class="act">Dani Martín — &#x27;25 P*T*S Años&#x27;</h3>
+  <p class="why" data-en="Two decades of Spanish pop-rock by the sea, from El Canto del Loco to now." data-es="Dos décadas de pop-rock español junto al mar, de El Canto del Loco a hoy.">Two decades of Spanish pop-rock by the sea, from El Canto del Loco to now.</p></div>
+  <div class="cside"><span class="pill price">from €56</span><a class="btn" href="https://marenostrumfuengirola.com/eventos/dani-martin-gira-25-pts-anos/" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (night 5)</h3>
+  <p class="why" data-en="Penultimate night of the Terral residency." data-es="Penúltima noche de la residencia del Terral.">Penultimate night of the Terral residency.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Marbella" data-free="1">
+  <div class="cmain"><div class="meta">evening · Marbella · Templete Parque Arroyo de la Represa</div><h3 class="act">Feria de San Bernabé: Los Piratas Flamencos + La Cruz del Mapa (Manuel Carrasco tribute)</h3>
+  <p class="why" data-en="Free flamenco-pop night at the feria." data-es="Noche gratis de flamenco-pop en la feria.">Free flamenco-pop night at the feria.</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://www.marbella.es/" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Sun 14 Jun" data-es="Dom 14 jun">Sun 14 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:30 · Málaga · FYCMA</div><h3 class="act">DJ Symphonic &amp; Royal Film Concert Orchestra</h3>
+  <p class="why" data-en="A symphony orchestra meets a DJ for a pop spin on Coldplay, Daft Punk and more." data-es="Una orquesta sinfónica y un DJ se unen para una versión pop de Coldplay, Daft Punk y más.">A symphony orchestra meets a DJ for a pop spin on Coldplay, Daft Punk and more.</p></div>
+  <div class="cside"><span class="pill price">from €35</span><a class="btn" href="https://www.taquilla.com/entradas/royal-film-concert-orchestra" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (final night)</h3>
+  <p class="why" data-en="The closing night of the six-show Terral residency." data-es="La última noche de la residencia de seis conciertos en el Terral.">The closing night of the six-show Terral residency.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Benalmádena (Arroyo de la Miel)" data-free="1">
+  <div class="cmain"><div class="meta">from ~11:00 · Benalmádena (Arroyo de la Miel) · Parque de la Paloma</div><h3 class="act">Romería de San Juan — Trenzao + Benalrock</h3>
+  <p class="why" data-en="Decorated floats, free paella and live sets from Trenzao + Benalrock." data-es="Carrozas, paella popular y directos de Trenzao y Benalrock.">Decorated floats, free paella and live sets from Trenzao + Benalrock.</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://www.benalmadena.es/agenda/A847/Romeria-de-San-Juan.html" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Marbella" data-free="1">
+  <div class="cmain"><div class="meta">evening · Marbella · Av. Ramón y Cajal</div><h3 class="act">Feria de San Bernabé: Noche del Rock Andaluz — Medina Azahara + Manzanita + Triana tribute (Juan de Lola)</h3>
+  <p class="why" data-en="The free flagship of the week, closing Marbella&#x27;s feria." data-es="El gran plan gratis de la semana, cierre de la feria de Marbella.">The free flagship of the week, closing Marbella&#x27;s feria.</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://www.marbella.es/" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Thu 18 Jun" data-es="Jue 18 jun">Thu 18 Jun</h2>
+<article class="card" data-city="Nerja" data-free="0">
+  <div class="cmain"><div class="meta">evening · Nerja · El Playazo beach</div><h3 class="act">Solaris Nerja — Opening Day (Les Castizos, Peppe Citarella, Manu BS, Rafa Nandez)</h3>
+  <p class="why" data-en="A brand-new beachfront festival opens with house on the sand." data-es="Un festival de playa nuevo abre con house en la arena.">A brand-new beachfront festival opens with house on the sand.</p></div>
+  <div class="cside"><span class="pill price">from €5</span><a class="btn" href="https://www.ticketmaster.es/artist/solaris-nerja-tickets/1489833" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Nerja" data-free="1">
+  <div class="cmain"><div class="meta">daily to 28 Jun · Nerja · El Playazo (free zone)</div><h3 class="act">Solaris Village</h3>
+  <p class="why" data-en="Market, gastro, digital-art garden and a 40m Ferris wheel — free to wander." data-es="Mercado, gastro, jardín de arte digital y noria de 40 m, de entrada libre.">Market, gastro, digital-art garden and a 40m Ferris wheel — free to wander.</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://www.solarisnerja.com/" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Fri 19 Jun" data-es="Vie 19 jun">Fri 19 Jun</h2>
+<article class="card" data-city="Fuengirola" data-free="0">
+  <div class="cmain"><div class="meta">21:30 (doors 19:30) · Fuengirola · Marenostrum Fuengirola</div><h3 class="act">Aitana — &#x27;Cuarto Azul&#x27; tour</h3>
+  <p class="why" data-en="Spain&#x27;s biggest current pop star, seafront stage." data-es="La mayor estrella del pop español del momento, escenario junto al mar.">Spain&#x27;s biggest current pop star, seafront stage.</p></div>
+  <div class="cside"><span class="pill price">Check link</span><a class="btn" href="https://marenostrumfuengirola.com/eventos/aitana/" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Marbella" data-free="0">
+  <div class="cmain"><div class="meta">22:00 (doors 20:00) · Marbella · Starlite Occident (Auditorio, La Cantera de Nagüeles)</div><h3 class="act">Ozuna</h3>
+  <p class="why" data-en="Reggaeton superstar in the intimate quarry amphitheatre." data-es="El superastro del reguetón en el íntimo anfiteatro de la cantera.">Reggaeton superstar in the intimate quarry amphitheatre.</p></div>
+  <div class="cside"><span class="pill price">Check link</span><a class="btn" href="https://entradas.starlitemarbella.com/event/ozuna-bxeywp" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Nerja" data-free="0">
+  <div class="cmain"><div class="meta">evening · Nerja · Solaris Nerja (El Playazo)</div><h3 class="act">Chambao — 25th Anniversary (with Rosario La Tremendita)</h3>
+  <p class="why" data-en="Flamenco-chill icons celebrate 25 years by the sea." data-es="Los iconos del flamenco-chill celebran 25 años junto al mar.">Flamenco-chill icons celebrate 25 years by the sea.</p></div>
+  <div class="cside"><span class="pill price">Check link</span><a class="btn" href="https://www.ticketmaster.es/artist/solaris-nerja-tickets/1489833" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Marbella (Benahavís)" data-free="0">
+  <div class="cmain"><div class="meta">21:30 · Marbella (Benahavís) · Anantara Villa Padierna (Candlelight Open Air)</div><h3 class="act">Candlelight Open Air: Vivaldi&#x27;s Four Seasons</h3>
+  <p class="why" data-en="Vivaldi under the stars at a five-star resort amphitheatre." data-es="Vivaldi bajo las estrellas en el anfiteatro de un resort de cinco estrellas.">Vivaldi under the stars at a five-star resort amphitheatre.</p></div>
+  <div class="cside"><span class="pill price">~€20–45</span><a class="btn" href="https://feverup.com/m/116829" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Sat 20 Jun" data-es="Sáb 20 jun">Sat 20 Jun</h2>
+<article class="card" data-city="Marbella (Puerto Banús)" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Marbella (Puerto Banús) · Marbella Arena</div><h3 class="act">Kaiser Chiefs — Live (20th Anniversary)</h3>
+  <p class="why" data-en="British indie-rock anthems — &#x27;Employment&#x27; in full — on the coast." data-es="Himnos del indie-rock británico — &#x27;Employment&#x27; al completo — en la costa.">British indie-rock anthems — &#x27;Employment&#x27; in full — on the coast.</p></div>
+  <div class="cside"><span class="pill price">from €56</span><a class="btn" href="https://www.ticketmaster.es/event/kaiser-chiefs-entradas/656607871" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Nerja" data-free="0">
+  <div class="cmain"><div class="meta">evening · Nerja · Solaris Nerja (El Playazo)</div><h3 class="act">Bresh Nerja</h3>
+  <p class="why" data-en="The viral Latin-pop party lands on the beach." data-es="La fiesta viral de pop latino aterriza en la playa.">The viral Latin-pop party lands on the beach.</p></div>
+  <div class="cside"><span class="pill price">Check link</span><a class="btn" href="https://www.ticketmaster.es/artist/solaris-nerja-tickets/1489833" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">~20:00 · Málaga · Sala Fundación Unicaja Mª Cristina</div><h3 class="act">Candlelight: Ed Sheeran vs. Coldplay</h3>
+  <p class="why" data-en="Stadium pop reimagined for a candlelit string quartet." data-es="Pop de estadio reinventado por un cuarteto de cuerda a la luz de las velas.">Stadium pop reimagined for a candlelit string quartet.</p></div>
+  <div class="cside"><span class="pill price">from €18.50</span><a class="btn" href="https://feverup.com/m/519652" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">late · Málaga · Sala Fundación Unicaja Mª Cristina</div><h3 class="act">Candlelight: ABBA Tribute &amp; More</h3>
+  <p class="why" data-en="ABBA&#x27;s catalogue by candlelight to close the night." data-es="El cancionero de ABBA a la luz de las velas para cerrar la noche.">ABBA&#x27;s catalogue by candlelight to close the night.</p></div>
+  <div class="cside"><span class="pill price">from €14</span><a class="btn" href="https://feverup.com/m/555765" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">18:00–22:00 · Málaga · Sala París 15</div><h3 class="act">Oscar El Ruso — &#x27;Mixtape Live&#x27;</h3>
+  <p class="why" data-en="Local urban-pop hero brings his viral hits home." data-es="El héroe local del pop urbano trae sus éxitos virales a casa.">Local urban-pop hero brings his viral hits home.</p></div>
+  <div class="cside"><span class="pill price">€15–40</span><a class="btn" href="https://paris15.es/event/oscar-el-ruso/" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<h2 class="day" data-en="Sun 21 Jun" data-es="Dom 21 jun">Sun 21 Jun</h2>
+<article class="card" data-city="Málaga" data-free="0">
+  <div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">Santiago Auserón — &#x27;La Academia Nocturna&#x27;</h3>
+  <p class="why" data-en="Radio Futura &amp; Juan Perro reborn live as Terral rolls on." data-es="Radio Futura y Juan Perro renacen en directo dentro del Terral.">Radio Futura &amp; Juan Perro reborn live as Terral rolls on.</p></div>
+  <div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card" data-city="Nerja" data-free="0">
+  <div class="cmain"><div class="meta">evening · Nerja · El Playazo</div><h3 class="act">Solaris Nerja — &#x27;Oh, See! Nerja&#x27; indie day (Ginebras, Shego, Puño Dragón + more)</h3>
+  <p class="why" data-en="The buzziest new Spanish pop on the sand." data-es="Lo más sonado del nuevo pop español en la arena.">The buzziest new Spanish pop on the sand.</p></div>
+  <div class="cside"><span class="pill price">Check link</span><a class="btn" href="https://www.ticketmaster.es/artist/solaris-nerja-tickets/1489833" target="_blank" rel="sponsored noopener"><span data-en="Tickets" data-es="Entradas">Tickets</span> &rarr;</a></div></article>
+<article class="card isfree" data-city="Torremolinos" data-free="1">
+  <div class="cmain"><div class="meta">19:00 · Torremolinos · Calle Hoyo → Plaza San Miguel</div><h3 class="act">Festival Tropical Costa del Sol (Scandinavian band parade)</h3>
+  <p class="why" data-en="A free street parade of 300+ Scandinavian band musicians through the old town." data-es="Pasacalles gratuito con más de 300 músicos de bandas escandinavas por el casco antiguo.">A free street parade of 300+ Scandinavian band musicians through the old town.</p></div>
+  <div class="cside"><span class="pill free"><span data-en="FREE" data-es="GRATIS">FREE</span></span><a class="btn" href="https://torremolinoscultura.es/eventos/detail/festival-tropical-costa-del-sol-lyil" target="_blank" rel="sponsored noopener"><span data-en="Free info" data-es="Info gratis">Free info</span> &rarr;</a></div></article>
+  <footer>
+    <p data-en="Auto-published from the Málaga Live weekly calendar. Ticket links go to official/partner sources. Always confirm date, time and price on the ticket page before buying." data-es="Publicado automáticamente desde la agenda semanal de Málaga Live. Los enlaces llevan a webs oficiales o asociadas. Confirma siempre fecha, hora y precio en la página de entradas antes de comprar.">Auto-published from the Málaga Live weekly calendar. Ticket links go to official/partner sources. Always confirm date, time and price on the ticket page before buying.</p>
+    <p>© 2026 Málaga Live</p>
+  </footer>
+</div>
+<script>
+let lang='en';
+function apply(){
+  document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=el.getAttribute('data-'+lang);});
+  document.getElementById('en').classList.toggle('on',lang==='en');
+  document.getElementById('es').classList.toggle('on',lang==='es');
+  document.documentElement.lang=lang; filter();
+}
+function filter(){
+  const free=document.getElementById('freeonly').checked, city=document.getElementById('cityf').value;
+  document.querySelectorAll('.card').forEach(c=>{
+    c.style.display=((!free||c.dataset.free==='1')&&(!city||c.dataset.city===city))?'':'none';});
+  document.querySelectorAll('h2.day').forEach(h=>{
+    let any=false,nx=h.nextElementSibling;
+    while(nx&&nx.classList.contains('card')){if(nx.style.display!=='none')any=true;nx=nx.nextElementSibling;}
+    h.style.display=any?'':'none';});
+}
+document.getElementById('en').onclick=()=>{lang='en';apply();};
+document.getElementById('es').onclick=()=>{lang='es';apply();};
+document.getElementById('freeonly').onchange=filter;
+document.getElementById('cityf').onchange=filter;
+</script>
+</body>
+</html>

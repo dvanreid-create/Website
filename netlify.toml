@@ -1,0 +1,4 @@
+# Netlify config — static site, files served from the repo root.
+[build]
+  publish = "."
+  command = ""
