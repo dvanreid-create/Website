@@ -45,6 +45,16 @@
   .pill.price{background:#eaf1f7;color:var(--sea);} .pill.free{background:#e6f3d8;color:#3b6d11;}
   .btn{font-size:13px;font-weight:600;text-decoration:none;color:#fff;background:var(--coral);padding:7px 13px;border-radius:8px;white-space:nowrap;}
   .btn:hover{background:#cf551f;}
+  .signup{background:#fff;border:1px solid var(--line);border-left:4px solid var(--coral);border-radius:12px;padding:18px 20px;margin:14px 0 4px;}
+  .su-head{font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.4px;color:var(--navy);margin-bottom:10px;}
+  .su-form{margin:0;}
+  .su-row{display:flex;gap:8px;flex-wrap:wrap;}
+  .su-row input{flex:1;min-width:200px;font-size:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--navy);}
+  .su-row button{font-size:14px;font-weight:600;color:#fff;background:var(--coral);border:0;border-radius:8px;padding:10px 18px;cursor:pointer;}
+  .su-row button:hover{background:#cf551f;}
+  .su-note{font-size:11.5px;color:var(--muted);margin-top:8px;}
+  .su-ok{font-size:14px;font-weight:600;color:#3b6d11;margin-top:8px;}
+  .su-frame{display:none;}
   footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);}
   .langpick{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0;}
   .langpick a{text-decoration:none;color:var(--sea);border:1px solid var(--line);border-radius:10px;padding:12px 18px;font-weight:600;font-size:15px;background:#fff;}
@@ -64,6 +74,7 @@
 <option value="Málaga">Málaga</option>
 <option value="Nerja">Nerja</option>
 <option value="Torremolinos">Torremolinos</option></select><select id="langsel" aria-label="Language"><option value="en">English</option><option value="es">Español</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="sv">Svenska</option><option value="no">Norsk</option><option value="da" selected>Dansk</option><option value="fi">Suomi</option></select></div></div>
+<section class="signup"><div class="su-head">Ugens koncerter i din indbakke</div><form class="su-form" action="https://assets.mailerlite.com/jsonp/2414137/forms/189622312207648604/subscribe" method="post" target="ml_da" onsubmit="return mlThanks('da')"><div class="su-row" id="row_da"><input type="email" name="fields[email]" required placeholder="Din e-mail" aria-label="Din e-mail"><button type="submit">Tilmeld</button></div><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><div class="su-note">Gratis ugentligt nyhedsbrev. Afmeld når som helst.</div><div class="su-ok" id="ok_da" hidden>Tak! Tjek din indbakke for at bekræfte tilmeldingen.</div></form><iframe name="ml_da" class="su-frame" title="signup"></iframe></section>
 <h2 class="day">man 8 jun</h2>
 <article class="card" data-city="Málaga" data-free="0"><div class="cmain"><div class="meta">20:00 · Málaga · Teatro Cervantes</div><h3 class="act">El Kanka — &#x27;La calma&#x27; (Terral, night 1)</h3><p class="why">Málagas mest elskede sangskriver åbner en seks aftener lang Terral-residens.</p></div><div class="cside"><span class="pill price">~€20–35</span><a class="btn" href="https://www.teatrocervantes.com/es/genero/musica/terral-2026" target="_blank" rel="sponsored noopener">Billetter &rarr;</a></div></article>
 <h2 class="day">tir 9 jun</h2>
@@ -104,6 +115,7 @@
 <footer><p>Udgives automatisk fra Málaga Lives ugekalender. Billetlinks fører til officielle kilder/partnere. Tjek altid dato, tid og pris før køb.</p><p>© 2026 Málaga Live</p></footer>
 </div>
 <script>
+function mlThanks(id){setTimeout(function(){var r=document.getElementById('row_'+id);var k=document.getElementById('ok_'+id);if(r)r.style.display='none';if(k)k.hidden=false;},250);return true;}
 function filter(){
   var free=document.getElementById('freeonly').checked, city=document.getElementById('cityf').value;
   document.querySelectorAll('.card').forEach(function(c){c.style.display=((!free||c.dataset.free==='1')&&(!city||c.dataset.city===city))?'':'none';});
