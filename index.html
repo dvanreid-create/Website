@@ -72,6 +72,30 @@
   .wa-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:20;box-shadow:0 3px 10px rgba(0,0,0,.18);text-decoration:none;}
   .wa-btn svg{width:32px;height:32px;fill:#fff;}
   .wa-btn:hover{background:#1ebe57;}
+  /* Málaga Live TV — 16:9 feature, rotates through upcoming acts; click-to-play (no autoload) */
+  .mltv{background:var(--navy);border-radius:14px;padding:16px 16px 14px;margin:14px 0 6px;}
+  .mltv-head{display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
+  .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:left;margin:0 0 3px;}
+  .mltv-inner{max-width:520px;margin:14px auto 0;}
+  .mltv-logo{font-family:'Anton',sans-serif;line-height:.9;display:inline-flex;align-items:flex-start;position:relative;white-space:nowrap;font-size:38px;}
+  .mltv-logo .mlg-m{color:#fff;}
+  .mltv-logo .mlg-l{color:#E8662A;position:relative;}
+  .mltv-logo .mlg-tv{position:absolute;font-size:.35em;right:-1.19em;bottom:-.76em;color:#fff;letter-spacing:.05em;line-height:1;transform:rotate(38deg);transform-origin:top left;}
+  .mltv-dot{width:9px;height:9px;border-radius:50%;background:#E8662A;animation:mlpulse 1.8s infinite;margin-top:13px;}
+  @keyframes mlpulse{0%{box-shadow:0 0 0 0 rgba(232,102,42,.55)}70%{box-shadow:0 0 0 9px rgba(232,102,42,0)}100%{box-shadow:0 0 0 0 rgba(232,102,42,0)}}
+  .mltv-stage{position:relative;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0a2230;margin:6px 0 0;}
+  .mltv-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .mltv-face{position:absolute;inset:0;width:100%;height:100%;border:0;cursor:pointer;background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:0;}
+  .mltv-face::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,34,48,.82),rgba(10,34,48,0) 55%);}
+  .mltv-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:rgba(232,102,42,.92);}
+  .mltv-play::after{content:"";position:absolute;top:50%;left:54%;transform:translate(-50%,-50%);border-style:solid;border-width:13px 0 13px 22px;border-color:transparent transparent transparent #fff;}
+  .mltv-cap{position:relative;z-index:1;display:flex;flex-direction:column;gap:2px;padding:14px 16px;text-align:left;}
+  .mltv-cap b{font-family:'Anton',sans-serif;font-weight:400;font-size:22px;letter-spacing:.5px;color:#fff;line-height:1.05;}
+  .mltv-cap i{font-style:normal;font-size:12.5px;font-weight:500;color:#e8eef2;}
+  .mltv-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px;}
+  .mltv-chip{font-family:inherit;font-size:12px;font-weight:600;color:#cfe0ea;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:6px 12px;cursor:pointer;}
+  .mltv-chip:hover{background:rgba(255,255,255,.16);color:#fff;}
+  .mltv-chip[aria-current="true"]{background:var(--amber);border-color:var(--amber);color:#412402;}
 </style>
 <script async src="https://plausible.io/js/pa-a1RWZGBDMSY9yqJRx6dC2.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
