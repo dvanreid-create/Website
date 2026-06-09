@@ -56,6 +56,16 @@
   .langpick a{text-decoration:none;color:var(--sea);border:1px solid var(--line);border-radius:10px;padding:12px 18px;font-weight:600;font-size:15px;background:#fff;}
   .langpick a:hover{border-color:var(--sea);}
   @media(max-width:560px){.card{flex-direction:column;}.cside{flex-direction:row;align-items:center;}.wm{font-size:30px;}}
+  /* Gutter ad squares — desktop only, shown when the viewport is wide enough to clear the 840px column */
+  .ad-rail{position:fixed;top:150px;width:250px;z-index:5;display:none;}
+  .ad-rail.left{left:calc((100vw - 840px) / 2 - 274px);}
+  .ad-rail.right{right:calc((100vw - 840px) / 2 - 274px);}
+  .ad-slot{display:flex;align-items:center;justify-content:center;width:250px;height:250px;border-radius:10px;overflow:hidden;text-decoration:none;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(20,58,78,.06);}
+  .ad-slot img{max-width:100%;max-height:100%;object-fit:contain;padding:18px;}
+  .ad-slot.house{flex-direction:column;gap:7px;text-align:center;padding:18px;border:2px dashed var(--coral);background:#FAECE7;box-shadow:none;}
+  .ad-slot.house .ah-txt{font-size:14px;font-weight:600;color:#993C1D;}
+  .ad-slot.house .ah-cta{font-size:11.5px;font-weight:600;color:#993C1D;opacity:.85;}
+  @media(min-width:1400px){.ad-rail{display:block;}}
 </style>
 </head>
 <body>

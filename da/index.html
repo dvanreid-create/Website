@@ -60,10 +60,21 @@
   .langpick a{text-decoration:none;color:var(--sea);border:1px solid var(--line);border-radius:10px;padding:12px 18px;font-weight:600;font-size:15px;background:#fff;}
   .langpick a:hover{border-color:var(--sea);}
   @media(max-width:560px){.card{flex-direction:column;}.cside{flex-direction:row;align-items:center;}.wm{font-size:30px;}}
+  /* Gutter ad squares — desktop only, shown when the viewport is wide enough to clear the 840px column */
+  .ad-rail{position:fixed;top:150px;width:250px;z-index:5;display:none;}
+  .ad-rail.left{left:calc((100vw - 840px) / 2 - 274px);}
+  .ad-rail.right{right:calc((100vw - 840px) / 2 - 274px);}
+  .ad-slot{display:flex;align-items:center;justify-content:center;width:250px;height:250px;border-radius:10px;overflow:hidden;text-decoration:none;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(20,58,78,.06);}
+  .ad-slot img{max-width:100%;max-height:100%;object-fit:contain;padding:18px;}
+  .ad-slot.house{flex-direction:column;gap:7px;text-align:center;padding:18px;border:2px dashed var(--coral);background:#FAECE7;box-shadow:none;}
+  .ad-slot.house .ah-txt{font-size:14px;font-weight:600;color:#993C1D;}
+  .ad-slot.house .ah-cta{font-size:11.5px;font-weight:600;color:#993C1D;opacity:.85;}
+  @media(min-width:1400px){.ad-rail{display:block;}}
 </style>
 </head>
 <body>
 <header class="site"><div class="head-in"><span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><div class="tagline">Pulsen i koncerter &amp; festivaler · Málaga by &amp; Costa del Sol</div></div></header>
+<aside class="ad-rail left" aria-hidden="true"><a class="ad-slot house" id="adL" href="mailto:sofia@malagalivepulse.com?subject=Anuncio%20en%20Malaga%20Live"><span class="ah-txt">Dit brand her</span><span class="ah-cta">Annoncér hos os &rarr;</span></a></aside><aside class="ad-rail right" aria-hidden="true"><a class="ad-slot house" id="adR" href="mailto:sofia@malagalivepulse.com?subject=Anuncio%20en%20Malaga%20Live"><span class="ah-txt">Dit brand her</span><span class="ah-cta">Annoncér hos os &rarr;</span></a></aside>
 <div class="wrap">
 <div class="subbar"><span class="count">27 BEGIVENHEDER · 8–21 JUN 2026</span><div class="controls"><label class="chk"><input type="checkbox" id="freeonly"> Kun gratis</label><select id="cityf"><option value="">Alle områder</option>
 <option value="Benalmádena (Arroyo de la Miel)">Benalmádena (Arroyo de la Miel)</option>
@@ -125,6 +136,16 @@ function filter(){
 document.getElementById('freeonly').onchange=filter;
 document.getElementById('cityf').onchange=filter;
 document.getElementById('langsel').onchange=function(){location.href='/'+this.value+'/';};
+
+(function(){var LANG='da';
+var slots=['adL','adR'].map(function(id){return document.getElementById(id);}).filter(Boolean);
+if(!slots.length)return;
+function fill(s,sp){s.className='ad-slot';s.href=sp.url;s.target='_blank';s.rel='sponsored noopener';s.setAttribute('aria-label',sp.name||'');s.innerHTML='<img src="'+sp.logo+'" alt="'+(sp.name||'')+'">';}
+fetch('/sponsors.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
+if(!d)return;var list=(d.sponsors||[]).filter(function(sp){return sp&&sp.logo&&sp.url&&(!sp.langs||sp.langs.indexOf(LANG)>=0);});
+if(!list.length)return;var i=0;slots.forEach(function(s){fill(s,list[i%list.length]);i++;});
+if(list.length>slots.length){var idx=i;setInterval(function(){slots.forEach(function(s){fill(s,list[idx%list.length]);idx++;});},30000);}
+}).catch(function(){});})();
 </script>
 </body>
 </html>
