@@ -1,5 +1,28 @@
 {
   "sponsors": [
-    {"name": "Marcas España", "logo": "/assets/sponsors/marcas-espana.png", "url": "https://pancracio.com/"}
+    {
+      "name": "Fever",
+      "text": "Fever",
+      "sub": "Experiences in Málaga →",
+      "url": "https://feverup.com/malaga"
+    },
+    {
+      "name": "Tiqets",
+      "text": "Tiqets",
+      "sub": "Attractions and tickets →",
+      "url": "https://www.tiqets.com/en/malaga-attractions-c32/"
+    },
+    {
+      "name": "Civitatis",
+      "text": "Civitatis",
+      "sub": "Tours and day trips →",
+      "url": "https://www.civitatis.com/en/malaga/"
+    },
+    {
+      "name": "Ticketmaster ES",
+      "text": "Ticketmaster",
+      "sub": "Concert tickets →",
+      "url": "https://www.ticketmaster.es/"
+    }
   ]
 }
