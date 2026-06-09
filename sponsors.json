@@ -1,3 +1,5 @@
 {
-  "sponsors": []
+  "sponsors": [
+    {"name": "Marcas España", "logo": "/assets/sponsors/marcas-espana.png", "url": "https://pancracio.com/"}
+  ]
 }
