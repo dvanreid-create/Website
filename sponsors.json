@@ -1,6 +1,11 @@
 {
   "sponsors": [
     {
+      "name": "ZZ Pub",
+      "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
+      "url": "https://zzpub.es/"
+    },
+    {
       "name": "Fever",
       "text": "Fever",
       "sub": "Experiences in Málaga →",
