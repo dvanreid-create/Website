@@ -76,12 +76,15 @@
   .wa-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:20;box-shadow:0 3px 10px rgba(0,0,0,.18);text-decoration:none;}
   .wa-btn svg{width:32px;height:32px;fill:#fff;}
   .wa-btn:hover{background:#1ebe57;}
+  .mute-btn{margin-left:auto;background:none;border:0;cursor:pointer;color:var(--sea);padding:6px;display:inline-flex;align-items:center;border-radius:8px;}
+  .mute-btn:hover{background:#eef3f6;}
+  .badge{cursor:pointer;}
 </style>
 <script async src="https://plausible.io/js/pa-a1RWZGBDMSY9yqJRx6dC2.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
 </head>
 <body>
-<header class="site"><div class="head-in"><span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><div class="tagline">Pulsen i koncerter &amp; festivaler · Málaga by &amp; Costa del Sol</div></div></header>
+<header class="site"><div class="head-in"><span class="badge" id="brandBadge" role="button" tabindex="0" title="Play Málaga Live"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><button class="mute-btn" id="muteBtn" type="button" aria-label="Mute brand sound"></button><div class="tagline">Pulsen i koncerter &amp; festivaler · Málaga by &amp; Costa del Sol</div></div></header>
 <aside class="ad-rail left" aria-hidden="true"><a class="ad-slot house" id="adL" href="mailto:sofia@malagalivepulse.com?subject=Anuncio%20en%20Malaga%20Live"><span class="ah-txt">Dit brand her</span><span class="ah-cta">Annoncér hos os &rarr;</span></a></aside><aside class="ad-rail right" aria-hidden="true"><a class="ad-slot house" id="adR" href="mailto:sofia@malagalivepulse.com?subject=Anuncio%20en%20Malaga%20Live"><span class="ah-txt">Dit brand her</span><span class="ah-cta">Annoncér hos os &rarr;</span></a></aside>
 <div class="wrap">
 <div class="subbar"><span class="count">49 BEGIVENHEDER · 8–30 JUN 2026</span><div class="controls"><label class="chk"><input type="checkbox" id="freeonly"> Kun gratis</label><select id="cityf"><option value="">Alle områder</option>
@@ -189,6 +192,21 @@ if(!d)return;var list=(d.sponsors||[]).filter(function(sp){return sp&&(sp.logo||
 if(!list.length)return;var i=0;slots.forEach(function(s){fill(s,list[i%list.length]);i++;});
 if(list.length>slots.length){var idx=i;setInterval(function(){slots.forEach(function(s){fill(s,list[idx%list.length]);idx++;});},5000);}
 }).catch(function(){});})();
+
+(function(){
+var ON='<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 010 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+var OFF='<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+var KEY='mlBrandMuted', muted=false; try{muted=localStorage.getItem(KEY)==='1';}catch(e){}
+var audio=new Audio('/assets/malaga-live-pingvoice.mp3'); audio.preload='auto';
+var btn=document.getElementById('muteBtn'), badge=document.getElementById('brandBadge');
+function icon(){ if(!btn)return; btn.innerHTML=muted?OFF:ON; btn.setAttribute('aria-label',muted?'Unmute brand sound':'Mute brand sound'); }
+function play(){ if(muted)return; try{audio.currentTime=0; var p=audio.play(); if(p&&p.catch)p.catch(function(){});}catch(e){} }
+icon();
+if(btn)btn.addEventListener('click',function(e){e.preventDefault(); muted=!muted; try{localStorage.setItem(KEY,muted?'1':'0');}catch(e){} icon(); if(!muted)play();});
+if(badge)badge.addEventListener('click',play);
+if(badge)badge.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();play();}});
+if(!muted){var pr=audio.play(); if(pr&&pr.catch)pr.catch(function(){var evs=['pointerdown','keydown','scroll','touchstart'],h=function(){play();evs.forEach(function(ev){window.removeEventListener(ev,h);});};evs.forEach(function(ev){window.addEventListener(ev,h,{passive:true});});});}
+})();
 </script>
 <a class="wa-btn" href="https://wa.me/34652977696" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 4C9.93 4 4.98 8.95 4.98 15.06c0 2.05.56 4.04 1.62 5.79L4 28l7.32-2.55c1.66.91 3.53 1.39 5.43 1.39h.01c6.11 0 11.06-4.95 11.06-11.06C27.11 8.95 22.15 4 16.04 4zm0 20.2c-1.62 0-3.2-.44-4.58-1.26l-.33-.2-3.4 1.18 1.16-3.31-.21-.34a9.13 9.13 0 0 1-1.4-4.85c0-5.06 4.12-9.18 9.19-9.18 2.45 0 4.76.96 6.49 2.7a9.13 9.13 0 0 1 2.69 6.49c0 5.06-4.12 9.17-9.19 9.17zm5.04-6.87c-.28-.14-1.63-.8-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.59.07-.28-.14-1.17-.43-2.22-1.37-.82-.73-1.37-1.63-1.53-1.91-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.47-.84-2.01-.22-.53-.44-.46-.61-.46l-.52-.01c-.18 0-.46.07-.7.35-.25.28-.93.91-.93 2.22 0 1.31.96 2.58 1.09 2.76.14.18 1.88 2.87 4.55 4.02.64.27 1.13.44 1.52.56.64.2 1.22.17 1.68.1.51-.08 1.63-.67 1.86-1.31.23-.64.23-1.19.16-1.31-.07-.11-.25-.18-.53-.32z"/></svg></a>
 </body>

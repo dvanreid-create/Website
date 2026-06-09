@@ -72,12 +72,15 @@
   .wa-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:20;box-shadow:0 3px 10px rgba(0,0,0,.18);text-decoration:none;}
   .wa-btn svg{width:32px;height:32px;fill:#fff;}
   .wa-btn:hover{background:#1ebe57;}
+  .mute-btn{margin-left:auto;background:none;border:0;cursor:pointer;color:var(--sea);padding:6px;display:inline-flex;align-items:center;border-radius:8px;}
+  .mute-btn:hover{background:#eef3f6;}
+  .badge{cursor:pointer;}
 </style>
 <script async src="https://plausible.io/js/pa-a1RWZGBDMSY9yqJRx6dC2.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
 </head>
 <body>
-<header class="site"><div class="head-in"><span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><div class="tagline">The pulse of concerts &amp; festivals · Málaga city &amp; Costa del Sol</div></div></header>
+<header class="site"><div class="head-in"><span class="badge" id="brandBadge" role="button" tabindex="0" title="Play Málaga Live"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><button class="mute-btn" id="muteBtn" type="button" aria-label="Mute brand sound"></button><div class="tagline">The pulse of concerts &amp; festivals · Málaga city &amp; Costa del Sol</div></div></header>
 <div class="wrap"><p style="margin-top:28px;font-size:15px;color:var(--muted);">Choose your language · Elige tu idioma</p><nav class="langpick">
 <a href="/en/" hreflang="en">English</a>
 <a href="/es/" hreflang="es">Español</a>
