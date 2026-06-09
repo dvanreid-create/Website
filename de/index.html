@@ -147,7 +147,7 @@ function fill(s,sp){s.className='ad-slot'+(sp.logo?'':' text');if(sp.url){s.href
 fetch('/sponsors.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
 if(!d)return;var list=(d.sponsors||[]).filter(function(sp){return sp&&(sp.logo||sp.text)&&(!sp.langs||sp.langs.indexOf(LANG)>=0);});
 if(!list.length)return;var i=0;slots.forEach(function(s){fill(s,list[i%list.length]);i++;});
-if(list.length>slots.length){var idx=i;setInterval(function(){slots.forEach(function(s){fill(s,list[idx%list.length]);idx++;});},30000);}
+if(list.length>slots.length){var idx=i;setInterval(function(){slots.forEach(function(s){fill(s,list[idx%list.length]);idx++;});},7000);}
 }).catch(function(){});})();
 </script>
 </body>
