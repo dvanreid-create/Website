@@ -116,13 +116,16 @@
   .fchip:hover{border-color:var(--sea);}
   .fchip[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:#fff;}
   .nores{display:none;font-size:14px;color:var(--muted);padding:22px 2px;}
+  @keyframes mlbeat{0%,40%,100%{transform:scale(1);}12%{transform:scale(1.11);}26%{transform:scale(1.03);}}
+  .tagline .pulse{display:inline-block;transform-origin:center;animation:mlbeat .85s ease-in-out infinite;will-change:transform;}
+  @media (prefers-reduced-motion:reduce){.tagline .pulse{animation:none;}}
 </style>
 <script async src="https://plausible.io/js/pa-a1RWZGBDMSY9yqJRx6dC2.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://malagalivepulse.com/#org", "name": "Málaga Live", "url": "https://malagalivepulse.com/", "logo": "https://malagalivepulse.com/assets/og-default.png", "sameAs": ["https://www.instagram.com/malagalivepulse", "https://www.tiktok.com/@malagalivepulse", "https://www.youtube.com/@malagalivepulse", "https://www.facebook.com/profile.php?id=61590804445209"]}, {"@type": "WebSite", "@id": "https://malagalivepulse.com/#website", "name": "Málaga Live", "url": "https://malagalivepulse.com/", "inLanguage": "en", "publisher": {"@id": "https://malagalivepulse.com/#org"}}]}</script>
 </head>
 <body>
-<header class="site"><div class="head-in"><span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><div class="tagline">The pulse of live music · Málaga city &amp; Costa del Sol</div></div></header>
+<header class="site"><div class="head-in"><span class="badge"><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M2 2 L20 13 L2 24 Z" fill="#E8662A"/></svg></span><span class="wm"><span style="color:#0B5E8A;">MÁLAGA</span><span style="color:#E8662A;"> LIVE</span></span><div class="tagline">The <span class="pulse">pulse</span> of live music · Málaga city &amp; Costa del Sol</div></div></header>
 <div class="wrap"><p style="margin-top:28px;font-size:15px;color:var(--muted);">Choose your language · Elige tu idioma</p><nav class="langpick">
 <a href="/en/" hreflang="en">English</a>
 <a href="/es/" hreflang="es">Español</a>
