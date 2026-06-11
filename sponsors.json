@@ -3,7 +3,7 @@
   {
    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tom_Jones_concert.jpg",
    "tint": "rgba(8,10,16,.28)",
-   "pos": "50% 14%",
+   "pos": "50% 8%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -15,6 +15,7 @@
     "fi": "Huipputapahtuma"
    },
    "head": "Tom Jones",
+   "headBottom": true,
    "sub": {
     "en": "Sat 1 Aug · Málaga Forum · Moonlight",
     "es": "Sáb 1 ago · Málaga Forum · Moonlight",
