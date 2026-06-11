@@ -1,5 +1,5 @@
 {
- "sponsors": [
+ "ads": [
   {
    "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(232,102,42,.42)",
@@ -82,68 +82,6 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/20304083/pexels-photo-20304083.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(13,90,138,.42)",
-   "tag": {
-    "en": "Did you know?",
-    "es": "¿Sabías que…?",
-    "de": "Wusstest du schon?",
-    "fr": "Le saviez-vous ?",
-    "sv": "Visste du?",
-    "no": "Visste du?",
-    "da": "Vidste du?",
-    "fi": "Tiesitkö?"
-   },
-   "foot": {
-    "en": "♪ malagalivepulse.com"
-   },
-   "body": {
-    "en": "Starlite Marbella is staged inside a former marble quarry.",
-    "es": "Starlite Marbella se celebra en una antigua cantera de mármol.",
-    "de": "Starlite Marbella findet in einem ehemaligen Marmorsteinbruch statt.",
-    "fr": "Le Starlite Marbella se tient dans une ancienne carrière de marbre.",
-    "sv": "Starlite Marbella hålls i ett gammalt marmorbrott.",
-    "no": "Starlite Marbella holdes i et gammelt marmorbrudd.",
-    "da": "Starlite Marbella afholdes i et gammelt marmorbrud.",
-    "fi": "Starlite Marbella järjestetään vanhassa marmorilouhoksessa."
-   }
-  },
-  {
-   "photo": "https://images.unsplash.com/photo-1758550445758-165aeab5b26e?w=800&q=70&auto=format&fit=crop",
-   "tint": "rgba(19,122,139,.42)",
-   "tag": {
-    "en": "Learn a music word",
-    "es": "Aprende una palabra",
-    "de": "Lern ein Musikwort",
-    "fr": "Un mot de musique",
-    "sv": "Lär dig ett ord",
-    "no": "Lær et ord",
-    "da": "Lær et ord",
-    "fi": "Opi sana"
-   },
-   "head": "¡Otra!",
-   "foot": {
-    "en": "Learn a music word",
-    "es": "Aprende una palabra",
-    "de": "Lern ein Musikwort",
-    "fr": "Un mot de musique",
-    "sv": "Lär dig ett ord",
-    "no": "Lær et ord",
-    "da": "Lær et ord",
-    "fi": "Opi sana"
-   },
-   "sub": {
-    "en": "= Encore",
-    "es": "= ¡Otra canción!",
-    "de": "= Zugabe",
-    "fr": "= Un rappel",
-    "sv": "= Extranummer",
-    "no": "= Ekstranummer",
-    "da": "= Ekstranummer",
-    "fi": "= Encore"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(11,94,138,.5)",
    "center": true,
@@ -168,33 +106,6 @@
     "no": "Málaga · Costa del Sol · 8 språk",
     "da": "Málaga · Costa del Sol · 8 sprog",
     "fi": "Málaga · Costa del Sol · 8 kieltä"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/3727163/pexels-photo-3727163.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(224,138,30,.4)",
-   "tag": {
-    "en": "Know before you go",
-    "es": "Antes de ir",
-    "de": "Gut zu wissen",
-    "fr": "Bon à savoir",
-    "sv": "Bra att veta",
-    "no": "Greit å vite",
-    "da": "Godt at vide",
-    "fi": "Hyvä tietää"
-   },
-   "foot": {
-    "en": "♪ malagalivepulse.com"
-   },
-   "body": {
-    "en": "Spanish concerts start late — 9–10pm is normal.",
-    "es": "Los conciertos empiezan tarde: las 21–22 h es lo normal.",
-    "de": "Spanische Konzerte beginnen spät — 21–22 Uhr ist normal.",
-    "fr": "Les concerts commencent tard — 21h–22h, c'est normal.",
-    "sv": "Spanska konserter börjar sent — 21–22 är normalt.",
-    "no": "Spanske konserter starter sent — 21–22 er normalt.",
-    "da": "Spanske koncerter starter sent — 21–22 er normalt.",
-    "fi": "Konsertit alkavat myöhään — klo 21–22 on tavallista."
    }
   },
   {
@@ -234,47 +145,33 @@
     "da": "I aften →",
     "fi": "Tänään →"
    }
+  }
+ ],
+ "info": [
+  {
+   "eyebrow": {
+    "en": "Genre in 10 seconds",
+    "es": "Género en 10 segundos",
+    "de": "Genre in 10 Sekunden",
+    "fr": "Un genre en 10 s",
+    "sv": "Genre på 10 sekunder",
+    "no": "Sjanger på 10 sekunder",
+    "da": "Genre på 10 sekunder",
+    "fi": "Genre 10 sekunnissa"
+   },
+   "body": {
+    "en": "Flamenco-chill: flamenco's soul meets electronic calm.",
+    "es": "Flamenco-chill: el alma del flamenco con calma electrónica.",
+    "de": "Flamenco-chill: die Seele des Flamenco trifft elektronische Ruhe.",
+    "fr": "Flamenco-chill: l'âme du flamenco rencontre le calme électronique.",
+    "sv": "Flamenco-chill: flamencons själ möter elektroniskt lugn.",
+    "no": "Flamenco-chill: flamencoens sjel møter elektronisk ro.",
+    "da": "Flamenco-chill: flamencoens sjæl møder elektronisk ro.",
+    "fi": "Flamenco-chill: flamencon sielu kohtaa elektronisen rauhan."
+   }
   },
   {
-   "photo": "https://images.pexels.com/photos/29865059/pexels-photo-29865059.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(138,59,134,.42)",
-   "tag": {
-    "en": "Genre in 30 seconds",
-    "es": "Género en 30 segundos",
-    "de": "Genre in 30 Sekunden",
-    "fr": "Un genre en 30 s",
-    "sv": "Genre på 30 sekunder",
-    "no": "Sjanger på 30 sekunder",
-    "da": "Genre på 30 sekunder",
-    "fi": "Genre 30 sekunnissa"
-   },
-   "head": "Flamenco-chill",
-   "sub": {
-    "en": "Flamenco's soul meets electronic calm.",
-    "es": "El alma del flamenco con calma electrónica.",
-    "de": "Die Seele des Flamenco trifft elektronische Ruhe.",
-    "fr": "L'âme du flamenco rencontre le calme électronique.",
-    "sv": "Flamencons själ möter elektroniskt lugn.",
-    "no": "Flamencoens sjel møter elektronisk ro.",
-    "da": "Flamencoens sjæl møder elektronisk ro.",
-    "fi": "Flamencon sielu kohtaa elektronisen rauhan."
-   },
-   "cta": {
-    "en": "e.g. Chambao",
-    "es": "p. ej. Chambao",
-    "de": "z. B. Chambao",
-    "fr": "ex. Chambao",
-    "sv": "t.ex. Chambao",
-    "no": "f.eks. Chambao",
-    "da": "f.eks. Chambao",
-    "fi": "esim. Chambao"
-   },
-   "ghost": true
-  },
-  {
-   "photo": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(11,94,138,.5)",
-   "tag": {
+   "eyebrow": {
     "en": "Did you know?",
     "es": "¿Sabías que…?",
     "de": "Wusstest du schon?",
@@ -284,8 +181,115 @@
     "da": "Vidste du?",
     "fi": "Tiesitkö?"
    },
-   "foot": {
-    "en": "♪ malagalivepulse.com"
+   "body": {
+    "en": "Starlite Marbella is staged inside a former marble quarry.",
+    "es": "Starlite Marbella se celebra en una antigua cantera de mármol.",
+    "de": "Starlite Marbella findet in einem ehemaligen Marmorsteinbruch statt.",
+    "fr": "Le Starlite Marbella se tient dans une ancienne carrière de marbre.",
+    "sv": "Starlite Marbella hålls i ett gammalt marmorbrott.",
+    "no": "Starlite Marbella holdes i et gammelt marmorbrudd.",
+    "da": "Starlite Marbella afholdes i et gammelt marmorbrud.",
+    "fi": "Starlite Marbella järjestetään vanhassa marmorilouhoksessa."
+   }
+  },
+  {
+   "eyebrow": {
+    "en": "Learn a music word",
+    "es": "Aprende una palabra",
+    "de": "Lern ein Musikwort",
+    "fr": "Un mot de musique",
+    "sv": "Lär dig ett ord",
+    "no": "Lær et ord",
+    "da": "Lær et ord",
+    "fi": "Opi sana"
+   },
+   "body": {
+    "en": "¡Otra! = Encore",
+    "es": "¡Otra! = ¡otra canción!",
+    "de": "¡Otra! = Zugabe",
+    "fr": "¡Otra! = un rappel",
+    "sv": "¡Otra! = extranummer",
+    "no": "¡Otra! = ekstranummer",
+    "da": "¡Otra! = ekstranummer",
+    "fi": "¡Otra! = encore"
+   }
+  },
+  {
+   "eyebrow": {
+    "en": "Know before you go",
+    "es": "Antes de ir",
+    "de": "Gut zu wissen",
+    "fr": "Bon à savoir",
+    "sv": "Bra att veta",
+    "no": "Greit å vite",
+    "da": "Godt at vide",
+    "fi": "Hyvä tietää"
+   },
+   "body": {
+    "en": "Spanish concerts start late — 9–10pm is normal.",
+    "es": "Los conciertos empiezan tarde: las 21–22 h es lo normal.",
+    "de": "Spanische Konzerte beginnen spät — 21–22 Uhr ist normal.",
+    "fr": "Les concerts commencent tard — 21h–22h, c'est normal.",
+    "sv": "Spanska konserter börjar sent — 21–22 är normalt.",
+    "no": "Spanske konserter starter sent — 21–22 er normalt.",
+    "da": "Spanske koncerter starter sent — 21–22 er normalt.",
+    "fi": "Konsertit alkavat myöhään — klo 21–22 on tavallista."
+   }
+  },
+  {
+   "eyebrow": {
+    "en": "Hidden gem",
+    "es": "Joya escondida",
+    "de": "Geheimtipp",
+    "fr": "Pépite cachée",
+    "sv": "Dold pärla",
+    "no": "Skjult perle",
+    "da": "Skjult perle",
+    "fi": "Piilohelmi"
+   },
+   "body": {
+    "en": "Catch free live rock at ZZ Pub most nights in central Málaga.",
+    "es": "Rock en directo gratis casi cada noche en ZZ Pub, Málaga centro.",
+    "de": "Fast jeden Abend gratis Live-Rock im ZZ Pub, Málaga-Zentrum.",
+    "fr": "Du rock live gratuit presque tous les soirs au ZZ Pub, centre de Málaga.",
+    "sv": "Gratis liverock nästan varje kväll på ZZ Pub, centrala Málaga.",
+    "no": "Gratis live rock nesten hver kveld på ZZ Pub, sentrale Málaga.",
+    "da": "Gratis live rock næsten hver aften på ZZ Pub, det centrale Málaga.",
+    "fi": "Ilmaista liverockia lähes joka ilta ZZ Pubissa, Málagan keskustassa."
+   }
+  },
+  {
+   "eyebrow": {
+    "en": "Genre in 10 seconds",
+    "es": "Género en 10 segundos",
+    "de": "Genre in 10 Sekunden",
+    "fr": "Un genre en 10 s",
+    "sv": "Genre på 10 sekunder",
+    "no": "Sjanger på 10 sekunder",
+    "da": "Genre på 10 sekunder",
+    "fi": "Genre 10 sekunnissa"
+   },
+   "body": {
+    "en": "Reggaetón: the Latin-urban beat that rules Spanish summers.",
+    "es": "Reggaetón: el ritmo latino-urbano que manda en verano.",
+    "de": "Reggaetón: der Latin-Urban-Beat, der spanische Sommer regiert.",
+    "fr": "Reggaetón: le beat latino-urbain qui règne sur l'été espagnol.",
+    "sv": "Reggaetón: den latinurbana beat som styr spanska somrar.",
+    "no": "Reggaetón: den latin-urbane rytmen som styrer spanske somre.",
+    "da": "Reggaetón: den latin-urbane beat, der hersker om sommeren.",
+    "fi": "Reggaetón: latino-urbaani biitti, joka hallitsee Espanjan kesää."
+   }
+  },
+  {
+   "eyebrow": {
+    "en": "Did you know?",
+    "es": "¿Sabías que…?",
+    "de": "Wusstest du schon?",
+    "fr": "Le saviez-vous ?",
+    "sv": "Visste du?",
+    "no": "Visste du?",
+    "da": "Vidste du?",
+    "fi": "Tiesitkö?"
    },
    "body": {
     "en": "On the Costa del Sol you can find live music every night of the year.",
@@ -299,9 +303,7 @@
    }
   },
   {
-   "photo": "https://images.unsplash.com/photo-1758550445758-165aeab5b26e?w=800&q=70&auto=format&fit=crop",
-   "tint": "rgba(19,122,139,.42)",
-   "tag": {
+   "eyebrow": {
     "en": "Learn a music word",
     "es": "Aprende una palabra",
     "de": "Lern ein Musikwort",
@@ -311,32 +313,19 @@
     "da": "Lær et ord",
     "fi": "Opi sana"
    },
-   "head": "Las entradas",
-   "foot": {
-    "en": "Learn a music word",
-    "es": "Aprende una palabra",
-    "de": "Lern ein Musikwort",
-    "fr": "Un mot de musique",
-    "sv": "Lär dig ett ord",
-    "no": "Lær et ord",
-    "da": "Lær et ord",
-    "fi": "Opi sana"
-   },
-   "sub": {
-    "en": "= Tickets",
-    "es": "= Las entradas",
-    "de": "= Tickets",
-    "fr": "= Les billets",
-    "sv": "= Biljetterna",
-    "no": "= Billettene",
-    "da": "= Billetterne",
-    "fi": "= Liput"
+   "body": {
+    "en": "Las entradas = Tickets",
+    "es": "Las entradas = las entradas",
+    "de": "Las entradas = Tickets",
+    "fr": "Las entradas = les billets",
+    "sv": "Las entradas = biljetterna",
+    "no": "Las entradas = billettene",
+    "da": "Las entradas = billetterne",
+    "fi": "Las entradas = liput"
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(31,158,99,.42)",
-   "tag": {
+   "eyebrow": {
     "en": "Know before you go",
     "es": "Antes de ir",
     "de": "Gut zu wissen",
@@ -345,9 +334,6 @@
     "no": "Greit å vite",
     "da": "Godt at vide",
     "fi": "Hyvä tietää"
-   },
-   "foot": {
-    "en": "♪ malagalivepulse.com"
    },
    "body": {
     "en": "Feria and beach concerts are often free — no ticket needed.",
@@ -359,42 +345,6 @@
     "da": "Feria- og strandkoncerter er ofte gratis — ingen billet nødvendig.",
     "fi": "Feria- ja rantakonsertit ovat usein ilmaisia — ei lippua tarvita."
    }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/3727163/pexels-photo-3727163.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(138,59,134,.42)",
-   "tag": {
-    "en": "Genre in 30 seconds",
-    "es": "Género en 30 segundos",
-    "de": "Genre in 30 Sekunden",
-    "fr": "Un genre en 30 s",
-    "sv": "Genre på 30 sekunder",
-    "no": "Sjanger på 30 sekunder",
-    "da": "Genre på 30 sekunder",
-    "fi": "Genre 30 sekunnissa"
-   },
-   "head": "Reggaetón",
-   "sub": {
-    "en": "The Latin-urban beat that rules Spanish summers.",
-    "es": "El ritmo latino-urbano que manda en verano.",
-    "de": "Der Latin-Urban-Beat, der spanische Sommer regiert.",
-    "fr": "Le beat latino-urbain qui règne sur l'été espagnol.",
-    "sv": "Den latinurbana beat som styr spanska somrar.",
-    "no": "Den latin-urbane rytmen som styrer spanske somre.",
-    "da": "Den latin-urbane beat, der hersker om sommeren.",
-    "fi": "Latino-urbaani biitti, joka hallitsee Espanjan kesää."
-   },
-   "cta": {
-    "en": "e.g. Ozuna",
-    "es": "p. ej. Ozuna",
-    "de": "z. B. Ozuna",
-    "fr": "ex. Ozuna",
-    "sv": "t.ex. Ozuna",
-    "no": "f.eks. Ozuna",
-    "da": "f.eks. Ozuna",
-    "fi": "esim. Ozuna"
-   },
-   "ghost": true
   }
  ]
 }
