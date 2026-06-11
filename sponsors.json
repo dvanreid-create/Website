@@ -1,33 +1,400 @@
 {
-  "sponsors": [
-    {
-      "name": "ZZ Pub",
-      "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
-      "url": "https://zzpub.es/"
-    },
-    {
-      "name": "Fever",
-      "text": "Fever",
-      "sub": "Experiences in Málaga →",
-      "url": "https://feverup.com/malaga"
-    },
-    {
-      "name": "Tiqets",
-      "text": "Tiqets",
-      "sub": "Attractions and tickets →",
-      "url": "https://www.tiqets.com/en/malaga-attractions-c32/"
-    },
-    {
-      "name": "Civitatis",
-      "text": "Civitatis",
-      "sub": "Tours and day trips →",
-      "url": "https://www.civitatis.com/en/malaga/"
-    },
-    {
-      "name": "Ticketmaster ES",
-      "text": "Ticketmaster",
-      "sub": "Concert tickets →",
-      "url": "https://www.ticketmaster.es/"
-    }
-  ]
+ "sponsors": [
+  {
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(232,102,42,.42)",
+   "tag": {
+    "en": "★ Top pick this week",
+    "es": "★ Top de la semana",
+    "de": "★ Top-Tipp der Woche",
+    "fr": "★ Coup de cœur",
+    "sv": "★ Veckans tips",
+    "no": "★ Ukens tips",
+    "da": "★ Ugens tip",
+    "fi": "★ Viikon valinta"
+   },
+   "head": "Aitana",
+   "sub": {
+    "en": "Fri 19 Jun · Marenostrum Fuengirola",
+    "es": "Vie 19 jun · Marenostrum Fuengirola",
+    "de": "Fr 19 Jun · Marenostrum Fuengirola",
+    "fr": "ven. 19 juin · Marenostrum Fuengirola",
+    "sv": "fre 19 jun · Marenostrum Fuengirola",
+    "no": "fre 19 jun · Marenostrum Fuengirola",
+    "da": "fre 19 jun · Marenostrum Fuengirola",
+    "fi": "pe 19 kesäk. · Marenostrum Fuengirola"
+   },
+   "url": "https://marenostrumfuengirola.com/eventos/aitana/",
+   "cta": {
+    "en": "Tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(31,158,99,.42)",
+   "url": "#free",
+   "tag": {
+    "en": "Free this week",
+    "es": "Gratis esta semana",
+    "de": "Diese Woche gratis",
+    "fr": "Gratuit cette semaine",
+    "sv": "Gratis denna vecka",
+    "no": "Gratis denne uken",
+    "da": "Gratis i denne uge",
+    "fi": "Ilmaista tällä viikolla"
+   },
+   "head": {
+    "en": "12 free shows",
+    "es": "12 gratis",
+    "de": "12 gratis",
+    "fr": "12 gratuits",
+    "sv": "12 gratis",
+    "no": "12 gratis",
+    "da": "12 gratis",
+    "fi": "12 ilmaista"
+   },
+   "sub": {
+    "en": "Feria, beach & plaza — no ticket needed",
+    "es": "Feria, playa y plaza — sin entrada",
+    "de": "Feria, Strand & Platz — kein Ticket nötig",
+    "fr": "Feria, plage & place — sans billet",
+    "sv": "Feria, strand & torg — ingen biljett",
+    "no": "Feria, strand & plass — ingen billett",
+    "da": "Feria, strand & plads — ingen billet",
+    "fi": "Feria, ranta & aukio — ei lippua"
+   },
+   "cta": {
+    "en": "See them →",
+    "es": "Verlos →",
+    "de": "Ansehen →",
+    "fr": "Voir →",
+    "sv": "Visa →",
+    "no": "Se dem →",
+    "da": "Se dem →",
+    "fi": "Katso →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/20304083/pexels-photo-20304083.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(13,90,138,.42)",
+   "tag": {
+    "en": "Did you know?",
+    "es": "¿Sabías que…?",
+    "de": "Wusstest du schon?",
+    "fr": "Le saviez-vous ?",
+    "sv": "Visste du?",
+    "no": "Visste du?",
+    "da": "Vidste du?",
+    "fi": "Tiesitkö?"
+   },
+   "foot": {
+    "en": "♪ malagalivepulse.com"
+   },
+   "body": {
+    "en": "Starlite Marbella is staged inside a former marble quarry.",
+    "es": "Starlite Marbella se celebra en una antigua cantera de mármol.",
+    "de": "Starlite Marbella findet in einem ehemaligen Marmorsteinbruch statt.",
+    "fr": "Le Starlite Marbella se tient dans une ancienne carrière de marbre.",
+    "sv": "Starlite Marbella hålls i ett gammalt marmorbrott.",
+    "no": "Starlite Marbella holdes i et gammelt marmorbrudd.",
+    "da": "Starlite Marbella afholdes i et gammelt marmorbrud.",
+    "fi": "Starlite Marbella järjestetään vanhassa marmorilouhoksessa."
+   }
+  },
+  {
+   "photo": "https://images.unsplash.com/photo-1758550445758-165aeab5b26e?w=800&q=70&auto=format&fit=crop",
+   "tint": "rgba(19,122,139,.42)",
+   "tag": {
+    "en": "Learn a music word",
+    "es": "Aprende una palabra",
+    "de": "Lern ein Musikwort",
+    "fr": "Un mot de musique",
+    "sv": "Lär dig ett ord",
+    "no": "Lær et ord",
+    "da": "Lær et ord",
+    "fi": "Opi sana"
+   },
+   "head": "¡Otra!",
+   "foot": {
+    "en": "Learn a music word",
+    "es": "Aprende una palabra",
+    "de": "Lern ein Musikwort",
+    "fr": "Un mot de musique",
+    "sv": "Lär dig ett ord",
+    "no": "Lær et ord",
+    "da": "Lær et ord",
+    "fi": "Opi sana"
+   },
+   "sub": {
+    "en": "= Encore",
+    "es": "= ¡Otra canción!",
+    "de": "= Zugabe",
+    "fr": "= Un rappel",
+    "sv": "= Extranummer",
+    "no": "= Ekstranummer",
+    "da": "= Ekstranummer",
+    "fi": "= Encore"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(11,94,138,.5)",
+   "center": true,
+   "badge": true,
+   "head": "MÁLAGA LIVE",
+   "sub": {
+    "en": "The pulse of live music",
+    "es": "El pulso de la música en vivo",
+    "de": "Der Puls der Livemusik",
+    "fr": "Le pouls de la musique live",
+    "sv": "Pulsen av livemusik",
+    "no": "Pulsen i livemusikken",
+    "da": "Pulsen i livemusik",
+    "fi": "Livemusiikin syke"
+   },
+   "foot": {
+    "en": "Málaga · Costa del Sol · 8 languages",
+    "es": "Málaga · Costa del Sol · 8 idiomas",
+    "de": "Málaga · Costa del Sol · 8 Sprachen",
+    "fr": "Málaga · Costa del Sol · 8 langues",
+    "sv": "Málaga · Costa del Sol · 8 språk",
+    "no": "Málaga · Costa del Sol · 8 språk",
+    "da": "Málaga · Costa del Sol · 8 sprog",
+    "fi": "Málaga · Costa del Sol · 8 kieltä"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/3727163/pexels-photo-3727163.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(224,138,30,.4)",
+   "tag": {
+    "en": "Know before you go",
+    "es": "Antes de ir",
+    "de": "Gut zu wissen",
+    "fr": "Bon à savoir",
+    "sv": "Bra att veta",
+    "no": "Greit å vite",
+    "da": "Godt at vide",
+    "fi": "Hyvä tietää"
+   },
+   "foot": {
+    "en": "♪ malagalivepulse.com"
+   },
+   "body": {
+    "en": "Spanish concerts start late — 9–10pm is normal.",
+    "es": "Los conciertos empiezan tarde: las 21–22 h es lo normal.",
+    "de": "Spanische Konzerte beginnen spät — 21–22 Uhr ist normal.",
+    "fr": "Les concerts commencent tard — 21h–22h, c'est normal.",
+    "sv": "Spanska konserter börjar sent — 21–22 är normalt.",
+    "no": "Spanske konserter starter sent — 21–22 er normalt.",
+    "da": "Spanske koncerter starter sent — 21–22 er normalt.",
+    "fi": "Konsertit alkavat myöhään — klo 21–22 on tavallista."
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/14662471/pexels-photo-14662471.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(0,0,0,.42)",
+   "center": true,
+   "name": "ZZ Pub",
+   "head": "ZZ PUB",
+   "url": "https://zzpub.es/",
+   "ribbon": {
+    "en": "Featured venue",
+    "es": "Local destacado",
+    "de": "Empfohlen",
+    "fr": "À la une",
+    "sv": "Utvald",
+    "no": "Anbefalt",
+    "da": "Fremhævet",
+    "fi": "Esillä"
+   },
+   "sub": {
+    "en": "Live rock · central Málaga since 1991",
+    "es": "Rock en directo · Málaga centro desde 1991",
+    "de": "Live-Rock · Málaga-Zentrum seit 1991",
+    "fr": "Rock live · centre de Málaga depuis 1991",
+    "sv": "Livrock · centrala Málaga sedan 1991",
+    "no": "Live rock · sentrale Málaga siden 1991",
+    "da": "Live rock · det centrale Málaga siden 1991",
+    "fi": "Liverock · Málagan keskusta vuodesta 1991"
+   },
+   "cta": {
+    "en": "Tonight's gigs →",
+    "es": "Conciertos de hoy →",
+    "de": "Heute live →",
+    "fr": "Ce soir →",
+    "sv": "Ikväll →",
+    "no": "I kveld →",
+    "da": "I aften →",
+    "fi": "Tänään →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/29865059/pexels-photo-29865059.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(138,59,134,.42)",
+   "tag": {
+    "en": "Genre in 30 seconds",
+    "es": "Género en 30 segundos",
+    "de": "Genre in 30 Sekunden",
+    "fr": "Un genre en 30 s",
+    "sv": "Genre på 30 sekunder",
+    "no": "Sjanger på 30 sekunder",
+    "da": "Genre på 30 sekunder",
+    "fi": "Genre 30 sekunnissa"
+   },
+   "head": "Flamenco-chill",
+   "sub": {
+    "en": "Flamenco's soul meets electronic calm.",
+    "es": "El alma del flamenco con calma electrónica.",
+    "de": "Die Seele des Flamenco trifft elektronische Ruhe.",
+    "fr": "L'âme du flamenco rencontre le calme électronique.",
+    "sv": "Flamencons själ möter elektroniskt lugn.",
+    "no": "Flamencoens sjel møter elektronisk ro.",
+    "da": "Flamencoens sjæl møder elektronisk ro.",
+    "fi": "Flamencon sielu kohtaa elektronisen rauhan."
+   },
+   "cta": {
+    "en": "e.g. Chambao",
+    "es": "p. ej. Chambao",
+    "de": "z. B. Chambao",
+    "fr": "ex. Chambao",
+    "sv": "t.ex. Chambao",
+    "no": "f.eks. Chambao",
+    "da": "f.eks. Chambao",
+    "fi": "esim. Chambao"
+   },
+   "ghost": true
+  },
+  {
+   "photo": "https://images.pexels.com/photos/2263435/pexels-photo-2263435.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(11,94,138,.5)",
+   "tag": {
+    "en": "Did you know?",
+    "es": "¿Sabías que…?",
+    "de": "Wusstest du schon?",
+    "fr": "Le saviez-vous ?",
+    "sv": "Visste du?",
+    "no": "Visste du?",
+    "da": "Vidste du?",
+    "fi": "Tiesitkö?"
+   },
+   "foot": {
+    "en": "♪ malagalivepulse.com"
+   },
+   "body": {
+    "en": "On the Costa del Sol you can find live music every night of the year.",
+    "es": "En la Costa del Sol hay música en vivo cada noche del año.",
+    "de": "An der Costa del Sol gibt es jede Nacht des Jahres Livemusik.",
+    "fr": "Sur la Costa del Sol, il y a de la musique live chaque soir de l'année.",
+    "sv": "På Costa del Sol finns livemusik varje kväll året om.",
+    "no": "På Costa del Sol finnes livemusikk hver kveld hele året.",
+    "da": "På Costa del Sol er der livemusik hver aften året rundt.",
+    "fi": "Costa del Solilla on livemusiikkia joka ilta ympäri vuoden."
+   }
+  },
+  {
+   "photo": "https://images.unsplash.com/photo-1758550445758-165aeab5b26e?w=800&q=70&auto=format&fit=crop",
+   "tint": "rgba(19,122,139,.42)",
+   "tag": {
+    "en": "Learn a music word",
+    "es": "Aprende una palabra",
+    "de": "Lern ein Musikwort",
+    "fr": "Un mot de musique",
+    "sv": "Lär dig ett ord",
+    "no": "Lær et ord",
+    "da": "Lær et ord",
+    "fi": "Opi sana"
+   },
+   "head": "Las entradas",
+   "foot": {
+    "en": "Learn a music word",
+    "es": "Aprende una palabra",
+    "de": "Lern ein Musikwort",
+    "fr": "Un mot de musique",
+    "sv": "Lär dig ett ord",
+    "no": "Lær et ord",
+    "da": "Lær et ord",
+    "fi": "Opi sana"
+   },
+   "sub": {
+    "en": "= Tickets",
+    "es": "= Las entradas",
+    "de": "= Tickets",
+    "fr": "= Les billets",
+    "sv": "= Biljetterna",
+    "no": "= Billettene",
+    "da": "= Billetterne",
+    "fi": "= Liput"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(31,158,99,.42)",
+   "tag": {
+    "en": "Know before you go",
+    "es": "Antes de ir",
+    "de": "Gut zu wissen",
+    "fr": "Bon à savoir",
+    "sv": "Bra att veta",
+    "no": "Greit å vite",
+    "da": "Godt at vide",
+    "fi": "Hyvä tietää"
+   },
+   "foot": {
+    "en": "♪ malagalivepulse.com"
+   },
+   "body": {
+    "en": "Feria and beach concerts are often free — no ticket needed.",
+    "es": "Los conciertos de feria y playa suelen ser gratis: sin entrada.",
+    "de": "Feria- und Strandkonzerte sind oft gratis — kein Ticket nötig.",
+    "fr": "Les concerts de feria et de plage sont souvent gratuits — sans billet.",
+    "sv": "Feria- och strandkonserter är ofta gratis — ingen biljett behövs.",
+    "no": "Feria- og strandkonserter er ofte gratis — ingen billett nødvendig.",
+    "da": "Feria- og strandkoncerter er ofte gratis — ingen billet nødvendig.",
+    "fi": "Feria- ja rantakonsertit ovat usein ilmaisia — ei lippua tarvita."
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/3727163/pexels-photo-3727163.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(138,59,134,.42)",
+   "tag": {
+    "en": "Genre in 30 seconds",
+    "es": "Género en 30 segundos",
+    "de": "Genre in 30 Sekunden",
+    "fr": "Un genre en 30 s",
+    "sv": "Genre på 30 sekunder",
+    "no": "Sjanger på 30 sekunder",
+    "da": "Genre på 30 sekunder",
+    "fi": "Genre 30 sekunnissa"
+   },
+   "head": "Reggaetón",
+   "sub": {
+    "en": "The Latin-urban beat that rules Spanish summers.",
+    "es": "El ritmo latino-urbano que manda en verano.",
+    "de": "Der Latin-Urban-Beat, der spanische Sommer regiert.",
+    "fr": "Le beat latino-urbain qui règne sur l'été espagnol.",
+    "sv": "Den latinurbana beat som styr spanska somrar.",
+    "no": "Den latin-urbane rytmen som styrer spanske somre.",
+    "da": "Den latin-urbane beat, der hersker om sommeren.",
+    "fi": "Latino-urbaani biitti, joka hallitsee Espanjan kesää."
+   },
+   "cta": {
+    "en": "e.g. Ozuna",
+    "es": "p. ej. Ozuna",
+    "de": "z. B. Ozuna",
+    "fr": "ex. Ozuna",
+    "sv": "t.ex. Ozuna",
+    "no": "f.eks. Ozuna",
+    "da": "f.eks. Ozuna",
+    "fi": "esim. Ozuna"
+   },
+   "ghost": true
+  }
+ ]
 }
