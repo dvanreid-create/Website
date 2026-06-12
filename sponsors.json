@@ -123,11 +123,10 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/14662471/pexels-photo-14662471.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(0,0,0,.42)",
-   "center": true,
+   "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
+   "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
+   "ghost": true,
    "name": "ZZ Pub",
-   "head": "ZZ PUB",
    "url": "https://zzpub.es/",
    "ribbon": {
     "en": "Featured venue",
