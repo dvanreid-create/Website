@@ -160,6 +160,36 @@
    }
   },
   {
+   "logo": "/assets/sponsors/kova-logo.png",
+   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
+   "light": true,
+   "name": "Kova Beach Club",
+   "url": "https://www.kovabeachclub.com",
+   "ribbon": {
+    "en": "Featured Beach Club",
+    "es": "Beach Club destacado",
+    "de": "Empfohlener Beach Club",
+    "fr": "Beach Club à la une",
+    "sv": "Utvald Beach Club",
+    "no": "Anbefalt Beach Club",
+    "da": "Fremhævet Beach Club",
+    "fi": "Esittelyssä: Beach Club"
+   },
+   "sub": {
+    "en": "Marbella · Puerto Banús"
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
    "photo": "https://images.pexels.com/photos/29865059/pexels-photo-29865059.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(138,59,134,.42)",
    "tag": {
