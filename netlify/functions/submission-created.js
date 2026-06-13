@@ -40,7 +40,7 @@ exports.handler = async (event) => {
       "Looking for gigs": s(d.looking_for_gigs),
       "Available for": s(d.available_for),
       "Setup": s(d.setup),
-      "Fee": s(d.fee),
+      "Fee": s(d.fee).trim() || "Open to discuss",
       "Areas": s(d.areas),
       "Email": s(d.email),
       "Phone": s(d.phone),
