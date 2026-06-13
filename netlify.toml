@@ -6,3 +6,9 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/talent.json"
+  to = "/.netlify/functions/talent-feed"
+  status = 200
+  force = true
