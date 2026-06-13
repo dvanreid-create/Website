@@ -1,5 +1,5 @@
 // Serves the Talent Square feed (/talent.json) live from Airtable.
-// Returns every Talent row with Status = "Featured" AND Consent feature = "Yes".
+// Returns the act SCHEDULED FOR TODAY: Status="Featured", Consent feature="Yes", and Featured date = today (Europe/Madrid).
 // Output shape matches what the site already expects: { "talent": [ { yt, name, where } ] }
 // Uses the same AIRTABLE_TOKEN env var (must now also have the data.records:read scope).
 
@@ -37,10 +37,12 @@ exports.handler = async () => {
     if (!res.ok) { console.error("Airtable read failed:", res.status, await res.text()); return EMPTY; }
 
     const data = await res.json();
+    const today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" }); // YYYY-MM-DD in Malaga time
     const talent = (data.records || []).map((r) => {
       const f = r.fields || {};
       const yt = ytId(f["YouTube"]);
-      if (!yt) return null;
+      const day = f["Featured date"] || "";
+      if (!yt || day !== today) return null;
       return { yt: yt, name: f["Preferred name"] || "", where: f["Based in"] || f["Country"] || "" };
     }).filter(Boolean);
 
