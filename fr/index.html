@@ -33,9 +33,9 @@
   :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--amber:#EF9F27;--bg:#f7f8f9;--line:#e4e8eb;--muted:#5f6b78;}
   *{box-sizing:border-box;}
   body{margin:0;background:var(--bg);color:var(--navy);font-family:'Inter',system-ui,sans-serif;line-height:1.55;}
-  .wrap{max-width:800px;margin:0 auto;padding:0 18px 64px;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 18px 64px;}
   header.site{background:#fff;border-bottom:1px solid var(--line);}
-  .head-in{max-width:800px;margin:0 auto;padding:22px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+  .head-in{max-width:720px;margin:0 auto;padding:22px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
   .badge{width:56px;height:56px;border-radius:13px;background:var(--sea);display:flex;align-items:center;justify-content:center;flex:none;}
   .wm{font-family:'Anton',sans-serif;font-size:38px;letter-spacing:1px;line-height:1;}
   .tagline{flex-basis:100%;font-size:12.5px;font-weight:500;letter-spacing:1.5px;color:var(--navy);text-transform:uppercase;margin-top:2px;}
@@ -69,10 +69,10 @@
   .langpick a{text-decoration:none;color:var(--sea);border:1px solid var(--line);border-radius:10px;padding:12px 18px;font-weight:600;font-size:15px;background:#fff;}
   .langpick a:hover{border-color:var(--sea);}
   @media(max-width:560px){.card{flex-direction:column;}.cside{flex-direction:row;align-items:center;}.wm{font-size:30px;}}
-  /* Gutter ad squares — desktop only, shown when the viewport is wide enough to clear the 800px column */
-  .ad-rail{position:fixed;top:152px;width:200px;z-index:5;display:none;flex-direction:column;}
-  .ad-rail.left{left:calc((100vw - 800px) / 2 - 216px);}
-  .ad-rail.right{right:calc((100vw - 800px) / 2 - 216px);}
+  /* Gutter ad squares — desktop only, shown when the viewport is wide enough to clear the 720px column */
+  .ad-rail{position:fixed;top:152px;width:250px;z-index:5;display:none;flex-direction:column;}
+  .ad-rail.left{left:calc((100vw - 720px) / 2 - 266px);}
+  .ad-rail.right{right:calc((100vw - 720px) / 2 - 266px);}
   .ad-slot{display:flex;align-items:center;justify-content:center;width:250px;height:250px;border-radius:10px;overflow:hidden;text-decoration:none;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(20,58,78,.06);}
   .ad-slot img{max-width:100%;max-height:100%;object-fit:contain;padding:18px;}
   .ad-slot.house{flex-direction:column;gap:7px;text-align:center;padding:18px;border:2px dashed var(--coral);background:#FAECE7;box-shadow:none;}
