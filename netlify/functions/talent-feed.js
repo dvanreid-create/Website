@@ -43,7 +43,7 @@ exports.handler = async () => {
       const yt = ytId(f["YouTube"]);
       const day = f["Featured date"] || "";
       if (!yt || day !== today) return null;
-      return { yt: yt, name: f["Preferred name"] || "", where: f["Based in"] || f["Country"] || "" };
+      return { yt: yt, name: f["Preferred name"] || "", where: f["Based in"] || f["Country"] || "", country: f["Country"] || "" };
     }).filter(Boolean);
 
     return json({ talent: talent }, 120);
