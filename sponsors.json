@@ -82,14 +82,14 @@
    "tint": "rgba(31,158,99,.42)",
    "url": "#free",
    "tag": {
-    "en": "Free this week",
-    "es": "Gratis esta semana",
-    "de": "Diese Woche gratis",
-    "fr": "Gratuit cette semaine",
-    "sv": "Gratis denna vecka",
-    "no": "Gratis denne uken",
-    "da": "Gratis i denne uge",
-    "fi": "Ilmaista tällä viikolla"
+    "en": "This week",
+    "es": "Esta semana",
+    "de": "Diese Woche",
+    "fr": "Cette semaine",
+    "sv": "Denna vecka",
+    "no": "Denne uken",
+    "da": "Denne uge",
+    "fi": "Tällä viikolla"
    },
    "head": {
     "en": "Free live music",
