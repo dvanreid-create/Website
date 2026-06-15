@@ -23,8 +23,8 @@ const json = (code, obj) => ({
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") return json(405, { error: "method" });
 
-  const token  = process.env.AIRTABLE_TOKEN;
-  const stripe = process.env.STRIPE_SECRET_KEY;
+  const token  = (process.env.AIRTABLE_TOKEN || "").trim();
+  const stripe = (process.env.STRIPE_SECRET_KEY || "").trim();
   if (!token || !stripe) {
     console.error("Missing env var(s):", { AIRTABLE_TOKEN: !!token, STRIPE_SECRET_KEY: !!stripe });
     return json(500, { error: "not configured" });
@@ -93,11 +93,15 @@ exports.handler = async (event) => {
       headers: { Authorization: "Bearer " + stripe, "Content-Type": "application/x-www-form-urlencoded" },
       body: p.toString()
     });
-    session = await sr.json();
-    if (!sr.ok) { console.error("Stripe error", session); return json(502, { error: "stripe", detail: (session && session.error && session.error.message) || null }); }
+    const txt = await sr.text();
+    try { session = JSON.parse(txt); } catch { session = null; }
+    if (!sr.ok || !session || !session.url) {
+      console.error("Stripe error", sr.status, txt);
+      return json(502, { error: "stripe", status: sr.status, detail: (session && session.error && session.error.message) || txt.slice(0, 300) });
+    }
   } catch (e) {
     console.error("Stripe request failed", e);
-    return json(502, { error: "stripe" });
+    return json(502, { error: "stripe", detail: "exc: " + String((e && e.message) || e) });
   }
 
   // ---- 3) save the session id back to Airtable (best-effort) ----
