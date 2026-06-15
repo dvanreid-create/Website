@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MLES Request · Málaga Live</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--bg:#f3f5f7;--line:#e2e6ea;--muted:#5f6b78;}
+  *{box-sizing:border-box}
+  body{font-family:Inter,system-ui,sans-serif;margin:0;background:var(--bg);color:var(--navy);}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 18px 60px;}
+  .logo{display:block;height:46px;margin:6px auto 0;}
+  /* ---- gate ---- */
+  #gate{position:fixed;inset:0;background:linear-gradient(160deg,#0B5E8A,#0c2c3e);display:flex;align-items:center;justify-content:center;padding:24px;z-index:50;}
+  .gatecard{background:#fff;border-radius:18px;max-width:380px;width:100%;padding:34px 30px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+  .gatecard img{height:42px;margin-bottom:18px}
+  .gatecard h1{font-size:19px;margin:0 0 6px}
+  .gatecard p{font-size:14px;color:var(--muted);margin:0 0 20px}
+  #pw{width:100%;font-size:18px;text-align:center;letter-spacing:2px;padding:13px;border:1.5px solid var(--line);border-radius:10px;outline:none}
+  #pw:focus{border-color:var(--sea)}
+  .gbtn{margin-top:14px;width:100%;font-size:16px;font-weight:600;color:#fff;background:var(--coral);border:0;border-radius:10px;padding:13px;cursor:pointer}
+  .gerr{color:#c0392b;font-size:13px;margin-top:10px;min-height:16px}
+  /* ---- form ---- */
+  #app{display:none}
+  .head{text-align:center;margin:8px 0 18px}
+  .head h2{font-family:Anton,sans-serif;font-weight:400;letter-spacing:.5px;font-size:24px;line-height:1.15;color:var(--navy);margin:14px 0 4px}
+  .head .sub{color:var(--muted);font-size:14px}
+  .promo{background:#fff;border:1px solid var(--line);border-left:4px solid var(--coral);border-radius:12px;padding:16px 18px;margin:0 0 22px;font-size:14.5px}
+  .promo b{color:var(--sea)}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;}
+  label{display:block;font-weight:600;font-size:14px;margin:16px 0 6px}
+  label .en{font-weight:400;color:var(--muted)}
+  label.req::after{content:" *";color:var(--coral)}
+  input,textarea{width:100%;font-family:inherit;font-size:15px;padding:11px 12px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--navy);outline:none}
+  input:focus,textarea:focus{border-color:var(--sea)}
+  textarea{min-height:76px;resize:vertical}
+  .row{display:flex;gap:12px}.row>div{flex:1}
+  .hint{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .submit{margin-top:24px;width:100%;font-size:17px;font-weight:700;color:#fff;background:var(--sea);border:0;border-radius:11px;padding:15px;cursor:pointer}
+  .submit:hover{background:#0a527a}
+  .foot{text-align:center;font-size:12px;color:var(--muted);margin-top:18px;line-height:1.5}
+</style>
+</head>
+<body>
+
+<!-- ACCESS GATE -->
+<div id="gate">
+  <div class="gatecard">
+    <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
+    <h1>Acceso · Access</h1>
+    <p>Introduce el código que te hemos facilitado.<br>Enter the access code we shared with you.</p>
+    <input id="pw" type="password" autocomplete="off" placeholder="Código · Code" autofocus>
+    <button class="gbtn" onclick="checkPw()">Entrar · Unlock</button>
+    <div class="gerr" id="gerr"></div>
+  </div>
+</div>
+
+<!-- FORM -->
+<div id="app">
+ <div class="wrap">
+  <div class="head">
+    <img class="logo" src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
+    <h2>MÁLAGA LIVE EVENT SCORE (MLES) REQUEST</h2>
+    <div class="sub">Demand Pre-Check · ¿saldrá bien tu evento? / will your event draw?</div>
+  </div>
+
+  <div class="promo">
+    <p style="margin:0 0 14px">Envíanos un evento que estés <b>considerando</b> y te devolvemos un <b>Demand Read</b> — la puntuación MLES (0–100) con el porqué, por email en <b>24 h</b>.</p>
+    <p style="margin:0 0 14px;color:var(--muted)">Send us a show you're <b>considering</b> and we return a Demand Read — the MLES score with the reasons, emailed within 24h.</p>
+    <p style="margin:0"><b style="font-size:17px">€49</b> por informe / per report.</p>
+  </div>
+
+  <form class="card" id="mlesForm" onsubmit="return go(event)">
+    <label class="req">Tu nombre <span class="en">/ Your name</span></label>
+    <input name="name" required>
+
+    <label class="req">Sala <span class="en">/ Venue</span></label>
+    <input name="venue" required>
+
+    <label class="req">Aforo <span class="en">/ Capacity</span></label>
+    <input name="capacity" inputmode="numeric" required>
+
+    <label class="req">Artista que consideras <span class="en">/ Act you're considering</span></label>
+    <input name="act" required>
+
+    <label class="req">Fecha — opción 1 <span class="en">/ Date — option 1</span></label>
+    <input name="date1" type="date" required>
+    <div class="row">
+      <div>
+        <label>Opción 2 <span class="en">/ Option 2</span></label>
+        <input name="date2" type="date">
+      </div>
+      <div>
+        <label>Opción 3 <span class="en">/ Option 3</span></label>
+        <input name="date3" type="date">
+      </div>
+    </div>
+    <div class="hint">Añade 2–3 fechas y comparamos cuál rinde mejor. / Add 2–3 dates and we'll compare which draws best.</div>
+
+    <label class="req">Precio de entrada <span class="en">/ Ticket price (o "gratis" / or "free")</span></label>
+    <input name="price" required>
+
+    <label>Notas — exclusividad, teloneros, ¿interior o al aire libre? <span class="en">/ Notes — exclusivity, support acts, indoor or open-air</span></label>
+    <textarea name="notes" placeholder="p. ej. única fecha en España, aniversario, telonero…"></textarea>
+
+    <label class="req">Email de contacto <span class="en">/ Contact email (entrega del informe)</span></label>
+    <input name="email" type="email" required>
+
+    <button class="submit" type="submit">Continuar al pago · Continue to payment — €49 →</button>
+    <div class="foot">
+      Pago seguro con Stripe. El informe es una lectura de demanda orientativa, no una garantía.<br>
+      Secure payment via Stripe. The report is a directional demand read, not a guarantee.
+    </div>
+  </form>
+ </div>
+</div>
+
+<script>
+  // remember unlock
+  if(localStorage.getItem('mlesAccess')==='1'){ gateOpen(); }
+  function gateOpen(){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; }
+  function checkPw(){
+    var v=(document.getElementById('pw').value||'').trim().toLowerCase();
+    if(v==='mles'){ localStorage.setItem('mlesAccess','1'); gateOpen(); }
+    else { document.getElementById('gerr').textContent='Código incorrecto · Incorrect code'; }
+  }
+  document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter') checkPw(); });
+  // submit -> create request in Airtable + open Stripe Checkout (€49)
+  async function go(e){
+    e.preventDefault();
+    var f=e.target, btn=f.querySelector('.submit'), old=btn.textContent;
+    btn.disabled=true; btn.textContent='Un momento… · One moment…';
+    var data={};
+    ['name','venue','capacity','act','date1','date2','date3','price','notes','email']
+      .forEach(function(k){ var el=f.elements[k]; if(el) data[k]=el.value; });
+    try{
+      var r=await fetch('/.netlify/functions/create-precheck',{
+        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)
+      });
+      var j=await r.json();
+      if(j && j.url){ window.location.href=j.url; return false; }
+      throw new Error((j && j.error) || 'error');
+    }catch(err){
+      alert('No se pudo iniciar el pago, inténtalo de nuevo. · Could not start checkout, please try again.');
+      btn.disabled=false; btn.textContent=old;
+    }
+    return false;
+  }
+</script>
+</body>
+</html>
