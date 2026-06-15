@@ -3,7 +3,7 @@
 // Verifies the Stripe signature manually (no SDK) using Node crypto.
 //
 // Required Netlify environment variables:
-//   STRIPE_WEBHOOK_SECRET  — the signing secret from the Stripe webhook endpoint (whsec_…)
+//   STRIPE_WEBHOOK_SECRET  — the signing secret from your Stripe webhook endpoint
 //   AIRTABLE_TOKEN         — Airtable PAT with data.records:write on the base
 // Optional overrides: AIRTABLE_BASE, AIRTABLE_TABLE
 

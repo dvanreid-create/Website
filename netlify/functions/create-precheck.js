@@ -5,7 +5,7 @@
 //
 // Required Netlify environment variables:
 //   AIRTABLE_TOKEN      — Airtable PAT with data.records:write on base appRFxS65uKsCxc03
-//   STRIPE_SECRET_KEY   — Stripe secret key (sk_test_… in sandbox, sk_live_… in production)
+//   STRIPE_SECRET_KEY   — your Stripe secret key (test key in sandbox, live key in production)
 // Optional overrides: AIRTABLE_BASE, AIRTABLE_TABLE, SITE_URL, PRICE_CENTS, CURRENCY
 
 const BASE      = process.env.AIRTABLE_BASE  || "appRFxS65uKsCxc03";

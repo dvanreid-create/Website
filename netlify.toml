@@ -3,6 +3,11 @@
   publish = "."
   command = ""
 
+[build.environment]
+  # These keys are read by the functions at runtime; their values are never written into the repo
+  # or build output. Tell Netlify's secret scanner not to flag them (verified: no values committed).
+  SECRETS_SCAN_OMIT_KEYS = "AIRTABLE_TOKEN,STRIPE_SECRET_KEY,STRIPE_WEBHOOK_SECRET"
+
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
