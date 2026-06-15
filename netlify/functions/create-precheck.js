@@ -72,6 +72,7 @@ exports.handler = async (event) => {
   // ---- 2) create the Stripe Checkout Session (form-encoded, no SDK) ----
   const p = new URLSearchParams();
   p.append("mode", "payment");
+  p.append("payment_method_types[0]", "card");
   p.append("line_items[0][quantity]", "1");
   p.append("line_items[0][price_data][currency]", CURRENCY);
   p.append("line_items[0][price_data][unit_amount]", String(PRICE));
@@ -93,7 +94,7 @@ exports.handler = async (event) => {
       body: p.toString()
     });
     session = await sr.json();
-    if (!sr.ok) { console.error("Stripe error", session); return json(502, { error: "stripe" }); }
+    if (!sr.ok) { console.error("Stripe error", session); return json(502, { error: "stripe", detail: (session && session.error && session.error.message) || null }); }
   } catch (e) {
     console.error("Stripe request failed", e);
     return json(502, { error: "stripe" });
