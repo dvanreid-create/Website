@@ -30,15 +30,23 @@ exports.handler = async () => {
     const TABLE = process.env.AIRTABLE_TABLE || "Talent";
 
     const formula = encodeURIComponent('AND({Status}="Featured",{Consent feature}="Yes")');
-    const url = "https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) +
-                "?filterByFormula=" + formula + "&pageSize=50";
+    const baseUrl = "https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) +
+                "?filterByFormula=" + formula + "&pageSize=100";
 
-    const res = await fetch(url, { headers: { Authorization: "Bearer " + token } });
-    if (!res.ok) { console.error("Airtable read failed:", res.status, await res.text()); return EMPTY; }
+    // Page through ALL matching records — the "Featured date = today" check happens below in JS,
+    // so a single capped page could otherwise hide today's act once enough Featured rows exist.
+    let records = [], offset = "";
+    do {
+      const res = await fetch(baseUrl + (offset ? "&offset=" + encodeURIComponent(offset) : ""),
+                              { headers: { Authorization: "Bearer " + token } });
+      if (!res.ok) { console.error("Airtable read failed:", res.status, await res.text()); return EMPTY; }
+      const page = await res.json();
+      records = records.concat(page.records || []);
+      offset = page.offset || "";
+    } while (offset);
 
-    const data = await res.json();
     const today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" }); // YYYY-MM-DD in Malaga time
-    const talent = (data.records || []).map((r) => {
+    const talent = records.map((r) => {
       const f = r.fields || {};
       const yt = ytId(f["YouTube"]);
       const day = f["Featured date"] || "";

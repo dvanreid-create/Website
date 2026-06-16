@@ -96,12 +96,13 @@ exports.handler = async (event) => {
     const txt = await sr.text();
     try { session = JSON.parse(txt); } catch { session = null; }
     if (!sr.ok || !session || !session.url) {
+      // Log full detail server-side only; return a generic error to the browser (no Stripe/internal diagnostics leaked).
       console.error("Stripe error", sr.status, txt);
-      return json(502, { error: "stripe", status: sr.status, detail: (session && session.error && session.error.message) || txt.slice(0, 300) });
+      return json(502, { error: "stripe" });
     }
   } catch (e) {
     console.error("Stripe request failed", e);
-    return json(502, { error: "stripe", detail: "exc: " + String((e && e.message) || e) });
+    return json(502, { error: "stripe" });
   }
 
   // ---- 3) save the session id back to Airtable (best-effort) ----

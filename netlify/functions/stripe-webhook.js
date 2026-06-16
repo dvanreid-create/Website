@@ -37,12 +37,20 @@ exports.handler = async (event) => {
     const recId = (s.metadata && s.metadata.airtable_id) || s.client_reference_id;
     if (recId) {
       try {
-        await fetch("https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) + "/" + recId, {
+        const ar = await fetch("https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) + "/" + recId, {
           method: "PATCH",
           headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
           body: JSON.stringify({ fields: { "Payment": "Paid", "Status": "Awaiting MLES" } })
         });
-      } catch (e) { console.error("airtable update failed", e); }
+        if (!ar.ok) {
+          // Return non-2xx so Stripe retries; otherwise a paid order can silently fail to reach "Awaiting MLES".
+          console.error("airtable update failed", ar.status, await ar.text());
+          return { statusCode: 502, body: "airtable update failed" };
+        }
+      } catch (e) {
+        console.error("airtable update error", e);
+        return { statusCode: 502, body: "airtable error" };
+      }
     } else {
       console.warn("no airtable_id on session", s.id);
     }
