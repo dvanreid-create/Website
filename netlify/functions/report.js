@@ -35,7 +35,7 @@ function page(d) {
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Demand Read · ${esc(d.act_label || "Málaga Live")}</title>
+<title>MLE Score · ${esc(d.act_label || "Málaga Live")}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 <style>
   :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--amber:#EF9F27;--ink:#36434f;--mute:#6b7783;--line:#e2e6ea;--track:#e7ecf0;--panel:#f7f9fb}
@@ -87,7 +87,7 @@ function page(d) {
 <div class="sheet">
   <div class="top">
     <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <div class="rt"><h1>DEMAND READ</h1><div class="sub">MLES Demand Pre-Check · ${esc(d.issued || "")}</div></div>
+    <div class="rt"><h1>MLE SCORE</h1><div class="sub">Málaga Live Event Score · ${esc(d.issued || "")}</div></div>
   </div>
   <hr>
   <div class="lbl">Event under consideration</div>
@@ -117,7 +117,7 @@ function page(d) {
   </div>
   <div class="sec"><h3>Recommendation</h3><div class="rec">${esc(d.recommendation)}</div></div>
   <div class="foot">
-    Directional demand read, not a guaranteed attendance or revenue forecast. Scores are rankings until calibrated against logged outcomes.<br>
+    Directional demand estimate, not a guaranteed attendance or revenue forecast. Scores are rankings until calibrated against logged outcomes.<br>
     <b>Málaga Live · malagalivepulse.com · MLES v1</b>
   </div>
 </div>

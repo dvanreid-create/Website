@@ -76,7 +76,7 @@ exports.handler = async (event) => {
   p.append("line_items[0][quantity]", "1");
   p.append("line_items[0][price_data][currency]", CURRENCY);
   p.append("line_items[0][price_data][unit_amount]", String(PRICE));
-  p.append("line_items[0][price_data][product_data][name]", "MLES Demand Pre-Check");
+  p.append("line_items[0][price_data][product_data][name]", "MLE Score");
   p.append("line_items[0][price_data][product_data][description]", (venue + " · " + act).slice(0, 250));
   p.append("customer_email", email);
   p.append("success_url", SITE + "/mles-request/thanks/?paid=1");
