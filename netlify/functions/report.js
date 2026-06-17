@@ -43,7 +43,7 @@ function page(d) {
   body{margin:0;background:#eef1f4;color:var(--navy);font-family:Inter,system-ui,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .sheet{max-width:820px;margin:24px auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:38px 40px 30px;box-shadow:0 12px 40px rgba(20,40,60,.08)}
   .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
-  .top img{height:38px}
+  .top img{height:62px}
   .top .rt{text-align:right}
   .top h1{font-family:Anton,sans-serif;font-weight:400;letter-spacing:.5px;font-size:30px;color:var(--navy);margin:0}
   .top .sub{color:var(--mute);font-size:13px;margin-top:3px}
@@ -118,7 +118,7 @@ function page(d) {
   <div class="sec"><h3>Recommendation</h3><div class="rec">${esc(d.recommendation)}</div></div>
   <div class="foot">
     Directional demand estimate, not a guaranteed attendance or revenue forecast. Scores are rankings until calibrated against logged outcomes.<br>
-    <b>Málaga Live · malagalivepulse.com · MLES v1</b>
+    <b>Málaga Live · malagalivepulse.com</b>
   </div>
 </div>
 <button class="printbtn" onclick="window.print()">Save as PDF / Print</button>
