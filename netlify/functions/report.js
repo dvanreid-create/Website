@@ -47,6 +47,7 @@ function page(d) {
   .top .rt{text-align:right}
   .top h1{font-family:Anton,sans-serif;font-weight:400;letter-spacing:.5px;font-size:30px;color:var(--navy);margin:0}
   .top .sub{color:var(--mute);font-size:13px;margin-top:3px}
+  .top .ref{margin-top:5px;font-size:12px;font-weight:700;letter-spacing:.6px;color:var(--sea);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
   hr{border:0;border-top:1px solid var(--line);margin:22px 0}
   .lbl{font-size:12.5px;font-weight:600;letter-spacing:.4px;color:var(--sea);text-transform:uppercase}
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-top:14px}
@@ -87,7 +88,7 @@ function page(d) {
 <div class="sheet">
   <div class="top">
     <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <div class="rt"><h1>MLE SCORE</h1><div class="sub">Málaga Live Event Score · ${esc(d.issued || "")}</div></div>
+    <div class="rt"><h1>MLE SCORE</h1><div class="sub">Málaga Live Event Score${d.issued ? " · " + esc(d.issued) : ""}</div><div class="ref">Ref ${esc(d.ref)}</div></div>
   </div>
   <hr>
   <div class="lbl">Event under consideration</div>
@@ -150,6 +151,8 @@ exports.handler = async (event) => {
   if (!raw) return { statusCode: 404, headers: { "Content-Type": "text/html" }, body: "<p>Report not ready yet.</p>" };
   let d;
   try { d = JSON.parse(raw); } catch { return { statusCode: 500, body: "bad report data" }; }
+  // Unique, traceable reference derived deterministically from the Airtable record id.
+  d.ref = "MLE-" + id.replace(/^rec/, "").slice(-8).toUpperCase();
 
   return { statusCode: 200, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" }, body: page(d) };
 };
