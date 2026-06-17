@@ -8,3 +8,5 @@ Thumbs.db
 # Generator stays in the project (OneDrive), not on the public site
 build_site.py
 __pycache__/
+mles_text.json
+info_text.json
