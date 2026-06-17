@@ -92,8 +92,8 @@
   @media(max-width:560px){.card{flex-direction:column;}.cside{flex-direction:row;align-items:center;}.wm{font-size:30px;}}
   /* Gutter ad squares — desktop only, shown when the viewport is wide enough to clear the 720px column */
   .ad-rail{position:fixed;top:152px;width:250px;z-index:5;display:none;flex-direction:column;}
-  .ad-rail.left{left:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);transform-origin:top left;}
-  .ad-rail.right{right:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);transform-origin:top right;}
+  .ad-rail.left{left:calc((100vw - 720px) / 2 - 278px);transform-origin:top left;}
+  .ad-rail.right{right:calc((100vw - 720px) / 2 - 278px);transform-origin:top right;}
   .ad-slot{display:flex;align-items:center;justify-content:center;width:250px;height:250px;border-radius:10px;overflow:hidden;text-decoration:none;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(20,58,78,.06);}
   .ad-slot img{max-width:100%;max-height:100%;object-fit:contain;padding:18px;}
   .ad-slot.house{flex-direction:column;gap:7px;text-align:center;padding:18px;border:2px dashed var(--coral);background:#FAECE7;box-shadow:none;}
@@ -150,6 +150,7 @@
   .talsq-send .ts-a{display:inline-flex;align-items:center;gap:7px;color:#993C1D;font-size:12.5px;font-weight:700;}
   .talsq-send .ts-b{display:block;font-size:10.5px;font-weight:600;color:#993C1D;opacity:.85;margin-top:3px;}
   @media(min-width:1080px){.ad-rail{display:block;}}
+  @media(min-width:1080px) and (max-width:1299px){.ad-rail.left{left:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);} .ad-rail.right{right:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);}}
   .wa-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:20;box-shadow:0 3px 10px rgba(0,0,0,.18);text-decoration:none;}
   .wa-btn svg{width:32px;height:32px;fill:#fff;}
   .wa-btn:hover{background:#1ebe57;}
