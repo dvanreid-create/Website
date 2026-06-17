@@ -231,6 +231,80 @@
    }
   },
   {
+   "logo": "/assets/sponsors/el-tintero-logo.png",
+   "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
+   "light": true,
+   "name": "El Tintero",
+   "url": "https://eltinteromalaga.com/carta/",
+   "ribbon": {
+    "en": "Featured restaurant",
+    "es": "Restaurante destacado",
+    "de": "Empfohlenes Restaurant",
+    "fr": "Restaurant à la une",
+    "sv": "Utvald restaurang",
+    "no": "Anbefalt restaurant",
+    "da": "Fremhævet restaurant",
+    "fi": "Esittelyssä: ravintola"
+   },
+   "sub": {
+    "en": "Fried fish & seafood · a Málaga beachfront classic",
+    "es": "Pescaíto frito y marisco · clásico de la playa de Málaga",
+    "de": "Frittierter Fisch & Meeresfrüchte · Strandklassiker in Málaga",
+    "fr": "Petite friture & fruits de mer · classique du front de mer à Málaga",
+    "sv": "Friterad fisk & skaldjur · en strandklassiker i Málaga",
+    "no": "Frityrstekt fisk & sjømat · en strandklassiker i Málaga",
+    "da": "Friteret fisk & skaldyr · en strandklassiker i Málaga",
+    "fi": "Paistettua kalaa & äyriäisiä · Málagan rantaklassikko"
+   },
+   "cta": {
+    "en": "Famous portion auction →",
+    "es": "La famosa subasta →",
+    "de": "Die berühmte Versteigerung →",
+    "fr": "La fameuse criée →",
+    "sv": "Den berömda auktionen →",
+    "no": "Den berømte auksjonen →",
+    "da": "Den berømte auktion →",
+    "fi": "Kuuluisa huutokauppa →"
+   }
+  },
+  {
+   "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
+   "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
+   "ghost": true,
+   "name": "Canela Party",
+   "url": "https://www.ingresse.com/canela-party-2026/",
+   "ribbon": {
+    "en": "Featured festival",
+    "es": "Festival destacado",
+    "de": "Empfohlenes Festival",
+    "fr": "Festival à la une",
+    "sv": "Utvalt festival",
+    "no": "Anbefalt festival",
+    "da": "Fremhævet festival",
+    "fi": "Esittelyssä: festivaali"
+   },
+   "sub": {
+    "en": "Canela Party · 27–29 Aug · Torremolinos",
+    "es": "Canela Party · 27–29 ago · Torremolinos",
+    "de": "Canela Party · 27.–29. Aug · Torremolinos",
+    "fr": "Canela Party · 27–29 août · Torremolinos",
+    "sv": "Canela Party · 27–29 aug · Torremolinos",
+    "no": "Canela Party · 27–29 aug · Torremolinos",
+    "da": "Canela Party · 27–29 aug · Torremolinos",
+    "fi": "Canela Party · 27.–29. elok. · Torremolinos"
+   },
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
    "photo": "https://images.pexels.com/photos/29865059/pexels-photo-29865059.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(138,59,134,.42)",
    "tag": {
