@@ -1,10 +1,10 @@
 {
   "clips": [
-    {"act": "El Kanka", "yt": "DtlAhfE1y7A", "where": "8 Jun · Teatro Cervantes, Málaga"},
-    {"act": "Miguel Poveda", "yt": "6LpkjmE19EI", "where": "12 Jun · Cortijo de Torres, Málaga"},
-    {"act": "Dani Martín", "yt": "Zj2p3njVgng", "where": "13 Jun · Marenostrum, Fuengirola"},
     {"act": "Aitana", "yt": "707fwWdpn5I", "where": "19 Jun · Marenostrum, Fuengirola"},
     {"act": "Ozuna", "yt": "PNk9Zlmuojk", "where": "19 Jun · Starlite, Marbella"},
-    {"act": "Kaiser Chiefs", "yt": "m_KuAVGCSPI", "where": "20 Jun · Marbella Arena"}
+    {"act": "Kaiser Chiefs", "yt": "m_KuAVGCSPI", "where": "20 Jun · Marbella Arena"},
+    {"act": "Kiko Veneno", "yt": "5JeTnZi2wek", "where": "26 Jun · Teatro Cervantes, Málaga"},
+    {"act": "Romeo Santos", "yt": "7KrNh9YaeDg", "where": "26 Jun · Marenostrum, Fuengirola"},
+    {"act": "Lenny Kravitz", "yt": "8LhCd1W2V0Q", "where": "29 Jun · Starlite, Marbella"}
   ]
 }
