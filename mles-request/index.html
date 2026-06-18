@@ -49,10 +49,10 @@
 <div id="gate">
   <div class="gatecard">
     <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <h1>Acceso · Access</h1>
-    <p>Introduce el código que te hemos facilitado.<br>Enter the access code we shared with you.</p>
-    <input id="pw" type="password" autocomplete="off" placeholder="Código · Code" autofocus>
-    <button class="gbtn" onclick="checkPw()">Entrar · Unlock</button>
+    <h1 data-i18n="gate_h">Access</h1>
+    <p data-i18n="gate_p">Enter the access code we shared with you.</p>
+    <input id="pw" type="password" autocomplete="off" data-i18n-ph="gate_ph" placeholder="Code" autofocus>
+    <button class="gbtn" onclick="checkPw()" data-i18n="gate_btn">Unlock</button>
     <div class="gerr" id="gerr"></div>
   </div>
 </div>
@@ -62,59 +62,55 @@
  <div class="wrap">
   <div class="head">
     <img class="logo" src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <h2>ORDER AN MLE SCORE</h2>
+    <h2 data-i18n="form_h">ORDER AN MLE SCORE</h2>
     <div style="margin-top:9px;font-size:13.5px;font-weight:600">
-      <a href="about/" style="color:var(--sea);text-decoration:none">¿Qué es un MLE Score? →</a>
-      &nbsp;·&nbsp;
-      <a href="about/en/" style="color:var(--sea);text-decoration:none">What's an MLE Score? →</a>
+      <a id="aboutLink" href="about/?lang=en" style="color:var(--sea);text-decoration:none" data-i18n="about_link">What's an MLE Score? →</a>
     </div>
   </div>
 
   <div class="promo">
-    <p style="margin:0 0 14px">Envíanos un evento que estés <b>considerando</b> y te devolvemos su <b>MLE Score</b> — la puntuación (0–100) con el porqué, por email en <b>24 h</b>.</p>
-    <p style="margin:0 0 14px;color:var(--muted)">Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within 24h.</p>
-    <p style="margin:0"><b style="font-size:17px">€49</b> por informe / per report.</p>
+    <p style="margin:0 0 14px" data-i18n-html="promo_1">Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within 24h.</p>
+    <p style="margin:0" data-i18n-html="promo_price"><b style="font-size:17px">€49</b> per report.</p>
   </div>
 
   <form class="card" id="mlesForm" onsubmit="return go(event)">
-    <label class="req">Tu nombre <span class="en">/ Your name</span></label>
+    <label class="req" data-i18n="l_name">Your name</label>
     <input name="name" required>
 
-    <label class="req">Sala <span class="en">/ Venue</span></label>
+    <label class="req" data-i18n="l_venue">Venue</label>
     <input name="venue" required>
 
-    <label class="req">Aforo <span class="en">/ Capacity</span></label>
+    <label class="req" data-i18n="l_capacity">Capacity</label>
     <input name="capacity" inputmode="numeric" required>
 
-    <label class="req">Artista que consideras <span class="en">/ Act you're considering</span></label>
+    <label class="req" data-i18n="l_act">Act you're considering</label>
     <input name="act" required>
 
-    <label class="req">Fecha — opción 1 <span class="en">/ Date — option 1</span></label>
+    <label class="req" data-i18n="l_date1">Date — option 1</label>
     <input name="date1" type="date" required>
     <div class="row">
       <div>
-        <label>Opción 2 <span class="en">/ Option 2</span></label>
+        <label data-i18n="l_date2">Option 2</label>
         <input name="date2" type="date">
       </div>
       <div>
-        <label>Opción 3 <span class="en">/ Option 3</span></label>
+        <label data-i18n="l_date3">Option 3</label>
         <input name="date3" type="date">
       </div>
     </div>
-    <div class="hint">Añade 2–3 fechas y comparamos cuál rinde mejor. / Add 2–3 dates and we'll compare which draws best.</div>
+    <div class="hint" data-i18n="l_hint">Add 2–3 dates and we'll compare which draws best.</div>
 
-    <label class="req">Precio de entrada <span class="en">/ Ticket price (o "gratis" / or "free")</span></label>
+    <label class="req" data-i18n="l_price">Ticket price (or "free")</label>
     <input name="price" required>
 
-    <label>Notas — exclusividad, teloneros, ¿interior o al aire libre? <span class="en">/ Notes — exclusivity, support acts, indoor or open-air</span></label>
-    <textarea name="notes" placeholder="p. ej. única fecha en España, aniversario, telonero…"></textarea>
+    <label data-i18n="l_notes">Notes — exclusivity, support acts, indoor or open-air</label>
+    <textarea name="notes" data-i18n-ph="ph_notes" placeholder="e.g. only Spanish date, anniversary, support act…"></textarea>
 
-    <label class="req">Email de contacto <span class="en">/ Contact email (entrega del informe)</span></label>
+    <label class="req" data-i18n="l_email">Contact email (report delivery)</label>
     <input name="email" type="email" required>
 
-    <button class="submit" type="submit">Continuar al pago · Continue to payment — €49 →</button>
-    <div class="foot">
-      Pago seguro con Stripe. El MLE Score es una herramienta para tomar decisiones, no una garantía de resultado.<br>
+    <button class="submit" type="submit" data-i18n="submit_btn">Continue to payment — €49 →</button>
+    <div class="foot" data-i18n="foot">
       Secure payment via Stripe. The MLE Score is a decision-making tool and not a guarantee of outcome.
     </div>
   </form>
@@ -128,14 +124,14 @@
   function checkPw(){
     var v=(document.getElementById('pw').value||'').trim().toLowerCase();
     if(v==='mles'){ localStorage.setItem('mlesAccess','1'); gateOpen(); }
-    else { document.getElementById('gerr').textContent='Código incorrecto · Incorrect code'; }
+    else { document.getElementById('gerr').textContent=(window.MLT&&window.MLT.gerr)||'Incorrect code'; }
   }
   document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter') checkPw(); });
   // submit -> create request in Airtable + open Stripe Checkout (€49)
   async function go(e){
     e.preventDefault();
     var f=e.target, btn=f.querySelector('.submit'), old=btn.textContent;
-    btn.disabled=true; btn.textContent='Un momento… · One moment…';
+    btn.disabled=true; btn.textContent=(window.MLT&&window.MLT.moment)||'One moment…';
     var data={};
     ['name','venue','capacity','act','date1','date2','date3','price','notes','email']
       .forEach(function(k){ var el=f.elements[k]; if(el) data[k]=el.value; });
@@ -147,11 +143,143 @@
       if(j && j.url){ window.location.href=j.url; return false; }
       throw new Error((j && j.error) || 'error');
     }catch(err){
-      alert('No se pudo iniciar el pago, inténtalo de nuevo. · Could not start checkout, please try again.');
+      alert((window.MLT&&window.MLT.checkout_err)||'Could not start checkout, please try again.');
       btn.disabled=false; btn.textContent=old;
     }
     return false;
   }
+
+  // ---- Localization (single language via ?lang=) ----
+  const I18N = {
+    en:{
+      gate_h:"Access", gate_p:"Enter the access code we shared with you.", gate_ph:"Code", gate_btn:"Unlock",
+      gerr:"Incorrect code", moment:"One moment…", checkout_err:"Could not start checkout, please try again.",
+      form_h:"ORDER AN MLE SCORE", about_link:"What's an MLE Score? →",
+      promo_1:"Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within <b>24h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per report.",
+      l_name:"Your name", l_venue:"Venue", l_capacity:"Capacity", l_act:"Act you're considering",
+      l_date1:"Date — option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Add 2–3 dates and we'll compare which draws best.",
+      l_price:"Ticket price (or \"free\")", l_notes:"Notes — exclusivity, support acts, indoor or open-air",
+      ph_notes:"e.g. only Spanish date, anniversary, support act…",
+      l_email:"Contact email (report delivery)", submit_btn:"Continue to payment — €49 →",
+      foot:"Secure payment via Stripe. The MLE Score is a decision-making tool, not a guarantee of outcome."
+    },
+    es:{
+      gate_h:"Acceso", gate_p:"Introduce el código que te hemos facilitado.", gate_ph:"Código", gate_btn:"Entrar",
+      gerr:"Código incorrecto", moment:"Un momento…", checkout_err:"No se pudo iniciar el pago, inténtalo de nuevo.",
+      form_h:"PIDE UN MLE SCORE", about_link:"¿Qué es un MLE Score? →",
+      promo_1:"Envíanos un evento que estés <b>considerando</b> y te devolvemos su <b>MLE Score</b> — la puntuación (0–100) con el porqué, por email en <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> por informe.",
+      l_name:"Tu nombre", l_venue:"Sala", l_capacity:"Aforo", l_act:"Artista que consideras",
+      l_date1:"Fecha — opción 1", l_date2:"Opción 2", l_date3:"Opción 3",
+      l_hint:"Añade 2–3 fechas y comparamos cuál rinde mejor.",
+      l_price:"Precio de entrada (o \"gratis\")", l_notes:"Notas — exclusividad, teloneros, ¿interior o al aire libre?",
+      ph_notes:"p. ej. única fecha en España, aniversario, telonero…",
+      l_email:"Email de contacto (entrega del informe)", submit_btn:"Continuar al pago — €49 →",
+      foot:"Pago seguro con Stripe. El MLE Score es una herramienta para tomar decisiones, no una garantía de resultado."
+    },
+    de:{
+      gate_h:"Zugang", gate_p:"Gib den Zugangscode ein, den wir dir mitgeteilt haben.", gate_ph:"Code", gate_btn:"Entsperren",
+      gerr:"Falscher Code", moment:"Einen Moment…", checkout_err:"Die Zahlung konnte nicht gestartet werden. Bitte versuche es erneut.",
+      form_h:"MLE SCORE BESTELLEN", about_link:"Was ist ein MLE Score? →",
+      promo_1:"Schick uns einen Act, den du <b>in Erwägung ziehst</b>, und wir liefern dir seinen <b>MLE Score</b> — die Bewertung (0–100) samt Begründung, per E-Mail innerhalb von <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> pro Bericht.",
+      l_name:"Dein Name", l_venue:"Veranstaltungsort", l_capacity:"Kapazität", l_act:"Act, den du in Erwägung ziehst",
+      l_date1:"Datum — Option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Gib 2–3 Termine an und wir vergleichen, welcher am besten zieht.",
+      l_price:"Ticketpreis (oder \"gratis\")", l_notes:"Hinweise — Exklusivität, Vorbands, drinnen oder unter freiem Himmel?",
+      ph_notes:"z. B. einziges Spanien-Date, Jubiläum, Vorband…",
+      l_email:"Kontakt-E-Mail (Berichtszustellung)", submit_btn:"Weiter zur Zahlung — €49 →",
+      foot:"Sichere Zahlung über Stripe. Der MLE Score ist ein Werkzeug zur Entscheidungsfindung, keine Erfolgsgarantie."
+    },
+    fr:{
+      gate_h:"Accès", gate_p:"Saisis le code d'accès que nous t'avons communiqué.", gate_ph:"Code", gate_btn:"Déverrouiller",
+      gerr:"Code incorrect", moment:"Un instant…", checkout_err:"Impossible de lancer le paiement, réessaie.",
+      form_h:"COMMANDER UN MLE SCORE", about_link:"Qu'est-ce qu'un MLE Score ? →",
+      promo_1:"Envoie-nous un événement que tu <b>envisages</b> et nous te renvoyons son <b>MLE Score</b> — le score (0–100) avec les raisons, par e-mail sous <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> par rapport.",
+      l_name:"Ton nom", l_venue:"Salle", l_capacity:"Capacité", l_act:"Artiste que tu envisages",
+      l_date1:"Date — option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Ajoute 2–3 dates et nous comparons celle qui attire le mieux.",
+      l_price:"Prix du billet (ou \"gratuit\")", l_notes:"Notes — exclusivité, premières parties, en salle ou en plein air ?",
+      ph_notes:"ex. seule date en Espagne, anniversaire, première partie…",
+      l_email:"E-mail de contact (envoi du rapport)", submit_btn:"Continuer vers le paiement — €49 →",
+      foot:"Paiement sécurisé via Stripe. Le MLE Score est un outil d'aide à la décision, pas une garantie de résultat."
+    },
+    sv:{
+      gate_h:"Åtkomst", gate_p:"Ange åtkomstkoden vi delade med dig.", gate_ph:"Kod", gate_btn:"Lås upp",
+      gerr:"Fel kod", moment:"Ett ögonblick…", checkout_err:"Det gick inte att starta betalningen, försök igen.",
+      form_h:"BESTÄLL ETT MLE SCORE", about_link:"Vad är ett MLE Score? →",
+      promo_1:"Skicka oss ett evenemang du <b>överväger</b> så återkommer vi med dess <b>MLE Score</b> — poängen (0–100) med motiveringen, via mejl inom <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per rapport.",
+      l_name:"Ditt namn", l_venue:"Lokal", l_capacity:"Kapacitet", l_act:"Artist du överväger",
+      l_date1:"Datum — alternativ 1", l_date2:"Alternativ 2", l_date3:"Alternativ 3",
+      l_hint:"Lägg till 2–3 datum så jämför vi vilket som drar bäst.",
+      l_price:"Biljettpris (eller \"gratis\")", l_notes:"Anteckningar — exklusivitet, förband, inomhus eller utomhus?",
+      ph_notes:"t.ex. enda datum i Spanien, jubileum, förband…",
+      l_email:"Kontaktmejl (leverans av rapport)", submit_btn:"Fortsätt till betalning — €49 →",
+      foot:"Säker betalning via Stripe. MLE Score är ett verktyg för beslutsfattande, inte en garanti för utfall."
+    },
+    no:{
+      gate_h:"Tilgang", gate_p:"Skriv inn tilgangskoden vi delte med deg.", gate_ph:"Kode", gate_btn:"Lås opp",
+      gerr:"Feil kode", moment:"Et øyeblikk…", checkout_err:"Kunne ikke starte betalingen, prøv igjen.",
+      form_h:"BESTILL ET MLE SCORE", about_link:"Hva er et MLE Score? →",
+      promo_1:"Send oss et arrangement du <b>vurderer</b>, så returnerer vi dets <b>MLE Score</b> — poengsummen (0–100) med begrunnelsen, på e-post innen <b>24 t</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per rapport.",
+      l_name:"Ditt navn", l_venue:"Lokale", l_capacity:"Kapasitet", l_act:"Artist du vurderer",
+      l_date1:"Dato — alternativ 1", l_date2:"Alternativ 2", l_date3:"Alternativ 3",
+      l_hint:"Legg til 2–3 datoer, så sammenligner vi hvilken som trekker best.",
+      l_price:"Billettpris (eller \"gratis\")", l_notes:"Notater — eksklusivitet, oppvarmingsartister, innendørs eller utendørs?",
+      ph_notes:"f.eks. eneste dato i Spania, jubileum, oppvarming…",
+      l_email:"Kontakt-e-post (levering av rapport)", submit_btn:"Fortsett til betaling — €49 →",
+      foot:"Sikker betaling via Stripe. MLE Score er et verktøy for beslutninger, ikke en garanti for utfall."
+    },
+    da:{
+      gate_h:"Adgang", gate_p:"Indtast den adgangskode, vi har delt med dig.", gate_ph:"Kode", gate_btn:"Lås op",
+      gerr:"Forkert kode", moment:"Et øjeblik…", checkout_err:"Betalingen kunne ikke startes, prøv igen.",
+      form_h:"BESTIL ET MLE SCORE", about_link:"Hvad er et MLE Score? →",
+      promo_1:"Send os et arrangement, du <b>overvejer</b>, så returnerer vi dets <b>MLE Score</b> — scoren (0–100) med begrundelsen, på e-mail inden for <b>24 t</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> pr. rapport.",
+      l_name:"Dit navn", l_venue:"Spillested", l_capacity:"Kapacitet", l_act:"Artist du overvejer",
+      l_date1:"Dato — mulighed 1", l_date2:"Mulighed 2", l_date3:"Mulighed 3",
+      l_hint:"Tilføj 2–3 datoer, så sammenligner vi, hvilken der trækker bedst.",
+      l_price:"Billetpris (eller \"gratis\")", l_notes:"Noter — eksklusivitet, opvarmningsnavne, indendørs eller udendørs?",
+      ph_notes:"f.eks. eneste dato i Spanien, jubilæum, opvarmning…",
+      l_email:"Kontakt-e-mail (levering af rapport)", submit_btn:"Fortsæt til betaling — €49 →",
+      foot:"Sikker betaling via Stripe. MLE Score er et værktøj til beslutninger, ikke en garanti for resultatet."
+    },
+    fi:{
+      gate_h:"Pääsy", gate_p:"Syötä jakamamme pääsykoodi.", gate_ph:"Koodi", gate_btn:"Avaa",
+      gerr:"Virheellinen koodi", moment:"Hetki…", checkout_err:"Maksua ei voitu aloittaa, yritä uudelleen.",
+      form_h:"TILAA MLE SCORE", about_link:"Mikä on MLE Score? →",
+      promo_1:"Lähetä meille tapahtuma, jota <b>harkitset</b>, niin palautamme sen <b>MLE Scoren</b> — pisteet (0–100) perusteluineen, sähköpostitse <b>24 tunnissa</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per raportti.",
+      l_name:"Nimesi", l_venue:"Tapahtumapaikka", l_capacity:"Kapasiteetti", l_act:"Artisti, jota harkitset",
+      l_date1:"Päivä — vaihtoehto 1", l_date2:"Vaihtoehto 2", l_date3:"Vaihtoehto 3",
+      l_hint:"Lisää 2–3 päivää, niin vertaamme, mikä vetää parhaiten.",
+      l_price:"Lipun hinta (tai \"ilmainen\")", l_notes:"Huomiot — yksinoikeus, lämmittelijät, sisä- vai ulkotila?",
+      ph_notes:"esim. ainoa Espanjan-keikka, juhlavuosi, lämmittelijä…",
+      l_email:"Yhteyssähköposti (raportin toimitus)", submit_btn:"Jatka maksamaan — €49 →",
+      foot:"Turvallinen maksu Stripen kautta. MLE Score on päätöksenteon työkalu, ei takuu lopputuloksesta."
+    }
+  };
+  (function(){
+    var sp=new URLSearchParams(location.search), lang=(sp.get('lang')||'').toLowerCase();
+    if(!I18N[lang]) lang='en';
+    var t=I18N[lang]; window.MLT=t;
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k=el.getAttribute('data-i18n'); if(t[k]!=null) el.textContent=t[k];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el){
+      var k=el.getAttribute('data-i18n-html'); if(t[k]!=null) el.innerHTML=t[k];
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(function(el){
+      var k=el.getAttribute('data-i18n-ph'); if(t[k]!=null) el.setAttribute('placeholder',t[k]);
+    });
+    var al=document.getElementById('aboutLink'); if(al) al.setAttribute('href','about/?lang='+lang);
+  })();
 </script>
 </body>
 </html>
