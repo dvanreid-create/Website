@@ -13,6 +13,12 @@ const TABLE     = process.env.AIRTABLE_TABLE || "Demand Pre-Checks";
 const SITE      = process.env.SITE_URL       || "https://malagalivepulse.com";
 const PRICE     = parseInt(process.env.PRICE_CENTS || "4900", 10);   // €49.00
 const CURRENCY  = (process.env.CURRENCY || "eur").toLowerCase();
+// VAT/IVA master switch. Leave unset/false until Stripe Tax is fully configured
+// (business origin address + default tax category) AND your EU OSS registration is
+// added under Stripe Tax → Registrations. Set Netlify env STRIPE_TAX_ENABLED="true"
+// to go live — no redeploy needed. Flipping it on before Stripe Tax is configured
+// will cause Checkout Session creation to error and break the live checkout.
+const TAX_ON    = (process.env.STRIPE_TAX_ENABLED || "").trim().toLowerCase() === "true";
 
 const json = (code, obj) => ({
   statusCode: code,
@@ -74,6 +80,8 @@ exports.handler = async (event) => {
   p.append("mode", "payment");
   p.append("payment_method_types[0]", "card");
   p.append("allow_promotion_codes", "true");   // shows "Add promotion code" on Checkout (enables coupons, incl. 100%-off comps)
+  p.append("billing_address_collection", "required");   // capture buyer country on every order (VAT location evidence)
+  p.append("tax_id_collection[enabled]", "true");       // optional VAT-ID field on Checkout → reverse charge for EU businesses
   p.append("line_items[0][quantity]", "1");
   p.append("line_items[0][price_data][currency]", CURRENCY);
   p.append("line_items[0][price_data][unit_amount]", String(PRICE));
@@ -86,6 +94,12 @@ exports.handler = async (event) => {
   p.append("metadata[airtable_id]", recordId);
   p.append("metadata[venue]", venue.slice(0, 200));
   p.append("metadata[act]", act.slice(0, 200));
+
+  // VAT/IVA calculation — only when Stripe Tax + OSS registration are live (see TAX_ON note above).
+  if (TAX_ON) {
+    p.append("automatic_tax[enabled]", "true");                          // Stripe computes/collects the right VAT per buyer location
+    p.append("line_items[0][price_data][tax_behavior]", "exclusive");    // VAT added on top of the €49 (customer pays €49 + IVA)
+  }
 
   let session;
   try {
