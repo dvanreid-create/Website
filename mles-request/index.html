@@ -71,6 +71,7 @@
   <div class="promo">
     <p style="margin:0 0 14px" data-i18n-html="promo_1">Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within 24h.</p>
     <p style="margin:0" data-i18n-html="promo_price"><b style="font-size:17px">€49</b> per report.</p>
+    <p style="margin:14px 0 0"><a id="sampleLink" href="/assets/MLE-Score_SAMPLE_The-Beach-Club.pdf" target="_blank" rel="noopener" style="color:var(--sea);font-weight:700;text-decoration:none" data-i18n="sample_btn">See a sample report →</a></p>
   </div>
 
   <form class="card" id="mlesForm" onsubmit="return go(event)">
@@ -162,7 +163,7 @@
       l_hint:"Add 2–3 dates and we'll compare which draws best.",
       l_price:"Ticket price (or \"free\")", l_notes:"Notes — exclusivity, support acts, indoor or open-air",
       ph_notes:"e.g. only Spanish date, anniversary, support act…",
-      l_email:"Contact email (report delivery)", submit_btn:"Continue to payment — €49 →",
+      l_email:"Contact email (report delivery)", submit_btn:"Continue to payment — €49 →", sample_btn:"See a sample report →",
       foot:"Secure payment via Stripe. The MLE Score is a decision-making tool, not a guarantee of outcome."
     },
     es:{
@@ -176,7 +177,7 @@
       l_hint:"Añade 2–3 fechas y comparamos cuál rinde mejor.",
       l_price:"Precio de entrada (o \"gratis\")", l_notes:"Notas — exclusividad, teloneros, ¿interior o al aire libre?",
       ph_notes:"p. ej. única fecha en España, aniversario, telonero…",
-      l_email:"Email de contacto (entrega del informe)", submit_btn:"Continuar al pago — €49 →",
+      l_email:"Email de contacto (entrega del informe)", submit_btn:"Continuar al pago — €49 →", sample_btn:"Ver un informe de muestra →",
       foot:"Pago seguro con Stripe. El MLE Score es una herramienta para tomar decisiones, no una garantía de resultado."
     },
     de:{
@@ -190,7 +191,7 @@
       l_hint:"Gib 2–3 Termine an und wir vergleichen, welcher am besten zieht.",
       l_price:"Ticketpreis (oder \"gratis\")", l_notes:"Hinweise — Exklusivität, Vorbands, drinnen oder unter freiem Himmel?",
       ph_notes:"z. B. einziges Spanien-Date, Jubiläum, Vorband…",
-      l_email:"Kontakt-E-Mail (Berichtszustellung)", submit_btn:"Weiter zur Zahlung — €49 →",
+      l_email:"Kontakt-E-Mail (Berichtszustellung)", submit_btn:"Weiter zur Zahlung — €49 →", sample_btn:"Beispielbericht ansehen →",
       foot:"Sichere Zahlung über Stripe. Der MLE Score ist ein Werkzeug zur Entscheidungsfindung, keine Erfolgsgarantie."
     },
     fr:{
@@ -204,7 +205,7 @@
       l_hint:"Ajoute 2–3 dates et nous comparons celle qui attire le mieux.",
       l_price:"Prix du billet (ou \"gratuit\")", l_notes:"Notes — exclusivité, premières parties, en salle ou en plein air ?",
       ph_notes:"ex. seule date en Espagne, anniversaire, première partie…",
-      l_email:"E-mail de contact (envoi du rapport)", submit_btn:"Continuer vers le paiement — €49 →",
+      l_email:"E-mail de contact (envoi du rapport)", submit_btn:"Continuer vers le paiement — €49 →", sample_btn:"Voir un exemple de rapport →",
       foot:"Paiement sécurisé via Stripe. Le MLE Score est un outil d'aide à la décision, pas une garantie de résultat."
     },
     sv:{
@@ -218,7 +219,7 @@
       l_hint:"Lägg till 2–3 datum så jämför vi vilket som drar bäst.",
       l_price:"Biljettpris (eller \"gratis\")", l_notes:"Anteckningar — exklusivitet, förband, inomhus eller utomhus?",
       ph_notes:"t.ex. enda datum i Spanien, jubileum, förband…",
-      l_email:"Kontaktmejl (leverans av rapport)", submit_btn:"Fortsätt till betalning — €49 →",
+      l_email:"Kontaktmejl (leverans av rapport)", submit_btn:"Fortsätt till betalning — €49 →", sample_btn:"Se en exempelrapport →",
       foot:"Säker betalning via Stripe. MLE Score är ett verktyg för beslutsfattande, inte en garanti för utfall."
     },
     no:{
@@ -232,7 +233,7 @@
       l_hint:"Legg til 2–3 datoer, så sammenligner vi hvilken som trekker best.",
       l_price:"Billettpris (eller \"gratis\")", l_notes:"Notater — eksklusivitet, oppvarmingsartister, innendørs eller utendørs?",
       ph_notes:"f.eks. eneste dato i Spania, jubileum, oppvarming…",
-      l_email:"Kontakt-e-post (levering av rapport)", submit_btn:"Fortsett til betaling — €49 →",
+      l_email:"Kontakt-e-post (levering av rapport)", submit_btn:"Fortsett til betaling — €49 →", sample_btn:"Se en eksempelrapport →",
       foot:"Sikker betaling via Stripe. MLE Score er et verktøy for beslutninger, ikke en garanti for utfall."
     },
     da:{
@@ -246,7 +247,7 @@
       l_hint:"Tilføj 2–3 datoer, så sammenligner vi, hvilken der trækker bedst.",
       l_price:"Billetpris (eller \"gratis\")", l_notes:"Noter — eksklusivitet, opvarmningsnavne, indendørs eller udendørs?",
       ph_notes:"f.eks. eneste dato i Spanien, jubilæum, opvarmning…",
-      l_email:"Kontakt-e-mail (levering af rapport)", submit_btn:"Fortsæt til betaling — €49 →",
+      l_email:"Kontakt-e-mail (levering af rapport)", submit_btn:"Fortsæt til betaling — €49 →", sample_btn:"Se en eksempelrapport →",
       foot:"Sikker betaling via Stripe. MLE Score er et værktøj til beslutninger, ikke en garanti for resultatet."
     },
     fi:{
@@ -260,7 +261,7 @@
       l_hint:"Lisää 2–3 päivää, niin vertaamme, mikä vetää parhaiten.",
       l_price:"Lipun hinta (tai \"ilmainen\")", l_notes:"Huomiot — yksinoikeus, lämmittelijät, sisä- vai ulkotila?",
       ph_notes:"esim. ainoa Espanjan-keikka, juhlavuosi, lämmittelijä…",
-      l_email:"Yhteyssähköposti (raportin toimitus)", submit_btn:"Jatka maksamaan — €49 →",
+      l_email:"Yhteyssähköposti (raportin toimitus)", submit_btn:"Jatka maksamaan — €49 →", sample_btn:"Katso esimerkkiraportti →",
       foot:"Turvallinen maksu Stripen kautta. MLE Score on päätöksenteon työkalu, ei takuu lopputuloksesta."
     }
   };
