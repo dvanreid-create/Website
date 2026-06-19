@@ -73,6 +73,7 @@ exports.handler = async (event) => {
   const p = new URLSearchParams();
   p.append("mode", "payment");
   p.append("payment_method_types[0]", "card");
+  p.append("allow_promotion_codes", "true");   // shows "Add promotion code" on Checkout (enables coupons, incl. 100%-off comps)
   p.append("line_items[0][quantity]", "1");
   p.append("line_items[0][price_data][currency]", CURRENCY);
   p.append("line_items[0][price_data][unit_amount]", String(PRICE));
