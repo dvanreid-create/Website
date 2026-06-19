@@ -39,18 +39,20 @@
   .wrap{max-width:720px;margin:0 auto;padding:0 18px 64px;}
   header.site{background:#fff;border-bottom:1px solid var(--line);position:relative;}
   .head-in{max-width:720px;margin:0 auto;padding:22px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
-  .mleswrap{margin-left:auto;position:relative;display:inline-flex;flex-direction:column;align-items:center;z-index:200}
+  .hdrpills{margin-left:auto;display:inline-flex;flex-direction:column;align-items:center;z-index:200}
+  .pillrow{display:flex;gap:10px;align-items:flex-start;}
+  .mleswrap{position:relative;display:inline-flex;flex-direction:column;align-items:center;}
   .mlesreq{text-decoration:none;color:#fff;background:var(--coral);padding:7px 18px;border-radius:9px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1.12;text-align:center;}
   .mlesreq .mr-top{font-weight:500;font-size:11px;letter-spacing:.3px}
   .mlesreq .mr-main{font-weight:700;font-size:16px}
-  .mr-cap{font-size:9px;font-weight:500;color:var(--navy);opacity:.7;letter-spacing:.3px;margin-top:3px;white-space:nowrap;text-align:center}
+  .mr-cap{font-size:11px;font-weight:500;color:var(--navy);opacity:.75;letter-spacing:.3px;margin-top:6px;max-width:280px;text-align:center}
   .mlesreq:hover{background:#cf551f;}
   .mlespop{position:absolute;top:calc(100% + 10px);right:0;width:344px;max-width:86vw;background:#fff;color:#2f3b46;border:1px solid #e2e6ea;border-radius:12px;box-shadow:0 14px 36px rgba(20,40,60,.20);padding:14px 16px;z-index:80;text-align:left;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .16s ease,transform .16s ease;pointer-events:none}
   .mlespop p{margin:0;font-size:12.5px;line-height:1.55;color:#2f3b46;font-weight:400}
   .mlespop b{font-weight:700;color:var(--navy)}
   .mlespop b.hot{color:var(--coral)}
   .mleswrap:hover .mlespop,.mlesreq:focus + .mlespop{opacity:1;visibility:visible;transform:translateY(0)}
-  @media(min-width:1280px){.mleswrap{position:absolute;top:36px;right:calc((100vw - 720px)/2 - 266px);margin:0;}}
+  @media(min-width:1280px){.hdrpills{position:absolute;top:36px;right:calc((100vw - 720px)/2 - 266px);margin:0;}}
   .badge{width:56px;height:56px;border-radius:13px;background:var(--sea);display:flex;align-items:center;justify-content:center;flex:none;}
   .wm{font-family:'Anton',sans-serif;font-size:38px;letter-spacing:1px;line-height:1;}
   .tagline{flex-basis:100%;font-size:12.5px;font-weight:500;letter-spacing:1.5px;color:var(--navy);text-transform:uppercase;margin-top:2px;}
