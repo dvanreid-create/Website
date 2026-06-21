@@ -158,7 +158,7 @@
   .wa-btn:hover{background:#1ebe57;}
   /* Málaga Live TV — 16:9 feature, rotates through upcoming acts; click-to-play (no autoload) */
   .mltv{background:var(--navy);border-radius:14px;padding:16px 16px 14px;margin:14px 0 6px;}
-  .mltv-head{display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
+  .mltv-head{position:relative;min-height:60px;display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
   .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:12px 0 0;}
   .mltv-inner{max-width:520px;margin:14px auto 0;}
   .mltv-logo{font-family:'Anton',sans-serif;line-height:.9;display:inline-flex;align-items:flex-start;position:relative;white-space:nowrap;font-size:38px;}
@@ -166,9 +166,9 @@
   .mltv-logo .mlg-l{color:#E8662A;position:relative;}
   .mltv-logo .mlg-tv{position:absolute;font-size:.35em;right:-1.19em;bottom:-.76em;color:#fff;letter-spacing:.05em;line-height:1;transform:rotate(38deg);transform-origin:top left;}
   .mltv-dot{width:9px;height:9px;border-radius:50%;background:#E8662A;animation:mlpulse 1.8s infinite;margin-top:13px;}
-  .mltv-pres{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;font-family:'Inter',sans-serif;margin:2px 0 12px;}
-  .mltv-pres-l{font-size:9.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgba(255,255,255,.55);}
-  .mltv-pres img{height:38px;width:auto;display:block;}
+  .mltv-pres{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:row;align-items:flex-end;gap:9px;text-decoration:none;font-family:'Inter',sans-serif;}
+  .mltv-pres-l{font-size:8.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgba(255,255,255,.55);}
+  .mltv-pres img{height:54px;width:auto;display:block;}
   .mltv-pres-n{font-size:29px;font-weight:700;color:#fff;letter-spacing:.3px;}
   @keyframes mlpulse{0%{box-shadow:0 0 0 0 rgba(232,102,42,.55)}70%{box-shadow:0 0 0 9px rgba(232,102,42,0)}100%{box-shadow:0 0 0 0 rgba(232,102,42,0)}}
   .mltv-stage{position:relative;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0a2230;margin:6px 0 0;}
