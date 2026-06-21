@@ -31,7 +31,7 @@
 <meta name="twitter:title" content="Le pouls de la musique live · Málaga ville &amp; Costa del Sol — Málaga Live">
 <meta name="twitter:description" content="Le pouls de la musique live · Málaga ville &amp; Costa del Sol">
 <meta name="twitter:image" content="https://malagalivepulse.com/assets/og-default.png">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap">
 <style>
   :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--amber:#EF9F27;--bg:#f7f8f9;--line:#e4e8eb;--muted:#5f6b78;}
   *{box-sizing:border-box;}
@@ -158,8 +158,8 @@
   .wa-btn:hover{background:#1ebe57;}
   /* Málaga Live TV — 16:9 feature, rotates through upcoming acts; click-to-play (no autoload) */
   .mltv{background:var(--navy);border-radius:14px;padding:16px 16px 14px;margin:14px 0 6px;}
-  .mltv-head{position:relative;min-height:60px;display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
-  .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:12px 0 0;}
+  .mltv-head{display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
+  .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:0 0 3px;}
   .mltv-inner{max-width:520px;margin:14px auto 0;}
   .mltv-logo{font-family:'Anton',sans-serif;line-height:.9;display:inline-flex;align-items:flex-start;position:relative;white-space:nowrap;font-size:38px;}
   .mltv-logo .mlg-m{color:#fff;}
@@ -168,11 +168,24 @@
   .mltv-dot{width:9px;height:9px;border-radius:50%;background:#E8662A;animation:mlpulse 1.8s infinite;margin-top:13px;}
   .mltv-pres{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:row;align-items:flex-end;gap:9px;text-decoration:none;font-family:'Inter',sans-serif;}
   .mltv-pres-l{font-size:8.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgba(255,255,255,.55);}
-  .mltv-pres img{height:64px;width:auto;display:block;}
+  .mltv-pres img{max-height:64px;max-width:200px;width:auto;height:auto;object-fit:contain;display:block;}
   .mltv-pres-n{font-size:29px;font-weight:700;color:#fff;letter-spacing:.3px;}
   @keyframes mlpulse{0%{box-shadow:0 0 0 0 rgba(232,102,42,.55)}70%{box-shadow:0 0 0 9px rgba(232,102,42,0)}100%{box-shadow:0 0 0 0 rgba(232,102,42,0)}}
   .mltv-stage{position:relative;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0a2230;margin:6px 0 0;}
   .mltv-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .mltv-ad{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none;background:radial-gradient(120% 120% at 50% 34%,#1d5067 0%,#0c2331 72%);background-size:cover;background-position:center;padding:14px;text-align:center;}
+  .mltv-ad-tag{position:absolute;top:10px;right:12px;font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.9);background:rgba(10,20,28,.34);padding:3px 9px;border-radius:20px;}
+  .mltv-ad-logo{max-height:40%;max-width:74%;width:auto;height:auto;object-fit:contain;display:block;}
+  .mltv-ad-name{font-family:'Anton',sans-serif;font-size:30px;letter-spacing:2px;color:#fff;}
+  .mltv-ad-cta{margin-top:14px;font-family:'Inter',sans-serif;font-size:12px;font-weight:600;color:#0c2331;background:#fff;padding:6px 15px;border-radius:20px;}
+  .mltv-chip-ad{background:rgba(239,159,39,.18);border-color:rgba(239,159,39,.5);color:#f6c87a;}
+  .mltv-ad-by{font-family:'Inter',sans-serif;font-size:9px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:8px;}
+  .mltv-ad-tagline{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:600;color:#fff;line-height:1;margin-top:8px;}
+  .mltv-ad-light .mltv-ad-by{color:#9a7a55;}
+  .mltv-ad-light .mltv-ad-tagline{color:#b0764e;}
+  .mltv-ad-light .mltv-ad-name{color:#9a5f3b;}
+  .mltv-ad-light .mltv-ad-cta{background:#b0764e;color:#fff;}
+  .mltv-ad-light .mltv-ad-tag{color:#5a4632;background:rgba(255,255,255,.5);}
   .mltv-face{position:absolute;inset:0;width:100%;height:100%;border:0;cursor:pointer;background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:0;}
   .mltv-face::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,34,48,.82),rgba(10,34,48,0) 55%);}
   .mltv-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:rgba(232,102,42,.92);}
@@ -207,7 +220,7 @@
 <div class="wrap">
 <section class="signup" id="suscribir"><div class="su-head">Les concerts de la semaine dans ta boîte mail</div><form class="su-form" data-l="fr" action="https://assets.mailerlite.com/jsonp/2414137/forms/189622309410047277/subscribe" method="post"><div class="su-row" id="row_fr"><input type="email" name="fields[email]" required placeholder="Ton e-mail" aria-label="Ton e-mail"><button type="submit">S&#x27;abonner</button></div><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><div class="su-note">Newsletter hebdomadaire gratuite. Désabonnement à tout moment.</div><div class="su-ok" id="ok_fr" hidden>Merci ! Vérifie ta boîte mail pour confirmer l&#x27;inscription.</div></form></section>
 <div class="langrow"><select id="langsel" aria-label="Language"><option value="en">English</option><option value="es">Español</option><option value="de">Deutsch</option><option value="fr" selected>Français</option><option value="sv">Svenska</option><option value="no">Norsk</option><option value="da">Dansk</option><option value="fi">Suomi</option></select></div>
-<section class="mltv" id="mltv" hidden><div class="mltv-head"><span class="mltv-dot"></span><span class="mltv-logo"><span class="mlg-m">M</span><span class="mlg-l">L<span class="mlg-tv">TV</span></span></span><a class="mltv-pres" href="https://www.kovabeachclub.com" target="_blank" rel="noopener"><span class="mltv-pres-l">Sponsorisé par</span><img src="/assets/sponsors/kova-logo.png" alt="Kova Beach Club"></a></div><div class="mltv-inner"><div class="mltv-stage" id="mltvStage"></div><div class="mltv-sub">Regarde-les avant d&#x27;y aller</div><div class="mltv-chips" id="mltvChips"></div></div></section>
+<section class="mltv" id="mltv" hidden><div class="mltv-head"><span class="mltv-dot"></span><span class="mltv-logo"><span class="mlg-m">M</span><span class="mlg-l">L<span class="mlg-tv">TV</span></span></span></div><div class="mltv-inner"><div class="mltv-sub">Regarde-les avant d&#x27;y aller</div><div class="mltv-stage" id="mltvStage"></div><div class="mltv-chips" id="mltvChips"></div></div></section>
 <div class="subbar"><span class="count">28 ÉVÉNEMENTS MUSICAUX · 21 JUIN–4 JUIL. 2026</span></div>
 <div class="filterbar"><input type="text" class="search" id="searchf" placeholder="Rechercher artiste ou lieu" aria-label="Rechercher artiste ou lieu"><div class="fchips" role="group"><button type="button" class="fchip" id="pToday" data-mode="today">Aujourd&#x27;hui</button><button type="button" class="fchip" id="pWeekend" data-mode="weekend">Ce week-end</button><button type="button" class="fchip" id="pWeek" data-mode="week">Cette semaine</button></div><select id="datef"><option value="">Toutes les dates</option>
 <option value="2026-06-21">dim. 21 juin</option>
@@ -325,17 +338,19 @@ window.addEventListener('resize',syncH);setTimeout(syncH,300);
 
 (function(){var stage=document.getElementById('mltvStage'),chips=document.getElementById('mltvChips'),sec=document.getElementById('mltv');
 if(!stage||!chips)return;
+var AD={"name": "Kova Beach Club", "url": "https://www.kovabeachclub.com", "host": "kovabeachclub.com", "logo": "/assets/sponsors/kova-logo.png", "ad": "", "adbg": "#ece3d3", "tagline": "It's Better by The Beach", "light": true},SB="Sponsoris\u00e9 par";
 fetch('/tv.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
 if(!d||!d.clips||!d.clips.length)return;
-var clips=d.clips,cur=0,timer=null,playing=false,playTok=0;
-function show(i,play){cur=i;var c=clips[i];stage.innerHTML='';
+var clips=d.clips,cur=0,timer=null,playing=false,playTok=0,n=clips.length+(AD?1:0);
+function show(i,play){cur=i;stage.innerHTML='';if(AD&&i===clips.length){var a=document.createElement('a');a.className='mltv-ad';a.href=AD.url;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Sponsored: '+AD.name);if(AD.light)a.className='mltv-ad mltv-ad-light';var inner='';if(AD.ad){a.className=a.className+' mltv-ad-img';a.style.backgroundImage='url('+AD.ad+')';inner='<span class='mltv-ad-tag'>Sponsored</span>';}else{if(AD.adbg)a.style.background=AD.adbg;inner='<span class='mltv-ad-by'>'+SB+'</span>'+(AD.logo?'<img class='mltv-ad-logo' src=''+AD.logo+'' alt=''+AD.name+''>':'<span class='mltv-ad-name'>'+AD.name+'</span>')+(AD.tagline?'<span class='mltv-ad-tagline'>'+AD.tagline+'</span>':'')+'<span class='mltv-ad-cta'>Visit '+AD.host+'</span>';}a.innerHTML=inner;a.onclick=function(){try{window.plausible&&window.plausible('TV ad click',{props:{sponsor:AD.name}})}catch(e){}};stage.appendChild(a);try{window.plausible&&window.plausible('TV ad view',{props:{sponsor:AD.name}})}catch(e){}mark();return;}var c=clips[i];
 if(play){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+c.yt+'?autoplay=1&rel=0';f.title=c.act;f.allow='autoplay; encrypted-media; fullscreen';f.allowFullscreen=true;stage.appendChild(f);playing=true;if(timer){clearInterval(timer);timer=null;}try{window.plausible&&window.plausible('TV play',{props:{act:c.act}})}catch(e){}playTok++;var myTok=playTok,wact=c.act;[15,30,60].forEach(function(ss){setTimeout(function(){if(playing&&myTok===playTok){try{window.plausible&&window.plausible('TV watch',{props:{act:wact,sec:ss}})}catch(e){}}},ss*1000);});}
 else{var b=document.createElement('button');b.className='mltv-face';b.setAttribute('aria-label',c.act);b.style.backgroundImage='url(https://i.ytimg.com/vi/'+c.yt+'/hqdefault.jpg)';var p=document.createElement('span');p.className='mltv-play';var cap=document.createElement('span');cap.className='mltv-cap';var t=document.createElement('b');t.textContent=c.act;cap.appendChild(t);if(c.where){var w=document.createElement('i');w.textContent=c.where;cap.appendChild(w);}b.appendChild(p);b.appendChild(cap);b.onclick=function(){show(cur,true);mark();};stage.appendChild(b);}
 mark();}
 function mark(){for(var j=0;j<chips.children.length;j++){chips.children[j].setAttribute('aria-current',j===cur?'true':'false');}}
 clips.forEach(function(c,j){var b=document.createElement('button');b.className='mltv-chip';b.textContent=c.act;b.onclick=function(){playing=false;show(j,false);};chips.appendChild(b);});
+if(AD){var ab=document.createElement('button');ab.className='mltv-chip mltv-chip-ad';ab.textContent='★ '+AD.name;ab.onclick=function(){playing=false;show(clips.length,false);};chips.appendChild(ab);}
 show(0,false);sec.hidden=false;
-timer=setInterval(function(){if(playing)return;show((cur+1)%clips.length,false);},6000);
+timer=setInterval(function(){if(playing)return;show((cur+1)%n,false);},6000);
 }).catch(function(){});})();
 </script>
 <a class="wa-btn" href="https://wa.me/34652977696" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 4C9.93 4 4.98 8.95 4.98 15.06c0 2.05.56 4.04 1.62 5.79L4 28l7.32-2.55c1.66.91 3.53 1.39 5.43 1.39h.01c6.11 0 11.06-4.95 11.06-11.06C27.11 8.95 22.15 4 16.04 4zm0 20.2c-1.62 0-3.2-.44-4.58-1.26l-.33-.2-3.4 1.18 1.16-3.31-.21-.34a9.13 9.13 0 0 1-1.4-4.85c0-5.06 4.12-9.18 9.19-9.18 2.45 0 4.76.96 6.49 2.7a9.13 9.13 0 0 1 2.69 6.49c0 5.06-4.12 9.17-9.19 9.17zm5.04-6.87c-.28-.14-1.63-.8-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.59.07-.28-.14-1.17-.43-2.22-1.37-.82-.73-1.37-1.63-1.53-1.91-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.47-.84-2.01-.22-.53-.44-.46-.61-.46l-.52-.01c-.18 0-.46.07-.7.35-.25.28-.93.91-.93 2.22 0 1.31.96 2.58 1.09 2.76.14.18 1.88 2.87 4.55 4.02.64.27 1.13.44 1.52.56.64.2 1.22.17 1.68.1.51-.08 1.63-.67 1.86-1.31.23-.64.23-1.19.16-1.31-.07-.11-.25-.18-.53-.32z"/></svg></a>
