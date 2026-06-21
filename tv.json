@@ -1,10 +1,34 @@
 {
   "clips": [
-    {"act": "Aitana", "yt": "707fwWdpn5I", "where": "19 Jun · Marenostrum, Fuengirola"},
-    {"act": "Ozuna", "yt": "PNk9Zlmuojk", "where": "19 Jun · Starlite, Marbella"},
-    {"act": "Kaiser Chiefs", "yt": "m_KuAVGCSPI", "where": "20 Jun · Marbella Arena"},
-    {"act": "Kiko Veneno", "yt": "5JeTnZi2wek", "where": "26 Jun · Teatro Cervantes, Málaga"},
-    {"act": "Romeo Santos", "yt": "7KrNh9YaeDg", "where": "26 Jun · Marenostrum, Fuengirola"},
-    {"act": "Lenny Kravitz", "yt": "8LhCd1W2V0Q", "where": "29 Jun · Starlite, Marbella"}
+    {
+      "act": "Kiko Veneno",
+      "yt": "5JeTnZi2wek",
+      "where": "26 Jun · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Romeo Santos",
+      "yt": "7KrNh9YaeDg",
+      "where": "26 Jun · Marenostrum, Fuengirola"
+    },
+    {
+      "act": "La Oreja de Van Gogh",
+      "yt": "nYnLVWXmRm8",
+      "where": "27 Jun · Marenostrum, Fuengirola"
+    },
+    {
+      "act": "Lenny Kravitz",
+      "yt": "8LhCd1W2V0Q",
+      "where": "29 Jun · Starlite, Marbella"
+    },
+    {
+      "act": "Gipsy Kings",
+      "yt": "7qbEt_lSib4",
+      "where": "3 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Danny Ocean",
+      "yt": "LbKcHy9cav0",
+      "where": "4 Jul · Starlite, Marbella"
+    }
   ]
 }
