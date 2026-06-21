@@ -9,7 +9,7 @@
 
 const crypto = require("crypto");
 const BASE  = process.env.AIRTABLE_BASE  || "appRFxS65uKsCxc03";
-const TABLE = process.env.AIRTABLE_TABLE || "Demand Pre-Checks";
+const TABLE = process.env.AIRTABLE_TABLE || "tblDbA3hnC8AtHeCw"   /* table ID = rename-proof (was "Demand Pre-Checks") */;
 
 exports.handler = async (event) => {
   const secret = process.env.STRIPE_WEBHOOK_SECRET;
@@ -35,12 +35,31 @@ exports.handler = async (event) => {
   if (evt.type === "checkout.session.completed") {
     const s = evt.data.object || {};
     const recId = (s.metadata && s.metadata.airtable_id) || s.client_reference_id;
+
+    // Best-effort: capture the promotion code used (for comp tracking). MUST NOT block the Paid update.
+    let promoCode = "";
+    try {
+      const skey = process.env.STRIPE_SECRET_KEY;
+      if (skey && s.id) {
+        const sr = await fetch("https://api.stripe.com/v1/checkout/sessions/" + encodeURIComponent(s.id) + "?expand[]=discounts.promotion_code", {
+          headers: { Authorization: "Bearer " + skey }
+        });
+        if (sr.ok) {
+          const full = await sr.json();
+          const d = (full.discounts && full.discounts[0]) || null;
+          if (d) promoCode = (d.promotion_code && d.promotion_code.code) || (d.coupon && (d.coupon.name || d.coupon.id)) || "";
+        }
+      }
+    } catch (e) { console.warn("promo capture skipped", e && e.message); }
+
     if (recId) {
       try {
+        const fields = { "Payment": "Paid", "Status": "Awaiting MLES" };
+        if (promoCode) fields["Promo code"] = promoCode;
         const ar = await fetch("https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) + "/" + recId, {
           method: "PATCH",
           headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
-          body: JSON.stringify({ fields: { "Payment": "Paid", "Status": "Awaiting MLES" } })
+          body: JSON.stringify({ fields: fields })
         });
         if (!ar.ok) {
           // Return non-2xx so Stripe retries; otherwise a paid order can silently fail to reach "Awaiting MLES".
