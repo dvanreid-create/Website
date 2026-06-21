@@ -159,17 +159,17 @@
   /* Málaga Live TV — 16:9 feature, rotates through upcoming acts; click-to-play (no autoload) */
   .mltv{background:var(--navy);border-radius:14px;padding:16px 16px 14px;margin:14px 0 6px;}
   .mltv-head{display:flex;align-items:flex-start;gap:10px;font-family:'Anton',sans-serif;font-size:16px;letter-spacing:.6px;color:#fff;}
-  .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:0 0 3px;}
+  .mltv-sub{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:12px 0 0;}
   .mltv-inner{max-width:520px;margin:14px auto 0;}
   .mltv-logo{font-family:'Anton',sans-serif;line-height:.9;display:inline-flex;align-items:flex-start;position:relative;white-space:nowrap;font-size:38px;}
   .mltv-logo .mlg-m{color:#fff;}
   .mltv-logo .mlg-l{color:#E8662A;position:relative;}
   .mltv-logo .mlg-tv{position:absolute;font-size:.35em;right:-1.19em;bottom:-.76em;color:#fff;letter-spacing:.05em;line-height:1;transform:rotate(38deg);transform-origin:top left;}
   .mltv-dot{width:9px;height:9px;border-radius:50%;background:#E8662A;animation:mlpulse 1.8s infinite;margin-top:13px;}
-  .mltv-pres{margin-left:auto;display:inline-flex;align-items:baseline;gap:7px;text-decoration:none;font-family:'Inter',sans-serif;}
-  .mltv-pres-l{font-size:9.5px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgba(255,255,255,.55);}
+  .mltv-pres{display:flex;justify-content:center;align-items:baseline;gap:9px;text-decoration:none;font-family:'Inter',sans-serif;margin:2px 0 12px;}
+  .mltv-pres-l{font-size:12px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:rgba(255,255,255,.55);}
   .mltv-pres img{height:20px;width:auto;display:block;}
-  .mltv-pres-n{font-size:13px;font-weight:700;color:#fff;}
+  .mltv-pres-n{font-size:18px;font-weight:700;color:#fff;}
   @keyframes mlpulse{0%{box-shadow:0 0 0 0 rgba(232,102,42,.55)}70%{box-shadow:0 0 0 9px rgba(232,102,42,0)}100%{box-shadow:0 0 0 0 rgba(232,102,42,0)}}
   .mltv-stage{position:relative;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0a2230;margin:6px 0 0;}
   .mltv-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
@@ -207,7 +207,7 @@
 <div class="wrap">
 <section class="signup" id="suscribir"><div class="su-head">Recibe los conciertos de la semana en tu correo</div><form class="su-form" data-l="es" action="https://assets.mailerlite.com/jsonp/2414137/forms/189622307212231799/subscribe" method="post"><div class="su-row" id="row_es"><input type="email" name="fields[email]" required placeholder="Tu correo" aria-label="Tu correo"><button type="submit">Suscribirme</button></div><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><div class="su-note">Newsletter semanal gratis. Cancela cuando quieras.</div><div class="su-ok" id="ok_es" hidden>¡Gracias! Revisa tu correo para confirmar la suscripción.</div></form></section>
 <div class="langrow"><select id="langsel" aria-label="Language"><option value="en">English</option><option value="es" selected>Español</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="sv">Svenska</option><option value="no">Norsk</option><option value="da">Dansk</option><option value="fi">Suomi</option></select></div>
-<section class="mltv" id="mltv" hidden><div class="mltv-head"><span class="mltv-dot"></span><span class="mltv-logo"><span class="mlg-m">M</span><span class="mlg-l">L<span class="mlg-tv">TV</span></span></span><a class="mltv-pres" href="https://www.kovabeachclub.com" target="_blank" rel="noopener"><span class="mltv-pres-l">Presentado por</span><span class="mltv-pres-n">Kova Beach Club</span></a></div><div class="mltv-inner"><div class="mltv-sub">Míralos antes de ir</div><div class="mltv-stage" id="mltvStage"></div><div class="mltv-chips" id="mltvChips"></div></div></section>
+<section class="mltv" id="mltv" hidden><div class="mltv-head"><span class="mltv-dot"></span><span class="mltv-logo"><span class="mlg-m">M</span><span class="mlg-l">L<span class="mlg-tv">TV</span></span></span></div><div class="mltv-inner"><a class="mltv-pres" href="https://www.kovabeachclub.com" target="_blank" rel="noopener"><span class="mltv-pres-l">Presentado por</span><span class="mltv-pres-n">Kova Beach Club</span></a><div class="mltv-stage" id="mltvStage"></div><div class="mltv-sub">Míralos antes de ir</div><div class="mltv-chips" id="mltvChips"></div></div></section>
 <div class="subbar"><span class="count">28 EVENTOS MUSICALES · 21 JUN–4 JUL 2026</span></div>
 <div class="filterbar"><input type="text" class="search" id="searchf" placeholder="Buscar artista o sala" aria-label="Buscar artista o sala"><div class="fchips" role="group"><button type="button" class="fchip" id="pToday" data-mode="today">Hoy</button><button type="button" class="fchip" id="pWeekend" data-mode="weekend">Este finde</button><button type="button" class="fchip" id="pWeek" data-mode="week">Esta semana</button></div><select id="datef"><option value="">Todas las fechas</option>
 <option value="2026-06-21">Dom 21 jun</option>
