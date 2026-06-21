@@ -7,7 +7,7 @@
 // Required Netlify env: AIRTABLE_TOKEN   (Optional: AIRTABLE_BASE, AIRTABLE_TABLE, WORKER_SECRET)
 
 const BASE  = process.env.AIRTABLE_BASE  || "appRFxS65uKsCxc03";
-const TABLE = process.env.AIRTABLE_TABLE || "Demand Pre-Checks";
+const TABLE = process.env.AIRTABLE_TABLE || "tblDbA3hnC8AtHeCw"   /* table ID = rename-proof (was "Demand Pre-Checks") */;
 
 const esc = (s) => String(s == null ? "" : s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

@@ -9,7 +9,7 @@
 // Optional overrides: AIRTABLE_BASE, AIRTABLE_TABLE, SITE_URL, PRICE_CENTS, CURRENCY
 
 const BASE      = process.env.AIRTABLE_BASE  || "appRFxS65uKsCxc03";
-const TABLE     = process.env.AIRTABLE_TABLE || "Demand Pre-Checks";
+const TABLE     = process.env.AIRTABLE_TABLE || "tblDbA3hnC8AtHeCw"   /* table ID = rename-proof (was "Demand Pre-Checks") */;
 const SITE      = process.env.SITE_URL       || "https://malagalivepulse.com";
 const PRICE     = parseInt(process.env.PRICE_CENTS || "4900", 10);   // €49.00
 const CURRENCY  = (process.env.CURRENCY || "eur").toLowerCase();
