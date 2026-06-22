@@ -23,7 +23,7 @@
   .gbtn{margin-top:14px;width:100%;font-size:16px;font-weight:600;color:#fff;background:var(--coral);border:0;border-radius:10px;padding:13px;cursor:pointer}
   .gerr{color:#c0392b;font-size:13px;margin-top:10px;min-height:16px}
   /* ---- form ---- */
-  #app{display:none}
+  #app{display:block}
   .head{text-align:center;margin:8px 0 18px}
   .head h2{font-family:Anton,sans-serif;font-weight:400;letter-spacing:.5px;font-size:24px;line-height:1.15;color:var(--navy);margin:14px 0 4px}
   .head .sub{color:var(--muted);font-size:14px}
@@ -49,18 +49,6 @@
 </style>
 </head>
 <body>
-
-<!-- ACCESS GATE -->
-<div id="gate">
-  <div class="gatecard">
-    <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <h1 data-i18n="gate_h">Access</h1>
-    <p data-i18n="gate_p">Enter the access code we shared with you.</p>
-    <input id="pw" type="password" autocomplete="off" data-i18n-ph="gate_ph" placeholder="Code" autofocus>
-    <button class="gbtn" onclick="checkPw()" data-i18n="gate_btn">Unlock</button>
-    <div class="gerr" id="gerr"></div>
-  </div>
-</div>
 
 <!-- FORM -->
 <div id="app">
@@ -134,15 +122,6 @@
 </div>
 
 <script>
-  // remember unlock
-  if(localStorage.getItem('mlesAccess')==='1'){ gateOpen(); }
-  function gateOpen(){ document.getElementById('gate').style.display='none'; document.getElementById('app').style.display='block'; }
-  function checkPw(){
-    var v=(document.getElementById('pw').value||'').trim().toLowerCase();
-    if(v==='mles'){ localStorage.setItem('mlesAccess','1'); gateOpen(); }
-    else { document.getElementById('gerr').textContent=(window.MLT&&window.MLT.gerr)||'Incorrect code'; }
-  }
-  document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter') checkPw(); });
   // submit -> create request in Airtable + open Stripe Checkout (€49)
   async function go(e){
     e.preventDefault();
