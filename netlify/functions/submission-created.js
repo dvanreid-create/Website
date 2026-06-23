@@ -26,6 +26,25 @@ exports.handler = async (event) => {
     let TABLE, fields;
 
     if (formName === "prime-membership") {
+      // Cloudflare Turnstile (the "I am not a robot" check): verify server-side before creating a row.
+      // Fail-open if TURNSTILE_SECRET is not configured yet, so nothing breaks before setup.
+      const tsSecret = process.env.TURNSTILE_SECRET;
+      if (tsSecret) {
+        const tsTok = d["cf-turnstile-response"] || "";
+        let tsOk = false;
+        try {
+          const params = new URLSearchParams({ secret: tsSecret, response: tsTok });
+          const ip = (event.headers && (event.headers["x-nf-client-connection-ip"] || event.headers["client-ip"])) || "";
+          if (ip) params.append("remoteip", ip);
+          const vr = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", { method: "POST", body: params });
+          const vj = await vr.json();
+          tsOk = !!(vj && vj.success);
+        } catch (e) { console.error("turnstile verify error", e); tsOk = false; }
+        if (!tsOk) {
+          console.warn("prime-membership: Turnstile failed - Airtable row NOT created.");
+          return { statusCode: 200, body: "turnstile failed" };
+        }
+      }
       TABLE = "Prime Members";
       const token2 = (globalThis.crypto && globalThis.crypto.randomUUID)
         ? globalThis.crypto.randomUUID().replace(/-/g, "")
