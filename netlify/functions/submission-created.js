@@ -82,6 +82,23 @@ exports.handler = async (event) => {
       console.error("Airtable insert failed:", res.status, t);
       return { statusCode: 200, body: "airtable error (logged)" };
     }
+    // Prime: derive an opaque, non-sequential Reference from the new record's unique Airtable ID
+    if (TABLE === "Prime Members") {
+      try {
+        const created = await res.json();
+        const rid = created && created.id;
+        if (rid) {
+          const ref = "ML-PRIME-" + rid.slice(-6).toUpperCase();
+          await fetch(
+            "https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) + "/" + rid,
+            { method: "PATCH",
+              headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+              body: JSON.stringify({ fields: { "Reference": ref }, typecast: true }) }
+          );
+        }
+      } catch (e) { console.error("prime reference patch failed (non-fatal):", e); }
+    }
+
     return { statusCode: 200, body: "ok: " + TABLE };
   } catch (e) {
     console.error("submission-created error:", e);

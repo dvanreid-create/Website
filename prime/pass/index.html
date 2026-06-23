@@ -41,7 +41,7 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#eef1f3;m
    .then(function(d){
      if(!d.ok){ render('bad','✕','Not found','This pass code is not recognised.'); return; }
      document.getElementById('venue').textContent=d.venue||'';
-     if(d.number) document.getElementById('num').textContent='Prime Member #'+d.number;
+     document.getElementById('num').textContent = d.ref ? ('Prime Member · '+d.ref) : 'Prime Member';
      var s=(d.status||'').toLowerCase();
      if(s==='active') render('ok','✓','ACTIVE','Prime membership in good standing.');
      else if(s==='paused') render('warn','⏸','PAUSED','Benefits suspended until payment resumes.');

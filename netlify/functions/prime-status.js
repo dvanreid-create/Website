@@ -32,7 +32,7 @@ exports.handler = async (event) => {
         ok: true,
         status: f["Status"] || "Unknown",
         venue: f["Venue"] || "",
-        number: f["PRIME number"] || null
+        ref: f["Reference"] || ""
       })
     };
   } catch (e) {
