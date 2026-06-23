@@ -35,7 +35,8 @@ exports.handler = async (event) => {
         "Email": s(d.email),
         "Status": "Requested",
         "Date requested": new Date().toISOString().slice(0, 10),
-        "Pass token": token2
+        "Pass token": token2,
+        "Rate": "€139 (Lifetime Preferred)"
       };
     } else if (!formName || formName === "talent-submission") {
       TABLE = "Talent";
