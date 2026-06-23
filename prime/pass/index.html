@@ -30,6 +30,7 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;m
 .form button{margin-top:10px;width:100%;background:#E8662A;color:#fff;border:0;border-radius:10px;padding:12px;font-weight:700;font-size:15px;font-family:inherit;cursor:pointer}
 .install{margin-top:14px;background:#f4f8fa;border:1px dashed #cfd8dd;border-radius:12px;padding:12px 14px;font-size:12.5px;color:#54636b;line-height:1.5;text-align:left;display:none}
 .install b{color:#0B5E8A}
+.install .instbtn{margin:10px 0 4px;width:100%;background:#0B5E8A;color:#fff;border:0;border-radius:9px;padding:11px;font-weight:700;font-size:14px;font-family:inherit;cursor:pointer}
 </style></head><body>
 <div class="card">
   <div class="lock"><svg class="bdg" viewBox="0 0 100 100"><rect x="3" y="3" width="94" height="94" rx="24" fill="#E8662A"/><path d="M41 31 L73 50 L41 69 Z" fill="#fff"/></svg><span class="ml">MÁLAGA LIVE · PRIME</span></div>
@@ -46,9 +47,9 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;m
     <div class="checked">Live check · <b id="now"></b></div>
 
     <div id="install" class="install">
-      <b>Keep this on your phone</b><br>
-      <span id="iios">iPhone: tap <b>Share</b> ▸ <b>Add to Home Screen</b>.</span>
-      <span id="iand">Android: tap <b>⋮</b> ▸ <b>Add to Home screen / Install</b>.</span>
+      <b>Keep this handy — install it</b>
+      <button id="instbtn" class="instbtn" style="display:none" onclick="doInstall()">⬇ Install Málaga Live Prime</button>
+      <div id="insttext" style="margin-top:6px"></div>
     </div>
   </div>
 
@@ -98,14 +99,18 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;m
 
   var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone===true;
   if(!standalone){
-    var inst=document.getElementById("install"); inst.style.display="block";
+    document.getElementById("install").style.display="block";
     var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
-    document.getElementById("iios").style.display=isIOS?"inline":"none";
-    document.getElementById("iand").style.display=isIOS?"none":"inline";
+    document.getElementById("insttext").innerHTML = isIOS
+      ? "On iPhone/iPad: tap <b>Share</b> \u25b8 <b>Add to Home Screen</b>."
+      : "Tap the button above \u2014 or use your browser\u2019s <b>Install</b> option (the icon in the address bar, or <b>\u22ee</b> menu \u25b8 <b>Install</b>).";
   }
 
   if("serviceWorker" in navigator){ navigator.serviceWorker.register("/prime/pass/sw.js").catch(function(){}); }
 })();
+var deferredPrompt=null;
+window.addEventListener("beforeinstallprompt", function(e){ e.preventDefault(); deferredPrompt=e; var b=document.getElementById("instbtn"); if(b) b.style.display="block"; });
+function doInstall(){ if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt.userChoice.finally(function(){ deferredPrompt=null; var b=document.getElementById("instbtn"); if(b) b.style.display="none"; }); } }
 function useCode(){ var v=(document.getElementById("codein").value||"").trim().toUpperCase(); if(!v)return; if(v.indexOf("ML-PRIME-")!==0) v="ML-PRIME-"+v.replace(/^ML-?PRIME-?/i,""); location.search="?code="+encodeURIComponent(v); }
 </script>
 </body></html>
