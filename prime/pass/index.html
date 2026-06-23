@@ -37,38 +37,130 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;m
 
   <div id="content" style="display:none">
     <div id="venue" class="venue"></div>
-    <div class="lbl">Member number</div>
+    <div id="lbl_num" class="lbl">Member number</div>
     <div id="num" class="num">…</div>
 
-    <div id="badge" class="badge pending"><div class="ico">…</div><div class="st">Checking…</div><div class="sub"></div></div>
+    <div id="badge" class="badge pending"><div class="ico">…</div><div class="st">…</div><div class="sub"></div></div>
 
     <div class="qr"><img id="qr" alt="Membership QR"></div>
-    <div class="hint"><b>In person:</b> show this QR — partners scan it to confirm you're active.<br><b>Online:</b> enter your member number at partner checkouts.</div>
-    <div class="checked">Live check · <b id="now"></b></div>
+    <div id="hint" class="hint"></div>
+    <div class="checked"><span id="lbl_live">Live check</span> · <b id="now"></b></div>
 
     <div id="install" class="install">
-      <b>Keep this handy — install it</b>
-      <button id="instbtn" class="instbtn" style="display:none" onclick="doInstall()">⬇ Install Málaga Live Prime</button>
+      <b id="inst_keep">Keep this handy — install it</b>
+      <button id="instbtn" class="instbtn" style="display:none" onclick="doInstall()">⬇ <span id="inst_btn">Install Málaga Live Prime</span></button>
       <div id="insttext" style="margin-top:6px"></div>
     </div>
   </div>
 
   <div id="entry" class="form" style="display:none">
-    <div class="lbl" style="margin-top:6px">Enter your member number</div>
+    <div id="lbl_enter" class="lbl" style="margin-top:6px">Enter your member number</div>
     <input id="codein" placeholder="ML-PRIME-XXXXXX" autocomplete="off">
-    <button onclick="useCode()">View my card</button>
-    <div class="hint" style="margin-top:10px">It's on your welcome email and on every bank payment (your reference).</div>
+    <button id="btn_view" onclick="useCode()">View my card</button>
+    <div id="hint_entry" class="hint" style="margin-top:10px">It's on your welcome email and on every bank payment (your reference).</div>
   </div>
 </div>
 
 <script>
+// 8-language UI strings for the membership card. Rendered using the language
+// returned by prime-status (the member's stored Language), falling back to the
+// ?lang URL param, then English.
+var STR = {
+ en:{num:"Member number",live:"Live check",keep:"Keep this handy — install it",instbtn:"Install Málaga Live Prime",
+     enter:"Enter your member number",view:"View my card",
+     hint:"<b>In person:</b> show this QR — partners scan it to confirm you're active.<br><b>Online:</b> enter your member number at partner checkouts.",
+     hintEntry:"It's on your welcome email and on every bank payment (your reference).",
+     instIOS:"On iPhone/iPad: tap <b>Share</b> ▸ <b>Add to Home Screen</b>.",
+     instOther:"Tap the button above — or use your browser’s <b>Install</b> option (the icon in the address bar, or <b>⋮</b> menu ▸ <b>Install</b>).",
+     active:["ACTIVE","Membership in good standing."],paused:["PAUSED","Benefits suspended until payment resumes."],
+     pending:["Pending activation","Active once your first payment arrives."],inactive:["Not active","This membership isn't active."],
+     notfound:["Not found","Check your member number."],err:["Couldn’t check","Try again in a moment."]},
+ es:{num:"Número de miembro",live:"Verificación en vivo",keep:"Tenlo a mano — instálalo",instbtn:"Instalar Málaga Live Prime",
+     enter:"Introduce tu número de miembro",view:"Ver mi tarjeta",
+     hint:"<b>En persona:</b> muestra este QR — los partners lo escanean para confirmar que estás activo.<br><b>Online:</b> introduce tu número de miembro en las cajas de los partners.",
+     hintEntry:"Está en tu email de bienvenida y en cada pago bancario (tu referencia).",
+     instIOS:"En iPhone/iPad: toca <b>Compartir</b> ▸ <b>Añadir a pantalla de inicio</b>.",
+     instOther:"Toca el botón de arriba — o usa la opción <b>Instalar</b> de tu navegador (el icono en la barra de direcciones, o el menú <b>⋮</b> ▸ <b>Instalar</b>).",
+     active:["ACTIVO","Membresía al corriente."],paused:["EN PAUSA","Beneficios suspendidos hasta reanudar el pago."],
+     pending:["Activación pendiente","Activo en cuanto llegue tu primer pago."],inactive:["No activo","Esta membresía no está activa."],
+     notfound:["No encontrado","Revisa tu número de miembro."],err:["No se pudo verificar","Inténtalo de nuevo en un momento."]},
+ de:{num:"Mitgliedsnummer",live:"Live-Prüfung",keep:"Griffbereit halten — installieren",instbtn:"Málaga Live Prime installieren",
+     enter:"Geben Sie Ihre Mitgliedsnummer ein",view:"Meine Karte ansehen",
+     hint:"<b>Persönlich:</b> zeigen Sie diesen QR-Code — Partner scannen ihn, um zu bestätigen, dass Sie aktiv sind.<br><b>Online:</b> geben Sie Ihre Mitgliedsnummer an Partner-Kassen ein.",
+     hintEntry:"Sie steht in Ihrer Willkommens-E-Mail und auf jeder Bankzahlung (Ihre Referenz).",
+     instIOS:"Auf iPhone/iPad: tippen Sie auf <b>Teilen</b> ▸ <b>Zum Home-Bildschirm</b>.",
+     instOther:"Tippen Sie auf die Schaltfläche oben — oder nutzen Sie die <b>Installieren</b>-Option Ihres Browsers (das Symbol in der Adressleiste oder das <b>⋮</b>-Menü ▸ <b>Installieren</b>).",
+     active:["AKTIV","Mitgliedschaft in Ordnung."],paused:["PAUSIERT","Vorteile ausgesetzt, bis die Zahlung fortgesetzt wird."],
+     pending:["Aktivierung ausstehend","Aktiv, sobald Ihre erste Zahlung eingeht."],inactive:["Nicht aktiv","Diese Mitgliedschaft ist nicht aktiv."],
+     notfound:["Nicht gefunden","Überprüfen Sie Ihre Mitgliedsnummer."],err:["Prüfung fehlgeschlagen","Versuchen Sie es gleich erneut."]},
+ fr:{num:"Numéro de membre",live:"Vérification en direct",keep:"Gardez-le à portée — installez-le",instbtn:"Installer Málaga Live Prime",
+     enter:"Saisissez votre numéro de membre",view:"Voir ma carte",
+     hint:"<b>En personne :</b> montrez ce QR — les partenaires le scannent pour confirmer que vous êtes actif.<br><b>En ligne :</b> saisissez votre numéro de membre aux caisses partenaires.",
+     hintEntry:"Il figure dans votre e-mail de bienvenue et sur chaque paiement bancaire (votre référence).",
+     instIOS:"Sur iPhone/iPad : touchez <b>Partager</b> ▸ <b>Sur l’écran d’accueil</b>.",
+     instOther:"Touchez le bouton ci-dessus — ou utilisez l’option <b>Installer</b> de votre navigateur (l’icône dans la barre d’adresse, ou le menu <b>⋮</b> ▸ <b>Installer</b>).",
+     active:["ACTIF","Adhésion en règle."],paused:["EN PAUSE","Avantages suspendus jusqu’à la reprise du paiement."],
+     pending:["Activation en attente","Actif dès réception de votre premier paiement."],inactive:["Non actif","Cette adhésion n’est pas active."],
+     notfound:["Introuvable","Vérifiez votre numéro de membre."],err:["Échec de la vérification","Réessayez dans un instant."]},
+ sv:{num:"Medlemsnummer",live:"Live-kontroll",keep:"Ha den nära — installera den",instbtn:"Installera Málaga Live Prime",
+     enter:"Ange ditt medlemsnummer",view:"Visa mitt kort",
+     hint:"<b>På plats:</b> visa denna QR — partner skannar den för att bekräfta att du är aktiv.<br><b>Online:</b> ange ditt medlemsnummer i partnernas kassor.",
+     hintEntry:"Det finns i ditt välkomstmejl och på varje bankbetalning (din referens).",
+     instIOS:"På iPhone/iPad: tryck på <b>Dela</b> ▸ <b>Lägg till på hemskärmen</b>.",
+     instOther:"Tryck på knappen ovan — eller använd webbläsarens <b>Installera</b>-alternativ (ikonen i adressfältet, eller <b>⋮</b>-menyn ▸ <b>Installera</b>).",
+     active:["AKTIV","Medlemskapet är i ordning."],paused:["PAUSAD","Förmåner pausade tills betalningen återupptas."],
+     pending:["Väntar på aktivering","Aktiv när din första betalning kommer in."],inactive:["Inte aktiv","Detta medlemskap är inte aktivt."],
+     notfound:["Hittades inte","Kontrollera ditt medlemsnummer."],err:["Kunde inte kontrollera","Försök igen om en stund."]},
+ no:{num:"Medlemsnummer",live:"Live-sjekk",keep:"Ha den for hånden — installer den",instbtn:"Installer Málaga Live Prime",
+     enter:"Skriv inn medlemsnummeret ditt",view:"Vis kortet mitt",
+     hint:"<b>På stedet:</b> vis denne QR-koden — partnere skanner den for å bekrefte at du er aktiv.<br><b>På nett:</b> skriv inn medlemsnummeret ditt i partnernes kasser.",
+     hintEntry:"Det står i velkomst-e-posten din og på hver bankbetaling (din referanse).",
+     instIOS:"På iPhone/iPad: trykk på <b>Del</b> ▸ <b>Legg til på Hjem-skjerm</b>.",
+     instOther:"Trykk på knappen ovenfor — eller bruk nettleserens <b>Installer</b>-alternativ (ikonet i adresselinjen, eller <b>⋮</b>-menyen ▸ <b>Installer</b>).",
+     active:["AKTIV","Medlemskapet er i orden."],paused:["SATT PÅ PAUSE","Fordeler suspendert til betalingen gjenopptas."],
+     pending:["Venter på aktivering","Aktiv så snart din første betaling kommer inn."],inactive:["Ikke aktiv","Dette medlemskapet er ikke aktivt."],
+     notfound:["Ikke funnet","Sjekk medlemsnummeret ditt."],err:["Kunne ikke sjekke","Prøv igjen om et øyeblikk."]},
+ da:{num:"Medlemsnummer",live:"Live-tjek",keep:"Hav det ved hånden — installer det",instbtn:"Installer Málaga Live Prime",
+     enter:"Indtast dit medlemsnummer",view:"Vis mit kort",
+     hint:"<b>Personligt:</b> vis denne QR-kode — partnere scanner den for at bekræfte, at du er aktiv.<br><b>Online:</b> indtast dit medlemsnummer ved partnernes kasser.",
+     hintEntry:"Det står i din velkomst-e-mail og på hver bankbetaling (din reference).",
+     instIOS:"På iPhone/iPad: tryk på <b>Del</b> ▸ <b>Føj til hjemmeskærm</b>.",
+     instOther:"Tryk på knappen ovenfor — eller brug din browsers <b>Installer</b>-mulighed (ikonet i adresselinjen, eller <b>⋮</b>-menuen ▸ <b>Installer</b>).",
+     active:["AKTIV","Medlemskabet er i orden."],paused:["SAT PÅ PAUSE","Fordele suspenderet, indtil betalingen genoptages."],
+     pending:["Afventer aktivering","Aktiv, så snart din første betaling kommer ind."],inactive:["Ikke aktiv","Dette medlemskab er ikke aktivt."],
+     notfound:["Ikke fundet","Tjek dit medlemsnummer."],err:["Kunne ikke tjekke","Prøv igen om et øjeblik."]},
+ fi:{num:"Jäsennumero",live:"Live-tarkistus",keep:"Pidä se käsillä — asenna se",instbtn:"Asenna Málaga Live Prime",
+     enter:"Anna jäsennumerosi",view:"Näytä korttini",
+     hint:"<b>Paikan päällä:</b> näytä tämä QR-koodi — kumppanit skannaavat sen vahvistaakseen, että olet aktiivinen.<br><b>Verkossa:</b> anna jäsennumerosi kumppaneiden kassoilla.",
+     hintEntry:"Se on tervetulosähköpostissasi ja jokaisessa pankkimaksussa (viitteesi).",
+     instIOS:"iPhonessa/iPadissa: napauta <b>Jaa</b> ▸ <b>Lisää Koti-valikkoon</b>.",
+     instOther:"Napauta yllä olevaa painiketta — tai käytä selaimesi <b>Asenna</b>-vaihtoehtoa (osoitepalkin kuvake tai <b>⋮</b>-valikko ▸ <b>Asenna</b>).",
+     active:["AKTIIVINEN","Jäsenyys on kunnossa."],paused:["TAUOLLA","Edut keskeytetty, kunnes maksu jatkuu."],
+     pending:["Aktivointi kesken","Aktiivinen heti kun ensimmäinen maksusi saapuu."],inactive:["Ei aktiivinen","Tämä jäsenyys ei ole aktiivinen."],
+     notfound:["Ei löytynyt","Tarkista jäsennumerosi."],err:["Tarkistus epäonnistui","Yritä hetken kuluttua uudelleen."]}
+};
+function pickLang(l){ l=(l||"").toLowerCase(); return STR[l]?l:"en"; }
+
 (function(){
   var KEY="mlprimecard";
   var p=new URLSearchParams(location.search);
   var t=(p.get("t")||"").trim(), code=(p.get("code")||"").trim();
+  var urlLang=(p.get("lang")||"").toLowerCase();
   if(t){ localStorage.setItem(KEY, JSON.stringify({t:t})); }
   else if(code){ localStorage.setItem(KEY, JSON.stringify({code:code})); }
   else { try{ var s=JSON.parse(localStorage.getItem(KEY)||"null"); if(s){ t=s.t||""; code=s.code||""; } }catch(e){} }
+
+  // Initial UI language: ?lang param, then en. Refined once prime-status returns
+  // the member's stored language.
+  var L = pickLang(urlLang || "en");
+  function applyStatic(L){
+    var T=STR[L];
+    document.documentElement.lang=L;
+    var set=function(id,html){ var e=document.getElementById(id); if(e) e.innerHTML=html; };
+    set("lbl_num",T.num); set("lbl_live",T.live); set("inst_keep",T.keep); set("inst_btn",T.instbtn);
+    set("lbl_enter",T.enter); set("btn_view",T.view); set("hint",T.hint); set("hint_entry",T.hintEntry);
+  }
+  applyStatic(L);
 
   var elContent=document.getElementById("content"), elEntry=document.getElementById("entry");
   var now=document.getElementById("now");
@@ -83,28 +175,33 @@ body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;m
 
   function render(cls,ico,st,sub){ var b=document.getElementById("badge"); b.className="badge "+cls; b.innerHTML='<div class="ico">'+ico+'</div><div class="st">'+st+'</div><div class="sub">'+sub+'</div>'; }
 
+  function showInstall(L){
+    var T=STR[L];
+    var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone===true;
+    if(!standalone){
+      document.getElementById("install").style.display="block";
+      var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
+      document.getElementById("insttext").innerHTML = isIOS ? T.instIOS : T.instOther;
+    }
+  }
+
   fetch("/.netlify/functions/prime-status?"+qs,{cache:"no-store"})
     .then(function(r){return r.json();})
     .then(function(d){
-      if(!d.ok){ document.getElementById("num").textContent="—"; render("bad","✕","Not found","Check your member number."); return; }
+      // Prefer the member's stored language; else keep the URL/default one.
+      if(d && d.lang){ L=pickLang(d.lang); applyStatic(L); }
+      var T=STR[L];
+      if(!d.ok){ document.getElementById("num").textContent="—"; render("bad","✕",T.notfound[0],T.notfound[1]); showInstall(L); return; }
       document.getElementById("venue").textContent=d.venue||"";
       document.getElementById("num").textContent=d.ref||code||"";
       var st=(d.status||"").toLowerCase();
-      if(st==="active") render("ok","✓","ACTIVE","Membership in good standing.");
-      else if(st==="paused") render("warn","⏸","PAUSED","Benefits suspended until payment resumes.");
-      else if(st==="requested"||st==="approved") render("pending","◷","Pending activation","Active once your first payment arrives.");
-      else render("bad","✕","Not active","This membership isn't active.");
+      if(st==="active") render("ok","✓",T.active[0],T.active[1]);
+      else if(st==="paused") render("warn","⏸",T.paused[0],T.paused[1]);
+      else if(st==="requested"||st==="approved") render("pending","◷",T.pending[0],T.pending[1]);
+      else render("bad","✕",T.inactive[0],T.inactive[1]);
+      showInstall(L);
     })
-    .catch(function(){ render("bad","!","Couldn’t check","Try again in a moment."); });
-
-  var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone===true;
-  if(!standalone){
-    document.getElementById("install").style.display="block";
-    var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
-    document.getElementById("insttext").innerHTML = isIOS
-      ? "On iPhone/iPad: tap <b>Share</b> \u25b8 <b>Add to Home Screen</b>."
-      : "Tap the button above \u2014 or use your browser\u2019s <b>Install</b> option (the icon in the address bar, or <b>\u22ee</b> menu \u25b8 <b>Install</b>).";
-  }
+    .catch(function(){ var T=STR[L]; render("bad","!",T.err[0],T.err[1]); showInstall(L); });
 
   if("serviceWorker" in navigator){ navigator.serviceWorker.register("/prime/pass/sw.js").catch(function(){}); }
 })();

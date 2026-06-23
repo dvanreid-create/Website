@@ -36,7 +36,8 @@ exports.handler = async (event) => {
         ok: true,
         status: f["Status"] || "Unknown",
         venue: f["Venue"] || "",
-        ref: f["Reference"] || ""
+        ref: f["Reference"] || "",
+        lang: f["Language"] || "en"
       })
     };
   } catch (e) {
