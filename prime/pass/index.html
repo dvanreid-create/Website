@@ -1,54 +1,111 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Prime Membership Status — Málaga Live</title><meta name="robots" content="noindex,nofollow">
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Málaga Live Prime — Membership Card</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="manifest" href="/prime/pass/manifest.json">
+<meta name="theme-color" content="#0B5E8A">
+<link rel="apple-touch-icon" href="/prime/pass/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ML Prime">
 <style>@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap");
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#eef1f3;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px}
-.card{background:#fff;border-radius:18px;max-width:430px;width:100%;padding:30px 30px 26px;text-align:center;box-shadow:0 18px 50px rgba(20,40,60,.16)}
-.lock{display:flex;align-items:center;justify-content:center;gap:9px;margin-bottom:18px}
-.bdg{width:34px;height:34px}.ml{font-family:"Anton",sans-serif;font-size:25px;color:#143A4E}
-.badge{border-radius:14px;padding:22px 18px;margin:6px 0 14px}
-.badge .ico{font-size:40px;line-height:1;margin-bottom:8px}
-.badge .st{font-family:"Anton",sans-serif;font-size:26px;letter-spacing:.5px}
-.badge .sub{font-size:14px;margin-top:6px;opacity:.92}
-.ok{background:#e7f6ec;color:#1b7a3d}
-.warn{background:#fdf3e3;color:#b9791b}
-.bad{background:#fdecec;color:#b5332b}
-.pending{background:#eef2f5;color:#5f6b78}
-.venue{font-weight:700;font-size:17px;color:#143A4E;margin-bottom:2px}
-.num{font-size:13px;color:#7c8890;letter-spacing:1px;text-transform:uppercase}
-.checked{margin-top:16px;font-size:12px;color:#8a949e;border-top:1px solid #eef1f3;padding-top:12px}
-.checked b{color:#5f6b78}
-.note{margin-top:8px;font-size:11.5px;color:#9aa4ac;line-height:1.5}
+body{font-family:"Inter",system-ui,sans-serif;color:#143A4E;background:#0B5E8A;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;padding-top:max(18px,env(safe-area-inset-top))}
+.card{background:#fff;border-radius:20px;max-width:420px;width:100%;padding:26px 24px 22px;text-align:center;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.lock{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:14px}
+.bdg{width:30px;height:30px}.ml{font-family:"Anton",sans-serif;font-size:22px;color:#143A4E;letter-spacing:.3px}
+.venue{font-weight:700;font-size:18px;color:#143A4E;margin-bottom:2px}
+.lbl{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a949e;margin-top:14px}
+.num{font-family:"Anton",sans-serif;font-size:30px;color:#0B5E8A;letter-spacing:1px;word-break:break-all;margin-top:2px}
+.badge{border-radius:13px;padding:14px;margin:16px 0 6px}
+.badge .ico{font-size:30px;line-height:1}.badge .st{font-family:"Anton",sans-serif;font-size:22px;letter-spacing:.5px;margin-top:2px}.badge .sub{font-size:12.5px;margin-top:4px;opacity:.9}
+.ok{background:#e7f6ec;color:#1b7a3d}.warn{background:#fdf3e3;color:#b9791b}.bad{background:#fdecec;color:#b5332b}.pending{background:#eef2f5;color:#5f6b78}
+.qr{margin:14px auto 4px;width:184px;height:184px;display:flex;align-items:center;justify-content:center;border:1px solid #eef1f3;border-radius:12px;overflow:hidden}
+.qr img{width:100%;height:100%}
+.hint{font-size:11.5px;color:#8a949e;line-height:1.5;margin-top:6px}
+.hint b{color:#5f6b78}
+.checked{margin-top:12px;font-size:11px;color:#aab2b9}
+.form{margin-top:8px}
+.form input{width:100%;font-size:15px;padding:11px 12px;border:1px solid #cfd8dd;border-radius:10px;text-align:center;text-transform:uppercase;letter-spacing:1px;color:#143A4E}
+.form button{margin-top:10px;width:100%;background:#E8662A;color:#fff;border:0;border-radius:10px;padding:12px;font-weight:700;font-size:15px;font-family:inherit;cursor:pointer}
+.install{margin-top:14px;background:#f4f8fa;border:1px dashed #cfd8dd;border-radius:12px;padding:12px 14px;font-size:12.5px;color:#54636b;line-height:1.5;text-align:left;display:none}
+.install b{color:#0B5E8A}
 </style></head><body>
 <div class="card">
   <div class="lock"><svg class="bdg" viewBox="0 0 100 100"><rect x="3" y="3" width="94" height="94" rx="24" fill="#E8662A"/><path d="M41 31 L73 50 L41 69 Z" fill="#fff"/></svg><span class="ml">MÁLAGA LIVE · PRIME</span></div>
-  <div id="venue" class="venue"></div>
-  <div id="num" class="num"></div>
-  <div id="badge" class="badge pending"><div class="ico">…</div><div class="st">Checking…</div><div class="sub"></div></div>
-  <div class="checked">Live check · <b id="now"></b></div>
-  <div class="note">This page shows live membership status in real time. Partner discounts and benefits apply only while status reads <b>Active</b>.</div>
+
+  <div id="content" style="display:none">
+    <div id="venue" class="venue"></div>
+    <div class="lbl">Member number</div>
+    <div id="num" class="num">…</div>
+
+    <div id="badge" class="badge pending"><div class="ico">…</div><div class="st">Checking…</div><div class="sub"></div></div>
+
+    <div class="qr"><img id="qr" alt="Membership QR"></div>
+    <div class="hint"><b>In person:</b> show this QR — partners scan it to confirm you're active.<br><b>Online:</b> enter your member number at partner checkouts.</div>
+    <div class="checked">Live check · <b id="now"></b></div>
+
+    <div id="install" class="install">
+      <b>Keep this on your phone</b><br>
+      <span id="iios">iPhone: tap <b>Share</b> ▸ <b>Add to Home Screen</b>.</span>
+      <span id="iand">Android: tap <b>⋮</b> ▸ <b>Add to Home screen / Install</b>.</span>
+    </div>
+  </div>
+
+  <div id="entry" class="form" style="display:none">
+    <div class="lbl" style="margin-top:6px">Enter your member number</div>
+    <input id="codein" placeholder="ML-PRIME-XXXXXX" autocomplete="off">
+    <button onclick="useCode()">View my card</button>
+    <div class="hint" style="margin-top:10px">It's on your welcome email and on every bank payment (your reference).</div>
+  </div>
 </div>
+
 <script>
 (function(){
-  var p=new URLSearchParams(location.search), t=(p.get('t')||'').trim();
-  var badge=document.getElementById('badge'), now=document.getElementById('now');
-  function stamp(){ now.textContent=new Date().toLocaleString(); }
-  stamp(); setInterval(stamp,1000);
-  function render(cls,ico,st,sub){ badge.className='badge '+cls; badge.innerHTML='<div class="ico">'+ico+'</div><div class="st">'+st+'</div><div class="sub">'+sub+'</div>'; }
-  if(!t){ render('bad','✕','No pass code','Open the link from your membership email.'); return; }
-  fetch('/.netlify/functions/prime-status?t='+encodeURIComponent(t),{cache:'no-store'})
-   .then(function(r){return r.json();})
-   .then(function(d){
-     if(!d.ok){ render('bad','✕','Not found','This pass code is not recognised.'); return; }
-     document.getElementById('venue').textContent=d.venue||'';
-     document.getElementById('num').textContent = d.ref ? ('Prime Member · '+d.ref) : 'Prime Member';
-     var s=(d.status||'').toLowerCase();
-     if(s==='active') render('ok','✓','ACTIVE','Prime membership in good standing.');
-     else if(s==='paused') render('warn','⏸','PAUSED','Benefits suspended until payment resumes.');
-     else if(s==='requested'||s==='approved') render('pending','◷','Pending activation','Membership not active yet.');
-     else render('bad','✕','Not active','This membership is not currently active.');
-   })
-   .catch(function(){ render('bad','!','Couldn’t check','Please try again in a moment.'); });
+  var KEY="mlprimecard";
+  var p=new URLSearchParams(location.search);
+  var t=(p.get("t")||"").trim(), code=(p.get("code")||"").trim();
+  if(t){ localStorage.setItem(KEY, JSON.stringify({t:t})); }
+  else if(code){ localStorage.setItem(KEY, JSON.stringify({code:code})); }
+  else { try{ var s=JSON.parse(localStorage.getItem(KEY)||"null"); if(s){ t=s.t||""; code=s.code||""; } }catch(e){} }
+
+  var elContent=document.getElementById("content"), elEntry=document.getElementById("entry");
+  var now=document.getElementById("now");
+  function stamp(){ if(now) now.textContent=new Date().toLocaleString(); }
+
+  if(!t && !code){ elEntry.style.display="block"; return; }
+  elContent.style.display="block"; stamp(); setInterval(stamp,1000);
+
+  var qs = t ? ("t="+encodeURIComponent(t)) : ("code="+encodeURIComponent(code));
+  var verifyUrl = location.origin + "/prime/pass/?" + qs;
+  document.getElementById("qr").src = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=0&data=" + encodeURIComponent(verifyUrl);
+
+  function render(cls,ico,st,sub){ var b=document.getElementById("badge"); b.className="badge "+cls; b.innerHTML='<div class="ico">'+ico+'</div><div class="st">'+st+'</div><div class="sub">'+sub+'</div>'; }
+
+  fetch("/.netlify/functions/prime-status?"+qs,{cache:"no-store"})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(!d.ok){ document.getElementById("num").textContent="—"; render("bad","✕","Not found","Check your member number."); return; }
+      document.getElementById("venue").textContent=d.venue||"";
+      document.getElementById("num").textContent=d.ref||code||"";
+      var st=(d.status||"").toLowerCase();
+      if(st==="active") render("ok","✓","ACTIVE","Membership in good standing.");
+      else if(st==="paused") render("warn","⏸","PAUSED","Benefits suspended until payment resumes.");
+      else if(st==="requested"||st==="approved") render("pending","◷","Pending activation","Active once your first payment arrives.");
+      else render("bad","✕","Not active","This membership isn't active.");
+    })
+    .catch(function(){ render("bad","!","Couldn’t check","Try again in a moment."); });
+
+  var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone===true;
+  if(!standalone){
+    var inst=document.getElementById("install"); inst.style.display="block";
+    var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
+    document.getElementById("iios").style.display=isIOS?"inline":"none";
+    document.getElementById("iand").style.display=isIOS?"none":"inline";
+  }
+
+  if("serviceWorker" in navigator){ navigator.serviceWorker.register("/prime/pass/sw.js").catch(function(){}); }
 })();
+function useCode(){ var v=(document.getElementById("codein").value||"").trim().toUpperCase(); if(!v)return; if(v.indexOf("ML-PRIME-")!==0) v="ML-PRIME-"+v.replace(/^ML-?PRIME-?/i,""); location.search="?code="+encodeURIComponent(v); }
 </script>
 </body></html>

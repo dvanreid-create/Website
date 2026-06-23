@@ -5,8 +5,12 @@
 exports.handler = async (event) => {
   const headers = { "Content-Type": "application/json", "Cache-Control": "no-store" };
   try {
-    const t = (event.queryStringParameters && event.queryStringParameters.t || "").trim();
-    if (!t) return { statusCode: 200, headers, body: JSON.stringify({ ok: false, reason: "no token" }) };
+    const q = event.queryStringParameters || {};
+    const t = (q.t || "").trim();
+    const code = (q.code || "").trim();
+    if (!t && !code) return { statusCode: 200, headers, body: JSON.stringify({ ok: false, reason: "no token" }) };
+    const field = t ? "Pass token" : "Reference";
+    const value = t || code;
 
     const token = process.env.AIRTABLE_TOKEN;
     if (!token) return { statusCode: 200, headers, body: JSON.stringify({ ok: false, reason: "config" }) };
@@ -14,8 +18,8 @@ exports.handler = async (event) => {
     const TABLE = "Prime Members";
 
     // exact-match the token; escape any quotes defensively
-    const safe = t.replace(/"/g, '\\"');
-    const formula = encodeURIComponent('{Pass token}="' + safe + '"');
+    const safe = value.replace(/"/g, '\\"');
+    const formula = encodeURIComponent('{' + field + '}="' + safe + '"');
     const url = "https://api.airtable.com/v0/" + BASE + "/" + encodeURIComponent(TABLE) +
                 "?maxRecords=1&filterByFormula=" + formula;
 
