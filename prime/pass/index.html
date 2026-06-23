@@ -180,6 +180,7 @@ function pickLang(l){ l=(l||"").toLowerCase(); return STR[l]?l:"en"; }
     var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone===true;
     if(!standalone){
       document.getElementById("install").style.display="block";
+      var b=document.getElementById("instbtn"); if(b) b.style.display="block";
       var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
       document.getElementById("insttext").innerHTML = isIOS ? T.instIOS : T.instOther;
     }
@@ -207,7 +208,11 @@ function pickLang(l){ l=(l||"").toLowerCase(); return STR[l]?l:"en"; }
 })();
 var deferredPrompt=null;
 window.addEventListener("beforeinstallprompt", function(e){ e.preventDefault(); deferredPrompt=e; var b=document.getElementById("instbtn"); if(b) b.style.display="block"; });
-function doInstall(){ if(deferredPrompt){ deferredPrompt.prompt(); deferredPrompt.userChoice.finally(function(){ deferredPrompt=null; var b=document.getElementById("instbtn"); if(b) b.style.display="none"; }); } }
-function useCode(){ var v=(document.getElementById("codein").value||"").trim().toUpperCase(); if(!v)return; if(v.indexOf("ML-PRIME-")!==0) v="ML-PRIME-"+v.replace(/^ML-?PRIME-?/i,""); location.search="?code="+encodeURIComponent(v); }
-</script>
-</body></html>
+window.addEventListener("appinstalled", function(){ var i=document.getElementById("install"); if(i) i.style.display="none"; deferredPrompt=null; });
+function doInstall(){
+  if(deferredPrompt){
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.finally(function(){ deferredPrompt=null; });
+  } else {
+    var it=document.getElementById("insttext");
+    if(it){ it.style.fontWeight="700";
