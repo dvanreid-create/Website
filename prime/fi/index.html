@@ -110,7 +110,7 @@
   <h2>Liity Prime-jäseneksi</h2>
   <div class="joinwrap">
     <p class="lead">Anna tietosi, niin lähetämme sähköpostitse kaiken, mitä tarvitset jäsenyytesi perustamiseen &mdash; yksilöllisen jäsennumerosi ja yksinkertaiset, kertaluonteiset pankin pysyväistoimeksiannon ohjeet. Ei korttia, ei sopimusta.</p>
-    <form name="prime-membership" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/prime/fi/thanks/">
+    <form id="pmform" name="prime-membership" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/prime/fi/thanks/">
       <input type="hidden" name="form-name" value="prime-membership">
       <input type="hidden" name="language" value="fi">
       <p class="hp"><label>Leave this blank: <input name="bot-field"></label></p>
@@ -140,4 +140,9 @@ document.querySelectorAll('a[href="#join"]').forEach(function(a){a.addEventListe
   var t=document.getElementById('join'); if(!t)return; var b=t.querySelector('.q');
   if(b&&b.getAttribute('aria-expanded')!=='true'){b.setAttribute('aria-expanded','true');b.nextElementSibling.style.display='block';}
 });});
+(function(){var pf=document.getElementById('pmform');if(!pf)return;
+pf.addEventListener('submit',function(e){e.preventDefault();
+var b=new URLSearchParams(new FormData(pf));
+fetch(pf.getAttribute('action'),{method:'POST',body:b}).catch(function(){}).finally(function(){location.href='/prime/fi/thanks/';});
+});})();
 </script></body></html>
