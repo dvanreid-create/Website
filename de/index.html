@@ -224,7 +224,7 @@
 <section class="signup" id="suscribir"><div class="su-top"><div class="su-head">Die Gigs der Woche per E-Mail</div><div class="su-cap">Kostenloser wöchentlicher Newsletter. Jederzeit abbestellbar.</div></div><form class="su-form" data-l="de" action="https://assets.mailerlite.com/jsonp/2414137/forms/189622308073112745/subscribe" method="post"><div class="su-row" id="row_de"><input type="email" name="fields[email]" required placeholder="Deine E-Mail" aria-label="Deine E-Mail"><button type="submit">Abonnieren</button></div><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><div class="su-blurb">Bei Hunderten Live-Konzerten jeden Monat – wer hat Zeit, alle durchzugehen und die wirklich sehenswerten zu finden? Keine Sorge: Unsere eigene Technologie übernimmt das für dich, bewertet alle und schickt dir die, die du nicht verpassen willst, direkt in dein Postfach.</div><div class="su-ok" id="ok_de" hidden>Danke! Bitte bestätige die Anmeldung in deinem Postfach.</div></form></section>
 <div class="langrow"><select id="langsel" aria-label="Language"><option value="en">English</option><option value="es">Español</option><option value="de" selected>Deutsch</option><option value="fr">Français</option><option value="sv">Svenska</option><option value="no">Norsk</option><option value="da">Dansk</option><option value="fi">Suomi</option></select></div>
 <section class="mltv" id="mltv" hidden><div class="mltv-head"><span class="mltv-dot"></span><span class="mltv-logo"><span class="mlg-m">M</span><span class="mlg-l">L<span class="mlg-tv">TV</span></span></span></div><div class="mltv-inner"><div class="mltv-sub">Sieh sie, bevor du gehst</div><div class="mltv-stage" id="mltvStage"></div><div class="mltv-chips" id="mltvChips"></div></div></section>
-<div class="subbar"><span class="count">48 MUSIK-EVENTS · 24 JUN–23 JUL 2026</span></div>
+<div class="subbar"><span class="count" id="cntlbl">48 MUSIK-EVENTS · 24 JUN–23 JUL 2026</span></div>
 <div class="filterbar"><input type="text" class="search" id="searchf" placeholder="Act oder Ort suchen" aria-label="Act oder Ort suchen"><div class="fchips" role="group"><button type="button" class="fchip" id="pToday" data-mode="today">Heute</button><button type="button" class="fchip" id="pWeekend" data-mode="weekend">Wochenende</button><button type="button" class="fchip" id="pWeek" data-mode="week">Diese Woche</button></div><select id="datef"><option value="">Alle Termine</option>
 <option value="2026-06-24">Mi 24 Jun</option>
 <option value="2026-06-26">Fr 26 Jun</option>
@@ -349,11 +349,13 @@ function isoOf(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDa
 function weekendSet(){var d=new Date(),dow=d.getDay(),fri=new Date(d);fri.setDate(d.getDate()+(dow===0?-2:5-dow));var o=[];for(var k=0;k<3;k++){var x=new Date(fri);x.setDate(fri.getDate()+k);o.push(isoOf(x));}return o;}
 function weekEndISO(){var d=new Date(),dow=d.getDay(),s=new Date(d);s.setDate(d.getDate()+(dow===0?0:7-dow));return isoOf(s);}
 var dateMode='all';
+var EVLBL="MUSIK-EVENTS";var MON=["JAN", "FEB", "M\u00c4R", "APR", "MAI", "JUN", "JUL", "AUG", "SEP", "OKT", "NOV", "DEZ"];
+function fmtRange(lo,hi){var a=lo.split('-'),b=hi.split('-');var d1=String(+a[2]),d2=String(+b[2]);if(a[0]===b[0]&&a[1]===b[1])return d1+'–'+d2+' '+MON[+a[1]-1]+' '+a[0];return d1+' '+MON[+a[1]-1]+'–'+d2+' '+MON[+b[1]-1]+' '+b[0];}
 function gv(id){var e=document.getElementById(id);return e?e.value:'';}
 function filter(){
   var free=document.getElementById('freeonly').checked,city=gv('cityf'),genre=gv('genref'),dsel=gv('datef'),
       q=(gv('searchf')||'').toLowerCase().trim();
-  var mode=dsel?('@'+dsel):dateMode,today=isoOf(new Date()),wknd=weekendSet(),wend=weekEndISO(),shown=0;
+  var mode=dsel?('@'+dsel):dateMode,today=isoOf(new Date()),wknd=weekendSet(),wend=weekEndISO(),shown=0,lo='',hi='';
   document.querySelectorAll('.card').forEach(function(c){
     var cd=c.dataset.date;
     var ok=(!free||c.dataset.free==='1')&&(!city||c.dataset.city===city)&&(!genre||c.dataset.genre===genre);
@@ -364,10 +366,11 @@ function filter(){
       else if(mode==='weekend')ok=wknd.indexOf(cd)>=0;
       else if(mode==='week')ok=(cd>=today&&cd<=wend);
       else if(mode.charAt(0)==='@')ok=cd===mode.slice(1);}
-    c.style.display=ok?'':'none';if(ok)shown++;});
+    c.style.display=ok?'':'none';if(ok){shown++;if(cd){if(!lo||cd<lo)lo=cd;if(!hi||cd>hi)hi=cd;}}});
   document.querySelectorAll('h2.day').forEach(function(h){var any=false,nx=h.nextElementSibling;
     while(nx&&nx.classList.contains('card')){if(nx.style.display!=='none')any=true;nx=nx.nextElementSibling;} h.style.display=any?'':'none';});
   var nr=document.getElementById('nores');if(nr)nr.style.display=shown?'none':'block';
+  var cl=document.getElementById('cntlbl');if(cl){var lbl=shown+' '+EVLBL;if(lo&&hi)lbl+=' · '+fmtRange(lo,hi);cl.textContent=lbl;}
 }
 function setChips(m){['pToday','pWeekend','pWeek'].forEach(function(id){var b=document.getElementById(id);if(b)b.setAttribute('aria-pressed',(b.dataset.mode===m)?'true':'false');});}
 ['freeonly','cityf','genref','datef'].forEach(function(id){var el=document.getElementById(id);if(el)el.addEventListener('change',function(){if(id==='datef'&&el.value){dateMode='all';setChips(null);}filter();});});
