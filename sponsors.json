@@ -344,42 +344,6 @@
     "da": "Billetter →",
     "fi": "Liput →"
    }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/29865059/pexels-photo-29865059.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(138,59,134,.42)",
-   "tag": {
-    "en": "Genre in 10 seconds",
-    "es": "Género en 10 segundos",
-    "de": "Genre in 10 Sekunden",
-    "fr": "Un genre en 10 s",
-    "sv": "Genre på 10 sekunder",
-    "no": "Sjanger på 10 sekunder",
-    "da": "Genre på 10 sekunder",
-    "fi": "Genre 10 sekunnissa"
-   },
-   "head": "Flamenco-chill",
-   "sub": {
-    "en": "Flamenco's soul meets electronic calm.",
-    "es": "El alma del flamenco con calma electrónica.",
-    "de": "Die Seele des Flamenco trifft elektronische Ruhe.",
-    "fr": "L'âme du flamenco rencontre le calme électronique.",
-    "sv": "Flamencons själ möter elektroniskt lugn.",
-    "no": "Flamencoens sjel møter elektronisk ro.",
-    "da": "Flamencoens sjæl møder elektronisk ro.",
-    "fi": "Flamencon sielu kohtaa elektronisen rauhan."
-   },
-   "cta": {
-    "en": "e.g. Chambao",
-    "es": "p. ej. Chambao",
-    "de": "z. B. Chambao",
-    "fr": "ex. Chambao",
-    "sv": "t.ex. Chambao",
-    "no": "f.eks. Chambao",
-    "da": "f.eks. Chambao",
-    "fi": "esim. Chambao"
-   },
-   "ghost": true
   }
  ],
  "info": [
