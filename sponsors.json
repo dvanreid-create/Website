@@ -16,6 +16,7 @@
    },
    "head": "Lenny Kravitz",
    "headBottom": true,
+   "expires": "2026-06-29",
    "sub": {
     "en": "Mon 29 Jun · Starlite · Marbella",
     "es": "Lun 29 jun · Starlite · Marbella",
@@ -57,6 +58,7 @@
    },
    "head": "Sting",
    "headBottom": true,
+   "expires": "2026-07-13",
    "sub": {
     "en": "Mon 13 Jul · Marenostrum · Fuengirola",
     "es": "Lun 13 jul · Marenostrum · Fuengirola",
@@ -98,6 +100,7 @@
    },
    "head": "Tom Jones",
    "headBottom": true,
+   "expires": "2026-08-01",
    "sub": {
     "en": "Sat 1 Aug · Málaga Forum · Moonlight",
     "es": "Sáb 1 ago · Málaga Forum · Moonlight",
@@ -313,6 +316,7 @@
    "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
    "ghost": true,
    "name": "Canela Party",
+   "expires": "2026-08-29",
    "url": "https://www.ingresse.com/canela-party-2026/",
    "ribbon": {
     "en": "Featured festival",
