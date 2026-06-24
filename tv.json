@@ -1,19 +1,9 @@
 {
   "clips": [
     {
-      "act": "Kiko Veneno",
-      "yt": "5JeTnZi2wek",
-      "where": "26 Jun · Teatro Cervantes, Málaga"
-    },
-    {
       "act": "Romeo Santos",
       "yt": "7KrNh9YaeDg",
       "where": "26 Jun · Marenostrum, Fuengirola"
-    },
-    {
-      "act": "La Oreja de Van Gogh",
-      "yt": "nYnLVWXmRm8",
-      "where": "27 Jun · Marenostrum, Fuengirola"
     },
     {
       "act": "Lenny Kravitz",
@@ -21,14 +11,36 @@
       "where": "29 Jun · Starlite, Marbella"
     },
     {
-      "act": "Gipsy Kings",
-      "yt": "7qbEt_lSib4",
-      "where": "3 Jul · Starlite, Marbella"
-    },
-    {
       "act": "Danny Ocean",
       "yt": "LbKcHy9cav0",
       "where": "4 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Maroon 5",
+      "yt": "09R8_2nJtjg",
+      "where": "7 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Deep Purple",
+      "yt": "Q2FzZSBD5LE",
+      "where": "9 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Sting",
+      "yt": "C3lWwBslWqg",
+      "where": "13 Jul · Marenostrum, Fuengirola"
     }
-  ]
+  ],
+  "thumbs": {
+    "Defected ft. DJ EZ · Eliza Rose · Melé": "KtGFByAJRQQ",
+    "Niña Pastori": "nSkUCCSv1YQ",
+    "Lenny Kravitz": "8LhCd1W2V0Q",
+    "Danny Ocean": "LbKcHy9cav0",
+    "Grupo Frontera": "VtKcDwz6hiM",
+    "Maroon 5": "09R8_2nJtjg",
+    "Faithless": "P8JEm4d6Wu4",
+    "Deep Purple": "Q2FzZSBD5LE",
+    "Rick Astley": "dQw4w9WgXcQ",
+    "Elvis Crespo": "WPiEbYSF9kE"
+  }
 }
