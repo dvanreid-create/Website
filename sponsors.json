@@ -42,9 +42,9 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/d27gTrPPAyk/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.32)",
-   "pos": "50% 18%",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sting_by_Yancho_Sabev_cropped.jpg?width=800",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 22%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -77,6 +77,9 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: Yancho Sabev · CC BY-SA 3.0"
    }
   },
   {
