@@ -83,6 +83,8 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
 .buybox .bmsg.err{background:#fdecec;color:#a3271f;display:block;}
 .buybox .bmsg.wait,.buybox .bmsg.ok{background:#eef5fa;color:#0B5E8A;display:block;}
 .buybox .bsecure{font-size:11px;color:#9aa7b0;margin-top:10px;text-align:center;}
+.buybox .bmanage{font-size:11.5px;color:#5f6b78;margin-top:12px;text-align:center;border-top:1px solid #eef1f3;padding-top:11px;}
+.buybox .bmanage a{color:#0B5E8A;font-weight:600;text-decoration:none;}
 @media print{.buybox{display:none!important;}.webwrap{display:block;padding:0;}}
 @media(max-width:900px){.webwrap{padding:12px;}.buybox{position:static;width:794px;}}
 </style>
@@ -111,6 +113,7 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
     <button type="submit" class="bbtn" id="bbtn">Continue to secure payment &rarr;</button>
     <div class="bmsg" id="bmsg"></div>
     <div class="bsecure">&#128274; Secure checkout by Stripe</div>
+    <div class="bmanage">Already advertising with us? <a href="https://billing.stripe.com/p/login/28E6ol09r5R4eZ0a7W2Ji00">Manage or cancel your ad &rarr;</a></div>
   </form>
 </aside>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>

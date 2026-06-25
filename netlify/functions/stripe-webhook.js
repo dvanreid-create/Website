@@ -105,6 +105,28 @@ exports.handler = async (event) => {
     return { statusCode: 200, body: "ok" };
   }
 
+  // Customer Portal plan switch (Standard <-> Premium) -> resync tile airtime/fee by price amount.
+  if (evt.type === "customer.subscription.updated") {
+    const sub = evt.data.object || {};
+    let recId = (sub.metadata && sub.metadata.airtable_id) || null;
+    if (!recId && sub.id) recId = await gutFindBySub(token, sub.id);
+    if (recId) {
+      let amt = 0;
+      try { amt = ((((sub.items || {}).data || [])[0] || {}).price || {}).unit_amount || 0; } catch {}
+      const isPrem = amt >= 15000;           // >= €150 -> Premium (€225); else Standard (€75)
+      const fields = {
+        "Tier": isPrem ? "Premium 30s" : "Standard 5s",
+        "Monthly fee": isPrem ? 225 : 75,
+        "Duration secs": isPrem ? 30 : 5
+      };
+      if (sub.status === "active" || sub.status === "trialing") fields["Status"] = "Sold";
+      else if (sub.status === "past_due" || sub.status === "unpaid") fields["Status"] = "Past due";
+      if (amt) await gutPatch(token, recId, fields);
+      return { statusCode: 200, body: "gutter synced" };
+    }
+    return { statusCode: 200, body: "ok" };
+  }
+
   // =========================================================================
   // A) MLE SCORE — one-time payment (unchanged)
   // =========================================================================
