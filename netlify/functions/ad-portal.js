@@ -105,6 +105,23 @@ const L = {
         h_expired:"Tämä linkki ei ole aktiivinen", p_expired:"Käytä Hallinnoi-linkkiä viimeisimmästä Málaga Live -sähköpostistasi tai pyydä uusi mainossivulta." }
 };
 
+// Cloudflare Turnstile bot protection on the email-request form (same widget/key as the buy form).
+const TS_SITEKEY = "0x4AAAAAADp1Y1TESrBWaogl";
+const CAP = { en:"Please complete the verification.", es:"Completa la verificación.", de:"Bitte schließe die Verifizierung ab.", fr:"Merci de compléter la vérification.", sv:"Slutför verifieringen.", no:"Fullfør verifiseringen.", da:"Fuldfør verifikationen.", fi:"Suorita vahvistus loppuun." };
+async function verifyTurnstile(tokenVal) {
+  const secret = process.env.TURNSTILE_SECRET;
+  if (!secret) return true;          // fail-open if not configured (matches the buy form)
+  if (!tokenVal) return false;
+  try {
+    const r = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: "secret=" + encodeURIComponent(secret) + "&response=" + encodeURIComponent(tokenVal)
+    });
+    const j = await r.json();
+    return !!(j && j.success);
+  } catch { return false; }
+}
+
 function pickLang(event) {
   const q = ((event.queryStringParameters && event.queryStringParameters.lang) || "").toLowerCase();
   if (L[q]) return q;
@@ -132,6 +149,19 @@ function page(lang, title, bodyHtml) {
   };
 }
 
+function emailForm(lang, err) {
+  const tr = L[lang];
+  return page(lang, tr.t_manage,
+    "<h1>" + tr.h_manage + "</h1>" +
+    "<p>" + tr.p1 + "</p>" +
+    "<p>" + tr.p2 + "</p>" +
+    (err ? "<p style=\"color:#a3271f;font-size:13px;margin-top:4px\">" + err + "</p>" : "") +
+    "<form method=\"POST\"><input type=\"email\" name=\"email\" placeholder=\"" + tr.ph + "\" required>" +
+    "<div class=\"cf-turnstile\" data-sitekey=\"" + TS_SITEKEY + "\" style=\"margin:12px 0 0\"></div>" +
+    "<button type=\"submit\">" + tr.btn + "</button></form>" +
+    "<script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>");
+}
+
 async function rowByFormula(token, formula) {
   const r = await AT(TABLE + "?filterByFormula=" + encodeURIComponent(formula) + "&pageSize=1",
     { headers: { Authorization: "Bearer " + token } });
@@ -149,9 +179,12 @@ exports.handler = async (event) => {
 
   // ---- POST: request the link by email ----
   if (event.httpMethod === "POST") {
-    let email = "";
-    try { email = (JSON.parse(event.body || "{}").email || "").trim(); }
-    catch { email = ((event.body || "").match(/email=([^&]*)/) || [])[1] || ""; email = decodeURIComponent(email).trim(); }
+    const raw = event.body || "";
+    const fld = (name) => { const m = raw.match(new RegExp("(?:^|&)" + name + "=([^&]*)")); return m ? decodeURIComponent(m[1].replace(/\+/g, "%20")) : ""; };
+    let email = fld("email").trim();
+    let tsTok = fld("cf-turnstile-response");
+    if (!email && raw) { try { const jb = JSON.parse(raw); email = (jb.email || "").trim(); tsTok = tsTok || jb.turnstile || ""; } catch {} }
+    if (!(await verifyTurnstile(tsTok))) return emailForm(lang, CAP[lang]);
     const same = "<h1>" + tr.h_inbox + "</h1><p>" + tr.p_inbox + "</p>" +
       "<p><a href=\"" + SITE + "/advertise.html?lang=" + lang + "\">" + tr.back + "</a></p>";
     if (email) {
@@ -171,12 +204,7 @@ exports.handler = async (event) => {
 
   // ---- GET without token: ask for the email ----
   if (!t) {
-    return page(lang, tr.t_manage,
-      "<h1>" + tr.h_manage + "</h1>" +
-      "<p>" + tr.p1 + "</p>" +
-      "<p>" + tr.p2 + "</p>" +
-      "<form method=\"POST\"><input type=\"email\" name=\"email\" placeholder=\"" + tr.ph + "\" required>" +
-      "<button type=\"submit\">" + tr.btn + "</button></form>");
+    return emailForm(lang, "");
   }
 
   // ---- GET with token: redirect into the Stripe billing portal ----

@@ -150,7 +150,7 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
     rd.onload=function(){
       var b64=(rd.result||'').toString().split(',')[1]||'';
       fetch('/.netlify/functions/create-ad-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({name:name,email:email,link:link,headline:headline,tier:tier,logoBase64:b64,logoName:file.name,logoType:file.type,turnstile:tk})})
+        body:JSON.stringify({name:name,email:email,link:link,headline:headline,tier:tier,lang:(document.documentElement.lang||'en'),logoBase64:b64,logoName:file.name,logoType:file.type,turnstile:tk})})
       .then(function(r){return r.json();})
       .then(function(d){
         if(d&&d.url){window.location.href=d.url;return;}

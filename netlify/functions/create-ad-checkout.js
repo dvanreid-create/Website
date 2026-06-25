@@ -62,6 +62,8 @@ exports.handler = async (event) => {
   try { d = JSON.parse(event.body || "{}"); } catch { return json(400, { error: "bad json" }); }
 
   const name = t(d.name), email = t(d.email), link = t(d.link), headline = t(d.headline);
+  const LANGS = ["en","es","de","fr","sv","no","da","fi"];
+  const lang = LANGS.indexOf(t(d.lang).toLowerCase()) >= 0 ? t(d.lang).toLowerCase() : "en";
   const tierKey = t(d.tier).toLowerCase();
   const tier = (tierKey === "premium") ? "premium" : (tierKey === "standard" ? "standard" : "");
   if (!name || !email || !tier) return json(400, { error: "missing required fields" });
@@ -111,7 +113,7 @@ exports.handler = async (event) => {
   const fields = {
     "Sponsor name": name, "Contact email": email, "Tier": tierLabel, "Status": "Pending",
     "Link URL": link, "Monthly fee": (tier === "premium" ? 225 : 75),
-    "Shows per hour": 2, "Duration secs": (tier === "premium" ? 30 : 5)
+    "Shows per hour": 2, "Duration secs": (tier === "premium" ? 30 : 5), "Language": lang
   };
   // The buy-form "Tagline" is the sub-line shown under the logo on the tile.
   // Logo tiles render the Subtext field (not Headline), so write it there.
