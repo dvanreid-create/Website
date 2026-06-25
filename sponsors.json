@@ -364,14 +364,14 @@
     "fi": "Mainosta Málaga Livessä"
    },
    "body": {
-    "en": "Your brand on screen, all session long. See the rate card &rarr;",
-    "es": "Tu marca en pantalla, toda la sesión. Ver tarifas &rarr;",
-    "de": "Ihre Marke die ganze Sitzung sichtbar. Preisliste ansehen &rarr;",
-    "fr": "Votre marque à l'écran, toute la session. Voir les tarifs &rarr;",
-    "sv": "Ditt varumärke på skärmen hela besöket. Se prislistan &rarr;",
-    "no": "Ditt merke på skjermen hele økten. Se prisliste &rarr;",
-    "da": "Dit brand på skærmen hele besøget. Se prisliste &rarr;",
-    "fi": "Brändisi näkyvillä koko vierailun. Katso hinnasto &rarr;"
+    "en": "<span class=\"info-long\">Your ad, seen throughout every site visit. </span>See the rate card &rarr;",
+    "es": "<span class=\"info-long\">Tu anuncio, visible durante toda la visita. </span>Ver tarifas &rarr;",
+    "de": "<span class=\"info-long\">Ihre Anzeige, sichtbar während des gesamten Besuchs. </span>Preisliste ansehen &rarr;",
+    "fr": "<span class=\"info-long\">Votre annonce, vue tout au long de la visite. </span>Voir les tarifs &rarr;",
+    "sv": "<span class=\"info-long\">Din annons, synlig under hela besöket. </span>Se prislistan &rarr;",
+    "no": "<span class=\"info-long\">Din annonse, synlig gjennom hele besøket. </span>Se prisliste &rarr;",
+    "da": "<span class=\"info-long\">Din annonce, synlig gennem hele besøget. </span>Se prisliste &rarr;",
+    "fi": "<span class=\"info-long\">Mainoksesi näkyvillä koko vierailun ajan. </span>Katso hinnasto &rarr;"
    }
   }
  ]
