@@ -23,3 +23,9 @@
   to = "/.netlify/functions/sponsors-feed"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/ad-portal"
+  to = "/.netlify/functions/ad-portal"
+  status = 200
+  force = true
