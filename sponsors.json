@@ -348,25 +348,6 @@
     "da": "Billetter →",
     "fi": "Liput →"
    }
-  },
-  {
-   "bg": "linear-gradient(160deg,#0B5E8A,#0a4f74)",
-   "url": "https://tainaca.com",
-   "name": "Tainaca",
-   "head": "Culture Discovered",
-   "sub": "Culture Discovered",
-   "dur": 5,
-   "perHour": 2,
-   "cta": {
-    "en": "Visit →",
-    "es": "Visitar →",
-    "de": "Besuchen →",
-    "fr": "Visiter →",
-    "sv": "Besök →",
-    "no": "Besøk →",
-    "da": "Besøg →",
-    "fi": "Avaa →"
-   }
   }
  ],
  "info": [
