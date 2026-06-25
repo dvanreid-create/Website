@@ -56,7 +56,11 @@ exports.handler = async () => {
       if (f["Sponsor name"]) ad.name = f["Sponsor name"];
       if (f["Ribbon label"]) ad.ribbon = f["Ribbon label"];
       if (f["Headline"]) ad.head = f["Headline"];
-      if (f["Subtext"]) ad.sub = f["Subtext"];
+      // Logo tiles render the sub-line (not head), so fall back Headline -> sub.
+      const subline = f["Subtext"] || f["Headline"] || "";
+      if (subline) ad.sub = subline;
+      // Give logo tiles a clickable CTA like the editorial ones.
+      if (ad.logo && f["Link URL"]) ad.cta = "Visit \u2192";
       ad.dur = parseInt(dur, 10) || 5;
       ad.perHour = parseInt(perHour, 10) || 2;
       if (exp) ad.expires = exp;

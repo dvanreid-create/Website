@@ -113,7 +113,9 @@ exports.handler = async (event) => {
     "Link URL": link, "Monthly fee": (tier === "premium" ? 225 : 75),
     "Shows per hour": 2, "Duration secs": (tier === "premium" ? 30 : 5)
   };
-  if (headline) fields["Headline"] = headline;
+  // The buy-form "Tagline" is the sub-line shown under the logo on the tile.
+  // Logo tiles render the Subtext field (not Headline), so write it there.
+  if (headline) fields["Subtext"] = headline;
   try {
     const r = await fetch("https://api.airtable.com/v0/" + BASE + "/" + TABLE, {
       method: "POST",
