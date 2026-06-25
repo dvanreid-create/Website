@@ -17,3 +17,9 @@
   to = "/.netlify/functions/talent-feed"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/sponsors-live.json"
+  to = "/.netlify/functions/sponsors-feed"
+  status = 200
+  force = true
