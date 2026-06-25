@@ -364,14 +364,14 @@
     "fi": "Mainosta Málaga Livessä"
    },
    "body": {
-    "en": "<span class=\"info-long\">Visitors to our site spend 14 mins on average on-screen time per site visit. </span>See the rate card &rarr;",
-    "es": "<span class=\"info-long\">Los visitantes de nuestro sitio pasan de media 14 minutos por visita. </span>Ver tarifas &rarr;",
-    "de": "<span class=\"info-long\">Besucher unserer Website verbringen im Schnitt 14 Minuten pro Besuch. </span>Preisliste ansehen &rarr;",
-    "fr": "<span class=\"info-long\">Les visiteurs de notre site passent en moyenne 14 minutes par visite. </span>Voir les tarifs &rarr;",
-    "sv": "<span class=\"info-long\">Besökare på vår sajt stannar i snitt 14 minuter per besök. </span>Se prislistan &rarr;",
-    "no": "<span class=\"info-long\">Besøkende på nettstedet vårt bruker i snitt 14 minutter per besøk. </span>Se prisliste &rarr;",
-    "da": "<span class=\"info-long\">Besøgende på vores side bruger i snit 14 minutter pr. besøg. </span>Se prisliste &rarr;",
-    "fi": "<span class=\"info-long\">Sivustomme kävijät viettävät keskimäärin 14 minuuttia per käynti. </span>Katso hinnasto &rarr;"
+    "en": "<span class=\"info-long\">Visitors to our site spend 14 mins on average on-screen time per site visit. </span><span class=\"info-cta\">See the rate card &rarr;</span>",
+    "es": "<span class=\"info-long\">Los visitantes de nuestro sitio pasan de media 14 minutos por visita. </span><span class=\"info-cta\">Ver tarifas &rarr;</span>",
+    "de": "<span class=\"info-long\">Besucher unserer Website verbringen im Schnitt 14 Minuten pro Besuch. </span><span class=\"info-cta\">Preisliste ansehen &rarr;</span>",
+    "fr": "<span class=\"info-long\">Les visiteurs de notre site passent en moyenne 14 minutes par visite. </span><span class=\"info-cta\">Voir les tarifs &rarr;</span>",
+    "sv": "<span class=\"info-long\">Besökare på vår sajt stannar i snitt 14 minuter per besök. </span><span class=\"info-cta\">Se prislistan &rarr;</span>",
+    "no": "<span class=\"info-long\">Besøkende på nettstedet vårt bruker i snitt 14 minutter per besøk. </span><span class=\"info-cta\">Se prisliste &rarr;</span>",
+    "da": "<span class=\"info-long\">Besøgende på vores side bruger i snit 14 minutter pr. besøg. </span><span class=\"info-cta\">Se prisliste &rarr;</span>",
+    "fi": "<span class=\"info-long\">Sivustomme kävijät viettävät keskimäärin 14 minuuttia per käynti. </span><span class=\"info-cta\">Katso hinnasto &rarr;</span>"
    }
   }
  ]
