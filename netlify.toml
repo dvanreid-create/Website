@@ -29,3 +29,9 @@
   to = "/.netlify/functions/ad-portal"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/stats.json"
+  to = "/.netlify/functions/stats-feed"
+  status = 200
+  force = true
