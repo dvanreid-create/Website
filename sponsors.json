@@ -352,157 +352,26 @@
  ],
  "info": [
   {
+   "url": "/advertise.html",
    "eyebrow": {
-    "en": "Did you know?",
-    "es": "¿Sabías que…?",
-    "de": "Wusstest du schon?",
-    "fr": "Le saviez-vous ?",
-    "sv": "Visste du?",
-    "no": "Visste du?",
-    "da": "Vidste du?",
-    "fi": "Tiesitkö?"
+    "en": "Advertise on Málaga Live",
+    "es": "Anúnciate en Málaga Live",
+    "de": "Werben Sie auf Málaga Live",
+    "fr": "Annoncez sur Málaga Live",
+    "sv": "Annonsera på Málaga Live",
+    "no": "Annonser på Málaga Live",
+    "da": "Annoncér på Málaga Live",
+    "fi": "Mainosta Málaga Livessä"
    },
    "body": {
-    "en": "Starlite Marbella is staged inside a former marble quarry.",
-    "es": "Starlite Marbella se celebra en una antigua cantera de mármol.",
-    "de": "Starlite Marbella findet in einem ehemaligen Marmorsteinbruch statt.",
-    "fr": "Le Starlite Marbella se tient dans une ancienne carrière de marbre.",
-    "sv": "Starlite Marbella hålls i ett gammalt marmorbrott.",
-    "no": "Starlite Marbella holdes i et gammelt marmorbrudd.",
-    "da": "Starlite Marbella afholdes i et gammelt marmorbrud.",
-    "fi": "Starlite Marbella järjestetään vanhassa marmorilouhoksessa."
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Learn a music word",
-    "es": "Aprende una palabra",
-    "de": "Lern ein Musikwort",
-    "fr": "Un mot de musique",
-    "sv": "Lär dig ett ord",
-    "no": "Lær et ord",
-    "da": "Lær et ord",
-    "fi": "Opi sana"
-   },
-   "body": {
-    "en": "¡Otra! = Encore",
-    "es": "¡Otra! = ¡otra canción!",
-    "de": "¡Otra! = Zugabe",
-    "fr": "¡Otra! = un rappel",
-    "sv": "¡Otra! = extranummer",
-    "no": "¡Otra! = ekstranummer",
-    "da": "¡Otra! = ekstranummer",
-    "fi": "¡Otra! = encore"
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Know before you go",
-    "es": "Antes de ir",
-    "de": "Gut zu wissen",
-    "fr": "Bon à savoir",
-    "sv": "Bra att veta",
-    "no": "Greit å vite",
-    "da": "Godt at vide",
-    "fi": "Hyvä tietää"
-   },
-   "body": {
-    "en": "Spanish concerts start late — 9–10pm is normal.",
-    "es": "Los conciertos empiezan tarde: las 21–22 h es lo normal.",
-    "de": "Spanische Konzerte beginnen spät — 21–22 Uhr ist normal.",
-    "fr": "Les concerts commencent tard — 21h–22h, c'est normal.",
-    "sv": "Spanska konserter börjar sent — 21–22 är normalt.",
-    "no": "Spanske konserter starter sent — 21–22 er normalt.",
-    "da": "Spanske koncerter starter sent — 21–22 er normalt.",
-    "fi": "Konsertit alkavat myöhään — klo 21–22 on tavallista."
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Hidden gem",
-    "es": "Joya escondida",
-    "de": "Geheimtipp",
-    "fr": "Pépite cachée",
-    "sv": "Dold pärla",
-    "no": "Skjult perle",
-    "da": "Skjult perle",
-    "fi": "Piilohelmi"
-   },
-   "body": {
-    "en": "Catch free live rock at ZZ PUB most nights in central Málaga.",
-    "es": "Rock en directo gratis casi cada noche en ZZ PUB, Málaga centro.",
-    "de": "Fast jeden Abend gratis Live-Rock im ZZ PUB, Málaga-Zentrum.",
-    "fr": "Du rock live gratuit presque tous les soirs au ZZ PUB, centre de Málaga.",
-    "sv": "Gratis liverock nästan varje kväll på ZZ PUB, centrala Málaga.",
-    "no": "Gratis live rock nesten hver kveld på ZZ PUB, sentrale Málaga.",
-    "da": "Gratis live rock næsten hver aften på ZZ PUB, det centrale Málaga.",
-    "fi": "Ilmaista liverockia lähes joka ilta ZZ PUBissa, Málagan keskustassa."
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Did you know?",
-    "es": "¿Sabías que…?",
-    "de": "Wusstest du schon?",
-    "fr": "Le saviez-vous ?",
-    "sv": "Visste du?",
-    "no": "Visste du?",
-    "da": "Vidste du?",
-    "fi": "Tiesitkö?"
-   },
-   "body": {
-    "en": "On the Costa del Sol you can find live music every night of the year.",
-    "es": "En la Costa del Sol hay música en vivo cada noche del año.",
-    "de": "An der Costa del Sol gibt es jede Nacht des Jahres Livemusik.",
-    "fr": "Sur la Costa del Sol, il y a de la musique live chaque soir de l'année.",
-    "sv": "På Costa del Sol finns livemusik varje kväll året om.",
-    "no": "På Costa del Sol finnes livemusikk hver kveld hele året.",
-    "da": "På Costa del Sol er der livemusik hver aften året rundt.",
-    "fi": "Costa del Solilla on livemusiikkia joka ilta ympäri vuoden."
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Learn a music word",
-    "es": "Aprende una palabra",
-    "de": "Lern ein Musikwort",
-    "fr": "Un mot de musique",
-    "sv": "Lär dig ett ord",
-    "no": "Lær et ord",
-    "da": "Lær et ord",
-    "fi": "Opi sana"
-   },
-   "body": {
-    "en": "Las entradas = Tickets",
-    "es": "Las entradas = las entradas",
-    "de": "Las entradas = Tickets",
-    "fr": "Las entradas = les billets",
-    "sv": "Las entradas = biljetterna",
-    "no": "Las entradas = billettene",
-    "da": "Las entradas = billetterne",
-    "fi": "Las entradas = liput"
-   }
-  },
-  {
-   "eyebrow": {
-    "en": "Know before you go",
-    "es": "Antes de ir",
-    "de": "Gut zu wissen",
-    "fr": "Bon à savoir",
-    "sv": "Bra att veta",
-    "no": "Greit å vite",
-    "da": "Godt at vide",
-    "fi": "Hyvä tietää"
-   },
-   "body": {
-    "en": "Feria and beach concerts are often free — no ticket needed.",
-    "es": "Los conciertos de feria y playa suelen ser gratis: sin entrada.",
-    "de": "Feria- und Strandkonzerte sind oft gratis — kein Ticket nötig.",
-    "fr": "Les concerts de feria et de plage sont souvent gratuits — sans billet.",
-    "sv": "Feria- och strandkonserter är ofta gratis — ingen biljett behövs.",
-    "no": "Feria- og strandkonserter er ofte gratis — ingen billett nødvendig.",
-    "da": "Feria- og strandkoncerter er ofte gratis — ingen billet nødvendig.",
-    "fi": "Feria- ja rantakonsertit ovat usein ilmaisia — ei lippua tarvita."
+    "en": "Your brand on screen, all session long. See the rate card &rarr;",
+    "es": "Tu marca en pantalla, toda la sesión. Ver tarifas &rarr;",
+    "de": "Ihre Marke die ganze Sitzung sichtbar. Preisliste ansehen &rarr;",
+    "fr": "Votre marque à l'écran, toute la session. Voir les tarifs &rarr;",
+    "sv": "Ditt varumärke på skärmen hela besöket. Se prislistan &rarr;",
+    "no": "Ditt merke på skjermen hele økten. Se prisliste &rarr;",
+    "da": "Dit brand på skærmen hele besøget. Se prisliste &rarr;",
+    "fi": "Brändisi näkyvillä koko vierailun. Katso hinnasto &rarr;"
    }
   }
  ]
