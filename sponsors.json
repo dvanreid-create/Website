@@ -364,14 +364,14 @@
     "fi": "Mainosta Málaga Livessä"
    },
    "body": {
-    "en": "<span class=\"info-long\">Your ad, seen throughout every site visit. </span>See the rate card &rarr;",
-    "es": "<span class=\"info-long\">Tu anuncio, visible durante toda la visita. </span>Ver tarifas &rarr;",
-    "de": "<span class=\"info-long\">Ihre Anzeige, sichtbar während des gesamten Besuchs. </span>Preisliste ansehen &rarr;",
-    "fr": "<span class=\"info-long\">Votre annonce, vue tout au long de la visite. </span>Voir les tarifs &rarr;",
-    "sv": "<span class=\"info-long\">Din annons, synlig under hela besöket. </span>Se prislistan &rarr;",
-    "no": "<span class=\"info-long\">Din annonse, synlig gjennom hele besøket. </span>Se prisliste &rarr;",
-    "da": "<span class=\"info-long\">Din annonce, synlig gennem hele besøget. </span>Se prisliste &rarr;",
-    "fi": "<span class=\"info-long\">Mainoksesi näkyvillä koko vierailun ajan. </span>Katso hinnasto &rarr;"
+    "en": "<span class=\"info-long\">Visitors to our site spend 14 mins on average on-screen time per site visit. </span>See the rate card &rarr;",
+    "es": "<span class=\"info-long\">Los visitantes de nuestro sitio pasan de media 14 minutos por visita. </span>Ver tarifas &rarr;",
+    "de": "<span class=\"info-long\">Besucher unserer Website verbringen im Schnitt 14 Minuten pro Besuch. </span>Preisliste ansehen &rarr;",
+    "fr": "<span class=\"info-long\">Les visiteurs de notre site passent en moyenne 14 minutes par visite. </span>Voir les tarifs &rarr;",
+    "sv": "<span class=\"info-long\">Besökare på vår sajt stannar i snitt 14 minuter per besök. </span>Se prislistan &rarr;",
+    "no": "<span class=\"info-long\">Besøkende på nettstedet vårt bruker i snitt 14 minutter per besøk. </span>Se prisliste &rarr;",
+    "da": "<span class=\"info-long\">Besøgende på vores side bruger i snit 14 minutter pr. besøg. </span>Se prisliste &rarr;",
+    "fi": "<span class=\"info-long\">Sivustomme kävijät viettävät keskimäärin 14 minuuttia per käynti. </span>Katso hinnasto &rarr;"
    }
   }
  ]
