@@ -1,33 +1,378 @@
 {
  "ads": [
   {
-   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "photo": "https://i.ytimg.com/vi/8LhCd1W2V0Q/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 16%",
    "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
    },
-   "head": "The Lord of the Rings",
+   "head": "Lenny Kravitz",
    "headBottom": true,
-   "expires": "2026-06-27",
+   "expires": "2026-06-29",
    "sub": {
-    "en": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "es": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "de": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "fr": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "sv": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "no": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "da": "27 Jun 2026 · Hotel Miramar · Málaga",
-    "fi": "27 Jun 2026 · Hotel Miramar · Málaga"
+    "en": "Mon 29 Jun · Auditorio Starlite · Marbella",
+    "es": "Lun 29 jun · Auditorio Starlite · Marbella",
+    "de": "Mo 29 Jun · Auditorio Starlite · Marbella",
+    "fr": "lun. 29 juin · Auditorio Starlite · Marbella",
+    "sv": "mån 29 jun · Auditorio Starlite · Marbella",
+    "no": "man 29 jun · Auditorio Starlite · Marbella",
+    "da": "man 29 jun · Auditorio Starlite · Marbella",
+    "fi": "ma 29 kesäk. · Auditorio Starlite · Marbella"
    },
-   "url": "https://feverup.com/m/621145/en",
+   "url": "https://entradas.starlitemarbella.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sting_by_Yancho_Sabev_cropped.jpg",
+   "tint": "rgba(8,10,16,.22)",
+   "pos": "50% 12%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Sting",
+   "headBottom": true,
+   "expires": "2026-07-13",
+   "sub": {
+    "en": "Mon 13 Jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "es": "Lun 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "de": "Mo 13 Jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "fr": "lun. 13 juil. · Castillo Sohail – Marenostrum · Fuengirola",
+    "sv": "mån 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "no": "man 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "da": "man 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
+    "fi": "ma 13 heinäk. · Castillo Sohail – Marenostrum · Fuengirola"
+   },
+   "url": "https://marenostrumfuengirola.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: Yancho Sabev · CC BY-SA 3.0"
+   }
+  },
+  {
+   "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tom_Jones_concert.jpg",
+   "tint": "rgba(8,10,16,.28)",
+   "pos": "50% 8%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Tom Jones",
+   "headBottom": true,
+   "expires": "2026-08-01",
+   "sub": {
+    "en": "Sat 1 Aug · Málaga Forum · Moonlight",
+    "es": "Sáb 1 ago · Málaga Forum · Moonlight",
+    "de": "Sa. 1 Aug · Málaga Forum · Moonlight",
+    "fr": "sam. 1 août · Málaga Forum · Moonlight",
+    "sv": "lör 1 aug · Málaga Forum · Moonlight",
+    "no": "lør 1 aug · Málaga Forum · Moonlight",
+    "da": "lør 1 aug · Málaga Forum · Moonlight",
+    "fi": "la 1. elok. · Málaga Forum · Moonlight"
+   },
+   "url": "https://moonlightmalagafestival.com/tom-jones-malaga-1-de-agosto/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: Mykal Burns · CC BY 2.0"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(232,102,42,.42)",
+   "tag": {
+    "en": "★ Top pick this week",
+    "es": "★ Top de la semana",
+    "de": "★ Top-Tipp der Woche",
+    "fr": "★ Coup de cœur",
+    "sv": "★ Veckans tips",
+    "no": "★ Ukens tips",
+    "da": "★ Ugens tip",
+    "fi": "★ Viikon valinta"
+   },
+   "head": "Guitarricadelafuente",
+   "sub": {
+    "en": "Sat 11 Jul · Plaza de Toros La Malagueta",
+    "es": "Sáb 11 jul · Plaza de Toros La Malagueta",
+    "de": "Sa 11 Jul · Plaza de Toros La Malagueta",
+    "fr": "sam. 11 juil. · Plaza de Toros La Malagueta",
+    "sv": "lör 11 jul · Plaza de Toros La Malagueta",
+    "no": "lør 11 jul · Plaza de Toros La Malagueta",
+    "da": "lør 11 jul · Plaza de Toros La Malagueta",
+    "fi": "la 11 heinäk. · Plaza de Toros La Malagueta"
+   },
+   "url": "https://www.malagaentradas.com/",
+   "cta": {
+    "en": "Tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(31,158,99,.42)",
+   "url": "#free",
+   "tag": {
+    "en": "This week",
+    "es": "Esta semana",
+    "de": "Diese Woche",
+    "fr": "Cette semaine",
+    "sv": "Denna vecka",
+    "no": "Denne uken",
+    "da": "Denne uge",
+    "fi": "Tällä viikolla"
+   },
+   "head": {
+    "en": "Free live music",
+    "es": "Música en directo gratis",
+    "de": "Gratis Livemusik",
+    "fr": "Musique live gratuite",
+    "sv": "Gratis livemusik",
+    "no": "Gratis livemusikk",
+    "da": "Gratis livemusik",
+    "fi": "Ilmaista livemusiikkia"
+   },
+   "sub": {
+    "en": "Feria, beach & plaza — no ticket needed",
+    "es": "Feria, playa y plaza — sin entrada",
+    "de": "Feria, Strand & Platz — kein Ticket nötig",
+    "fr": "Feria, plage & place — sans billet",
+    "sv": "Feria, strand & torg — ingen biljett",
+    "no": "Feria, strand & plass — ingen billett",
+    "da": "Feria, strand & plads — ingen billet",
+    "fi": "Feria, ranta & aukio — ei lippua"
+   },
+   "cta": {
+    "en": "See them →",
+    "es": "Verlos →",
+    "de": "Ansehen →",
+    "fr": "Voir →",
+    "sv": "Visa →",
+    "no": "Se dem →",
+    "da": "Se dem →",
+    "fi": "Katso →"
+   }
+  },
+  {
+   "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
+   "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
+   "ghost": true,
+   "name": "ZZ PUB",
+   "url": "https://zzpub.es/",
+   "ribbon": {
+    "en": "Featured free venue",
+    "es": "Local gratis destacado",
+    "de": "Gratis · empfohlen",
+    "fr": "Lieu gratuit à la une",
+    "sv": "Utvald gratis lokal",
+    "no": "Anbefalt gratis sted",
+    "da": "Fremhævet gratis spillested",
+    "fi": "Esillä · ilmainen"
+   },
+   "sub": {
+    "en": "Live rock · central Málaga since 1991",
+    "es": "Rock en directo · Málaga centro desde 1991",
+    "de": "Live-Rock · Málaga-Zentrum seit 1991",
+    "fr": "Rock live · centre de Málaga depuis 1991",
+    "sv": "Livrock · centrala Málaga sedan 1991",
+    "no": "Live rock · sentrale Málaga siden 1991",
+    "da": "Live rock · det centrale Málaga siden 1991",
+    "fi": "Liverock · Málagan keskusta vuodesta 1991"
+   },
+   "cta": {
+    "en": "Tonight's gigs →",
+    "es": "Conciertos de hoy →",
+    "de": "Heute live →",
+    "fr": "Ce soir →",
+    "sv": "Ikväll →",
+    "no": "I kveld →",
+    "da": "I aften →",
+    "fi": "Tänään →"
+   }
+  },
+  {
+   "logo": "/assets/sponsors/kova-logo.png",
+   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
+   "light": true,
+   "name": "Kova Beach Club",
+   "url": "https://www.kovabeachclub.com",
+   "ribbon": {
+    "en": "Featured Beach Club",
+    "es": "Beach Club destacado",
+    "de": "Empfohlener Beach Club",
+    "fr": "Beach Club à la une",
+    "sv": "Utvald Beach Club",
+    "no": "Anbefalt Beach Club",
+    "da": "Fremhævet Beach Club",
+    "fi": "Esittelyssä: Beach Club"
+   },
+   "sub": {
+    "en": "Marbella · Puerto Banús"
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
+   "logo": "/assets/sponsors/el-tintero-logo.png",
+   "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
+   "light": true,
+   "name": "El Tintero",
+   "url": "https://eltinteromalaga.com/carta/",
+   "ribbon": {
+    "en": "Featured restaurant",
+    "es": "Restaurante destacado",
+    "de": "Empfohlenes Restaurant",
+    "fr": "Restaurant à la une",
+    "sv": "Utvald restaurang",
+    "no": "Anbefalt restaurant",
+    "da": "Fremhævet restaurant",
+    "fi": "Esittelyssä: ravintola"
+   },
+   "sub": {
+    "en": "Fried fish & seafood · a Málaga beachfront classic",
+    "es": "Pescaíto frito y marisco · clásico de la playa de Málaga",
+    "de": "Frittierter Fisch & Meeresfrüchte · Strandklassiker in Málaga",
+    "fr": "Petite friture & fruits de mer · classique du front de mer à Málaga",
+    "sv": "Friterad fisk & skaldjur · en strandklassiker i Málaga",
+    "no": "Frityrstekt fisk & sjømat · en strandklassiker i Málaga",
+    "da": "Friteret fisk & skaldyr · en strandklassiker i Málaga",
+    "fi": "Paistettua kalaa & äyriäisiä · Málagan rantaklassikko"
+   },
+   "cta": {
+    "en": "Famous portion auction →",
+    "es": "La famosa subasta →",
+    "de": "Die berühmte Versteigerung →",
+    "fr": "La fameuse criée →",
+    "sv": "Den berömda auktionen →",
+    "no": "Den berømte auksjonen →",
+    "da": "Den berømte auktion →",
+    "fi": "Kuuluisa huutokauppa →"
+   }
+  },
+  {
+   "logo": "/assets/sponsors/sala-roka.png",
+   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
+   "light": true,
+   "name": "Sala Roka",
+   "url": "https://www.salaroka.com/",
+   "expires": "2026-07-26",
+   "ribbon": {
+    "en": "Featured venue",
+    "es": "Local destacado",
+    "de": "Empfohlen",
+    "fr": "À la une",
+    "sv": "Utvald",
+    "no": "Anbefalt",
+    "da": "Fremhævet",
+    "fi": "Esillä"
+   },
+   "sub": {
+    "en": "Best Events Infrastructure",
+    "es": "La mejor infraestructura para tus eventos",
+    "de": "Die beste Infrastruktur für Events",
+    "fr": "La meilleure infrastructure pour vos événements",
+    "sv": "Bästa infrastrukturen för evenemang",
+    "no": "Den beste infrastrukturen for arrangementer",
+    "da": "Den bedste infrastruktur til events",
+    "fi": "Paras tapahtumainfrastruktuuri"
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
+   "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
+   "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
+   "ghost": true,
+   "name": "Canela Party",
+   "expires": "2026-08-29",
+   "url": "https://www.ingresse.com/canela-party-2026/",
+   "ribbon": {
+    "en": "Featured festival",
+    "es": "Festival destacado",
+    "de": "Empfohlenes Festival",
+    "fr": "Festival à la une",
+    "sv": "Utvalt festival",
+    "no": "Anbefalt festival",
+    "da": "Fremhævet festival",
+    "fi": "Esittelyssä: festivaali"
+   },
+   "sub": {
+    "en": "Canela Party · 27–29 Aug · Torremolinos",
+    "es": "Canela Party · 27–29 ago · Torremolinos",
+    "de": "Canela Party · 27.–29. Aug · Torremolinos",
+    "fr": "Canela Party · 27–29 août · Torremolinos",
+    "sv": "Canela Party · 27–29 aug · Torremolinos",
+    "no": "Canela Party · 27–29 aug · Torremolinos",
+    "da": "Canela Party · 27–29 aug · Torremolinos",
+    "fi": "Canela Party · 27.–29. elok. · Torremolinos"
+   },
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -340,387 +685,6 @@
     "fi": "25 Jul 2026 · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
    },
    "url": "https://feverup.com/m/115407/en",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://i.ytimg.com/vi/8LhCd1W2V0Q/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.30)",
-   "pos": "50% 16%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Lenny Kravitz",
-   "headBottom": true,
-   "expires": "2026-06-29",
-   "sub": {
-    "en": "Mon 29 Jun · Auditorio Starlite · Marbella",
-    "es": "Lun 29 jun · Auditorio Starlite · Marbella",
-    "de": "Mo 29 Jun · Auditorio Starlite · Marbella",
-    "fr": "lun. 29 juin · Auditorio Starlite · Marbella",
-    "sv": "mån 29 jun · Auditorio Starlite · Marbella",
-    "no": "man 29 jun · Auditorio Starlite · Marbella",
-    "da": "man 29 jun · Auditorio Starlite · Marbella",
-    "fi": "ma 29 kesäk. · Auditorio Starlite · Marbella"
-   },
-   "url": "https://entradas.starlitemarbella.com/",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://i.ytimg.com/vi/C3lWwBslWqg/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.30)",
-   "pos": "50% 16%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Sting",
-   "headBottom": true,
-   "expires": "2026-07-13",
-   "sub": {
-    "en": "Mon 13 Jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "es": "Lun 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "de": "Mo 13 Jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "fr": "lun. 13 juil. · Castillo Sohail – Marenostrum · Fuengirola",
-    "sv": "mån 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "no": "man 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "da": "man 13 jul · Castillo Sohail – Marenostrum · Fuengirola",
-    "fi": "ma 13 heinäk. · Castillo Sohail – Marenostrum · Fuengirola"
-   },
-   "url": "https://marenostrumfuengirola.com/",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tom_Jones_concert.jpg",
-   "tint": "rgba(8,10,16,.28)",
-   "pos": "50% 8%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Tom Jones",
-   "headBottom": true,
-   "expires": "2026-08-01",
-   "sub": {
-    "en": "Sat 1 Aug · Málaga Forum · Moonlight",
-    "es": "Sáb 1 ago · Málaga Forum · Moonlight",
-    "de": "Sa. 1 Aug · Málaga Forum · Moonlight",
-    "fr": "sam. 1 août · Málaga Forum · Moonlight",
-    "sv": "lör 1 aug · Málaga Forum · Moonlight",
-    "no": "lør 1 aug · Málaga Forum · Moonlight",
-    "da": "lør 1 aug · Málaga Forum · Moonlight",
-    "fi": "la 1. elok. · Málaga Forum · Moonlight"
-   },
-   "url": "https://moonlightmalagafestival.com/tom-jones-malaga-1-de-agosto/",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Photo: Mykal Burns · CC BY 2.0"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(232,102,42,.42)",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "Guitarricadelafuente",
-   "sub": {
-    "en": "Sat 11 Jul · Plaza de Toros La Malagueta",
-    "es": "Sáb 11 jul · Plaza de Toros La Malagueta",
-    "de": "Sa 11 Jul · Plaza de Toros La Malagueta",
-    "fr": "sam. 11 juil. · Plaza de Toros La Malagueta",
-    "sv": "lör 11 jul · Plaza de Toros La Malagueta",
-    "no": "lør 11 jul · Plaza de Toros La Malagueta",
-    "da": "lør 11 jul · Plaza de Toros La Malagueta",
-    "fi": "la 11 heinäk. · Plaza de Toros La Malagueta"
-   },
-   "url": "https://www.malagaentradas.com/",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(31,158,99,.42)",
-   "url": "#free",
-   "tag": {
-    "en": "This week",
-    "es": "Esta semana",
-    "de": "Diese Woche",
-    "fr": "Cette semaine",
-    "sv": "Denna vecka",
-    "no": "Denne uken",
-    "da": "Denne uge",
-    "fi": "Tällä viikolla"
-   },
-   "head": {
-    "en": "Free live music",
-    "es": "Música en directo gratis",
-    "de": "Gratis Livemusik",
-    "fr": "Musique live gratuite",
-    "sv": "Gratis livemusik",
-    "no": "Gratis livemusikk",
-    "da": "Gratis livemusik",
-    "fi": "Ilmaista livemusiikkia"
-   },
-   "sub": {
-    "en": "Feria, beach & plaza — no ticket needed",
-    "es": "Feria, playa y plaza — sin entrada",
-    "de": "Feria, Strand & Platz — kein Ticket nötig",
-    "fr": "Feria, plage & place — sans billet",
-    "sv": "Feria, strand & torg — ingen biljett",
-    "no": "Feria, strand & plass — ingen billett",
-    "da": "Feria, strand & plads — ingen billet",
-    "fi": "Feria, ranta & aukio — ei lippua"
-   },
-   "cta": {
-    "en": "See them →",
-    "es": "Verlos →",
-    "de": "Ansehen →",
-    "fr": "Voir →",
-    "sv": "Visa →",
-    "no": "Se dem →",
-    "da": "Se dem →",
-    "fi": "Katso →"
-   }
-  },
-  {
-   "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
-   "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
-   "ghost": true,
-   "name": "ZZ PUB",
-   "url": "https://zzpub.es/",
-   "ribbon": {
-    "en": "Featured free venue",
-    "es": "Local gratis destacado",
-    "de": "Gratis · empfohlen",
-    "fr": "Lieu gratuit à la une",
-    "sv": "Utvald gratis lokal",
-    "no": "Anbefalt gratis sted",
-    "da": "Fremhævet gratis spillested",
-    "fi": "Esillä · ilmainen"
-   },
-   "sub": {
-    "en": "Live rock · central Málaga since 1991",
-    "es": "Rock en directo · Málaga centro desde 1991",
-    "de": "Live-Rock · Málaga-Zentrum seit 1991",
-    "fr": "Rock live · centre de Málaga depuis 1991",
-    "sv": "Livrock · centrala Málaga sedan 1991",
-    "no": "Live rock · sentrale Málaga siden 1991",
-    "da": "Live rock · det centrale Málaga siden 1991",
-    "fi": "Liverock · Málagan keskusta vuodesta 1991"
-   },
-   "cta": {
-    "en": "Tonight's gigs →",
-    "es": "Conciertos de hoy →",
-    "de": "Heute live →",
-    "fr": "Ce soir →",
-    "sv": "Ikväll →",
-    "no": "I kveld →",
-    "da": "I aften →",
-    "fi": "Tänään →"
-   }
-  },
-  {
-   "logo": "/assets/sponsors/kova-logo.png",
-   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
-   "light": true,
-   "name": "Kova Beach Club",
-   "url": "https://www.kovabeachclub.com",
-   "ribbon": {
-    "en": "Featured Beach Club",
-    "es": "Beach Club destacado",
-    "de": "Empfohlener Beach Club",
-    "fr": "Beach Club à la une",
-    "sv": "Utvald Beach Club",
-    "no": "Anbefalt Beach Club",
-    "da": "Fremhævet Beach Club",
-    "fi": "Esittelyssä: Beach Club"
-   },
-   "sub": {
-    "en": "Marbella · Puerto Banús"
-   },
-   "cta": {
-    "en": "Visit →",
-    "es": "Visitar →",
-    "de": "Besuchen →",
-    "fr": "Visiter →",
-    "sv": "Besök →",
-    "no": "Besøk →",
-    "da": "Besøg →",
-    "fi": "Käy →"
-   }
-  },
-  {
-   "logo": "/assets/sponsors/el-tintero-logo.png",
-   "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
-   "light": true,
-   "name": "El Tintero",
-   "url": "https://eltinteromalaga.com/carta/",
-   "ribbon": {
-    "en": "Featured restaurant",
-    "es": "Restaurante destacado",
-    "de": "Empfohlenes Restaurant",
-    "fr": "Restaurant à la une",
-    "sv": "Utvald restaurang",
-    "no": "Anbefalt restaurant",
-    "da": "Fremhævet restaurant",
-    "fi": "Esittelyssä: ravintola"
-   },
-   "sub": {
-    "en": "Fried fish & seafood · a Málaga beachfront classic",
-    "es": "Pescaíto frito y marisco · clásico de la playa de Málaga",
-    "de": "Frittierter Fisch & Meeresfrüchte · Strandklassiker in Málaga",
-    "fr": "Petite friture & fruits de mer · classique du front de mer à Málaga",
-    "sv": "Friterad fisk & skaldjur · en strandklassiker i Málaga",
-    "no": "Frityrstekt fisk & sjømat · en strandklassiker i Málaga",
-    "da": "Friteret fisk & skaldyr · en strandklassiker i Málaga",
-    "fi": "Paistettua kalaa & äyriäisiä · Málagan rantaklassikko"
-   },
-   "cta": {
-    "en": "Famous portion auction →",
-    "es": "La famosa subasta →",
-    "de": "Die berühmte Versteigerung →",
-    "fr": "La fameuse criée →",
-    "sv": "Den berömda auktionen →",
-    "no": "Den berømte auksjonen →",
-    "da": "Den berømte auktion →",
-    "fi": "Kuuluisa huutokauppa →"
-   }
-  },
-  {
-   "logo": "/assets/sponsors/sala-roka.png",
-   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
-   "light": true,
-   "name": "Sala Roka",
-   "url": "https://www.salaroka.com/",
-   "expires": "2026-07-26",
-   "ribbon": {
-    "en": "Featured venue",
-    "es": "Local destacado",
-    "de": "Empfohlen",
-    "fr": "À la une",
-    "sv": "Utvald",
-    "no": "Anbefalt",
-    "da": "Fremhævet",
-    "fi": "Esillä"
-   },
-   "sub": {
-    "en": "Best Events Infrastructure",
-    "es": "La mejor infraestructura para tus eventos",
-    "de": "Die beste Infrastruktur für Events",
-    "fr": "La meilleure infrastructure pour vos événements",
-    "sv": "Bästa infrastrukturen för evenemang",
-    "no": "Den beste infrastrukturen for arrangementer",
-    "da": "Den bedste infrastruktur til events",
-    "fi": "Paras tapahtumainfrastruktuuri"
-   },
-   "cta": {
-    "en": "Visit →",
-    "es": "Visitar →",
-    "de": "Besuchen →",
-    "fr": "Visiter →",
-    "sv": "Besök →",
-    "no": "Besøk →",
-    "da": "Besøg →",
-    "fi": "Käy →"
-   }
-  },
-  {
-   "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
-   "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
-   "ghost": true,
-   "name": "Canela Party",
-   "expires": "2026-08-29",
-   "url": "https://www.ingresse.com/canela-party-2026/",
-   "ribbon": {
-    "en": "Featured festival",
-    "es": "Festival destacado",
-    "de": "Empfohlenes Festival",
-    "fr": "Festival à la une",
-    "sv": "Utvalt festival",
-    "no": "Anbefalt festival",
-    "da": "Fremhævet festival",
-    "fi": "Esittelyssä: festivaali"
-   },
-   "sub": {
-    "en": "Canela Party · 27–29 Aug · Torremolinos",
-    "es": "Canela Party · 27–29 ago · Torremolinos",
-    "de": "Canela Party · 27.–29. Aug · Torremolinos",
-    "fr": "Canela Party · 27–29 août · Torremolinos",
-    "sv": "Canela Party · 27–29 aug · Torremolinos",
-    "no": "Canela Party · 27–29 aug · Torremolinos",
-    "da": "Canela Party · 27–29 aug · Torremolinos",
-    "fi": "Canela Party · 27.–29. elok. · Torremolinos"
-   },
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
