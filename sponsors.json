@@ -1,6 +1,84 @@
 {
  "ads": [
   {
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Hans Zimmer & Ennio Morricone Sinf",
+   "headBottom": true,
+   "expires": "2026-07-04",
+   "sub": {
+    "en": "Sat 4 Jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "es": "Sáb 4 jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "de": "Sa 4 Jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "fr": "sam. 4 juil. · Auditorio Municipal de Benalmádena · Benalmádena",
+    "sv": "lör 4 jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "no": "lør 4 jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "da": "lør 4 jul · Auditorio Municipal de Benalmádena · Benalmádena",
+    "fi": "la 4 heinäk. · Auditorio Municipal de Benalmádena · Benalmádena"
+   },
+   "url": "https://operabenalmadena.com/en/programacion/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "IL Volo",
+   "headBottom": true,
+   "expires": "2026-07-19",
+   "sub": {
+    "en": "Sun 19 Jul · Plaza de Toros La Malagueta · Málaga",
+    "es": "Dom 19 jul · Plaza de Toros La Malagueta · Málaga",
+    "de": "So 19 Jul · Plaza de Toros La Malagueta · Málaga",
+    "fr": "dim. 19 juil. · Plaza de Toros La Malagueta · Málaga",
+    "sv": "sön 19 jul · Plaza de Toros La Malagueta · Málaga",
+    "no": "søn 19 jul · Plaza de Toros La Malagueta · Málaga",
+    "da": "søn 19 jul · Plaza de Toros La Malagueta · Málaga",
+    "fi": "su 19 heinäk. · Plaza de Toros La Malagueta · Málaga"
+   },
+   "url": "https://www.malagaentradas.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
    "photo": "https://i.ytimg.com/vi/LbKcHy9cav0/hqdefault.jpg",
    "tint": "rgba(8,10,16,.30)",
    "pos": "50% 16%",
