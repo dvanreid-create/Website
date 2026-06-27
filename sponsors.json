@@ -312,6 +312,44 @@
    }
   },
   {
+   "logo": "/assets/sponsors/sala-roka.png",
+   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
+   "light": true,
+   "name": "Sala Roka",
+   "url": "https://www.salaroka.com/",
+   "expires": "2026-07-26",
+   "ribbon": {
+    "en": "Featured venue",
+    "es": "Local destacado",
+    "de": "Empfohlen",
+    "fr": "À la une",
+    "sv": "Utvald",
+    "no": "Anbefalt",
+    "da": "Fremhævet",
+    "fi": "Esillä"
+   },
+   "sub": {
+    "en": "Best Events Infrastructure",
+    "es": "La mejor infraestructura para tus eventos",
+    "de": "Die beste Infrastruktur für Events",
+    "fr": "La meilleure infrastructure pour vos événements",
+    "sv": "Bästa infrastrukturen för evenemang",
+    "no": "Den beste infrastrukturen for arrangementer",
+    "da": "Den bedste infrastruktur til events",
+    "fi": "Paras tapahtumainfrastruktuuri"
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
    "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
    "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
    "ghost": true,
