@@ -109,6 +109,10 @@ const L = {
 const LOGO_FIELD = "fldTRln8zSON7nc5o";  // "Logo file" attachment field
 const OK_TYPES = { "image/png":1, "image/jpeg":1, "image/jpg":1, "image/svg+xml":1 };
 const jsonResp = (code, obj) => ({ statusCode: code, headers: { "Content-Type":"application/json", "Cache-Control":"no-store" }, body: JSON.stringify(obj) });
+// Anti-cannibalisation: the tile's click-through is locked to the advertiser's own domain
+// (the one captured at purchase, which persists in Link URL because every edit must match it).
+// registrable domain = last two labels (handles www + subdomains; fine for .com/.es/.no/.se/.dk/.fi).
+function regDomain(u){ try { const h = new URL(u).hostname.toLowerCase().replace(/^www\./, ""); const p = h.split("."); return p.length > 2 ? p.slice(-2).join(".") : h; } catch { return ""; } }
 const LE = {
   en:{ dh:"Your Málaga Live tile", di:"Update your image, subtext and link anytime — changes go live within a minute.", eh:"Edit your tile", e_img:"Tile image — square PNG or JPG (max 5 MB)", e_sub:"Subtext (max 60)", e_link:"Link — where your tile clicks to", e_save:"Save changes", e_saved:"Saved — your tile updates on the site within a minute.", e_bill:"Manage billing or cancel →", e_keep:"Leave empty to keep your current image.", e_badlink:"Enter a valid link starting with http:// or https://.", e_badimg:"Image must be PNG, JPG or SVG, under 5 MB.", e_proc:"Saving…", e_note:"Your tile is yours to manage — a wrong image or link is yours to fix here.", e_err:"Something went wrong — please try again." },
   es:{ dh:"Tu tile de Málaga Live", di:"Actualiza tu imagen, subtítulo y enlace cuando quieras — los cambios salen en directo en un minuto.", eh:"Edita tu tile", e_img:"Imagen del tile — PNG o JPG cuadrado (máx. 5 MB)", e_sub:"Subtítulo (máx. 60)", e_link:"Enlace — adónde lleva tu tile", e_save:"Guardar cambios", e_saved:"Guardado — tu tile se actualiza en el sitio en un minuto.", e_bill:"Gestionar facturación o cancelar →", e_keep:"Déjalo vacío para mantener tu imagen actual.", e_badlink:"Introduce un enlace válido que empiece por http:// o https://.", e_badimg:"La imagen debe ser PNG, JPG o SVG, menos de 5 MB.", e_proc:"Guardando…", e_note:"Tu tile es tuyo para gestionar — una imagen o enlace erróneo es tuyo para corregir aquí.", e_err:"Algo salió mal — inténtalo de nuevo." },
@@ -123,6 +127,7 @@ const LE = {
 // Cloudflare Turnstile bot protection on the email-request form (same widget/key as the buy form).
 const TS_SITEKEY = "0x4AAAAAADp1Y1TESrBWaogl";
 const CAP = { en:"Please complete the verification.", es:"Completa la verificación.", de:"Bitte schließe die Verifizierung ab.", fr:"Merci de compléter la vérification.", sv:"Slutför verifieringen.", no:"Fullfør verifiseringen.", da:"Fuldfør verifikationen.", fi:"Suorita vahvistus loppuun." };
+const DOM = { en:"Your link must stay on your own website.", es:"Tu enlace debe permanecer en tu propio sitio web.", de:"Dein Link muss auf deiner eigenen Website bleiben.", fr:"Ton lien doit rester sur ton propre site web.", sv:"Din länk måste vara på din egen webbplats.", no:"Lenken din må være på ditt eget nettsted.", da:"Dit link skal blive på dit eget website.", fi:"Linkkisi on pysyttävä omalla verkkosivustollasi." };
 async function verifyTurnstile(tokenVal) {
   const secret = process.env.TURNSTILE_SECRET;
   if (!secret) return true;          // fail-open if not configured (matches the buy form)
@@ -202,6 +207,7 @@ function dashboard(lang, t, row) {
       "<input type=\"text\" id=\"es\" maxlength=\"60\" value=\"" + esc(sub) + "\">" +
       "<label style=\"display:block;font-size:12px;font-weight:600;margin:10px 0 4px\">" + e.e_link + "</label>" +
       "<input type=\"url\" id=\"el\" value=\"" + esc(link) + "\" placeholder=\"https://\">" +
+      "<div style=\"font-size:11px;color:#9aa7b0;margin-top:3px\">" + (DOM[lang] || DOM.en) + "</div>" +
       "<div class=\"cf-turnstile\" data-sitekey=\"" + TS_SITEKEY + "\" style=\"margin:12px 0 0\"></div>" +
       "<button type=\"submit\">" + e.e_save + "</button>" +
       "<div id=\"em\" style=\"display:none;margin-top:10px;font-size:13px;border-radius:9px;padding:10px\"></div>" +
@@ -224,6 +230,7 @@ function dashboard(lang, t, row) {
           ".then(function(r){return r.json();}).then(function(d){btn.disabled=false;btn.textContent=" + JSON.stringify(e.e_save) + ";" +
           "if(d&&d.ok){msg(true," + JSON.stringify(e.e_saved) + ");var pv=document.getElementById('pvsub');if(pv)pv.textContent=sub;}" +
           "else if(d&&d.error==='badlink'){msg(false," + JSON.stringify(e.e_badlink) + ");}" +
+          "else if(d&&d.error==='linkdomain'){msg(false," + JSON.stringify(DOM[lang] || DOM.en) + "+(d.domain?(' ('+d.domain+')'):''));}" +
           "else if(d&&d.error==='captcha'){msg(false," + JSON.stringify(CAP[lang]) + ");}" +
           "else{msg(false," + JSON.stringify(e.e_err) + ");}})" +
           ".catch(function(){btn.disabled=false;btn.textContent=" + JSON.stringify(e.e_save) + ";msg(false," + JSON.stringify(e.e_err) + ");});}" +
@@ -244,6 +251,11 @@ async function handleEdit(d, token, lang) {
   const subtext = String(d.subtext == null ? "" : d.subtext).trim().slice(0, 60);
   const link = String(d.link == null ? "" : d.link).trim();
   if (link && !/^https?:\/\/\S+\.\S+/i.test(link)) return jsonResp(400, { error: "badlink" });
+  if (link) {
+    const lockDom = regDomain(row.fields["Link URL"] || "");
+    const newDom = regDomain(link);
+    if (lockDom && newDom && newDom !== lockDom) return jsonResp(400, { error: "linkdomain", domain: lockDom });
+  }
   const prev = row.fields["Subtext"] || "";
   const fields = { "Subtext": subtext };
   if (link) fields["Link URL"] = link;
