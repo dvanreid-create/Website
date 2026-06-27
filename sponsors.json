@@ -214,14 +214,14 @@
    "name": "ZZ PUB",
    "url": "https://zzpub.es/",
    "ribbon": {
-    "en": "Featured venue",
-    "es": "Local destacado",
-    "de": "Empfohlen",
-    "fr": "À la une",
-    "sv": "Utvald",
-    "no": "Anbefalt",
-    "da": "Fremhævet",
-    "fi": "Esillä"
+    "en": "Featured free venue",
+    "es": "Local gratis destacado",
+    "de": "Gratis · empfohlen",
+    "fr": "Lieu gratuit à la une",
+    "sv": "Utvald gratis lokal",
+    "no": "Anbefalt gratis sted",
+    "da": "Fremhævet gratis spillested",
+    "fi": "Esillä · ilmainen"
    },
    "sub": {
     "en": "Live rock · central Málaga since 1991",
