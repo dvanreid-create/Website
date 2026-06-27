@@ -436,7 +436,7 @@ window.addEventListener('resize',syncH);setTimeout(syncH,300);
 
 (function(){var stage=document.getElementById('mltvStage'),chips=document.getElementById('mltvChips'),sec=document.getElementById('mltv');
 if(!stage||!chips)return;
-var AD={"name": "Kova Beach Club", "url": "https://www.kovabeachclub.com", "host": "kovabeachclub.com", "logo": "/assets/sponsors/kova-logo.png", "ad": "", "adbg": "#ece3d3", "tagline": "It's Better by The Beach", "light": true},SB="Sponset av",MLLOGO="<img class=\"mltv-ad-mllogo\" src=\"/assets/malaga-live-logo_transparent.png\" alt=\"M\u00e1laga Live\">";
+var AD=null,SB="Sponset av",MLLOGO="<img class=\"mltv-ad-mllogo\" src=\"/assets/malaga-live-logo_transparent.png\" alt=\"M\u00e1laga Live\">";
 fetch('/tv.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
 if(!d||!d.clips||!d.clips.length)return;
 var clips=d.clips,cur=0,timer=null,playing=false,playTok=0,n=clips.length+(AD?1:0);
