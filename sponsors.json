@@ -1,7 +1,163 @@
 {
  "ads": [
   {
-   "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Lenny_Kravitz_%2849491445668%29.jpg",
+   "photo": "https://i.ytimg.com/vi/LbKcHy9cav0/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 16%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Danny Ocean",
+   "headBottom": true,
+   "expires": "2026-07-04",
+   "sub": {
+    "en": "Sat 4 Jul · Auditorio Starlite · Marbella",
+    "es": "Sáb 4 jul · Auditorio Starlite · Marbella",
+    "de": "Sa 4 Jul · Auditorio Starlite · Marbella",
+    "fr": "sam. 4 juil. · Auditorio Starlite · Marbella",
+    "sv": "lör 4 jul · Auditorio Starlite · Marbella",
+    "no": "lør 4 jul · Auditorio Starlite · Marbella",
+    "da": "lør 4 jul · Auditorio Starlite · Marbella",
+    "fi": "la 4 heinäk. · Auditorio Starlite · Marbella"
+   },
+   "url": "https://entradas.starlitemarbella.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/09R8_2nJtjg/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 16%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Maroon 5",
+   "headBottom": true,
+   "expires": "2026-07-07",
+   "sub": {
+    "en": "Tue 7 Jul · Auditorio Starlite · Marbella",
+    "es": "Mar 7 jul · Auditorio Starlite · Marbella",
+    "de": "Di 7 Jul · Auditorio Starlite · Marbella",
+    "fr": "mar. 7 juil. · Auditorio Starlite · Marbella",
+    "sv": "tis 7 jul · Auditorio Starlite · Marbella",
+    "no": "tir 7 jul · Auditorio Starlite · Marbella",
+    "da": "tir 7 jul · Auditorio Starlite · Marbella",
+    "fi": "ti 7 heinäk. · Auditorio Starlite · Marbella"
+   },
+   "url": "https://entradas.starlitemarbella.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 16%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Lia Kali",
+   "headBottom": true,
+   "expires": "2026-07-04",
+   "sub": {
+    "en": "Sat 4 Jul · Plaza de Toros La Malagueta · Málaga",
+    "es": "Sáb 4 jul · Plaza de Toros La Malagueta · Málaga",
+    "de": "Sa 4 Jul · Plaza de Toros La Malagueta · Málaga",
+    "fr": "sam. 4 juil. · Plaza de Toros La Malagueta · Málaga",
+    "sv": "lör 4 jul · Plaza de Toros La Malagueta · Málaga",
+    "no": "lør 4 jul · Plaza de Toros La Malagueta · Málaga",
+    "da": "lør 4 jul · Plaza de Toros La Malagueta · Málaga",
+    "fi": "la 4 heinäk. · Plaza de Toros La Malagueta · Málaga"
+   },
+   "url": "https://www.malagaentradas.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.30)",
+   "pos": "50% 16%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Rick Astley",
+   "headBottom": true,
+   "expires": "2026-07-10",
+   "sub": {
+    "en": "Fri 10 Jul · Auditorio Starlite · Marbella",
+    "es": "Vie 10 jul · Auditorio Starlite · Marbella",
+    "de": "Fr 10 Jul · Auditorio Starlite · Marbella",
+    "fr": "ven. 10 juil. · Auditorio Starlite · Marbella",
+    "sv": "fre 10 jul · Auditorio Starlite · Marbella",
+    "no": "fre 10 jul · Auditorio Starlite · Marbella",
+    "da": "fre 10 jul · Auditorio Starlite · Marbella",
+    "fi": "pe 10 heinäk. · Auditorio Starlite · Marbella"
+   },
+   "url": "https://entradas.starlitemarbella.com/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/8LhCd1W2V0Q/hqdefault.jpg",
    "tint": "rgba(8,10,16,.30)",
    "pos": "50% 16%",
    "ribbon": {
@@ -18,16 +174,16 @@
    "headBottom": true,
    "expires": "2026-06-29",
    "sub": {
-    "en": "Mon 29 Jun · Starlite · Marbella",
-    "es": "Lun 29 jun · Starlite · Marbella",
-    "de": "Mo. 29 Jun · Starlite · Marbella",
-    "fr": "lun. 29 juin · Starlite · Marbella",
-    "sv": "mån 29 jun · Starlite · Marbella",
-    "no": "man 29 jun · Starlite · Marbella",
-    "da": "man 29 jun · Starlite · Marbella",
-    "fi": "ma 29. kesäk. · Starlite · Marbella"
+    "en": "Mon 29 Jun · Auditorio Starlite · Marbella",
+    "es": "Lun 29 jun · Auditorio Starlite · Marbella",
+    "de": "Mo 29 Jun · Auditorio Starlite · Marbella",
+    "fr": "lun. 29 juin · Auditorio Starlite · Marbella",
+    "sv": "mån 29 jun · Auditorio Starlite · Marbella",
+    "no": "man 29 jun · Auditorio Starlite · Marbella",
+    "da": "man 29 jun · Auditorio Starlite · Marbella",
+    "fi": "ma 29 kesäk. · Auditorio Starlite · Marbella"
    },
-   "url": "https://starlitefestival.com/en/eventoconcierto/lenny-kravitz/",
+   "url": "https://entradas.starlitemarbella.com/",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -37,51 +193,6 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Photo: John Mathew Smith · CC BY-SA 2.0"
-   }
-  },
-  {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sting_by_Yancho_Sabev_cropped.jpg?width=800",
-   "tint": "rgba(8,10,16,.30)",
-   "pos": "50% 22%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Sting",
-   "headBottom": true,
-   "expires": "2026-07-13",
-   "sub": {
-    "en": "Mon 13 Jul · Marenostrum · Fuengirola",
-    "es": "Lun 13 jul · Marenostrum · Fuengirola",
-    "de": "Mo. 13 Jul · Marenostrum · Fuengirola",
-    "fr": "lun. 13 juil. · Marenostrum · Fuengirola",
-    "sv": "mån 13 jul · Marenostrum · Fuengirola",
-    "no": "man 13 jul · Marenostrum · Fuengirola",
-    "da": "man 13 jul · Marenostrum · Fuengirola",
-    "fi": "ma 13. heinäk. · Marenostrum · Fuengirola"
-   },
-   "url": "https://marenostrumfuengirola.com/",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Photo: Yancho Sabev · CC BY-SA 3.0"
    }
   },
   {
