@@ -105,6 +105,21 @@ const L = {
         h_expired:"Tämä linkki ei ole aktiivinen", p_expired:"Käytä Hallinnoi-linkkiä viimeisimmästä Málaga Live -sähköpostistasi tai pyydä uusi mainossivulta." }
 };
 
+// ---- self-edit (tile) constants + localisation ----
+const LOGO_FIELD = "fldTRln8zSON7nc5o";  // "Logo file" attachment field
+const OK_TYPES = { "image/png":1, "image/jpeg":1, "image/jpg":1, "image/svg+xml":1 };
+const jsonResp = (code, obj) => ({ statusCode: code, headers: { "Content-Type":"application/json", "Cache-Control":"no-store" }, body: JSON.stringify(obj) });
+const LE = {
+  en:{ dh:"Your Málaga Live tile", di:"Update your image, subtext and link anytime — changes go live within a minute.", eh:"Edit your tile", e_img:"Tile image — square PNG or JPG (max 5 MB)", e_sub:"Subtext (max 60)", e_link:"Link — where your tile clicks to", e_save:"Save changes", e_saved:"Saved — your tile updates on the site within a minute.", e_bill:"Manage billing or cancel →", e_keep:"Leave empty to keep your current image.", e_badlink:"Enter a valid link starting with http:// or https://.", e_badimg:"Image must be PNG, JPG or SVG, under 5 MB.", e_proc:"Saving…", e_note:"Your tile is yours to manage — a wrong image or link is yours to fix here.", e_err:"Something went wrong — please try again." },
+  es:{ dh:"Tu tile de Málaga Live", di:"Actualiza tu imagen, subtítulo y enlace cuando quieras — los cambios salen en directo en un minuto.", eh:"Edita tu tile", e_img:"Imagen del tile — PNG o JPG cuadrado (máx. 5 MB)", e_sub:"Subtítulo (máx. 60)", e_link:"Enlace — adónde lleva tu tile", e_save:"Guardar cambios", e_saved:"Guardado — tu tile se actualiza en el sitio en un minuto.", e_bill:"Gestionar facturación o cancelar →", e_keep:"Déjalo vacío para mantener tu imagen actual.", e_badlink:"Introduce un enlace válido que empiece por http:// o https://.", e_badimg:"La imagen debe ser PNG, JPG o SVG, menos de 5 MB.", e_proc:"Guardando…", e_note:"Tu tile es tuyo para gestionar — una imagen o enlace erróneo es tuyo para corregir aquí.", e_err:"Algo salió mal — inténtalo de nuevo." },
+  de:{ dh:"Dein Málaga-Live-Tile", di:"Aktualisiere Bild, Untertext und Link jederzeit — Änderungen sind in einer Minute live.", eh:"Tile bearbeiten", e_img:"Tile-Bild — quadratisches PNG oder JPG (max. 5 MB)", e_sub:"Untertext (max. 60)", e_link:"Link — wohin dein Tile führt", e_save:"Änderungen speichern", e_saved:"Gespeichert — dein Tile wird in einer Minute aktualisiert.", e_bill:"Abrechnung verwalten oder kündigen →", e_keep:"Leer lassen, um dein aktuelles Bild zu behalten.", e_badlink:"Gib einen gültigen Link ein, der mit http:// oder https:// beginnt.", e_badimg:"Bild muss PNG, JPG oder SVG sein, unter 5 MB.", e_proc:"Speichern…", e_note:"Dein Tile verwaltest du selbst — ein falsches Bild oder ein falscher Link ist hier von dir zu korrigieren.", e_err:"Etwas ist schiefgelaufen — bitte versuche es erneut." },
+  fr:{ dh:"Ton tile Málaga Live", di:"Mets à jour ton image, ton sous-texte et ton lien à tout moment — les changements sont en ligne en une minute.", eh:"Modifier ton tile", e_img:"Image du tile — PNG ou JPG carré (max 5 Mo)", e_sub:"Sous-texte (max 60)", e_link:"Lien — vers où mène ton tile", e_save:"Enregistrer", e_saved:"Enregistré — ton tile est mis à jour en une minute.", e_bill:"Gérer la facturation ou annuler →", e_keep:"Laisse vide pour garder ton image actuelle.", e_badlink:"Saisis un lien valide commençant par http:// ou https://.", e_badimg:"L'image doit être PNG, JPG ou SVG, moins de 5 Mo.", e_proc:"Enregistrement…", e_note:"Ton tile, c'est toi qui le gères — une image ou un lien erroné est à corriger ici.", e_err:"Une erreur s'est produite — réessaie." },
+  sv:{ dh:"Din Málaga Live-tile", di:"Uppdatera bild, undertext och länk när du vill — ändringar går live inom en minut.", eh:"Redigera din tile", e_img:"Tile-bild — kvadratisk PNG eller JPG (max 5 MB)", e_sub:"Undertext (max 60)", e_link:"Länk — dit din tile leder", e_save:"Spara ändringar", e_saved:"Sparat — din tile uppdateras på sajten inom en minut.", e_bill:"Hantera betalning eller avsluta →", e_keep:"Lämna tomt för att behålla din nuvarande bild.", e_badlink:"Ange en giltig länk som börjar med http:// eller https://.", e_badimg:"Bilden måste vara PNG, JPG eller SVG, under 5 MB.", e_proc:"Sparar…", e_note:"Din tile sköter du själv — en felaktig bild eller länk är din att rätta här.", e_err:"Något gick fel — försök igen." },
+  no:{ dh:"Din Málaga Live-tile", di:"Oppdater bilde, undertekst og lenke når som helst — endringer går live innen ett minutt.", eh:"Rediger tilen din", e_img:"Tile-bilde — kvadratisk PNG eller JPG (maks 5 MB)", e_sub:"Undertekst (maks 60)", e_link:"Lenke — hvor tilen fører", e_save:"Lagre endringer", e_saved:"Lagret — tilen din oppdateres på nettstedet innen ett minutt.", e_bill:"Administrer betaling eller avslutt →", e_keep:"La stå tomt for å beholde nåværende bilde.", e_badlink:"Skriv inn en gyldig lenke som starter med http:// eller https://.", e_badimg:"Bildet må være PNG, JPG eller SVG, under 5 MB.", e_proc:"Lagrer…", e_note:"Tilen din styrer du selv — feil bilde eller lenke er ditt å rette her.", e_err:"Noe gikk galt — prøv igjen." },
+  da:{ dh:"Din Málaga Live-tile", di:"Opdater billede, undertekst og link når som helst — ændringer går live inden for et minut.", eh:"Rediger din tile", e_img:"Tile-billede — kvadratisk PNG eller JPG (maks. 5 MB)", e_sub:"Undertekst (maks. 60)", e_link:"Link — hvor din tile fører hen", e_save:"Gem ændringer", e_saved:"Gemt — din tile opdateres på sitet inden for et minut.", e_bill:"Administrer betaling eller annullér →", e_keep:"Lad stå tomt for at beholde dit nuværende billede.", e_badlink:"Indtast et gyldigt link, der starter med http:// eller https://.", e_badimg:"Billedet skal være PNG, JPG eller SVG, under 5 MB.", e_proc:"Gemmer…", e_note:"Din tile styrer du selv — et forkert billede eller link er dit at rette her.", e_err:"Noget gik galt — prøv igen." },
+  fi:{ dh:"Málaga Live -tilesi", di:"Päivitä kuva, alateksti ja linkki milloin tahansa — muutokset näkyvät minuutissa.", eh:"Muokkaa tileäsi", e_img:"Tile-kuva — neliön muotoinen PNG tai JPG (enint. 5 MB)", e_sub:"Alateksti (enint. 60)", e_link:"Linkki — minne tile vie", e_save:"Tallenna muutokset", e_saved:"Tallennettu — tilesi päivittyy sivustolle minuutissa.", e_bill:"Hallinnoi laskutusta tai peru →", e_keep:"Jätä tyhjäksi säilyttääksesi nykyisen kuvan.", e_badlink:"Anna kelvollinen linkki, joka alkaa http:// tai https://.", e_badimg:"Kuvan on oltava PNG, JPG tai SVG, alle 5 MB.", e_proc:"Tallennetaan…", e_note:"Tilesi on sinun hallinnoitavanasi — väärä kuva tai linkki on sinun korjattavissasi täällä.", e_err:"Jokin meni pieleen — yritä uudelleen." }
+};
+
 // Cloudflare Turnstile bot protection on the email-request form (same widget/key as the buy form).
 const TS_SITEKEY = "0x4AAAAAADp1Y1TESrBWaogl";
 const CAP = { en:"Please complete the verification.", es:"Completa la verificación.", de:"Bitte schließe die Verifizierung ab.", fr:"Merci de compléter la vérification.", sv:"Slutför verifieringen.", no:"Fullfør verifiseringen.", da:"Fuldfør verifikationen.", fi:"Suorita vahvistus loppuun." };
@@ -162,6 +177,96 @@ function emailForm(lang, err) {
     "<script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>");
 }
 
+// ---- self-serve dashboard: edit the tile (image + subtext + link) or go to billing ----
+function dashboard(lang, t, row) {
+  const tr = L[lang], e = LE[lang] || LE.en;
+  const f = row.fields || {};
+  const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  const att = Array.isArray(f["Logo file"]) && f["Logo file"][0] ? f["Logo file"][0].url : "";
+  const img = att || f["Logo URL"] || f["Photo URL"] || "";
+  const sub = f["Subtext"] || "";
+  const link = f["Link URL"] || "";
+  const name = f["Sponsor name"] || "";
+  const preview = img
+    ? ("<div style=\"width:200px;height:200px;margin:6px auto 0;border-radius:12px;overflow:hidden;position:relative;background:#0B5E8A url('" + esc(img) + "') center/cover;box-shadow:0 6px 20px rgba(0,0,0,.25)\">" +
+       "<div id=\"pvsub\" style=\"position:absolute;left:0;right:0;bottom:0;padding:10px 12px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff;font-size:13px;font-weight:600\">" + esc(sub) + "</div></div>")
+    : "";
+  const body =
+    "<h1>" + e.dh + (name ? (" · " + esc(name)) : "") + "</h1>" +
+    "<p>" + e.di + "</p>" + preview +
+    "<form id=\"edt\" style=\"margin-top:14px\">" +
+      "<label style=\"display:block;font-size:12px;font-weight:600;margin:10px 0 4px\">" + e.e_img + "</label>" +
+      "<input type=\"file\" id=\"ei\" accept=\"image/png,image/jpeg,image/svg+xml\">" +
+      "<div style=\"font-size:11px;color:#9aa7b0;margin-top:3px\">" + e.e_keep + "</div>" +
+      "<label style=\"display:block;font-size:12px;font-weight:600;margin:10px 0 4px\">" + e.e_sub + " <span id=\"ec\" style=\"float:right;color:#9aa7b0\">" + sub.length + "/60</span></label>" +
+      "<input type=\"text\" id=\"es\" maxlength=\"60\" value=\"" + esc(sub) + "\">" +
+      "<label style=\"display:block;font-size:12px;font-weight:600;margin:10px 0 4px\">" + e.e_link + "</label>" +
+      "<input type=\"url\" id=\"el\" value=\"" + esc(link) + "\" placeholder=\"https://\">" +
+      "<div class=\"cf-turnstile\" data-sitekey=\"" + TS_SITEKEY + "\" style=\"margin:12px 0 0\"></div>" +
+      "<button type=\"submit\">" + e.e_save + "</button>" +
+      "<div id=\"em\" style=\"display:none;margin-top:10px;font-size:13px;border-radius:9px;padding:10px\"></div>" +
+      "<p style=\"font-size:11px;color:#9aa7b0;margin-top:8px\">" + e.e_note + "</p>" +
+    "</form>" +
+    "<p style=\"margin-top:8px;text-align:center\"><a href=\"" + SITE + "/ad-portal?t=" + encodeURIComponent(t) + "&billing=1&lang=" + lang + "\">" + e.e_bill + "</a></p>" +
+    "<p style=\"text-align:center\"><a href=\"" + SITE + "/advertise.html?lang=" + lang + "\">" + tr.back + "</a></p>" +
+    "<script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>" +
+    "<script>(function(){" +
+      "var f=document.getElementById('edt'),s=document.getElementById('es'),c=document.getElementById('ec'),m=document.getElementById('em');" +
+      "function msg(ok,txt){m.style.display='block';m.style.background=ok?'#eef5fa':'#fdecec';m.style.color=ok?'#0B5E8A':'#a3271f';m.textContent=txt;}" +
+      "s.addEventListener('input',function(){c.textContent=s.value.length+'/60';});" +
+      "f.addEventListener('submit',function(ev){ev.preventDefault();" +
+        "var link=document.getElementById('el').value.trim(),sub=s.value.trim(),file=document.getElementById('ei').files[0];" +
+        "var tk=(document.querySelector('[name=cf-turnstile-response]')||{}).value||'';" +
+        "if(link&&!/^https?:\\/\\/\\S+\\.\\S+/i.test(link)){msg(false," + JSON.stringify(e.e_badlink) + ");return;}" +
+        "if(file){var ok={'image/png':1,'image/jpeg':1,'image/svg+xml':1};if(!ok[file.type]||file.size>5*1024*1024){msg(false," + JSON.stringify(e.e_badimg) + ");return;}}" +
+        "var btn=f.querySelector('button');btn.disabled=true;btn.textContent=" + JSON.stringify(e.e_proc) + ";" +
+        "function send(b64,ct,nm){fetch('/ad-portal',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'edit',t:" + JSON.stringify(t) + ",subtext:sub,link:link,logoBase64:b64,logoType:ct,logoName:nm,turnstile:tk})})" +
+          ".then(function(r){return r.json();}).then(function(d){btn.disabled=false;btn.textContent=" + JSON.stringify(e.e_save) + ";" +
+          "if(d&&d.ok){msg(true," + JSON.stringify(e.e_saved) + ");var pv=document.getElementById('pvsub');if(pv)pv.textContent=sub;}" +
+          "else if(d&&d.error==='badlink'){msg(false," + JSON.stringify(e.e_badlink) + ");}" +
+          "else if(d&&d.error==='captcha'){msg(false," + JSON.stringify(CAP[lang]) + ");}" +
+          "else{msg(false," + JSON.stringify(e.e_err) + ");}})" +
+          ".catch(function(){btn.disabled=false;btn.textContent=" + JSON.stringify(e.e_save) + ";msg(false," + JSON.stringify(e.e_err) + ");});}" +
+        "if(file){var rd=new FileReader();rd.onload=function(){send((rd.result||'').toString().split(',')[1]||'',file.type,file.name);};rd.onerror=function(){msg(false," + JSON.stringify(e.e_badimg) + ");};rd.readAsDataURL(file);}else{send('','','');}" +
+      "});" +
+    "})();</script>";
+  return page(lang, tr.t_manage, body);
+}
+
+async function handleEdit(d, token, lang) {
+  if (!(await verifyTurnstile(d.turnstile))) return jsonResp(400, { error: "captcha" });
+  const tok = (d.t || "").trim();
+  if (!tok) return jsonResp(403, { error: "auth" });
+  const row = await rowByFormula(token, "{Portal token}='" + tok.replace(/'/g, "\\'") + "'");
+  if (!row || !row.fields) return jsonResp(403, { error: "auth" });
+  const st = row.fields.Status;
+  if (st !== "Sold" && st !== "Active") return jsonResp(403, { error: "inactive" });
+  const subtext = String(d.subtext == null ? "" : d.subtext).trim().slice(0, 60);
+  const link = String(d.link == null ? "" : d.link).trim();
+  if (link && !/^https?:\/\/\S+\.\S+/i.test(link)) return jsonResp(400, { error: "badlink" });
+  const prev = row.fields["Subtext"] || "";
+  const fields = { "Subtext": subtext };
+  if (link) fields["Link URL"] = link;
+  const stamp = "Edited " + new Date().toISOString() + (prev ? (" · prev subtext: \"" + String(prev).slice(0, 80) + "\"") : "");
+  fields["Notes"] = (stamp + (row.fields["Notes"] ? (" | " + String(row.fields["Notes"]).slice(0, 400)) : "")).slice(0, 99000);
+  if (d.logoBase64 && d.logoType && OK_TYPES[String(d.logoType).toLowerCase()]) {
+    try {
+      await fetch("https://content.airtable.com/v0/" + BASE + "/" + row.id + "/" + LOGO_FIELD + "/uploadAttachment", {
+        method: "POST",
+        headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+        body: JSON.stringify({ contentType: String(d.logoType).toLowerCase(), file: d.logoBase64, filename: String(d.logoName || "tile.png").slice(0, 120) })
+      });
+    } catch (err) { console.warn("tile image upload failed (non-fatal)", err && err.message); }
+  }
+  const pr = await AT(TABLE + "/" + row.id, {
+    method: "PATCH",
+    headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+    body: JSON.stringify({ fields })
+  });
+  if (!pr.ok) { console.error("tile edit patch", pr.status, await pr.text()); return jsonResp(502, { error: "save" }); }
+  return jsonResp(200, { ok: true });
+}
+
 async function rowByFormula(token, formula) {
   const r = await AT(TABLE + "?filterByFormula=" + encodeURIComponent(formula) + "&pageSize=1",
     { headers: { Authorization: "Bearer " + token } });
@@ -180,6 +285,8 @@ exports.handler = async (event) => {
   // ---- POST: request the link by email ----
   if (event.httpMethod === "POST") {
     const raw = event.body || "";
+    let _jb = null; try { _jb = JSON.parse(raw); } catch {}
+    if (_jb && _jb.action === "edit") return await handleEdit(_jb, token, lang);
     const fld = (name) => { const m = raw.match(new RegExp("(?:^|&)" + name + "=([^&]*)")); return m ? decodeURIComponent(m[1].replace(/\+/g, "%20")) : ""; };
     let email = fld("email").trim();
     let tsTok = fld("cf-turnstile-response");
@@ -200,16 +307,27 @@ exports.handler = async (event) => {
     return page(lang, tr.t_inbox, same);
   }
 
-  const t = (event.queryStringParameters && event.queryStringParameters.t || "").trim();
+  const qs = event.queryStringParameters || {};
+  const t = (qs.t || "").trim();
 
   // ---- GET without token: ask for the email ----
   if (!t) {
     return emailForm(lang, "");
   }
 
-  // ---- GET with token: redirect into the Stripe billing portal ----
+  // ---- GET with token: look up the advertiser's row ----
   const row = await rowByFormula(token, "{Portal token}='" + t.replace(/'/g, "\\'") + "'");
-  const cust = row && row.fields ? row.fields["Stripe customer ID"] : "";
+  if (!row || !row.fields) return page(lang, tr.t_expired, "<h1>" + tr.h_expired + "</h1><p>" + tr.p_expired + " <a href=\"" + SITE + "/advertise.html?lang=" + lang + "\">malagalivepulse.com</a></p>");
+
+  // Default = the self-serve dashboard (edit tile + billing). ?billing=1 = Stripe portal.
+  if ((qs.billing || "") !== "1") {
+    const st0 = row.fields.Status;
+    if (st0 === "Sold" || st0 === "Active") return dashboard(lang, t, row);
+    return page(lang, tr.t_expired, "<h1>" + tr.h_expired + "</h1><p>" + tr.p_expired + " <a href=\"" + SITE + "/advertise.html?lang=" + lang + "\">malagalivepulse.com</a></p>");
+  }
+
+  // ---- ?billing=1: redirect into the Stripe billing portal ----
+  const cust = row.fields["Stripe customer ID"];
   if (!cust) return page(lang, tr.t_expired, "<h1>" + tr.h_expired + "</h1><p>" + tr.p_expired + " <a href=\"" + SITE + "/advertise.html?lang=" + lang + "\">malagalivepulse.com</a></p>");
 
   try {

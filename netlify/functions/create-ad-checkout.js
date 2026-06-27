@@ -61,7 +61,7 @@ exports.handler = async (event) => {
   let d = {};
   try { d = JSON.parse(event.body || "{}"); } catch { return json(400, { error: "bad json" }); }
 
-  const name = t(d.name), email = t(d.email), link = t(d.link), headline = t(d.headline);
+  const name = t(d.name), email = t(d.email), link = t(d.link), subtext = t(d.subtext || d.headline).slice(0, 60);
   const LANGS = ["en","es","de","fr","sv","no","da","fi"];
   const lang = LANGS.indexOf(t(d.lang).toLowerCase()) >= 0 ? t(d.lang).toLowerCase() : "en";
   const tierKey = t(d.tier).toLowerCase();
@@ -69,6 +69,7 @@ exports.handler = async (event) => {
   if (!name || !email || !tier) return json(400, { error: "missing required fields" });
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return json(400, { error: "bad email" });
   if (!link) return json(400, { error: "missing link" });
+  if (!/^https?:\/\/\S+\.\S+/i.test(link)) return json(400, { error: "bad link" });
 
   // ---- Cloudflare Turnstile (anti-bot) — fail-open if not configured ----
   const tsSecret = t(process.env.TURNSTILE_SECRET);
@@ -115,9 +116,8 @@ exports.handler = async (event) => {
     "Link URL": link, "Monthly fee": (tier === "premium" ? 225 : 75),
     "Shows per hour": 2, "Duration secs": (tier === "premium" ? 30 : 5), "Language": lang
   };
-  // The buy-form "Tagline" is the sub-line shown under the logo on the tile.
-  // Logo tiles render the Subtext field (not Headline), so write it there.
-  if (headline) fields["Subtext"] = headline;
+  // The buy-form subtext is the editable promo line shown over the tile (<=60 chars).
+  if (subtext) fields["Subtext"] = subtext;
   try {
     const r = await fetch("https://api.airtable.com/v0/" + BASE + "/" + TABLE, {
       method: "POST",

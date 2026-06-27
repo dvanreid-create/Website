@@ -45,22 +45,18 @@ exports.handler = async () => {
       const dur = f["Duration secs"] || (tier.indexOf("Premium") >= 0 ? 30 : 5);
       const perHour = f["Shows per hour"] || 2;
       const att = Array.isArray(f["Logo file"]) && f["Logo file"][0] ? f["Logo file"][0].url : "";
-      const logo = att || f["Logo URL"] || "";
+      const img = att || f["Logo URL"] || f["Photo URL"] || "";
 
+      // Paid tiles are the advertiser's own full-bleed artwork \u2014 NO "Featured" ribbon.
+      // The fixed photo gradient darkens the lower area so the optional subtext stays legible.
       let ad;
-      if (f["Photo URL"]) ad = { photo: f["Photo URL"], tint: "rgba(8,11,16,.42)", pos: "center" };
-      else if (logo) ad = { logo: logo, bg: "linear-gradient(160deg,#faf3e9,#ecdcc6)", light: true };
+      if (img) ad = { photo: img, tint: "rgba(8,11,16,.10)", pos: "center" };
       else ad = { bg: "linear-gradient(160deg,#0B5E8A,#0a4f74)" };
 
       if (f["Link URL"]) ad.url = f["Link URL"];
       if (f["Sponsor name"]) ad.name = f["Sponsor name"];
-      if (f["Ribbon label"]) ad.ribbon = f["Ribbon label"];
-      if (f["Headline"]) ad.head = f["Headline"];
-      // Logo tiles render the sub-line (not head), so fall back Headline -> sub.
-      const subline = f["Subtext"] || f["Headline"] || "";
+      const subline = f["Subtext"] || "";
       if (subline) ad.sub = subline;
-      // Give logo tiles a clickable CTA like the editorial ones.
-      if (ad.logo && f["Link URL"]) ad.cta = "Visit \u2192";
       ad.dur = parseInt(dur, 10) || 5;
       ad.perHour = parseInt(perHour, 10) || 2;
       if (exp) ad.expires = exp;
