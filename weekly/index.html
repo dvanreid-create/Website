@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Málaga Live Weekly</title>
+<meta name="description" content="This week's Málaga Live newsletter — one tap from your home screen.">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="/weekly/manifest.json">
+<meta name="theme-color" content="#0B5E8A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ML Weekly">
+<link rel="apple-touch-icon" href="/prime/pass/icon-180.png">
+<link rel="icon" href="/favicon-32.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;}
+  body{display:flex;flex-direction:column;min-height:100%;background:#0B5E8A;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#fff;}
+  .bar{display:flex;align-items:center;gap:10px;padding:10px 14px;background:#0B5E8A;flex:none;}
+  .bar .wm{font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.5px;line-height:1;}
+  .bar .wm .o{color:#E8662A;}
+  .bar .wk{font-family:'Inter',sans-serif;font-size:10px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:#EF9F27;margin-left:2px;}
+  #ib{display:none;margin-left:auto;background:#E8662A;color:#fff;border:0;border-radius:9px;padding:9px 15px;font-family:'Inter',sans-serif;font-weight:700;font-size:13px;cursor:pointer;white-space:nowrap;}
+  #iosTip{display:none;font-size:12px;line-height:1.4;font-weight:500;color:#dceaf2;background:#0a4f74;padding:10px 14px;flex:none;}
+  #iosTip b{color:#fff;}
+  .frame{flex:1 1 auto;width:100%;border:0;background:#fff;display:block;}
+  /* When launched from the installed icon, drop the chrome and show only the newsletter. */
+  @media all and (display-mode:standalone){ .bar,#iosTip{display:none !important;} }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <span class="wm">MÁLAGA <span class="o">LIVE</span></span><span class="wk" id="wkLbl">This week</span>
+    <button id="ib"></button>
+  </div>
+  <div id="iosTip"></div>
+  <iframe class="frame" id="nl" title="Málaga Live — this week" referrerpolicy="no-referrer"></iframe>
+<script>
+(function(){
+  var LANGS=['en','es','de','fr','sv','no','da','fi'];
+  var STR={
+    en:{wk:"This week", add:"Add to Home Screen", ios:'On iPhone: tap <b>Share</b>, then <b>Add to Home Screen</b> — this week’s edition stays one tap away.'},
+    es:{wk:"Esta semana", add:"Añadir a inicio", ios:'En iPhone: toca <b>Compartir</b> y luego <b>Añadir a pantalla de inicio</b> — la edición de la semana, a un toque.'},
+    de:{wk:"Diese Woche", add:"Zum Startbildschirm", ios:'Auf dem iPhone: tippe auf <b>Teilen</b> und dann <b>Zum Home-Bildschirm</b> — die Ausgabe dieser Woche, immer einen Tipp entfernt.'},
+    fr:{wk:"Cette semaine", add:"Ajouter à l’accueil", ios:'Sur iPhone : touche <b>Partager</b>, puis <b>Sur l’écran d’accueil</b> — l’édition de la semaine, à un geste.'},
+    sv:{wk:"Denna vecka", add:"Lägg till på hemskärmen", ios:'På iPhone: tryck på <b>Dela</b> och sedan <b>Lägg till på hemskärmen</b> — veckans utgåva, ett tryck bort.'},
+    no:{wk:"Denne uken", add:"Legg til på startskjermen", ios:'På iPhone: trykk <b>Del</b> og deretter <b>Legg til på Hjem-skjerm</b> — ukens utgave, ett trykk unna.'},
+    da:{wk:"Denne uge", add:"Føj til hjemmeskærm", ios:'På iPhone: tryk på <b>Del</b> og derefter <b>Føj til hjemmeskærm</b> — ugens udgave, ét tryk væk.'},
+    fi:{wk:"Tällä viikolla", add:"Lisää aloitusnäyttöön", ios:'iPhonessa: napauta <b>Jaa</b> ja sitten <b>Lisää Koti-valikkoon</b> — tämän viikon numero on yhden napautuksen päässä.'}
+  };
+  var qs=new URLSearchParams(location.search);
+  var L=(qs.get('lang')||localStorage.getItem('mlweeklylang')||(navigator.language||'en').slice(0,2)||'en').toLowerCase();
+  if(LANGS.indexOf(L)<0)L='en';
+  localStorage.setItem('mlweeklylang',L);
+  document.documentElement.lang=L;
+  var t=STR[L]||STR.en;
+  document.getElementById('wkLbl').textContent=t.wk;
+  document.getElementById('ib').textContent=t.add;
+  document.getElementById('iosTip').innerHTML=t.ios;
+  // Load THIS week's edition (cache-busted so an updated file always shows).
+  document.getElementById('nl').src='/assets/newsletter/latest-'+L+'.html?t='+Date.now();
+  // Register the service worker (enables install).
+  if('serviceWorker' in navigator){ navigator.serviceWorker.register('/weekly/sw.js').catch(function(){}); }
+  // Android / desktop Chrome: one-tap install.
+  var dp=null, ib=document.getElementById('ib');
+  window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); dp=e; ib.style.display='inline-block'; });
+  ib.onclick=function(){ if(dp){ dp.prompt(); dp.userChoice.then(function(){ dp=null; ib.style.display='none'; }); } };
+  // iOS has no install API → show the manual Add-to-Home-Screen hint (unless already installed).
+  var isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  var standalone=window.matchMedia('(display-mode:standalone)').matches || window.navigator.standalone===true;
+  if(isIOS && !standalone){ document.getElementById('iosTip').style.display='block'; }
+})();
+</script>
+</body>
+</html>
