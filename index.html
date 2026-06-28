@@ -147,6 +147,7 @@
   .talsq-main{font-family:'Anton',sans-serif;font-size:26px;letter-spacing:1.5px;color:var(--navy);line-height:1;display:flex;align-items:center;justify-content:center;gap:9px;}
   .talsq-main .sq{color:var(--coral);} .talsq-main .gstar{flex:none;}
   .talsq-sub{font-size:9px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:#993C1D;margin:6px 0 0;text-align:center;}
+  .tsq-mob{display:none;}  /* mobile-only Talent Square link, shown after MLTV (desktop uses the right rail) */
   .talsq-feat{font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--navy);margin:11px 0 8px;text-align:center;width:250px;}
   .talsq{position:relative;width:250px;height:250px;flex:none;border-radius:16px;overflow:hidden;color:#fff;background-size:cover;background-position:center;box-shadow:0 8px 22px rgba(20,58,78,.22);}
   .talsq.invite{background:radial-gradient(85% 60% at 50% 6%,rgba(255,230,170,.85),rgba(232,102,42,.35) 38%,rgba(0,0,0,0) 70%),linear-gradient(170deg,#5a1d6e,#1a0820);}
@@ -169,7 +170,7 @@
   .talsq-send .ts-b{display:block;font-size:10.5px;font-weight:600;color:#993C1D;opacity:.85;margin-top:3px;}
   @media(min-width:1080px){.ad-rail{display:block;}}
   .mob-rail{display:none;}
-  @media(max-width:1079px){.mob-rail{display:flex;flex-direction:column;align-items:center;gap:12px;margin:14px 0 8px;}.mob-rail .ad-slot{max-width:100%;}.mob-rail .info-card{flex:none;width:250px;max-width:100%;margin-top:0;}.info-long{display:none;}}
+  @media(max-width:1079px){.mob-rail{display:flex;flex-direction:column;align-items:center;gap:12px;margin:14px 0 8px;}.mob-rail .ad-slot{max-width:100%;}.mob-rail .info-card{flex:none;width:250px;max-width:100%;margin-top:0;}.info-long{display:none;}.tsq-mob{display:block;text-align:center;text-decoration:none;margin:18px 0 6px;}}
   @media(min-width:1080px) and (max-width:1299px){.ad-rail.left{left:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);} .ad-rail.right{right:calc((100vw - 720px) / 2 - 176px);transform:scale(.6);}}
   .wa-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:20;box-shadow:0 3px 10px rgba(0,0,0,.18);text-decoration:none;}
   .wa-btn svg{width:32px;height:32px;fill:#fff;}
