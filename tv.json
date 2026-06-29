@@ -1,14 +1,14 @@
 {
   "clips": [
     {
-      "act": "Romeo Santos",
-      "yt": "7KrNh9YaeDg",
-      "where": "26 Jun · Marenostrum, Fuengirola"
-    },
-    {
       "act": "Lenny Kravitz",
       "yt": "8LhCd1W2V0Q",
       "where": "29 Jun · Starlite, Marbella"
+    },
+    {
+      "act": "Gipsy Kings",
+      "yt": "7qbEt_lSib4",
+      "where": "3 Jul · Starlite, Marbella"
     },
     {
       "act": "Danny Ocean",
@@ -32,22 +32,25 @@
     }
   ],
   "thumbs": {
-    "Defected ft. DJ EZ · Eliza Rose · Melé": "KtGFByAJRQQ",
-    "Niña Pastori": "nSkUCCSv1YQ",
     "Lenny Kravitz": "8LhCd1W2V0Q",
-    "Danny Ocean": "LbKcHy9cav0",
+    "Alan Parsons Live Project": "1kfh_Aff2SU",
+    "Gipsy Kings": "7qbEt_lSib4",
+    "Danny Ocean & Elena Rose": "LbKcHy9cav0",
+    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Grupo Frontera": "VtKcDwz6hiM",
+    "Candlelight Open Air: Tribute to ABBA": "xFrGuyw1V8s",
     "Maroon 5": "09R8_2nJtjg",
-    "Faithless": "P8JEm4d6Wu4",
+    "Faithless + BL3SS (Beat Live)": "P8JEm4d6Wu4",
     "Deep Purple": "Q2FzZSBD5LE",
+    "Two Door Cinema Club + Karavana (Beat Live)": "YXwYJyrKK5A",
     "Rick Astley": "dQw4w9WgXcQ",
     "Elvis Crespo": "WPiEbYSF9kE",
     "Jean-Michel Jarre": "71DOHvfFDBY",
+    "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
+    "Anastacia": "TnOy6HEf7HU",
     "Juan Luis Guerra 4.40": "K3S96fUGrEY",
-    "Yandel Sinfónico": "qvvNtQnNjhQ",
-    "John Legend": "450p7goxZqg",
-    "Diana Krall": "Yr8xDSPjII8",
-    "Carlos Rivera": "nkkRRgslwjE",
-    "Kool & The Gang": "sLuNC5RCjY4"
+    "UB40 ft. Ali Campbell + Reggae Roast & Mr Williamz (Beat Live)": "zXt56MB-3vc",
+    "Mora": "uU9Jor-8w1I",
+    "Yandel": "U516oP9nt2o"
   }
 }
