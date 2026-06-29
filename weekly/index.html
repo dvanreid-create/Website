@@ -14,6 +14,8 @@
 <link rel="apple-touch-icon" href="/prime/pass/icon-180.png">
 <link rel="icon" href="/favicon-32.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+<script async src="https://plausible.io/js/pa-a1RWZGBDMSY9yqJRx6dC2.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
 <style>
   *{box-sizing:border-box;}
   html,body{margin:0;height:100%;}
@@ -67,10 +69,14 @@
   var dp=null, ib=document.getElementById('ib');
   window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); dp=e; ib.style.display='inline-block'; });
   ib.onclick=function(){ if(dp){ dp.prompt(); dp.userChoice.then(function(){ dp=null; ib.style.display='none'; }); } };
+  // Real install confirmed (Android / desktop Chrome only — iOS fires no event).
+  window.addEventListener('appinstalled', function(){ window.plausible&&plausible('PWA install'); });
   // iOS has no install API → show the manual Add-to-Home-Screen hint (unless already installed).
   var isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
   var standalone=window.matchMedia('(display-mode:standalone)').matches || window.navigator.standalone===true;
   if(isIOS && !standalone){ document.getElementById('iosTip').style.display='block'; }
+  // Opened FROM the installed home-screen icon (works on iOS + Android) — the real adoption signal.
+  if(standalone){ window.plausible&&plausible('Weekly home open'); }
 })();
 </script>
 </body>
