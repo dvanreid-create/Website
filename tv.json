@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Alan Parsons",
-      "yt": "1kfh_Aff2SU",
-      "where": "30 Jun · Starlite, Marbella"
-    },
-    {
       "act": "Gipsy Kings",
       "yt": "7qbEt_lSib4",
       "where": "3 Jul · Starlite, Marbella"
@@ -41,18 +36,22 @@
       "where": "10 Jul · Starlite, Marbella"
     },
     {
+      "act": "Two Door Cinema Club",
+      "yt": "YXwYJyrKK5A",
+      "where": "10 Jul · Marbella Arena, Marbella"
+    },
+    {
       "act": "Elvis Crespo",
       "yt": "WPiEbYSF9kE",
       "where": "11 Jul · Starlite, Marbella"
     },
     {
-      "act": "Sting",
-      "yt": "C3lWwBslWqg",
-      "where": "13 Jul · Marenostrum, Fuengirola"
+      "act": "Jean-Michel Jarre",
+      "yt": "71DOHvfFDBY",
+      "where": "13 Jul · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "Alan Parsons Live Project": "1kfh_Aff2SU",
     "Gipsy Kings": "7qbEt_lSib4",
     "Danny Ocean & Elena Rose": "LbKcHy9cav0",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
@@ -63,6 +62,7 @@
     "Deep Purple": "Q2FzZSBD5LE",
     "Two Door Cinema Club + Karavana (Beat Live)": "YXwYJyrKK5A",
     "Rick Astley": "dQw4w9WgXcQ",
+    "Chris Stussy + Lauren Lo Sung + Laidlaw (Beat Live)": "dFJFsDRh8fQ",
     "Elvis Crespo": "WPiEbYSF9kE",
     "Jean-Michel Jarre": "71DOHvfFDBY",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
@@ -72,6 +72,7 @@
     "Mora": "uU9Jor-8w1I",
     "Candlelight: Coldplay & Imagine Dragons": "yKNxeF4KMsY",
     "Yandel": "U516oP9nt2o",
-    "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ"
+    "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
+    "Candlelight: Coldplay vs. Imagine Dragons": "dvgZkm1xWPE"
   }
 }
