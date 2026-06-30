@@ -1,9 +1,9 @@
 {
   "clips": [
     {
-      "act": "Lenny Kravitz",
-      "yt": "8LhCd1W2V0Q",
-      "where": "29 Jun · Starlite, Marbella"
+      "act": "Alan Parsons",
+      "yt": "1kfh_Aff2SU",
+      "where": "30 Jun · Starlite, Marbella"
     },
     {
       "act": "Gipsy Kings",
@@ -16,14 +16,34 @@
       "where": "4 Jul · Starlite, Marbella"
     },
     {
+      "act": "Grupo Frontera",
+      "yt": "VtKcDwz6hiM",
+      "where": "6 Jul · Starlite, Marbella"
+    },
+    {
       "act": "Maroon 5",
       "yt": "09R8_2nJtjg",
       "where": "7 Jul · Starlite, Marbella"
     },
     {
+      "act": "Faithless",
+      "yt": "P8JEm4d6Wu4",
+      "where": "9 Jul · Marbella Arena, Marbella"
+    },
+    {
       "act": "Deep Purple",
       "yt": "Q2FzZSBD5LE",
       "where": "9 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Rick Astley",
+      "yt": "dQw4w9WgXcQ",
+      "where": "10 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Elvis Crespo",
+      "yt": "WPiEbYSF9kE",
+      "where": "11 Jul · Starlite, Marbella"
     },
     {
       "act": "Sting",
@@ -32,7 +52,6 @@
     }
   ],
   "thumbs": {
-    "Lenny Kravitz": "8LhCd1W2V0Q",
     "Alan Parsons Live Project": "1kfh_Aff2SU",
     "Gipsy Kings": "7qbEt_lSib4",
     "Danny Ocean & Elena Rose": "LbKcHy9cav0",
@@ -51,6 +70,8 @@
     "Juan Luis Guerra 4.40": "K3S96fUGrEY",
     "UB40 ft. Ali Campbell + Reggae Roast & Mr Williamz (Beat Live)": "zXt56MB-3vc",
     "Mora": "uU9Jor-8w1I",
-    "Yandel": "U516oP9nt2o"
+    "Candlelight: Coldplay & Imagine Dragons": "yKNxeF4KMsY",
+    "Yandel": "U516oP9nt2o",
+    "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ"
   }
 }
