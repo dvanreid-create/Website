@@ -19,7 +19,7 @@
   force = true
 
 [[redirects]]
-  from = "/sponsors-live.json"
+  from = "/tiles-live.json"
   to = "/.netlify/functions/sponsors-feed"
   status = 200
   force = true

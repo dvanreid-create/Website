@@ -245,7 +245,7 @@
    }
   },
   {
-   "logo": "/assets/sponsors/kova-logo.png",
+   "logo": "/assets/tiles/kova-logo.png",
    "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
    "light": true,
    "name": "Kova Beach Club",
@@ -275,7 +275,7 @@
    }
   },
   {
-   "logo": "/assets/sponsors/el-tintero-logo.png",
+   "logo": "/assets/tiles/el-tintero-logo.png",
    "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
    "light": true,
    "name": "El Tintero",
@@ -312,7 +312,7 @@
    }
   },
   {
-   "logo": "/assets/sponsors/sala-roka.png",
+   "logo": "/assets/tiles/sala-roka.png",
    "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
    "light": true,
    "name": "Sala Roka",
