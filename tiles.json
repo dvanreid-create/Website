@@ -213,6 +213,7 @@
    "ghost": true,
    "name": "ZZ PUB",
    "url": "https://zzpub.es/",
+   "expires": "2026-07-10",
    "ribbon": {
     "en": "Featured free venue",
     "es": "Local gratis destacado",
@@ -250,6 +251,7 @@
    "light": true,
    "name": "Kova Beach Club",
    "url": "https://www.kovabeachclub.com",
+   "expires": "2026-07-12",
    "ribbon": {
     "en": "Featured Beach Club",
     "es": "Beach Club destacado",
@@ -280,6 +282,7 @@
    "light": true,
    "name": "El Tintero",
    "url": "https://eltinteromalaga.com/carta/",
+   "expires": "2026-07-19",
    "ribbon": {
     "en": "Featured restaurant",
     "es": "Restaurante destacado",
@@ -354,7 +357,7 @@
    "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
    "ghost": true,
    "name": "Canela Party",
-   "expires": "2026-08-29",
+   "expires": "2026-07-19",
    "url": "https://www.ingresse.com/canela-party-2026/",
    "ribbon": {
     "en": "Featured festival",
