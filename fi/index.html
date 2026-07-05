@@ -67,19 +67,19 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .feat{display:flex;gap:13px;overflow-x:scroll;padding-bottom:10px;scroll-snap-type:x mandatory;}
 .feat::-webkit-scrollbar{height:9px;} .feat::-webkit-scrollbar-track{background:#eae6dd;border-radius:5px;} .feat::-webkit-scrollbar-thumb{background:var(--coral);border-radius:5px;}
 .fcard{flex:0 0 calc((100% - 39px)/4);scroll-snap-align:start;border-radius:13px;overflow:hidden;background:#fff;border:1px solid var(--line);}
-.fcard .img{height:130px;background-size:cover;background-position:center;position:relative;display:flex;align-items:flex-start;padding:9px;}
+.fcard .img{aspect-ratio:16/9;background-size:cover;background-position:center;position:relative;display:flex;align-items:flex-start;padding:9px;}
 .fcard .img .rib{position:absolute;top:0;left:0;background:var(--coral);color:#fff;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:0 0 7px 0;}
 .fcard .img .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.9);color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:20px;}
 .fcard .body{padding:10px 11px 12px;} .fcard .nm{font-weight:600;font-size:13.5px;} .fcard .dt{font-size:11px;color:var(--mut);margin:3px 0 7px;} .fcard .tk{font-size:11.5px;color:var(--coral);font-weight:600;}
 
 .mltv{border-radius:14px;overflow:hidden;background:var(--navy);padding:16px;margin:24px 0;}
-.mltv-sub{font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:0 0 4px;}
+.mltv-sub{font-weight:500;font-size:12px;letter-spacing:.4px;color:var(--amber);text-transform:uppercase;text-align:center;margin:-4px 0 4px;}
 .mltv-head{display:flex;align-items:flex-start;gap:8px;justify-content:flex-start;}
 .mltv-dot{width:9px;height:9px;border-radius:50%;background:var(--coral);margin-top:11px;}
 .mltv-logo{font-family:'Anton',sans-serif;line-height:.9;display:inline-flex;align-items:flex-start;position:relative;white-space:nowrap;font-size:34px;}
 .mlg-m{color:#fff;} .mlg-l{color:var(--coral);position:relative;}
 .mlg-tv{position:absolute;font-size:.35em;right:-1.19em;bottom:-.76em;color:#fff;letter-spacing:.05em;line-height:1;transform:rotate(38deg);transform-origin:top left;}
-.mltv-stage{height:285px;border-radius:11px;overflow:hidden;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative;margin-top:12px;}
+.mltv-stage{height:272px;border-radius:11px;overflow:hidden;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative;margin-top:8px;}
 .mltv-stage .scrim{position:absolute;inset:0;background:rgba(10,25,33,.38);}
 .mltv-stage .play{position:relative;z-index:2;width:62px;height:62px;border-radius:50%;background:rgba(255,255,255,.92);color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:31px;}
 .mltv-stage .cap{position:absolute;z-index:2;left:16px;bottom:13px;color:#fff;font-weight:600;font-size:15px;}
@@ -113,7 +113,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .langline{font-size:11px;color:#9fb3bf;} .langline b{color:#c9d5dd;font-weight:500;}
 .note{max-width:1300px;margin:14px auto 40px;padding:0 22px;font-size:12px;color:var(--mut);text-align:center;}
 
-@media(max-width:1000px){.grid{grid-template-columns:1fr;}.feat{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:1000px){.grid{grid-template-columns:1fr;}.flank-rail,.trail{position:static;top:auto;}.feat{display:grid;grid-template-columns:repeat(2,1fr);overflow:visible;}.feat::-webkit-scrollbar{display:none;}.fcard{scroll-snap-align:none;}}
 
 .logo{display:flex;flex-direction:column;align-items:flex-start;gap:4px;}
 .logo .blogo{height:44px;width:auto;display:block;}
@@ -160,6 +160,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .langpick .sel{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:22px;padding:8px 15px;font-size:13px;font-weight:500;color:var(--ink);cursor:pointer;}
 
 .hright{display:flex;align-items:flex-start;gap:12px;}
+.chip,.mltv-stage,.tvid,.lnk,.disco-chips a,[role="button"]{cursor:pointer;}
 .mlewrap{position:relative;display:inline-block;}
 .mlepop{position:absolute;top:calc(100% + 8px);right:0;width:300px;max-width:80vw;background:#fff;color:#2f3b46;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 36px rgba(20,40,60,.20);padding:12px 14px;z-index:80;font-size:12.5px;line-height:1.5;font-weight:400;text-align:left;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .16s ease,transform .16s ease;pointer-events:none;}
 .mlepop b{color:var(--navy);font-weight:700;} .mlepop b.hot{color:var(--coral);}
@@ -188,8 +189,8 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
         <span class="chip chip-on" data-mode="today" role="button" tabindex="0">Tänään</span>
         <span class="chip chip-off" data-mode="weekend" role="button" tabindex="0">Viikonloppu</span>
         <span class="chip chip-off" data-mode="week" role="button" tabindex="0">Tämä viikko</span>
-        <span class="chip chip-off" style="position:relative;"><i class="ti ti-music"></i> Kaikki genret <i class="ti ti-chevron-down"></i><select id="genref" aria-label="Genre" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;border:0;cursor:pointer;"><option value="">Kaikki genret</option><option value="flamenco">Flamenco</option><option value="pop">Pop</option><option value="rock">Rock &amp; indie</option><option value="urban">Urbaani &amp; reggaeton</option><option value="electronic">Elektroninen &amp; DJ</option><option value="classical">Klassinen &amp; Candlelight</option><option value="jazz">Jazz &amp; soul</option><option value="festival">Festivaali &amp; feria</option><option value="tribute">Tribuutti</option><option value="other">Muu</option></select></span>
-        <span class="chip chip-off" style="position:relative;"><i class="ti ti-map-pin"></i> Kaikki alueet <i class="ti ti-chevron-down"></i><select id="cityf" aria-label="Area" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;border:0;cursor:pointer;"><option value="">Kaikki alueet</option><option value="Benalmádena">Benalmádena</option><option value="Fuengirola">Fuengirola</option><option value="Marbella">Marbella</option><option value="Málaga">Málaga</option><option value="Torre del Mar">Torre del Mar</option></select></span>
+        <span class="chip chip-off" style="position:relative;"><i class="ti ti-music"></i> <span id="genLbl">Kaikki genret</span> <i class="ti ti-chevron-down"></i><select id="genref" aria-label="Genre" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;border:0;cursor:pointer;"><option value="">Kaikki genret</option><option value="flamenco">Flamenco</option><option value="pop">Pop</option><option value="rock">Rock &amp; indie</option><option value="urban">Urbaani &amp; reggaeton</option><option value="electronic">Elektroninen &amp; DJ</option><option value="classical">Klassinen &amp; Candlelight</option><option value="jazz">Jazz &amp; soul</option><option value="festival">Festivaali &amp; feria</option><option value="tribute">Tribuutti</option><option value="other">Muu</option></select></span>
+        <span class="chip chip-off" style="position:relative;"><i class="ti ti-map-pin"></i> <span id="cityLbl">Kaikki alueet</span> <i class="ti ti-chevron-down"></i><select id="cityf" aria-label="Area" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;border:0;cursor:pointer;"><option value="">Kaikki alueet</option><option value="Benalmádena">Benalmádena</option><option value="Fuengirola">Fuengirola</option><option value="Marbella">Marbella</option><option value="Málaga">Málaga</option><option value="Torre del Mar">Torre del Mar</option></select></span>
         <span class="chip" id="freeChip" role="button" tabindex="0" style="background:#FAECE7;color:var(--coral);"><i class="ti ti-check"></i> Vain ilmaiset</span>
       </div>
     </div>
@@ -384,11 +385,11 @@ function apply(){
   if(cnt)cnt.textContent=(af?mc:totalFuture)+' '+evWord;
   if(nores)nores.style.display=(af&&mc===0)?'':'none';
   var law=document.getElementById('loadAllWrap');
-  if(law)law.style.display=(!af&&!expanded&&document.querySelector('.evmore'))?'':'none';
+  if(law)law.style.display=(af||(!expanded&&document.querySelector('.evmore')))?'':'none';
 }
 if(searchf)searchf.addEventListener('input',apply);
-if(genref)genref.addEventListener('change',apply);
-if(cityf)cityf.addEventListener('change',apply);
+if(genref)genref.addEventListener('change',function(){var l=document.getElementById('genLbl');if(l)l.textContent=genref.options[genref.selectedIndex].text;var ch=genref.parentNode;if(ch){ch.classList.toggle('chip-on',!!genref.value);ch.classList.toggle('chip-off',!genref.value);}apply();});
+if(cityf)cityf.addEventListener('change',function(){var l=document.getElementById('cityLbl');if(l)l.textContent=cityf.options[cityf.selectedIndex].text;var ch=cityf.parentNode;if(ch){ch.classList.toggle('chip-on',!!cityf.value);ch.classList.toggle('chip-off',!cityf.value);}apply();});
 document.querySelectorAll('.chip[data-mode]').forEach(function(ch){
   ch.addEventListener('click',function(){
     var m=ch.getAttribute('data-mode');
@@ -404,7 +405,7 @@ if(freeChip)freeChip.addEventListener('click',function(){
   apply();
 });
 var lb=document.getElementById('loadAllBtn');
-if(lb)lb.addEventListener('click',function(){expanded=true;apply();});
+if(lb)lb.addEventListener('click',function(){dateMode='';freeOn=false;expanded=true;if(searchf)searchf.value='';if(genref)genref.value='';if(cityf)cityf.value='';document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});if(freeChip){freeChip.style.background='#FAECE7';freeChip.style.color='var(--coral)';}apply();});
 var stage=document.getElementById('mltvStage');
 (function(){var chipsEl=document.getElementById('mltvChips');if(!stage||!chipsEl)return;
 var MMx={jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
