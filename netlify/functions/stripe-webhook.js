@@ -1,7 +1,8 @@
 // stripe-webhook — Stripe calls this after payment events.
-// Two flows share this one endpoint:
-//   A) MLE Score (mode=payment)        -> MLE Score Orders table  (unchanged)
-//   B) Gutter ad  (mode=subscription)  -> Gutter Sponsors table   (added)
+// Three flows share this one endpoint:
+//   A) MLE Score  (mode=payment)       -> MLE Score Orders table
+//   B) Gutter ad  (mode=subscription)  -> Gutter Sponsors table
+//   C) Newsletter (mode=payment)       -> Newsletter Sponsors table (Pending -> Sold)
 // Verifies the Stripe signature manually (no SDK) using Node crypto.
 //
 // Netlify env: STRIPE_WEBHOOK_SECRET, AIRTABLE_TOKEN, STRIPE_SECRET_KEY
@@ -125,6 +126,25 @@ exports.handler = async (event) => {
       return { statusCode: 200, body: "gutter synced" };
     }
     return { statusCode: 200, body: "ok" };
+  }
+
+  // =========================================================================
+  // C) NEWSLETTER SPONSOR — one-time payment; flip the booking Pending -> Sold
+  //    (this is what marks its months booked). MUST run before the MLE branch,
+  //    which also fires on checkout.session.completed.
+  // =========================================================================
+  if (evt.type === "checkout.session.completed" &&
+      (((evt.data.object || {}).metadata || {}).flow === "newsletter_sponsor")) {
+    const s = evt.data.object || {};
+    const recId = (s.metadata && s.metadata.airtable_id) || s.client_reference_id;
+    if (!recId) { console.warn("newsletter: no airtable_id on session", s.id); return { statusCode: 200, body: "ok (no rec)" }; }
+    const r = await AT(encodeURIComponent("Newsletter Sponsors") + "/" + recId, {
+      method: "PATCH",
+      headers: { Authorization: "Bearer " + token, "Content-Type": "application/json" },
+      body: JSON.stringify({ fields: { "Status": "Sold" }, typecast: true })
+    });
+    if (!r.ok) { console.error("newsletter patch failed", r.status, await r.text()); return { statusCode: 502, body: "airtable" }; }
+    return { statusCode: 200, body: "newsletter sold" };
   }
 
   // =========================================================================
