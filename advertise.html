@@ -108,6 +108,7 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
     <div class="hint" data-i18n="f_logo_hint">A square 250×250 image works best — this is your whole tile, and you can change it anytime to promote a special or other offering.</div>
     </div>
     <div class="nlonly" style="display:none">
+    <a id="nlsample" href="/weekly/?lang=en" target="_blank" rel="noopener" style="display:inline-block;margin:0 0 12px;padding:7px 12px;border:1px solid #cfe0ea;border-radius:8px;background:#f3f7fa;color:#0B5E8A;font-weight:600;font-size:11px;text-decoration:none;">See a sample newsletter &rarr;</a>
     <label data-i18n="f_nl_months">Choose your month(s) — must be consecutive</label>
     <div id="nlmonths" class="nlmonths"><div class="hint" data-i18n="f_nl_loading">Loading availability…</div></div>
     <div class="nlprice" id="nlprice"></div>
@@ -148,7 +149,8 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
   function reset(){btn.disabled=false;btn.innerHTML=T('f_btn','Continue to secure payment &rarr;');}
   // ---- Newsletter sponsor flow ----
   var nlMonths=[], nlSel=[], nlLoaded=false;
-  function syncMode(){var nl=(tier==='newsletter');document.querySelectorAll('.gutonly').forEach(function(e){e.style.display=nl?'none':'';});document.querySelectorAll('.nlonly').forEach(function(e){e.style.display=nl?'':'none';});if(nl&&!nlLoaded){nlLoaded=true;loadNlAvail();}}
+  var NLSAMPLE={en:'See a sample newsletter →',es:'Ver un ejemplo del boletín →',de:'Beispiel-Newsletter ansehen →',fr:'Voir un exemple de newsletter →',sv:'Se ett exempel på nyhetsbrevet →',no:'Se et eksempel på nyhetsbrevet →',da:'Se et eksempel på nyhedsbrevet →',fi:'Katso esimerkki uutiskirjeestä →'};
+  function syncMode(){var nl=(tier==='newsletter');document.querySelectorAll('.gutonly').forEach(function(e){e.style.display=nl?'none':'';});document.querySelectorAll('.nlonly').forEach(function(e){e.style.display=nl?'':'none';});if(nl){var _sl=document.getElementById('nlsample');if(_sl){var _lg=(document.documentElement.lang||'en');_sl.href='/weekly/?lang='+_lg;_sl.textContent=(NLSAMPLE[_lg]||NLSAMPLE.en);}}if(nl&&!nlLoaded){nlLoaded=true;loadNlAvail();}}
   function nlPrice(){var el=document.getElementById('nlprice');if(!el)return;el.textContent=nlSel.length?('€'+(400*nlSel.length)+'  ('+nlSel.length+' × €400)'):'';}
   function idxOf(ym){for(var i=0;i<nlMonths.length;i++)if(nlMonths[i].ym===ym)return i;return -1;}
   function renderMonths(){var box=document.getElementById('nlmonths');if(!box)return;box.innerHTML='';nlMonths.forEach(function(m,i){var d=document.createElement('div');d.className='mo'+(m.booked?' booked':'')+(nlSel.indexOf(m.ym)>=0?' sel':'');d.textContent=m.label;if(!m.booked)d.addEventListener('click',function(){toggleMonth(i);});box.appendChild(d);});nlPrice();}
