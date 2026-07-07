@@ -357,7 +357,7 @@
    "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
    "light": true,
    "name": "Happy Days",
-   "url": "https://happydaysfuengirola.com/shop/",
+   "url": "https://happydaysfuengirola.com/",
    "expires": "2026-08-06",
    "ribbon": {
     "en": "Featured Danish restaurant",
@@ -380,14 +380,14 @@
     "fi": "Smørrebrød & all-you-can-eat-buffet · Fuengirola vuodesta 1982"
    },
    "cta": {
-    "en": "See the menu →",
-    "es": "Ver la carta →",
-    "de": "Zur Speisekarte →",
-    "fr": "Voir la carte →",
-    "sv": "Se menyn →",
-    "no": "Se menyen →",
-    "da": "Se menuen →",
-    "fi": "Katso menu →"
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
    }
   },
   {
@@ -418,14 +418,14 @@
     "fi": "Aitoa smørrebrødiä & skandinaavista keittiötä · La Cala de Mijas"
    },
    "cta": {
-    "en": "See the menu →",
-    "es": "Ver la carta →",
-    "de": "Zur Speisekarte →",
-    "fr": "Voir la carte →",
-    "sv": "Se menyn →",
-    "no": "Se menyen →",
-    "da": "Se menuen →",
-    "fi": "Katso menu →"
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
    }
   },
   {
