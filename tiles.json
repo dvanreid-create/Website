@@ -467,45 +467,6 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/17146421/pexels-photo-17146421.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Magical Soundtracks (cuarteto de cuerdas)",
-   "headBottom": true,
-   "expires": "2026-07-07",
-   "sub": {
-    "en": "Tue 7 Jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "es": "Mar 7 jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "de": "Di 7 Jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "fr": "mar. 7 juil. · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "sv": "tis 7 jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "no": "tir 7 jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "da": "tir 7 jul · Anantara Villa Padierna Palace (Benahavís) · Marbella",
-    "fi": "ti 7 heinäk. · Anantara Villa Padierna Palace (Benahavís) · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=132394&u=https%3A%2F%2Ffeverup.com%2Fm%2F132394&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://i.ytimg.com/vi/xFrGuyw1V8s/mqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
