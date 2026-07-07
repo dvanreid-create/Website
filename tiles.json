@@ -353,6 +353,82 @@
    }
   },
   {
+   "logo": "/assets/tiles/happy-days.png",
+   "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
+   "light": true,
+   "name": "Happy Days",
+   "url": "https://happydaysfuengirola.com",
+   "expires": "2026-08-06",
+   "ribbon": {
+    "en": "Featured Danish restaurant",
+    "es": "Restaurante danés destacado",
+    "de": "Empfohlenes dänisches Restaurant",
+    "fr": "Restaurant danois à la une",
+    "sv": "Utvald dansk restaurang",
+    "no": "Anbefalt dansk restaurant",
+    "da": "Fremhævet dansk restaurant",
+    "fi": "Esittelyssä: tanskalainen ravintola"
+   },
+   "sub": {
+    "en": "Smørrebrød & all-you-can-eat buffet · Fuengirola since 1982",
+    "es": "Smørrebrød y bufé libre · Fuengirola desde 1982",
+    "de": "Smørrebrød & All-you-can-eat-Buffet · Fuengirola seit 1982",
+    "fr": "Smørrebrød & buffet à volonté · Fuengirola depuis 1982",
+    "sv": "Smørrebrød & all-you-can-eat-buffé · Fuengirola sedan 1982",
+    "no": "Smørrebrød & all-you-can-eat-buffet · Fuengirola siden 1982",
+    "da": "Smørrebrød & tag-selv-buffet · Fuengirola siden 1982",
+    "fi": "Smørrebrød & all-you-can-eat-buffet · Fuengirola vuodesta 1982"
+   },
+   "cta": {
+    "en": "See the menu →",
+    "es": "Ver la carta →",
+    "de": "Zur Speisekarte →",
+    "fr": "Voir la carte →",
+    "sv": "Se menyn →",
+    "no": "Se menyen →",
+    "da": "Se menuen →",
+    "fi": "Katso menu →"
+   }
+  },
+  {
+   "logo": "/assets/tiles/nordico.png",
+   "bg": "linear-gradient(160deg,#fbfaf7,#eef1ea)",
+   "light": true,
+   "name": "Nordico",
+   "url": "https://nordicorestaurante.com/",
+   "expires": "2026-08-06",
+   "ribbon": {
+    "en": "Featured Scandinavian restaurant",
+    "es": "Restaurante escandinavo destacado",
+    "de": "Empfohlenes skandinavisches Restaurant",
+    "fr": "Restaurant scandinave à la une",
+    "sv": "Utvald skandinavisk restaurang",
+    "no": "Anbefalt skandinavisk restaurant",
+    "da": "Fremhævet skandinavisk restaurant",
+    "fi": "Esittelyssä: skandinaavinen ravintola"
+   },
+   "sub": {
+    "en": "Authentic smørrebrød & Scandinavian kitchen · La Cala de Mijas",
+    "es": "Auténtico smørrebrød y cocina escandinava · La Cala de Mijas",
+    "de": "Authentisches Smørrebrød & skandinavische Küche · La Cala de Mijas",
+    "fr": "Smørrebrød authentique & cuisine scandinave · La Cala de Mijas",
+    "sv": "Äkta smørrebrød & skandinaviskt kök · La Cala de Mijas",
+    "no": "Autentisk smørrebrød & skandinavisk kjøkken · La Cala de Mijas",
+    "da": "Autentisk smørrebrød & skandinavisk køkken · La Cala de Mijas",
+    "fi": "Aitoa smørrebrødiä & skandinaavista keittiötä · La Cala de Mijas"
+   },
+   "cta": {
+    "en": "See the menu →",
+    "es": "Ver la carta →",
+    "de": "Zur Speisekarte →",
+    "fr": "Voir la carte →",
+    "sv": "Se menyn →",
+    "no": "Se menyen →",
+    "da": "Se menuen →",
+    "fi": "Katso menu →"
+   }
+  },
+  {
    "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
    "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
    "ghost": true,
