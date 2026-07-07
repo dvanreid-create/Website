@@ -90,6 +90,12 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
 .cards{display:flex;gap:2.5%;align-items:stretch;}.cards>.card{flex:1;width:auto;}.card.prem{margin-right:0;}.stdcol{flex:1;display:flex;flex-direction:column;min-width:0;}.stdcol>.card{width:auto;flex:none;}.nlstrip{flex:1;margin-top:9px;display:flex;flex-direction:column;justify-content:center;background:#fff;color:#3a4d5b;border:2px solid #0B5E8A;border-radius:12px;padding:12px 14px;font-size:10.5px;line-height:1.5;box-sizing:border-box;}.nlstrip b{color:#0B5E8A;display:block;margin-bottom:4px;font-family:'Anton',Arial,sans-serif;font-size:14px;letter-spacing:.4px;text-transform:uppercase;font-weight:400;}.nlstrip .nlper{text-transform:none;}
 .buybox .nl-opt{width:100%;margin-top:10px;box-sizing:border-box;}.buybox .nl-opt .tn{font-size:12px;}.nlmonths{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 6px;}.nlmonths .mo{border:1.5px solid #d7dde2;border-radius:8px;padding:6px 7px;font-size:11px;cursor:pointer;user-select:none;color:#143A4E;min-width:62px;text-align:center;}.nlmonths .mo.sel{border-color:#0B5E8A;background:#eef5fa;color:#0B5E8A;font-weight:600;}.nlmonths .mo.booked{opacity:.45;cursor:not-allowed;text-decoration:line-through;background:#f4f6f7;}.nlprice{font-family:'Anton',Arial,sans-serif;color:#E8662A;font-size:19px;margin:2px 0 6px;min-height:19px;}
 </style>
+<style>
+.nlmonths{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:4px 0 2px;}
+.nlmonths .mo{border:1px solid #d7dde2;border-radius:8px;padding:8px 4px;text-align:center;font-size:11.5px;cursor:pointer;user-select:none;color:#143A4E;}
+.nlmonths .mo.sel{border-color:#E8662A;background:#fdf3ee;color:#993C1D;font-weight:600;}
+.nlmonths .mo.taken{opacity:.4;cursor:not-allowed;text-decoration:line-through;}
+</style>
 <aside class="buybox">
   <h2 data-i18n="f_h">Buy your spot</h2>
   <p class="bsub" data-i18n="f_sub">Self-serve and instant. Pay by card — no account needed. Month-to-month, cancel anytime.</p>
@@ -102,9 +108,21 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
     <div class="tier-opt nl-opt" data-tier="newsletter"><div class="tn" data-i18n="f_nl_tn">NEWSLETTER — EXCLUSIVE SPONSOR</div><div class="tp">€400<span style="font-size:12px">/month</span></div><div class="tm" data-i18n="f_nl_tm">both ad spaces · every weekly issue</div></div>
     <label for="bn" data-i18n="f_l_name">Business name</label>
     <input type="text" id="bn" autocomplete="organization">
-    <label for="bl" data-i18n-html="f_l_logo">Tile image &mdash; square PNG or JPG (max 5&nbsp;MB)</label>
-    <input type="file" id="bl" accept="image/png,image/jpeg,image/svg+xml">
-    <div class="hint" data-i18n="f_logo_hint">A square 250×250 image works best — this is your whole tile, and you can change it anytime to promote a special or other offering.</div>
+    <div id="std-media">
+      <label for="bl" data-i18n-html="f_l_logo">Tile image &mdash; square PNG or JPG (max 5&nbsp;MB)</label>
+      <input type="file" id="bl" accept="image/png,image/jpeg,image/svg+xml">
+      <div class="hint" data-i18n="f_logo_hint">A square 250×250 image works best — this is your whole tile, and you can change it anytime to promote a special or other offering.</div>
+    </div>
+    <div id="nl-media" style="display:none">
+      <label data-i18n="f_nl_months">Choose your month(s) — one exclusive sponsor per month</label>
+      <div id="nlmonths" class="nlmonths"></div>
+      <div class="hint" data-i18n="f_nl_months_hint">Pick consecutive months. €400 per month, paid once. Greyed-out months are already booked.</div>
+      <label for="nltop" data-i18n-html="f_nl_top">Top banner creative &mdash; PNG or JPG (max 5&nbsp;MB)</label>
+      <input type="file" id="nltop" accept="image/png,image/jpeg,image/svg+xml">
+      <label for="nlbot" data-i18n-html="f_nl_bot">Bottom banner creative &mdash; PNG or JPG (max 5&nbsp;MB)</label>
+      <input type="file" id="nlbot" accept="image/png,image/jpeg,image/svg+xml">
+      <div class="hint" data-i18n="f_nl_media_hint">Both newsletter ad slots (top + bottom) run in every weekly issue of your booked month(s).</div>
+    </div>
     <label for="bu" data-i18n="f_l_link">Website / booking link</label>
     <input type="url" id="bu" placeholder="https://">
     <label for="bh" data-i18n="f_l_tag">Subtext (optional)</label>
@@ -124,51 +142,105 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
 (function(){
   var f=document.getElementById('adbuy'); if(!f) return;
   var M=(window.ADI18N)||{};
-  function T(k,d){return (M[k]!=null)?M[k]:d;}
+  function T(k,d){ return (M[k]!=null)?M[k]:d; }
   var tier='premium';
+  var stdMedia=document.getElementById('std-media'), nlMedia=document.getElementById('nl-media');
   var opts=Array.prototype.slice.call(document.querySelectorAll('.tier-opt'));
-  opts.forEach(function(o){o.addEventListener('click',function(){opts.forEach(function(x){x.classList.remove('sel');});o.classList.add('sel');tier=o.getAttribute('data-tier');});});
+  function setTier(tw){
+    tier=tw;
+    opts.forEach(function(x){ x.classList.toggle('sel', x.getAttribute('data-tier')===tw); });
+    var isNL=(tw==='newsletter');
+    if(stdMedia) stdMedia.style.display=isNL?'none':'';
+    if(nlMedia) nlMedia.style.display=isNL?'':'none';
+    if(isNL) buildMonths();
+  }
+  opts.forEach(function(o){ o.addEventListener('click', function(){ setTier(o.getAttribute('data-tier')); }); });
   var btn=document.getElementById('bbtn'), msg=document.getElementById('bmsg');
   var bh=document.getElementById('bh'), bhc=document.getElementById('bhcount');
-  if(bh&&bhc){var upd=function(){bhc.textContent=bh.value.length+'/60';};bh.addEventListener('input',upd);upd();}
-  function show(cls,txt){msg.className='bmsg '+cls;msg.innerHTML=txt;}
-  function reset(){btn.disabled=false;btn.innerHTML=T('f_btn','Continue to secure payment &rarr;');}
-  // success banner after returning from Stripe
-  if(/[?&]paid=1/.test(location.search)){show('ok',T('m_paid','Payment received — thank you! Your tile goes live shortly and a confirmation is on its way to your inbox.'));btn.style.display='none';}
-  f.addEventListener('submit',function(e){
+  if(bh&&bhc){ var upd=function(){ bhc.textContent=bh.value.length+'/60'; }; bh.addEventListener('input',upd); upd(); }
+  function show(cls,txt){ msg.className='bmsg '+cls; msg.innerHTML=txt; }
+  function reset(){ btn.disabled=false; btn.innerHTML=T('f_btn','Continue to secure payment &rarr;'); }
+  var okt={'image/png':1,'image/jpeg':1,'image/svg+xml':1};
+  function badImg(file){ if(!okt[file.type]) return T('m_logotype','Image must be a PNG, JPG or SVG.'); if(file.size>5*1024*1024) return T('m_logosize','Image must be under 5 MB.'); return ''; }
+  function readFile(file,cb){ var rd=new FileReader(); rd.onload=function(){ cb((rd.result||'').toString().split(',')[1]||''); }; rd.onerror=function(){ cb(null); }; rd.readAsDataURL(file); }
+
+  var MONTHS=[], selStart=-1, selEnd=-1, taken={}, monthsLoaded=false, monthsLoading=false;
+  function computeMonths(){ var out=[], n=new Date(), MN=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; for(var k=0;k<12;k++){ var d=new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth()+k, 1)); out.push({ key:d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0'), label:MN[d.getUTCMonth()]+' '+d.getUTCFullYear(), booked:false }); } return out; }
+  function renderMonths(){ var box=document.getElementById('nlmonths'); if(!box) return; box.innerHTML=''; MONTHS.forEach(function(m,idx){ if(m.booked) taken[m.key]=1; var el=document.createElement('div'); el.className='mo'; el.textContent=m.label; el.addEventListener('click', function(){ if(taken[m.key]) return; pick(idx); }); box.appendChild(el); }); paint(); }
+  function buildMonths(){
+    if(monthsLoaded||monthsLoading) return; monthsLoading=true;
+    var box=document.getElementById('nlmonths'); if(box) box.innerHTML='<div class="hint" style="grid-column:1/-1;margin:0">'+T('f_nl_loading','Loading availability…')+'</div>';
+    fetch('/.netlify/functions/newsletter-availability').then(function(r){ return r.json(); }).then(function(d){
+      MONTHS=(d&&d.months&&d.months.length)? d.months.map(function(m){ return { key:m.ym, label:m.label, booked:!!m.booked }; }) : computeMonths();
+    }).catch(function(){ MONTHS=computeMonths(); }).then(function(){ monthsLoaded=true; monthsLoading=false; renderMonths(); });
+  }
+  function pick(i){ if(selStart<0||selEnd>=0){ selStart=i; selEnd=-1; } else { selEnd=i; } paint(); }
+  function range(){ if(selStart<0) return []; var a=selStart, b=(selEnd<0?selStart:selEnd); if(a>b){ var t=a; a=b; b=t; } var o=[]; for(var i=a;i<=b;i++) o.push(i); return o; }
+  function paint(){ var r=range(), box=document.getElementById('nlmonths'); if(!box) return; Array.prototype.slice.call(box.children).forEach(function(el,idx){ if(!MONTHS[idx]) return; el.classList.toggle('taken', !!taken[MONTHS[idx].key]); el.classList.toggle('sel', r.indexOf(idx)>=0 && !taken[MONTHS[idx].key]); }); }
+  function selectedMonths(){ return range().map(function(i){ return MONTHS[i].key; }).filter(function(k){ return !taken[k]; }); }
+
+  if(/[?&]paid=1/.test(location.search)){ show('ok', T('m_paid','Payment received — thank you! Your ad goes live shortly and a confirmation is on its way to your inbox.')); btn.style.display='none'; }
+
+  f.addEventListener('submit', function(e){
     e.preventDefault();
     var name=document.getElementById('bn').value.trim();
     var link=document.getElementById('bu').value.trim();
     var email=document.getElementById('be').value.trim();
     var headline=document.getElementById('bh').value.trim();
-    var file=document.getElementById('bl').files[0];
     var tk=(document.querySelector('[name=cf-turnstile-response]')||{}).value||'';
-    if(!name||!link||!email){show('err',T('m_fill','Please fill in business name, link and email.'));return;}
-    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){show('err',T('m_email','Please enter a valid email.'));return;}
-    if(!file){show('err',T('m_logo','Please add your tile image.'));return;}
-    var okt={'image/png':1,'image/jpeg':1,'image/svg+xml':1};
-    if(!okt[file.type]){show('err',T('m_logotype','Image must be a PNG, JPG or SVG.'));return;}
-    if(file.size>5*1024*1024){show('err',T('m_logosize','Image must be under 5 MB.'));return;}
-    if(!tk){show('err',T('m_captcha','Please complete the &ldquo;I’m not a robot&rdquo; check.'));return;}
+    if(!name||!link||!email){ show('err', T('m_fill','Please fill in business name, link and email.')); return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ show('err', T('m_email','Please enter a valid email.')); return; }
+    if(!tk){ show('err', T('m_captcha','Please complete the "I’m not a robot" check.')); return; }
+
+    if(tier==='newsletter'){
+      var months=selectedMonths();
+      if(!months.length){ show('err', T('m_nl_months','Please select at least one available month.')); return; }
+      var top=document.getElementById('nltop').files[0], bot=document.getElementById('nlbot').files[0];
+      if(!top||!bot){ show('err', T('m_nl_creatives','Please add both creatives — the top and bottom newsletter banners.')); return; }
+      var e1=badImg(top); if(e1){ show('err', e1); return; }
+      var e2=badImg(bot); if(e2){ show('err', e2); return; }
+      btn.disabled=true; btn.innerHTML=T('m_processing','Processing…'); msg.className='bmsg';
+      readFile(top, function(tb){
+        if(tb==null){ show('err', T('m_readfail','Could not read the image file.')); reset(); return; }
+        readFile(bot, function(bb){
+          if(bb==null){ show('err', T('m_readfail','Could not read the image file.')); reset(); return; }
+          fetch('/.netlify/functions/create-newsletter-checkout', { method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ name:name, email:email, link:link, subtext:headline, months:months, lang:(document.documentElement.lang||'en'), topBase64:tb, topName:top.name, topType:top.type, bottomBase64:bb, bottomName:bot.name, bottomType:bot.type, turnstile:tk }) })
+          .then(function(r){ return r.json().then(function(jj){ return { s:r.status, j:jj }; }); })
+          .then(function(o){
+            var d=o.j;
+            if(d&&d.url){ window.location.href=d.url; return; }
+            if(o.s===409 && d && d.taken){ d.taken.forEach(function(k){ taken[k]=1; }); selStart=-1; selEnd=-1; paint(); show('err', T('m_nl_taken','Some months were just booked — they are now greyed out. Please pick again.')); reset(); return; }
+            if(d&&d.error==='captcha'){ show('err', T('m_captchafail','Captcha check failed — please try again.')); }
+            else { show('err', T('m_generic','Something went wrong. Please try again, or email sofia@malagalivepulse.com.')); }
+            reset();
+          })
+          .catch(function(){ show('err', T('m_network','Network error — please try again.')); reset(); });
+        });
+      });
+      return;
+    }
+
+    var file=document.getElementById('bl').files[0];
+    if(!file){ show('err', T('m_logo','Please add your tile image.')); return; }
+    var eImg=badImg(file); if(eImg){ show('err', eImg); return; }
     btn.disabled=true; btn.innerHTML=T('m_processing','Processing…'); msg.className='bmsg';
-    var rd=new FileReader();
-    rd.onload=function(){
-      var b64=(rd.result||'').toString().split(',')[1]||'';
-      fetch('/.netlify/functions/create-ad-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({name:name,email:email,link:link,subtext:headline,tier:tier,lang:(document.documentElement.lang||'en'),logoBase64:b64,logoName:file.name,logoType:file.type,turnstile:tk})})
-      .then(function(r){return r.json();})
+    readFile(file, function(b64){
+      if(b64==null){ show('err', T('m_readfail','Could not read the image file.')); reset(); return; }
+      fetch('/.netlify/functions/create-ad-checkout', { method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ name:name, email:email, link:link, subtext:headline, tier:tier, lang:(document.documentElement.lang||'en'), logoBase64:b64, logoName:file.name, logoType:file.type, turnstile:tk }) })
+      .then(function(r){ return r.json(); })
       .then(function(d){
-        if(d&&d.url){window.location.href=d.url;return;}
-        if(d&&d.waitlisted){show('wait',T('m_wait','That tier is full right now — we’ve saved your email and will alert you the moment a slot opens. Thank you!'));btn.style.display='none';return;}
-        if(d&&d.error==='captcha'){show('err',T('m_captchafail','Captcha check failed — please try again.'));}
-        else{show('err',T('m_generic','Something went wrong. Please try again, or email sofia@malagalivepulse.com.'));}
+        if(d&&d.url){ window.location.href=d.url; return; }
+        if(d&&d.waitlisted){ show('wait', T('m_wait','That tier is full right now — we’ve saved your email and will alert you the moment a slot opens. Thank you!')); btn.style.display='none'; return; }
+        if(d&&d.error==='captcha'){ show('err', T('m_captchafail','Captcha check failed — please try again.')); }
+        else { show('err', T('m_generic','Something went wrong. Please try again, or email sofia@malagalivepulse.com.')); }
         reset();
       })
-      .catch(function(){show('err',T('m_network','Network error — please try again.'));reset();});
-    };
-    rd.onerror=function(){show('err',T('m_readfail','Could not read the image file.'));reset();};
-    rd.readAsDataURL(file);
+      .catch(function(){ show('err', T('m_network','Network error — please try again.')); reset(); });
+    });
   });
 })();
 </script>
-</div></body></html>
+</div>
+</body></html>
