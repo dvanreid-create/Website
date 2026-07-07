@@ -101,4 +101,74 @@ body{background:#465761;margin:0;padding:0;-webkit-font-smoothing:antialiased;-m
     </div>
     <div class="tier-opt nl-opt" data-tier="newsletter"><div class="tn" data-i18n="f_nl_tn">NEWSLETTER — EXCLUSIVE SPONSOR</div><div class="tp">€400<span style="font-size:12px">/month</span></div><div class="tm" data-i18n="f_nl_tm">both ad spaces · every weekly issue</div></div>
     <label for="bn" data-i18n="f_l_name">Business name</label>
-    <input type="text" id="bn" autocomplete="organizatio
+    <input type="text" id="bn" autocomplete="organization">
+    <label for="bl" data-i18n-html="f_l_logo">Tile image &mdash; square PNG or JPG (max 5&nbsp;MB)</label>
+    <input type="file" id="bl" accept="image/png,image/jpeg,image/svg+xml">
+    <div class="hint" data-i18n="f_logo_hint">A square 250×250 image works best — this is your whole tile, and you can change it anytime to promote a special or other offering.</div>
+    <label for="bu" data-i18n="f_l_link">Website / booking link</label>
+    <input type="url" id="bu" placeholder="https://">
+    <label for="bh" data-i18n="f_l_tag">Subtext (optional)</label>
+    <input type="text" id="bh" maxlength="60" data-i18n-ph="f_tag_ph" placeholder="e.g. Live flamenco Fri · free entry">
+    <div class="hint"><span data-i18n="f_tag_hint">One short line over your tile — change it anytime to promote a special or other offering.</span> <span id="bhcount" style="float:right;color:#9aa7b0">0/60</span></div>
+    <label for="be" data-i18n="f_l_email">Your email (receipt + confirmation)</label>
+    <input type="email" id="be" autocomplete="email">
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAADp1Y1TESrBWaogl" data-theme="light" style="margin:14px 0 0"></div>
+    <button type="submit" class="bbtn" id="bbtn" data-i18n-html="f_btn">Continue to secure payment &rarr;</button>
+    <div class="bmsg" id="bmsg"></div>
+    <div class="bsecure" data-i18n-html="f_secure">&#128274; Secure checkout by Stripe</div>
+    <div class="bmanage" data-i18n-html="f_manage">Already advertising with us? <a href="/ad-portal">Manage or cancel your ad &rarr;</a></div>
+  </form>
+</aside>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script>
+(function(){
+  var f=document.getElementById('adbuy'); if(!f) return;
+  var M=(window.ADI18N)||{};
+  function T(k,d){return (M[k]!=null)?M[k]:d;}
+  var tier='premium';
+  var opts=Array.prototype.slice.call(document.querySelectorAll('.tier-opt'));
+  opts.forEach(function(o){o.addEventListener('click',function(){opts.forEach(function(x){x.classList.remove('sel');});o.classList.add('sel');tier=o.getAttribute('data-tier');});});
+  var btn=document.getElementById('bbtn'), msg=document.getElementById('bmsg');
+  var bh=document.getElementById('bh'), bhc=document.getElementById('bhcount');
+  if(bh&&bhc){var upd=function(){bhc.textContent=bh.value.length+'/60';};bh.addEventListener('input',upd);upd();}
+  function show(cls,txt){msg.className='bmsg '+cls;msg.innerHTML=txt;}
+  function reset(){btn.disabled=false;btn.innerHTML=T('f_btn','Continue to secure payment &rarr;');}
+  // success banner after returning from Stripe
+  if(/[?&]paid=1/.test(location.search)){show('ok',T('m_paid','Payment received — thank you! Your tile goes live shortly and a confirmation is on its way to your inbox.'));btn.style.display='none';}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=document.getElementById('bn').value.trim();
+    var link=document.getElementById('bu').value.trim();
+    var email=document.getElementById('be').value.trim();
+    var headline=document.getElementById('bh').value.trim();
+    var file=document.getElementById('bl').files[0];
+    var tk=(document.querySelector('[name=cf-turnstile-response]')||{}).value||'';
+    if(!name||!link||!email){show('err',T('m_fill','Please fill in business name, link and email.'));return;}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){show('err',T('m_email','Please enter a valid email.'));return;}
+    if(!file){show('err',T('m_logo','Please add your tile image.'));return;}
+    var okt={'image/png':1,'image/jpeg':1,'image/svg+xml':1};
+    if(!okt[file.type]){show('err',T('m_logotype','Image must be a PNG, JPG or SVG.'));return;}
+    if(file.size>5*1024*1024){show('err',T('m_logosize','Image must be under 5 MB.'));return;}
+    if(!tk){show('err',T('m_captcha','Please complete the &ldquo;I’m not a robot&rdquo; check.'));return;}
+    btn.disabled=true; btn.innerHTML=T('m_processing','Processing…'); msg.className='bmsg';
+    var rd=new FileReader();
+    rd.onload=function(){
+      var b64=(rd.result||'').toString().split(',')[1]||'';
+      fetch('/.netlify/functions/create-ad-checkout',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({name:name,email:email,link:link,subtext:headline,tier:tier,lang:(document.documentElement.lang||'en'),logoBase64:b64,logoName:file.name,logoType:file.type,turnstile:tk})})
+      .then(function(r){return r.json();})
+      .then(function(d){
+        if(d&&d.url){window.location.href=d.url;return;}
+        if(d&&d.waitlisted){show('wait',T('m_wait','That tier is full right now — we’ve saved your email and will alert you the moment a slot opens. Thank you!'));btn.style.display='none';return;}
+        if(d&&d.error==='captcha'){show('err',T('m_captchafail','Captcha check failed — please try again.'));}
+        else{show('err',T('m_generic','Something went wrong. Please try again, or email sofia@malagalivepulse.com.'));}
+        reset();
+      })
+      .catch(function(){show('err',T('m_network','Network error — please try again.'));reset();});
+    };
+    rd.onerror=function(){show('err',T('m_readfail','Could not read the image file.'));reset();};
+    rd.readAsDataURL(file);
+  });
+})();
+</script>
+</div></body></html>
