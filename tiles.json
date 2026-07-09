@@ -436,6 +436,7 @@
    "url": "https://scandinavian-property.com/en/",
    "expires": "2026-08-06",
    "ribfs": "7.5px",
+   "subfs": "11px",
    "ribbon": {
     "en": "Enjoy the coast's live music all year round",
     "es": "Disfruta la música en directo de la costa todo el año",
@@ -447,14 +448,14 @@
     "fi": "Nauti rannikon livemusiikista ympäri vuoden"
    },
    "sub": {
-    "en": "Norwegian owned. Norwegian certified. Professional guidance in buying and selling properties along the entire coast.",
-    "es": "De propiedad noruega. Certificada en Noruega. Asesoramiento profesional en la compra y venta de propiedades en toda la costa.",
-    "de": "In norwegischem Besitz. Norwegisch zertifiziert. Professionelle Beratung beim Kauf und Verkauf von Immobilien an der gesamten Küste.",
-    "fr": "Propriété norvégienne. Certifiée en Norvège. Accompagnement professionnel pour l'achat et la vente de biens sur toute la côte.",
-    "sv": "Norskägt. Norskcertifierat. Professionell vägledning vid köp och försäljning av fastigheter längs hela kusten.",
-    "no": "Norskeid. Norsk sertifisert. Profesjonell veiledning ved kjøp og salg av eiendom langs hele kysten.",
-    "da": "Norskejet. Norsk certificeret. Professionel vejledning ved køb og salg af boliger langs hele kysten.",
-    "fi": "Norjalaisomisteinen. Norjalaisesti sertifioitu. Ammattimaista opastusta kiinteistöjen ostoon ja myyntiin koko rannikolla."
+    "en": "Norwegian owned. Norwegian certified.\n\nProfessional guidance in buying and selling properties along the entire coast.",
+    "es": "Propiedad noruega. Certificada.\n\nAsesoramiento profesional en la compra y venta de propiedades en toda la costa.",
+    "de": "Norwegischer Besitz. Zertifiziert.\n\nProfessionelle Beratung beim Kauf und Verkauf von Immobilien an der gesamten Küste.",
+    "fr": "Propriété norvégienne. Certifiée.\n\nAccompagnement professionnel pour l'achat et la vente de biens sur toute la côte.",
+    "sv": "Norskägt. Norskcertifierat.\n\nProfessionell vägledning vid köp och försäljning av fastigheter längs hela kusten.",
+    "no": "Norskeid. Norsk sertifisert.\n\nProfesjonell veiledning ved kjøp og salg av eiendom langs hele kysten.",
+    "da": "Norskejet. Norsk certificeret.\n\nProfessionel vejledning ved køb og salg af boliger langs hele kysten.",
+    "fi": "Norjalainen omistus. Sertifioitu.\n\nAmmattimaista opastusta kiinteistöjen ostoon ja myyntiin koko rannikolla."
    },
    "cta": {
     "en": "Visit →",
