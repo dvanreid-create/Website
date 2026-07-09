@@ -429,6 +429,45 @@
    }
   },
   {
+   "logo": "/assets/tiles/scandinavian-property.png",
+   "bg": "linear-gradient(160deg,#fbf6ee,#efe3d2)",
+   "light": true,
+   "name": "Scandinavian Property",
+   "url": "https://scandinavian-property.com/en/",
+   "expires": "2026-08-06",
+   "ribfs": "7.5px",
+   "ribbon": {
+    "en": "Enjoy the coast's live music all year round",
+    "es": "Disfruta la música en directo de la costa todo el año",
+    "de": "Erlebe die Live-Musik der Küste das ganze Jahr",
+    "fr": "Profitez de la musique live de la côte toute l'année",
+    "sv": "Njut av kustens livemusik hela året",
+    "no": "Nyt kystens livemusikk hele året",
+    "da": "Nyd kystens livemusik hele året",
+    "fi": "Nauti rannikon livemusiikista ympäri vuoden"
+   },
+   "sub": {
+    "en": "Norwegian owned. Norwegian certified. Professional guidance in buying and selling properties along the entire coast.",
+    "es": "De propiedad noruega. Certificada en Noruega. Asesoramiento profesional en la compra y venta de propiedades en toda la costa.",
+    "de": "In norwegischem Besitz. Norwegisch zertifiziert. Professionelle Beratung beim Kauf und Verkauf von Immobilien an der gesamten Küste.",
+    "fr": "Propriété norvégienne. Certifiée en Norvège. Accompagnement professionnel pour l'achat et la vente de biens sur toute la côte.",
+    "sv": "Norskägt. Norskcertifierat. Professionell vägledning vid köp och försäljning av fastigheter längs hela kusten.",
+    "no": "Norskeid. Norsk sertifisert. Profesjonell veiledning ved kjøp og salg av eiendom langs hele kysten.",
+    "da": "Norskejet. Norsk certificeret. Professionel vejledning ved køb og salg af boliger langs hele kysten.",
+    "fi": "Norjalaisomisteinen. Norjalaisesti sertifioitu. Ammattimaista opastusta kiinteistöjen ostoon ja myyntiin koko rannikolla."
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
    "logo": "https://canelaparty.com/wp-content/uploads/2020/05/cropped-boca_canela.png",
    "bg": "radial-gradient(120% 90% at 50% 28%,#34122b,#0d0510)",
    "ghost": true,
