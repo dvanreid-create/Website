@@ -520,57 +520,18 @@
    },
    "head": "Tribute to ABBA and More",
    "headBottom": true,
-   "expires": "2026-07-11",
+   "expires": "2026-07-18",
    "sub": {
-    "en": "Sat 11 Jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "es": "Sáb 11 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "de": "Sa 11 Jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fr": "sam. 11 juil. · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "sv": "lör 11 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "no": "lør 11 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "da": "lør 11 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fi": "la 11 heinäk. · Sala Fundación Unicaja Mª Cristina · Málaga"
+    "en": "Sat 18 Jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "es": "Sáb 18 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "de": "Sa 18 Jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fr": "sam. 18 juil. · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "sv": "lör 18 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "no": "lør 18 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "da": "lør 18 jul · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fi": "la 18 heinäk. · Sala Fundación Unicaja Mª Cristina · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=555765&u=https%3A%2F%2Ffeverup.com%2Fm%2F555765&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/mqdefault.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Queen vs. ABBA",
-   "headBottom": true,
-   "expires": "2026-07-11",
-   "sub": {
-    "en": "Sat 11 Jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Sáb 11 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Sa 11 Jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "sam. 11 juil. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "lör 11 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "lør 11 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "lør 11 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "la 11 heinäk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=182969&u=https%3A%2F%2Ffeverup.com%2Fm%2F182969&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
