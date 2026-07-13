@@ -1,6 +1,90 @@
 {
  "ads": [
   {
+   "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sting_by_Yancho_Sabev_cropped.jpg",
+   "tint": "rgba(8,10,16,.22)",
+   "pos": "50% 12%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Sting",
+   "headBottom": true,
+   "expires": "2026-07-13",
+   "sub": {
+    "en": "Mon 13 Jul · Marenostrum Castle Park · Fuengirola",
+    "es": "Lun 13 jul · Marenostrum Castle Park · Fuengirola",
+    "de": "Mo 13 Jul · Marenostrum Castle Park · Fuengirola",
+    "fr": "lun. 13 juil. · Marenostrum Castle Park · Fuengirola",
+    "sv": "mån 13 jul · Marenostrum Castle Park · Fuengirola",
+    "no": "man 13 jul · Marenostrum Castle Park · Fuengirola",
+    "da": "man 13 jul · Marenostrum Castle Park · Fuengirola",
+    "fi": "ma 13 heinäk. · Marenostrum Castle Park · Fuengirola"
+   },
+   "url": "https://marenostrumfuengirola.com/eventos/sting/",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: Yancho Sabev · CC BY-SA 3.0"
+   }
+  },
+  {
+   "photo": "https://teatrodelsoho.com/wp-content/uploads/2025/10/cabecera-gershwin-blue-soho.jpg",
+   "tint": "rgba(8,10,22,.38)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Orchestra night",
+    "es": "Noche de orquesta",
+    "de": "Orchesterabend",
+    "fr": "Soirée orchestre",
+    "sv": "Orkesterkväll",
+    "no": "Orkesterkveld",
+    "da": "Orkesteraften",
+    "fi": "Orkesteri-ilta"
+   },
+   "head": "Gershwin in Blue",
+   "headBottom": true,
+   "expires": "2026-07-19",
+   "sub": {
+    "en": "Sat 18 & Sun 19 Jul · Teatro del Soho CaixaBank · Málaga",
+    "es": "Sáb 18 y dom 19 jul · Teatro del Soho CaixaBank · Málaga",
+    "de": "Sa 18 & So 19 Jul · Teatro del Soho CaixaBank · Málaga",
+    "fr": "Sam. 18 & dim. 19 juil. · Teatro del Soho CaixaBank · Málaga",
+    "sv": "Lör 18 & sön 19 jul · Teatro del Soho CaixaBank · Málaga",
+    "no": "Lør 18 & søn 19 jul · Teatro del Soho CaixaBank · Málaga",
+    "da": "Lør 18 & søn 19 jul · Teatro del Soho CaixaBank · Málaga",
+    "fi": "La 18 & su 19 heinäk. · Teatro del Soho CaixaBank · Málaga"
+   },
+   "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-50344503443087-soho_onebox-channel",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Image: Teatro del Soho CaixaBank"
+   }
+  },
+  {
    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kool_%26_the_Gang_-_Leverkusener_Jazztage_2017-1963.jpg?width=800",
    "tint": "rgba(8,10,16,.30)",
    "pos": "50% 28%",
@@ -85,7 +169,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/uU9Jor-8w1I/hqdefault.jpg",
+   "photo": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(232,102,42,.42)",
    "tag": {
     "en": "★ Top pick this week",
@@ -463,7 +547,46 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/hqdefault.jpg",
+   "photo": "https://images.pexels.com/photos/5197924/pexels-photo-5197924.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Open Air: Coldplay vs Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-07-18",
+   "sub": {
+    "en": "Sat 18 Jul · Anantara Villa Padierna Palace · Marbella",
+    "es": "Sáb 18 jul · Anantara Villa Padierna Palace · Marbella",
+    "de": "Sa 18 Jul · Anantara Villa Padierna Palace · Marbella",
+    "fr": "sam. 18 juil. · Anantara Villa Padierna Palace · Marbella",
+    "sv": "lör 18 jul · Anantara Villa Padierna Palace · Marbella",
+    "no": "lør 18 jul · Anantara Villa Padierna Palace · Marbella",
+    "da": "lør 18 jul · Anantara Villa Padierna Palace · Marbella",
+    "fi": "la 18 heinäk. · Anantara Villa Padierna Palace · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=405945&u=https%3A%2F%2Ffeverup.com%2Fm%2F405945&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/697672/pexels-photo-697672.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -502,7 +625,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/dvgZkm1xWPE/hqdefault.jpg",
+   "photo": "https://images.pexels.com/photos/18046579/pexels-photo-18046579.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -529,6 +652,84 @@
     "fi": "la 18 heinäk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=587458&u=https%3A%2F%2Ffeverup.com%2Fm%2F587458&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://images.pexels.com/photos/27874607/pexels-photo-27874607.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Disney Love Songs",
+   "headBottom": true,
+   "expires": "2026-07-25",
+   "sub": {
+    "en": "Sat 25 Jul · Gran Hotel Miramar · Málaga",
+    "es": "Sáb 25 jul · Gran Hotel Miramar · Málaga",
+    "de": "Sa 25 Jul · Gran Hotel Miramar · Málaga",
+    "fr": "sam. 25 juil. · Gran Hotel Miramar · Málaga",
+    "sv": "lör 25 jul · Gran Hotel Miramar · Málaga",
+    "no": "lør 25 jul · Gran Hotel Miramar · Málaga",
+    "da": "lør 25 jul · Gran Hotel Miramar · Málaga",
+    "fi": "la 25 heinäk. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=266775&u=https%3A%2F%2Ffeverup.com%2Fm%2F266775&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/kS-W3lfcVvY/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Las Cuatro Estaciones de Vivaldi",
+   "headBottom": true,
+   "expires": "2026-07-25",
+   "sub": {
+    "en": "Sat 25 Jul · Gran Hotel Miramar · Málaga",
+    "es": "Sáb 25 jul · Gran Hotel Miramar · Málaga",
+    "de": "Sa 25 Jul · Gran Hotel Miramar · Málaga",
+    "fr": "sam. 25 juil. · Gran Hotel Miramar · Málaga",
+    "sv": "lör 25 jul · Gran Hotel Miramar · Málaga",
+    "no": "lør 25 jul · Gran Hotel Miramar · Málaga",
+    "da": "lør 25 jul · Gran Hotel Miramar · Málaga",
+    "fi": "la 25 heinäk. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -607,45 +808,6 @@
     "fi": "la 25 heinäk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=115407&u=https%3A%2F%2Ffeverup.com%2Fm%2F115407&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/27874607/pexels-photo-27874607.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Disney Love Songs",
-   "headBottom": true,
-   "expires": "2026-07-25",
-   "sub": {
-    "en": "Sat 25 Jul · Gran Hotel Miramar · Málaga",
-    "es": "Sáb 25 jul · Gran Hotel Miramar · Málaga",
-    "de": "Sa 25 Jul · Gran Hotel Miramar · Málaga",
-    "fr": "sam. 25 juil. · Gran Hotel Miramar · Málaga",
-    "sv": "lör 25 jul · Gran Hotel Miramar · Málaga",
-    "no": "lør 25 jul · Gran Hotel Miramar · Málaga",
-    "da": "lør 25 jul · Gran Hotel Miramar · Málaga",
-    "fi": "la 25 heinäk. · Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=266775&u=https%3A%2F%2Ffeverup.com%2Fm%2F266775&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
