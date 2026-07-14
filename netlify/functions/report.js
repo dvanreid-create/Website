@@ -24,6 +24,13 @@ function page(d) {
         <div class="bar"><i style="width:${Math.max(0, Math.min(100, val))}%"></i></div>
       </div>`).join("");
   const levers = (d.levers || []).map((l) => `<li>${esc(l)}</li>`).join("");
+  const nfmt = (n) => Number(n).toLocaleString("en-US");
+  const drawBlock = (d.draw_point != null) ? `
+        <div class="draw">
+          <div class="dlbl">Projected audience draw</div>
+          <div class="dn">~${nfmt(d.draw_point)}</div>
+          <div class="dsub">est. range ${nfmt(d.draw_low)}–${nfmt(d.draw_high)} · ≈${Math.round(d.draw_pct)}% of cap.</div>
+        </div>` : "";
   const dates = (d.dates || []).map((r) => `
       <div class="drow">
         <span class="dl">${esc(r.label)}</span>
@@ -60,6 +67,10 @@ function page(d) {
   .ring .n{font-family:Anton,sans-serif;font-size:50px;line-height:1;color:var(--navy)}
   .ring .of{font-size:12px;color:var(--mute);font-weight:600;margin-top:2px}
   .bandpill{display:inline-block;margin-top:14px;padding:7px 18px;border-radius:18px;color:#fff;font-weight:700;font-size:14px;background:${bc}}
+  .draw{margin-top:14px;border:2px dashed var(--coral);border-radius:12px;background:#FAECE7;padding:11px 12px;text-align:center}
+  .draw .dlbl{font-size:11px;font-weight:600;letter-spacing:.3px;color:#993C1D;text-transform:uppercase}
+  .draw .dn{font-family:Anton,sans-serif;font-weight:400;font-size:31px;color:var(--navy);line-height:1.05;margin-top:3px}
+  .draw .dsub{font-size:12px;color:var(--mute);margin-top:2px}
   .pillars{flex:1}
   .pillars h3,.sec h3{font-size:12.5px;font-weight:600;letter-spacing:.4px;color:var(--sea);text-transform:uppercase;margin:0 0 14px}
   .prow{margin-bottom:14px}
@@ -103,6 +114,7 @@ function page(d) {
     <div class="gauge">
       <div class="ring"><div class="hole"><div class="n">${score}</div><div class="of">/ 100</div></div></div>
       <div class="bandpill">${bandLong(d.band)}</div>
+      ${drawBlock}
     </div>
     <div class="pillars">
       <h3>Why — the three pillars</h3>
@@ -114,11 +126,10 @@ function page(d) {
   <div class="sec"><h3>Date comparison</h3>${dates}</div>
   <div class="tags">
     ${d.revenue_note ? `<span class="tag">Revenue: ${esc(d.revenue_note)}</span>` : ""}
-    ${d.confidence ? `<span class="tag">Confidence: ${esc(d.confidence)}</span>` : ""}
   </div>
   <div class="sec"><h3>Recommendation</h3><div class="rec">${esc(d.recommendation)}</div></div>
   <div class="foot">
-    Directional demand estimate, not a guaranteed attendance or revenue forecast. Scores are rankings until calibrated against logged outcomes.<br>
+    Directional demand estimate, not a guaranteed attendance or revenue forecast. Projected draw is a modelled range, not a booking guarantee. Scores are rankings until calibrated against logged outcomes.<br>
     <b>Málaga Live · malagalivepulse.com</b>
   </div>
 </div>
