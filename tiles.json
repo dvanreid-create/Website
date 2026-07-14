@@ -43,48 +43,6 @@
    }
   },
   {
-   "photo": "https://teatrodelsoho.com/wp-content/uploads/2025/10/cabecera-gershwin-blue-soho.jpg",
-   "tint": "rgba(8,10,22,.38)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Orchestra night",
-    "es": "Noche de orquesta",
-    "de": "Orchesterabend",
-    "fr": "Soirée orchestre",
-    "sv": "Orkesterkväll",
-    "no": "Orkesterkveld",
-    "da": "Orkesteraften",
-    "fi": "Orkesteri-ilta"
-   },
-   "head": "Gershwin in Blue",
-   "headBottom": true,
-   "expires": "2026-07-19",
-   "sub": {
-    "en": "Sat 18 & Sun 19 Jul · Teatro del Soho CaixaBank · Málaga",
-    "es": "Sáb 18 y dom 19 jul · Teatro del Soho CaixaBank · Málaga",
-    "de": "Sa 18 & So 19 Jul · Teatro del Soho CaixaBank · Málaga",
-    "fr": "Sam. 18 & dim. 19 juil. · Teatro del Soho CaixaBank · Málaga",
-    "sv": "Lör 18 & sön 19 jul · Teatro del Soho CaixaBank · Málaga",
-    "no": "Lør 18 & søn 19 jul · Teatro del Soho CaixaBank · Málaga",
-    "da": "Lør 18 & søn 19 jul · Teatro del Soho CaixaBank · Málaga",
-    "fi": "La 18 & su 19 heinäk. · Teatro del Soho CaixaBank · Málaga"
-   },
-   "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-50344503443087-soho_onebox-channel",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Image: Teatro del Soho CaixaBank"
-   }
-  },
-  {
    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tom_Jones_concert.jpg",
    "tint": "rgba(8,10,16,.28)",
    "pos": "50% 8%",
@@ -437,14 +395,14 @@
    "expires": "2026-08-06",
    "riblsp": "0px",
    "ribbon": {
-    "en": "Own. Enjoy the coast's live music events, all year.",
-    "es": "Compra. Música en vivo en la costa, todo el año.",
-    "de": "Kaufen. Livemusik an der Küste, das ganze Jahr.",
-    "fr": "Achetez. Concerts live sur la côte, toute l'année.",
-    "sv": "Äg. Livemusik vid kusten, hela året.",
-    "no": "Eie. Livemusikk på kysten, hele året.",
-    "da": "Ej. Livemusik på kysten, hele året.",
-    "fi": "Osta. Livemusiikkia rannikolla, koko vuoden."
+    "en": "Own. Enjoy coastal music all year.",
+    "es": "Compra. Música costera todo el año.",
+    "de": "Kaufen. Küstenmusik das ganze Jahr.",
+    "fr": "Achetez. Musique côtière à l'année.",
+    "sv": "Äg. Kustmusik hela året.",
+    "no": "Eie. Kystmusikk hele året.",
+    "da": "Ej. Kystmusik hele året.",
+    "fi": "Osta. Rannikkomusiikkia koko vuoden."
    },
    "sub": {
     "en": "Norwegian owned. Norwegian certified.\n\nProfessional guidance in buying and selling properties along the entire coast.",
