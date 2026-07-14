@@ -43,7 +43,7 @@
    }
   },
   {
-   "photo": "https://teatrodelsoho.com/wp-content/uploads/2025/10/Cartel-gershwin-in-blue-2026-soho.jpg",
+   "photo": "/assets/tiles/gershwin-poster.jpg",
    "tint": "rgba(8,10,22,.28)",
    "pos": "50% 38%",
    "ribbon": {
