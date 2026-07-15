@@ -22,6 +22,34 @@
     "lola indigo": {"url": "https://marenostrumfuengirola.com/eventos/lola-indigo/", "date": "14/08/2026", "venue_name": "LOLA INDIGO"},
     "antonio orozco": {"url": "https://marenostrumfuengirola.com/eventos/antonio-orozco/", "date": "15/08/2026", "venue_name": "ANTONIO OROZCO"}
    }
+  },
+  "101musicfestival": {
+   "source": "https://101musicfestival.es/",
+   "note": "Each act's ENTRADAS button goes to malagaentradas.com with a per-event eid - THAT is the buying page, not 101musicfestival.es. WARNING: 101's own page repeats its lineup twice and the SECOND block mislabels Loquillo with Aguilera y Mení's eid (3550). We use the FIRST block's eid=3547 (loquillo-corazones-legendarios), which matches the act name in the URL. Acts NOT on this lineup are not part of 101 Music Festival - our calendar carried Vetusta Morla (20 Jul) linked to this site, but 101's 2026 lineup is only Marta Santos 16, Aguilera y Mení 17, Loquillo 18, Il Volo 19, El Arrebato 25, Mónica Naranjo 31.",
+   "acts": {
+    "marta santos": {"url": "https://www.malagaentradas.com/?entradas=marta-santos-malaga-101-music-festival&provincia=m%C3%A1laga&cpro=29&eid=3227", "date": "16/07/2026", "venue_name": "MARTA SANTOS"},
+    "loquillo": {"url": "https://www.malagaentradas.com/?entradas=loquillo-corazones-legendarios&provincia=m%C3%A1laga&cpro=29&eid=3547", "date": "18/07/2026", "venue_name": "LOQUILLO"},
+    "il volo": {"url": "https://www.malagaentradas.com/?entradas=il-volo-world-tour-26-27&provincia=m%C3%A1laga&cpro=29&eid=3641", "date": "19/07/2026", "venue_name": "IL VOLO"},
+    "el arrebato": {"url": "https://www.malagaentradas.com/?entradas=el-arrebato&provincia=m%C3%A1laga&cpro=29&eid=3551", "date": "25/07/2026", "venue_name": "EL ARREBATO"},
+    "monica naranjo": {"url": "https://www.malagaentradas.com/?entradas=monica-naranjo-greatest-hits-concert-espa%C3%B1a&provincia=m%C3%A1laga&cpro=29&eid=3596", "date": "31/07/2026", "venue_name": "MÓNICA NARANJO"}
+   }
+  },
+  "brisafestival": {
+   "source": "https://www.brisafestival.com/",
+   "note": "Brisa has NO per-day event pages - one festival-wide cart (its own COMPRAR ENTRADAS button). That cart IS the buying page, so all three days share it. Verified line-up: Thu 23 Jul Love of Lesbian, Fri 24 Jul Amaia/Siloé, Sat 25 Jul M-Clan/La M.O.D.A./OBK - all three match our calendar.",
+   "acts": {
+    "love of lesbian": {"url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES", "date": "23/07/2026", "venue_name": "LOVE OF LESBIAN (Brisa día 1)"},
+    "amaia": {"url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES", "date": "24/07/2026", "venue_name": "AMAIA · SILOÉ (Brisa día 2)"},
+    "m clan": {"url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES", "date": "25/07/2026", "venue_name": "M-CLAN · LA M.O.D.A. · OBK (Brisa día 3)"}
+   }
+  },
+  "dreambeach": {
+   "source": "https://www.dreambeach.es/",
+   "note": "No per-artist pages; the festival sells day tickets (/entradasdedia/, from EUR49) and passes (/abonos/). Day tickets are the right target for a single-night listing. Dreambeach's own news copy confirms 31 Jul + 1 Aug at Vélez-Málaga, matching our Eric Prydz and David Guetta rows.",
+   "acts": {
+    "eric prydz": {"url": "https://www.dreambeach.es/entradasdedia/", "date": "31/07/2026", "venue_name": "Dreambeach día 1"},
+    "david guetta": {"url": "https://www.dreambeach.es/entradasdedia/", "date": "01/08/2026", "venue_name": "Dreambeach día 2 - Monolith"}
+   }
   }
  }
 }
