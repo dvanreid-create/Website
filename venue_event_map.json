@@ -76,7 +76,15 @@
     "gipsy kings": {"url": "https://marenostrumfuengirola.com/eventos/gipsy-kings/", "date": "09/08/2026", "venue_name": "GIPSY KINGS"},
     "alejandro astola": {"url": "https://marenostrumfuengirola.com/eventos/alejandro-astola/", "date": "13/08/2026", "venue_name": "ALEJANDRO ASTOLA"},
     "lola indigo": {"url": "https://marenostrumfuengirola.com/eventos/lola-indigo/", "date": "14/08/2026", "venue_name": "LOLA INDIGO"},
-    "antonio orozco": {"url": "https://marenostrumfuengirola.com/eventos/antonio-orozco/", "date": "15/08/2026", "venue_name": "ANTONIO OROZCO"}
+    "antonio orozco": {"url": "https://marenostrumfuengirola.com/eventos/antonio-orozco/", "date": "15/08/2026", "venue_name": "ANTONIO OROZCO"},
+    "mago orbit": {"url": "https://marenostrumfuengirola.com/eventos/mago-orbit-presenta-acero-2-0-sohail-magico/", "date": "16/08/2026", "venue_name": "MAGO ORBIT PRESENTA ACERO 2.0 – SOHAIL MÁGICO"},
+    "luna sur tardeo": {"url": "https://marenostrumfuengirola.com/eventos/luna-sur-tardeo/", "date": "18/08/2026", "venue_name": "LUNA SUR TARDEO"},
+    "galvan real": {"url": "https://marenostrumfuengirola.com/eventos/galvan-real-gira-10o-aniversario/", "date": "21/08/2026", "venue_name": "GALVAN REAL – GIRA 10º ANIVERSARIO"},
+    "la plazuela": {"url": "https://marenostrumfuengirola.com/eventos/la-plazuela/", "date": "22/08/2026", "venue_name": "LA PLAZUELA"},
+    "cantajuego": {"url": "https://marenostrumfuengirola.com/eventos/cantajuego-el-payaso-tallarin/", "date": "23/08/2026", "venue_name": "CANTAJUEGO – EL PAYASO TALLARIN"},
+    "sun and thunder": {"url": "https://marenostrumfuengirola.com/eventos/sun-thunder-26/", "date": "27/08/2026", "venue_name": "SUN & THUNDER 26"},
+    "chambao": {"url": "https://marenostrumfuengirola.com/eventos/chambao/", "date": "06/09/2026", "venue_name": "CHAMBAO"},
+    "apulanta": {"url": "https://marenostrumfuengirola.com/eventos/apulanta/", "date": "12/09/2026", "venue_name": "APULANTA"}
    }
   },
   "101musicfestival": {

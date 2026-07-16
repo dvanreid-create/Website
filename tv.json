@@ -1,26 +1,6 @@
 {
   "clips": [
     {
-      "act": "Jean-Michel Jarre",
-      "yt": "71DOHvfFDBY",
-      "where": "13 Jul · Starlite, Marbella"
-    },
-    {
-      "act": "Sting",
-      "yt": "C3lWwBslWqg",
-      "where": "13 Jul · Marenostrum, Fuengirola"
-    },
-    {
-      "act": "Anastacia",
-      "yt": "TnOy6HEf7HU",
-      "where": "14 Jul · Starlite, Marbella"
-    },
-    {
-      "act": "Juan Luis Guerra",
-      "yt": "K3S96fUGrEY",
-      "where": "15 Jul · Starlite, Marbella"
-    },
-    {
       "act": "UB40",
       "yt": "zXt56MB-3vc",
       "where": "16 Jul · Marbella Arena, Marbella"
@@ -29,6 +9,11 @@
       "act": "Yandel",
       "yt": "U516oP9nt2o",
       "where": "18 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Il Volo",
+      "yt": "w1f6o1HQBvg",
+      "where": "19 Jul · La Malagueta, Málaga"
     },
     {
       "act": "John Legend",
@@ -49,33 +34,45 @@
       "act": "Kool & The Gang",
       "yt": "sLuNC5RCjY4",
       "where": "23 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Alejandro Sanz",
+      "yt": "_azLxuBj4bw",
+      "where": "24 Jul · Marenostrum, Fuengirola"
     }
   ],
   "thumbs": {
-    "Jean-Michel Jarre": "71DOHvfFDBY",
-    "Anastacia": "TnOy6HEf7HU",
-    "Juan Luis Guerra 4.40": "K3S96fUGrEY",
     "UB40 featuring Ali Campbell": "zXt56MB-3vc",
-    "Josh Baker": "vsK1uUgrqjk",
     "Mora": "uU9Jor-8w1I",
-    "Candlelight: Tribute to ABBA and More": "xFrGuyw1V8s",
-    "Yandel": "U516oP9nt2o",
+    "Candlelight Open Air: Coldplay vs Imagine Dragons": "yKNxeF4KMsY",
+    "Yandel Sinfónico": "U516oP9nt2o",
     "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
     "Candlelight: Coldplay vs. Imagine Dragons": "dvgZkm1xWPE",
+    "Gershwin in Blue": "cH2PH0auTUU",
     "John Legend": "450p7goxZqg",
     "Diana Krall": "v5FVmJKPSrY",
     "Carlos Rivera": "Uhdnk5dgMZk",
     "Kool & The Gang": "sLuNC5RCjY4",
+    "Candlelight: Disney Love Songs": "eitDnP0_83k",
+    "Candlelight: Las Cuatro Estaciones de Vivaldi": "0RKmN3gOZ3E",
     "Miguel Ríos": "UQ_3Ba4NMIw",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Ara Malikian": "S9fL4XSKqHI",
     "Zucchero": "IA5pBAzok3w",
     "Beret": "sK3TzV0cnVU",
-    "Manuel Turizo & Mau y Ricky": "5_Y7erPV8O0",
+    "Manuel Turizo + Mau y Ricky": "5_Y7erPV8O0",
+    "Candlelight Open Air: Hans Zimmer": "ai4rBRMI6-Q",
     "Rosana": "sd6-BHgqwjk",
     "Rosario": "F1lf6kJzQWM",
     "Sergio Dalma + Sanguijuelas del Guadiana": "zlmRGWNJE3c",
+    "Gente de Zona": "VMp55KH_3wo",
+    "Delaossa": "BcMDxGdxX0o",
+    "Álvaro de Luna + Nil Moliner + Hermanos Martínez": "hJNG_xYHlXw",
+    "Soleá Morente + Yerai Cortés + Estrella Morente": "PRRlOPLeZGc",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
+    "Malú": "W4R_eHMp6U0",
+    "Niña Pastori": "vuirF5rFjjU",
+    "Pastora Soler": "W7y1pvW60ng",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk"
   }
 }
