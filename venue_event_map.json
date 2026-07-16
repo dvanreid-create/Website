@@ -3,10 +3,10 @@
  "generated": "2026-07-15",
  "venues": {
   "starlite": {
-   "source": "https://entradas.starlitemarbella.com/section/conciertos-en-auditorio-4nki + https://www.elcorteingles.es/entradas/search/?Ntt=starlite",
+   "source": "https://starlitefestival.com/en/line-up-2026/ + https://entradas.starlitemarbella.com/section/conciertos-en-auditorio-4nki + https://www.elcorteingles.es/entradas/search/?Ntt=starlite",
    "complete": true,
    "verify_only": true,
-   "note": "VERIFICATION ONLY - Starlite ticket LINKS are handled by eci_starlite_map.json (which also price-compares the two sellers). This is the UNION of both sellers' programmes, and the union is the point: Beret is on ECI but not the box office, while Nina Pastori and Nil Moliner y Alvaro de Luna are on the box office but not ECI. Verifying against either seller alone would delete a real gig. Caught by this: 'Solea Morente + Yerai Cortes + Estrella Morente' (8 Aug) - Starlite's programme runs Delaossa 6/8 then Malu 10/8, nothing on the 8th, and no Morente on either seller. (Kiki Morente appears inside OMEGA 30's billing, which is a different act and does not match.)",
+   "note": "VERIFICATION ONLY - Starlite ticket LINKS are handled by eci_starlite_map.json (which also price-compares the two sellers). PRIMARY source is starlitefestival.com/en/line-up-2026/ (the official festival lineup page) — the ticket section page (entradas.starlitemarbella.com/section/conciertos-en-auditorio-4nki) is a SECONDARY source only, as it can miss events that sell through a direct event URL rather than the section listing (e.g. Soleá Morente 8 Aug was absent from the section page but is confirmed on the lineup page with its own ticket URL). The union of all three sources is the authoritative programme. Beret is on ECI but not the box office; Nina Pastori and Nil Moliner y Alvaro de Luna are on the box office but not ECI. CORRECTED 2026-07-15: 'Solea Morente + Yerai Cortes + Estrella Morente' (8 Aug) was wrongly dropped as phantom — it IS on starlitefestival.com/en/line-up-2026/ at https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg.",
    "acts": {
     "alvaro de luna y nil moliner": {"venue_name": "Álvaro de Luna y Nil Moliner"},
     "antonio jose": {"venue_name": "Antonio José"},
@@ -39,6 +39,9 @@
     "pastora soler": {"venue_name": "Pastora Soler"},
     "rosana": {"venue_name": "Rosana"},
     "rosario": {"venue_name": "Rosario"},
+    "solea morente": {"url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg", "date": "08/08/2026", "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente"},
+    "yerai cortes": {"url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg", "date": "08/08/2026", "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente"},
+    "estrella morente": {"url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg", "date": "08/08/2026", "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente"},
     "sanguijuelas del guadiana": {"venue_name": "Sanguijuelas del Guadiana"},
     "sergio dalma": {"venue_name": "Sergio Dalma"},
     "taburete": {"venue_name": "Taburete"},
