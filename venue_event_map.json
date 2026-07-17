@@ -169,6 +169,16 @@
     "soul on fire": {"date": "23/08/2026", "venue_name": "SOUL ON FIRE"}
    }
   },
+  "teatro del soho": {
+   "complete": true,
+   "source": "https://teatrodelsoho.com/programacion/?temporada=temporada-2025-2026 + ?temporada=temporada-2026-2027",
+   "note": "READ BOTH SEASONS, 16 Jul 2026. The bare /programacion/ page is an ALL-SEASONS archive with no years on the dates ('18 - 19 Jul') - unusable. The ?temporada= filter fixes that: it returns ONE season, and the year is then derivable because a Soho season runs Sep->Jul, so Sep-Dec = the FIRST year of the label and Jan-Aug = the SECOND. Gershwin '18 - 19 Jul' in temporada-2025-2026 = 18-19 Jul 2026. Verified against the live calendar, which carries it on exactly those dates. Soho sells through ECI directly (its own 'Compra de entradas' points at elcorteingles.es/entradas/microsites/teatro-soho/), so eci_aff() wraps these and they earn 1% with no price gate needed - same seller, same price. Only the in/near-window entries are listed; the rest of both seasons is past or months out. IF SOHO ANNOUNCES A NEW SHOW, ADD IT HERE: this venue is 'complete', so an event absent from this list is DELETED as a phantom.",
+   "acts": {
+    "gershwin in blue": {"url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-50344503443087-soho_onebox-channel", "date": "18/07/2026", "venue_name": "Gershwin in blue - Larios Pop del Soho (18-19 Jul)", "prefer": "eci", "why": "Soho sells via ECI -> 1%"},
+    "la segunda venida de cristo": {"url": "https://teatrodelsoho.com/evento/la-segunda-venida-de-cristo-o-el-yoga-de-jesus-rafael-alvarez-el-brujo/", "date": "10/07/2026", "venue_name": "El Brujo (10-12 Jul, past)"},
+    "chungo": {"url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-55503555033087-soho_onebox-channel", "date": "05/10/2026", "venue_name": "Chungo - Luis Zahera (5-6 Oct, next season)", "prefer": "eci", "why": "Soho sells via ECI -> 1%"}
+   }
+  },
   "purolatino": {
    "complete": true,
    "source": "https://purolatino.es/torremolinos/",
