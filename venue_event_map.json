@@ -169,6 +169,31 @@
     "soul on fire": {"date": "23/08/2026", "venue_name": "SOUL ON FIRE"}
    }
   },
+  "purolatino": {
+   "complete": true,
+   "source": "https://purolatino.es/torremolinos/",
+   "note": "Puro Latino TORREMOLINOS = the only Puro Latino in our region (the festival also runs Madrid/Sevilla/Almeria/Puerto de Santa Maria - do NOT match those). Two nights, verified 16 Jul 2026: Fri 17 Jul Farruko/Nengo Flow/ROA/Tito El Bambino/Alvama Ice/Cyril Kamer; Sat 18 Jul Anuel AA/JC Reyes/Juan Magan/Omar Montes/SAIKO/Kidd Voodoo. ADDED because the 13 Jul sweep dropped both nights and nothing detected it - this venue was unmapped. No per-day page; /torremolinos/entradas/ is the buying page.",
+   "acts": {
+    "farruko": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "17/07/2026", "venue_name": "Puro Latino Torremolinos Día 1 - Farruko"},
+    "nengo flow": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "17/07/2026", "venue_name": "Ñengo Flow (Día 1)"},
+    "tito el bambino": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "17/07/2026", "venue_name": "Tito El Bambino (Día 1)"},
+    "roa": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "17/07/2026", "venue_name": "ROA (Día 1)"},
+    "anuel aa": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "18/07/2026", "venue_name": "Puro Latino Torremolinos Día 2 - Anuel AA"},
+    "jc reyes": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "18/07/2026", "venue_name": "JC Reyes (Día 2)"},
+    "juan magan": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "18/07/2026", "venue_name": "Juan Magán (Día 2)"},
+    "omar montes": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "18/07/2026", "venue_name": "Omar Montes (Día 2)"},
+    "saiko": {"url": "https://purolatino.es/torremolinos/entradas/", "date": "18/07/2026", "venue_name": "SAIKO (Día 2)"}
+   }
+  },
+  "moonlight": {
+   "complete": true,
+   "source": "https://moonlightmalagafestival.com/",
+   "note": "Malaga Forum concert series. Whole 2026 line-up is these TWO nights (read 16 Jul 2026). ADDED because the 13 Jul sweep SILENTLY DROPPED BOTH - including TOM JONES, a MARQUEE act - and nothing detected it: the missing-events check only judges venues flagged 'complete', and this venue was not mapped. Deep links are the venue's own per-artist pages.",
+   "acts": {
+    "rodrigo cuevas": {"url": "https://moonlightmalagafestival.com/rodrigo-cuevas-malaga-31-de-julio/", "date": "31/07/2026", "venue_name": "RODRIGO CUEVAS"},
+    "tom jones": {"url": "https://moonlightmalagafestival.com/tom-jones-malaga-1-de-agosto/", "date": "01/08/2026", "venue_name": "TOM JONES"}
+   }
+  },
   "dreambeach": {
    "source": "https://www.dreambeach.es/",
    "note": "No per-artist pages; the festival sells day tickets (/entradasdedia/, from EUR49) and passes (/abonos/). Day tickets are the right target for a single-night listing. Dreambeach's own news copy confirms 31 Jul + 1 Aug at Vélez-Málaga, matching our Eric Prydz and David Guetta rows.",
