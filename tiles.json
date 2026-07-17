@@ -1,45 +1,6 @@
 {
  "ads": [
   {
-   "photo": "https://i.ytimg.com/vi/zXt56MB-3vc/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.30)",
-   "pos": "42% 50%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "UB40",
-   "headBottom": true,
-   "expires": "2026-07-16",
-   "sub": {
-    "en": "Thu 16 Jul · Marbella Arena · Marbella",
-    "es": "Jue 16 jul · Marbella Arena · Marbella",
-    "de": "Do 16 Jul · Marbella Arena · Marbella",
-    "fr": "jeu. 16 juil. · Marbella Arena · Marbella",
-    "sv": "tor 16 jul · Marbella Arena · Marbella",
-    "no": "tor 16 jul · Marbella Arena · Marbella",
-    "da": "tor 16 jul · Marbella Arena · Marbella",
-    "fi": "to 16 heinäk. · Marbella Arena · Marbella"
-   },
-   "url": "https://www.ticketmaster.es/artist/ub40-featuring-ali-campbell-entradas/1145443",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kool_%26_the_Gang_-_Leverkusener_Jazztage_2017-1963.jpg?width=800",
    "tint": "rgba(8,10,16,.30)",
    "pos": "50% 28%",

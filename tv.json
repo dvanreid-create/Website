@@ -1,14 +1,19 @@
 {
   "clips": [
     {
-      "act": "UB40",
-      "yt": "zXt56MB-3vc",
-      "where": "16 Jul · Marbella Arena, Marbella"
+      "act": "Mora",
+      "yt": "uU9Jor-8w1I",
+      "where": "17 Jul · Starlite, Marbella"
     },
     {
       "act": "Yandel",
       "yt": "U516oP9nt2o",
       "where": "18 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Loquillo",
+      "yt": "-noXMTiZYik",
+      "where": "18 Jul · La Malagueta, Málaga"
     },
     {
       "act": "Il Volo",
@@ -39,10 +44,14 @@
       "act": "Alejandro Sanz",
       "yt": "_azLxuBj4bw",
       "where": "24 Jul · Marenostrum, Fuengirola"
+    },
+    {
+      "act": "Miguel Ríos",
+      "yt": "UQ_3Ba4NMIw",
+      "where": "25 Jul · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "UB40 featuring Ali Campbell": "zXt56MB-3vc",
     "Mora": "uU9Jor-8w1I",
     "Candlelight Open Air: Coldplay vs Imagine Dragons": "yKNxeF4KMsY",
     "Yandel Sinfónico": "U516oP9nt2o",
