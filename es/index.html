@@ -133,6 +133,9 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .note{max-width:1300px;margin:14px auto 40px;padding:0 22px;font-size:12px;color:var(--mut);text-align:center;}
 
 @media(max-width:1000px){.grid{grid-template-columns:1fr;}.flank-rail,.trail{position:static;top:auto;}.feat{display:grid;grid-template-columns:repeat(2,1fr);overflow:visible;}.feat::-webkit-scrollbar{display:none;}.fcard{scroll-snap-align:none;}}
+/* keep the Special Events (.trail) + Subscribe (.news) squares full-width & centred on mobile,
+   so the mobile swap above renders cleanly regardless of which slot each lands in */
+@media(max-width:1000px){.trail{width:100%;}.trail .flank-slot,.trail .flank-slot.sev{margin-left:auto;margin-right:auto;}.news{width:100%;}}
 
 .logo{display:flex;flex-direction:column;align-items:flex-start;gap:4px;}
 .logo .blogo{height:44px;width:auto;display:block;}
@@ -495,6 +498,10 @@ fetch('/stats.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():nu
    transform doesn't reflow the header, so the langsel stays put. Desktop only (>1000px);
    the caption rides along already centred. Re-runs on resize + font load. */
 (function(){var hact=document.querySelector('header .hactions');if(!hact)return;var pill=hact.querySelector('.hnav')||hact.querySelector('.btn');if(!pill)return;function align(){hact.style.transform='';if(window.innerWidth<=1000)return;var c=document.querySelector('.hchips');var t=c?c.getBoundingClientRect().right:null;if(t==null){var w=hact.closest('.wrap');if(!w)return;t=w.getBoundingClientRect().right-(parseFloat(getComputedStyle(w).paddingRight)||0);}var sh=Math.round(t-pill.getBoundingClientRect().right);if(sh>2)hact.style.transform='translateX('+sh+'px)';}align();window.addEventListener('resize',align);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(align);})();
+/* MOBILE only (<=1000px): swap the Special Events square (.trail) and the Subscribe square
+   (.news) so Special Events sits where Subscribe was (mid-content) and Subscribe drops to
+   where Special Events was (bottom). Desktop 3-column layout untouched. DLR request. */
+(function(){if(window.innerWidth>1000)return;var a=document.querySelector('.news'),b=document.querySelector('.trail');if(!a||!b)return;var pa=document.createComment(''),pb=document.createComment('');a.parentNode.insertBefore(pa,a);b.parentNode.insertBefore(pb,b);pa.parentNode.insertBefore(b,pa);pb.parentNode.insertBefore(a,pb);pa.remove();pb.remove();})();
 function sizeMltvChips(){var ch=document.querySelectorAll('#mltvChips .mltv-chip');if(!ch.length)return;var mx=0;ch.forEach(function(c){c.style.width='auto';c.style.minWidth='0';var w=Math.ceil(c.getBoundingClientRect().width);if(w>mx)mx=w;});ch.forEach(function(c){c.style.width=mx+'px';c.style.minWidth=mx+'px';});}
 sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
