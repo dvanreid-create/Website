@@ -127,42 +127,6 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/uU9Jor-8w1I/hqdefault.jpg",
-   "tint": "rgba(232,102,42,.42)",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "Mora",
-   "sub": {
-    "en": "Fri 17 Jul · Starlite Marbella",
-    "es": "Vie 17 jul · Starlite Marbella",
-    "de": "Fr 17 Jul · Starlite Marbella",
-    "fr": "ven. 17 juil. · Starlite Marbella",
-    "sv": "fre 17 jul · Starlite Marbella",
-    "no": "fre 17 jul · Starlite Marbella",
-    "da": "fre 17 jul · Starlite Marbella",
-    "fi": "pe 17 heinäk. · Starlite Marbella"
-   },
-   "url": "https://entradas.starlitemarbella.com/event/mora-9q2o51",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(31,158,99,.42)",
    "url": "#free",
