@@ -60,6 +60,13 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
    window (The Jazz Room, 24 Oct) that the reader is being asked to book NOW. Wearing the normal
    ribbon it would read as a date error rather than a deliberate early-booking call. */
 .flank-slot .rib.bar{left:0;right:0;text-align:center;border-radius:0;font-size:12px;font-weight:800;letter-spacing:.8px;padding:8px 10px;box-shadow:0 2px 10px rgba(0,0,0,.35);}
+/* The bar PULSES (DLR 2026-07-17). Reuses the brand's own `mlbeat` heartbeat — the same gesture
+   as the word "pulse" in "The pulse of live music" — rather than inventing an animation. Slowed
+   to 1.6s (vs the tagline's .85s): the tagline beats once beside a static header, this beats
+   forever beside other tiles, and at .85s it reads as a fault rather than a promotion.
+   transform-origin:center so it breathes about its own axis and cannot shift the layout. */
+.flank-slot .rib.bar{animation:mlbeat 1.6s ease-in-out infinite;transform-origin:center;will-change:transform;}
+@media (prefers-reduced-motion:reduce){.flank-slot .rib.bar{animation:none;}}
 .flank-slot .z{position:relative;z-index:2;}
 .flank-slot .h{font-size:32px;line-height:1;margin-bottom:5px;} .flank-slot .s{font-size:11.5px;color:#e4ebf0;} .flank-slot .cta{font-size:12px;color:#ffd9c6;font-weight:600;margin-top:8px;}
 .flank-info{background:#fff;border:1px solid var(--line);border-left:4px solid var(--coral);border-radius:9px;padding:12px 13px;}
