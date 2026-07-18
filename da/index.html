@@ -141,6 +141,11 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .tagline .pulse{display:inline-block;transform-origin:center;animation:mlbeat .85s ease-in-out infinite;}
 .hactions{display:flex;flex-direction:column;align-items:center;gap:6px;}
 .hcap{font-size:10px;color:var(--mut);text-align:center;max-width:360px;}
+/* desktop: right-align the MLE Score pill to the content edge (level with the Free only chip
+   + Special Events gutter, x=content-right), and center the caption under the pill regardless
+   of language (caption is absolutely centered on the pill's own centre). Mobile is untouched —
+   it relocates hactions via JS below and keeps align-items:center. */
+@media(min-width:1001px){.hactions{align-items:flex-end;margin-right:22px;position:relative;}.hactions .hcap{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:6px;white-space:nowrap;max-width:none;width:max-content;}}
 /* mobile only: the MLE + PRIME pills are relocated (by JS) to sit just under the Gigs Square */
 .hactions-mob{display:none;}
 @media(max-width:1000px){.hactions-mob{display:block;margin:2px 0 26px;}.hactions-mob .hactions{align-items:center;}.hactions-mob .hnav{justify-content:center;flex-wrap:wrap;gap:10px;}.hactions-mob .hcap{max-width:100%;}}
