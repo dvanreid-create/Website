@@ -141,11 +141,6 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .tagline .pulse{display:inline-block;transform-origin:center;animation:mlbeat .85s ease-in-out infinite;}
 .hactions{display:flex;flex-direction:column;align-items:center;gap:6px;}
 .hcap{font-size:10px;color:var(--mut);text-align:center;max-width:360px;}
-/* desktop: right-align the MLE Score pill to the content edge (level with the Free only chip
-   + Special Events gutter, x=content-right), and center the caption under the pill regardless
-   of language (caption is absolutely centered on the pill's own centre). Mobile is untouched —
-   it relocates hactions via JS below and keeps align-items:center. */
-@media(min-width:1001px){.hactions{align-items:flex-end;margin-right:22px;position:relative;}.hactions .hcap{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:6px;white-space:nowrap;max-width:none;width:max-content;}}
 /* mobile only: the MLE + PRIME pills are relocated (by JS) to sit just under the Gigs Square */
 .hactions-mob{display:none;}
 @media(max-width:1000px){.hactions-mob{display:block;margin:2px 0 26px;}.hactions-mob .hactions{align-items:center;}.hactions-mob .hnav{justify-content:center;flex-wrap:wrap;gap:10px;}.hactions-mob .hcap{max-width:100%;}}
@@ -488,6 +483,11 @@ fetch('/tiles-live.json',{cache:'no-store'}).then(function(r){return r.ok?r.json
 
 fetch('/stats.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){if(d&&d.minutes){document.querySelectorAll('.dur').forEach(function(e){e.textContent=d.minutes;});}}).catch(function(){});
 (function(){var h=document.querySelector('.hero h1');if(!h)return;function fit(){h.style.whiteSpace='nowrap';h.style.fontSize='';var fs=parseFloat(getComputedStyle(h).fontSize),g=0;while(h.scrollWidth>h.clientWidth&&fs>17&&g<90){fs-=1;h.style.fontSize=fs+'px';g++;}if(h.scrollWidth>h.clientWidth){h.style.whiteSpace='normal';}}fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('resize',fit);})();
+/* Right-align the MLE Score pill to the content edge (level with the Free only chip + Special
+   Events gutter) and keep the caption centred under it, WITHOUT moving the language pill — a
+   transform doesn't reflow the header, so the langsel stays put. Desktop only (>1000px);
+   the caption rides along already centred. Re-runs on resize + font load. */
+(function(){var hact=document.querySelector('header .hactions');if(!hact)return;var pill=hact.querySelector('.hnav')||hact.querySelector('.btn');if(!pill)return;function align(){hact.style.transform='';if(window.innerWidth<=1000)return;var c=document.querySelector('.hchips');var t=c?c.getBoundingClientRect().right:null;if(t==null){var w=hact.closest('.wrap');if(!w)return;t=w.getBoundingClientRect().right-(parseFloat(getComputedStyle(w).paddingRight)||0);}var sh=Math.round(t-pill.getBoundingClientRect().right);if(sh>2)hact.style.transform='translateX('+sh+'px)';}align();window.addEventListener('resize',align);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(align);})();
 function sizeMltvChips(){var ch=document.querySelectorAll('#mltvChips .mltv-chip');if(!ch.length)return;var mx=0;ch.forEach(function(c){c.style.width='auto';c.style.minWidth='0';var w=Math.ceil(c.getBoundingClientRect().width);if(w>mx)mx=w;});ch.forEach(function(c){c.style.width=mx+'px';c.style.minWidth=mx+'px';});}
 sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
