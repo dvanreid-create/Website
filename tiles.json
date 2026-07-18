@@ -653,84 +653,6 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/27874607/pexels-photo-27874607.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Disney Love Songs",
-   "headBottom": true,
-   "expires": "2026-07-25",
-   "sub": {
-    "en": "Sat 25 Jul · Gran Hotel Miramar · Málaga",
-    "es": "Sáb 25 jul · Gran Hotel Miramar · Málaga",
-    "de": "Sa 25 Jul · Gran Hotel Miramar · Málaga",
-    "fr": "sam. 25 juil. · Gran Hotel Miramar · Málaga",
-    "sv": "lör 25 jul · Gran Hotel Miramar · Málaga",
-    "no": "lør 25 jul · Gran Hotel Miramar · Málaga",
-    "da": "lør 25 jul · Gran Hotel Miramar · Málaga",
-    "fi": "la 25 heinäk. · Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=266775&u=https%3A%2F%2Ffeverup.com%2Fm%2F266775&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/16218557/pexels-photo-16218557.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Open Air: Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-07-31",
-   "sub": {
-    "en": "Fri 31 Jul · Anantara Villa Padierna Palace · Marbella",
-    "es": "Vie 31 jul · Anantara Villa Padierna Palace · Marbella",
-    "de": "Fr 31 Jul · Anantara Villa Padierna Palace · Marbella",
-    "fr": "ven. 31 juil. · Anantara Villa Padierna Palace · Marbella",
-    "sv": "fre 31 jul · Anantara Villa Padierna Palace · Marbella",
-    "no": "fre 31 jul · Anantara Villa Padierna Palace · Marbella",
-    "da": "fre 31 jul · Anantara Villa Padierna Palace · Marbella",
-    "fi": "pe 31 heinäk. · Anantara Villa Padierna Palace · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=115407&u=https%3A%2F%2Ffeverup.com%2Fm%2F115407&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/2296100/pexels-photo-2296100.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -758,45 +680,6 @@
     "fi": "la 08 elok. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://i.ytimg.com/vi/kS-W3lfcVvY/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Vivaldi's Four Seasons",
-   "headBottom": true,
-   "expires": "2026-08-08",
-   "sub": {
-    "en": "Sat 08 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Sáb 08 ago · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Sa 08 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "sam. 08 août · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "lör 08 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "lør 08 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "lør 08 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "la 08 elok. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=262587&u=https%3A%2F%2Ffeverup.com%2Fm%2F262587&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",

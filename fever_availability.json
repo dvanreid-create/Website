@@ -1,0 +1,10 @@
+{
+  "_comment": "Fever ticket AVAILABILITY gate (DLR 2026-07-17: 'Disney is still showing'). build_site reads this every build and DROPS any Fever calendar event that is not buyable on its date — the twin of the phantom gate, for tickets. This is why the drop takes effect on a DEPLOY, not only on the weekly sweep. Each key is a Fever SKU (prodsku / feverup.com/m/<sku>); the value is the list of ISO dates Fever actually sells a session on. An event is DROPPED when its SKU is a key here AND its date is NOT in the list. Empty list = the plan is entirely off sale. A SKU that is NOT a key is trusted (kept) — absence never drops. Tools/agent/fever_scrape.py REWRITES this file every sweep from the live plan pages, following redirects (so 262587 is read at its real plan 405933); the seed below was verified by hand on 2026-07-17. Fever's 'no tickets are available' STRING is NOT used — it false-positives (555765 shows it yet sells 18 Jul); the authoritative signal is the presence of a session date in getPlanSessionsForPlace.",
+  "generated": "2026-07-17",
+  "buyable": {
+    "266775": [],
+    "405945": [],
+    "262587": ["2027-01-08"],
+    "115407": ["2026-07-25"]
+  }
+}
