@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Mora",
-      "yt": "uU9Jor-8w1I",
-      "where": "17 Jul · Starlite, Marbella"
-    },
-    {
       "act": "Yandel",
       "yt": "U516oP9nt2o",
       "where": "18 Jul · Starlite, Marbella"
@@ -24,6 +19,11 @@
       "act": "John Legend",
       "yt": "450p7goxZqg",
       "where": "20 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Vetusta Morla",
+      "yt": "H3ZCKXX7tVI",
+      "where": "20 Jul · La Malagueta, Málaga"
     },
     {
       "act": "Diana Krall",
@@ -52,7 +52,6 @@
     }
   ],
   "thumbs": {
-    "Mora": "uU9Jor-8w1I",
     "Candlelight Open Air: Coldplay vs Imagine Dragons": "yKNxeF4KMsY",
     "Yandel Sinfónico": "U516oP9nt2o",
     "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",

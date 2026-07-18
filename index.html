@@ -151,6 +151,9 @@
   .tsqm-ttl{display:block;text-decoration:none;}
   .tsq-mob .talsq-feat{display:block;width:auto;text-align:center;font-size:9px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:#993C1D;margin:12px 0 6px;}
   .tsq-mob .talsq{width:100%;max-width:250px;height:auto;aspect-ratio:1/1;margin:0 auto;box-shadow:none;}
+  /* SPECIAL EVENTS mobile tile (DLR 2026-07-17): the card is a 250px box WITH padding, so a
+     fixed-250px .flank-slot would overflow it — same reason .talsq above is width:100%. */
+  .tsq-mob .flank-slot{width:100%;max-width:250px;height:330px;margin:10px auto 0;box-shadow:none;}
   .talsq-feat{font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--navy);margin:11px 0 8px;text-align:center;width:250px;}
   .talsq{position:relative;width:250px;height:250px;flex:none;border-radius:16px;overflow:hidden;color:#fff;background-size:cover;background-position:center;box-shadow:0 8px 22px rgba(20,58,78,.22);}
   .talsq.invite{background:radial-gradient(85% 60% at 50% 6%,rgba(255,230,170,.85),rgba(232,102,42,.35) 38%,rgba(0,0,0,0) 70%),linear-gradient(170deg,#5a1d6e,#1a0820);}
