@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Yandel",
-      "yt": "U516oP9nt2o",
-      "where": "18 Jul · Starlite, Marbella"
-    },
-    {
-      "act": "Loquillo",
-      "yt": "-noXMTiZYik",
-      "where": "18 Jul · La Malagueta, Málaga"
-    },
-    {
       "act": "Il Volo",
       "yt": "w1f6o1HQBvg",
       "where": "19 Jul · La Malagueta, Málaga"
@@ -49,14 +39,19 @@
       "act": "Miguel Ríos",
       "yt": "UQ_3Ba4NMIw",
       "where": "25 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Ara Malikian",
+      "yt": "S9fL4XSKqHI",
+      "where": "27 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Zucchero",
+      "yt": "IA5pBAzok3w",
+      "where": "28 Jul · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "Candlelight Open Air: Coldplay vs Imagine Dragons": "yKNxeF4KMsY",
-    "Yandel Sinfónico": "U516oP9nt2o",
-    "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
-    "Candlelight: Coldplay vs. Imagine Dragons": "dvgZkm1xWPE",
-    "Gershwin in Blue": "cH2PH0auTUU",
     "John Legend": "450p7goxZqg",
     "Diana Krall": "v5FVmJKPSrY",
     "Carlos Rivera": "Uhdnk5dgMZk",
