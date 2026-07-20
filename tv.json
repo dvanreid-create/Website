@@ -6,11 +6,6 @@
       "where": "20 Jul · Starlite, Marbella"
     },
     {
-      "act": "Vetusta Morla",
-      "yt": "H3ZCKXX7tVI",
-      "where": "20 Jul · La Malagueta, Málaga"
-    },
-    {
       "act": "Diana Krall",
       "yt": "v5FVmJKPSrY",
       "where": "21 Jul · Starlite, Marbella"
@@ -46,9 +41,14 @@
       "where": "28 Jul · Starlite, Marbella"
     },
     {
-      "act": "Beret",
-      "yt": "bPfhy4Rrv8c",
+      "act": "Ozuna",
+      "yt": "BFlG5sD540k",
       "where": "29 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Mau y Ricky",
+      "yt": "DpM62ZwR15g",
+      "where": "30 Jul · Starlite, Marbella"
     }
   ],
   "thumbs": {
@@ -56,26 +56,37 @@
     "Diana Krall": "v5FVmJKPSrY",
     "Carlos Rivera": "Uhdnk5dgMZk",
     "Kool & The Gang": "sLuNC5RCjY4",
-    "Candlelight: Disney Love Songs": "eitDnP0_83k",
-    "Candlelight: Las Cuatro Estaciones de Vivaldi": "0RKmN3gOZ3E",
+    "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
+    "Candlelight: Vivaldi's Four Seasons – recurring series from 25 Jul": "g1hEszuZ4lo",
     "Miguel Ríos": "UQ_3Ba4NMIw",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Ara Malikian": "S9fL4XSKqHI",
     "Zucchero": "IA5pBAzok3w",
-    "Beret": "bPfhy4Rrv8c",
-    "Manuel Turizo + Mau y Ricky": "5_Y7erPV8O0",
-    "Candlelight Open Air: Hans Zimmer": "ai4rBRMI6-Q",
+    "Ozuna": "BFlG5sD540k",
+    "Mau y Ricky": "DpM62ZwR15g",
+    "Manuel Turizo": "VYtJAuoZxcc",
     "Rosana": "sd6-BHgqwjk",
     "Rosario": "F1lf6kJzQWM",
-    "Sergio Dalma + Sanguijuelas del Guadiana": "zlmRGWNJE3c",
+    "Sergio Dalma": "zlmRGWNJE3c",
     "Gente de Zona": "VMp55KH_3wo",
+    "Sanguijuelas del Guadiana": "u54wQHB4njU",
     "Delaossa": "BcMDxGdxX0o",
-    "Álvaro de Luna + Nil Moliner + Hermanos Martínez": "hJNG_xYHlXw",
+    "Hermanos Martínez": "_UKMCknDfDQ",
+    "Black Coffee": "vu1QsEUVLQs",
+    "Álvaro de Luna & Nil Moliner": "VebVifKv3UM",
+    "Candlelight: The Music of Hans Zimmer – recurring series from 8 Aug": "dcKGN_lTdyM",
+    "Candlelight: Coldplay vs Ed Sheeran": "yKNxeF4KMsY",
     "Soleá Morente + Yerai Cortés + Estrella Morente": "PRRlOPLeZGc",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Malú": "W4R_eHMp6U0",
-    "Niña Pastori": "vuirF5rFjjU",
-    "Pastora Soler": "W7y1pvW60ng",
-    "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk"
+    "Iván Ferreiro": "fS3msWgTQHQ",
+    "Candlelight Open Air: The Best of Einaudi": "CQ8zglIXZi8",
+    "Vanesa Martín": "ZIxgCeiLspg",
+    "Candlelight Open Air: Tribute to Ludovico Einaudi in Marbella": "1e9B31FLT-s",
+    "Candlelight: Tributo a Joan Manuel Serrat": "Cx5ENAFTLZg",
+    "Omega 30 Aniversario": "oFvmrW7G8S4",
+    "Candlelight: Tribute to Queen": "fJ9rUzIMcZQ",
+    "Taburete": "j8aQseeJMtA",
+    "Antoñito Molina": "if6FSD1Aj-A"
   }
 }

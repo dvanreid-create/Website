@@ -1,6 +1,6 @@
 {
-  "_comment": "Fever ticket AVAILABILITY gate (DLR 2026-07-17: 'Disney is still showing'). build_site reads this every build and DROPS any Fever calendar event that is not buyable on its date — the twin of the phantom gate, for tickets. This is why the drop takes effect on a DEPLOY, not only on the weekly sweep. Each key is a Fever SKU (prodsku / feverup.com/m/<sku>); the value is the list of ISO dates Fever actually sells a session on. An event is DROPPED when its SKU is a key here AND its date is NOT in the list. Empty list = the plan is entirely off sale. A SKU that is NOT a key is trusted (kept) — absence never drops. Tools/agent/fever_scrape.py REWRITES this file every sweep from the live plan pages, following redirects (so 262587 is read at its real plan 405933); the seed below was verified by hand on 2026-07-17. Fever's 'no tickets are available' STRING is NOT used — it false-positives (555765 shows it yet sells 18 Jul); the authoritative signal is the presence of a session date in getPlanSessionsForPlace.",
-  "generated": "2026-07-19",
+  "_comment": "Auto-written by fever_scrape.py each sweep; read by build_site.py's fever_unbuyable() gate. {sku:[buyable ISO dates]}, []=off sale.",
+  "generated": "2026-07-20",
   "buyable": {
     "266775": [],
     "405945": [],
@@ -11,12 +11,100 @@
       "2026-07-25"
     ],
     "555765": [
-      "2026-09-18",
-      "2026-10-10",
-      "2026-11-13"
+      "2026-09-18"
     ],
     "587458": [
       "2026-08-21"
-    ]
+    ],
+    "129317": [
+      "2026-11-21"
+    ],
+    "145066": [
+      "2026-08-22"
+    ],
+    "155745": [
+      "2026-08-08"
+    ],
+    "259530": [
+      "2026-08-15"
+    ],
+    "364215": [
+      "2026-12-18"
+    ],
+    "404641": [
+      "2027-01-17"
+    ],
+    "466621": [
+      "2026-10-04"
+    ],
+    "518175": [
+      "2026-11-20"
+    ],
+    "545643": [
+      "2026-09-13"
+    ],
+    "570333": [
+      "2026-09-12"
+    ],
+    "592280": [
+      "2026-10-04"
+    ],
+    "621145": [
+      "2026-09-05"
+    ],
+    "631867": [
+      "2026-10-16"
+    ],
+    "632234": [
+      "2027-01-09"
+    ],
+    "652051": [
+      "2026-10-03"
+    ],
+    "653967": [
+      "2027-02-26"
+    ],
+    "670578": [
+      "2027-04-30"
+    ],
+    "678230": [
+      "2026-09-20"
+    ],
+    "88307": [
+      "2026-07-25"
+    ],
+    "132355": [
+      "2026-08-14"
+    ],
+    "142331": [
+      "2026-12-26"
+    ],
+    "182969": [
+      "2026-08-22"
+    ],
+    "249844": [
+      "2026-12-20"
+    ],
+    "405933": [
+      "2027-01-08"
+    ],
+    "405940": [
+      "2027-01-08"
+    ],
+    "677231": [
+      "2026-12-26"
+    ],
+    "643593": [
+      "2026-08-07"
+    ],
+    "643700": [
+      "2026-08-08"
+    ],
+    "656279": [
+      "2026-08-15"
+    ],
+    "141088": [],
+    "141796": [],
+    "92888": []
   }
 }
