@@ -1,3 +1,20 @@
 User-agent: *
 Allow: /
+
+# Serverless endpoints - not pages. Crawling them produced a
+# 'Blocked due to other 4xx issue' in Search Console (2026-07-20).
+Disallow: /.netlify/functions/
+
+# Newsletter HTML is iframed by the /weekly/ PWA, never browsed directly.
+# Crawling it produced 404s on the {$unsubscribe} merge tag and on a
+# truncated latest- URL (2026-07-20).
+Disallow: /assets/newsletter/
+
+# JSON feeds - data, not pages. These sat in 'Crawled - currently not
+# indexed'. Tiles are decorative gutter slots with no ranking value.
+Disallow: /tiles.json
+Disallow: /tiles-live.json
+Disallow: /talent.json
+Disallow: /stats.json
+
 Sitemap: https://malagalivepulse.com/sitemap.xml
