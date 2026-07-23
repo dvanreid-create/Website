@@ -586,45 +586,6 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/Lu844oj0fTQ/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Open Air: The Best of Hans Zimmer in Marbella",
-   "headBottom": true,
-   "expires": "2026-07-25",
-   "sub": {
-    "en": "Sat 25 Jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Sáb 25 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Sa 25 Jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "sam. 25 juil. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "lör 25 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "lør 25 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "lør 25 jul · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "la 25 heinäk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=115407&u=https%3A%2F%2Ffeverup.com%2Fm%2F115407&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/2296100/pexels-photo-2296100.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
