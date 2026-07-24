@@ -19,8 +19,16 @@
    "box_name": "Nil Moliner y Alvaro de Luna",
    "box_url": "https://entradas.starlitemarbella.com/event/nil-moliner-y-alvaro-de-luna-pqwrhm",
    "box_from": 35.0,
-   "prefer": "box",
-   "why": "price unknown on one side"
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
+  },
+  "alvaro de luna and nil moliner": {
+   "eci_name": "Álvaro de Luna & Nil Moliner",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alvaro-de-luna-y-nil-moliner-starlite-occident-26-marbella/",
+   "eci_from": null,
+   "eci_date": "",
+   "prefer": "eci",
+   "why": "_eci_norm() converts & → and, so calendar 'Álvaro de Luna & Nil Moliner' normalises to this key"
   },
   "antonio jose": {
    "eci_name": "Antonio José",
