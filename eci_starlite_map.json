@@ -353,6 +353,14 @@
    "prefer": "eci",
    "why": "box office does not list this act; ECI is the only event page"
   },
+  "solea morente yerai cortes estrella morente": {
+   "eci_name": "Soleá Morente + Yerai Cortés + Estrella Morente",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-s-morente-y-cortes-y-e-morente-starlite-occiden-marbella/",
+   "eci_from": null,
+   "eci_date": "",
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link. _eci_norm strips accents + punctuation: 'Soleá Morente + Yerai Cortés + Estrella Morente' → this key"
+  },
   "sergio dalma": {
    "eci_name": "Sergio Dalma",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sergio-dalma-starlite-occident-2026-marbella-0000089NK0000089MD000008546/",
@@ -372,8 +380,8 @@
    "box_name": "Taburete",
    "box_url": "https://entradas.starlitemarbella.com/event/taburete-lcjdud",
    "box_from": 45.0,
-   "prefer": "box",
-   "why": "ECI dearer by EUR 14"
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
   },
   "vanesa martin": {
    "eci_name": "Vanesa Martin",
