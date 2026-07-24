@@ -747,9 +747,11 @@
      "venue_name": "RODRIGO CUEVAS"
     },
     "tom jones": {
-     "url": "https://moonlightmalagafestival.com/tom-jones-malaga-1-de-agosto/",
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tom-jones-moonlight-malaga-2026/",
      "date": "01/08/2026",
-     "venue_name": "TOM JONES"
+     "venue_name": "TOM JONES",
+     "prefer": "eci",
+     "why": "ECI affiliate URL replaces festival site — venue_resolve prefer=eci overrides any deep festival link already in calendar"
     }
    }
   },

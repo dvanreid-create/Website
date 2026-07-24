@@ -219,6 +219,14 @@
    "prefer": "eci",
    "why": "box office does not list this act; ECI is the only event page"
   },
+  "mau y ricky": {
+   "eci_name": "Mau & Ricky",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-mau-ricky-starlite-occident-2026-marbella/",
+   "eci_from": 30.0,
+   "eci_date": "30/07/2026",
+   "prefer": "eci",
+   "why": "Spanish-y alias — _eci_norm() converts & but not y, so calendar 'Mau y Ricky' normalises to this key rather than 'mau and ricky'"
+  },
   "miguel rios": {
    "eci_name": "Miguel Ríos",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-miguel-rios-starlite-occident-2026-marbella/",
