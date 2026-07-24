@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 35,
- "prefer_eci": 26,
+ "count": 36,
+ "prefer_eci": 27,
  "prefer_box": 9,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -240,6 +240,17 @@
    "box_from": 45.0,
    "prefer": "box",
    "why": "ECI dearer by EUR 44"
+  },
+  "nina pastori": {
+   "eci_name": "Niña Pastori",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-2026-marbella/",
+   "eci_from": 29.0,
+   "eci_date": "21/08/2026",
+   "box_name": "Niña Pastori 21/8",
+   "box_url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
+   "box_from": 29.0,
+   "prefer": "eci",
+   "why": "same price"
   },
   "nile rodgers and chic": {
    "eci_name": "Nile Rodgers & Chic",
