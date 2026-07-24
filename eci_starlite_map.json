@@ -43,14 +43,14 @@
   },
   "antonito molina": {
    "eci_name": "Antoñito Molina",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonito-molina-starlite-occident-2026-marbella/",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonito-molina-starlite-occident-18-08-2026-marbella/",
    "eci_from": 53.0,
    "eci_date": "19/08/2026",
    "box_name": "Antoñito Molina 19/8",
    "box_url": "https://entradas.starlitemarbella.com/event/antonito-molina-wz9g60",
    "box_from": 45.0,
-   "prefer": "box",
-   "why": "ECI dearer by EUR 8"
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
   },
   "ara malikian": {
    "eci_name": "Ara Malikian",
