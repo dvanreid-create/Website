@@ -742,9 +742,10 @@
    "note": "Malaga Forum concert series. Whole 2026 line-up is these TWO nights (read 16 Jul 2026). ADDED because the 13 Jul sweep SILENTLY DROPPED BOTH - including TOM JONES, a MARQUEE act - and nothing detected it: the missing-events check only judges venues flagged 'complete', and this venue was not mapped. Deep links are the venue's own per-artist pages.",
    "acts": {
     "rodrigo cuevas": {
-     "url": "https://moonlightmalagafestival.com/rodrigo-cuevas-malaga-31-de-julio/",
-     "date": "31/07/2026",
-     "venue_name": "RODRIGO CUEVAS"
+     "url": "https://moonlightmalagafestival.com/rodrigo-cuevas-malaga-6-de-febrero-de-2027/",
+     "date": "06/02/2027",
+     "venue_name": "RODRIGO CUEVAS",
+     "note": "RESCHEDULED: the 31/07/2026 page now redirects to 06/02/2027 (verified 2026-07-25). Moved out of window so it no longer ships on 31 Jul."
     },
     "tom jones": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tom-jones-moonlight-malaga-2026-malaga/",
