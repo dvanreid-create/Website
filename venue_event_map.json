@@ -588,6 +588,8 @@
     },
     "woodstock": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51656",
+     "prefer": "eci",
+     "why": "calendar shipped a stale /select/2698979 OneBox link that now redirects to the generic events index (browser-verified 2026-07-25); prefer=eci forces venue_resolve to override that dead deep link with the confirmed /events/51656 page",
      "date": "25-26/07/2026",
      "venue_name": "WOODSTOCK 1969 TRIBUTO"
     },
