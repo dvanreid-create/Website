@@ -463,45 +463,6 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/kS-W3lfcVvY/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Vivaldi's Four Seasons",
-   "headBottom": true,
-   "expires": "2026-07-25",
-   "sub": {
-    "en": "Sat 25 Jul · Hotel Miramar · Málaga",
-    "es": "Sáb 25 jul · Hotel Miramar · Málaga",
-    "de": "Sa 25 Jul · Hotel Miramar · Málaga",
-    "fr": "sam. 25 juil. · Hotel Miramar · Málaga",
-    "sv": "lör 25 jul · Hotel Miramar · Málaga",
-    "no": "lør 25 jul · Hotel Miramar · Málaga",
-    "da": "lør 25 jul · Hotel Miramar · Málaga",
-    "fi": "la 25 heinäk. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/2296100/pexels-photo-2296100.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
