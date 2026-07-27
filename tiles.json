@@ -541,7 +541,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/1e9B31FLT-s/mqdefault.jpg",
+   "photo": "https://images.pexels.com/photos/30175901/pexels-photo-30175901.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -672,14 +672,14 @@
     "fi": "Mainosta Málaga Livessä"
    },
    "body": {
-    "en": "<span class=\"info-long\">Put your brand on Málaga Live's fixed sidebar. </span><span class=\"info-cta\">See the rate card &rarr;</span>",
-    "es": "<span class=\"info-long\">Pon tu marca en la barra lateral fija de Málaga Live. </span><span class=\"info-cta\">Ver tarifas &rarr;</span>",
-    "de": "<span class=\"info-long\">Platziere deine Marke in der festen Seitenleiste von Málaga Live. </span><span class=\"info-cta\">Preisliste ansehen &rarr;</span>",
-    "fr": "<span class=\"info-long\">Placez votre marque dans la barre latérale fixe de Málaga Live. </span><span class=\"info-cta\">Voir les tarifs &rarr;</span>",
-    "sv": "<span class=\"info-long\">Sätt ditt varumärke i Málaga Lives fasta sidofält. </span><span class=\"info-cta\">Se prislistan &rarr;</span>",
-    "no": "<span class=\"info-long\">Sett varemerket ditt i Málaga Lives faste sidefelt. </span><span class=\"info-cta\">Se prisliste &rarr;</span>",
-    "da": "<span class=\"info-long\">Sæt dit brand i Málaga Lives faste sidebjælke. </span><span class=\"info-cta\">Se prisliste &rarr;</span>",
-    "fi": "<span class=\"info-long\">Tuo brändisi Málaga Liven kiinteään sivupalkkiin. </span><span class=\"info-cta\">Katso hinnasto &rarr;</span>"
+    "en": "<span class=\"info-cta\">See the rate card &rarr;</span>",
+    "es": "<span class=\"info-cta\">Ver tarifas &rarr;</span>",
+    "de": "<span class=\"info-cta\">Preisliste ansehen &rarr;</span>",
+    "fr": "<span class=\"info-cta\">Voir les tarifs &rarr;</span>",
+    "sv": "<span class=\"info-cta\">Se prislistan &rarr;</span>",
+    "no": "<span class=\"info-cta\">Se prisliste &rarr;</span>",
+    "da": "<span class=\"info-cta\">Se prisliste &rarr;</span>",
+    "fi": "<span class=\"info-cta\">Katso hinnasto &rarr;</span>"
    }
   }
  ]
