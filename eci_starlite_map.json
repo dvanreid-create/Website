@@ -49,8 +49,8 @@
    "box_name": "Antoñito Molina 19/8",
    "box_url": "https://entradas.starlitemarbella.com/event/antonito-molina-wz9g60",
    "box_from": 45.0,
-   "prefer": "box",
-   "why": "auto-enforced 2026-07-27: ECI 53 > box 45 → prefer box (box cheaper)"
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
   },
   "ara malikian": {
    "eci_name": "Ara Malikian",
@@ -259,14 +259,13 @@
   },
   "nina pastori": {
    "eci_name": "Niña Pastori",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-2026-marbella/",
    "eci_from": 29.0,
    "eci_date": "21/08/2026",
    "box_name": "Niña Pastori 21/8",
    "box_url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
    "box_from": 29.0,
-   "prefer": "eci",
-   "why": "same price"
+   "prefer": "box",
+   "why": "ECI event page 404s (verified 2026-07-25) — she is box-office only; ship the Starlite box-office deep link"
   },
   "nile rodgers and chic": {
    "eci_name": "Nile Rodgers & Chic",
@@ -380,8 +379,8 @@
    "box_name": "Taburete",
    "box_url": "https://entradas.starlitemarbella.com/event/taburete-lcjdud",
    "box_from": 45.0,
-   "prefer": "box",
-   "why": "auto-enforced 2026-07-27: ECI 59 > box 45 → prefer box (box cheaper)"
+   "prefer": "eci",
+   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
   },
   "vanesa martin": {
    "eci_name": "Vanesa Martin",
