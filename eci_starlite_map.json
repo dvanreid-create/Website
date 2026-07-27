@@ -49,8 +49,8 @@
    "box_name": "Antoñito Molina 19/8",
    "box_url": "https://entradas.starlitemarbella.com/event/antonito-molina-wz9g60",
    "box_from": 45.0,
-   "prefer": "eci",
-   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
+   "prefer": "box",
+   "why": "auto-enforced 2026-07-27: ECI 53 > box 45 → prefer box (box cheaper)"
   },
   "ara malikian": {
    "eci_name": "Ara Malikian",
@@ -380,8 +380,8 @@
    "box_name": "Taburete",
    "box_url": "https://entradas.starlitemarbella.com/event/taburete-lcjdud",
    "box_from": 45.0,
-   "prefer": "eci",
-   "why": "Sofia 2026-07-24: redirect to ECI affiliate link"
+   "prefer": "box",
+   "why": "auto-enforced 2026-07-27: ECI 59 > box 45 → prefer box (box cheaper)"
   },
   "vanesa martin": {
    "eci_name": "Vanesa Martin",
