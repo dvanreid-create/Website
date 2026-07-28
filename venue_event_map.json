@@ -897,6 +897,28 @@
    "complete": false,
    "note": "Teatro Alameda is the historic name for Teatro del Soho CaixaBank (Calle Córdoba 13, Málaga). Venue reopened as Teatro del Soho in 2019. ALIAS ENTRY: all verified programme data, phantom gate, and backfill protection are under the 'teatro del soho' key. This entry ensures sweep events written as 'Teatro Alameda' still get a link upgrade. Sells via ECI -> 1%.",
    "acts": {}
+  },
+  "anantara villa padierna": {
+   "source": "https://feverup.com/en/marbella/candlelight",
+   "complete": true,
+   "note": "Candlelight Open Air outdoor amphitheater at Anantara Villa Padierna Palace Benahavís Marbella Resort. OUTDOOR SUMMER SEASON ONLY — ends 22 Aug 2026. December+ events are INDOOR at 'Salón Linares Anantara Villa Padierna' and will need a separate entry when they enter the sweep window. complete:true = phantom gate active: any event at this venue NOT in the acts list below is a hallucination and must not ship. Ticket seller: Fever (feverup.com/m/<id>/en). Verified from Fever Marbella page 2026-07-27. ADDED to fix receipt-gate drops: the LLM sweep correctly finds these shows but has no 'Verified against' URL since fever_scrape.py only scrapes Malaga Candlelight, not Marbella. Backfill injects them with source URL as the verified_against value.",
+   "acts": {
+    "einaudi open air": {
+     "url": "https://feverup.com/m/132355/en",
+     "date": "14/08/2026",
+     "venue_name": "Candlelight Open Air: Tribute to Ludovico Einaudi"
+    },
+    "coldplay vs imagine dragons": {
+     "url": "https://feverup.com/m/587458/en",
+     "date": "21/08/2026",
+     "venue_name": "Candlelight: Coldplay vs. Imagine Dragons"
+    },
+    "queen vs abba": {
+     "url": "https://feverup.com/m/182969/en",
+     "date": "22/08/2026",
+     "venue_name": "Candlelight: Queen vs. ABBA"
+    }
+   }
   }
  }
 }
