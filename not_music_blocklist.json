@@ -1,0 +1,14 @@
+{
+ "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test, so keep entries specific enough not to catch a real act. Set 'venue' to scope an entry to one venue when the phrase is generic ('la granja' could be a band); omit it to block everywhere. This gate runs BEFORE the phantom / Fever / receipt gates and its drops appear in the build log like theirs. Deploy with deploy-genre-fix.bat (it pushes build_site.py; this file needs pushing too — see that .bat).",
+ "generated": "2026-07-28",
+ "blocked": [
+  {
+   "match": "hipnosis de comedia",
+   "why": "Comedy hypnosis show, not live music. Sofia 2026-07-28. Auditorio Municipal de Benalmádena publishes its full programme; the sweep took it."
+  },
+  {
+   "match": "rea danza",
+   "why": "Dance performance, not live music. Sofia 2026-07-28. Same venue programme as above."
+  }
+ ]
+}
