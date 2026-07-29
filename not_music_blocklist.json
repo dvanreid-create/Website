@@ -1,6 +1,6 @@
 {
- "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test, so keep entries specific enough not to catch a real act. Set 'venue' to scope an entry to one venue when the phrase is generic ('la granja' could be a band); omit it to block everywhere. This gate runs BEFORE the phantom / Fever / receipt gates and its drops appear in the build log like theirs. Deploy with deploy-genre-fix.bat (it pushes build_site.py; this file needs pushing too — see that .bat).",
- "generated": "2026-07-28",
+ "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park (marenostrumfuengirola.com) list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build, as a gate running BEFORE the phantom / Fever-unbuyable / receipt gates. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test. IMPORTANT: set 'venue' whenever the phrase could belong to a real act somewhere else — a personal name ('David Navarro', 'José Tejada') or a common phrase ('La Granja') must be scoped to the venue, or a genuine gig elsewhere would be silently dropped. Omit 'venue' only for names distinctive enough to be safe anywhere. NOT blocked, deliberately: CABARET 2.0 at the same Benalmádena venue IS live music (Sofia 2026-07-29). This gate's drops appear in the build log's [gate] block. Deploy with deploy-genre-fix.bat (pushes build_site.py AND this file).",
+ "generated": "2026-07-29",
  "blocked": [
   {
    "match": "hipnosis de comedia",
@@ -9,6 +9,29 @@
   {
    "match": "rea danza",
    "why": "Dance performance, not live music. Sofia 2026-07-28. Same venue programme as above."
+  },
+  {
+   "match": "mago orbit",
+   "why": "Magic show ('MAGO ORBIT PRESENTA ACERO 2.0 – SOHAIL MÁGICO', 16 Aug 2026, Marenostrum Castle Park, Fuengirola). Not live music. Sofia 2026-07-29. Unscoped: 'mago orbit' is a distinctive stage name, safe to block anywhere."
+  },
+  {
+   "match": "cantajuego",
+   "why": "Children's show ('CANTAJUEGO – EL PAYASO TALLARIN', 23 Aug 2026, Marenostrum Castle Park, Fuengirola). It does contain music, but it is a kids' entertainment brand rather than a live-music gig — Sofia ruled it out 2026-07-29. Unscoped: 'cantajuego' is a registered brand name, safe anywhere."
+  },
+  {
+   "match": "la granja",
+   "venue": "benalmadena",
+   "why": "Not live music (23 Aug 2026, Auditorio Municipal de Benalmádena). Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: 'la granja' is a common Spanish phrase and could plausibly be a band name elsewhere — unscoped this would risk dropping a real gig."
+  },
+  {
+   "match": "david navarro",
+   "venue": "benalmadena",
+   "why": "Not live music (6 Aug 2026, Auditorio Municipal de Benalmádena) — a Spanish comedian of this name tours the venue circuit. Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: it is a personal name and a musician could share it; unscoped this would risk dropping a real gig."
+  },
+  {
+   "match": "jose tejada",
+   "venue": "benalmadena",
+   "why": "Not live music (16 Aug 2026, Auditorio Municipal de Benalmádena). Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: personal name, same reasoning as David Navarro. Note the matcher strips accents, so this also matches 'José Tejada'."
   }
  ]
 }

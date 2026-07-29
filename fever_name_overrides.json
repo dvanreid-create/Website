@@ -1,10 +1,14 @@
 {
  "_comment": "PINNED display names for Fever events, keyed by Fever SKU. fever_scrape.py takes Fever's own name for an event (JSON-LD name, listing-card name, or the plan page H1) and that is USUALLY what we want — it is the name the buyer sees at checkout. But Fever names festivals plainly ('12:XII Festival in Marbella') while Málaga Live's house style puts the headliner in the name, as the LLM sweep does for 'Dreambeach Día 2: David Guetta (Monolith Show), Loco Dice, Paco Osuna, Nicole Moudaber' and 'Vibras Festival (Nicky Jam + María Becerra + Kapo)'. Without a pin, every sweep would revert an editorial rename back to Fever's name. Entries here win over ANY scraped name and are re-applied to the calendar on every run, so the rename survives. RULES: (1) the override must stay FACTUALLY TRUE to the seller's own page — DJ Snake is billed as the 12:XII headliner on feverup.com/m/690555; do not invent a lineup; (2) keep the event recognisable — a reader who clicks through to Fever must see the same show; (3) revisit when a lineup is completed, Fever says 'other international artists to be announced soon' for 690555, so this name should be updated when they are. Read by Tools/agent/fever_scrape.py. Deploy with deploy-fever-fix.bat.",
- "generated": "2026-07-28",
+ "generated": "2026-07-29",
  "overrides": {
   "690555": {
    "act": "12:XII Festival (DJ Snake)",
    "why": "Fever names it '12:XII Festival in Marbella'; house style bills the headliner. DJ Snake is named as the headliner on Fever's own plan page (21 Aug 2026, Recinto Ferial de San Pedro Alcántara, Marbella). Sofia 2026-07-28. UPDATE when the rest of the lineup is announced — Fever's page says 'other international artists to be announced soon'."
+  },
+  "259530": {
+   "act": "Candlelight: Queen vs. The Beatles",
+   "why": "Fever's own plan page (feverup.com/m/259530, Sat 15 Aug 2026 21:00, Salón Real del Gran Hotel Miramar, Málaga) sells this as 'Candlelight: Queen vs. The Beatles'. The calendar/sweep had carried it as 'Candlelight: Tribute to Queen', so every site build regenerated the gutter tile with the wrong name and reverted the manual fix. Pinned 2026-07-29 (browser-confirmed live) so the calendar — and therefore tiles.json — carries the seller's real name and stops reverting. Do NOT confuse with SKU 182969 'Candlelight: Queen vs. ABBA' (Sat 22 Aug, Anantara, Marbella)."
   }
  }
 }

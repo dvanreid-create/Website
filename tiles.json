@@ -121,43 +121,6 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/pZVsb-abK8I/hqdefault.jpg",
-   "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-07-29",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "Ozuna",
-   "sub": {
-    "en": "Wed 29 Jul · Auditorio Starlite",
-    "es": "Mié 29 jul · Auditorio Starlite",
-    "de": "Mi 29 Jul · Auditorio Starlite",
-    "fr": "mer. 29 juil. · Auditorio Starlite",
-    "sv": "ons 29 jul · Auditorio Starlite",
-    "no": "ons 29 jul · Auditorio Starlite",
-    "da": "ons 29 jul · Auditorio Starlite",
-    "fi": "ke 29 heinäk. · Auditorio Starlite"
-   },
-   "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-ozuna-starlite-occident-29-07-2026-marbella-0000089RJ0000089Q9000008546%2F",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://images.pexels.com/photos/15203359/pexels-photo-15203359.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(31,158,99,.42)",
    "url": "#free",
@@ -593,7 +556,7 @@
     "da": "Candlelight-koncert",
     "fi": "Candlelight-konsertti"
    },
-   "head": "Tribute to Queen",
+   "head": "Queen vs. The Beatles",
    "headBottom": true,
    "expires": "2026-08-15",
    "sub": {
