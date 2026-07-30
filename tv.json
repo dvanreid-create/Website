@@ -1,70 +1,75 @@
 {
- "clips": [
-  {
-   "act": "Zucchero",
-   "yt": "OpriuOCzpbU",
-   "where": "28 Jul · Starlite, Marbella"
-  },
-  {
-   "act": "Ozuna",
-   "yt": "Y96p6qM0_Ag",
-   "where": "29 Jul · Starlite, Marbella"
-  },
-  {
-   "act": "Manuel Turizo",
-   "yt": "A7m8lQOMz1A",
-   "where": "30 Jul · Starlite, Marbella"
-  },
-  {
-   "act": "Pablo López",
-   "yt": "7aQaYt-1e2A",
-   "where": "30 Jul · Castillo Sohail, Fuengirola"
-  },
-  {
-   "act": "Tom Jones",
-   "yt": "WZ32gSLNHfA",
-   "where": "1 Aug · Málaga Forum, Málaga"
-  },
-  {
-   "act": "David Guetta",
-   "yt": "JRfuAukYTKg",
-   "where": "1 Aug · Dreambeach, Vélez-Málaga"
-  },
-  {
-   "act": "Gipsy Kings",
-   "yt": "7qbEt_lSib4",
-   "where": "9 Aug · Castillo Sohail, Fuengirola"
-  },
-  {
-   "act": "Niña Pastori",
-   "yt": "nSkUCCSv1YQ",
-   "where": "21 Aug · Starlite, Marbella"
+  "clips": [
+    {
+      "act": "Zucchero",
+      "yt": "OpriuOCzpbU",
+      "where": "28 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Ozuna",
+      "yt": "Y96p6qM0_Ag",
+      "where": "29 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Manuel Turizo",
+      "yt": "A7m8lQOMz1A",
+      "where": "30 Jul · Starlite, Marbella"
+    },
+    {
+      "act": "Pablo López",
+      "yt": "7aQaYt-1e2A",
+      "where": "30 Jul · Castillo Sohail, Fuengirola"
+    },
+    {
+      "act": "Tom Jones",
+      "yt": "WZ32gSLNHfA",
+      "where": "1 Aug · Málaga Forum, Málaga"
+    },
+    {
+      "act": "David Guetta",
+      "yt": "JRfuAukYTKg",
+      "where": "1 Aug · Dreambeach, Vélez-Málaga"
+    },
+    {
+      "act": "Gipsy Kings",
+      "yt": "7qbEt_lSib4",
+      "where": "9 Aug · Castillo Sohail, Fuengirola"
+    },
+    {
+      "act": "Niña Pastori",
+      "yt": "nSkUCCSv1YQ",
+      "where": "21 Aug · Starlite, Marbella"
+    }
+  ],
+  "thumbs": {
+    "Defected ft. DJ EZ · Eliza Rose · Melé": "KtGFByAJRQQ",
+    "Niña Pastori": "nSkUCCSv1YQ",
+    "Lenny Kravitz": "8LhCd1W2V0Q",
+    "Danny Ocean": "LbKcHy9cav0",
+    "Grupo Frontera": "VtKcDwz6hiM",
+    "Maroon 5": "09R8_2nJtjg",
+    "Faithless": "P8JEm4d6Wu4",
+    "Deep Purple": "Q2FzZSBD5LE",
+    "Rick Astley": "dQw4w9WgXcQ",
+    "Elvis Crespo": "WPiEbYSF9kE",
+    "Jean-Michel Jarre": "71DOHvfFDBY",
+    "Juan Luis Guerra 4.40": "K3S96fUGrEY",
+    "Yandel Sinfónico": "qvvNtQnNjhQ",
+    "John Legend": "450p7goxZqg",
+    "Diana Krall": "Yr8xDSPjII8",
+    "Carlos Rivera": "nkkRRgslwjE",
+    "Kool & The Gang": "sLuNC5RCjY4",
+    "Zucchero": "OpriuOCzpbU",
+    "Ozuna": "Y96p6qM0_Ag",
+    "Manuel Turizo": "A7m8lQOMz1A",
+    "Pablo López": "7aQaYt-1e2A",
+    "Tom Jones": "WZ32gSLNHfA",
+    "David Guetta": "JRfuAukYTKg",
+    "Gipsy Kings": "7qbEt_lSib4",
+    "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
+    "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
+    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
+    "Miguel Ríos": "Rm-yZGvcf2U",
+    "Miguel Rios": "Rm-yZGvcf2U"
   }
- ],
- "thumbs": {
-  "Defected ft. DJ EZ · Eliza Rose · Melé": "KtGFByAJRQQ",
-  "Niña Pastori": "nSkUCCSv1YQ",
-  "Lenny Kravitz": "8LhCd1W2V0Q",
-  "Danny Ocean": "LbKcHy9cav0",
-  "Grupo Frontera": "VtKcDwz6hiM",
-  "Maroon 5": "09R8_2nJtjg",
-  "Faithless": "P8JEm4d6Wu4",
-  "Deep Purple": "Q2FzZSBD5LE",
-  "Rick Astley": "dQw4w9WgXcQ",
-  "Elvis Crespo": "WPiEbYSF9kE",
-  "Jean-Michel Jarre": "71DOHvfFDBY",
-  "Juan Luis Guerra 4.40": "K3S96fUGrEY",
-  "Yandel Sinfónico": "qvvNtQnNjhQ",
-  "John Legend": "450p7goxZqg",
-  "Diana Krall": "Yr8xDSPjII8",
-  "Carlos Rivera": "nkkRRgslwjE",
-  "Kool & The Gang": "sLuNC5RCjY4",
-  "Zucchero": "OpriuOCzpbU",
-  "Ozuna": "Y96p6qM0_Ag",
-  "Manuel Turizo": "A7m8lQOMz1A",
-  "Pablo López": "7aQaYt-1e2A",
-  "Tom Jones": "WZ32gSLNHfA",
-  "David Guetta": "JRfuAukYTKg",
-  "Gipsy Kings": "7qbEt_lSib4"
- }
 }
