@@ -1,0 +1,748 @@
+{
+ "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-07-31 FULL browser pass (Claude in Chrome): opened EVERY ticketed row on the 2026-07-20 calendar one-by-one. All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Excluded (did NOT reach a valid buying page for the calendar date): Rodrigo Cuevas (rescheduled 6 Feb 2027), and 3 past-dated dead links (Alfredo Rodríguez Trío entradastbq error, Woodstock 1969 & Queen Sinfónico onebox ids gone).",
+ "generated": "2026-07-31",
+ "events": {
+  "cabaret 2 0|2026-07-20": {
+   "act": "CABARET 2.0",
+   "date": "2026-07-20",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+   "expect": [
+    "cabaret"
+   ]
+  },
+  "john legend|2026-07-20": {
+   "act": "John Legend",
+   "date": "2026-07-20",
+   "url": "https://entradas.starlitemarbella.com/event/john-legend-cw2jeo",
+   "expect": [
+    "john",
+    "legend"
+   ]
+  },
+  "diana krall|2026-07-21": {
+   "act": "Diana Krall",
+   "date": "2026-07-21",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-diana-krall-starlite-occident-2026-marbella/",
+   "expect": [
+    "diana",
+    "krall"
+   ]
+  },
+  "carlos rivera|2026-07-22": {
+   "act": "Carlos Rivera",
+   "date": "2026-07-22",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-carlos-rivera-starlite-occident-2026-marbella/",
+   "expect": [
+    "carlos",
+    "rivera"
+   ]
+  },
+  "brisa festival dia 1 love of lesbian barry b david otero hot chip dj set|2026-07-23": {
+   "act": "Brisa Festival Día 1: Love of Lesbian, Barry B, David Otero, Hot Chip (DJ set)",
+   "date": "2026-07-23",
+   "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+   "expect": [
+    "brisa",
+    "festival",
+    "love"
+   ]
+  },
+  "kool the gang|2026-07-23": {
+   "act": "Kool & The Gang",
+   "date": "2026-07-23",
+   "url": "https://entradas.starlitemarbella.com/event/kool-the-gang-egmot4",
+   "expect": [
+    "kool",
+    "gang"
+   ]
+  },
+  "alejandro sanz|2026-07-24": {
+   "act": "Alejandro Sanz",
+   "date": "2026-07-24",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-sanz-y-ahora-que-fuengirola/",
+   "expect": [
+    "alejandro",
+    "sanz"
+   ]
+  },
+  "brisa festival dia 2 amaia siloe leon benavente solea morente|2026-07-24": {
+   "act": "Brisa Festival Día 2: Amaia, Siloé, León Benavente, Soleá Morente",
+   "date": "2026-07-24",
+   "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+   "expect": [
+    "brisa",
+    "festival",
+    "amaia"
+   ]
+  },
+  "cabaret 2 0|2026-07-24": {
+   "act": "CABARET 2.0",
+   "date": "2026-07-24",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+   "expect": [
+    "cabaret"
+   ]
+  },
+  "brisa festival dia 3 m clan la m o d a obk pignoise angel stanich|2026-07-25": {
+   "act": "Brisa Festival Día 3: M-Clan, La M.O.D.A., OBK, Pignoise, Ángel Stanich",
+   "date": "2026-07-25",
+   "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+   "expect": [
+    "brisa",
+    "festival",
+    "clan"
+   ]
+  },
+  "el arrebato el viaje inesperado 101 music festival|2026-07-25": {
+   "act": "El Arrebato – El Viaje Inesperado (101 Music Festival)",
+   "date": "2026-07-25",
+   "url": "https://www.malagaentradas.com/?entradas=el-arrebato&provincia=m%C3%A1laga&cpro=29&eid=3551",
+   "expect": [
+    "arrebato",
+    "viaje",
+    "inesperado"
+   ]
+  },
+  "los delinquentes|2026-07-25": {
+   "act": "Los Delinqüentes",
+   "date": "2026-07-25",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-los-delinquentes-fuengirola-DELINMF26DELINMF26MARE/",
+   "expect": [
+    "delinquentes"
+   ]
+  },
+  "miguel rios|2026-07-25": {
+   "act": "Miguel Ríos",
+   "date": "2026-07-25",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-miguel-rios-starlite-occident-2026-marbella/",
+   "expect": [
+    "miguel",
+    "rios"
+   ]
+  },
+  "beele nanpa basico lewis potter|2026-07-26": {
+   "act": "Beéle + Nanpa Básico + Lewis Potter",
+   "date": "2026-07-26",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-beele-malaga-fuengirola-SUAVEFESTSUAVEFESTMARE/",
+   "expect": [
+    "beele",
+    "nanpa",
+    "basico"
+   ]
+  },
+  "ara malikian|2026-07-27": {
+   "act": "Ara Malikian",
+   "date": "2026-07-27",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-ara-malikian-starlite-occident-2026-marbella/",
+   "expect": [
+    "malikian"
+   ]
+  },
+  "cabaret 2 0|2026-07-27": {
+   "act": "CABARET 2.0",
+   "date": "2026-07-27",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+   "expect": [
+    "cabaret"
+   ]
+  },
+  "zucchero|2026-07-28": {
+   "act": "Zucchero",
+   "date": "2026-07-28",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-zucchero-starlite-occident-2026-marbella/",
+   "expect": [
+    "zucchero"
+   ]
+  },
+  "ozuna|2026-07-29": {
+   "act": "Ozuna",
+   "date": "2026-07-29",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-ozuna-starlite-occident-29-07-2026-marbella-0000089RJ0000089Q9000008546/",
+   "expect": [
+    "ozuna"
+   ]
+  },
+  "manuel turizo|2026-07-30": {
+   "act": "Manuel Turizo",
+   "date": "2026-07-30",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-manuel-turizo-starlite-occident-2026-marbella/",
+   "expect": [
+    "manuel",
+    "turizo"
+   ]
+  },
+  "mau y ricky|2026-07-30": {
+   "act": "Mau y Ricky",
+   "date": "2026-07-30",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-mau-ricky-starlite-occident-2026-marbella/",
+   "expect": [
+    "ricky"
+   ]
+  },
+  "pablo lopez|2026-07-30": {
+   "act": "Pablo López",
+   "date": "2026-07-30",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pablo-lopez-fuengirola-PLOPEZMF26PLOPEZMF26MARE/",
+   "expect": [
+    "pablo",
+    "lopez"
+   ]
+  },
+  "dreambeach dia 1 eric prydz sasha john digweed nico moreno|2026-07-31": {
+   "act": "Dreambeach Día 1: Eric Prydz, Sasha & John Digweed, Nico Moreno",
+   "date": "2026-07-31",
+   "url": "https://www.dreambeach.es/entradasdedia/",
+   "expect": [
+    "dreambeach",
+    "eric",
+    "prydz"
+   ]
+  },
+  "monica naranjo greatest hits concert 101 music festival|2026-07-31": {
+   "act": "Mónica Naranjo – Greatest Hits Concert (101 Music Festival)",
+   "date": "2026-07-31",
+   "url": "https://www.malagaentradas.com/?entradas=monica-naranjo-greatest-hits-concert-espana&provincia=m%C3%A1laga&cpro=29&eid=3596",
+   "expect": [
+    "monica",
+    "naranjo",
+    "greatest"
+   ]
+  },
+  "operacion triunfo|2026-07-31": {
+   "act": "Operación Triunfo",
+   "date": "2026-07-31",
+   "url": "https://marenostrumfuengirola.com/eventos/operacion-triunfo/",
+   "expect": [
+    "operacion",
+    "triunfo"
+   ]
+  },
+  "rosana|2026-07-31": {
+   "act": "Rosana",
+   "date": "2026-07-31",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-rosana-starlite-occident-2026-marbella/",
+   "expect": [
+    "rosana"
+   ]
+  },
+  "don giovanni opera|2026-08-01": {
+   "act": "Don Giovanni (Ópera)",
+   "date": "2026-08-01",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/select/2688286?viewCode=Vista_Principal",
+   "expect": [
+    "giovanni",
+    "opera"
+   ]
+  },
+  "dreambeach dia 2 david guetta monolith show loco dice paco osuna nicole moudaber|2026-08-01": {
+   "act": "Dreambeach Día 2: David Guetta (Monolith Show), Loco Dice, Paco Osuna, Nicole Moudaber",
+   "date": "2026-08-01",
+   "url": "https://www.dreambeach.es/entradasdedia/",
+   "expect": [
+    "dreambeach",
+    "david",
+    "guetta"
+   ]
+  },
+  "hombres g los mejores anos de nuestra vida|2026-08-01": {
+   "act": "Hombres G – Los Mejores Años de Nuestra Vida",
+   "date": "2026-08-01",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hombres-g-los-mejores-anos-de-nuestra-vida-fuengirola/",
+   "expect": [
+    "hombres",
+    "mejores",
+    "anos"
+   ]
+  },
+  "rosario|2026-08-01": {
+   "act": "Rosario",
+   "date": "2026-08-01",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-rosario-starlite-occident-2026-marbella/",
+   "expect": [
+    "rosario"
+   ]
+  },
+  "tom jones|2026-08-01": {
+   "act": "Tom Jones",
+   "date": "2026-08-01",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tom-jones-moonlight-malaga-2026-malaga/",
+   "expect": [
+    "jones"
+   ]
+  },
+  "hipnosis de comedia|2026-08-02": {
+   "act": "HIPNOSIS DE COMEDIA",
+   "date": "2026-08-02",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51644",
+   "expect": [
+    "hipnosis",
+    "comedia"
+   ]
+  },
+  "vibras festival nicky jam maria becerra kapo|2026-08-02": {
+   "act": "Vibras Festival (Nicky Jam + María Becerra + Kapo)",
+   "date": "2026-08-02",
+   "url": "https://marenostrumfuengirola.janto.es/espectaculo/vibras/VIBRASMF26",
+   "expect": [
+    "vibras",
+    "festival",
+    "nicky"
+   ]
+  },
+  "rea danza|2026-08-03": {
+   "act": "REA DANZA",
+   "date": "2026-08-03",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/56664",
+   "expect": [
+    "danza"
+   ]
+  },
+  "sergio dalma|2026-08-04": {
+   "act": "Sergio Dalma",
+   "date": "2026-08-04",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sergio-dalma-starlite-occident-2026-marbella-0000089NK0000089MD000008546/",
+   "expect": [
+    "sergio",
+    "dalma"
+   ]
+  },
+  "gente de zona|2026-08-05": {
+   "act": "Gente de Zona",
+   "date": "2026-08-05",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gente-de-zona-starlite-occident-2026-marbella/",
+   "expect": [
+    "gente",
+    "zona"
+   ]
+  },
+  "bocata fest musica en directo gastronomia dia 1|2026-08-06": {
+   "act": "Bocata Fest – música en directo + gastronomía Día 1",
+   "date": "2026-08-06",
+   "url": "https://marenostrumfuengirola.janto.es/espectaculo/bocata-fest/BOCATAFEST26",
+   "expect": [
+    "bocata",
+    "fest",
+    "musica"
+   ]
+  },
+  "david navarro|2026-08-06": {
+   "act": "David Navarro",
+   "date": "2026-08-06",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/57259",
+   "expect": [
+    "david",
+    "navarro"
+   ]
+  },
+  "delaossa|2026-08-06": {
+   "act": "Delaossa",
+   "date": "2026-08-06",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-delaossa-starlite-occident-2026-marbella/",
+   "expect": [
+    "delaossa"
+   ]
+  },
+  "sanguijuelas del guadiana|2026-08-06": {
+   "act": "Sanguijuelas del Guadiana",
+   "date": "2026-08-06",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sanguijuelas-del-guadiana-starlite-occident-2026-marbella-2026-08-04/",
+   "expect": [
+    "sanguijuelas",
+    "guadiana"
+   ]
+  },
+  "black coffee|2026-08-07": {
+   "act": "Black Coffee",
+   "date": "2026-08-07",
+   "url": "https://feverup.com/m/643593",
+   "expect": [
+    "black",
+    "coffee"
+   ]
+  },
+  "bocata fest musica en directo gastronomia dia 2|2026-08-07": {
+   "act": "Bocata Fest – música en directo + gastronomía Día 2",
+   "date": "2026-08-07",
+   "url": "https://marenostrumfuengirola.janto.es/espectaculo/bocata-fest/BOCATAFEST26",
+   "expect": [
+    "bocata",
+    "fest",
+    "musica"
+   ]
+  },
+  "hermanos martinez|2026-08-07": {
+   "act": "Hermanos Martínez",
+   "date": "2026-08-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hermanos-martinez-starlite-occident-2026-marbella/",
+   "expect": [
+    "hermanos",
+    "martinez"
+   ]
+  },
+  "tributo michael jackson|2026-08-07": {
+   "act": "Tributo Michael Jackson",
+   "date": "2026-08-07",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/56651",
+   "expect": [
+    "tributo",
+    "michael",
+    "jackson"
+   ]
+  },
+  "alvaro de luna nil moliner|2026-08-07": {
+   "act": "Álvaro de Luna & Nil Moliner",
+   "date": "2026-08-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alvaro-de-luna-y-nil-moliner-starlite-occident-26-marbella/",
+   "expect": [
+    "alvaro",
+    "luna",
+    "moliner"
+   ]
+  },
+  "candlelight coldplay vs ed sheeran|2026-08-08": {
+   "act": "Candlelight: Coldplay vs. Ed Sheeran",
+   "date": "2026-08-08",
+   "url": "https://feverup.com/m/643700",
+   "expect": [
+    "candlelight",
+    "coldplay",
+    "sheeran"
+   ]
+  },
+  "candlelight tribute to hans zimmer|2026-08-08": {
+   "act": "Candlelight: Tribute to Hans Zimmer",
+   "date": "2026-08-08",
+   "url": "https://feverup.com/m/155745",
+   "expect": [
+    "candlelight",
+    "tribute",
+    "hans"
+   ]
+  },
+  "k pop fever|2026-08-08": {
+   "act": "K-POP FEVER",
+   "date": "2026-08-08",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/50949",
+   "expect": [
+    "fever"
+   ]
+  },
+  "solea morente yerai cortes estrella morente|2026-08-08": {
+   "act": "Soleá Morente + Yerai Cortés + Estrella Morente",
+   "date": "2026-08-08",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-s-morente-y-cortes-y-e-morente-starlite-occiden-marbella/",
+   "expect": [
+    "solea",
+    "morente",
+    "yerai"
+   ]
+  },
+  "underworld live sven vath bonobo satisfaxion 303|2026-08-08": {
+   "act": "Underworld (live) + Sven Väth + Bonobo – SatisFaxion 303",
+   "date": "2026-08-08",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-underworld-fuengirola-UNDERWORLD2026UNDERWORLD2026MARE/",
+   "expect": [
+    "underworld",
+    "live",
+    "sven"
+   ]
+  },
+  "aretha franklin tributo sinfonico|2026-08-09": {
+   "act": "Aretha Franklin Tributo Sinfónico",
+   "date": "2026-08-09",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51211",
+   "expect": [
+    "aretha",
+    "franklin",
+    "tributo"
+   ]
+  },
+  "gipsy kings|2026-08-09": {
+   "act": "Gipsy Kings",
+   "date": "2026-08-09",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gipsy-kings-en-concierto-fuengirola-GIPSYKINGS26GIPSYKINGS26MARE/",
+   "expect": [
+    "gipsy",
+    "kings"
+   ]
+  },
+  "malu|2026-08-10": {
+   "act": "Malú",
+   "date": "2026-08-10",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-malu-starlite-occident-2026-marbella/",
+   "expect": [
+    "malu"
+   ]
+  },
+  "noche movida|2026-08-11": {
+   "act": "Noche Movida",
+   "date": "2026-08-11",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-noche-movida-starlite-occident-2026-marbella/",
+   "expect": [
+    "noche",
+    "movida"
+   ]
+  },
+  "alejandro astola|2026-08-13": {
+   "act": "Alejandro Astola",
+   "date": "2026-08-13",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-astola-mi-guitarra-y-yo-gira-2026-fuengirola-ALEASTOLAMF26ALEASTOLAMF26MARE/",
+   "expect": [
+    "alejandro",
+    "astola"
+   ]
+  },
+  "ivan ferreiro|2026-08-13": {
+   "act": "Iván Ferreiro",
+   "date": "2026-08-13",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-ivan-ferreiro-starlite-occident-2026-marbella/",
+   "expect": [
+    "ivan",
+    "ferreiro"
+   ]
+  },
+  "born this way|2026-08-14": {
+   "act": "BORN THIS WAY",
+   "date": "2026-08-14",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/50952",
+   "expect": [
+    "born",
+    "this"
+   ]
+  },
+  "candlelight open air tribute to ludovico einaudi in marbella|2026-08-14": {
+   "act": "Candlelight Open Air: Tribute to Ludovico Einaudi in Marbella",
+   "date": "2026-08-14",
+   "url": "https://feverup.com/m/132355",
+   "expect": [
+    "candlelight",
+    "open",
+    "tribute"
+   ]
+  },
+  "lola indigo|2026-08-14": {
+   "act": "Lola Índigo",
+   "date": "2026-08-14",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-lola-indigo-fuengirola-LOLAINDIGOMF26LOLAINDIGOMF26MARE/",
+   "expect": [
+    "lola",
+    "indigo"
+   ]
+  },
+  "vanesa martin|2026-08-14": {
+   "act": "Vanesa Martín",
+   "date": "2026-08-14",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vanesa-martin-starlite-occident-2026-marbella/",
+   "expect": [
+    "vanesa",
+    "martin"
+   ]
+  },
+  "antonio orozco|2026-08-15": {
+   "act": "Antonio Orozco",
+   "date": "2026-08-15",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonio-orozco-fuengirola-AOROZCOMF26AOROZCOMF26MARE/",
+   "expect": [
+    "antonio",
+    "orozco"
+   ]
+  },
+  "candlelight queen vs the beatles|2026-08-15": {
+   "act": "Candlelight: Queen vs. The Beatles",
+   "date": "2026-08-15",
+   "url": "https://feverup.com/m/259530",
+   "expect": [
+    "candlelight",
+    "queen",
+    "beatles"
+   ]
+  },
+  "candlelight tribute to joan manuel serrat|2026-08-15": {
+   "act": "Candlelight: Tribute to Joan Manuel Serrat",
+   "date": "2026-08-15",
+   "url": "https://feverup.com/m/656279",
+   "expect": [
+    "candlelight",
+    "tribute",
+    "joan"
+   ]
+  },
+  "omega 30 aniversario|2026-08-15": {
+   "act": "Omega 30 Aniversario",
+   "date": "2026-08-15",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-omega-30-starlite-occident-2026-marbella/",
+   "expect": [
+    "omega",
+    "aniversario"
+   ]
+  },
+  "jose tejada|2026-08-16": {
+   "act": "JOSE TEJADA",
+   "date": "2026-08-16",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51206",
+   "expect": [
+    "jose",
+    "tejada"
+   ]
+  },
+  "mago orbit presenta acero 2 0 sohail magico|2026-08-16": {
+   "act": "MAGO ORBIT PRESENTA ACERO 2.0 – SOHAIL MÁGICO",
+   "date": "2026-08-16",
+   "url": "https://marenostrumfuengirola.com/eventos/mago-orbit-presenta-acero-2-0-sohail-magico/",
+   "expect": [
+    "mago",
+    "orbit",
+    "presenta"
+   ]
+  },
+  "taburete|2026-08-17": {
+   "act": "Taburete",
+   "date": "2026-08-17",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-taburete-starlite-occident-2026-marbella/",
+   "expect": [
+    "taburete"
+   ]
+  },
+  "antonito molina|2026-08-18": {
+   "act": "Antoñito Molina",
+   "date": "2026-08-18",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonito-molina-starlite-occident-18-08-2026-marbella/",
+   "expect": [
+    "antonito",
+    "molina"
+   ]
+  },
+  "luna sur tardeo|2026-08-18": {
+   "act": "Luna Sur Tardeo",
+   "date": "2026-08-18",
+   "url": "https://marenostrumfuengirola.com/eventos/luna-sur-tardeo/",
+   "expect": [
+    "luna",
+    "tardeo"
+   ]
+  },
+  "12 xii festival dj snake|2026-08-21": {
+   "act": "12:XII Festival (DJ Snake)",
+   "date": "2026-08-21",
+   "url": "https://feverup.com/m/690555",
+   "expect": [
+    "festival",
+    "snake"
+   ]
+  },
+  "candlelight coldplay vs imagine dragons|2026-08-21": {
+   "act": "Candlelight: Coldplay vs. Imagine Dragons",
+   "date": "2026-08-21",
+   "url": "https://feverup.com/m/587458",
+   "expect": [
+    "candlelight",
+    "coldplay",
+    "imagine"
+   ]
+  },
+  "galvan real gira 10o aniversario|2026-08-21": {
+   "act": "GALVAN REAL – GIRA 10º ANIVERSARIO",
+   "date": "2026-08-21",
+   "url": "https://marenostrumfuengirola.com/eventos/galvan-real-gira-10o-aniversario/",
+   "expect": [
+    "galvan",
+    "real",
+    "gira"
+   ]
+  },
+  "nina pastori|2026-08-21": {
+   "act": "Niña Pastori",
+   "date": "2026-08-21",
+   "url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
+   "expect": [
+    "nina",
+    "pastori"
+   ]
+  },
+  "candlelight queen vs abba|2026-08-22": {
+   "act": "Candlelight: Queen vs. ABBA",
+   "date": "2026-08-22",
+   "url": "https://feverup.com/m/182969",
+   "expect": [
+    "candlelight",
+    "queen",
+    "abba"
+   ]
+  },
+  "candlelight tribute to ludovico einaudi at gran hotel miramar|2026-08-22": {
+   "act": "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar",
+   "date": "2026-08-22",
+   "url": "https://feverup.com/m/145066",
+   "expect": [
+    "candlelight",
+    "tribute",
+    "ludovico"
+   ]
+  },
+  "candlelight tribute to phil collins|2026-08-22": {
+   "act": "Candlelight: Tribute to Phil Collins",
+   "date": "2026-08-22",
+   "url": "https://feverup.com/m/643698",
+   "expect": [
+    "candlelight",
+    "tribute",
+    "phil"
+   ]
+  },
+  "la plazuela|2026-08-22": {
+   "act": "LA PLAZUELA",
+   "date": "2026-08-22",
+   "url": "https://marenostrumfuengirola.com/eventos/la-plazuela/",
+   "expect": [
+    "plazuela"
+   ]
+  },
+  "pastora soler|2026-08-22": {
+   "act": "Pastora Soler",
+   "date": "2026-08-22",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pastora-soler-starlite-occident-2026-marbella/",
+   "expect": [
+    "pastora",
+    "soler"
+   ]
+  },
+  "cantajuego el payaso tallarin|2026-08-23": {
+   "act": "CANTAJUEGO – EL PAYASO TALLARIN",
+   "date": "2026-08-23",
+   "url": "https://marenostrumfuengirola.com/eventos/cantajuego-el-payaso-tallarin/",
+   "expect": [
+    "cantajuego",
+    "payaso",
+    "tallarin"
+   ]
+  },
+  "candlelight disney love songs|2026-08-23": {
+   "act": "Candlelight: Disney Love Songs",
+   "date": "2026-08-23",
+   "url": "https://feverup.com/m/646736",
+   "expect": [
+    "candlelight",
+    "disney",
+    "love"
+   ]
+  },
+  "la granja|2026-08-23": {
+   "act": "LA GRANJA",
+   "date": "2026-08-23",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/52051",
+   "expect": [
+    "granja"
+   ]
+  },
+  "noche flamenca del compas|2026-08-22": {
+   "act": "NOCHE FLAMENCA DEL COMPÁS",
+   "date": "2026-08-22",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51613",
+   "expect": [
+    "noche",
+    "flamenca",
+    "compas"
+   ]
+  }
+ }
+}

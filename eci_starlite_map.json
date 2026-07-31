@@ -7,9 +7,9 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 36,
- "prefer_eci": 28,
- "prefer_box": 8,
+ "count": 39,
+ "prefer_eci": 34,
+ "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
    "eci_name": "Álvaro de Luna y Nil Moliner",
@@ -264,8 +264,9 @@
    "box_name": "Niña Pastori 21/8",
    "box_url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
    "box_from": 29.0,
-   "prefer": "box",
-   "why": "ECI event page 404s (verified 2026-07-25) — she is box-office only; ship the Starlite box-office deep link"
+   "prefer": "eci",
+   "why": "same price (ECI 29 = box 29) -> ECI wins per the gate. Sofia 2026-07-30. THE URL IS THE WHOLE STORY HERE, DO NOT 'TIDY' IT: ECI carries THREE Nina Pastori pages and only this one is the 21 Aug show. (a) .../entradas-nina-pastori-starlite-occident-2026-marbella/ -> 404, which is why the 2026-07-25 pass concluded 'box-office only'. (b) .../entradas-nina-pastori-starlite-FESTIVAL-2026-marbella/ -> resolves, but it is the 27 JUNE 2026 concert and reads 'YA NO SE ENCUENTRA A LA VENTA'. Sending the 21 Aug buyer there is a dead end. (c) THIS ONE, with the date in the slug (21-08-26) -> 'Fechas: 21 de Agosto de 2026, 22:00, Desde 29,00 EUR, COMPRAR'. Browser-verified 2026-07-30. She plays Starlite TWICE in 2026 (27 Jun + 21 Aug); our calendar row is the AUGUST date, so only the dated slug is correct. refresh_eci_map.py never found any of them -- the entry had no 'url' at all -- so this is hand-added and will be DROPPED by the next refresh unless it is re-applied (same failure mode as the mau-y-ricky aliases; see patch_eci_aliases.py).",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-21-08-26-marbella/"
   },
   "nile rodgers and chic": {
    "eci_name": "Nile Rodgers & Chic",
