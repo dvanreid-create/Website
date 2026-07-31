@@ -1,10 +1,24 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-07-31",
+ "generated": "2026-08-01",
  "drops": {
-  "Alfredo Rodríguez Trío + Albert Sanz Trío – Portón del Jazz": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Woodstock 1969 Tributo": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Queen Sinfónico": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Rodrigo Cuevas": "UNVERIFIED — host blocks bots and no matching browser-verified URL"
+  "Brisa Festival Día 1: Love of Lesbian, Barry B, David Otero, Hot Chip (DJ set)": "GENERIC — homepage/search/listing: https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+  "Brisa Festival Día 2: Amaia, Siloé, León Benavente, Soleá Morente": "GENERIC — homepage/search/listing: https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+  "Brisa Festival Día 3: M-Clan, La M.O.D.A., OBK, Pignoise, Ángel Stanich": "GENERIC — homepage/search/listing: https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
+  "El Arrebato – El Viaje Inesperado (101 Music Festival)": "GENERIC — homepage/search/listing: https://www.malagaentradas.com/?entradas=el-arrebato&provincia=m%C3%A1laga&cpro=29&eid=3551",
+  "Mónica Naranjo – Greatest Hits Concert (101 Music Festival)": "GENERIC — homepage/search/listing: https://www.malagaentradas.com/?entradas=monica-naranjo-greatest-hits-concert-espana&provincia=m%C3%A1laga&cpro=29&eid=3596",
+  "Candlelight: Tribute to Hans Zimmer": "FEVER_OFFSALE — no ticket on sale for 2026-08-08",
+  "Candlelight: Queen vs. The Beatles": "FEVER_OFFSALE — no ticket on sale for 2026-08-15",
+  "Candlelight Open Air: Tribute to Ludovico Einaudi in Marbella": "FEVER_OFFSALE — no ticket on sale for 2026-08-14",
+  "Niña Pastori": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
+  "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "FEVER_OFFSALE — no ticket on sale for 2026-08-22",
+  "Candlelight: Disney Love Songs": "FEVER_OFFSALE — no ticket on sale for 2026-08-23",
+  "Candlelight: Queen vs. ABBA": "FEVER_OFFSALE — no ticket on sale for 2026-08-22",
+  "Candlelight: Coldplay vs. Imagine Dragons": "FEVER_OFFSALE — no ticket on sale for 2026-08-21",
+  "Candlelight: Tribute to Phil Collins": "FEVER_OFFSALE — no ticket on sale for 2026-08-22",
+  "Candlelight: Coldplay vs. Ed Sheeran": "FEVER_OFFSALE — no ticket on sale for 2026-08-08",
+  "Candlelight: Tribute to Joan Manuel Serrat": "FEVER_OFFSALE — no ticket on sale for 2026-08-15",
+  "Black Coffee": "FEVER_OFFSALE — no ticket on sale for 2026-08-07",
+  "12:XII Festival (DJ Snake)": "FEVER_OFFSALE — no ticket on sale for 2026-08-21"
  }
 }
