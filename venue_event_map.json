@@ -109,7 +109,8 @@
     "pastora soler": {
      "url": "https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i",
      "date": "22/08/2026",
-     "venue_name": "Pastora Soler"
+     "venue_name": "Pastora Soler",
+     "genre": "Flamenco"
     },
     "rosana": {
      "venue_name": "Rosana"
@@ -297,12 +298,14 @@
     "galvan real": {
      "url": "https://marenostrumfuengirola.com/eventos/galvan-real-gira-10o-aniversario/",
      "date": "21/08/2026",
-     "venue_name": "GALVAN REAL – GIRA 10º ANIVERSARIO"
+     "venue_name": "GALVAN REAL – GIRA 10º ANIVERSARIO",
+     "genre": "Flamenco"
     },
     "la plazuela": {
      "url": "https://marenostrumfuengirola.com/eventos/la-plazuela/",
      "date": "22/08/2026",
-     "venue_name": "LA PLAZUELA"
+     "venue_name": "LA PLAZUELA",
+     "genre": "Flamenco"
     },
     "cantajuego": {
      "url": "https://marenostrumfuengirola.com/eventos/cantajuego-el-payaso-tallarin/",
@@ -646,7 +649,8 @@
     "noche flamenca": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51613",
      "date": "22-23/08/2026",
-     "venue_name": "NOCHE FLAMENCA DEL COMPÁS"
+     "venue_name": "NOCHE FLAMENCA DEL COMPÁS",
+     "genre": "Flamenco"
     },
     "la granja": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/52051",
