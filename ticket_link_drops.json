@@ -1,8 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-01",
- "drops": {
-  "Alfredo Rodríguez Trío + Albert Sanz Trío – Portón del Jazz": "WRONG_EVENT — page 'Entradas tbq' has none of ['alfredo', 'rodriguez', 'trio']",
-  "Rodrigo Cuevas": "DATE_MISMATCH — page year ['2027'] != event 2026"
- }
+ "generated": "2026-08-02",
+ "drops": {}
 }

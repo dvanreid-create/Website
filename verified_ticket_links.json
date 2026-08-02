@@ -1,6 +1,6 @@
 {
  "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-07-31 FULL browser pass (Claude in Chrome): opened EVERY ticketed row on the 2026-07-20 calendar one-by-one. All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Excluded (did NOT reach a valid buying page for the calendar date): Rodrigo Cuevas (rescheduled 6 Feb 2027), and 3 past-dated dead links (Alfredo Rodríguez Trío entradastbq error, Woodstock 1969 & Queen Sinfónico onebox ids gone).",
- "generated": "2026-07-31",
+ "generated": "2026-08-01",
  "events": {
   "cabaret 2 0|2026-07-20": {
    "act": "CABARET 2.0",
@@ -653,7 +653,7 @@
   "nina pastori|2026-08-21": {
    "act": "Niña Pastori",
    "date": "2026-08-21",
-   "url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-21-08-26-marbella/",
    "expect": [
     "nina",
     "pastori"

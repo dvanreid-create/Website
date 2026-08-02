@@ -35,3 +35,33 @@
   to = "/.netlify/functions/stats-feed"
   status = 200
   force = true
+
+# --- Cache-Control for static assets (CWV / repeat-visit LCP). HTML is deliberately NOT
+#     long-cached: pages rebuild daily with the rolling calendar, so Netlify's default
+#     (max-age=0, must-revalidate) must stand for HTML or readers would see stale events.
+#     Assets use a 1-day base + stale-while-revalidate so a replaced same-name sponsor tile
+#     refreshes within a day rather than being pinned for a year. --------------------------------
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=2592000"
+
+[[headers]]
+  for = "/favicon.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/favicon-32.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
