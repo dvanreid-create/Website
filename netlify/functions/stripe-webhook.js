@@ -35,9 +35,10 @@ async function gutFindBySub(token, subId) {
 }
 
 exports.handler = async (event) => {
-  const secret = process.env.STRIPE_WEBHOOK_SECRET;
+  // accept the LIVE secret and (optionally) the TEST secret, so sandbox/test-mode events verify too
+  const secrets = [process.env.STRIPE_WEBHOOK_SECRET, process.env.STRIPE_WEBHOOK_SECRET_TEST].filter(Boolean);
   const token  = process.env.AIRTABLE_TOKEN;
-  if (!secret || !token) { console.error("webhook not configured"); return { statusCode: 500, body: "not configured" }; }
+  if (!secrets.length || !token) { console.error("webhook not configured"); return { statusCode: 500, body: "not configured" }; }
 
   const sig = event.headers["stripe-signature"] || event.headers["Stripe-Signature"] || "";
   const raw = event.isBase64Encoded ? Buffer.from(event.body || "", "base64").toString("utf8") : (event.body || "");
@@ -47,9 +48,9 @@ exports.handler = async (event) => {
     const parts = {};
     sig.split(",").forEach((kv) => { const [k, v] = kv.split("="); parts[k] = v; });
     if (!parts.t || !parts.v1) return { statusCode: 400, body: "no sig" };
-    const expected = crypto.createHmac("sha256", secret).update(parts.t + "." + raw, "utf8").digest("hex");
-    const a = Buffer.from(expected), b = Buffer.from(parts.v1);
-    if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) { console.error("bad signature"); return { statusCode: 400, body: "bad sig" }; }
+    const b = Buffer.from(parts.v1);
+    const okSig = secrets.some(function(sec){ const e = Buffer.from(crypto.createHmac("sha256", sec).update(parts.t + "." + raw, "utf8").digest("hex")); return e.length === b.length && crypto.timingSafeEqual(e, b); });
+    if (!okSig) { console.error("bad signature"); return { statusCode: 400, body: "bad sig" }; }
   } catch (e) { console.error("sig verify error", e); return { statusCode: 400, body: "sig" }; }
 
   let evt;
