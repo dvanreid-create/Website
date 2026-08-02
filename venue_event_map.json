@@ -9,99 +9,124 @@
    "note": "VERIFICATION ONLY - Starlite ticket LINKS are handled by eci_starlite_map.json (which also price-compares the two sellers). PRIMARY source is starlitefestival.com/en/line-up-2026/ (the official festival lineup page) — the ticket section page (entradas.starlitemarbella.com/section/conciertos-en-auditorio-4nki) is a SECONDARY source only, as it can miss events that sell through a direct event URL rather than the section listing (e.g. Soleá Morente 8 Aug was absent from the section page but is confirmed on the lineup page with its own ticket URL). The union of all three sources is the authoritative programme. Beret is on ECI but not the box office; Nina Pastori and Nil Moliner y Alvaro de Luna are on the box office but not ECI. CORRECTED 2026-07-15: 'Solea Morente + Yerai Cortes + Estrella Morente' (8 Aug) was wrongly dropped as phantom — it IS on starlitefestival.com/en/line-up-2026/ at https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg.",
    "acts": {
     "alvaro de luna y nil moliner": {
-     "venue_name": "Álvaro de Luna y Nil Moliner"
+     "venue_name": "Álvaro de Luna y Nil Moliner",
+     "genre": "Pop"
     },
     "alvaro de luna  and  nil moliner": {
      "url": "https://entradas.starlitemarbella.com/event/nil-moliner-y-alvaro-de-luna-pqwrhm",
      "date": "07/08/2026",
-     "venue_name": "Álvaro de Luna & Nil Moliner"
+     "venue_name": "Álvaro de Luna & Nil Moliner",
+     "genre": "Pop"
     },
     "antonio jose": {
-     "venue_name": "Antonio José"
+     "venue_name": "Antonio José",
+     "genre": "Pop"
     },
     "antonito molina": {
-     "venue_name": "Antoñito Molina"
+     "venue_name": "Antoñito Molina",
+     "genre": "Flamenco"
     },
     "ara malikian": {
      "url": "https://entradas.starlitemarbella.com/checkout/ara-malikian-mzcx0l",
      "date": "27/07/2026",
-     "venue_name": "Ara Malikian"
+     "venue_name": "Ara Malikian",
+     "genre": "Classical & Candlelight"
     },
     "beret": {
      "venue_name": "Beret"
     },
     "carlos rivera": {
-     "venue_name": "Carlos Rivera"
+     "venue_name": "Carlos Rivera",
+     "genre": "Pop"
     },
     "delaossa": {
-     "venue_name": "Delaossa"
+     "venue_name": "Delaossa",
+     "genre": "Urban & Reggaeton"
     },
     "diana krall": {
-     "venue_name": "Diana Krall"
+     "venue_name": "Diana Krall",
+     "genre": "Jazz & Soul"
     },
     "gente de zona": {
-     "venue_name": "Gente de Zona"
+     "venue_name": "Gente de Zona",
+     "genre": "Urban & Reggaeton"
     },
     "gloria trevi": {
-     "venue_name": "Gloria Trevi"
+     "venue_name": "Gloria Trevi",
+     "genre": "Pop"
     },
     "hauser": {
-     "venue_name": "Hauser"
+     "venue_name": "Hauser",
+     "genre": "Classical & Candlelight"
     },
     "hermanos martinez": {
      "venue_name": "Hermanos Martínez"
     },
     "ivan ferreiro": {
-     "venue_name": "Iván Ferreiro"
+     "venue_name": "Iván Ferreiro",
+     "genre": "Rock & Indie"
     },
     "john legend": {
-     "venue_name": "John Legend"
+     "venue_name": "John Legend",
+     "genre": "Pop"
     },
     "juan luis guerra": {
      "venue_name": "Juan Luis Guerra"
     },
     "kool and the gang": {
-     "venue_name": "Kool And The Gang"
+     "venue_name": "Kool And The Gang",
+     "genre": "Jazz & Soul"
     },
     "love of lesbian": {
-     "venue_name": "Love of Lesbian"
+     "venue_name": "Love of Lesbian",
+     "genre": "Rock & Indie"
     },
     "malu": {
-     "venue_name": "Malú"
+     "venue_name": "Malú",
+     "genre": "Pop"
     },
     "manuel turizo": {
-     "venue_name": "Manuel Turizo"
+     "venue_name": "Manuel Turizo",
+     "genre": "Urban & Reggaeton"
     },
     "mau and ricky": {
-     "venue_name": "Mau & Ricky"
+     "venue_name": "Mau & Ricky",
+     "genre": "Pop"
     },
     "mau y ricky": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-mau-ricky-starlite-occident-2026-marbella/",
      "date": "30/07/2026",
-     "venue_name": "Mau y Ricky"
+     "venue_name": "Mau y Ricky",
+     "genre": "Pop"
     },
     "miguel rios": {
-     "venue_name": "Miguel Ríos"
+     "venue_name": "Miguel Ríos",
+     "genre": "Rock & Indie"
     },
     "mora": {
-     "venue_name": "Mora"
+     "venue_name": "Mora",
+     "genre": "Urban & Reggaeton"
     },
     "nil moliner y alvaro de luna": {
-     "venue_name": "Nil Moliner y Alvaro de Luna"
+     "venue_name": "Nil Moliner y Alvaro de Luna",
+     "genre": "Pop"
     },
     "nile rodgers and chic": {
-     "venue_name": "Nile Rodgers & Chic"
+     "venue_name": "Nile Rodgers & Chic",
+     "genre": "Jazz & Soul"
     },
     "nina pastori": {
      "url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
      "date": "21/08/2026",
-     "venue_name": "Niña Pastori"
+     "venue_name": "Niña Pastori",
+     "genre": "Flamenco"
     },
     "noche movida": {
      "venue_name": "Noche Movida"
     },
     "omega 30": {
-     "venue_name": "Omega 30"
+     "venue_name": "Omega 30",
+     "genre": "Flamenco"
     },
     "ozuna": {
      "venue_name": "Ozuna"
@@ -113,15 +138,18 @@
      "genre": "Flamenco"
     },
     "rosana": {
-     "venue_name": "Rosana"
+     "venue_name": "Rosana",
+     "genre": "Pop"
     },
     "rosario": {
-     "venue_name": "Rosario"
+     "venue_name": "Rosario",
+     "genre": "Flamenco"
     },
     "solea morente": {
      "url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg",
      "date": "08/08/2026",
-     "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente"
+     "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente",
+     "genre": "Flamenco"
     },
     "yerai cortes": {
      "url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg",
@@ -131,25 +159,32 @@
     "estrella morente": {
      "url": "https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg",
      "date": "08/08/2026",
-     "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente"
+     "venue_name": "Soleá Morente, Yerai Cortés & Estrella Morente",
+     "genre": "Flamenco"
     },
     "sanguijuelas del guadiana": {
-     "venue_name": "Sanguijuelas del Guadiana"
+     "venue_name": "Sanguijuelas del Guadiana",
+     "genre": "Rock & Indie"
     },
     "sergio dalma": {
-     "venue_name": "Sergio Dalma"
+     "venue_name": "Sergio Dalma",
+     "genre": "Pop"
     },
     "taburete": {
-     "venue_name": "Taburete"
+     "venue_name": "Taburete",
+     "genre": "Rock & Indie"
     },
     "vanesa martin": {
-     "venue_name": "Vanesa Martin"
+     "venue_name": "Vanesa Martin",
+     "genre": "Pop"
     },
     "yandel": {
-     "venue_name": "Yandel Sinfonico"
+     "venue_name": "Yandel Sinfonico",
+     "genre": "Urban & Reggaeton"
     },
     "zucchero": {
-     "venue_name": "Zucchero"
+     "venue_name": "Zucchero",
+     "genre": "Rock & Indie"
     }
    }
   },
@@ -178,7 +213,8 @@
     "sting": {
      "url": "https://marenostrumfuengirola.com/eventos/sting/",
      "date": "13/07/2026",
-     "venue_name": "STING"
+     "venue_name": "STING",
+     "genre": "Rock & Indie"
     },
     "alejandro sanz": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-sanz-y-ahora-que-fuengirola/",
@@ -187,7 +223,8 @@
      "venue_name": "ALEJANDRO SANZ",
      "eci_from": 71.5,
      "prefer": "eci",
-     "why": "ECI is Marenostrum's own seller; 71,50 both. NOTE: Marenostrum's page says SOLD OUT while ECI still shows COMPRAR - ECI may hold the last stock."
+     "why": "ECI is Marenostrum's own seller; 71,50 both. NOTE: Marenostrum's page says SOLD OUT while ECI still shows COMPRAR - ECI may hold the last stock.",
+     "genre": "Pop"
     },
     "los delinquentes": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-los-delinquentes-fuengirola-DELINMF26DELINMF26MARE/",
@@ -196,7 +233,8 @@
      "venue_name": "LOS DELINQÜENTES",
      "eci_from": 42.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Flamenco"
     },
     "beele": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-beele-malaga-fuengirola-SUAVEFESTSUAVEFESTMARE/",
@@ -205,7 +243,8 @@
      "venue_name": "BEÉLE + NANPA BÁSICO + LEWIS POTTER",
      "eci_from": 59.9,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Urban & Reggaeton"
     },
     "pablo lopez": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pablo-lopez-fuengirola-PLOPEZMF26PLOPEZMF26MARE/",
@@ -214,12 +253,14 @@
      "venue_name": "PABLO LOPEZ",
      "eci_from": 50.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Pop"
     },
     "operacion triunfo": {
      "url": "https://marenostrumfuengirola.com/eventos/operacion-triunfo/",
      "date": "31/07/2026",
-     "venue_name": "OPERACION TRIUNFO"
+     "venue_name": "OPERACION TRIUNFO",
+     "genre": "Pop"
     },
     "hombres g": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hombres-g-los-mejores-anos-de-nuestra-vida-fuengirola/",
@@ -228,7 +269,8 @@
      "venue_name": "HOMBRES G",
      "eci_from": 51.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%. ECI lists TWO Hombres G pages that night: the standard one (51,00, used here) and a MAREVIP package (119,00). Standard = the cheaper, correct target."
+     "why": "ECI is the seller -> 1%. ECI lists TWO Hombres G pages that night: the standard one (51,00, used here) and a MAREVIP package (119,00). Standard = the cheaper, correct target.",
+     "genre": "Rock & Indie"
     },
     "vibras": {
      "url": "https://marenostrumfuengirola.com/eventos/vibras/",
@@ -256,7 +298,8 @@
      "venue_name": "GIPSY KINGS",
      "eci_from": 35.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Flamenco"
     },
     "alejandro astola": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-astola-mi-guitarra-y-yo-gira-2026-fuengirola-ALEASTOLAMF26ALEASTOLAMF26MARE/",
@@ -274,7 +317,8 @@
      "venue_name": "LOLA INDIGO",
      "eci_from": 50.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Pop"
     },
     "antonio orozco": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonio-orozco-fuengirola-AOROZCOMF26AOROZCOMF26MARE/",
@@ -283,7 +327,8 @@
      "venue_name": "ANTONIO OROZCO",
      "eci_from": 45.0,
      "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
+     "why": "ECI is the seller -> 1%",
+     "genre": "Pop"
     },
     "mago orbit": {
      "url": "https://marenostrumfuengirola.com/eventos/mago-orbit-presenta-acero-2-0-sohail-magico/",
@@ -325,7 +370,8 @@
     "apulanta": {
      "url": "https://marenostrumfuengirola.com/eventos/apulanta/",
      "date": "12/09/2026",
-     "venue_name": "APULANTA"
+     "venue_name": "APULANTA",
+     "genre": "Rock & Indie"
     }
    }
   },
@@ -349,7 +395,8 @@
      "eci_from": 49.5,
      "box_from": 49.5,
      "prefer": "eci",
-     "why": "same price (49,50 both; box zones 49,50/55,00/71,50) -> earns 1%"
+     "why": "same price (49,50 both; box zones 49,50/55,00/71,50) -> earns 1%",
+     "genre": "Rock & Indie"
     },
     "il volo": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-il-volo-world-tour-2026-2027-malaga/",
@@ -359,7 +406,8 @@
      "eci_from": 61.6,
      "box_from": 61.6,
      "prefer": "eci",
-     "why": "same price (61,60 both; box zones 61,60-132,00) -> earns 1%"
+     "why": "same price (61,60 both; box zones 61,60-132,00) -> earns 1%",
+     "genre": "Classical & Candlelight"
     },
     "el arrebato": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-el-arrebato-malaga-51430514304406/",
@@ -369,7 +417,8 @@
      "eci_from": 38.5,
      "box_from": 38.5,
      "prefer": "eci",
-     "why": "same price (38,50 both; box zones 38,50/44,00/55,00) -> earns 1%"
+     "why": "same price (38,50 both; box zones 38,50/44,00/55,00) -> earns 1%",
+     "genre": "Flamenco"
     },
     "monica naranjo": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-monica-naranjo-malaga-2026-07-31/",
@@ -379,7 +428,8 @@
      "eci_from": 60.5,
      "box_from": 60.5,
      "prefer": "eci",
-     "why": "same price (60,50 both; box zones 60,50/66,00/88,00) -> earns 1%"
+     "why": "same price (60,50 both; box zones 60,50/66,00/88,00) -> earns 1%",
+     "genre": "Pop"
     }
    }
   },
@@ -391,7 +441,8 @@
     "love of lesbian": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "23/07/2026",
-     "venue_name": "LOVE OF LESBIAN (día 1)"
+     "venue_name": "LOVE OF LESBIAN (día 1)",
+     "genre": "Rock & Indie"
     },
     "barry b": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -401,7 +452,8 @@
     "david otero": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "23/07/2026",
-     "venue_name": "DAVID OTERO"
+     "venue_name": "DAVID OTERO",
+     "genre": "Pop"
     },
     "hot chip": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -431,17 +483,20 @@
     "amaia": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "24/07/2026",
-     "venue_name": "AMAIA (día 2)"
+     "venue_name": "AMAIA (día 2)",
+     "genre": "Pop"
     },
     "siloe": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "24/07/2026",
-     "venue_name": "SILOÉ"
+     "venue_name": "SILOÉ",
+     "genre": "Rock & Indie"
     },
     "leon benavente": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "24/07/2026",
-     "venue_name": "LEÓN BENAVENTE"
+     "venue_name": "LEÓN BENAVENTE",
+     "genre": "Rock & Indie"
     },
     "merino": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -461,7 +516,8 @@
     "solea morente": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "24/07/2026",
-     "venue_name": "SOLEÁ MORENTE"
+     "venue_name": "SOLEÁ MORENTE",
+     "genre": "Flamenco"
     },
     "corazon inverso": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -496,12 +552,14 @@
     "m clan": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "25/07/2026",
-     "venue_name": "M-CLAN (día 3)"
+     "venue_name": "M-CLAN (día 3)",
+     "genre": "Rock & Indie"
     },
     "la m o d a": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "25/07/2026",
-     "venue_name": "LA M.O.D.A."
+     "venue_name": "LA M.O.D.A.",
+     "genre": "Rock & Indie"
     },
     "obk": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -511,7 +569,8 @@
     "angel stanich": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "25/07/2026",
-     "venue_name": "ÁNGEL STANICH"
+     "venue_name": "ÁNGEL STANICH",
+     "genre": "Rock & Indie"
     },
     "javypablo": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -521,7 +580,8 @@
     "pignoise": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
      "date": "25/07/2026",
-     "venue_name": "PIGNOISE"
+     "venue_name": "PIGNOISE",
+     "genre": "Rock & Indie"
     },
     "sienna": {
      "url": "https://cart.ingresse.com/e1341d09-6411-41ea-a92b-decea4734e7f/tickets?locale=es_ES",
@@ -583,11 +643,13 @@
     },
     "pink floyd experience": {
      "date": "17-18/07/2026",
-     "venue_name": "PINK FLOYD EXPERIENCE"
+     "venue_name": "PINK FLOYD EXPERIENCE",
+     "genre": "Tribute"
     },
     "la verbena de la paloma": {
      "date": "18-19/07/2026",
-     "venue_name": "LA VERBENA DE LA PALOMA"
+     "venue_name": "LA VERBENA DE LA PALOMA",
+     "genre": "Classical & Candlelight"
     },
     "woodstock": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51656",
@@ -639,7 +701,8 @@
     "born this way": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/50952",
      "date": "14/08/2026",
-     "venue_name": "BORN THIS WAY"
+     "venue_name": "BORN THIS WAY",
+     "genre": "Tribute"
     },
     "jose tejada": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51206",
@@ -698,47 +761,56 @@
     "farruko": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "17/07/2026",
-     "venue_name": "Puro Latino Torremolinos Día 1 - Farruko"
+     "venue_name": "Puro Latino Torremolinos Día 1 - Farruko",
+     "genre": "Urban & Reggaeton"
     },
     "nengo flow": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "17/07/2026",
-     "venue_name": "Ñengo Flow (Día 1)"
+     "venue_name": "Ñengo Flow (Día 1)",
+     "genre": "Urban & Reggaeton"
     },
     "tito el bambino": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "17/07/2026",
-     "venue_name": "Tito El Bambino (Día 1)"
+     "venue_name": "Tito El Bambino (Día 1)",
+     "genre": "Urban & Reggaeton"
     },
     "roa": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "17/07/2026",
-     "venue_name": "ROA (Día 1)"
+     "venue_name": "ROA (Día 1)",
+     "genre": "Urban & Reggaeton"
     },
     "anuel aa": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "18/07/2026",
-     "venue_name": "Puro Latino Torremolinos Día 2 - Anuel AA"
+     "venue_name": "Puro Latino Torremolinos Día 2 - Anuel AA",
+     "genre": "Urban & Reggaeton"
     },
     "jc reyes": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "18/07/2026",
-     "venue_name": "JC Reyes (Día 2)"
+     "venue_name": "JC Reyes (Día 2)",
+     "genre": "Urban & Reggaeton"
     },
     "juan magan": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "18/07/2026",
-     "venue_name": "Juan Magán (Día 2)"
+     "venue_name": "Juan Magán (Día 2)",
+     "genre": "Urban & Reggaeton"
     },
     "omar montes": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "18/07/2026",
-     "venue_name": "Omar Montes (Día 2)"
+     "venue_name": "Omar Montes (Día 2)",
+     "genre": "Urban & Reggaeton"
     },
     "saiko": {
      "url": "https://purolatino.es/torremolinos/entradas/",
      "date": "18/07/2026",
-     "venue_name": "SAIKO (Día 2)"
+     "venue_name": "SAIKO (Día 2)",
+     "genre": "Urban & Reggaeton"
     }
    }
   },
@@ -758,7 +830,8 @@
      "date": "01/08/2026",
      "venue_name": "TOM JONES",
      "prefer": "eci",
-     "why": "ECI affiliate URL replaces festival site — venue_resolve prefer=eci overrides any deep festival link already in calendar"
+     "why": "ECI affiliate URL replaces festival site — venue_resolve prefer=eci overrides any deep festival link already in calendar",
+     "genre": "Pop"
     }
    }
   },
