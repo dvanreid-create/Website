@@ -774,26 +774,26 @@
  ],
  "info": [
   {
-   "url": "/advertise.html",
+   "url": "/weekly/",
    "eyebrow": {
-    "en": "Advertise on Málaga Live",
-    "es": "Anúnciate en Málaga Live",
-    "de": "Werben Sie auf Málaga Live",
-    "fr": "Annoncez sur Málaga Live",
-    "sv": "Annonsera på Málaga Live",
-    "no": "Annonser på Málaga Live",
-    "da": "Annoncér på Málaga Live",
-    "fi": "Mainosta Málaga Livessä"
+    "en": "Never miss your favorite artists live",
+    "es": "No te pierdas a tus artistas favoritos en directo",
+    "de": "Verpasse deine Lieblingskünstler nie live",
+    "fr": "Ne manquez jamais vos artistes préférés en live",
+    "sv": "Missa aldrig dina favoritartister live",
+    "no": "Gå aldri glipp av favorittartistene dine live",
+    "da": "Gå aldrig glip af dine yndlingskunstnere live",
+    "fi": "Älä koskaan missaa suosikkiartistejasi livenä"
    },
    "body": {
-    "en": "<span class=\"info-cta\">See the rate card &rarr;</span>",
-    "es": "<span class=\"info-cta\">Ver tarifas &rarr;</span>",
-    "de": "<span class=\"info-cta\">Preisliste ansehen &rarr;</span>",
-    "fr": "<span class=\"info-cta\">Voir les tarifs &rarr;</span>",
-    "sv": "<span class=\"info-cta\">Se prislistan &rarr;</span>",
-    "no": "<span class=\"info-cta\">Se prisliste &rarr;</span>",
-    "da": "<span class=\"info-cta\">Se prisliste &rarr;</span>",
-    "fi": "<span class=\"info-cta\">Katso hinnasto &rarr;</span>"
+    "en": "Free weekly newsletter &middot; <span class=\"info-cta\">add it to your home screen &rarr;</span>",
+    "es": "Newsletter semanal gratis &middot; <span class=\"info-cta\">añádelo a tu pantalla de inicio &rarr;</span>",
+    "de": "Kostenloser Wochen-Newsletter &middot; <span class=\"info-cta\">zum Startbildschirm hinzufügen &rarr;</span>",
+    "fr": "Newsletter hebdo gratuite &middot; <span class=\"info-cta\">ajoutez-le à votre écran d'accueil &rarr;</span>",
+    "sv": "Gratis veckobrev &middot; <span class=\"info-cta\">lägg till på hemskärmen &rarr;</span>",
+    "no": "Gratis ukentlig nyhetsbrev &middot; <span class=\"info-cta\">legg til på hjemskjermen &rarr;</span>",
+    "da": "Gratis ugentligt nyhedsbrev &middot; <span class=\"info-cta\">føj til din hjemmeskærm &rarr;</span>",
+    "fi": "Ilmainen viikkouutiskirje &middot; <span class=\"info-cta\">lisää aloitusnäyttöön &rarr;</span>"
    }
   }
  ]
