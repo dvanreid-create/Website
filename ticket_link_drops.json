@@ -1,5 +1,11 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
  "generated": "2026-08-03",
- "drops": {}
+ "drops": {
+  "Brisa Festival Día 1: Love of Lesbian, Barry B, David Otero, Hot Chip (DJ set)": "WRONG_EVENT — page 'Ingresse' has none of ['brisa', 'festival', 'love']",
+  "Brisa Festival Día 2: Amaia, Siloé, León Benavente, Soleá Morente": "WRONG_EVENT — page 'Ingresse' has none of ['brisa', 'festival', 'amaia']",
+  "Alfredo Rodríguez Trío + Albert Sanz Trío – Portón del Jazz": "WRONG_EVENT — page 'Entradas tbq' has none of ['alfredo', 'rodriguez', 'trio']",
+  "Brisa Festival Día 3: M-Clan, La M.O.D.A., OBK, Pignoise, Ángel Stanich": "WRONG_EVENT — page 'Ingresse' has none of ['brisa', 'festival', 'clan']",
+  "Rodrigo Cuevas": "DATE_MISMATCH — page year ['2027'] != event 2026"
+ }
 }
