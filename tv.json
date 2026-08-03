@@ -1,86 +1,70 @@
 {
-  "clips": [
-    {
-      "act": "Sergio Dalma",
-      "yt": "NPo0gfThXeA",
-      "where": "4 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Gente de Zona",
-      "yt": "VMp55KH_3wo",
-      "where": "5 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Black Coffee",
-      "yt": "vu1QsEUVLQs",
-      "where": "7 Aug · Recinto Ferial, Marbella"
-    },
-    {
-      "act": "Underworld",
-      "yt": "t01E5q1Lny8",
-      "where": "8 Aug · Marenostrum, Fuengirola"
-    },
-    {
-      "act": "Estrella Morente",
-      "yt": "pGEhU9lT7f0",
-      "where": "8 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Gipsy Kings",
-      "yt": "7qbEt_lSib4",
-      "where": "9 Aug · Castillo Sohail, Fuengirola"
-    },
-    {
-      "act": "Malú",
-      "yt": "aBaPi-K8HP4",
-      "where": "10 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Lola Índigo",
-      "yt": "ks2_mOrIl7c",
-      "where": "14 Aug · Marenostrum, Fuengirola"
-    },
-    {
-      "act": "Vanesa Martín",
-      "yt": "1jyi1s7Rx6A",
-      "where": "14 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Niña Pastori",
-      "yt": "nSkUCCSv1YQ",
-      "where": "21 Aug · Starlite, Marbella"
-    }
-  ],
-  "thumbs": {
-    "Sergio Dalma": "NPo0gfThXeA",
-    "Gente de Zona": "VMp55KH_3wo",
-    "Sanguijuelas del Guadiana": "VYOu-XSLs1o",
-    "Delaossa": "BcMDxGdxX0o",
-    "Hermanos Martínez": "zCGU8ogtExo",
-    "Álvaro de Luna & Nil Moliner": "VebVifKv3UM",
-    "Black Coffee": "vu1QsEUVLQs",
-    "Soleá Morente + Yerai Cortés + Estrella Morente": "PRRlOPLeZGc",
-    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
-    "Candlelight: Coldplay vs. Ed Sheeran": "yKNxeF4KMsY",
-    "Malú": "aBaPi-K8HP4",
-    "Iván Ferreiro": "e41TlLljgAw",
-    "Vanesa Martín": "1jyi1s7Rx6A",
-    "Candlelight Open Air: Tribute to Ludovico Einaudi in Marbella": "CQ8zglIXZi8",
-    "Omega 30 Aniversario": "JAg9rshK0TE",
-    "Candlelight: Queen vs. The Beatles": "fJ9rUzIMcZQ",
-    "Candlelight: Tribute to Joan Manuel Serrat": "1qfh-BhVKZc",
-    "Taburete": "j8aQseeJMtA",
-    "Antoñito Molina": "HKVKSqGWMlU",
-    "Niña Pastori": "nSkUCCSv1YQ",
-    "Candlelight: Coldplay vs. Imagine Dragons": "k4V3Mo61fJM",
-    "12:XII Festival (DJ Snake)": "dDnpOLQk-lE",
-    "Pastora Soler": "W7y1pvW60ng",
-    "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "sR2W2scFS4Y",
-    "Candlelight: Queen vs. ABBA": "HgzGwKwLmgM",
-    "Candlelight: Tribute to Phil Collins": "YkADj0TPrJA",
-    "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
-    "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
-    "Miguel Ríos": "Rm-yZGvcf2U",
-    "Miguel Rios": "Rm-yZGvcf2U"
+ "clips": [
+  {
+   "act": "Zucchero",
+   "yt": "OpriuOCzpbU",
+   "where": "28 Jul · Starlite, Marbella"
+  },
+  {
+   "act": "Ozuna",
+   "yt": "Y96p6qM0_Ag",
+   "where": "29 Jul · Starlite, Marbella"
+  },
+  {
+   "act": "Manuel Turizo",
+   "yt": "A7m8lQOMz1A",
+   "where": "30 Jul · Starlite, Marbella"
+  },
+  {
+   "act": "Pablo López",
+   "yt": "7aQaYt-1e2A",
+   "where": "30 Jul · Castillo Sohail, Fuengirola"
+  },
+  {
+   "act": "Tom Jones",
+   "yt": "WZ32gSLNHfA",
+   "where": "1 Aug · Málaga Forum, Málaga"
+  },
+  {
+   "act": "David Guetta",
+   "yt": "JRfuAukYTKg",
+   "where": "1 Aug · Dreambeach, Vélez-Málaga"
+  },
+  {
+   "act": "Gipsy Kings",
+   "yt": "7qbEt_lSib4",
+   "where": "9 Aug · Castillo Sohail, Fuengirola"
+  },
+  {
+   "act": "Niña Pastori",
+   "yt": "nSkUCCSv1YQ",
+   "where": "21 Aug · Starlite, Marbella"
   }
+ ],
+ "thumbs": {
+  "Defected ft. DJ EZ · Eliza Rose · Melé": "KtGFByAJRQQ",
+  "Niña Pastori": "nSkUCCSv1YQ",
+  "Lenny Kravitz": "8LhCd1W2V0Q",
+  "Danny Ocean": "LbKcHy9cav0",
+  "Grupo Frontera": "VtKcDwz6hiM",
+  "Maroon 5": "09R8_2nJtjg",
+  "Faithless": "P8JEm4d6Wu4",
+  "Deep Purple": "Q2FzZSBD5LE",
+  "Rick Astley": "dQw4w9WgXcQ",
+  "Elvis Crespo": "WPiEbYSF9kE",
+  "Jean-Michel Jarre": "71DOHvfFDBY",
+  "Juan Luis Guerra 4.40": "K3S96fUGrEY",
+  "Yandel Sinfónico": "qvvNtQnNjhQ",
+  "John Legend": "450p7goxZqg",
+  "Diana Krall": "Yr8xDSPjII8",
+  "Carlos Rivera": "nkkRRgslwjE",
+  "Kool & The Gang": "sLuNC5RCjY4",
+  "Zucchero": "OpriuOCzpbU",
+  "Ozuna": "Y96p6qM0_Ag",
+  "Manuel Turizo": "A7m8lQOMz1A",
+  "Pablo López": "7aQaYt-1e2A",
+  "Tom Jones": "WZ32gSLNHfA",
+  "David Guetta": "JRfuAukYTKg",
+  "Gipsy Kings": "7qbEt_lSib4"
+ }
 }
