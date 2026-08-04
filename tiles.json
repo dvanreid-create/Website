@@ -160,6 +160,44 @@
    }
   },
   {
+   "logo": "/assets/tiles/clarence-jazz-club.png",
+   "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
+   "ghost": true,
+   "name": "Clarence Jazz Club",
+   "url": "https://www.clarencejazzclub.com",
+   "expires": "2026-09-03",
+   "ribbon": {
+    "en": "Featured Jazz Venue",
+    "es": "Local de jazz destacado",
+    "de": "Empfohlener Jazzclub",
+    "fr": "Club de jazz à la une",
+    "sv": "Utvald jazzklubb",
+    "no": "Anbefalt jazzklubb",
+    "da": "Fremhævet jazzklub",
+    "fi": "Esittelyssä: jazzklubi"
+   },
+   "sub": {
+    "en": "Live jazz · Torremolinos",
+    "es": "Jazz en directo · Torremolinos",
+    "de": "Live-Jazz · Torremolinos",
+    "fr": "Jazz live · Torremolinos",
+    "sv": "Livejazz · Torremolinos",
+    "no": "Livejazz · Torremolinos",
+    "da": "Livejazz · Torremolinos",
+    "fi": "Livejazzia · Torremolinos"
+   },
+   "cta": {
+    "en": "Visit →",
+    "es": "Visitar →",
+    "de": "Besuchen →",
+    "fr": "Visiter →",
+    "sv": "Besök →",
+    "no": "Besøk →",
+    "da": "Besøg →",
+    "fi": "Käy →"
+   }
+  },
+  {
    "logo": "/assets/tiles/kova-logo.png",
    "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
    "light": true,
