@@ -22,5 +22,20 @@
    "from": "alvaro de luna y nil moliner",
    "why": "ECI says 'Álvaro de Luna y Nil Moliner' -> normalises with 'y'. If the calendar carries the '&' form, _eci_norm converts & -> and, giving 'and' — a miss without this alias."
   }
- }
+ },
+ "exclude": {
+  "antonito molina": {
+   "why": "TWO Starlite dates (18 & 19 Aug 2026) but this map is act-keyed, so both calendar rows route to the SINGLE 18-08 ECI page and ECI has NO 19-08 page (404). Excluding from ECI routing lets each row keep its own date-correct Starlite box-office link (18/8 .../event/antonito-molina-opoj1x, 19/8 .../event/antonito-molina-wz9g60). Browser-verified 2026-08-05. Safe to remove after 19 Aug 2026."
+  },
+  "gente de zona": {
+   "why": "ECI page OFF-SALE ('Actualmente este evento ya no se encuentra a la venta', browser-verified 2026-08-05) while the Starlite box office still sells (EUR41). enforce_eci_routing would pick ECI on price (29<41) but ECI is unbuyable, so exclude it and fall back to the box-office link. Safe to remove after 5 Aug 2026."
+  },
+  "delaossa": {
+   "why": "ECI page OFF-SALE (browser-verified 2026-08-05); box office sells at the same EUR35. Exclude from ECI routing so the reader gets a working box-office link. Safe to remove after 6 Aug 2026."
+  },
+  "sanguijuelas del guadiana": {
+   "why": "Co-billed with Delaossa on the SAME 6 Aug 2026 Starlite row (Delaossa + Sanguijuelas del Guadiana). With delaossa excluded, the double-bill row otherwise matches this ECI entry via token-containment and routes to Sanguijuelas ECI page (slug oddly dated 08-04, unverified). Exclude so the row falls back to the verified box-office link. No standalone Sanguijuelas calendar row exists. Safe to remove after 6 Aug 2026."
+  }
+ },
+ "_exclude_note": "exclude: acts that must NEVER route through ECI even when the price rule would pick it — because the ECI page is off-sale (enforce cannot see off-sale) or the act has multiple calendar dates a single act-keyed ECI url cannot serve. patch_eci_aliases.py removes these from the map AFTER refresh + pins/aliases and BEFORE enforce, so build_site falls back to each row's own calendar (box-office) link, every run. Verify in a browser before adding."
 }
