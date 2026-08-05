@@ -129,12 +129,14 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 
 .trail{display:flex;flex-direction:column;gap:14px;position:sticky;top:102px;}
 .tcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;}
-/* Left ad gutter: 250x404 white box framing the 250x330 ad tile + its arrows, to match the
-   right gutter card's height (DLR 2026-08-03). Tile size is UNCHANGED (rate-card spec). */
-.adframe{box-sizing:content-box;width:250px;height:387px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 2px 8px rgba(20,58,78,.07);display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:8px;overflow:hidden;padding:0 0 15px;}
-.adframe .flank-slot{width:250px;height:330px;flex:none;order:2;}
-.adframe .flank-nav{order:1;margin:0;}
-@media(max-width:1079px){.adframe{display:none;}}
+/* Left gutter: 250x404 white box framing the 250x330 promo tile + its arrows, to match the
+   right gutter card's height (DLR 2026-08-03; wrapper class renamed to flank-frame 2026-08-04 to
+   restore the 2026-07-01 blocker fix — the old class name made Sofie's content blocker hide the
+   whole left rail). Tile size is UNCHANGED (rate-card spec). */
+.flank-frame{box-sizing:content-box;width:250px;height:387px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 2px 8px rgba(20,58,78,.07);display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:8px;overflow:hidden;padding:0 0 15px;}
+.flank-frame .flank-slot{width:250px;height:330px;flex:none;order:2;}
+.flank-frame .flank-nav{order:1;margin:0;}
+@media(max-width:1079px){.flank-frame{display:none;}}
 .tcard .thd{text-align:center;} .tcard .star{color:var(--coral);} .tcard .k{font-size:10px;letter-spacing:1.2px;color:var(--mut);font-weight:600;margin-top:3px;}
 .tvid{height:180px;border-radius:11px;margin:11px 0;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative;}
 .tvid .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,28,.03),rgba(8,20,28,.62));border-radius:11px;}
@@ -242,7 +244,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
   <div class="grid">
 
     <aside class="flank-rail">
-      <div class="adframe">
+      <div class="flank-frame">
       <a class="flank-slot" id="flankSq" href="https://www.awin1.com/cread.php?awinmid=13034&amp;awinaffid=2958081&amp;ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-malu-starlite-occident-2026-marbella%2F" target="_blank" rel="noopener" style="color:#fff;justify-content:flex-end;background-image:url('https://i.ytimg.com/vi/AuMLpOhx6mY/maxresdefault.jpg');background-size:cover;background-position:50% 20%;"><span class="rib">Marquee event</span><div class="scrim"></div><div class="z"><div class="h disp" style="font-size:30px;line-height:1.02;overflow-wrap:anywhere;">Malú</div><div class="s">Mon 10 Aug · Auditorio Starlite · Marbella</div><div class="cta">Get tickets →</div></div></a>
       <div class="flank-nav" id="flankNav" style="display:none">
         <button class="fn-prev" type="button" aria-label="Previous">&larr;</button>
