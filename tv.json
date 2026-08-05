@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Sergio Dalma",
-      "yt": "DuDEUe_4BGY",
-      "where": "4 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Gente de Zona",
       "yt": "VMp55KH_3wo",
       "where": "5 Aug · Starlite, Marbella"
@@ -41,6 +36,11 @@
       "where": "10 Aug · Starlite, Marbella"
     },
     {
+      "act": "Iván Ferreiro",
+      "yt": "X9_NSL0AXpA",
+      "where": "13 Aug · Starlite, Marbella"
+    },
+    {
       "act": "Vanesa Martín",
       "yt": "dkBEKOZWd0k",
       "where": "14 Aug · Starlite, Marbella"
@@ -52,7 +52,6 @@
     }
   ],
   "thumbs": {
-    "Sergio Dalma": "DuDEUe_4BGY",
     "Gente de Zona": "VMp55KH_3wo",
     "Delaossa + Sanguijuelas del Guadiana": "sVcG4g_rEmg",
     "Black Coffee": "17zOUL27cJk",
