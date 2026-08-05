@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Emerson ad tile — Málaga Live</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Cormorant+Garamond:ital,wght@1,600&display=swap">
+<style>
+  body{margin:0;background:#eef1f3;font-family:Inter,Arial,sans-serif;padding:28px}
+  .row{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+  .cap{font-size:12px;color:#5f6b78;margin:8px 0 0;letter-spacing:.3px}
+
+  /* House palette: navy #143A4E / navy2 #0f2d3c / coral #E8662A / cream #F5F2EB */
+  .tile{width:250px;height:140px;border-radius:12px;overflow:hidden;position:relative;
+        background:linear-gradient(160deg,#143A4E 0%,#0f2d3c 100%);color:#fff;
+        display:flex;flex-direction:column;justify-content:center;padding:0 18px;box-sizing:border-box}
+  .tile .eyebrow{font-size:8.5px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:#E8662A}
+  .tile .head{font-family:Anton,Arial,sans-serif;font-size:30px;line-height:1;letter-spacing:.4px;margin:7px 0 0}
+  .tile .rule{width:34px;height:2px;background:#E8662A;margin:9px 0 8px}
+  .tile .attr{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:12.5px;color:#cfdae1;line-height:1.25}
+  .tile .cta{position:absolute;right:14px;bottom:11px;font-size:10.5px;font-weight:600;color:#E8662A}
+
+  /* Light variant on cream */
+  .tile.light{background:#F5F2EB;color:#143A4E}
+  .tile.light .attr{color:#6b7782}
+  .tile.light .eyebrow{color:#993C1D}
+
+  /* Wide variant, 552px — newsletter / advertise-page width */
+  .wide{width:552px;height:150px}
+  .wide .head{font-size:38px}
+  .wide .attr{font-size:14px}
+</style>
+
+<div class="row">
+  <div>
+    <div class="tile">
+      <div class="eyebrow">Málaga Live</div>
+      <div class="head">I AM NOTHING</div>
+      <div class="rule"></div>
+      <div class="attr">“I am nothing; I see all.”<br>— Ralph Waldo Emerson, <i>Nature</i>, 1836</div>
+      <div class="cta">See what's on &rarr;</div>
+    </div>
+    <p class="cap">250 × 140 — gutter / sponsor slot</p>
+  </div>
+
+  <div>
+    <div class="tile light">
+      <div class="eyebrow">Málaga Live</div>
+      <div class="head">I AM NOTHING</div>
+      <div class="rule"></div>
+      <div class="attr">“I am nothing; I see all.”<br>— Ralph Waldo Emerson, <i>Nature</i>, 1836</div>
+      <div class="cta">See what's on &rarr;</div>
+    </div>
+    <p class="cap">250 × 140 — light variant</p>
+  </div>
+
+  <div>
+    <div class="tile wide">
+      <div class="eyebrow">Málaga Live</div>
+      <div class="head">I AM NOTHING</div>
+      <div class="rule"></div>
+      <div class="attr">“I am nothing; I see all; the currents of the Universal Being circulate through me.”<br>— Ralph Waldo Emerson, <i>Nature</i>, 1836</div>
+      <div class="cta">See what's on &rarr;</div>
+    </div>
+    <p class="cap">552 × 150 — newsletter / advertise-page width</p>
+  </div>
+</div>
