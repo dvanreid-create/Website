@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Gente de Zona",
-      "yt": "VMp55KH_3wo",
-      "where": "5 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Delaossa",
       "yt": "sVcG4g_rEmg",
       "where": "6 Aug · Starlite, Marbella"
@@ -46,13 +41,17 @@
       "where": "14 Aug · Starlite, Marbella"
     },
     {
+      "act": "Lola Indigo",
+      "yt": "0Hf3sIww60o",
+      "where": "14 Aug · Castillo Sohail, Fuengirola"
+    },
+    {
       "act": "Niña Pastori",
       "yt": "nSkUCCSv1YQ",
       "where": "21 Aug · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "Gente de Zona": "VMp55KH_3wo",
     "Delaossa + Sanguijuelas del Guadiana": "sVcG4g_rEmg",
     "Black Coffee": "17zOUL27cJk",
     "Álvaro de Luna + Nil Moliner + Hermanos Martínez": "VebVifKv3UM",
@@ -80,6 +79,7 @@
     "Candlelight: Disney Love Songs": "axySrE0Kg6k",
     "Gloria Trevi": "NNNXu361M8k",
     "Nile Rodgers & CHIC": "R-v8jbgcthg",
+    "Kream Ice Land by Alvama Ice": "YQwLiLknhDU",
     "Love of Lesbian": "TqHEvFfLa9Q",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
