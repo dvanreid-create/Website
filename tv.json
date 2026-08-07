@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Delaossa",
-      "yt": "sVcG4g_rEmg",
-      "where": "6 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Álvaro de Luna",
       "yt": "VebVifKv3UM",
       "where": "7 Aug · Starlite, Marbella"
@@ -46,13 +41,17 @@
       "where": "14 Aug · Castillo Sohail, Fuengirola"
     },
     {
+      "act": "Antonio Orozco",
+      "yt": "fY39uD93yx4",
+      "where": "15 Aug · Castillo Sohail, Fuengirola"
+    },
+    {
       "act": "Niña Pastori",
       "yt": "nSkUCCSv1YQ",
       "where": "21 Aug · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "Delaossa + Sanguijuelas del Guadiana": "sVcG4g_rEmg",
     "Black Coffee": "17zOUL27cJk",
     "Álvaro de Luna + Nil Moliner + Hermanos Martínez": "VebVifKv3UM",
     "Candlelight: Tributo a Hans Zimmer": "c56t7upa8Bk",
