@@ -532,6 +532,9 @@ window.addEventListener('resize',sizeMltvChips);
 try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searchf.value=_qv;}}catch(e){}
 /* footer discovery pills -> filter the page in place (like MD); click the active pill again to clear */
 (function(){var disco=document.querySelector('.wrap.discovery'); if(!disco) return;
+  try{var _ec=[].slice.call(document.querySelectorAll('.ev')).map(function(e){return slug(e.getAttribute('data-city')||'');});
+    disco.querySelectorAll('a[data-fmatch]').forEach(function(a){var ms=a.getAttribute('data-fmatch').split(',');
+      if(!_ec.some(function(cs){return ms.some(function(m){return m&&cs.indexOf(m)>=0;});})) a.style.display='none';});}catch(e){}
   function resetDateChips(){document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}
   disco.addEventListener('click',function(e){
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
