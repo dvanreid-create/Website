@@ -462,7 +462,7 @@ function apply(){
 }
 if(searchf)searchf.addEventListener('input',apply);
 if(genref)genref.addEventListener('change',function(){var l=document.getElementById('genLbl');if(l)l.textContent=genref.options[genref.selectedIndex].text;var ch=genref.parentNode;if(ch){ch.classList.toggle('chip-on',!!genref.value);ch.classList.toggle('chip-off',!genref.value);}apply();});
-if(cityf)cityf.addEventListener('change',function(){fArea=cityf.value?cityf.value.split(','):null;var _dd=document.querySelector('.wrap.discovery');if(_dd)_dd.querySelectorAll('a.sel').forEach(function(z){z.classList.remove('sel');});var l=document.getElementById('cityLbl');if(l)l.textContent=cityf.options[cityf.selectedIndex].text;var ch=cityf.parentNode;if(ch){ch.classList.toggle('chip-on',!!cityf.value);ch.classList.toggle('chip-off',!cityf.value);}apply();});
+if(cityf)cityf.addEventListener('change',function(){fArea=cityf.value?cityf.value.split(','):null;var _dd=document.querySelector('.wrap.discovery');if(_dd){_dd.querySelectorAll('a[data-fmatch].sel, a[data-fall].sel').forEach(function(z){z.classList.remove('sel');});if(cityf.value){var _mp=_dd.querySelector('a[data-fmatch="'+cityf.value+'"]');if(_mp)_mp.classList.add('sel');}}var l=document.getElementById('cityLbl');if(l)l.textContent=cityf.options[cityf.selectedIndex].text;var ch=cityf.parentNode;if(ch){ch.classList.toggle('chip-on',!!cityf.value);ch.classList.toggle('chip-off',!cityf.value);}apply();});
 document.querySelectorAll('.chip[data-mode]').forEach(function(ch){
   ch.addEventListener('click',function(){
     var m=ch.getAttribute('data-mode');
@@ -530,24 +530,35 @@ sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
 window.addEventListener('resize',sizeMltvChips);
 try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searchf.value=_qv;}}catch(e){}
-/* footer discovery pills -> filter the page in place (like MD); click the active pill again to clear */
+/* footer discovery pills -> DUAL filter: area + genre + free combine; click a selected pill to clear just that one */
 (function(){var disco=document.querySelector('.wrap.discovery'); if(!disco) return;
   function resetDateChips(){document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}
+  function clr(sel){disco.querySelectorAll(sel).forEach(function(z){z.classList.remove('sel');});}
+  function cityChip(on){if(cityf&&cityf.parentNode){cityf.parentNode.classList.toggle('chip-on',on);cityf.parentNode.classList.toggle('chip-off',!on);}}
   disco.addEventListener('click',function(e){
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
-    if(!(a.hasAttribute('data-fmatch')||a.hasAttribute('data-fgenre')||a.hasAttribute('data-fall')||a.hasAttribute('data-ffree'))) return;
+    var isAll=a.hasAttribute('data-fall'),isCity=a.hasAttribute('data-fmatch'),isGen=a.hasAttribute('data-fgenre'),isFree=a.hasAttribute('data-ffree');
+    if(!(isAll||isCity||isGen||isFree)) return;
     e.preventDefault();
-    var already=a.classList.contains('sel');
-    if(genref)genref.value=''; if(cityf){cityf.value='';if(cityf.parentNode){cityf.parentNode.classList.remove('chip-on');cityf.parentNode.classList.add('chip-off');}} if(searchf)searchf.value=''; freeOn=false; dateMode=''; fArea=null; resetDateChips();
-    disco.querySelectorAll('a.sel').forEach(function(z){z.classList.remove('sel');});
-    if(!already){
-      if(a.hasAttribute('data-fgenre')&&genref){genref.value=a.getAttribute('data-fgenre');}
-      else if(a.hasAttribute('data-fmatch')){fArea=a.getAttribute('data-fmatch').split(',');if(cityf){cityf.value=a.getAttribute('data-fmatch');var _cch=cityf.parentNode;if(_cch){_cch.classList.add('chip-on');_cch.classList.remove('chip-off');}}}
-      else if(a.hasAttribute('data-ffree')){freeOn=true;}
-      a.classList.add('sel');
+    var was=a.classList.contains('sel');
+    if(isAll){
+      if(genref)genref.value=''; if(cityf)cityf.value=''; cityChip(false); if(searchf)searchf.value=''; freeOn=false; dateMode=''; fArea=null; resetDateChips();
+      clr('a.sel'); a.classList.add('sel');
+    }else if(isCity){
+      clr('a[data-fmatch].sel'); clr('a[data-fall].sel');
+      if(was){fArea=null; if(cityf)cityf.value=''; cityChip(false);}
+      else{fArea=a.getAttribute('data-fmatch').split(','); if(cityf)cityf.value=a.getAttribute('data-fmatch'); cityChip(true); a.classList.add('sel');}
+    }else if(isGen){
+      clr('a[data-fgenre].sel'); clr('a[data-fall].sel');
+      if(was){if(genref)genref.value='';}
+      else{if(genref)genref.value=a.getAttribute('data-fgenre'); a.classList.add('sel');}
+    }else if(isFree){
+      clr('a[data-ffree].sel'); clr('a[data-fall].sel');
+      freeOn=!was; if(!was)a.classList.add('sel');
     }
     if(freeChip){freeChip.style.background=freeOn?'var(--coral)':'#FAECE7';freeChip.style.color=freeOn?'#fff':'var(--coral)';}
     var gl=document.getElementById('genLbl'); if(gl&&genref)gl.textContent=genref.options[genref.selectedIndex].text;
+    if(genref){var gch=genref.parentNode; if(gch){gch.classList.toggle('chip-on',!!genref.value);gch.classList.toggle('chip-off',!genref.value);}}
     var cl=document.getElementById('cityLbl'); if(cl&&cityf)cl.textContent=cityf.options[cityf.selectedIndex].text;
     apply();
     var sb=document.querySelector('.subbar')||document.querySelector('.filterbar'); if(sb)sb.scrollIntoView({behavior:'smooth',block:'start'});
