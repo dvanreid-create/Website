@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Álvaro de Luna",
-      "yt": "VebVifKv3UM",
-      "where": "7 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Black Coffee",
-      "yt": "17zOUL27cJk",
-      "where": "7 Aug · Recinto Ferial, Marbella"
-    },
-    {
       "act": "Underworld",
       "yt": "XiMrrleH_hI",
       "where": "8 Aug · Marenostrum, Fuengirola"
@@ -52,8 +42,6 @@
     }
   ],
   "thumbs": {
-    "Black Coffee": "17zOUL27cJk",
-    "Álvaro de Luna + Nil Moliner + Hermanos Martínez": "VebVifKv3UM",
     "Candlelight: Tributo a Hans Zimmer": "c56t7upa8Bk",
     "Soleá Morente + Yerai Cortés + Estrella Morente": "PRRlOPLeZGc",
     "Candlelight: Coldplay vs. Ed Sheeran": "dvgZkm1xWPE",
