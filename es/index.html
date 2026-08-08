@@ -535,14 +535,14 @@ try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searc
   function resetDateChips(){document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}
   disco.addEventListener('click',function(e){
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
-    if(!(a.hasAttribute('data-fcity')||a.hasAttribute('data-fgenre')||a.hasAttribute('data-fall')||a.hasAttribute('data-ffree'))) return;
+    if(!(a.hasAttribute('data-fmatch')||a.hasAttribute('data-fgenre')||a.hasAttribute('data-fall')||a.hasAttribute('data-ffree'))) return;
     e.preventDefault();
     var already=a.classList.contains('sel');
-    if(genref)genref.value=''; if(cityf)cityf.value=''; if(searchf)searchf.value=''; freeOn=false; dateMode=''; resetDateChips();
+    if(genref)genref.value=''; if(cityf)cityf.value=''; if(searchf)searchf.value=''; freeOn=false; dateMode=''; fArea=null; resetDateChips();
     disco.querySelectorAll('a.sel').forEach(function(z){z.classList.remove('sel');});
     if(!already){
       if(a.hasAttribute('data-fgenre')&&genref){genref.value=a.getAttribute('data-fgenre');}
-      else if(a.hasAttribute('data-fcity')&&cityf){cityf.value=a.getAttribute('data-fcity');}
+      else if(a.hasAttribute('data-fmatch')){fArea=a.getAttribute('data-fmatch').split(',');}
       else if(a.hasAttribute('data-ffree')){freeOn=true;}
       a.classList.add('sel');
     }
