@@ -1,8 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-08",
- "drops": {
-  "Candlelight: Disney Love Songs": "GENERIC — homepage/search/listing: https://feverup.com/en/malaga/candlelight",
-  "Candlelight: Queen vs. ABBA": "WRONG_EVENT — page 'Candlelight: Larga Vida a las Leyendas del Rock - Marbella |' has none of ['queen', 'abba']"
- }
+ "generated": "2026-08-09",
+ "drops": {}
 }
