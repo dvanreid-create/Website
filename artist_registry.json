@@ -1,41 +1,158 @@
 {
-"sergio-dalma": "Sergio Dalma",
-"gente-de-zona": "Gente de Zona",
-"carlos-sadness": "Carlos Sadness",
-"delaossa": "Delaossa",
-"black-coffee": "Black Coffee",
-"alvaro-de-luna": "Álvaro de Luna",
-"k-pop-fever": "K-POP FEVER",
-"solea-morente": "Soleá Morente",
-"underworld": "Underworld",
-"aretha-franklin-sinfonico": "ARETHA FRANKLIN SINFÓNICO",
-"gipsy-kings": "Gipsy Kings",
-"malu": "Malú",
-"noche-movida": "Noche Movida",
-"ivan-ferreiro": "Iván Ferreiro",
-"alejandro-astola": "Alejandro Astola",
-"born-this-way": "BORN THIS WAY",
-"vanesa-martin": "Vanesa Martín",
-"lola-indigo": "Lola Indigo",
-"antonio-orozco": "Antonio Orozco",
-"omega-30-aniversario": "Omega 30 Aniversario",
-"taburete": "Taburete",
-"luna-sur-tardeo": "Luna Sur Tardeo",
-"antonito-molina": "Antoñito Molina",
-"antonio-jose": "Antonio José",
-"nina-pastori": "Niña Pastori",
-"galvan-real": "Galván Real",
-"noche-flamenca-del-compas": "NOCHE FLAMENCA DEL COMPÁS",
-"inna-echoes-tour": "INNA Echoes Tour",
-"pastora-soler": "Pastora Soler",
-"la-plazuela": "La Plazuela",
-"sidecars": "Sidecars",
-"gloria-trevi": "Gloria Trevi",
-"nile-rodgers-chic": "Nile Rodgers & CHIC",
-"miss-caffeina": "Miss Caffeina",
-"kream-ice-land-by-alvama-ice": "Kream Ice Land by Alvama Ice",
-"the-hill-frequencies": "The Hill Frequencies",
-"julio-botti-quartet": "Julio Botti Quartet",
-"lucas-herrera-trio": "Lucas Herrera Trío",
-"the-blue-stompers-jump-review": "The Blue Stompers Jump Review"
+"sergio-dalma": {
+"name": "Sergio Dalma",
+"mles": 62.0
+},
+"gente-de-zona": {
+"name": "Gente de Zona",
+"mles": 57.2
+},
+"carlos-sadness": {
+"name": "Carlos Sadness",
+"mles": 0.0
+},
+"delaossa": {
+"name": "Delaossa",
+"mles": 51.2
+},
+"black-coffee": {
+"name": "Black Coffee",
+"mles": 46.7
+},
+"alvaro-de-luna": {
+"name": "Álvaro de Luna",
+"mles": 0.0
+},
+"k-pop-fever": {
+"name": "K-POP FEVER",
+"mles": 61.3
+},
+"solea-morente": {
+"name": "Soleá Morente",
+"mles": 46.7
+},
+"underworld": {
+"name": "Underworld",
+"mles": 0.0
+},
+"aretha-franklin-sinfonico": {
+"name": "ARETHA FRANKLIN SINFÓNICO",
+"mles": 0.0
+},
+"gipsy-kings": {
+"name": "Gipsy Kings",
+"mles": 52.5
+},
+"malu": {
+"name": "Malú",
+"mles": 58.6
+},
+"noche-movida": {
+"name": "Noche Movida",
+"mles": 52.6
+},
+"ivan-ferreiro": {
+"name": "Iván Ferreiro",
+"mles": 49.0
+},
+"alejandro-astola": {
+"name": "Alejandro Astola",
+"mles": 55.8
+},
+"born-this-way": {
+"name": "BORN THIS WAY",
+"mles": 47.3
+},
+"vanesa-martin": {
+"name": "Vanesa Martín",
+"mles": 54.9
+},
+"lola-indigo": {
+"name": "Lola Indigo",
+"mles": 0.0
+},
+"antonio-orozco": {
+"name": "Antonio Orozco",
+"mles": 52.1
+},
+"omega-30-aniversario": {
+"name": "Omega 30 Aniversario",
+"mles": 58.0
+},
+"taburete": {
+"name": "Taburete",
+"mles": 55.0
+},
+"luna-sur-tardeo": {
+"name": "Luna Sur Tardeo",
+"mles": 55.8
+},
+"antonito-molina": {
+"name": "Antoñito Molina",
+"mles": 50.5
+},
+"antonio-jose": {
+"name": "Antonio José",
+"mles": 0.0
+},
+"nina-pastori": {
+"name": "Niña Pastori",
+"mles": 46.7
+},
+"galvan-real": {
+"name": "Galván Real",
+"mles": 0.0
+},
+"noche-flamenca-del-compas": {
+"name": "NOCHE FLAMENCA DEL COMPÁS",
+"mles": 43.9
+},
+"inna-echoes-tour": {
+"name": "INNA Echoes Tour",
+"mles": 0.0
+},
+"pastora-soler": {
+"name": "Pastora Soler",
+"mles": 46.7
+},
+"la-plazuela": {
+"name": "La Plazuela",
+"mles": 43.9
+},
+"sidecars": {
+"name": "Sidecars",
+"mles": 0.0
+},
+"gloria-trevi": {
+"name": "Gloria Trevi",
+"mles": 0.0
+},
+"nile-rodgers-chic": {
+"name": "Nile Rodgers & CHIC",
+"mles": 0.0
+},
+"miss-caffeina": {
+"name": "Miss Caffeina",
+"mles": 0.0
+},
+"kream-ice-land-by-alvama-ice": {
+"name": "Kream Ice Land by Alvama Ice",
+"mles": 0.0
+},
+"the-hill-frequencies": {
+"name": "The Hill Frequencies",
+"mles": 0.0
+},
+"julio-botti-quartet": {
+"name": "Julio Botti Quartet",
+"mles": 0.0
+},
+"lucas-herrera-trio": {
+"name": "Lucas Herrera Trío",
+"mles": 0.0
+},
+"the-blue-stompers-jump-review": {
+"name": "The Blue Stompers Jump Review",
+"mles": 0.0
+}
 }

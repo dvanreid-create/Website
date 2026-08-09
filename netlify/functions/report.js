@@ -98,8 +98,8 @@ function page(d) {
 </style></head><body>
 <div class="sheet">
   <div class="top">
-    <img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
-    <div class="rt"><h1>MLE SCORE</h1><div class="sub">Málaga Live Event Score${d.issued ? " · " + esc(d.issued) : ""}</div><div class="ref">Ref ${esc(d.ref)}</div></div>
+    <a href="https://malagalivepulse.com/"><img src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live"></a>
+    <div class="rt"><h1>MLE SCORE</h1><div class="sub">Málaga Live Event (MLE) Score${d.issued ? " · " + esc(d.issued) : ""}</div><div class="ref">Ref ${esc(d.ref)}</div></div>
   </div>
   <hr>
   <div class="lbl">Event under consideration</div>
@@ -130,7 +130,7 @@ function page(d) {
   <div class="sec"><h3>Recommendation</h3><div class="rec">${esc(d.recommendation)}</div></div>
   <div class="foot">
     Directional demand estimate, not a guaranteed attendance or revenue forecast. Projected draw is a modelled range, not a booking guarantee. Scores are rankings until calibrated against logged outcomes.<br>
-    <b>Málaga Live · malagalivepulse.com</b>
+    <b>Málaga Live · <a href="https://malagalivepulse.com/" style="color:inherit">malagalivepulse.com</a></b>
   </div>
 </div>
 <button class="printbtn" onclick="window.print()">Save as PDF / Print</button>
