@@ -958,9 +958,9 @@
    "acts": {}
   },
   "sala trinchera": {
-   "source": "https://salatrinchera.com/proximos-eventos/",
+   "source": "https://mutick.com/v/sala-la-trinchera",
    "complete": false,
-   "note": "Sala Trinchera, ~650-cap independent venue in Málaga. Regular concert programme. Website JS-rendered (returned empty page). Next confirmed event: Gonzalo Hermida Oct 2026 (outside window). Added 2026-07-27 as stub.",
+   "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep.",
    "acts": {}
   },
   "clarence jazz club": {
