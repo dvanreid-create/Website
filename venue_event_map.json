@@ -1193,7 +1193,7 @@
   "torremolinoscultura": {
    "complete": true,
    "source": "https://torremolinoscultura.es/eventos/getforcategory/musica",
-   "note": "Ayuntamiento de Torremolinos' official agenda (/eventos/getforcategory/musica). complete:true => BACKFILL-INJECTED so the town-hall events appear (the sweep only ever returned Clarence). RULE (DLR 2026-08-10): list ONLY events with a genuine, verifiable music genre (Jazz, Classical, Rock, etc.). Torremolinos files non-music under 'Música' too: 'Loco Bongo' is an interactive game/comedy show (no music genre) and 'Furor, The Show' is a live TV game show — BOTH EXCLUDED. Do not re-add them. Each act carries its own venue/time/price/genre; city = Torremolinos; source = torremolinoscultura.es (this is what tags them 'Ayuntamiento').",
+   "note": "Ayuntamiento de Torremolinos' official agenda (/eventos/getforcategory/musica). complete:true => BACKFILL-INJECTED so the town-hall events appear (the sweep only ever returned Clarence). RULE (DLR 2026-08-10): include an event only if it maps to a genre in our list (Jazz, Classical, Rock & Indie, Pop, Urban, Mixed, ...). 'Loco Bongo' (interactive game/comedy show) has NO music genre -> EXCLUDED. 'Furor, The Show' is a live TV music game show -> INCLUDED as Pop. 'Bresh' mixes reggaeton/pop/cumbia/house -> genre 'Mixed'. Each act carries its own venue/time/price/genre; city = Torremolinos; source = torremolinoscultura.es (this tags them 'Ayuntamiento').",
    "acts": {
     "alberto raya": {
      "url": "https://torremolinoscultura.es/es/eventos/detail/summer-jazz-festival-alberto-raya-mkoy",
@@ -1238,6 +1238,17 @@
      "paid_free": "Paid",
      "price": "Desde €15",
      "why": "DJ party, pop/reggaeton/cumbia, 18:30-01:00, from €15. JUDGEMENT CALL: its own page says 'No es una discoteca, no es un festival' - it is a DJ night, not a billed live act. Kept because it is music-led and ticketed; delete this act to drop it."
+    },
+    "furor the show": {
+     "url": "https://torremolinoscultura.es/es/eventos/detail/furor-the-show-bulz",
+     "date": "30/08/2026",
+     "time": "19:00",
+     "venue": "Palacio de Congresos de Torremolinos",
+     "venue_name": "Furor, The Show",
+     "genre": "Pop",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "why": "Ayuntamiento de Torremolinos — 'Furor, The Show', el concurso musical de televisión llevado al directo, presentado por Alonso Caparrós."
     }
    }
   },
