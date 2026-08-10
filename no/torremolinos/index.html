@@ -457,7 +457,7 @@ sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
 window.addEventListener('resize',sizeMltvChips);
 try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searchf.value=_qv;}}catch(e){}
-try{var _th=new URLSearchParams(location.search).get('townhall');if(_th){var _ths=slug(_th);thOn=true;fArea=_ths?[_ths]:null;var _thp=document.querySelector('.wrap.discovery a[data-fth="'+_ths+'"]');if(_thp)_thp.classList.add('sel');}}catch(e){}
+try{var _th=new URLSearchParams(location.search).get('townhall');if(_th){thOn=true;var _thl=_th.toLowerCase();var _isall=(_thl==='all'||_thl==='1');fArea=_isall?null:_th.split(',').map(function(x){return slug(x);}).filter(Boolean);var _sel=_isall?'all':_th;var _thp=document.querySelector('.wrap.discovery a[data-fth="'+_sel+'"]');if(_thp)_thp.classList.add('sel');}}catch(e){}
 /* footer discovery pills -> DUAL filter: area + genre + free combine; click a selected pill to clear just that one */
 (function(){var disco=document.querySelector('.wrap.discovery'); if(!disco) return;
   function resetDateChips(){document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}
@@ -475,7 +475,7 @@ try{var _th=new URLSearchParams(location.search).get('townhall');if(_th){var _th
     }else if(isTH){
       clr('a[data-fth].sel'); clr('a[data-fmatch].sel'); clr('a[data-fall].sel');
       if(was){thOn=false; fArea=null; if(cityf)cityf.value=''; cityChip(false);}
-      else{thOn=true; fArea=(a.getAttribute('data-fth')||'').split(','); a.classList.add('sel');}
+      else{thOn=true; var _thv=a.getAttribute('data-fth')||''; fArea=(_thv&&_thv!=='all')?_thv.split(','):null; a.classList.add('sel');}
     }else if(isCity){
       clr('a[data-fmatch].sel'); clr('a[data-fall].sel');
       if(was){fArea=null; if(cityf)cityf.value=''; cityChip(false);}
