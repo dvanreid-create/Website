@@ -1090,6 +1090,11 @@
      "why": "DJ party, pop/reggaeton/cumbia, 18:30-01:00, from €15. JUDGEMENT CALL: its own page says 'No es una discoteca, no es un festival' - it is a DJ night, not a billed live act. Kept because it is music-led and ticketed; delete this act to drop it."
     }
    }
+  },
+  "edgar neville": {
+   "complete": false,
+   "source": "https://www.mientrada.net/eventos/categoria/auditorio-edgar-neville/",
+   "note": "Added 2026-08-10 (Sofia). Auditorio Edgar Neville, C/ Pacifico 54, Malaga city - the Diputacion de Malaga's own 600-seat auditorium. mientrada.net is its OFFICIAL ticketer (the Junta's Agenda Cultural de Andalucia venue page links there under 'Comprar entradas'). complete:FALSE ON PURPOSE. We do NOT hold this venue's full bill, and complete:true would arm the phantom gate - build_site would then DELETE any Edgar Neville event the sweep legitimately found but that we had not pre-listed. False = venue recognised + links upgradeable, nothing dropped, nothing injected. Flip to true only if we ever mirror its whole programme. CURATION WARNING: this is a mostly INSTITUTIONAL room - congresses, award ceremonies, short-film weeks, book presentations, conferences - with concerts as a minority of the bill. Most of what it programmes is NOT live music. Same trap as the Torremolinos 'Musica' feed. VERIFIED 2026-08-10: nothing on sale anywhere - mientrada venue page and category page both return 'No se ha encontrado ningun resultado', the per-venue iCal export is empty, and taquilla.com says 'No hemos encontrado entradas a la venta'. So there is nothing to list today; this entry plus the source_calendar checklist exist so the first concert they DO announce is picked up automatically. NOTE: malaga.es (Diputacion agenda) returns an EMPTY body to our fetcher, so it cannot be relied on as a scrape target - mientrada.net is the workable source."
   }
  }
 }
