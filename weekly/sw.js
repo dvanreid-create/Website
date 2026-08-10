@@ -1,6 +1,6 @@
 // Málaga Live Weekly — minimal service worker (enables install; never caches the newsletter
 // so the icon always opens the CURRENT week). Only the /weekly/ shell is cached for offline.
-const C = "mlweekly-shell-v3";
+const C = "mlweekly-shell-v4";
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(C).then(c => c.addAll(["/weekly/", "/weekly/index.html"])));
   self.skipWaiting();
