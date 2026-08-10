@@ -53,27 +53,27 @@
 },
 "ivan-ferreiro": {
 "name": "Iván Ferreiro",
-"mles": 49.0
+"mles": 55.0
 },
 "alejandro-astola": {
 "name": "Alejandro Astola",
-"mles": 55.8
+"mles": 47.2
 },
 "born-this-way": {
 "name": "BORN THIS WAY",
-"mles": 47.3
+"mles": 47.9
 },
 "vanesa-martin": {
 "name": "Vanesa Martín",
-"mles": 54.9
+"mles": 60.9
 },
 "lola-indigo": {
-"name": "Lola Indigo",
-"mles": 0.0
+"name": "Lola Índigo",
+"mles": 57.0
 },
 "antonio-orozco": {
 "name": "Antonio Orozco",
-"mles": 52.1
+"mles": 64.4
 },
 "omega-30-aniversario": {
 "name": "Omega 30 Aniversario",
@@ -81,11 +81,11 @@
 },
 "taburete": {
 "name": "Taburete",
-"mles": 55.0
+"mles": 57.7
 },
 "luna-sur-tardeo": {
 "name": "Luna Sur Tardeo",
-"mles": 55.8
+"mles": 51.7
 },
 "antonito-molina": {
 "name": "Antoñito Molina",
@@ -93,11 +93,11 @@
 },
 "antonio-jose": {
 "name": "Antonio José",
-"mles": 0.0
+"mles": 58.6
 },
 "nina-pastori": {
 "name": "Niña Pastori",
-"mles": 46.7
+"mles": 49.1
 },
 "galvan-real": {
 "name": "Galván Real",
@@ -113,11 +113,11 @@
 },
 "pastora-soler": {
 "name": "Pastora Soler",
-"mles": 46.7
+"mles": 61.6
 },
 "la-plazuela": {
 "name": "La Plazuela",
-"mles": 43.9
+"mles": 61.0
 },
 "sidecars": {
 "name": "Sidecars",
@@ -125,11 +125,11 @@
 },
 "gloria-trevi": {
 "name": "Gloria Trevi",
-"mles": 0.0
+"mles": 58.8
 },
 "nile-rodgers-chic": {
 "name": "Nile Rodgers & CHIC",
-"mles": 0.0
+"mles": 58.6
 },
 "miss-caffeina": {
 "name": "Miss Caffeina",
@@ -149,10 +149,50 @@
 },
 "lucas-herrera-trio": {
 "name": "Lucas Herrera Trío",
-"mles": 0.0
+"mles": 47.3
 },
 "the-blue-stompers-jump-review": {
 "name": "The Blue Stompers Jump Review",
+"mles": 47.3
+},
+"inna": {
+"name": "INNA",
 "mles": 0.0
+},
+"i-noche-flamenca-del-compas": {
+"name": "I Noche Flamenca del Compás",
+"mles": 43.9
+},
+"soul-on-fire": {
+"name": "SOUL ON FIRE",
+"mles": 47.3
+},
+"sun-thunder-26": {
+"name": "Sun & Thunder 26",
+"mles": 56.1
+},
+"kream-feat-alvama-ice": {
+"name": "KREAM feat. Alvama Ice",
+"mles": 0.0
+},
+"damian-cordoba": {
+"name": "Damián Córdoba",
+"mles": 0.0
+},
+"thomas-helmig": {
+"name": "Thomas Helmig",
+"mles": 0.0
+},
+"the-jazz-room-a-journey-to-the-heart-of-new-orleans": {
+"name": "The Jazz Room: A Journey to the Heart of New Orleans",
+"mles": 0.0
+},
+"revive-a-queen": {
+"name": "Revive a Queen",
+"mles": 47.9
+},
+"chambao": {
+"name": "Chambao",
+"mles": 62.5
 }
 }

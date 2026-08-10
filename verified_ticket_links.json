@@ -1,6 +1,6 @@
 {
-  "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below.",
-  "generated": "2026-08-08",
+  "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run.",
+  "generated": "2026-08-10",
   "events": {
     "gente de zona|2026-08-05": {
       "act": "Gente de Zona",
@@ -620,6 +620,34 @@
       "expect": [
         "sidecars",
         "acustico"
+      ]
+    },
+    "damián córdoba|2026-09-03": {
+      "act": "Damián Córdoba",
+      "date": "2026-09-03",
+      "url": "https://movingtickets.com/Entradas-Damian-Cordoba-concierto-Sala-Trinchera-Malaga/",
+      "expect": [
+        "damián",
+        "córdoba",
+        "cordoba"
+      ]
+    },
+    "thomas helmig|2026-09-04": {
+      "act": "Thomas Helmig",
+      "date": "2026-09-04",
+      "url": "https://www.ticketmaster.dk/event/thomas-helmig-malaga-billetter/1162665300",
+      "expect": [
+        "thomas",
+        "helmig"
+      ]
+    },
+    "thomas helmig|2026-09-05": {
+      "act": "Thomas Helmig",
+      "date": "2026-09-05",
+      "url": "https://www.ticketmaster.dk/event/thomas-helmig-malaga-billetter/281256954",
+      "expect": [
+        "thomas",
+        "helmig"
       ]
     }
   },
