@@ -79,7 +79,10 @@
     },
     "love of lesbian": {
      "venue_name": "Love of Lesbian",
-     "genre": "Rock & Indie"
+     "genre": "Rock & Indie",
+     "url": "https://entradas.starlitemarbella.com/event/love-of-lesbian-b1v5y0",
+     "date": "29/08/2026",
+     "time": "22:00"
     },
     "malu": {
      "venue_name": "Malú",
@@ -189,13 +192,20 @@
    }
   },
   "marbella arena": {
-   "source": "https://www.ticketmaster.es/artist/ub40-featuring-ali-campbell-entradas/1145443",
-   "note": "LINK ONLY - no 'complete' flag, so this venue can never delete an event. We hold one verified event page, not Marbella Arena's whole programme. UB40's calendar link pointed at Ticketmaster's ARTIST hub, which lists 20 tour dates worldwide (Keighley, Baltimore, Dublin, Glasgow...) and makes the reader hunt for the Marbella night - on our most prominent tile. Ticketmaster's own artist page gives the event: 16 Jul 2026 20:30, Marbella Arena. NOTE: Ticketmaster says 20:30, our calendar says 20:00.",
+   "source": "https://www.tomaticket.es/es-es/recintos/banus-arena-malaga",
+   "note": "Marbella Arena - the old Puerto Banus bullring, ~6,000 cap. LINK ONLY: no 'complete' flag, so this block can never delete an event. Rewritten 2026-08-10 (Sofia). It previously held ONE act, UB40 16 Jul 2026, long past, and its 'source' was a Ticketmaster ARTIST hub for UB40 rather than any programme page. WARNING - TOMATICKET SPLITS THIS VENUE ACROSS TWO PAGES AND MIS-FILES STARLITE SHOWS INTO ONE OF THEM. /recintos/banus-arena-malaga is the genuine Marbella Arena bill (UB40, Faithless, Kaiser Chiefs, Two Door Cinema Club, Inna). /recintos/auditorio-marbella-arena-malaga is CONTAMINATED: it lists Nina Pastori 21 Aug and Love Of Lesbian 29 Aug as Marbella Arena, but both are STARLITE shows - Love Of Lesbian's own tomaticket page sells via entradas.starlitemarbella.com and names Festival Starlite as the related artist. Do NOT use the 'auditorio' page as a venue source; it would move Starlite's bill to the wrong venue. Also note turismo.marbella.es publishes Marbella Arena as a SINGLE undated agenda entry ('22 Mayo - 05 Septiembre 2026'), with no per-event dates or links, so the town hall site is not scrapable for this venue - unlike Torremolinos.",
    "acts": {
-    "ub40": {
-     "url": "https://www.ticketmaster.es/event/ub40-ft-ali-campbell-entradas/1665042128",
-     "date": "16/07/2026",
-     "venue_name": "UB40 Ft. Ali Campbell"
+    "inna": {
+     "url": "https://www.tomaticket.es/es-es/entradas-inna-en-marbella",
+     "date": "22/08/2026",
+     "venue_name": "INNA",
+     "genre": "Pop"
+    },
+    "the tribute inspired by abba voyage london": {
+     "url": "https://www.tomaticket.es/es-es/entradas-the-tribute-inspired-by-abba-voyage-london-en-marbella",
+     "date": "29/08/2026",
+     "venue_name": "The Tribute - Inspired by Abba Voyage London",
+     "genre": "Tribute"
     }
    }
   },
