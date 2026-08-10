@@ -659,7 +659,12 @@
     "malagaentradas.com",
     "moonlightmalagafestival.com",
     "portondeljazz.com",
-    "tickets.oneboxtds.com"
+    "tickets.oneboxtds.com",
+    "ticketmaster.es",
+    "ticketmaster.dk",
+    "ingresse.com",
+    "marenostrumfuengirola.janto.es",
+    "movingtickets.com"
   ],
-  "_trusted_hosts_note": "Sellers that block datacentre traffic, whose DEEP links verify_ticket_links.py will ship UNFETCHED rather than gate out. Added 2026-07-31 after four real gigs were dropped as 'UNVERIFIED - host blocks bots' (Alfredo Rodriguez Trio / Woodstock 1969 Tributo / Queen Sinfonico / Rodrigo Cuevas), taking the count 96->92 and removing Alhaurin de la Torre from the site because its only event was the gated one. The per-event `events` baseline below cannot keep up: it needs a fresh browser check for EVERY show, and Benalmadena runs a whole season. GUARDS STILL APPLY: a real 404/410 still fails; a homepage/listing/search URL still fails (portondeljazz.com is listed precisely so its bare-homepage link keeps failing until the venue map upgrades it to a deep link); and these links are reported as OK_TRUSTED_HOST, not OK, so the daily email distinguishes 'taken on trust' from 'confirmed'. ONLY add a host you would vouch for as a real seller. Remove one the moment it starts shipping dead links."
+  "_trusted_hosts_note": "Sellers that block datacentre traffic, whose DEEP links verify_ticket_links.py will ship UNFETCHED rather than gate out. Added 2026-07-31 after four real gigs were dropped as 'UNVERIFIED - host blocks bots' (Alfredo Rodriguez Trio / Woodstock 1969 Tributo / Queen Sinfonico / Rodrigo Cuevas), taking the count 96->92 and removing Alhaurin de la Torre from the site because its only event was the gated one. The per-event `events` baseline below cannot keep up: it needs a fresh browser check for EVERY show, and Benalmadena runs a whole season. GUARDS STILL APPLY: a real 404/410 still fails; a homepage/listing/search URL still fails (portondeljazz.com is listed precisely so its bare-homepage link keeps failing until the venue map upgrades it to a deep link); and these links are reported as OK_TRUSTED_HOST, not OK, so the daily email distinguishes 'taken on trust' from 'confirmed'. ONLY add a host you would vouch for as a real seller. Remove one the moment it starts shipping dead links. | 2026-08-10: added ticketmaster.es, ticketmaster.dk, ingresse.com, marenostrumfuengirola.janto.es, movingtickets.com after a browser pass confirmed 7 real on-sale events (Galván Real, INNA, KREAM, Canela Party 27/28/29, CantaJuego + Thomas Helmig 04-05/09) were being dropped daily as 'host blocks bots' though their deep links are valid. Guards (404/listing still fail; OK_TRUSTED_HOST verdict) still apply. NOTE: ticketmaster /artist/ hubs are listings — keep the venue_event_map upgrades (UB40 pattern) so an artist-hub link is replaced by the event page before it reaches this trust path."
 }
