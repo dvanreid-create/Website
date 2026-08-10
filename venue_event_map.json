@@ -1039,6 +1039,57 @@
    "source": "https://feverup.com/en/malaga/venue/sala-unicaja-de-conciertos-maria-cristina",
    "note": "Added 2026-07-29 (Sofia). Sala Fundación Unicaja Mª Cristina, Calle Marqués de Valdecañas 2, Málaga — 1871 hall built on a 15th-c Franciscan monastery, listed as a monument since 2010 and rated among Spain's best natural acoustics; classical, chamber, choral and acoustic sets, plus its own Oct-May season from Fundación Unicaja. Málaga's SECOND Candlelight venue after Gran Hotel Miramar: Coldplay & Imagine Dragons (532802), Queen vs ABBA (182969), Michael Jackson (701012), Adele (701011), Serrat (129317), Christmas Soundtracks — all Fever-ticketed, so tracked affiliate links already. Several are in fever_scrape's 'verified but beyond the 30-day window' list and will land from ~2026-08-20 onward; added BEFORE they arrive so the rows resolve to a known venue. TWO KEYS, AND THE BARE WORD 'unicaja' IS DELIBERATELY NOT ONE OF THEM. Fever writes 'Sala Fundación Unicaja Mª Cristina' while its own listing pages use 'Sala Unicaja de Conciertos María Cristina', so one key cannot cover both — and a bare 'unicaja' key WOULD ALSO MATCH 'Castillo Sohail - Escenario Unicaja (Marenostrum)', the Fuengirola festival ground. _venue_lookup returns the FIRST key that matches, so a bare 'unicaja' key only resolved Castillo Sohail correctly by accident of dict ordering; re-sorting this file would have silently stolen Castillo Sohail from the 'marenostrum' entry and broken its prefer=eci routing (23 acts, a live revenue path). Hence 'fundacion unicaja' + 'unicaja de conciertos', neither of which appears in the Castillo Sohail string. 'maria cristina' alone is not usable either: it misses Fever's 'Mª' abbreviation. complete:false => NO phantom gate and NOT backfill-eligible. Deliberate: we do not hold this venue's full programme (it runs a long classical season we do not track), so a complete:true entry would DROP any real concert missing from the acts list. Its own season programme (PDF, Oct 2025-May 2026) is at fundacionunicaja.com if we ever want to carry the classical bill too.",
    "acts": {}
+  },
+  "torremolinoscultura": {
+   "complete": true,
+   "source": "https://torremolinoscultura.es/eventos/getforcategory/musica",
+   "note": "Added 2026-08-10 (Sofia). Ayuntamiento de Torremolinos' official agenda. The /eventos/getforcategory/musica endpoint is fully server-rendered, music-filtered, dated, with addresses and per-event deep links - so it is scrapable and safe to hold as complete. complete:true => these acts are BACKFILL-INJECTED, which is the only reason Torremolinos municipal concerts appear at all (the sweep was returning nothing but Clarence Jazz Club). CURATION WARNING: Torremolinos files things under 'Musica' that are NOT live music. Of the 11 music-category events live on 2026-08-10, SEVEN were 'Loco Bongo' - its own page calls it 'formato interactivo, juegos en directo, humor y alta dosis de participacion del publico', an interactive game/comedy show in the 'Plaza Paraiso' cycle that also contains a gastro festival. 'Furor, The Show' is the TV game show staged live, presented by Alonso Caparros. Both were DELIBERATELY EXCLUDED. Do not re-add them from the category feed without reading the detail page. Each act below carries its own venue/time/price because these four sit at THREE different venues.",
+   "acts": {
+    "alberto raya": {
+     "url": "https://torremolinoscultura.es/es/eventos/detail/summer-jazz-festival-alberto-raya-mkoy",
+     "date": "17/08/2026",
+     "time": "21:30",
+     "venue": "Parque de la Batería",
+     "venue_name": "Summer Jazz Festival: Alberto Raya",
+     "genre": "Jazz & Soul",
+     "paid_free": "Free",
+     "price": "Free",
+     "why": "Ayuntamiento de Torremolinos + Clarence Jazz Club. Closing night of the Summer Jazz Festival: pianist Alberto Raya presents 'Texture', flamenco jazz. Page states 'Todos los conciertos son de acceso gratuito'."
+    },
+    "zarzuela agua azucarillos y aguardiente": {
+     "url": "https://torremolinoscultura.es/es/eventos/detail/zarzuela-agua-azucarillos-y-aguardiente-qlyf",
+     "date": "25/08/2026",
+     "time": "21:00",
+     "venue": "Casa de los Navajas",
+     "venue_name": "Zarzuela 'Agua, azucarillos y aguardiente' — Teatro Lírico Andaluz",
+     "genre": "Classical & Candlelight",
+     "paid_free": "Paid",
+     "price": "€10",
+     "why": "III Festival Lírico de Torremolinos. Zarzuela in one act, libretto Ramos Carrión, music Federico Chueca. Two shows, 21:00 and 22:30; unnumbered seats, single price €10, sold at Viajes Pinsapo (Plaza de la Nogalera) - no online ticketing, so the link is the official event page."
+    },
+    "canela party 2026": {
+     "url": "https://torremolinoscultura.es/es/eventos/detail/canela-party-2026-gdnu",
+     "date": "27-29/08/2026",
+     "time": "20:00",
+     "venue": "Plaza de Toros de Torremolinos",
+     "venue_name": "Canela Party 2026",
+     "genre": "Rock & Indie",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "why": "Three-day indie festival. _date_range clamps a run to one row, so this ships as a single 27 Aug entry covering 27-29."
+    },
+    "bresh": {
+     "url": "https://torremolinoscultura.es/es/eventos/detail/bresh-la-fiesta-mas-linda-del-mundo-lvwa",
+     "date": "12/09/2026",
+     "time": "18:30",
+     "venue": "Plaza de Toros de Torremolinos",
+     "venue_name": "Bresh — la fiesta más linda del mundo",
+     "genre": "Urban & Reggaeton",
+     "paid_free": "Paid",
+     "price": "Desde €15",
+     "why": "DJ party, pop/reggaeton/cumbia, 18:30-01:00, from €15. JUDGEMENT CALL: its own page says 'No es una discoteca, no es un festival' - it is a DJ night, not a billed live act. Kept because it is music-led and ticketed; delete this act to drop it."
+    }
+   }
   }
  }
 }
