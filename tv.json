@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Gipsy Kings",
-      "yt": "7qbEt_lSib4",
-      "where": "9 Aug · Castillo Sohail, Fuengirola"
-    },
-    {
       "act": "Malú",
       "yt": "AuMLpOhx6mY",
       "where": "10 Aug · Starlite, Marbella"
@@ -49,6 +44,11 @@
       "act": "Niña Pastori",
       "yt": "nSkUCCSv1YQ",
       "where": "21 Aug · Starlite, Marbella"
+    },
+    {
+      "act": "DJ Snake",
+      "yt": "ixkoVwKQaJg",
+      "where": "21 Aug · Recinto Ferial, Marbella"
     }
   ],
   "thumbs": {
