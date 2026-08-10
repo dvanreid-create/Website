@@ -1193,7 +1193,7 @@
   "torremolinoscultura": {
    "complete": true,
    "source": "https://torremolinoscultura.es/eventos/getforcategory/musica",
-   "note": "Ayuntamiento de Torremolinos' official agenda (/eventos/getforcategory/musica). complete:true => BACKFILL-INJECTED so the town-hall events appear (the sweep only ever returned Clarence). DLR 2026-08-10: list the WHOLE Música feed for the Town-Hall pilot — Loco Bongo (Palacio de Congresos residency) and Furor, The Show are included even though earlier curation excluded them as 'not live music', because the town hall files them under Música and the pill mirrors their own agenda. Each act carries its own venue/time/price/genre. City = Torremolinos; source = torremolinoscultura.es (this is what tags them 'Ayuntamiento').",
+   "note": "Ayuntamiento de Torremolinos' official agenda (/eventos/getforcategory/musica). complete:true => BACKFILL-INJECTED so the town-hall events appear (the sweep only ever returned Clarence). RULE (DLR 2026-08-10): list ONLY events with a genuine, verifiable music genre (Jazz, Classical, Rock, etc.). Torremolinos files non-music under 'Música' too: 'Loco Bongo' is an interactive game/comedy show (no music genre) and 'Furor, The Show' is a live TV game show — BOTH EXCLUDED. Do not re-add them. Each act carries its own venue/time/price/genre; city = Torremolinos; source = torremolinoscultura.es (this is what tags them 'Ayuntamiento').",
    "acts": {
     "alberto raya": {
      "url": "https://torremolinoscultura.es/es/eventos/detail/summer-jazz-festival-alberto-raya-mkoy",
@@ -1238,83 +1238,6 @@
      "paid_free": "Paid",
      "price": "Desde €15",
      "why": "DJ party, pop/reggaeton/cumbia, 18:30-01:00, from €15. JUDGEMENT CALL: its own page says 'No es una discoteca, no es un festival' - it is a DJ night, not a billed live act. Kept because it is music-led and ticketed; delete this act to drop it."
-    },
-    "loco bongo 14 ago": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-nbui",
-     "date": "14/08/2026",
-     "time": "20:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "loco bongo 15 ago": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-hwjm",
-     "date": "15/08/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "loco bongo 22 ago": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-gnpu",
-     "date": "22/08/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "loco bongo 29 ago": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-xanx",
-     "date": "29/08/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "loco bongo 05 sep": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-vslg",
-     "date": "05/09/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "loco bongo 13 sep": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/loco-bongo-sryk",
-     "date": "13/09/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Loco Bongo",
-     "genre": "Urban & Reggaeton",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — ciclo del Palacio de Congresos. Loco Bongo: espectáculo interactivo de música, humor y fiesta."
-    },
-    "furor the show": {
-     "url": "https://torremolinoscultura.es/es/eventos/detail/furor-the-show-bulz",
-     "date": "30/08/2026",
-     "time": "19:00",
-     "venue": "Palacio de Congresos de Torremolinos",
-     "venue_name": "Furor, The Show",
-     "genre": "Pop",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "why": "Ayuntamiento de Torremolinos — 'Furor, The Show', el concurso musical de televisión en directo, presentado por Alonso Caparrós."
     }
    }
   },
