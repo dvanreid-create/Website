@@ -57,6 +57,12 @@
   if(LANGS.indexOf(L)<0)L='en';
   localStorage.setItem('mlweeklylang',L);
   document.documentElement.lang=L;
+  // Opened from the installed badge (standalone): show the newsletter at the TOP LEVEL, not in a
+  // frame. Ticket/calendar sites refuse to load inside a frame, so framed links appear dead; at the
+  // top level they work exactly like opening the newsletter URL directly.
+  if(window.matchMedia('(display-mode:standalone)').matches || window.navigator.standalone===true){
+    location.replace('/assets/newsletter/latest-'+L+'.html?t='+Date.now()); return;
+  }
   var t=STR[L]||STR.en;
   document.getElementById('wkLbl').textContent=t.wk;
   document.getElementById('ib').textContent=t.add;
