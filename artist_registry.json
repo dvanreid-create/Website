@@ -68,7 +68,7 @@
 "mles": 60.9
 },
 "lola-indigo": {
-"name": "Lola Indigo",
+"name": "Lola Índigo",
 "mles": 57.0
 },
 "antonio-orozco": {
@@ -101,7 +101,7 @@
 },
 "galvan-real": {
 "name": "Galván Real",
-"mles": 0.0
+"mles": 70.0
 },
 "noche-flamenca-del-compas": {
 "name": "NOCHE FLAMENCA DEL COMPÁS",
@@ -157,7 +157,7 @@
 },
 "inna": {
 "name": "INNA",
-"mles": 0.0
+"mles": 57.1
 },
 "i-noche-flamenca-del-compas": {
 "name": "I Noche Flamenca del Compás",
@@ -173,7 +173,7 @@
 },
 "kream-feat-alvama-ice": {
 "name": "KREAM feat. Alvama Ice",
-"mles": 0.0
+"mles": 50.5
 },
 "damian-cordoba": {
 "name": "Damián Córdoba",
@@ -197,6 +197,18 @@
 },
 "michael-jackson-tribute": {
 "name": "Michael Jackson Tribute",
+"mles": 0.0
+},
+"de-la-alhambra-a-aranjuez": {
+"name": "De la Alhambra a Aranjuez",
+"mles": 49.3
+},
+"disne-y": {
+"name": "Disne-y",
+"mles": 49.3
+},
+"zarzuela-agua-azucarillos-y-aguardiente": {
+"name": "Zarzuela 'Agua, azucarillos y aguardiente'",
 "mles": 0.0
 }
 }

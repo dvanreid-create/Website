@@ -18,14 +18,14 @@
    "headBottom": true,
    "expires": "2026-08-10",
    "sub": {
-    "en": "Mon 10 Aug · Auditorio Starlite · Marbella",
-    "es": "Lun 10 ago · Auditorio Starlite · Marbella",
-    "de": "Mo 10 Aug · Auditorio Starlite · Marbella",
-    "fr": "lun. 10 août · Auditorio Starlite · Marbella",
-    "sv": "mån 10 aug · Auditorio Starlite · Marbella",
-    "no": "man 10 aug · Auditorio Starlite · Marbella",
-    "da": "man 10 aug · Auditorio Starlite · Marbella",
-    "fi": "ma 10 elok. · Auditorio Starlite · Marbella"
+    "en": "Mon 10 Aug · Starlite Occident · Marbella",
+    "es": "Lun 10 ago · Starlite Occident · Marbella",
+    "de": "Mo 10 Aug · Starlite Occident · Marbella",
+    "fr": "lun. 10 août · Starlite Occident · Marbella",
+    "sv": "mån 10 aug · Starlite Occident · Marbella",
+    "no": "man 10 aug · Starlite Occident · Marbella",
+    "da": "man 10 aug · Starlite Occident · Marbella",
+    "fi": "ma 10 elok. · Starlite Occident · Marbella"
    },
    "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-malu-starlite-occident-2026-marbella%2F",
    "cta": {
@@ -42,7 +42,7 @@
   {
    "photo": "https://images.pexels.com/photos/7271146/pexels-photo-7271146.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(232,102,42,.42)",
-   "expires": null,
+   "expires": "2026-08-21",
    "tag": {
     "en": "★ Top pick this week",
     "es": "★ Top de la semana",
@@ -64,7 +64,7 @@
     "da": "fre 21 aug · Marenostrum Fuengirola",
     "fi": "pe 21 elok. · Marenostrum Fuengirola"
    },
-   "url": null,
+   "url": "https://marenostrumfuengirola.janto.es/espectaculo/galvan-real--gira-10º-aniversario/GALVAN2026",
    "cta": {
     "en": "Tickets →",
     "es": "Entradas →",
@@ -375,45 +375,6 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/7x4sShxhE38/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Joan Manuel Serrat",
-   "headBottom": true,
-   "expires": "2026-08-15",
-   "sub": {
-    "en": "Sat 15 Aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 15 ago · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 15 Aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 15 août · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 15 elok. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656279&u=https%3A%2F%2Ffeverup.com%2Fm%2F656279&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "https://i.ytimg.com/vi/dvgZkm1xWPE/hqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -431,14 +392,14 @@
    "headBottom": true,
    "expires": "2026-08-21",
    "sub": {
-    "en": "Fri 21 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Vie 21 ago · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Fr 21 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "ven. 21 août · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "pe 21 elok. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+    "en": "Fri 21 Aug · Anantara Villa Padierna Palace · Benahavís",
+    "es": "Vie 21 ago · Anantara Villa Padierna Palace · Benahavís",
+    "de": "Fr 21 Aug · Anantara Villa Padierna Palace · Benahavís",
+    "fr": "ven. 21 août · Anantara Villa Padierna Palace · Benahavís",
+    "sv": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "no": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "da": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "fi": "pe 21 elok. · Anantara Villa Padierna Palace · Benahavís"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=587458&u=https%3A%2F%2Ffeverup.com%2Fm%2F587458&intsrc=CATF_15532",
    "cta": {
@@ -509,55 +470,16 @@
    "headBottom": true,
    "expires": "2026-08-22",
    "sub": {
-    "en": "Sat 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 22 ago · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 22 août · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 22 elok. · Salón Real del Gran Hotel Miramar · Málaga"
+    "en": "Sat 22 Aug · Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643698&u=https%3A%2F%2Ffeverup.com%2Fm%2F643698&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "https://images.pexels.com/photos/27874607/pexels-photo-27874607.jpeg?auto=compress&cs=tinysrgb&w=800",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Disney Love Songs",
-   "headBottom": true,
-   "expires": "2026-08-23",
-   "sub": {
-    "en": "Sun 23 Aug · Salón Real, Gran Hotel Miramar · Málaga",
-    "es": "Dom 23 ago · Salón Real, Gran Hotel Miramar · Málaga",
-    "de": "So 23 Aug · Salón Real, Gran Hotel Miramar · Málaga",
-    "fr": "dim. 23 août · Salón Real, Gran Hotel Miramar · Málaga",
-    "sv": "sön 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
-    "no": "søn 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
-    "da": "søn 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
-    "fi": "su 23 elok. · Salón Real, Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://feverup.com/en/malaga/candlelight",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
