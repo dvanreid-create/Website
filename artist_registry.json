@@ -177,11 +177,11 @@
 },
 "damian-cordoba": {
 "name": "Damián Córdoba",
-"mles": 0.0
+"mles": 45.0
 },
 "thomas-helmig": {
 "name": "Thomas Helmig",
-"mles": 0.0
+"mles": 55.6
 },
 "the-jazz-room-a-journey-to-the-heart-of-new-orleans": {
 "name": "The Jazz Room: A Journey to the Heart of New Orleans",
@@ -194,5 +194,9 @@
 "chambao": {
 "name": "Chambao",
 "mles": 62.5
+},
+"michael-jackson-tribute": {
+"name": "Michael Jackson Tribute",
+"mles": 0.0
 }
 }
