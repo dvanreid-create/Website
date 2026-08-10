@@ -957,12 +957,6 @@
    "note": "Teatro Echegaray, sister venue to Teatro Cervantes, managed by Procultura Málaga (same website). Hosts flamenco, jazz cycles, contemporary dance. JS-rendered site. No in-window ticketed events confirmed. Added 2026-07-27 as stub.",
    "acts": {}
   },
-  "sala trinchera": {
-   "source": "https://mutick.com/v/sala-la-trinchera",
-   "complete": false,
-   "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep.",
-   "acts": {}
-  },
   "clarence jazz club": {
    "source": "https://www.clarencejazzclub.com/",
    "complete": false,
@@ -1095,6 +1089,31 @@
    "complete": false,
    "source": "https://www.mientrada.net/eventos/categoria/auditorio-edgar-neville/",
    "note": "Added 2026-08-10 (Sofia). Auditorio Edgar Neville, C/ Pacifico 54, Malaga city - the Diputacion de Malaga's own 600-seat auditorium. mientrada.net is its OFFICIAL ticketer (the Junta's Agenda Cultural de Andalucia venue page links there under 'Comprar entradas'). complete:FALSE ON PURPOSE. We do NOT hold this venue's full bill, and complete:true would arm the phantom gate - build_site would then DELETE any Edgar Neville event the sweep legitimately found but that we had not pre-listed. False = venue recognised + links upgradeable, nothing dropped, nothing injected. Flip to true only if we ever mirror its whole programme. CURATION WARNING: this is a mostly INSTITUTIONAL room - congresses, award ceremonies, short-film weeks, book presentations, conferences - with concerts as a minority of the bill. Most of what it programmes is NOT live music. Same trap as the Torremolinos 'Musica' feed. VERIFIED 2026-08-10: nothing on sale anywhere - mientrada venue page and category page both return 'No se ha encontrado ningun resultado', the per-venue iCal export is empty, and taquilla.com says 'No hemos encontrado entradas a la venta'. So there is nothing to list today; this entry plus the source_calendar checklist exist so the first concert they DO announce is picked up automatically. NOTE: malaga.es (Diputacion agenda) returns an EMPTY body to our fetcher, so it cannot be relied on as a scrape target - mientrada.net is the workable source."
+  },
+  "trinchera": {
+   "source": "https://mutick.com/v/sala-la-trinchera",
+   "complete": false,
+   "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep. KEY RENAMED 2026-08-10 'sala trinchera' -> 'trinchera'. _venue_lookup() matches only when the KEY IS A SUBSTRING of the normalised venue name or URL. The venue calls itself 'Sala LA Trinchera', and 'sala trinchera' is NOT a substring of 'sala la trinchera' - so this block could never match anything, no matter what was in it. Bare 'trinchera' matches every spelling and the mutick slug sala-la-trinchera too.",
+   "acts": {
+    "china crisis": {
+     "url": "https://mutick.com/e/entradas-china-crisis-malaga-2",
+     "date": "17/09/2026",
+     "venue_name": "China Crisis (UK)",
+     "genre": "Pop"
+    },
+    "the silencers": {
+     "url": "https://mutick.com/e/entradas-the-silencers-malaga-2",
+     "date": "15/10/2026",
+     "venue_name": "The Silencers (UK)",
+     "genre": "Rock & Indie"
+    },
+    "clearwater creedence revival": {
+     "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
+     "date": "29/11/2026",
+     "venue_name": "Clearwater Creedence Revival (UK&USA)",
+     "genre": "Tribute"
+    }
+   }
   }
  }
 }
