@@ -448,6 +448,7 @@ sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
 window.addEventListener('resize',sizeMltvChips);
 try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searchf.value=_qv;}}catch(e){}
+try{var _th=new URLSearchParams(location.search).get('townhall');if(_th){var _ths=slug(_th);thOn=true;fArea=_ths?[_ths]:null;var _thp=document.querySelector('.wrap.discovery a[data-fth="'+_ths+'"]');if(_thp)_thp.classList.add('sel');}}catch(e){}
 /* footer discovery pills -> DUAL filter: area + genre + free combine; click a selected pill to clear just that one */
 (function(){var disco=document.querySelector('.wrap.discovery'); if(!disco) return;
   function resetDateChips(){document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}
@@ -455,13 +456,17 @@ try{var _qv=new URLSearchParams(location.search).get('q');if(_qv&&searchf){searc
   function cityChip(on){if(cityf&&cityf.parentNode){cityf.parentNode.classList.toggle('chip-on',on);cityf.parentNode.classList.toggle('chip-off',!on);}}
   disco.addEventListener('click',function(e){
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
-    var isAll=a.hasAttribute('data-fall'),isCity=a.hasAttribute('data-fmatch'),isGen=a.hasAttribute('data-fgenre'),isFree=a.hasAttribute('data-ffree'),isWhen=a.hasAttribute('data-fwhen');
-    if(!(isAll||isCity||isGen||isFree||isWhen)) return;
+    var isAll=a.hasAttribute('data-fall'),isCity=a.hasAttribute('data-fmatch'),isGen=a.hasAttribute('data-fgenre'),isFree=a.hasAttribute('data-ffree'),isWhen=a.hasAttribute('data-fwhen'),isTH=a.hasAttribute('data-fth');
+    if(!(isAll||isCity||isGen||isFree||isWhen||isTH)) return;
     e.preventDefault();
     var was=a.classList.contains('sel');
     if(isAll){
-      if(genref)genref.value=''; if(cityf)cityf.value=''; cityChip(false); if(searchf)searchf.value=''; freeOn=false; dateMode=''; fArea=null; resetDateChips();
+      if(genref)genref.value=''; if(cityf)cityf.value=''; cityChip(false); if(searchf)searchf.value=''; freeOn=false; dateMode=''; fArea=null; thOn=false; resetDateChips();
       clr('a.sel'); a.classList.add('sel');
+    }else if(isTH){
+      clr('a[data-fth].sel'); clr('a[data-fmatch].sel'); clr('a[data-fall].sel');
+      if(was){thOn=false; fArea=null; if(cityf)cityf.value=''; cityChip(false);}
+      else{thOn=true; fArea=(a.getAttribute('data-fth')||'').split(','); a.classList.add('sel');}
     }else if(isCity){
       clr('a[data-fmatch].sel'); clr('a[data-fall].sel');
       if(was){fArea=null; if(cityf)cityf.value=''; cityChip(false);}
