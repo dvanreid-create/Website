@@ -1003,9 +1003,27 @@
   },
   "auditorio jose pernia calderon": {
    "complete": false,
-   "source": "https://feverup.com/m/701689/en",
-   "note": "Venue of Fever plan 701689 'Candlelight Open Air: Tribute to Queen' (Marbella, 5 Sept 2026), which fever_scrape's category-listing fallback will write into the calendar from the 7 Aug 2026 sweep onward (the date it enters the 30-day window). Added 2026-07-28 BEFORE that sweep so the row lands with a known venue rather than an unmapped one. complete:false => NO phantom gate (we do not hold this venue's full bill) and NOT backfill-eligible; link-upgrading only. Fever sells this one directly, so the calendar's ticket link is already the tracked fever.pxf.io affiliate URL and needs no upgrade — this entry exists so the venue is recognised, not to rewrite links. Promote to complete:true ONLY if we ever hold the venue's complete programme.",
-   "acts": {}
+   "source": "https://www.mientrada.net/eventos/categoria/marbella/",
+   "note": "Auditorio Jose Pernia Calderon, Parque de la Constitucion, Marbella - MUNICIPAL open-air auditorium (Ayuntamiento de Marbella / Producciones Lastra). Source fixed 2026-08-10 (Sofia): it used to point at a Fever CANDLELIGHT url, so only Candlelight shows were ever visible and the town hall's own programme was invisible. Real ticketer is mientrada.net; read the MARBELLA CITY feed, which is server-rendered, dated, priced and carries per-event links. complete MUST STAY FALSE. This venue has TWO INDEPENDENT FEEDS - mientrada (municipal) and Fever (Candlelight Open Air, e.g. Tribute to Queen 5 Sep 2026, already live on the site). A complete:true built from mientrada alone would arm the phantom gate and DELETE the Fever Candlelight nights, because they are not on mientrada. Two feeds = never complete.",
+   "acts": {
+    "noches de tango": {
+     "url": "https://www.mientrada.net/evento/marbella-noches-de-tango-2026/",
+     "date": "20/08/2026",
+     "time": "22:00",
+     "paid_free": "Paid",
+     "price": "€25",
+     "venue_name": "Noches de Tango - La Porteña Tango"
+    },
+    "la danza macabra": {
+     "url": "https://www.mientrada.net/evento/marbella-danza-macabra/",
+     "date": "28/08/2026",
+     "time": "21:00",
+     "paid_free": "Paid",
+     "price": "€10",
+     "venue_name": "La Danza Macabra - Duo Bowen",
+     "genre": "Classical & Candlelight"
+    }
+   }
   },
   "zz pub": {
    "complete": true,
@@ -1289,6 +1307,40 @@
      "date": "29/11/2026",
      "venue_name": "Clearwater Creedence Revival (UK&USA)",
      "genre": "Tribute"
+    }
+   }
+  },
+  "teatro ciudad de marbella": {
+   "complete": false,
+   "source": "https://www.mientrada.net/eventos/categoria/marbella/",
+   "note": "Teatro Ciudad de Marbella, Plaza Ramon Martinez 3. Added 2026-08-10 (Sofia) - the venue had NO map entry at all, so the Festival Internacional de Opera de Marbella (Fundacion Jose Banus y Pilar Calvo) was invisible. Ticketer mientrada.net. complete:false - we hold only the opera festival, not the theatre's full year, and a complete:true would delete anything else found there. NOT ADDED: 'A por todas' 22 Aug, a charity PLAY by the Coro y Grupo Teatral Sierra Blanca at Pernia Calderon - theatre, not live music.",
+   "acts": {
+    "nabucco": {
+     "url": "https://www.mientrada.net/evento/festival-opera-marbella-nabucco/",
+     "date": "13/08/2026",
+     "time": "21:00",
+     "paid_free": "Paid",
+     "price": "€45",
+     "venue_name": "Nabucco, de Giuseppe Verdi",
+     "genre": "Classical & Candlelight"
+    },
+    "elixir de amor": {
+     "url": "https://www.mientrada.net/evento/festival-opera-marbella-elixir/",
+     "date": "14/08/2026",
+     "time": "21:00",
+     "paid_free": "Paid",
+     "price": "€45",
+     "venue_name": "Elixir de Amor, de Gaetano Donizetti",
+     "genre": "Classical & Candlelight"
+    },
+    "gala tres tenores": {
+     "url": "https://www.mientrada.net/evento/festival-opera-marbella-gala-3-tenores-2026/",
+     "date": "15/08/2026",
+     "time": "21:00",
+     "paid_free": "Paid",
+     "price": "€30",
+     "venue_name": "Gala Tres Tenores",
+     "genre": "Classical & Candlelight"
     }
    }
   }
