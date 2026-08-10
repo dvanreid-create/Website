@@ -1198,8 +1198,24 @@
   },
   "san pedro alcantara": {
    "complete": false,
-   "source": "https://feverup.com/m/643593/en",
-   "note": "Added 2026-07-29. Recinto Ferial de San Pedro Alcántara, Marbella — big open-air concert ground: Black Coffee (7 Aug, SKU 643593) and 12:XII Festival with DJ Snake (21 Aug, SKU 690555), both Fever-ticketed with tracked links. KEY IS 'san pedro alcantara', NOT 'recinto ferial': 'recinto ferial' would ALSO match 'Recinto Ferial Vélez-Málaga', which is the Dreambeach venue, and cross-wire the two. complete:false => no phantom gate."
+   "source": "https://omasound.es",
+   "note": "Recinto Ferial / Finca de La Caridad, San Pedro Alcantara (Marbella). Source fixed 2026-08-10 (Sofia, from an OMA Sound gig poster): it used to point at a Fever url (feverup.com/m/643593), so ONLY Fever's own events were ever visible here - which is why the 12:XII Festival shows but the entire OMA SOUND summer series never has. OMA SOUND (promoter Tone Guimaraens, run with the Ayuntamiento de Marbella - Juventud) is the renamed Oasisss Marbella Fest, at La Finca de la Caridad since 2023. Tickets at omasound.es. 2026 calendar CONFIRMED BY THE AYUNTAMIENTO's own press release (marbella.es/actualidad/noticias/...oma-sound...): 21 May Reve Festival (Hugel), 1 Aug Bella Festival (Lori Meyers), 2 Aug Techno Flamenco, 8 Aug Modo Perreo, 13 Aug Jardin de las Delicias, 15 Aug Aquellos Anos Locos. A Raule show on 9 Aug was added later and is not in that six. complete MUST STAY FALSE: this venue has TWO INDEPENDENT FEEDS - Fever and OMA Sound - so a complete:true from either alone would arm the phantom gate and delete the other's events. Same trap as Auditorio Jose Pernia Calderon.",
+   "acts": {
+    "jardin de las delicias": {
+     "url": "https://omasound.es",
+     "date": "13/08/2026",
+     "venue_name": "Jardín de las Delicias",
+     "paid_free": "Paid",
+     "price": "Check link"
+    },
+    "aquellos anos locos": {
+     "url": "https://site.fourvenues.com/en/aquellos-anos-locos/events/aquellos-anos-locos-festival---marbella-recinto-san-pedro-alcantara-15-08-2026-YKQI",
+     "date": "15/08/2026",
+     "venue_name": "Aquellos Años Locos",
+     "paid_free": "Paid",
+     "price": "Check link"
+    }
+   }
   },
   "volare": {
    "complete": false,
