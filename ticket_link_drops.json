@@ -1,15 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-10",
- "drops": {
-  "Galván Real – Gira 10º Aniversario": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "INNA – Echoes Tour": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "CANTAJUEGO – EL PAYASO TALLARIN": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Canela Party – Day 1 (Baiuca, Basement, Unknown Mortal Orchestra, Melody's Echo Chamber, Geordie Greep…)": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Canela Party – Day 2 (Mannequin Pussy, High Vis, Rufus T. Firefly, Wavves, La Paloma…)": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Canela Party – Day 3 (Carolina Durante, Deafheaven, Nation of Language, Skegss…)": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "KREAM feat. Alvama Ice": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
-  "Damián Córdoba": "WRONG_EVENT — page 'cartel málaga - Sala TrincheraSala Trinchera' has none of ['damian', 'cordoba']",
-  "Thomas Helmig": "UNVERIFIED — host blocks bots and no matching browser-verified URL"
- }
+ "generated": "2026-08-11",
+ "drops": {}
 }
