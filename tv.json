@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Malú",
-      "yt": "AuMLpOhx6mY",
-      "where": "10 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Iván Ferreiro",
       "yt": "X9_NSL0AXpA",
       "where": "13 Aug · Starlite, Marbella"
@@ -24,6 +19,11 @@
       "act": "Antonio Orozco",
       "yt": "fY39uD93yx4",
       "where": "15 Aug · Castillo Sohail, Fuengirola"
+    },
+    {
+      "act": "Kiki Morente",
+      "yt": "JAg9rshK0TE",
+      "where": "15 Aug · Starlite, Marbella"
     },
     {
       "act": "Taburete",
@@ -52,32 +52,31 @@
     }
   ],
   "thumbs": {
-    "Malú": "AuMLpOhx6mY",
+    "Noche Movida (Fran Perea feat. Cómplices, Marilia, Pablo Carbonell, Rafa Sánchez)": "1RmVcqDjqPM",
     "Iván Ferreiro": "X9_NSL0AXpA",
     "Vanesa Martín": "dkBEKOZWd0k",
-    "Candlelight Open Air: Tribute to Ludovico Einaudi in Marbella": "p-ca1ocriv0",
-    "Candlelight: Queen vs. The Beatles": "fJ9rUzIMcZQ",
-    "Omega 30 Aniversario (Kiki Morente + Lagartija Nick)": "oFvmrW7G8S4",
-    "Candlelight: Tribute to Joan Manuel Serrat": "1qfh-BhVKZc",
+    "Candlelight Open Air: Tribute to Ludovico Einaudi": "p-ca1ocriv0",
+    "Omega 30 Aniversario – Kiki Morente & Lagartija Nick": "JAg9rshK0TE",
     "Taburete": "j8aQseeJMtA",
     "Antoñito Molina": "HKVKSqGWMlU",
     "Antonio José": "9gOfn2qUero",
     "12:XII Festival (DJ Snake)": "ixkoVwKQaJg",
-    "Niña Pastori": "nSkUCCSv1YQ",
     "Candlelight: Coldplay vs. Imagine Dragons": "RB-RcX5DS5A",
-    "INNA Echoes Tour (+ Sak Noel)": "Yz2658gzOuM",
+    "Niña Pastori": "nSkUCCSv1YQ",
+    "Candlelight: Tribute to Phil Collins": "YkADj0TPrJA",
+    "INNA – Echoes Tour": "Yz2658gzOuM",
     "Pastora Soler": "U0_2dnl7U-8",
     "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "XvdtKK-UaE0",
-    "Candlelight: Tribute to Phil Collins": "YkADj0TPrJA",
     "Candlelight: Queen vs. ABBA": "HgzGwKwLmgM",
-    "Candlelight: Disney Love Songs": "axySrE0Kg6k",
     "Gloria Trevi": "NNNXu361M8k",
     "Nile Rodgers & CHIC": "R-v8jbgcthg",
-    "Kream Ice Land by Alvama Ice": "YQwLiLknhDU",
+    "KREAM feat. Alvama Ice": "YQwLiLknhDU",
     "Love of Lesbian": "TqHEvFfLa9Q",
+    "Thomas Helmig": "U6EjPDaLkRA",
+    "Candlelight Open Air: Tribute to Queen": "fJ9rUzIMcZQ",
+    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
-    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Miguel Ríos": "Rm-yZGvcf2U",
     "Miguel Rios": "Rm-yZGvcf2U",
     "Lola Indigo": "1pzK60N1Wqc"
