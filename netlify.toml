@@ -65,3 +65,51 @@
   for = "/apple-touch-icon.png"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# --- Preview/mockup pages: NEVER cache (DLR 2026-08-11). Town-hall pitch previews are opened,
+#     re-opened and edited repeatedly during outreach; a stale browser copy showed the wrong town.
+#     no-store forces a fresh fetch every time so a recipient always sees THEIR preview. -----------
+[[headers]]
+  for = "/torremolinos-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/benalmadena-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/mijas-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/malaga-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/marbella-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/fuengirola-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/estepona-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/nerja-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/alhaurin-de-la-torre-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/clarence-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/zz-pub-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
