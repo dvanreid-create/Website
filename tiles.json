@@ -1,9 +1,9 @@
 {
  "ads": [
   {
-   "photo": "https://i.ytimg.com/vi/MsAAbvwsvK4/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.26)",
-   "pos": "50% 18%",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_Latin_Grammys_2021.jpg?width=800",
+   "tint": "rgba(8,10,16,.24)",
+   "pos": "50% 25%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -37,12 +37,15 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: RGB Productions · CC BY 3.0"
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/aXgSHL7efKg/hqdefault.jpg",
-   "tint": "rgba(8,10,16,.28)",
-   "pos": "50% 28%",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nile_Rodgers_at_SXSW_London_June_2025_1.jpg?width=800",
+   "tint": "rgba(8,10,16,.26)",
+   "pos": "50% 22%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -76,6 +79,9 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: Duk3L1xon · CC BY-SA 4.0"
    }
   },
   {
