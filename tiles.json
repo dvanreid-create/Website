@@ -43,9 +43,9 @@
    }
   },
   {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nile_Rodgers_Coachella_2018_(cropped).jpg?width=800",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/NileRodgersCPBowl240825-24_(54771655201).jpg?width=1000",
    "tint": "rgba(8,10,16,.26)",
-   "pos": "50% 22%",
+   "pos": "66% 24%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -81,7 +81,7 @@
     "fi": "Liput →"
    },
    "credit": {
-    "en": "Photo: Raph_PH · CC BY 2.0"
+    "en": "Photo: Raph_PH · CC BY 4.0"
    }
   },
   {
