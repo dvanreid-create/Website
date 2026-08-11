@@ -1,9 +1,9 @@
 {
  "ads": [
   {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_Latin_Grammys_2021.jpg?width=800",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_en_concierto.jpg?width=1000",
    "tint": "rgba(8,10,16,.24)",
-   "pos": "50% 25%",
+   "pos": "50% 30%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -39,7 +39,7 @@
     "fi": "Liput →"
    },
    "credit": {
-    "en": "Photo: RGB Productions · CC BY 3.0"
+    "en": "Photo: Gloria Trevi · CC BY 2.5"
    }
   },
   {
