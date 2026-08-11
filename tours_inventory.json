@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-10",
-  "count": 83,
+  "generated": "2026-08-11",
+  "count": 81,
   "items": [
     {
       "sku": "194665",
@@ -420,19 +420,6 @@
       "feat": 0
     },
     {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0
-    },
-    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -469,19 +456,6 @@
       "img": "fcc097e6-677b-11ee-b8c6-3ec1f7e12dff",
       "url": "https://feverup.com/m/141765/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
-      "feat": 0
-    },
-    {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
       "feat": 0
     },
     {
