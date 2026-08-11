@@ -13,21 +13,26 @@ body{background:#3a4046;font-family:'Source Sans Pro',Arial,sans-serif;color:#33
 .flag{display:flex;align-items:center;gap:6px;border:1px solid #dcdcdc;border-radius:4px;padding:5px 9px}.flag .f{font-size:15px}.flag .ch{color:#9aa;font-size:11px}
 .titlebar{background:#1477BC;color:#fff;padding:20px 34px;text-align:center;font-family:'Poppins',sans-serif;font-weight:600;font-size:26px;letter-spacing:.4px}
 .section{background:#fff;padding:20px 34px 46px}
-.crumb{font-size:13px;color:#7a8288;margin-bottom:6px}
-/* Málaga Live block (our insertion — no box, single-line statement) */
+.crumb{font-size:13px;color:#7a8288;margin-bottom:10px}
 .ml{padding:8px 30px;margin:22px auto;max-width:1040px}
 .ml .mlrow{display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
 .ml .capgroup{display:flex;flex-direction:column;align-items:center;gap:3px}
 .ml .cap{font-size:16px;font-weight:700;color:#2b2f33;line-height:1.3;white-space:nowrap;text-align:center}
 .ml .mlsub{font-size:13px;font-weight:600;color:#6a7075;text-align:center}
 .ml .mllink{display:block;text-decoration:none}.ml .mllogo{width:300px;max-width:100%;height:auto;display:block}
-.empty{max-width:900px;margin:14px auto 0;border:2px dashed #d7dde1;border-radius:10px;padding:34px 26px;text-align:center;color:#8b9196}
-.empty .ic{font-size:30px;color:#1477BC;opacity:.8}
-.empty p{font-size:14px;margin-top:8px;line-height:1.6}
-@media(max-width:620px){.titlebar{font-size:21px}.ml .cap{white-space:normal}}
+.list{background:#fff;border:1px solid #eef1f3;border-radius:8px;padding:6px 0;box-shadow:0 3px 12px rgba(0,0,0,.05)}
+.ev{display:grid;grid-template-columns:86px 26px 1fr;align-items:center;gap:16px;padding:18px 26px;border-bottom:1px solid #eef1f3}
+.ev:last-child{border-bottom:0}
+.date{text-align:center}.date .d{display:block;font-family:'Poppins',sans-serif;font-weight:600;font-size:30px;color:#1477BC;line-height:1}.date .m{display:block;font-size:12px;letter-spacing:1px;color:#8b9196;text-transform:uppercase;margin-top:3px}
+.tl{display:flex;justify-content:center}.tl .dot{width:12px;height:12px;border-radius:50%;border:2px solid #1477BC;background:#fff}
+.cat{font-size:12px;letter-spacing:1.5px;color:#9aa0a5;text-transform:uppercase;margin-bottom:4px}
+.etitle{font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:#2b2f33;margin-bottom:8px}
+.meta{font-size:13.5px;color:#5c6469;line-height:1.5}.meta .ic{color:#1477BC;margin-right:5px}
+.free{display:inline-block;background:#1477BC;color:#fff;font-size:11px;font-weight:700;letter-spacing:.5px;padding:2px 9px;border-radius:3px;margin-left:8px;text-transform:uppercase;vertical-align:2px}
+@media(max-width:640px){.ev{grid-template-columns:64px 1fr;gap:12px}.tl{display:none}.titlebar{font-size:21px}}
 </style></head>
 <body>
-<div class="note">VISTA PREVIA / MOCKUP — cómo se vería el bloque de <b>Málaga Live</b> en la página de agenda de cultura.nerja.es. El logo es un enlace real: abre la agenda de Nerja filtrada en Málaga Live, en el idioma del visitante.</div>
+<div class="note">VISTA PREVIA / MOCKUP — cómo se vería el bloque de <b>Málaga Live</b> sobre vuestros eventos de música (cultura.nerja.es). El logo es un enlace real: abre la agenda de Nerja filtrada en Málaga Live, en el idioma del visitante.</div>
 <div class="frame">
   <div class="top"><div class="wordmark"><span style="color:#1477BC">Ayuntamiento de Nerja</span><small>CULTURA</small></div><div class="flag"><span class="f">🇪🇸</span><span class="ch">&#9662;</span></div></div>
   <div class="titlebar">Cultura · Agenda</div>
@@ -37,7 +42,7 @@ body{background:#3a4046;font-family:'Source Sans Pro',Arial,sans-serif;color:#33
       <div class="capgroup"><span class="cap">Con un solo clic, consulta nuestra agenda interactiva completa, en 8 idiomas, en:</span><div class="mlsub">(con búsqueda por fecha, evento y artista)</div></div>
       <a class="mllink" href="https://malagalivepulse.com/es/?townhall=nerja" target="_blank" rel="noopener"><img class="mllogo" src="https://malagalivepulse.com/assets/malaga-live-logo-es.png" alt="Málaga Live — agenda interactiva de Nerja en 8 idiomas"></a>
     </div></div>
-    <div class="empty"><div class="ic">&#9834;</div><p>La programación municipal de música en directo se mostrará aquí.<br>Mientras tanto, consulta la agenda interactiva completa de Nerja en Málaga Live (arriba).</p></div>
+    <div class="list"><div class="ev"><div class="date"><span class="d">14</span><span class="m">Septiembre</span></div><div class="tl"><span class="dot"></span></div><div class="info"><div class="cat">MÚSICA · FLAMENCO</div><div class="etitle">Antonio Cortés — apertura de temporada</div><div class="meta"><span class="ic">&#128197;</span> 14 septiembre 2026</div><div class="meta"><span class="ic">&#128205;</span> Centro Cultural Villa de Nerja</div></div></div></div>
   </div>
 </div>
 </body></html>

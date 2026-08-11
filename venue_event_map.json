@@ -1394,6 +1394,89 @@
      "why": "Ayuntamiento de Mijas — espectáculos de flamenco gratuitos en Mijas Pueblo: miércoles en la Plaza Virgen de la Peña y sábados en la Plaza de la Constitución."
     }
    }
+  },
+  "alhaurincultura": {
+   "complete": true,
+   "source": "https://alhaurindelatorre.es/agenda/",
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
+   "acts": {
+    "de plaza en plaza 11/08/2026": {
+     "date": "11/08/2026",
+     "time": "",
+     "venue": "Plazas de Alhaurín de la Torre (al aire libre)",
+     "venue_name": "Ciclo de conciertos al aire libre 'De Plaza en Plaza'",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Free",
+     "url": "https://alhaurindelatorre.es/agenda/ciclo-de-conciertos-al-aire-libre-de-plaza-en-plaza-2026-3/",
+     "why": "Ciclo municipal de conciertos al aire libre."
+    },
+    "de plaza en plaza 25/08/2026": {
+     "date": "25/08/2026",
+     "time": "",
+     "venue": "Plazas de Alhaurín de la Torre (al aire libre)",
+     "venue_name": "Ciclo de conciertos al aire libre 'De Plaza en Plaza'",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Free",
+     "url": "https://alhaurindelatorre.es/agenda/ciclo-de-conciertos-al-aire-libre-de-plaza-en-plaza-2026-4/",
+     "why": "Ciclo municipal de conciertos al aire libre."
+    }
+   }
+  },
+  "marbellacultura": {
+   "complete": true,
+   "source": "https://www.marbella.es/agenda/cultura-y-ensenanza.html",
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
+   "acts": {
+    "noches de tango la portena 20/08/2026": {
+     "date": "20/08/2026",
+     "time": "",
+     "venue": "Auditorio José Pernía Calderón",
+     "venue_name": "Noches de Tango — La Porteña",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.marbella.es/agenda/cultura-y-ensenanza.html",
+     "why": "Concierto de tango en el Auditorio municipal."
+    }
+   }
+  },
+  "esteponacultura": {
+   "complete": true,
+   "source": "https://ayuntamiento.estepona.es/agenda",
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
+   "acts": {
+    "banda municipal el baul de los 70 25/08/2026": {
+     "date": "25/08/2026",
+     "time": "21:00",
+     "venue": "Plaza del Ajedrez",
+     "venue_name": "Banda Municipal: 'El Baúl de los 70' con Serafín Zubiri",
+     "genre": "Pop",
+     "paid_free": "Free",
+     "price": "Free",
+     "url": "https://ayuntamiento.estepona.es/agenda",
+     "why": "Cierre de la temporada de verano de la Banda Municipal de Música."
+    }
+   }
+  },
+  "nerjacultura": {
+   "complete": true,
+   "source": "https://cultura.nerja.es/",
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
+   "acts": {
+    "antonio cortes 14/09/2026": {
+     "date": "14/09/2026",
+     "time": "",
+     "venue": "Centro Cultural Villa de Nerja",
+     "venue_name": "Antonio Cortés — apertura de temporada",
+     "genre": "Flamenco",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.nerja.es/antonio-cortes-inaugura-la-nueva-temporada-del-centro-cultural-con-un-concierto-inedito/",
+     "why": "Voz y piano en la apertura de la nueva temporada del Centro Cultural."
+    }
+   }
   }
  }
 }
