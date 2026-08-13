@@ -422,6 +422,7 @@ function apply(){
   function flush(){if(lbl)lbl.style.display=has?'':'none';}
   kids.forEach(function(el){if(el.classList.contains('daylabel')){flush();lbl=el;has=false;}else if(el.style.display!=='none')has=true;});flush();
   if(cnt)cnt.textContent=(af?mc:totalFuture)+' '+evWord;
+  var _hc=document.getElementById('herocnt');if(_hc)_hc.textContent=(af?mc:totalFuture);
   if(wEl){wEl.textContent=(af&&lo&&hi)?('· '+fmtRange(lo,hi)):wOrig;}
   if(nores)nores.style.display=(af&&mc===0)?'':'none';
   var law=document.getElementById('loadAllWrap');
