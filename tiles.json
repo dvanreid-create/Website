@@ -1,9 +1,9 @@
 {
  "ads": [
   {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_en_concierto.jpg?width=1000",
-   "tint": "rgba(8,10,16,.24)",
-   "pos": "50% 30%",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_2019.jpg",
+   "tint": "rgba(8,10,16,.26)",
+   "pos": "48% 18%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -39,7 +39,7 @@
     "fi": "Liput →"
    },
    "credit": {
-    "en": "Photo: Gloria Trevi · CC BY 2.5"
+    "en": "Photo: PelucheEn ElEstuche · CC BY 3.0"
    }
   },
   {
