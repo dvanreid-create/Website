@@ -1,9 +1,9 @@
 {
  "ads": [
   {
-   "photo": "/assets/tiles/ext-b87ac375349203cc.jpg",
-   "tint": "rgba(8,10,16,.26)",
-   "pos": "48% 18%",
+   "photo": "/assets/tiles/ext-dba83a465dd1e350.jpg",
+   "tint": "rgba(8,10,16,.28)",
+   "pos": "50% 14%",
    "ribbon": {
     "en": "Marquee event",
     "es": "Evento estrella",
@@ -39,7 +39,7 @@
     "fi": "Liput →"
    },
    "credit": {
-    "en": "Photo: PelucheEn ElEstuche · CC BY 3.0"
+    "en": "Photo: Pedro Hernandez · CC BY-SA 4.0"
    }
   },
   {
