@@ -1,7 +1,7 @@
 {
  "ads": [
   {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gloria_Trevi_2019.jpg",
+   "photo": "/assets/tiles/ext-b87ac375349203cc.jpg",
    "tint": "rgba(8,10,16,.26)",
    "pos": "48% 18%",
    "ribbon": {
@@ -43,7 +43,7 @@
    }
   },
   {
-   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/NileRodgersCPBowl240825-24_%2854771655201%29.jpg?width=1000",
+   "photo": "/assets/tiles/ext-60e90041434878cd.jpg",
    "tint": "rgba(8,10,16,.26)",
    "pos": "66% 24%",
    "ribbon": {
@@ -85,7 +85,7 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/7271146/pexels-photo-7271146.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "photo": "/assets/tiles/ext-2abaa6fbe13cb63c.jpg",
    "tint": "rgba(232,102,42,.42)",
    "expires": "2026-08-21",
    "tag": {
@@ -122,7 +122,7 @@
    }
   },
   {
-   "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
+   "logo": "/assets/tiles/ext-0b8921299b981691.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
    "name": "ZZ PUB",
@@ -420,7 +420,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/dvgZkm1xWPE/hqdefault.jpg",
+   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -459,7 +459,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/eUDVUZZyA0M/hqdefault.jpg",
+   "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -498,7 +498,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/wuvtoyVi7vY/hqdefault.jpg",
+   "photo": "/assets/tiles/ext-347e640f81130d31.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -537,7 +537,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/hqdefault.jpg",
+   "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -576,7 +576,7 @@
    }
   },
   {
-   "photo": "https://i.ytimg.com/vi/7fwhRl1f-Hg/hqdefault.jpg",
+   "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -615,7 +615,7 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/2296100/pexels-photo-2296100.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -654,7 +654,7 @@
    }
   },
   {
-   "photo": "https://images.pexels.com/photos/7095724/pexels-photo-7095724.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
