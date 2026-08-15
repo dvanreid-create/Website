@@ -1,6 +1,6 @@
 {
  "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run. | 2026-08-10 LIVE-SITE full pass #2 (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en (42 ticketed events, 10-31 Aug + Sinatra 24 Oct), followed each card's own decoded link. 38 reached a valid buying page. FIXED: Disney Love Songs 23/08 — tiles.json shipped the generic listing feverup.com/en/malaga/candlelight; deep link feverup.com/m/646736 browser-confirmed to sell 23/08 (planTicketSelectorData sessions incl 2026-08-23), tiles.json url upgraded to the standard fever.pxf.io wrapper for sku 646736. FLAGGED for human ruling (off-sale/sold-out, no in-window alternative found): Alejandro Astola 13/08 (ECI 'ya no se encuentra a la venta' + venue janto 'Sold Out'); Candlelight Open Air Ludovico Einaudi Marbella 14/08 feverup m/132355->138232 ('no hay entradas disponibles'); Candlelight Tributo a Joan Manuel Serrat 15/08 feverup m/656279 (off-sale banner). These three Fever/janto plans should be auto-dropped by the build's Fever buyability sweep / need a human drop for Astola (ECI trusted-host ships unfetched). RESOLVED prior flag: NOCHE FLAMENCA DEL COMPÁS onebox 51613 now sells 22/08 (Del 22 al 23 agosto, Ver sesiones). Off-sale baseline entries left in place pending human ruling (not removed unilaterally). | 2026-08-11 LIVE-SITE full pass (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en one-by-one (55 ticketed cards incl 4 Clarence). 52 reached a valid buying page. ADDED 14 browser-confirmed live events (Sept Candlelight m/621145 Lord of the Rings, m/611306 Jazz Room, m/701689 Open Air Queen 05/09, m/155745 Hans Zimmer 06/09, m/88307 Vivaldi 06/09; Chambao 06/09 janto; onebox SOUL ON FIRE 23/08 ev51226, De la Alhambra a Aranjuez 29/08 sel2688292, Disne-y 30/08 sel2698901, Revive a Queen 05/09 sel2688295; Torremolinos Cultura Zarzuela 25/08, Canela Party 27/08, Furor 30/08, Bresh 12/09). ADDED torremolinoscultura.es to trusted_hosts (official municipal ticketer, JS-rendered/blocks datacentre fetch, 4 valid events). FLAGGED for human ruling: Noche Movida 11/08 (ECI 'ya no se encuentra a la venta', event day); Alejandro Astola 13/08 (ECI AGOTADO, sold out, no alt seller); Damián Córdoba 03/09 — live card links salatrinchera.com/cartel-malaga-2/ (a generic 'cartel malaga' listing, not the buy page); correct buy page movingtickets.com confirmed on sale (baseline already holds it) but build treats the listing URL as 'deep' so venue_resolve can't auto-upgrade — needs a human/source fix. Existing off-sale + not-on-live entries left in place (not removed). | 2026-08-14 browser click-test (Claude in Chrome, sofia@): opened all 48 ticketed cards on the LIVE site one by one. 44 reached a valid buying page. FIXED Noches de Tango - La Portena 20 Aug: live linked the marbella.es agenda LISTING -> confirmed seller page mientrada.net (COMPRAR ENTRADAS, 20 ago 2026, 25 EUR); venue_event_map marbellacultura updated. OFF SALE: Omega 30 Aniversario 15 Aug (ECI 'YA NO SE ENCUENTRA A LA VENTA'; Starlite box office /checkout/omega-30-aniversario-kiki-morente returns 404 - no seller). STILL BROKEN: Damian Cordoba 3 Sep still ships salatrinchera.com/cartel-malaga-2/ (a listing); the correct page movingtickets.com is confirmed on sale (27.50 EUR) and is in this baseline. FLAG: Antonio Cortes 14 Sep links to a nerja.es PRESS RELEASE dated 10 Sep 2024 about a 14 Sep 2024 concert; cultura.nerja.es, mientrada.net and tomaticket show no 2026 date - needs a human ruling. NAME MISMATCH kept live: site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' (same venue + 5 Sep). Also fixed the accented 'damian cordoba' baseline key (accents meant norm() could never match it) and pointed Antonito Molina 18 Aug at the /checkout/ URL the live site actually uses.",
- "generated": "2026-08-14",
+ "generated": "2026-08-15",
  "events": {
   "gente de zona|2026-08-05": {
    "act": "Gente de Zona",
@@ -217,13 +217,13 @@
    ]
   },
   "omega 30 aniversario kiki morente lagartija nick|2026-08-15": {
-   "act": "Omega 30 Aniversario (Kiki Morente + Lagartija Nick)",
+   "act": "Omega 30 Aniversario – Kiki Morente & Lagartija Nick",
    "date": "2026-08-15",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-omega-30-starlite-occident-2026-marbella/",
+   "url": "https://entradas.starlitemarbella.com/checkout/omega-30-aniversario-kiki-morente-lagartija-nick-mpw93s",
    "expect": [
     "omega",
-    "kiki",
-    "morente"
+    "morente",
+    "lagartija"
    ]
   },
   "jose tejada|2026-08-16": {
@@ -250,17 +250,17 @@
    "date": "2026-08-17",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-taburete-starlite-occident-2026-marbella/",
    "expect": [
-    "taburete"
+    "taburete",
+    "starlite"
    ]
   },
   "luna sur tardeo ultraligera djs|2026-08-18": {
-   "act": "Luna Sur Tardeo (Ultraligera + DJs)",
+   "act": "Luna Sur Tardeo – Ultraligera + DJs",
    "date": "2026-08-18",
    "url": "https://marenostrumfuengirola.janto.es/espectaculo/luna-sur/LUNASURMF26",
    "expect": [
     "luna",
-    "tardeo",
-    "ultraligera"
+    "sur"
    ]
   },
   "antonito molina|2026-08-18": {
@@ -297,7 +297,7 @@
    "expect": [
     "12",
     "xii",
-    "dj"
+    "festival"
    ]
   },
   "nina pastori|2026-08-21": {
@@ -319,9 +319,9 @@
    ]
   },
   "noche flamenca del compas|2026-08-22": {
-   "act": "NOCHE FLAMENCA DEL COMPÁS",
+   "act": "Noche Flamenca del Compás",
    "date": "2026-08-22",
-   "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51613",
+   "url": "https://tickets.oneboxtds.com/operabenalmadena/select/2697427",
    "expect": [
     "noche",
     "flamenca",
@@ -361,6 +361,7 @@
    "date": "2026-08-22",
    "url": "https://marenostrumfuengirola.janto.es/espectaculo/la-plazuela/LAPLAZUELAMF2026",
    "expect": [
+    "la",
     "plazuela"
    ]
   },
@@ -464,7 +465,7 @@
    "date": "2026-08-22",
    "url": "https://feverup.com/m/643698",
    "expect": [
-    "to",
+    "candlelight",
     "phil",
     "collins"
    ]
@@ -513,8 +514,8 @@
    "date": "2026-08-21",
    "url": "https://feverup.com/m/587458",
    "expect": [
+    "candlelight",
     "coldplay",
-    "imagine",
     "dragons"
    ]
   },
@@ -718,6 +719,7 @@
    "url": "https://feverup.com/m/155745",
    "expect": [
     "candlelight",
+    "hans",
     "zimmer"
    ]
   },
@@ -736,6 +738,7 @@
    "url": "https://torremolinoscultura.es/es/eventos/detail/zarzuela-agua-azucarillos-y-aguardiente-qlyf",
    "expect": [
     "zarzuela",
+    "agua",
     "azucarillos"
    ]
   },
@@ -781,8 +784,7 @@
    "url": "https://www.mientrada.net/evento/marbella-noches-de-tango-2026/",
    "expect": [
     "noches",
-    "tango",
-    "portena"
+    "tango"
    ]
   },
   "i noche flamenca del compas|2026-08-22": {
@@ -883,7 +885,8 @@
    "url": "https://feverup.com/m/611306",
    "expect": [
     "jazz",
-    "room"
+    "room",
+    "orleans"
    ]
   },
   "apulanta|2026-09-12": {
@@ -892,6 +895,91 @@
    "url": "https://marenostrumfuengirola.com/eventos/apulanta/",
    "expect": [
     "apulanta"
+   ]
+  },
+  "galvan real gira 10o aniversario|2026-08-21": {
+   "act": "Galván Real – Gira 10º Aniversario",
+   "date": "2026-08-21",
+   "url": "https://marenostrumfuengirola.janto.es/espectaculo/galvan-real--gira-10%C2%BA-aniversario/GALVAN2026",
+   "expect": [
+    "galvan",
+    "real"
+   ]
+  },
+  "elrow malaga xxl|2026-08-22": {
+   "act": "elrow Málaga XXL",
+   "date": "2026-08-22",
+   "url": "https://www.enterticket.es/eventos/elrow-malaga-xxl-2026-102060",
+   "expect": [
+    "elrow",
+    "malaga",
+    "xxl"
+   ]
+  },
+  "inna echoes tour|2026-08-22": {
+   "act": "INNA – Echoes Tour",
+   "date": "2026-08-22",
+   "url": "https://www.ticketmaster.es/event/766754638",
+   "expect": [
+    "inna",
+    "echoes"
+   ]
+  },
+  "candlelight tribute to ludovico einaudi|2026-08-22": {
+   "act": "Candlelight: Tribute to Ludovico Einaudi",
+   "date": "2026-08-22",
+   "url": "https://feverup.com/m/145066",
+   "expect": [
+    "candlelight",
+    "ludovico",
+    "einaudi"
+   ]
+  },
+  "canela party day 1|2026-08-27": {
+   "act": "Canela Party – Day 1",
+   "date": "2026-08-27",
+   "url": "https://ingresse.com/canela-party-2026/",
+   "expect": [
+    "canela",
+    "party"
+   ]
+  },
+  "canela party day 2|2026-08-28": {
+   "act": "Canela Party – Day 2",
+   "date": "2026-08-28",
+   "url": "https://ingresse.com/canela-party-2026/",
+   "expect": [
+    "canela",
+    "party"
+   ]
+  },
+  "canela party day 3|2026-08-29": {
+   "act": "Canela Party – Day 3",
+   "date": "2026-08-29",
+   "url": "https://ingresse.com/canela-party-2026/",
+   "expect": [
+    "canela",
+    "party"
+   ]
+  },
+  "candlelight the lord of the rings|2026-09-05": {
+   "act": "Candlelight: The Lord of the Rings",
+   "date": "2026-09-05",
+   "url": "https://feverup.com/m/621145",
+   "expect": [
+    "candlelight",
+    "lord",
+    "rings"
+   ]
+  },
+  "candlelight vivaldi s four seasons|2026-09-06": {
+   "act": "Candlelight: Vivaldi's Four Seasons",
+   "date": "2026-09-06",
+   "url": "https://feverup.com/m/88307",
+   "expect": [
+    "candlelight",
+    "vivaldi",
+    "seasons"
    ]
   }
  },

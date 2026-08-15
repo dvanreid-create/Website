@@ -758,8 +758,8 @@
      "venue_name": "JOSE TEJADA"
     },
     "noche flamenca": {
-     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51613",
-     "date": "23/08/2026",
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/select/2697427",
+     "date": "22/08/2026",
      "venue_name": "NOCHE FLAMENCA DEL COMPÁS",
      "genre": "Flamenco"
     },
@@ -1065,8 +1065,9 @@
   },
   "zz pub": {
    "complete": true,
+   "gate": false,
    "source": "https://zzpub.es/agenda-agosto-2026/",
-   "note": "ZZ PUB nightly bill read from the monthly agenda poster. complete:true so backfill injects every night. Refreshed monthly by zzpub-agenda-refresh.",
+   "note": "ZZ PUB nightly bill read from the monthly agenda POSTER image. complete:true so backfill still injects every night. gate:false = NOT a phantom-gate deletion authority: the poster is self-read (the calendar sweep AND this block both read the same image), so verifying it against itself only invents false phantoms (22 ZZ Pub nights flagged at once on 2026-08-15). Refreshed monthly by zzpub-agenda-refresh.",
    "acts": {
     "motown-band-diva-del-soul-2026-08-10": {
      "date": "10/08/2026",
