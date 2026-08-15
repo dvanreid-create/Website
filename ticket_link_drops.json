@@ -1,7 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-14",
- "drops": {
-  "Noches de Tango — La Porteña": "WRONG_EVENT — page 'Cultura y Enseñanza' has none of ['noches', 'tango', 'portena']"
- }
+ "generated": "2026-08-15",
+ "drops": {}
 }
