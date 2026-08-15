@@ -420,27 +420,6 @@
    }
   },
   {
-   "logo": "/assets/tiles/ext-3e1e0865c5cf2c50.jpg",
-   "bg": "linear-gradient(160deg,#faf3e9,#ecdcc6)",
-   "light": true,
-   "url": "https://salaroka.com",
-   "name": "Sala Roka",
-   "sub": "Best Event Infrastructure",
-   "dur": 5,
-   "perHour": 2,
-   "cta": {
-    "en": "Visit →",
-    "es": "Visitar →",
-    "de": "Besuchen →",
-    "fr": "Visiter →",
-    "sv": "Besök →",
-    "no": "Besøk →",
-    "da": "Besøg →",
-    "fi": "Avaa →"
-   },
-   "paid": true
-  },
-  {
    "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
