@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Vanesa Martín",
-      "yt": "dkBEKOZWd0k",
-      "where": "14 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Lola Indigo",
-      "yt": "1pzK60N1Wqc",
-      "where": "14 Aug · Castillo Sohail, Fuengirola"
-    },
-    {
       "act": "Antonio Orozco",
       "yt": "fY39uD93yx4",
       "where": "15 Aug · Castillo Sohail, Fuengirola"
@@ -44,12 +34,19 @@
       "act": "DJ Snake",
       "yt": "ixkoVwKQaJg",
       "where": "21 Aug · Recinto Ferial, Marbella"
+    },
+    {
+      "act": "INNA",
+      "yt": "Yz2658gzOuM",
+      "where": "22 Aug · Marbella Arena, Marbella"
+    },
+    {
+      "act": "Pastora Soler",
+      "yt": "U0_2dnl7U-8",
+      "where": "22 Aug · Starlite, Marbella"
     }
   ],
   "thumbs": {
-    "Iván Ferreiro": "X9_NSL0AXpA",
-    "Vanesa Martín": "dkBEKOZWd0k",
-    "Candlelight Open Air: Tribute to Ludovico Einaudi": "p-ca1ocriv0",
     "Omega 30 Aniversario – Kiki Morente & Lagartija Nick": "JAg9rshK0TE",
     "Taburete": "j8aQseeJMtA",
     "Antoñito Molina": "HKVKSqGWMlU",
@@ -68,6 +65,7 @@
     "Love of Lesbian": "TqHEvFfLa9Q",
     "Thomas Helmig": "U6EjPDaLkRA",
     "Candlelight: The Lord of the Rings": "l63WXhfoz5g",
+    "The Jazz Room: A Journey to the Heart of New Orleans": "qf50ClVRkfU",
     "Candlelight Open Air: Tribute to Queen": "fJ9rUzIMcZQ",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
