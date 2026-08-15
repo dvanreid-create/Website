@@ -103,27 +103,41 @@ exports.handler = async (event) => {
     const sub = evt.data.object || {};
     let recId = (sub.metadata && sub.metadata.airtable_id) || null;
     if (!recId && sub.id) recId = await gutFindBySub(token, sub.id);
-    if (recId) { await gutPatch(token, recId, { "Status": "Cancelled" }); return { statusCode: 200, body: "gutter cancelled" }; }
+    if (recId) { await gutPatch(token, recId, { "Status": "Cancelled", "Cancel pending": false }); return { statusCode: 200, body: "gutter cancelled" }; }
     return { statusCode: 200, body: "ok" };
   }
 
   // Customer Portal plan switch (Standard <-> Premium) -> resync tile airtime/fee by price amount.
+  // Also detects a SCHEDULED cancellation (cancel_at_period_end) so the box mailer can email the
+  // advertiser once, while the tile keeps running until the paid period ends.
   if (evt.type === "customer.subscription.updated") {
     const sub = evt.data.object || {};
     let recId = (sub.metadata && sub.metadata.airtable_id) || null;
     if (!recId && sub.id) recId = await gutFindBySub(token, sub.id);
     if (recId) {
+      const fields = {};
       let amt = 0;
       try { amt = ((((sub.items || {}).data || [])[0] || {}).price || {}).unit_amount || 0; } catch {}
-      const isPrem = amt >= 15000;           // >= €150 -> Premium (€225); else Standard (€75)
-      const fields = {
-        "Tier": isPrem ? "Premium 30s" : "Standard 5s",
-        "Monthly fee": isPrem ? 225 : 75,
-        "Duration secs": isPrem ? 30 : 5
-      };
+      if (amt) {
+        const isPrem = amt >= 15000;           // >= €150 -> Premium (€225); else Standard (€75)
+        fields["Tier"] = isPrem ? "Premium 30s" : "Standard 5s";
+        fields["Monthly fee"] = isPrem ? 225 : 75;
+        fields["Duration secs"] = isPrem ? 30 : 5;
+      }
       if (sub.status === "active" || sub.status === "trialing") fields["Status"] = "Sold";
       else if (sub.status === "past_due" || sub.status === "unpaid") fields["Status"] = "Past due";
-      if (amt) await gutPatch(token, recId, fields);
+      if (sub.cancel_at_period_end === true) {
+        // Scheduled to cancel at period end — keep the tile live, flag for the one-time email,
+        // and record the last live day (cancel_at, falling back to current_period_end).
+        fields["Cancel pending"] = true;
+        const cae = sub.cancel_at || sub.current_period_end;
+        if (cae) fields["Paid through"] = new Date(cae * 1000).toISOString().slice(0, 10);
+      } else if (sub.cancel_at_period_end === false) {
+        // Not cancelling (or reactivated) — clear the flag and reset the send stamp so a later
+        // cancellation can notify again.
+        fields["Cancel pending"] = false; fields["Cancellation sent"] = null;
+      }
+      if (Object.keys(fields).length) await gutPatch(token, recId, fields);
       return { statusCode: 200, body: "gutter synced" };
     }
     return { statusCode: 200, body: "ok" };
