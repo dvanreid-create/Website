@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Antonio Orozco",
-      "yt": "fY39uD93yx4",
-      "where": "15 Aug · Castillo Sohail, Fuengirola"
-    },
-    {
-      "act": "Kiki Morente",
-      "yt": "JAg9rshK0TE",
-      "where": "15 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Taburete",
       "yt": "j8aQseeJMtA",
       "where": "17 Aug · Starlite, Marbella"
@@ -36,9 +26,19 @@
       "where": "21 Aug · Recinto Ferial, Marbella"
     },
     {
+      "act": "Galván Real",
+      "yt": "uyCHZKxFPig",
+      "where": "21 Aug · Marenostrum, Fuengirola"
+    },
+    {
       "act": "INNA",
       "yt": "Yz2658gzOuM",
       "where": "22 Aug · Marbella Arena, Marbella"
+    },
+    {
+      "act": "La Plazuela",
+      "yt": "YA_ow9Pkuvg",
+      "where": "22 Aug · Marenostrum, Fuengirola"
     },
     {
       "act": "Pastora Soler",
@@ -47,7 +47,6 @@
     }
   ],
   "thumbs": {
-    "Omega 30 Aniversario – Kiki Morente & Lagartija Nick": "JAg9rshK0TE",
     "Taburete": "j8aQseeJMtA",
     "Antoñito Molina": "HKVKSqGWMlU",
     "Antonio José": "9gOfn2qUero",
