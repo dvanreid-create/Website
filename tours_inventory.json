@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-15",
-  "count": 81,
+  "generated": "2026-08-16",
+  "count": 82,
   "items": [
     {
       "sku": "194665",
@@ -420,13 +420,26 @@
       "feat": 0
     },
     {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
       "cat": "Walking Tour",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €49.95",
+      "p": "From €124.95",
       "img": "6deec0dd-c5e2-11ea-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/89659/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
