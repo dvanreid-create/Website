@@ -85,7 +85,7 @@
 },
 "luna-sur-tardeo": {
 "name": "Luna Sur Tardeo",
-"mles": 51.7
+"mles": 45.0
 },
 "antonito-molina": {
 "name": "Antoñito Molina",
@@ -97,7 +97,7 @@
 },
 "nina-pastori": {
 "name": "Niña Pastori",
-"mles": 49.1
+"mles": 52.7
 },
 "galvan-real": {
 "name": "Galván Real",
@@ -113,11 +113,11 @@
 },
 "pastora-soler": {
 "name": "Pastora Soler",
-"mles": 61.6
+"mles": 60.2
 },
 "la-plazuela": {
 "name": "La Plazuela",
-"mles": 61.0
+"mles": 51.3
 },
 "sidecars": {
 "name": "Sidecars",
@@ -169,7 +169,7 @@
 },
 "sun-thunder-26": {
 "name": "Sun & Thunder 26",
-"mles": 56.1
+"mles": 53.6
 },
 "kream-feat-alvama-ice": {
 "name": "KREAM feat. Alvama Ice",
@@ -193,7 +193,7 @@
 },
 "chambao": {
 "name": "Chambao",
-"mles": 62.5
+"mles": 50.7
 },
 "michael-jackson-tribute": {
 "name": "Michael Jackson Tribute",
@@ -209,7 +209,7 @@
 },
 "zarzuela-agua-azucarillos-y-aguardiente": {
 "name": "Zarzuela 'Agua, azucarillos y aguardiente'",
-"mles": 0.0
+"mles": 47.9
 },
 "loco-bongo": {
 "name": "Loco Bongo",
@@ -217,15 +217,15 @@
 },
 "furor-the-show": {
 "name": "Furor, The Show",
-"mles": 0.0
+"mles": 52.1
 },
 "bresh": {
 "name": "Bresh",
-"mles": 0.0
+"mles": 62.8
 },
 "noches-de-tango": {
 "name": "Noches de Tango",
-"mles": 0.0
+"mles": 45.0
 },
 "antonio-cortes": {
 "name": "Antonio Cortés",
@@ -233,6 +233,6 @@
 },
 "apulanta": {
 "name": "APULANTA",
-"mles": 0.0
+"mles": 36.9
 }
 }
