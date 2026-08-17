@@ -418,6 +418,240 @@
     "da": "Besøg →",
     "fi": "Käy →"
    }
+  },
+  {
+   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay vs. Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-08-21",
+   "sub": {
+    "en": "Fri 21 Aug · Anantara Villa Padierna Palace · Benahavís",
+    "es": "Vie 21 ago · Anantara Villa Padierna Palace · Benahavís",
+    "de": "Fr 21 Aug · Anantara Villa Padierna Palace · Benahavís",
+    "fr": "ven. 21 août · Anantara Villa Padierna Palace · Benahavís",
+    "sv": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "no": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "da": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
+    "fi": "pe 21 elok. · Anantara Villa Padierna Palace · Benahavís"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=587458&u=https%3A%2F%2Ffeverup.com%2Fm%2F587458&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-347e640f81130d31.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Phil Collins",
+   "headBottom": true,
+   "expires": "2026-08-22",
+   "sub": {
+    "en": "Sat 22 Aug · Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643698&u=https%3A%2F%2Ffeverup.com%2Fm%2F643698&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Open Air: Tribute to Queen",
+   "headBottom": true,
+   "expires": "2026-09-05",
+   "sub": {
+    "en": "Sat 5 Sep · Auditorio José Pernía Calderón · Marbella",
+    "es": "Sáb 5 sep · Auditorio José Pernía Calderón · Marbella",
+    "de": "Sa 5 Sep · Auditorio José Pernía Calderón · Marbella",
+    "fr": "sam. 5 sept. · Auditorio José Pernía Calderón · Marbella",
+    "sv": "lör 5 sep · Auditorio José Pernía Calderón · Marbella",
+    "no": "lør 5 sep · Auditorio José Pernía Calderón · Marbella",
+    "da": "lør 5 sep · Auditorio José Pernía Calderón · Marbella",
+    "fi": "la 5 syysk. · Auditorio José Pernía Calderón · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701689&u=https%3A%2F%2Ffeverup.com%2Fm%2F701689&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "The Lord of the Rings",
+   "headBottom": true,
+   "expires": "2026-09-05",
+   "sub": {
+    "en": "Sat 5 Sep · Gran Hotel Miramar · Málaga",
+    "es": "Sáb 5 sep · Gran Hotel Miramar · Málaga",
+    "de": "Sa 5 Sep · Gran Hotel Miramar · Málaga",
+    "fr": "sam. 5 sept. · Gran Hotel Miramar · Málaga",
+    "sv": "lör 5 sep · Gran Hotel Miramar · Málaga",
+    "no": "lør 5 sep · Gran Hotel Miramar · Málaga",
+    "da": "lør 5 sep · Gran Hotel Miramar · Málaga",
+    "fi": "la 5 syysk. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=621145&u=https%3A%2F%2Ffeverup.com%2Fm%2F621145&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Hans Zimmer",
+   "headBottom": true,
+   "expires": "2026-09-06",
+   "sub": {
+    "en": "Sun 6 Sep · Gran Hotel Miramar · Málaga",
+    "es": "Dom 6 sep · Gran Hotel Miramar · Málaga",
+    "de": "So 6 Sep · Gran Hotel Miramar · Málaga",
+    "fr": "dim. 6 sept. · Gran Hotel Miramar · Málaga",
+    "sv": "sön 6 sep · Gran Hotel Miramar · Málaga",
+    "no": "søn 6 sep · Gran Hotel Miramar · Málaga",
+    "da": "søn 6 sep · Gran Hotel Miramar · Málaga",
+    "fi": "su 6 syysk. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Vivaldi's Four Seasons",
+   "headBottom": true,
+   "expires": "2026-09-06",
+   "sub": {
+    "en": "Sun 6 Sep · Gran Hotel Miramar · Málaga",
+    "es": "Dom 6 sep · Gran Hotel Miramar · Málaga",
+    "de": "So 6 Sep · Gran Hotel Miramar · Málaga",
+    "fr": "dim. 6 sept. · Gran Hotel Miramar · Málaga",
+    "sv": "sön 6 sep · Gran Hotel Miramar · Málaga",
+    "no": "søn 6 sep · Gran Hotel Miramar · Málaga",
+    "da": "søn 6 sep · Gran Hotel Miramar · Málaga",
+    "fi": "su 6 syysk. · Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
   }
  ],
  "info": [
