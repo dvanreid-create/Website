@@ -87,7 +87,7 @@
   {
    "photo": "/assets/tiles/ext-71d3b0a878cfe9d5.jpg",
    "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-09-12",
+   "expires": null,
    "tag": {
     "en": "★ Top pick this week",
     "es": "★ Top de la semana",
@@ -109,7 +109,7 @@
     "da": "lør 12 sep · Plaza de Toros de Torremolinos",
     "fi": "la 12 syysk. · Plaza de Toros de Torremolinos"
    },
-   "url": "https://torremolinoscultura.es/es/eventos/detail/bresh-la-fiesta-mas-linda-del-mundo-lvwa",
+   "url": null,
    "cta": {
     "en": "Tickets →",
     "es": "Entradas →",

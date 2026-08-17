@@ -36,6 +36,30 @@
   {
    "match": "love of lesbian",
    "why": "OWNER CONTENT-POLICY REMOVAL at DLR's direction 2026-08-04 (NOT a genre judgment). DLR ruled this act's name inappropriate for the ML calendar and wants it excluded — originally the 29 Aug 2026 show at Auditorio Starlite, Marbella. Removing the calendar row does not hold (the weekly sweep re-adds a real event), so it is gated here on every build. Unscoped: 'love of lesbian' is a distinctive band name, safe to block anywhere. NOTE: this reuses the not-music gate, so the build log's [gate] line will read 'not live music' — that prefix is cosmetic; the real reason is the owner content-policy exclusion recorded here."
+  },
+  {
+   "match": "kream",
+   "venue": "cortijo de torres",
+   "date": "2026-08-29",
+   "why": "CANCELLED BY THE SELLER — removed at DLR's direction 2026-08-17 (NOT a genre judgment). 'KREAM feat. Alvama Ice', 29 Aug 2026, Auditorio Municipal Cortijo de Torres, Málaga. Ticketmaster.es event 1231184919 shows 'This event has been cancelled. Ticket sales have stopped.' — browser-confirmed 08-15 and again 08-17. No alternative seller exists, so the card had a Tickets button that could never sell. Ticketmaster.es is a TRUSTED HOST (shipped unfetched), so the daily verifier can never auto-drop it; this gate is the only durable removal. DATE-SCOPED + VENUE-SCOPED so a future KREAM date anywhere else still publishes normally."
+  },
+  {
+   "match": "bresh",
+   "venue": "torremolinos",
+   "date": "2026-09-12",
+   "why": "NO SELLER LEFT — removed at DLR's direction 2026-08-17 (NOT a genre judgment). 'Bresh, la fiesta más linda del mundo', 12 Sep 2026, Plaza de Toros de Torremolinos. Browser-confirmed 08-17: the Torremolinos council page carries no buy control at all; the promoter's own Plaza Paraíso programme now advertises a DIFFERENT event in that 12 Sep slot ('Tardeo Argentinos ATR'); the Fourvenues Bresh event page 404s; and Atrápalo lists it 'NO DISPONIBLE'. Every reachable route says it is off sale or replaced, so no correct link exists to ship. DATE-SCOPED + VENUE-SCOPED: Bresh tours constantly, so a future Bresh date must still publish."
+  },
+  {
+   "match": "noche flamenca del compas",
+   "venue": "benalmadena",
+   "date": "2026-08-23",
+   "why": "WRONG-DATE DUPLICATE — removed at DLR's direction 2026-08-17 (NOT a genre judgment). The site was showing this show TWICE: 22 Aug (as 'I Noche Flamenca del Compás', onebox select/2697427) and 23 Aug (as 'NOCHE FLAMENCA DEL COMPÁS', onebox events/51613). Browser-confirmed 08-17 on the seller's own SESIONES tab: event 51613 has exactly ONE session, SÁB 22 AGO 22:00, €30, 'Disponibilidad media'. There is no 23 Aug show — the venue's blurb reads 'Del 22 al 23 de agosto' (a festival window) and that range was read as a second night. The 08-15 re-date fixed the map entry but the stale calendar row survived. THE DATE SCOPE IS THE WHOLE POINT: an act-only block would also have deleted the REAL, on-sale 22 Aug gig. Keep the 22 Aug card; this removes only the phantom 23 Aug one."
+  },
+  {
+   "match": "zarzuela agua azucarillos y aguardiente",
+   "venue": "navajas",
+   "date": "2026-08-25",
+   "why": "NO ONLINE TICKETING — removed at DLR's direction 2026-08-17 (NOT a genre judgment; this IS live music). Zarzuela 'Agua, azucarillos y aguardiente', Teatro Lírico Andaluz, 25 Aug 2026, Casa de los Navajas, Torremolinos — III Festival Lírico. Re-confirmed in the browser 08-17: the council event page states the date, the €10 single unnumbered price and the two shows (21:00 / 22:30), but carries NO buy control and NO ticket-seller link; seats are sold IN PERSON ONLY at Viajes Pinsapo (Plaza de la Nogalera). It was the one remaining card of 36 whose Tickets button offered a visitor no purchase path at all, which is exactly what the daily ticket audit exists to eliminate. REVERSIBLE: delete this entry to list it again if the owner would rather show it as an information-only card. DATE-SCOPED + VENUE-SCOPED so a future zarzuela of the same title elsewhere (it is a standard repertory piece) still publishes."
   }
  ]
 }
