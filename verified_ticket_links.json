@@ -429,16 +429,6 @@
         "caffeina"
       ]
     },
-    "kream ice land by alvama ice|2026-08-29": {
-      "act": "Kream Ice Land by Alvama Ice",
-      "date": "2026-08-29",
-      "url": "https://www.ticketmaster.es/event/kream-by-alvama-ice-entradas/1231184919",
-      "expect": [
-        "kream",
-        "land",
-        "alvama"
-      ]
-    },
     "love of lesbian|2026-08-29": {
       "act": "Love of Lesbian",
       "date": "2026-08-29",
@@ -729,16 +719,6 @@
         "vivaldi"
       ]
     },
-    "zarzuela agua azucarillos y aguardiente|2026-08-25": {
-      "act": "Zarzuela 'Agua, azucarillos y aguardiente'",
-      "date": "2026-08-25",
-      "url": "https://torremolinoscultura.es/es/eventos/detail/zarzuela-agua-azucarillos-y-aguardiente-qlyf",
-      "expect": [
-        "zarzuela",
-        "agua",
-        "azucarillos"
-      ]
-    },
     "canela party 2026 torremolinos|2026-08-27": {
       "act": "Canela Party 2026 (Torremolinos)",
       "date": "2026-08-27",
@@ -755,15 +735,6 @@
       "expect": [
         "furor",
         "show"
-      ]
-    },
-    "bresh la fiesta mas linda del mundo|2026-09-12": {
-      "act": "Bresh — la fiesta más linda del mundo",
-      "date": "2026-09-12",
-      "url": "https://torremolinoscultura.es/es/eventos/detail/bresh-la-fiesta-mas-linda-del-mundo-lvwa",
-      "expect": [
-        "bresh",
-        "fiesta"
       ]
     },
     "damian cordoba|2026-09-03": {
@@ -789,16 +760,6 @@
       "act": "I Noche Flamenca del Compás",
       "date": "2026-08-22",
       "url": "https://tickets.oneboxtds.com/operabenalmadena/select/2697427",
-      "expect": [
-        "noche",
-        "flamenca",
-        "compas"
-      ]
-    },
-    "noche flamenca del compas|2026-08-23": {
-      "act": "NOCHE FLAMENCA DEL COMPÁS",
-      "date": "2026-08-23",
-      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51613",
       "expect": [
         "noche",
         "flamenca",
