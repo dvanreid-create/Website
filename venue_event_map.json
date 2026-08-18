@@ -1530,6 +1530,24 @@
      "why": "Cierre de la temporada de verano de la Banda Municipal de Música."
     }
    }
+  },
+  "nerjacultura": {
+   "complete": true,
+   "source": "https://cultura.nerja.es/",
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
+   "acts": {
+    "antonio cortes 14/09/2026": {
+     "date": "14/09/2026",
+     "time": "",
+     "venue": "Centro Cultural Villa de Nerja",
+     "venue_name": "Antonio Cortés — apertura de temporada",
+     "genre": "Flamenco",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.nerja.es/antonio-cortes-inaugura-la-nueva-temporada-del-centro-cultural-con-un-concierto-inedito/",
+     "why": "Voz y piano en la apertura de la nueva temporada del Centro Cultural."
+    }
+   }
   }
  }
 }
