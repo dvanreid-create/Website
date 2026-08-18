@@ -420,45 +420,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Coldplay vs. Imagine Dragons",
-   "headBottom": true,
-   "expires": "2026-08-21",
-   "sub": {
-    "en": "Fri 21 Aug · Anantara Villa Padierna Palace · Benahavís",
-    "es": "Vie 21 ago · Anantara Villa Padierna Palace · Benahavís",
-    "de": "Fr 21 Aug · Anantara Villa Padierna Palace · Benahavís",
-    "fr": "ven. 21 août · Anantara Villa Padierna Palace · Benahavís",
-    "sv": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
-    "no": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
-    "da": "fre 21 aug · Anantara Villa Padierna Palace · Benahavís",
-    "fi": "pe 21 elok. · Anantara Villa Padierna Palace · Benahavís"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=587458&u=https%3A%2F%2Ffeverup.com%2Fm%2F587458&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-347e640f81130d31.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
