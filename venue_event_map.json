@@ -1552,6 +1552,7 @@
   },
   "me marbella": {
    "complete": true,
+   "gate": false,
    "source": "https://www.at08pm.es/",
    "note": "ME Marbella 'Acusticos' terrace concert series (at08pm.es). Ticketed one-off hotel shows the LLM sweep misses; seeded manually with the on-sale Eventbrite link.",
    "acts": {
