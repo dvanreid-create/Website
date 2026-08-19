@@ -1,0 +1,5 @@
+# Allow The Music Files pages to be embedded (iframed) on partner websites.
+# Scoped to the-music-files only; the rest of the site is unaffected.
+/the-music-files/*
+  Content-Security-Policy: frame-ancestors *
+  X-Frame-Options: ALLOWALL

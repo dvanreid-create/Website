@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-18",
+  "generated": "2026-08-19",
   "count": 108,
   "items": [
     {
@@ -985,7 +985,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €20.95",
+      "p": "From €21",
       "img": "8c9da1a7-c5e0-11ea-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/89658/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89658&u=https%3A%2F%2Ffeverup.com%2Fm%2F89658&intsrc=CATF_15532",
