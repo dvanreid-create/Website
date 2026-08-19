@@ -1549,6 +1549,24 @@
      "why": "Voz y piano en la apertura de la nueva temporada del Centro Cultural."
     }
    }
+  },
+  "me marbella": {
+   "complete": true,
+   "source": "https://www.at08pm.es/",
+   "note": "ME Marbella 'Acusticos' terrace concert series (at08pm.es). Ticketed one-off hotel shows the LLM sweep misses; seeded manually with the on-sale Eventbrite link.",
+   "acts": {
+    "miss caffeina 27/08/2026": {
+     "date": "27/08/2026",
+     "time": "20:00",
+     "venue": "ME Marbella",
+     "venue_name": "Miss Caffeina — Concierto Acústico",
+     "genre": "Pop",
+     "paid_free": "Paid",
+     "price": "Desde 80€",
+     "url": "https://www.eventbrite.es/e/miss-caffeina-concierto-acustico-tickets-1990317130114",
+     "why": "Miss Caffeina presenta BUENASUERTE en formato acústico en la terraza del ME Marbella."
+    }
+   }
   }
  }
 }
