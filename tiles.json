@@ -1,90 +1,6 @@
 {
  "ads": [
   {
-   "photo": "/assets/tiles/ext-dba83a465dd1e350.jpg",
-   "tint": "rgba(8,10,16,.28)",
-   "pos": "50% 14%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Gloria Trevi",
-   "headBottom": true,
-   "expires": "2026-08-24",
-   "sub": {
-    "en": "Mon 24 Aug · Starlite Occident · Marbella",
-    "es": "Lun 24 ago · Starlite Occident · Marbella",
-    "de": "Mo 24 Aug · Starlite Occident · Marbella",
-    "fr": "lun. 24 août · Starlite Occident · Marbella",
-    "sv": "mån 24 aug · Starlite Occident · Marbella",
-    "no": "man 24 aug · Starlite Occident · Marbella",
-    "da": "man 24 aug · Starlite Occident · Marbella",
-    "fi": "ma 24 elok. · Starlite Occident · Marbella"
-   },
-   "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-gloria-trevi-starlite-occident-2026-marbella%2F",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Photo: Pedro Hernandez · CC BY-SA 4.0"
-   }
-  },
-  {
-   "photo": "/assets/tiles/ext-60e90041434878cd.jpg",
-   "tint": "rgba(8,10,16,.26)",
-   "pos": "66% 24%",
-   "ribbon": {
-    "en": "Marquee event",
-    "es": "Evento estrella",
-    "de": "Top-Event",
-    "fr": "Événement phare",
-    "sv": "Stort evenemang",
-    "no": "Stort arrangement",
-    "da": "Stort event",
-    "fi": "Huipputapahtuma"
-   },
-   "head": "Nile Rodgers & CHIC",
-   "headBottom": true,
-   "expires": "2026-08-26",
-   "sub": {
-    "en": "Wed 26 Aug · Starlite Occident · Marbella",
-    "es": "Mié 26 ago · Starlite Occident · Marbella",
-    "de": "Mi 26 Aug · Starlite Occident · Marbella",
-    "fr": "mer. 26 août · Starlite Occident · Marbella",
-    "sv": "ons 26 aug · Starlite Occident · Marbella",
-    "no": "ons 26 aug · Starlite Occident · Marbella",
-    "da": "ons 26 aug · Starlite Occident · Marbella",
-    "fi": "ke 26 elok. · Starlite Occident · Marbella"
-   },
-   "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-nile-rodgers-chic-starlite-occident-2026-marbella-0000089pB0000089Nz000008546%2F",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": {
-    "en": "Photo: Raph_PH · CC BY 4.0"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-71d3b0a878cfe9d5.jpg",
    "tint": "rgba(232,102,42,.42)",
    "expires": null,
@@ -437,16 +353,55 @@
    "headBottom": true,
    "expires": "2026-08-22",
    "sub": {
-    "en": "Sat 22 Aug · Gran Hotel Miramar · Málaga",
-    "es": "Sáb 22 ago · Gran Hotel Miramar · Málaga",
-    "de": "Sa 22 Aug · Gran Hotel Miramar · Málaga",
-    "fr": "sam. 22 août · Gran Hotel Miramar · Málaga",
-    "sv": "lör 22 aug · Gran Hotel Miramar · Málaga",
-    "no": "lør 22 aug · Gran Hotel Miramar · Málaga",
-    "da": "lør 22 aug · Gran Hotel Miramar · Málaga",
-    "fi": "la 22 elok. · Gran Hotel Miramar · Málaga"
+    "en": "Sat 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643698&u=https%3A%2F%2Ffeverup.com%2Fm%2F643698&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "The Lord of the Rings",
+   "headBottom": true,
+   "expires": "2026-09-05",
+   "sub": {
+    "en": "Sat 5 Sep · Hotel Miramar · Málaga",
+    "es": "Sáb 5 sep · Hotel Miramar · Málaga",
+    "de": "Sa 5 Sep · Hotel Miramar · Málaga",
+    "fr": "sam. 5 sept. · Hotel Miramar · Málaga",
+    "sv": "lör 5 sep · Hotel Miramar · Málaga",
+    "no": "lør 5 sep · Hotel Miramar · Málaga",
+    "da": "lør 5 sep · Hotel Miramar · Málaga",
+    "fi": "la 5 syysk. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=621145&u=https%3A%2F%2Ffeverup.com%2Fm%2F621145&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -498,45 +453,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "The Lord of the Rings",
-   "headBottom": true,
-   "expires": "2026-09-05",
-   "sub": {
-    "en": "Sat 5 Sep · Gran Hotel Miramar · Málaga",
-    "es": "Sáb 5 sep · Gran Hotel Miramar · Málaga",
-    "de": "Sa 5 Sep · Gran Hotel Miramar · Málaga",
-    "fr": "sam. 5 sept. · Gran Hotel Miramar · Málaga",
-    "sv": "lör 5 sep · Gran Hotel Miramar · Málaga",
-    "no": "lør 5 sep · Gran Hotel Miramar · Málaga",
-    "da": "lør 5 sep · Gran Hotel Miramar · Málaga",
-    "fi": "la 5 syysk. · Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=621145&u=https%3A%2F%2Ffeverup.com%2Fm%2F621145&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -554,14 +470,14 @@
    "headBottom": true,
    "expires": "2026-09-06",
    "sub": {
-    "en": "Sun 6 Sep · Gran Hotel Miramar · Málaga",
-    "es": "Dom 6 sep · Gran Hotel Miramar · Málaga",
-    "de": "So 6 Sep · Gran Hotel Miramar · Málaga",
-    "fr": "dim. 6 sept. · Gran Hotel Miramar · Málaga",
-    "sv": "sön 6 sep · Gran Hotel Miramar · Málaga",
-    "no": "søn 6 sep · Gran Hotel Miramar · Málaga",
-    "da": "søn 6 sep · Gran Hotel Miramar · Málaga",
-    "fi": "su 6 syysk. · Gran Hotel Miramar · Málaga"
+    "en": "Sun 6 Sep · Hotel Miramar · Málaga",
+    "es": "Dom 6 sep · Hotel Miramar · Málaga",
+    "de": "So 6 Sep · Hotel Miramar · Málaga",
+    "fr": "dim. 6 sept. · Hotel Miramar · Málaga",
+    "sv": "sön 6 sep · Hotel Miramar · Málaga",
+    "no": "søn 6 sep · Hotel Miramar · Málaga",
+    "da": "søn 6 sep · Hotel Miramar · Málaga",
+    "fi": "su 6 syysk. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
    "cta": {
@@ -593,16 +509,211 @@
    "headBottom": true,
    "expires": "2026-09-06",
    "sub": {
-    "en": "Sun 6 Sep · Gran Hotel Miramar · Málaga",
-    "es": "Dom 6 sep · Gran Hotel Miramar · Málaga",
-    "de": "So 6 Sep · Gran Hotel Miramar · Málaga",
-    "fr": "dim. 6 sept. · Gran Hotel Miramar · Málaga",
-    "sv": "sön 6 sep · Gran Hotel Miramar · Málaga",
-    "no": "søn 6 sep · Gran Hotel Miramar · Málaga",
-    "da": "søn 6 sep · Gran Hotel Miramar · Málaga",
-    "fi": "su 6 syysk. · Gran Hotel Miramar · Málaga"
+    "en": "Sun 6 Sep · Hotel Miramar · Málaga",
+    "es": "Dom 6 sep · Hotel Miramar · Málaga",
+    "de": "So 6 Sep · Hotel Miramar · Málaga",
+    "fr": "dim. 6 sept. · Hotel Miramar · Málaga",
+    "sv": "sön 6 sep · Hotel Miramar · Málaga",
+    "no": "søn 6 sep · Hotel Miramar · Málaga",
+    "da": "søn 6 sep · Hotel Miramar · Málaga",
+    "fi": "su 6 syysk. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-c2987acdfa47772a.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Disney Love Songs",
+   "headBottom": true,
+   "expires": "2026-09-10",
+   "sub": {
+    "en": "Thu 10 Sep · Hotel Miramar · Málaga",
+    "es": "Jue 10 sep · Hotel Miramar · Málaga",
+    "de": "Do 10 Sep · Hotel Miramar · Málaga",
+    "fr": "jeu. 10 sept. · Hotel Miramar · Málaga",
+    "sv": "tor 10 sep · Hotel Miramar · Málaga",
+    "no": "tor 10 sep · Hotel Miramar · Málaga",
+    "da": "tor 10 sep · Hotel Miramar · Málaga",
+    "fi": "to 10 syysk. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=646736&u=https%3A%2F%2Ffeverup.com%2Fm%2F646736&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-54d70da380f438ba.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "The Best of the 80s",
+   "headBottom": true,
+   "expires": "2026-09-13",
+   "sub": {
+    "en": "Sun 13 Sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 13 Sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 13 sept. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 13 syysk. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-5241c88ca190c52b.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Mecano",
+   "headBottom": true,
+   "expires": "2026-09-13",
+   "sub": {
+    "en": "Sun 13 Sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 13 Sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 13 sept. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 13 sep · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 13 syysk. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-5dbfa33da7e00c7d.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay and Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-09-18",
+   "sub": {
+    "en": "Fri 18 Sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "es": "Vie 18 sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "de": "Fr 18 Sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fr": "ven. 18 sept. · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "sv": "fre 18 sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "no": "fre 18 sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "da": "fre 18 sep · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fi": "pe 18 syysk. · Sala Fundación Unicaja Mª Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=532802&u=https%3A%2F%2Ffeverup.com%2Fm%2F532802&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-8a0ede579fb5201c.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Queen vs. ABBA",
+   "headBottom": true,
+   "expires": "2026-09-18",
+   "sub": {
+    "en": "Fri 18 Sep · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Vie 18 sep · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Fr 18 Sep · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "ven. 18 sept. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "fre 18 sep · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "fre 18 sep · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "fre 18 sep · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "pe 18 syysk. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=555765&u=https%3A%2F%2Ffeverup.com%2Fm%2F555765&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",

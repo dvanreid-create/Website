@@ -84,7 +84,7 @@
 "mles": 57.7
 },
 "luna-sur-tardeo": {
-"name": "Luna Sur Tardeo",
+"name": "LUNA SUR TARDEO",
 "mles": 45.0
 },
 "antonito-molina": {
@@ -100,7 +100,7 @@
 "mles": 52.7
 },
 "galvan-real": {
-"name": "Galván Real",
+"name": "GALVAN REAL",
 "mles": 70.0
 },
 "noche-flamenca-del-compas": {
@@ -116,7 +116,7 @@
 "mles": 60.2
 },
 "la-plazuela": {
-"name": "La Plazuela",
+"name": "LA PLAZUELA",
 "mles": 51.3
 },
 "sidecars": {
@@ -168,7 +168,7 @@
 "mles": 47.3
 },
 "sun-thunder-26": {
-"name": "Sun & Thunder 26",
+"name": "SUN & THUNDER 26",
 "mles": 53.6
 },
 "kream-feat-alvama-ice": {
@@ -192,7 +192,7 @@
 "mles": 47.9
 },
 "chambao": {
-"name": "Chambao",
+"name": "CHAMBAO",
 "mles": 50.7
 },
 "michael-jackson-tribute": {
@@ -237,6 +237,10 @@
 },
 "china-crisis": {
 "name": "China Crisis",
+"mles": 0.0
+},
+"emanero-tour-2026-in-malaga": {
+"name": "EMANERO TOUR 2026 in Malaga",
 "mles": 0.0
 }
 }
