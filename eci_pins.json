@@ -24,8 +24,17 @@
   }
  },
  "exclude": {
+  "antonio jose": {
+   "why": "ECI page OFF-SALE for the 20 Aug 2026 Starlite show — red banner 'Actualmente este evento ya no se encuentra a la venta' and the buy box is disabled ('YA NO SE ENCUENTRA A LA VENTA'), browser-verified 2026-08-19, even though the page's JSON-LD still says InStock at 21,00 EUR (stale). The Starlite box office still sells it: https://entradas.starlitemarbella.com/event/antonio-jose-z9htu9 — '20 DE AGOSTO', tickets start at 25,00 EUR, 'Buy tickets' live (browser-verified 2026-08-19), and that is exactly the link the calendar row already carries. enforce_eci_routing would pick ECI on price (21<25) but ECI is unbuyable, so exclude it and fall back to the box-office link. Safe to remove after 20 Aug 2026."
+  },
   "antonito molina": {
    "why": "TWO Starlite dates (18 & 19 Aug 2026) but this map is act-keyed, so both calendar rows route to the SINGLE 18-08 ECI page and ECI has NO 19-08 page (404). Excluding from ECI routing lets each row keep its own date-correct Starlite box-office link (18/8 .../event/antonito-molina-opoj1x, 19/8 .../event/antonito-molina-wz9g60). Browser-verified 2026-08-05. Safe to remove after 19 Aug 2026."
+  },
+  "hermanos martinez": {
+   "why": "ECI page OFF-SALE ('Actualmente este evento ya no se encuentra a la venta', browser-verified 2026-08-07) for the 7 Aug 2026 combined Starlite bill (Nil Moliner y Álvaro de Luna + Hermanos Martínez). Live-site row matched this ECI key via token-containment and shipped the off-sale ECI link. Starlite box office still sells the whole 7 Aug bill (https://entradas.starlitemarbella.com/event/nil-moliner-y-alvaro-de-luna-pqwrhm, browser-verified on sale 2026-08-07). Exclude so build falls back to the box-office link. Safe to remove after 7 Aug 2026."
+  },
+  "solea morente yerai cortes estrella morente": {
+   "why": "ECI page OFF-SALE ('YA NO SE ENCUENTRA A LA VENTA', browser-verified 2026-08-07) for 8 Aug 2026 while the Starlite box office still sells (EUR21, https://entradas.starlitemarbella.com/event/solea-morente-yerai-cortes-y-estrella-morente-6e4njg, browser-verified on sale 2026-08-07). enforce would pick ECI on price but ECI is unbuyable, so exclude and fall back to the box-office link. Safe to remove after 8 Aug 2026."
   },
   "gente de zona": {
    "why": "ECI page OFF-SALE ('Actualmente este evento ya no se encuentra a la venta', browser-verified 2026-08-05) while the Starlite box office still sells (EUR41). enforce_eci_routing would pick ECI on price (29<41) but ECI is unbuyable, so exclude it and fall back to the box-office link. Safe to remove after 5 Aug 2026."
