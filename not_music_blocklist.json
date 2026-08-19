@@ -1,6 +1,6 @@
 {
  "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park (marenostrumfuengirola.com) list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build, as a gate running BEFORE the phantom / Fever-unbuyable / receipt gates. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test. IMPORTANT: set 'venue' whenever the phrase could belong to a real act somewhere else — a personal name ('David Navarro', 'José Tejada') or a common phrase ('La Granja') must be scoped to the venue, or a genuine gig elsewhere would be silently dropped. Omit 'venue' only for names distinctive enough to be safe anywhere. NOT blocked, deliberately: CABARET 2.0 at the same Benalmádena venue IS live music (Sofia 2026-07-29). This gate's drops appear in the build log's [gate] block. NOTE (2026-08-04): this file is now shipped by the canonical deploy-site.bat (added to its Website scp list), so a normal deploy applies any edit here — no separate genre-fix bat needed. This gate also carries OWNER CONTENT-POLICY removals (e.g. 'love of lesbian', DLR 2026-08-04), not only not-music rows; the log prefix 'not live music' is cosmetic for those.",
- "generated": "2026-07-29",
+ "generated": "2026-08-19",
  "blocked": [
   {
    "match": "hipnosis de comedia",
@@ -60,6 +60,24 @@
    "venue": "navajas",
    "date": "2026-08-25",
    "why": "NO ONLINE TICKETING — removed at DLR's direction 2026-08-17 (NOT a genre judgment; this IS live music). Zarzuela 'Agua, azucarillos y aguardiente', Teatro Lírico Andaluz, 25 Aug 2026, Casa de los Navajas, Torremolinos — III Festival Lírico. Re-confirmed in the browser 08-17: the council event page states the date, the €10 single unnumbered price and the two shows (21:00 / 22:30), but carries NO buy control and NO ticket-seller link; seats are sold IN PERSON ONLY at Viajes Pinsapo (Plaza de la Nogalera). It was the one remaining card of 36 whose Tickets button offered a visitor no purchase path at all, which is exactly what the daily ticket audit exists to eliminate. REVERSIBLE: delete this entry to list it again if the owner would rather show it as an information-only card. DATE-SCOPED + VENUE-SCOPED so a future zarzuela of the same title elsewhere (it is a standard repertory piece) still publishes."
+  },
+  {
+   "match": "candlelight queen vs abba",
+   "venue": "anantara",
+   "date": "2026-08-22",
+   "why": "DEAD SELLER PAGE - removed 2026-08-19 by the daily click-test (NOT a genre judgement). The card's own Fever link (feverup.com/m/182969) REDIRECTS to plan 405944 'Candlelight: Long Live the Rock Legends', which shows 'We love this experience, but no tickets are available at the moment' - wrong event AND unbuyable. The real plan, feverup.com/m/677232 'Candlelight: Queen vs. ABBA' at Salon Linares Anantara Villa Padierna, offers only two sessions in its date selector - dom 11 oct 2026 and sab 09 ene 2027 - so NO 22 Aug session exists at any seller. Browser-verified 2026-08-19. Scoped to venue+date so the October/January runs are unaffected."
+  },
+  {
+   "match": "antonio cortes",
+   "venue": "nerja",
+   "date": "2026-09-14",
+   "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-19 by the daily click-test (NOT a genre judgement). The card's Tickets link opens the Ayuntamiento de Nerja press release 'Antonio Cortes inaugura la nueva temporada del Centro Cultural con un concierto inedito', DATED 10 SEPTIEMBRE 2024, with no ticket page and no buy control (browser-verified 2026-08-19). DLR already ruled this entry off the site on 2026-08-15 as a 2024 press release read as a 2026 event; the weekly sweep has re-created it. Scoped to venue+date so a genuine Antonio Cortes gig elsewhere is unaffected."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "torremolinos",
+   "date": "2026-08-27",
+   "why": "DUPLICATE CARD - removed 2026-08-19 by the daily click-test (NOT a genre judgement). 27 Aug carried Canela Party TWICE: 'Canela Party - Day 1 (Baiuca, Basement, Unknown Mortal Orchestra...)' at Recinto Ferial de Torremolinos, and this 3-day aggregate row 'Canela Party 2026' billed at 'Plaza de Toros de Torremolinos'. Same festival, same seller (ingresse.com/canela-party-2026/, browser-verified 2026-08-19 with Thu 27 / Fri 28 / Sat 29 Aug all bookable). The aggregate is dropped rather than the day cards because the day cards carry the correct venue (ingresse states Recinto Ferial de Torremolinos) and the per-day line-ups; days 1-3 remain live. Flagged for a ruling on 2026-08-18 and closed here."
   }
  ]
 }
