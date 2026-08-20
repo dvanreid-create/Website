@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 35,
- "prefer_eci": 30,
+ "count": 32,
+ "prefer_eci": 27,
  "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -29,17 +29,6 @@
    "eci_date": "",
    "prefer": "eci",
    "why": "_eci_norm() converts & → and, so calendar 'Álvaro de Luna & Nil Moliner' normalises to this key"
-  },
-  "antonio jose": {
-   "eci_name": "Antonio José",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonio-jose-starlite-occident-2026-marbella/",
-   "eci_from": 21.0,
-   "eci_date": "20/08/2026",
-   "box_name": "Antonio Jose",
-   "box_url": "https://entradas.starlitemarbella.com/event/antonio-jose-z9htu9",
-   "box_from": 25.0,
-   "prefer": "eci",
-   "why": "ECI cheaper by EUR 4"
   },
   "ara malikian": {
    "eci_name": "Ara Malikian",
@@ -98,14 +87,6 @@
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hauser-starlite-occident-2026-marbella/",
    "eci_from": 39.0,
    "eci_date": "12/08/2026",
-   "prefer": "eci",
-   "why": "box office does not list this act; ECI is the only event page"
-  },
-  "hermanos martinez": {
-   "eci_name": "Hermanos Martínez",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hermanos-martinez-starlite-occident-2026-marbella/",
-   "eci_from": 30.0,
-   "eci_date": "07/08/2026",
    "prefer": "eci",
    "why": "box office does not list this act; ECI is the only event page"
   },
@@ -311,14 +292,6 @@
    "box_from": 29.0,
    "prefer": "eci",
    "why": "same price"
-  },
-  "solea morente yerai cortes estrella morente": {
-   "eci_name": "Soleá Morente + Yerai Cortés + Estrella Morente",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-s-morente-y-cortes-y-e-morente-starlite-occiden-marbella/",
-   "eci_from": null,
-   "eci_date": "",
-   "prefer": "eci",
-   "why": "Sofia 2026-07-24: redirect to ECI affiliate link. _eci_norm strips accents + punctuation: 'Soleá Morente + Yerai Cortés + Estrella Morente' → this key"
   },
   "sergio dalma": {
    "eci_name": "Sergio Dalma",
