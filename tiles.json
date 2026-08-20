@@ -336,6 +336,123 @@
    }
   },
   {
+   "photo": "/assets/tiles/ext-347e640f81130d31.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Phil Collins",
+   "headBottom": true,
+   "expires": "2026-08-22",
+   "sub": {
+    "en": "Sat 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643698&u=https%3A%2F%2Ffeverup.com%2Fm%2F643698&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Ludovico Einaudi",
+   "headBottom": true,
+   "expires": "2026-08-22",
+   "sub": {
+    "en": "Sat 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=145066&u=https%3A%2F%2Ffeverup.com%2Fm%2F145066&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-c2987acdfa47772a.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Disney Love Songs",
+   "headBottom": true,
+   "expires": "2026-08-23",
+   "sub": {
+    "en": "Sun 23 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 23 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 23 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 23 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 23 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 23 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 23 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 23 elok. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=646736&u=https%3A%2F%2Ffeverup.com%2Fm%2F646736&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
    "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",

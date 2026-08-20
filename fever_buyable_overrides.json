@@ -1,0 +1,7 @@
+{
+  "_comment": "OWNER FORCE-BUYABLE OVERRIDES (DLR). fever_scrape.py's plan_status() live-reads a Fever plan's session-selector blob to decide buyability, but Fever sometimes serves NO selector for a real, on-sale session (the same removal that made Candlelight vanish 2026-08-17). The auto check then reports 'off sale' and the unbuyable-drop pass DELETES a genuine bookable show, losing the commission. List a (sku, date) here ONLY when the owner has BROWSER-CONFIRMED it is on sale: fever_scrape then never drops it AND writes the date into fever_availability.json so build_site's own fever_unbuyable() gate keeps it on every deploy too. Remove an entry the moment the show is genuinely past or sold out. Format: {sku: [ISO dates]}.",
+  "buyable": {
+    "145066": ["2026-08-22"],
+    "646736": ["2026-08-23"]
+  }
+}
