@@ -128,7 +128,7 @@
 "mles": 58.8
 },
 "nile-rodgers-chic": {
-"name": "Nile Rodgers & CHIC",
+"name": "Nile Rodgers & Chic",
 "mles": 58.6
 },
 "miss-caffeina": {
@@ -176,7 +176,7 @@
 "mles": 50.5
 },
 "damian-cordoba": {
-"name": "Damián Córdoba",
+"name": "Damian Cordoba",
 "mles": 45.0
 },
 "thomas-helmig": {
@@ -241,6 +241,10 @@
 },
 "emanero-tour-2026-in-malaga": {
 "name": "EMANERO TOUR 2026 in Malaga",
+"mles": 0.0
+},
+"the-tribute": {
+"name": "The Tribute",
 "mles": 0.0
 }
 }

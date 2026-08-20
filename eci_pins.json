@@ -1,6 +1,6 @@
 {
  "_comment": "HAND-HELD ECI FACTS THAT THE SCRAPER CANNOT DISCOVER — re-applied after EVERY refresh. WHY THIS FILE EXISTS: refresh_eci_map.py rebuilds eci_starlite_map.json's `acts` block ENTIRELY from the ECI search listing, and anything it does not find is DROPPED ('-N gone'). It runs DAILY (cron 07:30 Tue-Sun) and again every Monday inside generate.sh. So any URL, price or routing typed in by hand survives only until the next SUCCESSFUL refresh. Through late July 2026 that was masked: ECI had been returning 403 to the VPS since 27 Jul, every refresh failed, and the fail-safe kept the last-good map — so hand edits appeared to stick. The moment ECI unblocks the box, an unpinned hand edit vanishes. Tools/agent/patch_eci_aliases.py reads THIS file and re-applies it immediately after refresh, before enforce_eci_routing.py. PIPELINE ORDER IS DELIBERATE: refresh (scrape facts) -> patch (restore facts we hold and it cannot) -> enforce (apply the price rule to whatever facts now exist). That means a pin supplies FACTS (url / prices); the READER-FIRST PRICE RULE still wins on routing — enforce may flip `prefer` if the prices say the box office is cheaper, and that is correct. Never pin a `prefer` that makes a reader pay more. TO ADD A PIN: verify the URL in a browser first (ECI slugs are opaque and often wrong — see nina pastori below), then add the act key exactly as _eci_norm() would produce it.",
- "generated": "2026-07-31",
+ "generated": "2026-08-20",
  "pins": {
   "nina pastori": {
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-21-08-26-marbella/",
@@ -44,6 +44,9 @@
   },
   "sanguijuelas del guadiana": {
    "why": "Co-billed with Delaossa on the SAME 6 Aug 2026 Starlite row (Delaossa + Sanguijuelas del Guadiana). With delaossa excluded, the double-bill row otherwise matches this ECI entry via token-containment and routes to Sanguijuelas ECI page (slug oddly dated 08-04, unverified). Exclude so the row falls back to the verified box-office link. No standalone Sanguijuelas calendar row exists. Safe to remove after 6 Aug 2026."
+  },
+  "nina pastori": {
+   "why": "ECI page OFF-SALE for the 21 Aug 2026 Starlite show — the event's own buy box reads 'YA NO SE ENCUENTRA A LA VENTA' / 'Actualmente este evento ya no se encuentra a la venta', browser-verified 2026-08-20, even though its JSON-LD still says InStock (stale) at 29,00 EUR. Same failure shape as Antonio Jose on 2026-08-19. The Starlite box office still sells it: https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec — 'Nina Pastori 21/8', 08/21/2026 10:00 PM, live seat map with 'Select seats' (browser-verified 2026-08-20), and that is the link venue_event_map already carries. Exclude from ECI so the build falls back to the box office. Safe to remove after 21 Aug 2026."
   }
  },
  "_exclude_note": "exclude: acts that must NEVER route through ECI even when the price rule would pick it — because the ECI page is off-sale (enforce cannot see off-sale) or the act has multiple calendar dates a single act-keyed ECI url cannot serve. patch_eci_aliases.py removes these from the map AFTER refresh + pins/aliases and BEFORE enforce, so build_site falls back to each row's own calendar (box-office) link, every run. Verify in a browser before adding."
