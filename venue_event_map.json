@@ -1257,9 +1257,35 @@
    }
   },
   "miramar": {
-   "complete": false,
+   "complete": true,
+   "gate": false,
+   "multishow": true,
    "source": "https://feverup.com/en/malaga/venue/salon-real-del-gran-hotel-miramar",
-   "note": "Added 2026-07-29. Gran Hotel Miramar, Málaga — the city's Candlelight home (Hans Zimmer, Coldplay vs Ed Sheeran, Serrat, Queen vs The Beatles, Phil Collins, Einaudi, Disney Love Songs). Absence was flagged 2026-07-28 while checking the phantom gate. KEY IS DELIBERATELY THE BARE WORD 'miramar': the calendar carries THREE spellings of this venue — 'Hotel Miramar', 'Salón Real del Gran Hotel Miramar' and 'Salón Real, Gran Hotel Miramar' — and 'miramar' is the only substring common to all three. complete:false => NO phantom gate. That matters here: these events are already sold by Fever with tracked affiliate links, so nothing needs upgrading, and a complete:true entry would risk DROPPING a real Candlelight the acts list happened to miss."
+   "note": "Added 2026-07-29. Gran Hotel Miramar, Málaga — the city's Candlelight home (Hans Zimmer, Coldplay vs Ed Sheeran, Serrat, Queen vs The Beatles, Phil Collins, Einaudi, Disney Love Songs). KEY IS DELIBERATELY THE BARE WORD 'miramar': the calendar carries THREE spellings of this venue — 'Hotel Miramar', 'Salón Real del Gran Hotel Miramar' and 'Salón Real, Gran Hotel Miramar' — and 'miramar' is the only substring common to all three. 2026-08-19 (DLR): flipped complete:false -> true + gate:false + multishow:true so backfill can INJECT confirmed-bookable Fever sessions that fever_scrape missed (it read a SKU whose bill lacked the night, so real on-sale shows were silently absent and commission was lost — e.g. Ludovico Einaudi 22 Aug SKU 145066, Disney Love Songs 23 Aug SKU 646736, both browser-confirmed on sale). gate:false = NOT a phantom-delete authority: it never drops the Fever nights it does NOT list (Phil Collins, LOTR, Queen, Hans Zimmer keep coming from fever_scrape). multishow:true = a mapped act ships even when the sweep already headlined that venue-night (Fever runs several different Candlelight programmes here the same evening; Einaudi 22 Aug sits on Phil Collins's night). Only ADD acts here that are browser-confirmed on sale on the stated date; the raw feverup.com/m/<sku> link is wrapped to the affiliate template by build_site.",
+   "acts": {
+    "ludovico einaudi 22/08/2026": {
+     "date": "22/08/2026",
+     "time": "19:00",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Tribute to Ludovico Einaudi",
+     "genre": "Classical",
+     "paid_free": "Paid",
+     "price": "Desde 21,50€",
+     "url": "https://feverup.com/m/145066",
+     "why": "Candlelight string quartet tribute to Ludovico Einaudi at the Salón Real. Browser-confirmed on sale for sáb 22 ago, desde 21,50€ (Fever SKU 145066)."
+    },
+    "disney love songs 23/08/2026": {
+     "date": "23/08/2026",
+     "time": "19:00",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Disney Love Songs",
+     "genre": "Classical",
+     "paid_free": "Paid",
+     "price": "Desde 35€",
+     "url": "https://feverup.com/m/646736",
+     "why": "Candlelight tribute to Disney love songs at the Salón Real. Browser-confirmed on sale for dom 23 ago, Zona C 35€ (Fever SKU 646736)."
+    }
+   }
   },
   "bateria": {
    "complete": false,
