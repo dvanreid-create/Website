@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 32,
- "prefer_eci": 27,
+ "count": 31,
+ "prefer_eci": 26,
  "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -204,17 +204,6 @@
    "box_from": 45.0,
    "prefer": "box",
    "why": "ECI dearer by EUR 44"
-  },
-  "nina pastori": {
-   "eci_name": "Niña Pastori",
-   "eci_from": 29.0,
-   "eci_date": "21/08/2026",
-   "box_name": "Niña Pastori 21/8",
-   "box_url": "https://entradas.starlitemarbella.com/event/nina-pastori-nnlfec",
-   "box_from": 29.0,
-   "prefer": "eci",
-   "why": "Sofia 2026-07-31. ECI carries THREE Niña Pastori pages and only the DATED slug is our show. (a) ...-starlite-occident-2026-marbella/ -> 404, which is why the 2026-07-25 pass wrote her off as 'box-office only'. (b) ...-starlite-FESTIVAL-2026-marbella/ -> resolves but is the 27 JUNE concert and reads 'YA NO SE ENCUENTRA A LA VENTA' — sending an August buyer there is a dead end. (c) THIS one, with 21-08-26 in the slug -> 'Fechas: 21 de Agosto de 2026, 22:00, Desde 29,00 EUR, COMPRAR' (browser-verified 2026-07-31). She plays Starlite TWICE in 2026 (27 Jun + 21 Aug); our calendar row is the AUGUST date. refresh_eci_map.py has never found ANY of the three, so without this pin her entry has no url at all and routing falls back to the box office, which pays nothing. Prices are equal (29 = 29) so enforce_eci_routing sends it to ECI. BOTH SIDES ARE PINNED ON PURPOSE: if a refresh drops the act entirely, restoring only the ECI half leaves box_from unknown, enforce_eci_routing then cannot compare prices, `prefer` is never set, and venue_resolve (which requires prefer=='eci' AND a url) silently keeps the unpaid box-office link. Pinning box_url/box_from too lets enforce do its job.",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-21-08-26-marbella/"
   },
   "nile rodgers and chic": {
    "eci_name": "Nile Rodgers & Chic",

@@ -1,5 +1,7 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-20",
- "drops": {}
+ "generated": "2026-08-21",
+ "drops": {
+  "The Tribute - Inspired by Abba Voyage London": "UNVERIFIED — host blocks bots and no matching browser-verified URL"
+ }
 }
