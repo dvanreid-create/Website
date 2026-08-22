@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-21",
+  "generated": "2026-08-22",
   "count": 109,
   "items": [
     {
@@ -144,19 +144,6 @@
       "img": "60d9d142-73c3-11f1-b9bc-22d334599d9c.jpeg",
       "url": "https://feverup.com/m/676381/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=676381&u=https%3A%2F%2Ffeverup.com%2Fm%2F676381&intsrc=CATF_15532",
-      "feat": 0
-    },
-    {
-      "sku": "683220",
-      "n": "Authentic Flamenco Show at Tablao Flamenco Zawi Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €15",
-      "img": "1996d868-7a1f-11f1-9d0a-063f34aee2a1.jpeg",
-      "url": "https://feverup.com/m/683220/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=683220&u=https%3A%2F%2Ffeverup.com%2Fm%2F683220&intsrc=CATF_15532",
       "feat": 0
     },
     {
@@ -498,16 +485,16 @@
       "feat": 0
     },
     {
-      "sku": "432252",
-      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "sku": "141692",
+      "n": "Gardens of Zoraya Granada: Flamenco Show",
       "c": "tours",
-      "cat": "Experience",
+      "cat": "Day Trip",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €295",
-      "img": "d31ec9be-9bd3-11f1-917e-eaf501cfb045.jpg",
-      "url": "https://feverup.com/m/432252/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
+      "p": "From €20",
+      "img": "dcb54cf8-6776-11ee-9b00-e67ab24b2c49",
+      "url": "https://feverup.com/m/141692/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141692&u=https%3A%2F%2Ffeverup.com%2Fm%2F141692&intsrc=CATF_15532",
       "feat": 0
     },
     {
@@ -517,7 +504,7 @@
       "cat": "Walking Tour",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €124.95",
+      "p": "From €250",
       "img": "6deec0dd-c5e2-11ea-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/89659/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
@@ -573,6 +560,19 @@
       "img": "9b3716b6-a041-11f0-972a-6af48f4b5d8b.png",
       "url": "https://feverup.com/m/634608/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=634608&u=https%3A%2F%2Ffeverup.com%2Fm%2F634608&intsrc=CATF_15532",
+      "feat": 0
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
       "feat": 0
     },
     {
@@ -725,7 +725,7 @@
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €31",
+      "p": "From €32",
       "img": "cfdb3dbc-f09f-11f0-bf5b-6227f0470ae5.png",
       "url": "https://feverup.com/m/720954/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=720954&u=https%3A%2F%2Ffeverup.com%2Fm%2F720954&intsrc=CATF_15532",
