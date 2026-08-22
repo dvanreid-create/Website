@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
   "generated": "2026-08-22",
-  "count": 109,
+  "count": 111,
   "items": [
     {
       "sku": "194665",
@@ -482,6 +482,32 @@
       "img": "b909dabc-5ac1-11f1-acc6-962cab0bf38a.jpg",
       "url": "https://feverup.com/m/655977/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=655977&u=https%3A%2F%2Ffeverup.com%2Fm%2F655977&intsrc=CATF_15532",
+      "feat": 0
+    },
+    {
+      "sku": "432252",
+      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €295",
+      "img": "d31ec9be-9bd3-11f1-917e-eaf501cfb045.jpg",
+      "url": "https://feverup.com/m/432252/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
+      "feat": 0
+    },
+    {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
       "feat": 0
     },
     {
