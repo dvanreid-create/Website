@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Niña Pastori",
-      "yt": "nSkUCCSv1YQ",
-      "where": "21 Aug · Starlite, Marbella"
-    },
-    {
-      "act": "Galván Real",
-      "yt": "uyCHZKxFPig",
-      "where": "21 Aug · Marenostrum, Fuengirola"
-    },
-    {
       "act": "La Plazuela",
       "yt": "YA_ow9Pkuvg",
       "where": "22 Aug · Marenostrum, Fuengirola"
@@ -21,6 +11,21 @@
       "where": "22 Aug · Starlite, Marbella"
     },
     {
+      "act": "INNA",
+      "yt": "I3Gep4KZty4",
+      "where": "22 Aug · Marbella Arena, Marbella"
+    },
+    {
+      "act": "Gloria Trevi",
+      "yt": "MsAAbvwsvK4",
+      "where": "24 Aug · Starlite, Marbella"
+    },
+    {
+      "act": "Nile Rodgers",
+      "yt": "R-v8jbgcthg",
+      "where": "26 Aug · Starlite, Marbella"
+    },
+    {
       "act": "Miss Caffeina",
       "yt": "uKK12X_OfRU",
       "where": "27 Aug · ME Marbella, Marbella"
@@ -29,6 +34,11 @@
       "act": "Love of Lesbian",
       "yt": "TqHEvFfLa9Q",
       "where": "29 Aug · Starlite, Marbella"
+    },
+    {
+      "act": "Thomas Helmig",
+      "yt": "U6EjPDaLkRA",
+      "where": "4 Sep · Marbella Arena, Marbella"
     },
     {
       "act": "Chambao",
@@ -42,10 +52,13 @@
     }
   ],
   "thumbs": {
-    "Niña Pastori": "nSkUCCSv1YQ",
     "Pastora Soler": "U0_2dnl7U-8",
     "Candlelight: Tribute to Ludovico Einaudi": "O9wjmEhMKFw",
+    "INNA": "I3Gep4KZty4",
+    "Gloria Trevi": "MsAAbvwsvK4",
+    "Nile Rodgers & Chic": "R-v8jbgcthg",
     "Love of Lesbian": "TqHEvFfLa9Q",
+    "Thomas Helmig": "U6EjPDaLkRA",
     "Candlelight: The Lord of the Rings": "7fwhRl1f-Hg",
     "Candlelight Open Air: Tribute to Queen": "fJ9rUzIMcZQ",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
