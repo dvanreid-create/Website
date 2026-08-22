@@ -72,6 +72,18 @@
    "venue": "nerja",
    "date": "2026-09-14",
    "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-19 by the daily click-test (NOT a genre judgement). The card's Tickets link opens the Ayuntamiento de Nerja press release 'Antonio Cortes inaugura la nueva temporada del Centro Cultural con un concierto inedito', DATED 10 SEPTIEMBRE 2024, with no ticket page and no buy control (browser-verified 2026-08-19). DLR already ruled this entry off the site on 2026-08-15 as a 2024 press release read as a 2026 event; the weekly sweep has re-created it. Scoped to venue+date so a genuine Antonio Cortes gig elsewhere is unaffected."
+  },
+  {
+   "match": "ludovico einaudi",
+   "venue": "miramar",
+   "date": "2026-08-22",
+   "why": "NO BUYABLE SESSION - removed 2026-08-22 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/145066 'Candlelight: Tributo a Ludovico Einaudi en el Gran Hotel Miramar' renders its 'sab 22 ago' date chip with class level-item--disabled, and CLICKING IT DOES NOT SELECT — the selection stays on 'dom 01 nov', the only bookable session the plan offers. Proven from the seller's own date selector, not from page-body dates (browser-verified 2026-08-22). Candlelight is Fever-exclusive ('Exclusivo Fever' badge on the plan), so no alternative seller exists for the 22 Aug date. Scoped to venue+date so the 01 Nov run at the same venue, and the Marbella Candlelight Open Air Einaudi, are unaffected."
+  },
+  {
+   "match": "disney",
+   "venue": "miramar",
+   "date": "2026-08-23",
+   "why": "NO BUYABLE SESSION - removed 2026-08-22 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/646736 'Candlelight: Disney Canciones de Amor' renders its 'dom 23 ago' date chip with class level-item--disabled while 'jue 10 sept' and 'dom 20 sept' are selectable — so the selector works and 23 Aug specifically is not sellable (browser-verified 2026-08-22). Candlelight is Fever-exclusive, so no alternative seller exists for that date. Scoped to venue+date ON PURPOSE: the site's own 10 Sep Disney Love Songs card runs off the SAME plan m/646736 and is confirmed on sale, so it must keep publishing. 'disney' is a deliberately broad match made safe by the venue+date scope."
   }
  ]
 }
