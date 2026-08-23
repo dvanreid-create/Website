@@ -381,13 +381,14 @@
   "gloria trevi|2026-08-24": {
    "act": "Gloria Trevi",
    "date": "2026-08-24",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gloria-trevi-starlite-occident-2026-marbella/",
+   "url": "https://entradas.starlitemarbella.com/event/gloria-trevi-flyvkn",
    "expect": [
     "gloria",
     "trevi"
    ],
-   "verified": "2026-08-22",
-   "via": "browser"
+   "verified": "2026-08-23",
+   "via": "browser",
+   "note": "REPOINTED 2026-08-23: the El Corte Ingles page (entradas-gloria-trevi-starlite-occident-2026-marbella) shows the red banner 'Actualmente este evento ya no se encuentra a la venta' with a disabled buy box - the same ECI off-sale/stale-JSON-LD failure as Antonio Jose (19 Aug), Nina Pastori (20 Aug) and Pastora Soler (22 Aug). Starlite box office browser-verified 2026-08-23: 08/24/2026 10:00 PM, seating plan and two live 'Buy tickets' controls."
   },
   "nile rodgers chic|2026-08-26": {
    "act": "Nile Rodgers & Chic",
