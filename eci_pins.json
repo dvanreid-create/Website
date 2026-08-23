@@ -1,6 +1,6 @@
 {
  "_comment": "HAND-HELD ECI FACTS THAT THE SCRAPER CANNOT DISCOVER — re-applied after EVERY refresh. WHY THIS FILE EXISTS: refresh_eci_map.py rebuilds eci_starlite_map.json's `acts` block ENTIRELY from the ECI search listing, and anything it does not find is DROPPED ('-N gone'). It runs DAILY (cron 07:30 Tue-Sun) and again every Monday inside generate.sh. So any URL, price or routing typed in by hand survives only until the next SUCCESSFUL refresh. Through late July 2026 that was masked: ECI had been returning 403 to the VPS since 27 Jul, every refresh failed, and the fail-safe kept the last-good map — so hand edits appeared to stick. The moment ECI unblocks the box, an unpinned hand edit vanishes. Tools/agent/patch_eci_aliases.py reads THIS file and re-applies it immediately after refresh, before enforce_eci_routing.py. PIPELINE ORDER IS DELIBERATE: refresh (scrape facts) -> patch (restore facts we hold and it cannot) -> enforce (apply the price rule to whatever facts now exist). That means a pin supplies FACTS (url / prices); the READER-FIRST PRICE RULE still wins on routing — enforce may flip `prefer` if the prices say the box office is cheaper, and that is correct. Never pin a `prefer` that makes a reader pay more. TO ADD A PIN: verify the URL in a browser first (ECI slugs are opaque and often wrong — see nina pastori below), then add the act key exactly as _eci_norm() would produce it.",
- "generated": "2026-08-20",
+ "generated": "2026-08-23",
  "pins": {
   "nina pastori": {
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-starlite-occident-21-08-26-marbella/",
@@ -24,6 +24,9 @@
   }
  },
  "exclude": {
+  "gloria trevi": {
+   "why": "ECI page OFF-SALE for the 24 Aug 2026 Starlite show — https://www.elcorteingles.es/entradas/conciertos/entradas-gloria-trevi-starlite-occident-2026-marbella/ shows 'Desde 29,00€' then the red banner 'YA NO SE ENCUENTRA A LA VENTA' / 'Actualmente este evento ya no se encuentra a la venta' with a dead buy box (browser-verified 2026-08-23) — the same failure shape as Antonio Jose 19 Aug, Nina Pastori 20 Aug and Pastora Soler 22 Aug. The Starlite box office still sells it: https://entradas.starlitemarbella.com/event/gloria-trevi-flyvkn — 08/24/2026 10:00 PM, seating plan and two live 'Buy tickets' controls (browser-verified 2026-08-23), and that is exactly the link venue_event_map already carries under starlite/gloria trevi. Exclude from ECI so the build falls back to the box office. Safe to remove after 24 Aug 2026."
+  },
   "antonio jose": {
    "why": "ECI page OFF-SALE for the 20 Aug 2026 Starlite show — red banner 'Actualmente este evento ya no se encuentra a la venta' and the buy box is disabled ('YA NO SE ENCUENTRA A LA VENTA'), browser-verified 2026-08-19, even though the page's JSON-LD still says InStock at 21,00 EUR (stale). The Starlite box office still sells it: https://entradas.starlitemarbella.com/event/antonio-jose-z9htu9 — '20 DE AGOSTO', tickets start at 25,00 EUR, 'Buy tickets' live (browser-verified 2026-08-19), and that is exactly the link the calendar row already carries. enforce_eci_routing would pick ECI on price (21<25) but ECI is unbuyable, so exclude it and fall back to the box-office link. Safe to remove after 20 Aug 2026."
   },
