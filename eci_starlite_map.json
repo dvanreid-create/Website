@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 31,
- "prefer_eci": 26,
+ "count": 30,
+ "prefer_eci": 25,
  "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -246,17 +246,6 @@
    "box_name": "Ozuna 29/7",
    "box_url": "https://entradas.starlitemarbella.com/event/ozuna-29-7-urvsn2",
    "box_from": 35.0,
-   "prefer": "eci",
-   "why": "same price"
-  },
-  "pastora soler": {
-   "eci_name": "Pastora Soler",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pastora-soler-starlite-occident-2026-marbella/",
-   "eci_from": 25.0,
-   "eci_date": "22/08/2026",
-   "box_name": "Pastora Soler",
-   "box_url": "https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i",
-   "box_from": 25.0,
    "prefer": "eci",
    "why": "same price"
   },
