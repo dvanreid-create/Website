@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-22",
-  "count": 110,
+  "generated": "2026-08-23",
+  "count": 108,
   "items": [
     {
       "sku": "194665",
@@ -522,20 +522,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
-    },
-    {
       "sku": "141692",
       "n": "Gardens of Zoraya Granada: Flamenco Show",
       "c": "tours",
@@ -640,7 +626,7 @@
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €14",
+      "p": "From €16",
       "img": "7641edf8-8430-11f1-95b3-720cfdd8a8d0.jpeg",
       "url": "https://feverup.com/m/693799/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693799&u=https%3A%2F%2Ffeverup.com%2Fm%2F693799&intsrc=CATF_15532",
@@ -786,20 +772,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
       "feat": 0,
       "d": "Experience flamenco at its best at the Teatro Flamenco Granada with \"Sensaciones\". Enjoy singing, dancing and guitar, get your tickets now!"
-    },
-    {
-      "sku": "720954",
-      "n": "Serial Killer Speakeasy - Malaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €32",
-      "img": "cfdb3dbc-f09f-11f0-bf5b-6227f0470ae5.png",
-      "url": "https://feverup.com/m/720954/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=720954&u=https%3A%2F%2Ffeverup.com%2Fm%2F720954&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Visit the Serial Killer Speakeasy in Málaga. Enjoy themed cocktails and immersive stories in a dimly lit setting. Book your tickets now!"
     },
     {
       "sku": "684931",
