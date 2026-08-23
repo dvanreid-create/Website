@@ -1,6 +1,6 @@
 {
   "generated": "2026-08-23",
-  "count": 1195,
+  "count": 1196,
   "indexed": 60,
   "items": [
     {
@@ -18,7 +18,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.75,
-      "nrev": 836,
+      "nrev": 837,
       "idx": 1
     },
     {
@@ -162,7 +162,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.93,
-      "nrev": 416,
+      "nrev": 418,
       "idx": 1
     },
     {
@@ -288,7 +288,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.96,
-      "nrev": 81,
+      "nrev": 82,
       "idx": 0
     },
     {
@@ -323,8 +323,8 @@
       "d": "Set sail along the stunning Costa del Sol on a spacious and comfortable catamaran, perfect for families, couples, and groups of friends. Enjoy a relaxing 2-hour cruise with plenty of room to sunbathe, unwind, and take in the beautiful coastal views of Benalmadena and Malaga.\n\nDuring the trip, our ex",
       "feat": 0,
       "src": "viator",
-      "rating": 4.31,
-      "nrev": 32,
+      "rating": 4.24,
+      "nrev": 34,
       "idx": 0
     },
     {
@@ -864,7 +864,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.97,
-      "nrev": 289,
+      "nrev": 290,
       "idx": 1
     },
     {
@@ -972,7 +972,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.71,
-      "nrev": 438,
+      "nrev": 439,
       "idx": 1
     },
     {
@@ -1224,7 +1224,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.92,
-      "nrev": 108,
+      "nrev": 110,
       "idx": 1
     },
     {
@@ -2016,7 +2016,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.96,
-      "nrev": 530,
+      "nrev": 531,
       "idx": 1
     },
     {
@@ -2232,7 +2232,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.9,
-      "nrev": 107,
+      "nrev": 108,
       "idx": 1
     },
     {
@@ -2664,7 +2664,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 5.0,
-      "nrev": 1,
+      "nrev": 2,
       "idx": 0
     },
     {
@@ -2682,7 +2682,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 5.0,
-      "nrev": 40,
+      "nrev": 39,
       "idx": 0
     },
     {
@@ -3928,24 +3928,6 @@
       "idx": 0
     },
     {
-      "sku": "viator:8647P55",
-      "n": "Private 4-hour City Tour of Malaga",
-      "c": "museums",
-      "cat": "Museums",
-      "v": "",
-      "area": "Málaga",
-      "p": "From €365.08",
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/cd/e6.jpg",
-      "url": "https://www.viator.com/tours/Malaga/Private-city-tour-of-Malaga/d956-8647P55?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
-      "ticket": "https://www.viator.com/tours/Malaga/Private-city-tour-of-Malaga/d956-8647P55?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
-      "d": "You will be picked up from your hotel or place of your choice. You will be able to enjoy and admire the great architecture and sights of the city’s most important and well-known monuments. The first place you will visit on this private tour is the Gibralfaro, which is located 132 meters above the se",
-      "feat": 0,
-      "src": "viator",
-      "rating": 4.67,
-      "nrev": 3,
-      "idx": 0
-    },
-    {
       "sku": "viator:107194P555",
       "n": "Torremolinos with Picasso Clues Self Guided Treasure Hunt",
       "c": "museums",
@@ -3957,6 +3939,24 @@
       "url": "https://www.viator.com/tours/Malaga/Torremolinos-Picassos-Clues-Self-Guided-Treasure-Hunt/d956-107194P555?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
       "ticket": "https://www.viator.com/tours/Malaga/Torremolinos-Picassos-Clues-Self-Guided-Treasure-Hunt/d956-107194P555?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
       "d": "Step into the artistic world of Pablo Picasso while exploring the vibrant streets of Torremolinos in this self-guided city quest full of clues, puzzles, and real-world discoveries. It’s not just sightseeing — it’s an interactive story that turns your walk into a whimsical adventure.\n\nUsing your smar",
+      "feat": 0,
+      "src": "viator",
+      "rating": 4.67,
+      "nrev": 3,
+      "idx": 0
+    },
+    {
+      "sku": "viator:8647P55",
+      "n": "Private 4-hour City Tour of Malaga",
+      "c": "museums",
+      "cat": "Museums",
+      "v": "",
+      "area": "Málaga",
+      "p": "From €365.08",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/cd/e6.jpg",
+      "url": "https://www.viator.com/tours/Malaga/Private-city-tour-of-Malaga/d956-8647P55?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "ticket": "https://www.viator.com/tours/Malaga/Private-city-tour-of-Malaga/d956-8647P55?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "d": "You will be picked up from your hotel or place of your choice. You will be able to enjoy and admire the great architecture and sights of the city’s most important and well-known monuments. The first place you will visit on this private tour is the Gibralfaro, which is located 132 meters above the se",
       "feat": 0,
       "src": "viator",
       "rating": 4.67,
@@ -4139,8 +4139,8 @@
       "d": "The Best Way to Discover Malaga: Scavenger Hunt & Self-Guided Tour. Play, learn, and walk! Explore at your own pace with a 100% self-guided activity. Start anytime (24/7) with no guides or schedules. Pause for a refreshing drink at the Palmeral de Las Sorpresas or a stroll through Malaga Park and re",
       "feat": 0,
       "src": "viator",
-      "rating": 4.5,
-      "nrev": 4,
+      "rating": 4.6,
+      "nrev": 5,
       "idx": 0
     },
     {
@@ -4716,7 +4716,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.92,
-      "nrev": 73,
+      "nrev": 74,
       "idx": 0
     },
     {
@@ -4734,7 +4734,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.77,
-      "nrev": 74,
+      "nrev": 75,
       "idx": 0
     },
     {
@@ -4842,7 +4842,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 5.0,
-      "nrev": 6,
+      "nrev": 7,
       "idx": 0
     },
     {
@@ -6389,8 +6389,8 @@
       "d": "On this visit we will visit the most emblematic monuments of the city. We offer a personalized experience with small groups whose objective is for visitors to discover our history and monuments but also our traditions and products.\n\nLocal guides born and raised in Malaga, years of experience as offi",
       "feat": 0,
       "src": "viator",
-      "rating": 4.94,
-      "nrev": 18,
+      "rating": 4.95,
+      "nrev": 19,
       "idx": 0
     },
     {
@@ -15390,7 +15390,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 5.0,
-      "nrev": 4,
+      "nrev": 5,
       "idx": 0
     },
     {
@@ -16596,7 +16596,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.72,
-      "nrev": 136,
+      "nrev": 137,
       "idx": 1
     },
     {
@@ -17532,7 +17532,7 @@
       "feat": 0,
       "src": "viator",
       "rating": 4.97,
-      "nrev": 228,
+      "nrev": 229,
       "idx": 1
     },
     {
@@ -17551,6 +17551,24 @@
       "src": "viator",
       "rating": 4.85,
       "nrev": 88,
+      "idx": 0
+    },
+    {
+      "sku": "viator:409474P3",
+      "n": "Marbella: City Highlights Tour",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Marbella",
+      "p": "From €20",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/04/98/61.jpg",
+      "url": "https://www.viator.com/tours/Marbella/Explore-Marbella-Old-Town-Guided-Walking-Tour-With-A-Local/d22304-409474P3?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "ticket": "https://www.viator.com/tours/Marbella/Explore-Marbella-Old-Town-Guided-Walking-Tour-With-A-Local/d22304-409474P3?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "d": "Join us for a relaxed and informative 1.5-hour walking tour through the historic centre of Marbella. This tour is led by a local English-speaking guide who will take your group through the charming streets of Marbella Old Town.\nWe will pass by Marbella’s most interesting locations, including multipl",
+      "feat": 0,
+      "src": "viator",
+      "rating": 4.89,
+      "nrev": 19,
       "idx": 0
     },
     {
@@ -17842,24 +17860,6 @@
       "idx": 0
     },
     {
-      "sku": "viator:307099P125",
-      "n": "Marbella City Tour Discover the Old Town",
-      "c": "food",
-      "cat": "Food & Drink",
-      "v": "",
-      "area": "Marbella",
-      "p": "From €120",
-      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/0e/c3/05.jpg",
-      "url": "https://www.viator.com/tours/Marbella/Bokun-Free-Product-1/d22304-307099P125?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
-      "ticket": "https://www.viator.com/tours/Marbella/Bokun-Free-Product-1/d22304-307099P125?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
-      "d": "Step into the heart of Marbella and uncover its most enchanting secrets on this unforgettable walking tour. Wander through the whitewashed streets of the Old Town, breathe in the scent of orange trees in the iconic Plaza de los Naranjos, and explore centuries of history hidden behind every corner. F",
-      "feat": 0,
-      "src": "viator",
-      "rating": 0.0,
-      "nrev": 0,
-      "idx": 0
-    },
-    {
       "sku": "viator:221834P12",
       "n": "Antequera Classic Winery Tour",
       "c": "food",
@@ -17871,6 +17871,24 @@
       "url": "https://www.viator.com/tours/Marbella/VIP-Wine-Tour-through-the-Guadalhorce-Valley-and-Wolf-Sanctuary-Visit/d22304-221834P12?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
       "ticket": "https://www.viator.com/tours/Marbella/VIP-Wine-Tour-through-the-Guadalhorce-Valley-and-Wolf-Sanctuary-Visit/d22304-221834P12?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
       "d": "This is a small group tour with a maximum of 7 people. At each attraction you will have a private small group tour of the facilities, away from the crowds.\n\nThe tour is custom made to the group. You will enjoy the day at your leisure and discover niche, family owned vineyards, that are hidden gems i",
+      "feat": 0,
+      "src": "viator",
+      "rating": 0.0,
+      "nrev": 0,
+      "idx": 0
+    },
+    {
+      "sku": "viator:307099P125",
+      "n": "Marbella City Tour Discover the Old Town",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Marbella",
+      "p": "From €120",
+      "img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/0e/c3/05.jpg",
+      "url": "https://www.viator.com/tours/Marbella/Bokun-Free-Product-1/d22304-307099P125?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "ticket": "https://www.viator.com/tours/Marbella/Bokun-Free-Product-1/d22304-307099P125?mcid=42383&pid=P00315932&medium=api&api_version=2.0",
+      "d": "Step into the heart of Marbella and uncover its most enchanting secrets on this unforgettable walking tour. Wander through the whitewashed streets of the Old Town, breathe in the scent of orange trees in the iconic Plaza de los Naranjos, and explore centuries of history hidden behind every corner. F",
       "feat": 0,
       "src": "viator",
       "rating": 0.0,

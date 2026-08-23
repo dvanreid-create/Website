@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
   "generated": "2026-08-23",
-  "count": 108,
+  "count": 109,
   "items": [
     {
       "sku": "194665",
@@ -522,18 +522,18 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "141692",
-      "n": "Gardens of Zoraya Granada: Flamenco Show",
+      "sku": "432252",
+      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
       "c": "tours",
-      "cat": "Day Trip",
+      "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €20",
-      "img": "dcb54cf8-6776-11ee-9b00-e67ab24b2c49",
-      "url": "https://feverup.com/m/141692/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141692&u=https%3A%2F%2Ffeverup.com%2Fm%2F141692&intsrc=CATF_15532",
+      "p": "From €295",
+      "img": "d31ec9be-9bd3-11f1-917e-eaf501cfb045.jpg",
+      "url": "https://feverup.com/m/432252/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
       "feat": 0,
-      "d": "💃 Experience an unparalleled flamenco show in the Zoraya Gardens, in the heart of the Albaicín in Granada. Get your tickets!"
+      "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
     },
     {
       "sku": "89659",
@@ -872,6 +872,20 @@
       "d": "Experience The Plague in Malaga, a theatrical night tour that relives the Black Death with history and unique characters. Get your tickets now!"
     },
     {
+      "sku": "683220",
+      "n": "Tickets for an Authentic Flamenco Show at Tablao Flamenco Zawi in Granada",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "1996d868-7a1f-11f1-9d0a-063f34aee2a1.jpeg",
+      "url": "https://feverup.com/m/683220/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=683220&u=https%3A%2F%2Ffeverup.com%2Fm%2F683220&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Experience the essence of Andalusia at ZAWI Granada, where live flamenco, music and culture come together in an intimate cultural venue in the heart of the city. Get your tickets now!"
+    },
+    {
       "sku": "328893",
       "n": "Tickets for Disco Tour Malaga",
       "c": "tours",
@@ -1060,7 +1074,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €21",
+      "p": "From €16.95",
       "img": "8c9da1a7-c5e0-11ea-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/89658/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89658&u=https%3A%2F%2Ffeverup.com%2Fm%2F89658&intsrc=CATF_15532",
