@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
   "generated": "2026-08-24",
-  "count": 110,
+  "count": 109,
   "items": [
     {
       "sku": "194665",
@@ -522,6 +522,20 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "432252",
+      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €295",
+      "img": "d31ec9be-9bd3-11f1-917e-eaf501cfb045.jpg",
+      "url": "https://feverup.com/m/432252/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -760,20 +774,6 @@
       "d": "Experience flamenco at its best at the Teatro Flamenco Granada with \"Sensaciones\". Enjoy singing, dancing and guitar, get your tickets now!"
     },
     {
-      "sku": "720954",
-      "n": "Serial Killer Speakeasy - Malaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €32",
-      "img": "cfdb3dbc-f09f-11f0-bf5b-6227f0470ae5.png",
-      "url": "https://feverup.com/m/720954/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=720954&u=https%3A%2F%2Ffeverup.com%2Fm%2F720954&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Visit the Serial Killer Speakeasy in Málaga. Enjoy themed cocktails and immersive stories in a dimly lit setting. Book your tickets now!"
-    },
-    {
       "sku": "684931",
       "n": "Spider-Man: Un nuevo día",
       "c": "tours",
@@ -912,20 +912,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
       "feat": 0,
       "d": "Get your tickets for Flamenco Authentic Show at Teatro Flamenco Málaga and don"
-    },
-    {
-      "sku": "643664",
-      "n": "Tickets for the K",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "LA K"
     },
     {
       "sku": "587444",
