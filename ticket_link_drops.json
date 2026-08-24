@@ -1,5 +1,15 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
  "generated": "2026-08-24",
- "drops": {}
+ "drops": {
+  "Canela Party 2026 – Día 1 (Unknown Mortal Orchestra, Melody's Echo Chamber, Nation of Language, Mannequin Pussy + more)": "GENERIC — homepage/search/listing: https://canelaparty.com/",
+  "Canela Party 2026 – Día 2 (Carolina Durante, Deafheaven, Wavves, FUET!, La Paloma + more)": "GENERIC — homepage/search/listing: https://canelaparty.com/",
+  "Canela Party 2026 – Día 3 (Mannequin Pussy, Chalk, Deafheaven, Nation of Language + more)": "GENERIC — homepage/search/listing: https://canelaparty.com/",
+  "Antonio Sánchez – Birdman Live (MOSMA Reloaded)": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
+  "Kevin Kaarl": "UNVERIFIED — host blocks bots and no matching browser-verified URL",
+  "Jakob Dreyer Project feat. Román Filiú": "GENERIC — homepage/search/listing: https://www.clarencejazzclub.com/wp/programacion/",
+  "S.O.P.H.I.E Festival – Grand Closing (Ricardo Villalobos, Seth Troxler, Maher Daniel + more)": "GENERIC — homepage/search/listing: https://sophie.es/",
+  "Äsys Quartet": "GENERIC — homepage/search/listing: https://www.clarencejazzclub.com/wp/programacion/",
+  "Canela Party 2026 – Día 1 (Unknown Mortal Orchestra, Melody&#x27;s Echo Chamber, Nation of Language, Mannequin Pussy + more)": "GENERIC — homepage/search/listing: https://canelaparty.com/"
+ }
 }
