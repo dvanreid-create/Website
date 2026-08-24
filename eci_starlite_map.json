@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 30,
- "prefer_eci": 25,
+ "count": 29,
+ "prefer_eci": 24,
  "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -67,17 +67,6 @@
    "eci_date": "21/07/2026",
    "box_name": "Diana Krall",
    "box_url": "https://entradas.starlitemarbella.com/event/diana-kral-ugak4n",
-   "box_from": 29.0,
-   "prefer": "eci",
-   "why": "same price"
-  },
-  "gloria trevi": {
-   "eci_name": "Gloria Trevi",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gloria-trevi-starlite-occident-2026-marbella/",
-   "eci_from": 29.0,
-   "eci_date": "24/08/2026",
-   "box_name": "Gloria Trevi",
-   "box_url": "https://entradas.starlitemarbella.com/event/gloria-trevi-flyvkn",
    "box_from": 29.0,
    "prefer": "eci",
    "why": "same price"
