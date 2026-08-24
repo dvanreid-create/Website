@@ -1194,6 +1194,13 @@
     }
    }
   },
+  "auditorio municipal de rincon": {
+   "source": "https://conciertos.club/malaga/locales/auditorio-municipal-de-rincon-de-la-victoria",
+   "complete": false,
+   "gate": false,
+   "note": "Auditorio Municipal de Rincon de la Victoria. Added 2026-08-24 when Sofia extended the covered towns east into the Costa del Sol oriental. Runs a real season (17 shows Jun-Sep 2026) but the bill is MIXED - comedy, theatre and magic alongside the music - which is exactly why complete:false and gate:false: arming the phantom gate on a mixed-programme municipal room would delete real gigs, and not_music_blocklist.json is the right tool for the non-music nights. Key kept SHORT and without the town: the venue is written both 'de Rincon' and 'del Rincon', and _venue_lookup needs the key to be a substring of BOTH. VERIFIED 2026-08-24: Wasabi Cru 4 Sep, 12.50 EUR.",
+   "acts": {}
+  },
   "zz pub": {
    "complete": true,
    "gate": false,
