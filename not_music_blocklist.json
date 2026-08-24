@@ -108,6 +108,10 @@
    "venue": "plaza de toros",
    "date": "2026-08-27",
    "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-24 by the daily click-test (NOT a genre judgement; the festival itself IS live music and stays on the site). 27 Aug carried the SAME festival TWICE: the three-night series 'Canela Party 2026 - Dia 1/2/3' (27/28/29 Aug, venue 'Recinto Ferial de Torremolinos', full line-ups) AND a second standalone card 'Canela Party 2026' on 27 Aug whose venue reads 'Plaza de Toros de Torremolinos'. Browser-confirmed 2026-08-24 on the seller's own page, ingresse.com/canela-party-2026/: the festival is at the RECINTO FERIAL de Torremolinos on 27, 28 and 29 August - so the standalone card is both a duplicate of Dia 1 and wrong about the venue. Keeps the Dia 1/2/3 series, which names the right venue and the bill. THE VENUE SCOPE IS THE WHOLE POINT: the gate is a SUBSTRING test, so 'canela party 2026' also appears inside 'Canela Party 2026 - Dia 1 (Unknown Mortal Orchestra...)'; only the venue clause keeps Dia 1 alive. If a future build ever labels the Dia 1 row 'Plaza de Toros', this entry would remove it too - re-check if Dia 1 disappears from 27 Aug. REVERSIBLE: delete to show both cards again."
+  },
+  {
+   "match": "bioparc",
+   "why": "NOT LIVE MUSIC — a ZOO. Removed at DLR's direction 2026-08-24. 'Bioparc Fuengirola: a varguandist zoo!' is the Bioparc Fuengirola animal park, a Fever attraction the weekly sweep ingested; the Featured (Fever/Candlelight) rail then surfaced it with a generic stock image and a garbled blurb. Deleting the calendar row does not hold (the sweep re-adds it from Fever), so it is gated here on every build. Unscoped: 'bioparc' is a distinctive brand name (the Bioparc zoos), safe to block anywhere."
   }
  ]
 }
