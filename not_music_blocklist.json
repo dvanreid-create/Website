@@ -112,6 +112,36 @@
   {
    "match": "bioparc",
    "why": "NOT LIVE MUSIC — a ZOO. Removed at DLR's direction 2026-08-24. 'Bioparc Fuengirola: a varguandist zoo!' is the Bioparc Fuengirola animal park, a Fever attraction the weekly sweep ingested; the Featured (Fever/Candlelight) rail then surfaced it with a generic stock image and a garbled blurb. Deleting the calendar row does not hold (the sweep re-adds it from Fever), so it is gated here on every build. Unscoped: 'bioparc' is a distinctive brand name (the Bioparc zoos), safe to block anywhere."
+  },
+  {
+   "match": "comandante lara",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Stand-up comedian, opened the 2026 season on 12 Jun. Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere."
+  },
+  {
+   "match": "el brujo",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Rafael Alvarez 'El Brujo' - one-man theatre, 2 Sep 2026, 18 EUR. Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. 'brujo' is a common Spanish word and could easily form part of a band name."
+  },
+  {
+   "match": "monologos",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. The 'gran noche de monologos' stand-up night in the Festival de la Comedia strand (22-25 Jul). Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. Matches the accent-stripped form, which is how this gate normalises."
+  },
+  {
+   "match": "mago de oz",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. 'El Mago de Oz' - the Wizard of Oz stage show at Rincon in Aug 2026. Not live music. *** VENUE SCOPING IS CRITICAL HERE, NOT OPTIONAL: Mago de Oz (Mago de Oz / Magodeoz) is a well-known Spanish folk-metal BAND that genuinely tours. An unscoped rule would silently delete a real gig by them anywhere on the coast. Never remove the venue scope from this entry."
+  },
+  {
+   "match": "antonia san juan",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Actress, appearing in the Festival de la Comedia strand (22-25 Jul). Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. A personal name, which this file's comment specifically says must be scoped."
+  },
+  {
+   "match": "festival de la comedia",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. The comedy festival strand inside 'Noches de Verano', 22-25 Jul 2026. Comedy, not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere."
   }
  ]
 }
