@@ -147,6 +147,11 @@
    "match": "un secreto a voces",
    "venue": "rincon",
    "why": "Comedy play by Alvaro Carrero (with Pablo Puyol), 3 Sep 2026, Auditorio Municipal de Rincon de la Victoria. Not live music. Pre-loaded 2026-08-24 alongside the rest of Rincon's comedy strand. Scoped to venue per this file's own rule: 'un secreto a voces' is an ordinary Spanish phrase (it is the standard translation of the play 'Noises Off') and could plausibly appear in a song or album title elsewhere."
+  },
+  {
+   "match": "cochera comedy",
+   "venue": "marenostrum",
+   "why": "LA COCHERA COMEDY SOHAIL - stand-up comedy nights at Marenostrum Castle Park, a four-date residency (7, 14, 21, 28 Jun 2026). Comedy, not live music. PRE-LOADED 2026-08-24 at Sofia's instruction while the 2026 dates are already past: comedy residencies come back, and a four-date run is exactly the shape that would repeat in the reels. Marenostrum publishes its WHOLE programme and is one of the two venues this file was created for. Scoped to venue: 'La Cochera' is also a real Malaga venue (La Cochera Cabaret) that hosts genuine music, so an unscoped rule could delete real gigs. IF La Cochera Comedy turns up at another venue it needs its own entry."
   }
  ]
 }
