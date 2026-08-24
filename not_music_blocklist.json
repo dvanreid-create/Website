@@ -152,6 +152,10 @@
    "match": "cochera comedy",
    "venue": "marenostrum",
    "why": "LA COCHERA COMEDY SOHAIL - stand-up comedy nights at Marenostrum Castle Park, a four-date residency (7, 14, 21, 28 Jun 2026). Comedy, not live music. PRE-LOADED 2026-08-24 at Sofia's instruction while the 2026 dates are already past: comedy residencies come back, and a four-date run is exactly the shape that would repeat in the reels. Marenostrum publishes its WHOLE programme and is one of the two venues this file was created for. Scoped to venue: 'La Cochera' is also a real Malaga venue (La Cochera Cabaret) that hosts genuine music, so an unscoped rule could delete real gigs. IF La Cochera Comedy turns up at another venue it needs its own entry."
+  },
+  {
+   "match": "benalmadena rie",
+   "why": "'Benalmadena Rie' - the town's COMEDY festival (rie = laughs). Comedy, not live music. Spotted 2026-08-24 on mmalaga.es while looking for a readable Benalmadena source, and pre-loaded under Sofia's standing instruction rather than waiting for it to reach the site. UNSCOPED deliberately, which is safe here because the town name is part of the title - the phrase cannot collide with an act anywhere else. Matches the accent-stripped form (Benalmadena Rie), which is how this gate normalises."
   }
  ]
 }
