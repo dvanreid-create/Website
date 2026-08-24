@@ -158,6 +158,14 @@
    "why": "'Benalmadena Rie' - the town's COMEDY festival (rie = laughs). Comedy, not live music. Spotted 2026-08-24 on mmalaga.es while looking for a readable Benalmadena source, and pre-loaded under Sofia's standing instruction rather than waiting for it to reach the site. UNSCOPED deliberately, which is safe here because the town name is part of the title - the phrase cannot collide with an act anywhere else. Matches the accent-stripped form (Benalmadena Rie), which is how this gate normalises."
   },
   {
+   "match": "karaoke",
+   "why": "STANDING RULE, not a one-off show. Sofia 2026-08-24: 'karaoke never counts'. Karaoke is the audience singing to backing tracks, not a live-music booking, so it is never a listing and never a reel. Deliberately UNSCOPED and deliberately a single common word so it catches the whole category wherever it appears - the trigger case was 'Ciao Mare - Italia Karaoke Show' at La Cochera Cabaret (3 Nov 2026), which the venue itself tags MUSICA. Substring matching means this also catches live-band karaoke billed as 'rockaraoke', which is still karaoke. This is the ONLY broad category rule in the file: every other entry names a specific show, because a broad rule can delete real gigs. It is safe here only because no touring act is billed with 'karaoke' in its name."
+  },
+  {
+   "match": "venciendo a monstruo miedo",
+   "why": "Pre-loaded 2026-08-24 under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Children's show at La Cochera Cabaret, 24 Jan 2027. Caught because the venue MIS-TAGS it as MUSICA on its own taxonomy feed (lacocheracabaret.com/tipo-evento/musica), which is the only source we sweep for that room - so the category filter alone would NOT have stopped it. Unscoped: the title is specific enough to be safe anywhere, and it is a children's show wherever it tours. NOTE for whoever reviews the same feed later: 'Malas Companias' and 'Bendecida' also sit on it and also look like theatre titles, but BOTH were checked on their own event pages and are genuine music (Sabina tribute and Heroes del Silencio tribute respectively) - do not block them."
+  },
+  {
    "match": "hipnomagia",
    "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Jose Tejada's magic + hypnosis + comedy show, 28 Aug 2026. TITLE-LEVEL block added because the two sources bill it differently: the ticketer says 'JOSE TEJADA HIPNOMAGIA' (which the existing 'jose tejada' rule catches) but the venue's own cartelera says just 'Hipnomagia' (which it did NOT catch). LESSON: block the SHOW TITLE as well as the performer. Unscoped: 'hipnomagia' is a coined word and the show is non-music wherever it tours."
   },
