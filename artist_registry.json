@@ -128,7 +128,7 @@
 "mles": 58.8
 },
 "nile-rodgers-chic": {
-"name": "Nile Rodgers & Chic",
+"name": "Nile Rodgers & CHIC",
 "mles": 49.5
 },
 "miss-caffeina": {
@@ -168,7 +168,7 @@
 "mles": 47.3
 },
 "sun-thunder-26": {
-"name": "SUN & THUNDER 26",
+"name": "Sun & Thunder 26",
 "mles": 45.0
 },
 "kream-feat-alvama-ice": {
@@ -192,7 +192,7 @@
 "mles": 47.9
 },
 "chambao": {
-"name": "CHAMBAO",
+"name": "Chambao",
 "mles": 50.7
 },
 "michael-jackson-tribute": {
@@ -232,7 +232,7 @@
 "mles": 0.0
 },
 "apulanta": {
-"name": "APULANTA",
+"name": "Apulanta",
 "mles": 36.9
 },
 "china-crisis": {
@@ -249,6 +249,90 @@
 },
 "bioparc-fuengirola-a-varguandist-zoo": {
 "name": "Bioparc Fuengirola: a varguandist zoo!",
+"mles": 0.0
+},
+"reyes-de-luna": {
+"name": "Reyes de Luna",
+"mles": 0.0
+},
+"la-danza-macabra": {
+"name": "La Danza Macabra",
+"mles": 0.0
+},
+"el-sinfonico-de-disney": {
+"name": "El Sinfónico de Disney",
+"mles": 0.0
+},
+"la-creedance": {
+"name": "La Creedance",
+"mles": 0.0
+},
+"alejandro-hurtado-e-inmaculada-salomon": {
+"name": "Alejandro Hurtado e Inmaculada Salomón",
+"mles": 0.0
+},
+"tributo-queen": {
+"name": "Tributo Queen",
+"mles": 0.0
+},
+"jacob-kellerman": {
+"name": "Jacob Kellerman",
+"mles": 0.0
+},
+"quinteto-1909": {
+"name": "Quinteto 1909",
+"mles": 0.0
+},
+"el-kuelgue": {
+"name": "El Kuelgue",
+"mles": 0.0
+},
+"el-amir": {
+"name": "El Amir",
+"mles": 0.0
+},
+"descemer-bueno": {
+"name": "Descemer Bueno",
+"mles": 0.0
+},
+"carmen-linares": {
+"name": "Carmen Linares",
+"mles": 0.0
+},
+"emanero-tour-2026": {
+"name": "Emanero Tour 2026",
+"mles": 0.0
+},
+"antonio-sanchez": {
+"name": "Antonio Sánchez",
+"mles": 0.0
+},
+"kevin-kaarl": {
+"name": "Kevin Kaarl",
+"mles": 0.0
+},
+"tributo-a-adele": {
+"name": "Tributo a Adele",
+"mles": 0.0
+},
+"villano-antillano": {
+"name": "Villano Antillano",
+"mles": 0.0
+},
+"jakob-dreyer-project-feat-roman-filiu": {
+"name": "Jakob Dreyer Project feat. Román Filiú",
+"mles": 0.0
+},
+"perdido-en-los-80": {
+"name": "Perdido en los 80",
+"mles": 0.0
+},
+"asys-quartet": {
+"name": "Äsys Quartet",
+"mles": 0.0
+},
+"country-night": {
+"name": "Country Night",
 "mles": 0.0
 }
 }
