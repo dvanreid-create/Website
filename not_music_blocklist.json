@@ -84,6 +84,24 @@
    "venue": "miramar",
    "date": "2026-08-23",
    "why": "NO BUYABLE SESSION - removed 2026-08-22 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/646736 'Candlelight: Disney Canciones de Amor' renders its 'dom 23 ago' date chip with class level-item--disabled while 'jue 10 sept' and 'dom 20 sept' are selectable — so the selector works and 23 Aug specifically is not sellable (browser-verified 2026-08-22). Candlelight is Fever-exclusive, so no alternative seller exists for that date. Scoped to venue+date ON PURPOSE: the site's own 10 Sep Disney Love Songs card runs off the SAME plan m/646736 and is confirmed on sale, so it must keep publishing. 'disney' is a deliberately broad match made safe by the venue+date scope."
+  },
+  {
+   "match": "kevin kaarl",
+   "venue": "paris",
+   "date": "2026-09-15",
+   "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-24 by the daily click-test (NOT a genre judgement). The card's Tickets link is the BARE HOMEPAGE www.entradas.com/, and entradas.com's own site search returns no Kevin Kaarl at all. Chased to the source in the browser 2026-08-24: (a) the venue's own page paris15.es/event/kevin-kaarl/ dates the show 'septiembre 15, 2025' and its entradas.com deep link /event/kevin-kaarl-sala-paris-15-19892866/ returns 'La pagina que buscas no esta disponible'; (b) Songkick's page for that exact gig, /concerts/42459298-kevin-kaarl-at-sala-paris-15, is headed PAST CONCERT - Monday 15 September 2025; (c) Songkick's Sala Paris 15 venue page lists 22 upcoming shows including El Kuelgue 10 Sep, Emanero 12 Sep, Villano Antillano 18 Sep, Callejero Fino 20 Sep and Ciro y los Persas 24 Sep 2026 - and NO Kevin Kaarl; (d) tomaticket's Kevin Kaarl artist page shows only Monterrey dates upcoming. Same failure mode as Antonio Cortes 14 Sep: a past show read one year forward. Scoped to venue+date so a genuine future Kevin Kaarl gig still publishes."
+  },
+  {
+   "match": "jakob dreyer",
+   "venue": "clarence",
+   "date": "2026-09-18",
+   "why": "NO BUYING PAGE EXISTS - removed 2026-08-24 by the daily click-test (NOT a genre judgement; this IS live music). The card's Tickets control links clarencejazzclub.com/wp/programacion/, a month-browser that renders 'AGOSTO, 2026 - SIN EVENTOS'; /wp/events/ returns the eventON error 'Please select a event archive page in eventON Settings'. Browser-verified 2026-08-24: the club's OWN site-wide search for 'Jakob Dreyer' returns 'No results found', so there is no event page, no price and no buy control anywhere on the seller - the club's X feed says it is on holiday and reopens 16 September with the 26/27 season, which it has not yet published. A visitor clicking Tickets gets an empty listing. REVERSIBLE: delete this entry once Clarence publishes the show at /wp/events/<slug>/ (that is where its August gigs lived and where the baseline already holds eight of them). Scoped to venue+date."
+  },
+  {
+   "match": "asys quartet",
+   "venue": "clarence",
+   "date": "2026-09-19",
+   "why": "NO BUYING PAGE EXISTS - removed 2026-08-24 by the daily click-test (NOT a genre judgement; this IS live music). Identical to the Jakob Dreyer 18 Sep case: the card links the clarencejazzclub.com/wp/programacion/ month-browser, which shows 'AGOSTO, 2026 - SIN EVENTOS', and the club's own search for 'Asys' returns 'No results found' (browser-verified 2026-08-24), so no event page, price or buy control exists. Clarence reopens 16 September with the 26/27 season and has not published it yet. Match is written unaccented because the gate normalises NFKD, so 'Asys Quartet' catches the site's 'Asys Quartet'. REVERSIBLE: delete once the club publishes the show. Scoped to venue+date."
   }
  ]
 }
