@@ -1724,6 +1724,41 @@
      "why": "Miss Caffeina presenta BUENASUERTE en formato acústico en la terraza del ME Marbella."
     }
    }
+  },
+  "sala marte": {
+   "source": "https://conciertos.club/malaga/locales/sala-marte",
+   "complete": false,
+   "gate": false,
+   "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "acts": {}
+  },
+  "the hall": {
+   "source": "https://conciertos.club/malaga/locales/the-hall",
+   "complete": false,
+   "gate": false,
+   "note": "The Hall, Malaga city. Concert hall and jazz club with a regular ticketed programme. Confirmed on the province agenda 2026-08-21: Sandra Groove 18 Sep, Fraderita 19 Sep. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "acts": {}
+  },
+  "sala core": {
+   "source": "https://conciertos.club/malaga/locales/sala-core",
+   "complete": false,
+   "gate": false,
+   "note": "Sala Core, Malaga city. Small indie/rock room, cheap tickets (Fauces + La enfermedad del beso, 5 Sep, 8 EUR - confirmed 2026-08-21). Sofia listed this as 'Sala Velvet / Sala Core'; the listings use SALA CORE, so that is the key. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "acts": {}
+  },
+  "elcamm": {
+   "source": "https://conciertos.club/malaga/locales/elcamm-el-centro-de-artes-y-musica-moderna-de-malaga",
+   "complete": false,
+   "gate": false,
+   "note": "ELCAMM - Centro de Artes y Musica Moderna de Malaga. A music school that genuinely GIGS, which is why it is here and the seven conservatories are not: it programmes public ticketed concerts (Patax 22 Oct, Maria del Tango 3 Oct at 20 EUR - confirmed 2026-08-21). Key kept SHORT as 'elcamm' on purpose: _venue_lookup matches when the KEY is a substring of the venue name, and the full name varies wildly between sources. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "acts": {}
+  },
+  "malaga forum": {
+   "source": "https://conciertos.club/malaga/locales/malaga-forum",
+   "complete": false,
+   "gate": false,
+   "note": "Malaga Forum, Malaga city. Large-capacity room. It already had NO map entry at all despite carrying marquee bookings that reach the site by other routes (elrow, 22 Aug). Grupo Firme 20 Sep at 45-90 EUR confirmed 2026-08-21 - exactly the kind of act that must not be missed. Also the venue for the Moonlight Malaga festival already referenced in source_calendar. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "acts": {}
   }
  }
 }
