@@ -156,6 +156,59 @@
   {
    "match": "benalmadena rie",
    "why": "'Benalmadena Rie' - the town's COMEDY festival (rie = laughs). Comedy, not live music. Spotted 2026-08-24 on mmalaga.es while looking for a readable Benalmadena source, and pre-loaded under Sofia's standing instruction rather than waiting for it to reach the site. UNSCOPED deliberately, which is safe here because the town name is part of the title - the phrase cannot collide with an act anywhere else. Matches the accent-stripped form (Benalmadena Rie), which is how this gate normalises."
+  },
+  {
+   "match": "hipnomagia",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Jose Tejada's magic + hypnosis + comedy show, 28 Aug 2026. TITLE-LEVEL block added because the two sources bill it differently: the ticketer says 'JOSE TEJADA HIPNOMAGIA' (which the existing 'jose tejada' rule catches) but the venue's own cartelera says just 'Hipnomagia' (which it did NOT catch). LESSON: block the SHOW TITLE as well as the performer. Unscoped: 'hipnomagia' is a coined word and the show is non-music wherever it tours."
+  },
+  {
+   "match": "imagilusion",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Family show of Disney songs with dance and visual magic (Frozen, Toy Story, El Rey Leon, Mary Poppins), 19 Sep 2026. It DOES contain music, but it is a children's theatrical show, not a gig - Sofia ruled it out 2026-08-24. Unscoped: coined word, safe anywhere."
+  },
+  {
+   "match": "el raro de los 90",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stand-up monologue about growing up in the 90s, 4 Sep 2026. Comedy, not music."
+  },
+  {
+   "match": "dreaming bubbles",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Giant-bubble family show, 6-7 Sep 2026. Visual/sensory, not a gig."
+  },
+  {
+   "match": "de cuentos el musical",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Children's musical theatre, 11 Sep 2026."
+  },
+  {
+   "match": "perdido en los 80",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Billed as an 80s nostalgia night but the ticketer description is explicit: 'un MONOLOGO' by Diego Sanchez, 19 Sep 2026. Stand-up, not music. Scoped because the phrase would make a perfectly ordinary song or album title."
+  },
+  {
+   "match": "the magic experience",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Magic/illusion show, 26 Sep 2026. Scoped: a generic English phrase that could easily name a music show elsewhere."
+  },
+  {
+   "match": "la cena de los idiotas",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stage comedy (the Spanish 'Le Diner de Cons'), 22 Oct 2026. Theatre, not music."
+  },
+  {
+   "match": "la ratonera",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Agatha Christie's 'The Mousetrap', 23 Oct 2026. Theatre. Scoped: 'la ratonera' is an ordinary Spanish word and is also used as a venue/bar name."
+  },
+  {
+   "match": "un cura en apuros",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stage comedy, 24 Oct 2026. Theatre, not music."
+  },
+  {
+   "match": "miercoles addams",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. 'Miercoles Addams: El Secreto de la Mansion', family theatre, 30 Oct-1 Nov 2026. Scoped: a themed music night of the same name is imaginable elsewhere."
   }
  ]
 }
