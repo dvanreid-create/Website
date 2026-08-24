@@ -1047,9 +1047,11 @@
      "venue_name": "Superstars 90 Málaga"
     },
     "k beat festival": {
-     "url": "https://www.malagadeporteyeventos.com/k-beat-festival-malaga/",
+     "url": "https://www.ticketmaster.es/event/432310294",
      "date": "19/09/2026",
-     "venue_name": "K-Beat Festival Málaga"
+     "venue_name": "K-Beat Festival Málaga",
+     "time": "16:30",
+     "why": "SELLER + TIME CORRECTION ON RECORD. Browser-verified 2026-08-24: ticketmaster.es/event/432310294 is titled 'Buy tickets for K-Beat Fest Sat, 19 Sept 2026, 16:30, Auditorio Mpal Cortijo de Torres in Malaga' and renders a live seat map with 'View seat map / See best available'. This is the link the live card already uses. Replaces the previous mapped URL malagadeporteyeventos.com/k-beat-festival-malaga/ (a promoter info page, not a checkout). The live site's card shows 18:00; Ticketmaster's own event header says 16:30. Link is correct; the time comes from the calendar sweep, which this map cannot overwrite for an existing sweep row - recorded here for backfill and for correcting the sweep."
     },
     "vetusta morla": {
      "url": "https://www.malagadeporteyeventos.com/vetusta-morla/",
@@ -1104,6 +1106,15 @@
      "url": "https://www.tomaticket.es/es-es/entradas-sidecars-gira-presentacion-everest-en-malaga",
      "date": "02/10/2026",
      "venue_name": "Sidecars – Gira EVEREST"
+    },
+    "villano antillano": {
+     "url": "https://www.taquilla.com/entradas/villano-antillano",
+     "date": "18/09/2026",
+     "time": "21:00",
+     "price": "desde 38,72 EUR",
+     "venue_name": "Villano Antillano",
+     "genre": "Urban",
+     "why": "CONFIRMED BEST AVAILABLE SELLER PAGE, deliberately an artist page - do not re-flag it. Browser-checked 2026-08-24: taquilla.com/entradas/villano-antillano is Taquilla's CANONICAL product page for this show and carries the Malaga row itself - 'Sala Paris 15, Malaga | Viernes, 18 Sep | 21:00 | desde 38,72 EUR' with a live Ver control - alongside the artist's other tour dates. Taquilla publishes NO per-event URL for it: its own venue page taquilla.com/malaga/sala-paris-15-malaga links straight back to this same artist URL. Checked and ruled out the same day: the venue's own paris15.es/eventos/ lists 70 shows into November and does NOT include Villano Antillano (paris15.es/event/villano-antillano/ 404s); tomaticket's Sala Paris 15 venue page does not list it; Songkick's concert page 43119100 links only to paris15.es. So this IS the buying page, and a visitor can purchase from it."
     }
    }
   },
@@ -1411,7 +1422,28 @@
    "complete": false,
    "source": "https://feverup.com/en/malaga/venue/sala-unicaja-de-conciertos-maria-cristina",
    "note": "Added 2026-07-29 (Sofia). Sala Fundación Unicaja Mª Cristina, Calle Marqués de Valdecañas 2, Málaga — 1871 hall built on a 15th-c Franciscan monastery, listed as a monument since 2010 and rated among Spain's best natural acoustics; classical, chamber, choral and acoustic sets, plus its own Oct-May season from Fundación Unicaja. Málaga's SECOND Candlelight venue after Gran Hotel Miramar: Coldplay & Imagine Dragons (532802), Queen vs ABBA (182969), Michael Jackson (701012), Adele (701011), Serrat (129317), Christmas Soundtracks — all Fever-ticketed, so tracked affiliate links already. Several are in fever_scrape's 'verified but beyond the 30-day window' list and will land from ~2026-08-20 onward; added BEFORE they arrive so the rows resolve to a known venue. TWO KEYS, AND THE BARE WORD 'unicaja' IS DELIBERATELY NOT ONE OF THEM. Fever writes 'Sala Fundación Unicaja Mª Cristina' while its own listing pages use 'Sala Unicaja de Conciertos María Cristina', so one key cannot cover both — and a bare 'unicaja' key WOULD ALSO MATCH 'Castillo Sohail - Escenario Unicaja (Marenostrum)', the Fuengirola festival ground. _venue_lookup returns the FIRST key that matches, so a bare 'unicaja' key only resolved Castillo Sohail correctly by accident of dict ordering; re-sorting this file would have silently stolen Castillo Sohail from the 'marenostrum' entry and broken its prefer=eci routing (23 acts, a live revenue path). Hence 'fundacion unicaja' + 'unicaja de conciertos', neither of which appears in the Castillo Sohail string. 'maria cristina' alone is not usable either: it misses Fever's 'Mª' abbreviation. complete:false => NO phantom gate and NOT backfill-eligible. Deliberate: we do not hold this venue's full programme (it runs a long classical season we do not track), so a complete:true entry would DROP any real concert missing from the acts list. Its own season programme (PDF, Oct 2025-May 2026) is at fundacionunicaja.com if we ever want to carry the classical bill too.",
-   "acts": {}
+   "acts": {
+    "quinteto 1909": {
+     "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-quinteto-1909/",
+     "date": "06/09/2026",
+     "time": "12:00",
+     "price": "15 EUR",
+     "venue": "Fundacion Unicaja Malaga - Plaza del Obispo",
+     "venue_name": "Quinteto 1909 - Festival Internacional de Guitarra Pepe Romero",
+     "genre": "Classical",
+     "why": "TIME CORRECTION ON RECORD. Browser-verified 2026-08-24 from the seller's own DETAILS block: 'Date: 6 septiembre | Time: 12:00 | Cost: 15 EUR', venue Fundacion Unicaja Malaga, Plaza del Obispo 6, with a live COMPRAR ENTRADAS control. The live site's card shows 21:00, which is wrong - this is a MIDDAY concert. The ticket link itself is correct, so this is not a link defect; the displayed time comes from the calendar sweep, which this map cannot overwrite for a row the sweep already produced. Recorded here so backfill_calendar injects the right time if the sweep ever drops the row, and so the sweep can be corrected against a sourced value."
+    },
+    "el amir": {
+     "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-el-amir-alma-flamenca/",
+     "date": "11/09/2026",
+     "time": "19:30",
+     "price": "10 EUR",
+     "venue": "Sala Fundacion Unicaja Maria Cristina",
+     "venue_name": "El Amir - Alma Flamenca",
+     "genre": "Flamenco",
+     "why": "TIME CORRECTION ON RECORD. Browser-verified 2026-08-24 from the seller's own DETAILS block: 'Date: 11 septiembre | Time: 19:30 | Cost: 10 EUR', Sala Fundacion Unicaja Maria Cristina, with a live COMPRAR ENTRADAS control. The live site's card shows 21:00. Link is correct; only the time is wrong, and it comes from the calendar sweep. Recorded here for backfill and for correcting the sweep against a sourced value."
+    }
+   }
   },
   "unicaja de conciertos": {
    "complete": false,

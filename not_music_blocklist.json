@@ -102,6 +102,12 @@
    "venue": "clarence",
    "date": "2026-09-19",
    "why": "NO BUYING PAGE EXISTS - removed 2026-08-24 by the daily click-test (NOT a genre judgement; this IS live music). Identical to the Jakob Dreyer 18 Sep case: the card links the clarencejazzclub.com/wp/programacion/ month-browser, which shows 'AGOSTO, 2026 - SIN EVENTOS', and the club's own search for 'Asys' returns 'No results found' (browser-verified 2026-08-24), so no event page, price or buy control exists. Clarence reopens 16 September with the 26/27 season and has not published it yet. Match is written unaccented because the gate normalises NFKD, so 'Asys Quartet' catches the site's 'Asys Quartet'. REVERSIBLE: delete once the club publishes the show. Scoped to venue+date."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-27",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-24 by the daily click-test (NOT a genre judgement; the festival itself IS live music and stays on the site). 27 Aug carried the SAME festival TWICE: the three-night series 'Canela Party 2026 - Dia 1/2/3' (27/28/29 Aug, venue 'Recinto Ferial de Torremolinos', full line-ups) AND a second standalone card 'Canela Party 2026' on 27 Aug whose venue reads 'Plaza de Toros de Torremolinos'. Browser-confirmed 2026-08-24 on the seller's own page, ingresse.com/canela-party-2026/: the festival is at the RECINTO FERIAL de Torremolinos on 27, 28 and 29 August - so the standalone card is both a duplicate of Dia 1 and wrong about the venue. Keeps the Dia 1/2/3 series, which names the right venue and the bill. THE VENUE SCOPE IS THE WHOLE POINT: the gate is a SUBSTRING test, so 'canela party 2026' also appears inside 'Canela Party 2026 - Dia 1 (Unknown Mortal Orchestra...)'; only the venue clause keeps Dia 1 alive. If a future build ever labels the Dia 1 row 'Plaza de Toros', this entry would remove it too - re-check if Dia 1 disappears from 27 Aug. REVERSIBLE: delete to show both cards again."
   }
  ]
 }
