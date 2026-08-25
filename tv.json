@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Gloria Trevi",
-      "yt": "MsAAbvwsvK4",
-      "where": "24 Aug · Starlite, Marbella"
-    },
-    {
       "act": "Nile Rodgers",
       "yt": "R-v8jbgcthg",
       "where": "26 Aug · Starlite, Marbella"
@@ -14,6 +9,11 @@
       "act": "Miss Caffeina",
       "yt": "uKK12X_OfRU",
       "where": "27 Aug · ME Marbella, Marbella"
+    },
+    {
+      "act": "Avantasia",
+      "yt": "Mk0FTHqmO9o",
+      "where": "27 Aug · Marenostrum, Fuengirola"
     },
     {
       "act": "The Tribute",
@@ -42,9 +42,8 @@
     }
   ],
   "thumbs": {
-    "Gloria Trevi": "MsAAbvwsvK4",
-    "Nile Rodgers & Chic": "R-v8jbgcthg",
-    "The Tribute - Inspired by Abba Voyage London": "xFrGuyw1V8s",
+    "Nile Rodgers & CHIC": "R-v8jbgcthg",
+    "The Tribute (ABBA Voyage-inspired show)": "xFrGuyw1V8s",
     "Thomas Helmig": "QRd5blX8_k4",
     "Candlelight: The Lord of the Rings": "7fwhRl1f-Hg",
     "Candlelight Open Air: Tribute to Queen": "fJ9rUzIMcZQ",
@@ -54,6 +53,7 @@
     "Candlelight: Tribute to Mecano": "LymUYXFf6wE",
     "Candlelight: Coldplay and Imagine Dragons": "fcecbipIvI0",
     "Candlelight: Queen vs. ABBA": "HgzGwKwLmgM",
+    "K-Beat Festival (P1Harmony, KARD, SHAUN, XLOV, YOUNG POSSE)": "1EKcXRcGE_I",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
     "Miguel Ríos": "Rm-yZGvcf2U",
