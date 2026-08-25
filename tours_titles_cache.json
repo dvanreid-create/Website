@@ -1989,16 +1989,16 @@
     }
   },
   "viator:110804P538": {
-    "h": "daac928c80bbe22a22b418c01aa51e2c",
+    "h": "a0db1b3c022206cccdbed89c9bdc0955",
     "names": {
-      "en": "Ronda Self-Guided Audio Tour with Andalucia Travel Expert",
-      "es": "Tour de audio autoguiado por Ronda con experto en viajes de Andalucía",
-      "de": "Ronda: Selbstgeführte Audiotour mit Andalusien-Reiseexperten",
-      "fr": "Visite audioguidée de Ronda avec un expert du voyage en Andalousie",
-      "sv": "Självguidad ljudtur i Ronda med Andalusien-reseexpert",
-      "no": "Ronda selvguidet audiotur med reiseekspert på Andalucia",
-      "da": "Ronda selvguidet audiotur med Andalusien-rejseekspert",
-      "fi": "Rondan omatoiminen audiokierros Andalusian matkaasiantuntijan kanssa"
+      "en": "Ronda Self-Guided Audio Tour: The Bridge's Secret Prison",
+      "es": "Tour Autoguiado en Ronda: La Prisión Secreta del Puente",
+      "de": "Ronda Selbstgeführte Audiotour: Das Geheimnis des Gefängnisses in der Brücke",
+      "fr": "Ronda en audioguide libre : la prison secrète du pont",
+      "sv": "Ronda självguidad ljudguide: Bryggans hemliga fängelse",
+      "no": "Ronda selvguidet lydtur: Broens hemmelige fengsel",
+      "da": "Ronda Selvguidet Lydtur: Broens Hemmelige Fængsel",
+      "fi": "Ronda Itseohjattu Äänikierros: Sillan Salainen Vankila"
     }
   },
   "viator:5890P7": {
@@ -2158,16 +2158,16 @@
     }
   },
   "viator:105902P34": {
-    "h": "379a19b70336fb9fe5284bd060598163",
+    "h": "d38c2fd2b14cc6f87aef0fc090f35c6e",
     "names": {
-      "en": "Marbella And Gibraltar Express from Malaga Central",
-      "es": "Marbella y Gibraltar Exprés desde Malaga Centro",
-      "de": "Marbella und Gibraltar Express ab Malaga-Zentrum",
-      "fr": "Marbella et Gibraltar express depuis le centre de Malaga",
-      "sv": "Marbella och Gibraltar Express från Malaga centrum",
-      "no": "Marbella og Gibraltar ekspress fra Malaga sentrum",
-      "da": "Marbella og Gibraltar Express fra Malaga centrum",
-      "fi": "Marbella ja Gibraltar Express Malagan keskustasta"
+      "en": "Marbella And Gibraltar Direct from Malaga Central",
+      "es": "Marbella y Gibraltar Directo desde Málaga Centro",
+      "de": "Marbella und Gibraltar Direkt ab Malaga Zentrum",
+      "fr": "Marbella et Gibraltar au départ direct de Malaga Centre",
+      "sv": "Marbella och Gibraltar direkt från centrala Malaga",
+      "no": "Marbella og Gibraltar direkte fra Malaga sentrum",
+      "da": "Marbella og Gibraltar direkte fra Malaga Central",
+      "fi": "Marbella ja Gibraltar suoraan Malagan keskustasta"
     }
   },
   "viator:5624152P4": {
@@ -11544,16 +11544,16 @@
     }
   },
   "viator:5670060P2": {
-    "h": "76986952bee0a7c5d3cfce15892fdf21",
+    "h": "71ab49a4f78421d17df70742e0227dbf",
     "names": {
-      "en": "Organic Wine and Olive Oil Tour with Tapas From Málaga",
-      "es": "Tour de vino ecológico y aceite de oliva con tapas desde Málaga",
-      "de": "Bio-Wein- und Olivenöl-Tour mit Tapas ab Málaga",
-      "fr": "Visite dégustation de vin bio et d'huile d'olive avec tapas depuis Malaga",
-      "sv": "Ekologisk vin- och olivoljetur med tapas från Málaga",
-      "no": "Økologisk vin- og olivenoljetur med tapas fra Malaga",
-      "da": "Økologisk vin- og olivenolietur med tapas fra Malaga",
-      "fi": "Luomuviini- ja oliiviöljykierros tapaksineen Malagasta"
+      "en": "From Málaga: Organic Wine & Olive Oil Tour with Tapas",
+      "es": "Desde Málaga: Tour de Vino Ecológico y Aceite de Oliva con Tapas",
+      "de": "Ab Málaga: Bio-Wein- und Olivenöltour mit Tapas",
+      "fr": "Depuis Malaga : visite du vin biologique et de l'huile d'olive avec tapas",
+      "sv": "Från Málaga: Ekologisk vin- och olivoljetur med tapas",
+      "no": "Fra Málaga: Økologisk vin- og olivenolje-tur med tapas",
+      "da": "Fra Málaga: Økologisk Vin- og Olivenolietur med Tapas",
+      "fi": "Malagasta: Luomuviini- ja oliiviöljykierros tapasien kera"
     }
   },
   "viator:8653P1515": {
@@ -15545,6 +15545,19 @@
       "no": "Dypvannsfiske-eventyr i Marbella",
       "da": "Havfiskeri-eventyr på dybt vand i Marbella",
       "fi": "Syvänmerenkalastusseikkailu Marbellassa"
+    }
+  },
+  "viator:5577295P7": {
+    "h": "582c994ab905ccd90d7a6f998ceb69ed",
+    "names": {
+      "en": "Visit to the Oldest Winery of Malaga and Wine Tasting",
+      "es": "Visita a la Bodega Más Antigua de Málaga y Cata de Vinos",
+      "de": "Besuch der ältesten Weinkellerei von Malaga mit Weinprobe",
+      "fr": "Visite de la plus ancienne cave à vin de Malaga et dégustation de vin",
+      "sv": "Besök på Malagas äldsta vingård med vinprovning",
+      "no": "Besøk til Malagas eldste vingård og vinsmaking",
+      "da": "Besøg på Malagas Ældste Vingård med Vinsmagning",
+      "fi": "Vierailu Malagan vanhimmalla viinitilalla ja viinimaistiainen"
     }
   }
 }

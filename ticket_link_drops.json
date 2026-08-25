@@ -1,5 +1,10 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
  "generated": "2026-08-25",
- "drops": {}
+ "drops": {
+  "Sophie Festival Chapter #6 (Richie Hawtin, Sama' Abdulhadi, Objekt & more)": "GENERIC — trusted host but the link is a homepage/venue listing, not one event's page",
+  "Descemer Bueno": "GENERIC — homepage/search/listing: https://paris15.es/",
+  "Sophie Festival Chapter #7 (Ricardo Villalobos, Seth Troxler, Maher Daniel & more)": "GENERIC — trusted host but the link is a homepage/venue listing, not one event's page",
+  "Andrés Koi": "WRONG_EVENT — page 'Conciertos en Sala Marte de Málaga - Locales' has none of ['andres']"
+ }
 }
