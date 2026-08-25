@@ -129,7 +129,7 @@
 },
 "nile-rodgers-chic": {
 "name": "Nile Rodgers & CHIC",
-"mles": 54.3
+"mles": 49.5
 },
 "miss-caffeina": {
 "name": "Miss Caffeina",
@@ -217,7 +217,7 @@
 },
 "furor-the-show": {
 "name": "Furor, The Show",
-"mles": 52.1
+"mles": 58.1
 },
 "bresh": {
 "name": "Bresh",
@@ -233,11 +233,11 @@
 },
 "apulanta": {
 "name": "Apulanta",
-"mles": 41.8
+"mles": 43.9
 },
 "china-crisis": {
 "name": "China Crisis",
-"mles": 0.0
+"mles": 55.8
 },
 "emanero-tour-2026-in-malaga": {
 "name": "EMANERO TOUR 2026 in Malaga",
@@ -253,7 +253,7 @@
 },
 "reyes-de-luna": {
 "name": "Reyes de Luna",
-"mles": 49.8
+"mles": 47.3
 },
 "la-danza-macabra": {
 "name": "La Danza Macabra",
@@ -261,7 +261,7 @@
 },
 "el-sinfonico-de-disney": {
 "name": "El Sinfónico de Disney",
-"mles": 43.3
+"mles": 49.3
 },
 "la-creedance": {
 "name": "La Creedance",
@@ -273,7 +273,7 @@
 },
 "tributo-queen": {
 "name": "Tributo Queen",
-"mles": 47.9
+"mles": 53.9
 },
 "jacob-kellerman": {
 "name": "Jacob Kellerman",
@@ -293,7 +293,7 @@
 },
 "descemer-bueno": {
 "name": "Descemer Bueno",
-"mles": 49.3
+"mles": 61.9
 },
 "carmen-linares": {
 "name": "Carmen Linares",
@@ -313,7 +313,7 @@
 },
 "tributo-a-adele": {
 "name": "Tributo a Adele",
-"mles": 45.6
+"mles": 59.6
 },
 "villano-antillano": {
 "name": "Villano Antillano",
@@ -333,6 +333,6 @@
 },
 "country-night": {
 "name": "Country Night",
-"mles": 0.0
+"mles": 47.3
 }
 }
