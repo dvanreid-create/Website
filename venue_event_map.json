@@ -1701,20 +1701,8 @@
   "esteponacultura": {
    "complete": true,
    "source": "https://ayuntamiento.estepona.es/agenda",
-   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py.",
-   "acts": {
-    "banda municipal el baul de los 70 25/08/2026": {
-     "date": "25/08/2026",
-     "time": "21:00",
-     "venue": "Plaza del Ajedrez",
-     "venue_name": "Banda Municipal: 'El Baúl de los 70' con Serafín Zubiri",
-     "genre": "Pop",
-     "paid_free": "Free",
-     "price": "Free",
-     "url": "https://ayuntamiento.estepona.es/agenda",
-     "why": "Cierre de la temporada de verano de la Banda Municipal de Música."
-    }
-   }
+   "note": "Verified municipal music events (manual seed 2026-08-11); auto-refreshed weekly by refresh_townhalls.py. ONE ACT REMOVED 2026-08-25 AS A STALE-DATE PHANTOM - read this before trusting anything auto-written here. The block held 'Banda Municipal: El Baul de los 70 con Serafin Zubiri', Plaza del Ajedrez, dated 25/08/2026 with url ayuntamiento.estepona.es/agenda. The concert is REAL but happened on SUNDAY 25 AUGUST 2024, not 2026: cultura.estepona.es/zubiri-banda-musica-el-baul-de-los-70/ has published_time 2024-08-21, says 'este domingo, 25 de agosto de 2024', and its poster is 240825_Concierto-Serafin-Zubiri.jpg. 25 Aug 2024 fell on a Sunday; 25 Aug 2026 is a Tuesday. Something read a two-year-old archive page, kept the DAY AND MONTH and applied the CURRENT YEAR. It reached the live site and went out as the 25/08/2026 reel before Sofia caught it. TWO LESSONS. (1) Municipal culture sites keep years of archives at stable URLs with no year in the visible date line - the YEAR must be read off the page (published_time, the body text, the poster filename), never assumed, and the weekday is a free cross-check. (2) The url here was the BARE /agenda listing, not a deep link, so nothing pointed at a page that could confirm or deny the event; a per-event URL would have made the 2024 date obvious immediately. This venue is a 'cultura' key, so phantom_reason() exempts it from the gate by design (town-hall blocks are curated lists, not complete bills) - the gate was never going to catch this. The durable protection is the 'baul de los 70' entry in not_music_blocklist.json, which is read on BOTH the site and the reel path; do not remove it without re-checking the year. acts is now empty rather than holding a date known to be false.",
+   "acts": {}
   },
   "nerjacultura": {
    "complete": true,
