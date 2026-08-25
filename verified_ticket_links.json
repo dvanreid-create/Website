@@ -1,6 +1,6 @@
 {
- "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run. | 2026-08-10 LIVE-SITE full pass #2 (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en (42 ticketed events, 10-31 Aug + Sinatra 24 Oct), followed each card's own decoded link. 38 reached a valid buying page. FIXED: Disney Love Songs 23/08 — tiles.json shipped the generic listing feverup.com/en/malaga/candlelight; deep link feverup.com/m/646736 browser-confirmed to sell 23/08 (planTicketSelectorData sessions incl 2026-08-23), tiles.json url upgraded to the standard fever.pxf.io wrapper for sku 646736. FLAGGED for human ruling (off-sale/sold-out, no in-window alternative found): Alejandro Astola 13/08 (ECI 'ya no se encuentra a la venta' + venue janto 'Sold Out'); Candlelight Open Air Ludovico Einaudi Marbella 14/08 feverup m/132355->138232 ('no hay entradas disponibles'); Candlelight Tributo a Joan Manuel Serrat 15/08 feverup m/656279 (off-sale banner). These three Fever/janto plans should be auto-dropped by the build's Fever buyability sweep / need a human drop for Astola (ECI trusted-host ships unfetched). RESOLVED prior flag: NOCHE FLAMENCA DEL COMPÁS onebox 51613 now sells 22/08 (Del 22 al 23 agosto, Ver sesiones). Off-sale baseline entries left in place pending human ruling (not removed unilaterally). | 2026-08-11 LIVE-SITE full pass (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en one-by-one (55 ticketed cards incl 4 Clarence). 52 reached a valid buying page. ADDED 14 browser-confirmed live events (Sept Candlelight m/621145 Lord of the Rings, m/611306 Jazz Room, m/701689 Open Air Queen 05/09, m/155745 Hans Zimmer 06/09, m/88307 Vivaldi 06/09; Chambao 06/09 janto; onebox SOUL ON FIRE 23/08 ev51226, De la Alhambra a Aranjuez 29/08 sel2688292, Disne-y 30/08 sel2698901, Revive a Queen 05/09 sel2688295; Torremolinos Cultura Zarzuela 25/08, Canela Party 27/08, Furor 30/08, Bresh 12/09). ADDED torremolinoscultura.es to trusted_hosts (official municipal ticketer, JS-rendered/blocks datacentre fetch, 4 valid events). FLAGGED for human ruling: Noche Movida 11/08 (ECI 'ya no se encuentra a la venta', event day); Alejandro Astola 13/08 (ECI AGOTADO, sold out, no alt seller); Damián Córdoba 03/09 — live card links salatrinchera.com/cartel-malaga-2/ (a generic 'cartel malaga' listing, not the buy page); correct buy page movingtickets.com confirmed on sale (baseline already holds it) but build treats the listing URL as 'deep' so venue_resolve can't auto-upgrade — needs a human/source fix. Existing off-sale + not-on-live entries left in place (not removed). | 2026-08-14 browser click-test (Claude in Chrome, sofia@): opened all 48 ticketed cards on the LIVE site one by one. 44 reached a valid buying page. FIXED Noches de Tango - La Portena 20 Aug: live linked the marbella.es agenda LISTING -> confirmed seller page mientrada.net (COMPRAR ENTRADAS, 20 ago 2026, 25 EUR); venue_event_map marbellacultura updated. OFF SALE: Omega 30 Aniversario 15 Aug (ECI 'YA NO SE ENCUENTRA A LA VENTA'; Starlite box office /checkout/omega-30-aniversario-kiki-morente returns 404 - no seller). STILL BROKEN: Damian Cordoba 3 Sep still ships salatrinchera.com/cartel-malaga-2/ (a listing); the correct page movingtickets.com is confirmed on sale (27.50 EUR) and is in this baseline. FLAG: Antonio Cortes 14 Sep links to a nerja.es PRESS RELEASE dated 10 Sep 2024 about a 14 Sep 2024 concert; cultura.nerja.es, mientrada.net and tomaticket show no 2026 date - needs a human ruling. NAME MISMATCH kept live: site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' (same venue + 5 Sep). Also fixed the accented 'damian cordoba' baseline key (accents meant norm() could never match it) and pointed Antonito Molina 18 Aug at the /checkout/ URL the live site actually uses. | 2026-08-18 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 61 events, 37 ticketed (24 free/no-purchase) — and opened all 37 ticketed destinations one-by-one from each card's OWN decoded link. 35 reached a valid buying page. TWO FIXED (site was shipping the Ayuntamiento's INFO page, which shows date+price but has NO buy control): Canela Party 2026 27/08 torremolinoscultura .../canela-party-2026-gdnu -> ingresse.com/canela-party-2026/ (BUY TICKET, sessions Thu 27 / Fri 28 / Sat 29 Aug all listed); Furor, The Show 30/08 torremolinoscultura .../furor-the-show-bulz -> site.fourvenues.com/... -62HH (Domingo 30 agosto 2026 19:00, EQUIPO AMARILLO/MORADO 15 EUR live). Root cause = the same one as Damian Cordoba: venue_event_map already held the right seller URLs but the calendar's torremolinoscultura link is _is_deep() so venue_resolve refused to upgrade it; fixed with prefer:'eci' PLUS a rewrite-proof LINK-OVERRIDE block above the torremolinoscultura block. FLAG (name mismatch, kept live): site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' — same venue (Opera Benalmadena) + same date (SAB 5 sept 2026 22:00), on sale from 15 EUR. FLAG (wrong venue on the live card, comes from the box-generated calendar, not from any file in this repo): Furor 30/08 shows 'Palacio de Congresos de Torremolinos'; both the Ayuntamiento page and the seller say Plaza de Toros de Torremolinos. FLAG (duplicate): 27 Aug carries both 'Canela Party - Day 1' and 'Canela Party 2026' (same festival, same seller). Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees only 27 events vs 37 live — the live site was used as the worklist, as the task requires. | 2026-08-22 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 44 cards, 30 ticketed + the Sinatra 24 Oct gutter tile = 31 unique ticketed destinations — and opened all 31 one-by-one from each card's OWN decoded link. 29 reached a valid buying page. FIXED: Pastora Soler 22/08 — the site shipped the El Corte Ingles page, which shows the red 'Actualmente este evento ya no se encuentra a la venta' banner and a dead buy box while its JSON-LD still reads InStock 25,00 EUR (the documented ECI trap); the Starlite box office https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i sells it (08/22/2026 Sat 22:00, Auditorio Marbella, from EUR25.00, live 'Buy tickets'), so an eci_pins.json exclude was added and the baseline now holds the box-office URL. FLAGGED for human ruling (Fever date not selectable, Candlelight is Fever-exclusive so there is no alternative seller): Candlelight: Tribute to Ludovico Einaudi 22/08 feverup m/145066 — the 'sab 22 ago' chip carries level-item--disabled and clicking it does not select (only 'dom 01 nov' is bookable); Candlelight: Disney Love Songs 23/08 feverup m/646736 — 'dom 23 ago' chip disabled while 10 + 20 sept are bookable (the 10/09 row on the site is fine). Both off-sale entries left in place, not removed unilaterally. Fever method used throughout: read the plan's own date selector chips (.level-item--date, --disabled vs --selected), never page-body dates. Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees 19 in-window ticketed rows vs 31 live — the live site was used as the worklist, as the task requires.",
- "generated": "2026-08-24",
+ "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run. | 2026-08-10 LIVE-SITE full pass #2 (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en (42 ticketed events, 10-31 Aug + Sinatra 24 Oct), followed each card's own decoded link. 38 reached a valid buying page. FIXED: Disney Love Songs 23/08 — tiles.json shipped the generic listing feverup.com/en/malaga/candlelight; deep link feverup.com/m/646736 browser-confirmed to sell 23/08 (planTicketSelectorData sessions incl 2026-08-23), tiles.json url upgraded to the standard fever.pxf.io wrapper for sku 646736. FLAGGED for human ruling (off-sale/sold-out, no in-window alternative found): Alejandro Astola 13/08 (ECI 'ya no se encuentra a la venta' + venue janto 'Sold Out'); Candlelight Open Air Ludovico Einaudi Marbella 14/08 feverup m/132355->138232 ('no hay entradas disponibles'); Candlelight Tributo a Joan Manuel Serrat 15/08 feverup m/656279 (off-sale banner). These three Fever/janto plans should be auto-dropped by the build's Fever buyability sweep / need a human drop for Astola (ECI trusted-host ships unfetched). RESOLVED prior flag: NOCHE FLAMENCA DEL COMPÁS onebox 51613 now sells 22/08 (Del 22 al 23 agosto, Ver sesiones). Off-sale baseline entries left in place pending human ruling (not removed unilaterally). | 2026-08-11 LIVE-SITE full pass (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en one-by-one (55 ticketed cards incl 4 Clarence). 52 reached a valid buying page. ADDED 14 browser-confirmed live events (Sept Candlelight m/621145 Lord of the Rings, m/611306 Jazz Room, m/701689 Open Air Queen 05/09, m/155745 Hans Zimmer 06/09, m/88307 Vivaldi 06/09; Chambao 06/09 janto; onebox SOUL ON FIRE 23/08 ev51226, De la Alhambra a Aranjuez 29/08 sel2688292, Disne-y 30/08 sel2698901, Revive a Queen 05/09 sel2688295; Torremolinos Cultura Zarzuela 25/08, Canela Party 27/08, Furor 30/08, Bresh 12/09). ADDED torremolinoscultura.es to trusted_hosts (official municipal ticketer, JS-rendered/blocks datacentre fetch, 4 valid events). FLAGGED for human ruling: Noche Movida 11/08 (ECI 'ya no se encuentra a la venta', event day); Alejandro Astola 13/08 (ECI AGOTADO, sold out, no alt seller); Damián Córdoba 03/09 — live card links salatrinchera.com/cartel-malaga-2/ (a generic 'cartel malaga' listing, not the buy page); correct buy page movingtickets.com confirmed on sale (baseline already holds it) but build treats the listing URL as 'deep' so venue_resolve can't auto-upgrade — needs a human/source fix. Existing off-sale + not-on-live entries left in place (not removed). | 2026-08-14 browser click-test (Claude in Chrome, sofia@): opened all 48 ticketed cards on the LIVE site one by one. 44 reached a valid buying page. FIXED Noches de Tango - La Portena 20 Aug: live linked the marbella.es agenda LISTING -> confirmed seller page mientrada.net (COMPRAR ENTRADAS, 20 ago 2026, 25 EUR); venue_event_map marbellacultura updated. OFF SALE: Omega 30 Aniversario 15 Aug (ECI 'YA NO SE ENCUENTRA A LA VENTA'; Starlite box office /checkout/omega-30-aniversario-kiki-morente returns 404 - no seller). STILL BROKEN: Damian Cordoba 3 Sep still ships salatrinchera.com/cartel-malaga-2/ (a listing); the correct page movingtickets.com is confirmed on sale (27.50 EUR) and is in this baseline. FLAG: Antonio Cortes 14 Sep links to a nerja.es PRESS RELEASE dated 10 Sep 2024 about a 14 Sep 2024 concert; cultura.nerja.es, mientrada.net and tomaticket show no 2026 date - needs a human ruling. NAME MISMATCH kept live: site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' (same venue + 5 Sep). Also fixed the accented 'damian cordoba' baseline key (accents meant norm() could never match it) and pointed Antonito Molina 18 Aug at the /checkout/ URL the live site actually uses. | 2026-08-18 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 61 events, 37 ticketed (24 free/no-purchase) — and opened all 37 ticketed destinations one-by-one from each card's OWN decoded link. 35 reached a valid buying page. TWO FIXED (site was shipping the Ayuntamiento's INFO page, which shows date+price but has NO buy control): Canela Party 2026 27/08 torremolinoscultura .../canela-party-2026-gdnu -> ingresse.com/canela-party-2026/ (BUY TICKET, sessions Thu 27 / Fri 28 / Sat 29 Aug all listed); Furor, The Show 30/08 torremolinoscultura .../furor-the-show-bulz -> site.fourvenues.com/... -62HH (Domingo 30 agosto 2026 19:00, EQUIPO AMARILLO/MORADO 15 EUR live). Root cause = the same one as Damian Cordoba: venue_event_map already held the right seller URLs but the calendar's torremolinoscultura link is _is_deep() so venue_resolve refused to upgrade it; fixed with prefer:'eci' PLUS a rewrite-proof LINK-OVERRIDE block above the torremolinoscultura block. FLAG (name mismatch, kept live): site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' — same venue (Opera Benalmadena) + same date (SAB 5 sept 2026 22:00), on sale from 15 EUR. FLAG (wrong venue on the live card, comes from the box-generated calendar, not from any file in this repo): Furor 30/08 shows 'Palacio de Congresos de Torremolinos'; both the Ayuntamiento page and the seller say Plaza de Toros de Torremolinos. FLAG (duplicate): 27 Aug carries both 'Canela Party - Day 1' and 'Canela Party 2026' (same festival, same seller). Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees only 27 events vs 37 live — the live site was used as the worklist, as the task requires. | 2026-08-22 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 44 cards, 30 ticketed + the Sinatra 24 Oct gutter tile = 31 unique ticketed destinations — and opened all 31 one-by-one from each card's OWN decoded link. 29 reached a valid buying page. FIXED: Pastora Soler 22/08 — the site shipped the El Corte Ingles page, which shows the red 'Actualmente este evento ya no se encuentra a la venta' banner and a dead buy box while its JSON-LD still reads InStock 25,00 EUR (the documented ECI trap); the Starlite box office https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i sells it (08/22/2026 Sat 22:00, Auditorio Marbella, from EUR25.00, live 'Buy tickets'), so an eci_pins.json exclude was added and the baseline now holds the box-office URL. FLAGGED for human ruling (Fever date not selectable, Candlelight is Fever-exclusive so there is no alternative seller): Candlelight: Tribute to Ludovico Einaudi 22/08 feverup m/145066 — the 'sab 22 ago' chip carries level-item--disabled and clicking it does not select (only 'dom 01 nov' is bookable); Candlelight: Disney Love Songs 23/08 feverup m/646736 — 'dom 23 ago' chip disabled while 10 + 20 sept are bookable (the 10/09 row on the site is fine). Both off-sale entries left in place, not removed unilaterally. Fever method used throughout: read the plan's own date selector chips (.level-item--date, --disabled vs --selected), never page-body dates. Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees 19 in-window ticketed rows vs 31 live — the live site was used as the worklist, as the task requires. | 2026-08-25 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 99 events, 59 unique ticketed destinations - and opened all 59 one-by-one from each card's OWN decoded link. 50 reached a valid buying page AS FOUND; 9 did not. Of the 9, four are STALE-BUILD regressions the repo already fixes (Canela Party Dia 1/2/3 shipping the canelaparty.com homepage; S.O.P.H.I.E Grand Closing shipping the sophie.es homepage), one is a stale-build WRONG EVENT (Thomas Helmig 4 Sep shipping ticketmaster.dk id 281256954, which is the 5 Sep show; the repo map already routes it to 1162665300), one was already blocked yesterday (Kevin Kaarl), and three were fixed in data this run (Nile Rodgers & CHIC, Jakob Dreyer, Asys Quartet). FIXED (1) Nile Rodgers & CHIC 26/08: the site shipped the El Corte Ingles page, which shows 'Fechas: 26 de Agosto de 2026' then the red banner 'Actualmente este evento ya no se encuentra a la venta' over a dead buy box - the FIFTH ECI off-sale in a week; repointed to the Starlite box office https://entradas.starlitemarbella.com/checkout/nile-rodgers-and-chic-3bt1ea (08/26/2026 10:00 PM, live seating plan) via a new eci_pins exclude. (2) Jakob Dreyer 18/09 + Asys Quartet 19/09: both linked clarencejazzclub.com/wp/programacion/, which opens on the CURRENT month (August) and reads 'SIN EVENTOS' because the club is on summer break until 16 Sep; both shows ARE on the September view and have their own permalinks, now in venue_event_map. REMOVED (3) Kevin Kaarl 15/09: a PHANTOM - the card linked the bare entradas.com homepage, and Songkick has the gig as a PAST CONCERT on Monday 15 September 2025 while paris15.es still reads 'Fecha: septiembre 15, 2025'; no 2026 date exists anywhere. Blocked date+venue-scoped, same shape as the Antonio Cortes Nerja 2024 phantom. STALE-BUILD FINDING (not a data fault): the live site is still serving a build made on 24 Aug - it shows the window '24 Aug-22 Sep' with the already-past Gloria Trevi 24/08 as its marquee, and it still ships canelaparty.com (homepage), sophie.es (homepage) and the WRONG Thomas Helmig id (281256954 on the 4 Sep card, which is the 5 Sep show) even though the repo's venue_event_map ALREADY resolves all four correctly - verified by running venue_resolve() against the live inputs this run. Those three will correct themselves on the next rebuild; no data change was needed. Fever method: read each plan's own date-selector chips and, where the calendar date was not the default selection (Mecano 13/09, Queen vs. ABBA 18/09), CLICKED the chip and confirmed a bookable session and live prices (Mecano 19:00 Zona D 21,50 EUR; Queen vs. ABBA 17:45 Zona D 16,00 EUR).",
+ "generated": "2026-08-25",
  "events": {
   "gente de zona|2026-08-05": {
    "act": "Gente de Zona",
@@ -386,19 +386,19 @@
     "gloria",
     "trevi"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "nile rodgers chic|2026-08-26": {
    "act": "Nile Rodgers & CHIC",
    "date": "2026-08-26",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nile-rodgers-chic-starlite-occident-2026-marbella-0000089pB0000089Nz000008546/",
+   "url": "https://entradas.starlitemarbella.com/checkout/nile-rodgers-and-chic-3bt1ea",
    "expect": [
     "nile",
     "rodgers",
     "chic"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "canela party 2026 3 day 2729 aug|2026-08-27": {
@@ -429,7 +429,7 @@
     "miss",
     "caffeina"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "love of lesbian|2026-08-29": {
@@ -616,7 +616,7 @@
     "thomas",
     "helmig"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "thomas helmig|2026-09-05": {
@@ -675,7 +675,7 @@
    "expect": [
     "chambao"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight el senor de los anillos|2026-09-05": {
@@ -707,7 +707,7 @@
     "candlelight",
     "queen"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight tribute to hans zimmer|2026-09-06": {
@@ -718,7 +718,7 @@
     "candlelight",
     "zimmer"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight las cuatro estaciones de vivaldi|2026-09-06": {
@@ -747,7 +747,7 @@
     "furor",
     "show"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "damian cordoba|2026-09-03": {
@@ -758,7 +758,7 @@
     "damian",
     "cordoba"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "noches de tango la portena|2026-08-20": {
@@ -816,7 +816,7 @@
     "canela",
     "party"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "canela party 2026|2026-08-28": {
@@ -875,7 +875,7 @@
    "expect": [
     "apulanta"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "galvan real gira 10o aniversario|2026-08-21": {
@@ -954,7 +954,7 @@
     "lord",
     "rings"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight vivaldi s four seasons|2026-09-06": {
@@ -965,7 +965,7 @@
     "candlelight",
     "vivaldi"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "china crisis uk|2026-09-17": {
@@ -976,7 +976,7 @@
     "china",
     "crisis"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "china crisis|2026-09-17": {
@@ -1028,7 +1028,7 @@
     "candlelight",
     "disney"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "emanero tour 2026 in malaga sala paris 15|2026-09-12": {
@@ -1039,7 +1039,7 @@
     "emanero",
     "malaga"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight the best of the 80s|2026-09-13": {
@@ -1051,7 +1051,7 @@
     "best",
     "80s"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight tribute to mecano|2026-09-13": {
@@ -1062,7 +1062,7 @@
     "candlelight",
     "mecano"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight coldplay and imagine dragons|2026-09-18": {
@@ -1073,7 +1073,7 @@
     "candlelight",
     "coldplay"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight queen vs abba|2026-09-18": {
@@ -1085,7 +1085,7 @@
     "queen",
     "abba"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "candlelight tributo a ludovico einaudi|2026-08-22": {
@@ -1131,7 +1131,7 @@
     "room",
     "sinatra"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "sun thunder 26 day 1 metal festival eivr harakiri for the sky siddharta more|2026-08-27": {
@@ -1142,7 +1142,7 @@
     "sun",
     "thunder"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "sun thunder 26 day 2 metal festival|2026-08-28": {
@@ -1153,7 +1153,7 @@
     "sun",
     "thunder"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "sun thunder 26 day 3 avantasia lordi soen primal fear more|2026-08-29": {
@@ -1164,7 +1164,7 @@
     "sun",
     "thunder"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "canela party 2026 dia 1 unknown mortal orchestra melody s echo chamber nation of language more|2026-08-27": {
@@ -1186,7 +1186,7 @@
     "canela",
     "party"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "canela party 2026 dia 3 mannequin pussy chalk deafheaven nation of language more|2026-08-29": {
@@ -1197,7 +1197,7 @@
     "canela",
     "party"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "reyes de luna|2026-08-27": {
@@ -1208,7 +1208,7 @@
     "reyes",
     "luna"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "reyes de luna 2a noche|2026-08-28": {
@@ -1219,7 +1219,7 @@
     "reyes",
     "luna"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "la danza macabra duo bowen adrian martinez viola michael davidov piano|2026-08-28": {
@@ -1230,7 +1230,7 @@
     "danza",
     "macabra"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "de la alhambra a aranjuez concierto sinfonico de musica espanola|2026-08-29": {
@@ -1241,7 +1241,7 @@
     "alhambra",
     "aranjuez"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "the tribute inspired by abba voyage|2026-08-29": {
@@ -1253,7 +1253,7 @@
     "voyage",
     "tribute"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "el sinfonico de disney|2026-08-30": {
@@ -1264,7 +1264,7 @@
     "disne",
     "sinfonico"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "la creedance the authentic creedence experience|2026-09-03": {
@@ -1275,7 +1275,7 @@
     "creedance",
     "creedence"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "alejandro hurtado e inmaculada salomon festival internacional de guitarra pepe romero|2026-09-04": {
@@ -1287,7 +1287,7 @@
     "hurtado",
     "salomon"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "thomas helmig 2a noche|2026-09-05": {
@@ -1298,7 +1298,7 @@
     "thomas",
     "helmig"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "s o p h i e festival capitulo 6 richie hawtin sama abdulhadi objekt cassy more|2026-09-05": {
@@ -1309,7 +1309,7 @@
     "sophie",
     "hawtin"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "tributo queen|2026-09-05": {
@@ -1320,7 +1320,7 @@
     "tributo",
     "queen"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "tributo queen 2a noche|2026-09-06": {
@@ -1331,7 +1331,7 @@
     "tributo",
     "queen"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "jacob kellerman festival internacional de guitarra pepe romero|2026-09-05": {
@@ -1342,7 +1342,7 @@
     "jacob",
     "kellerman"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "quinteto 1909 festival internacional de guitarra pepe romero|2026-09-06": {
@@ -1353,7 +1353,7 @@
     "quinteto",
     "1909"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "el kuelgue|2026-09-10": {
@@ -1363,7 +1363,7 @@
    "expect": [
     "kuelgue"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "el amir alma flamenca festival internacional de guitarra pepe romero|2026-09-11": {
@@ -1374,7 +1374,7 @@
     "amir",
     "flamenca"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "descemer bueno|2026-09-11": {
@@ -1385,19 +1385,19 @@
     "descemer",
     "bueno"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "fully alive fest|2026-09-12": {
    "act": "Fully Alive Fest",
    "date": "2026-09-12",
-   "url": "https://www.taquilla.com/entradas/fully-alive-fest",
+   "url": "https://www.taquilla.com/entradas/fully-alive-fest?t10cityorder=M%C3%A1laga",
    "expect": [
     "fully",
     "alive",
     "fest"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "carmen linares|2026-09-12": {
@@ -1408,7 +1408,7 @@
     "carmen",
     "linares"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "emanero tour 2026|2026-09-12": {
@@ -1418,7 +1418,7 @@
    "expect": [
     "emanero"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "festival de rock|2026-09-12": {
@@ -1429,7 +1429,7 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "festival de rock 2a noche|2026-09-13": {
@@ -1440,7 +1440,7 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "antonio sanchez birdman live mosma reloaded|2026-09-14": {
@@ -1452,7 +1452,7 @@
     "sanchez",
     "birdman"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "tributo a adele|2026-09-17": {
@@ -1463,18 +1463,18 @@
     "tributo",
     "adele"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "villano antillano|2026-09-18": {
    "act": "Villano Antillano",
    "date": "2026-09-18",
-   "url": "https://www.taquilla.com/entradas/villano-antillano",
+   "url": "https://www.taquilla.com/entradas/villano-antillano?t10cityorder=M%C3%A1laga",
    "expect": [
     "villano",
     "antillano"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "s o p h i e festival grand closing ricardo villalobos seth troxler maher daniel more|2026-09-19": {
@@ -1486,7 +1486,7 @@
     "grand",
     "closing"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "k beat fest 2026 p1harmony kard shaun young posse xlov|2026-09-19": {
@@ -1497,7 +1497,7 @@
     "beat",
     "fest"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "perdido en los 80|2026-09-19": {
@@ -1508,7 +1508,7 @@
     "perdido",
     "80"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
    "via": "browser"
   },
   "country night country legends|2026-09-20": {
@@ -1519,7 +1519,40 @@
     "country",
     "night"
    ],
-   "verified": "2026-08-24",
+   "verified": "2026-08-25",
+   "via": "browser"
+  },
+  "canela party 2026 dia 1 unknown mortal orchestra melody s echo chamber nation of language mannequin pussy more|2026-08-27": {
+   "act": "Canela Party 2026 – Día 1 (Unknown Mortal Orchestra, Melody's Echo Chamber, Nation of Language, Mannequin Pussy + more)",
+   "date": "2026-08-27",
+   "url": "https://ingresse.com/canela-party-2026/",
+   "expect": [
+    "canela",
+    "party"
+   ],
+   "verified": "2026-08-25",
+   "via": "browser"
+  },
+  "jakob dreyer project feat roman filiu|2026-09-18": {
+   "act": "Jakob Dreyer Project feat. Román Filiú",
+   "date": "2026-09-18",
+   "url": "https://www.clarencejazzclub.com/wp/events/jakob-dreyer-quartet/",
+   "expect": [
+    "jakob",
+    "dreyer"
+   ],
+   "verified": "2026-08-25",
+   "via": "browser"
+  },
+  "asys quartet|2026-09-19": {
+   "act": "Äsys Quartet",
+   "date": "2026-09-19",
+   "url": "https://www.clarencejazzclub.com/wp/events/asys-quartet/",
+   "expect": [
+    "asys",
+    "quartet"
+   ],
+   "verified": "2026-08-25",
    "via": "browser"
   }
  },
