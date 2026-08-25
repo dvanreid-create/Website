@@ -124,9 +124,9 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-c3d59af37a22e268.jpg",
+   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
    "tint": "rgba(232,102,42,.42)",
-   "expires": null,
+   "expires": "2026-09-18",
    "tag": {
     "en": "★ Top pick this week",
     "es": "★ Top de la semana",
@@ -148,7 +148,7 @@
     "da": "fre 18 sep · Sala Fundación Unicaja Mª Cristina",
     "fi": "pe 18 syysk. · Sala Fundación Unicaja Mª Cristina"
    },
-   "url": null,
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=532802&u=https%3A%2F%2Ffeverup.com%2Fm%2F532802&intsrc=CATF_15532",
    "cta": {
     "en": "Tickets →",
     "es": "Entradas →",
@@ -720,6 +720,45 @@
     "fi": "su 13 syysk. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay and Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-09-18",
+   "sub": {
+    "en": "Fri 18 Sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "es": "Vie 18 sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "de": "Fr 18 Sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "fr": "ven. 18 sept. · Sala Fundación Unicaja María Cristina · Málaga",
+    "sv": "fre 18 sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "no": "fre 18 sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "da": "fre 18 sep · Sala Fundación Unicaja María Cristina · Málaga",
+    "fi": "pe 18 syysk. · Sala Fundación Unicaja María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=532802&u=https%3A%2F%2Ffeverup.com%2Fm%2F532802&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
