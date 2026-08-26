@@ -7,8 +7,8 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 29,
- "prefer_eci": 24,
+ "count": 28,
+ "prefer_eci": 23,
  "prefer_box": 5,
  "acts": {
   "alvaro de luna y nil moliner": {
@@ -193,17 +193,6 @@
    "box_from": 45.0,
    "prefer": "box",
    "why": "ECI dearer by EUR 44"
-  },
-  "nile rodgers and chic": {
-   "eci_name": "Nile Rodgers & Chic",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nile-rodgers-chic-starlite-occident-2026-marbella-0000089pB0000089Nz000008546/",
-   "eci_from": 29.0,
-   "eci_date": "26/08/2026",
-   "box_name": "Nile Rodgers and Chic",
-   "box_url": "https://entradas.starlitemarbella.com/event/nile-rodgers-and-chic-3bt1ea",
-   "box_from": 29.0,
-   "prefer": "eci",
-   "why": "same price"
   },
   "noche movida": {
    "eci_name": "Noche Movida",

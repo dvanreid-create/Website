@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-25",
-  "count": 109,
+  "generated": "2026-08-26",
+  "count": 108,
   "items": [
     {
       "sku": "194665",
@@ -522,18 +522,18 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "432252",
-      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "sku": "632234",
+      "n": "Funzo in Málaga",
       "c": "tours",
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €295",
-      "img": "473aa63c-9fa4-11f1-9f41-dad0d130611a.jpg",
-      "url": "https://feverup.com/m/432252/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
       "feat": 0,
-      "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
     },
     {
       "sku": "89659",
@@ -604,20 +604,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=634608&u=https%3A%2F%2Ffeverup.com%2Fm%2F634608&intsrc=CATF_15532",
       "feat": 0,
       "d": "La cena criminal is an interactive theatrical show where you can dine while solving a murder. Between delicious dishes and a glass of wine, the actors will involve you in a plot full of secrets and suspicions. Get your tickets now!"
-    },
-    {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -1074,7 +1060,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €21",
+      "p": "From €20.95",
       "img": "8c9da1a7-c5e0-11ea-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/89658/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89658&u=https%3A%2F%2Ffeverup.com%2Fm%2F89658&intsrc=CATF_15532",
@@ -1279,17 +1265,17 @@
     },
     {
       "sku": "503719",
-      "n": "🎨✨ NEON&WINE! A Unique Sensorial & Painting Experience!",
+      "n": "🎨✨ NEON&WINE! A Unique Sensorial & Painting Experience! - Malaga",
       "c": "food",
       "cat": "Food & Drink",
-      "v": "Málaga",
+      "v": "",
       "area": "Málaga",
-      "p": "From €40",
-      "img": "1d089de2-c3a4-11f0-9f6f-ee49150649f6.jpg",
+      "p": "See price",
+      "img": "534658f0-a05c-11f1-b4ba-96207a84cde6.jpeg",
       "url": "https://feverup.com/m/503719/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
       "feat": 0,
-      "d": "An Unforgettable Evening: A Unique Creative & Immersive Experience! Join us for a memorable evening where you can create your own artwork on canvas while enjoying unlimited wine and tasty bites throughout the experience. Immerse yourself in a vibrant neon atmosphere, perfect for dates, gatherings wi"
+      "d": "Tickets for 🎨✨ NEÓN&WINE! A Unique Sensorial & Painting Experience! in Malaga, Spain 🎫 General Admission General Info 📅 Date: Select your dates directly in the ticket selector 🕒 Time: 19:00 - 21:00 📍 Location: 📍 At the corner of Gerona & Grilo Streets, near María Zambrano Station, Málaga Descr"
     },
     {
       "sku": "545188",
