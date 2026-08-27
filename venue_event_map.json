@@ -1714,6 +1714,21 @@
     }
    }
   },
+  "velezmalaga": {
+   "source": "https://velezmalaga.es/index.php?mod=noticias&id=8802",
+   "complete": false,
+   "gate": false,
+   "note": "Noche en Vela, Velez-Malaga, ONE NIGHT A YEAR - 29/08/2026, 20:00 to 03:00. Added 2026-08-27 at Sofia's request because the calendar carried only the town-hall HOMEPAGE (velezmalaga.es), which tells a reader nothing. The mapped link is the council's own programme announcement and is VERIFIED: published 20/ago/26, it names the date, the 20:00 opening by the Orquesta Sinfonica de Malaga in the plaza de las Carmelitas, David de Maria at 00:00 and Gonzalo Hermida at 01:45 at La Fortaleza, Play at 22:15, and carries the full programme as a downloadable PDF. NO prefer FLAG NEEDED: the calendar's link is a bare domain, which _is_deep() rejects, so venue_resolve upgrades it from here automatically - unlike Sun & Thunder, where a dead DEEP link had to be overridden. KEYED ON THE DOMAIN, NOT THE EVENT NAME, and that choice matters. _venue_lookup matches a key against the normalised venue string OR the normalised URL. Keying it 'noche en vela' worked only while the calendar spelt the venue 'Centro historico de Velez-Malaga (Noche en Vela - multiples escenarios)'; the moment a sweep shortened that to 'Centro historico de Velez-Malaga' the key stopped matching and the link silently fell back to the homepage - tested and confirmed 2026-08-27. 'velezmalaga' matches the URL instead, which the sweep cannot reword. Any OTHER Velez event also matches this block, which is harmless: complete:false and gate:false mean nothing is gated, and an act with no entry here falls through venue_resolve with its own link untouched. complete:false and gate:false are DELIBERATE - this is a street festival across ten zones with dozens of acts, so we hold nothing like its full bill and must never gate against it. CAVEAT: a news article ages. After 29/08/2026 this URL becomes an archive page, exactly the trap that put a 2024 Estepona concert on the live site - if Noche en Vela 2027 is added, find that year's announcement and CHECK THE YEAR on it. Note also the page's 'PROGRAMACION (INGLES)' download actually points at a file named ...espanol_LITE.pdf, so do not promise an English programme.",
+   "acts": {
+    "noche en vela": {
+     "url": "https://velezmalaga.es/index.php?mod=noticias&id=8802",
+     "date": "29/08/2026",
+     "time": "20:00",
+     "paid_free": "Free",
+     "venue_name": "Noche en Vela - Centro Historico, Velez-Malaga"
+    }
+   }
+  },
   "esteponacultura": {
    "complete": true,
    "source": "https://ayuntamiento.estepona.es/agenda",
