@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-26",
-  "count": 108,
+  "generated": "2026-08-27",
+  "count": 107,
   "items": [
     {
       "sku": "194665",
@@ -184,20 +184,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=478730&u=https%3A%2F%2Ffeverup.com%2Fm%2F478730&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy a fun urban gymkhana in Nerja for bachelorette parties. Games, challenges and unique moments with your friends - get your tickets now!"
-    },
-    {
-      "sku": "651408",
-      "n": "Backrooms",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7.20",
-      "img": "9233ae0c-546f-11f1-bd99-ba14247680e4.jpg",
-      "url": "https://feverup.com/m/651408/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=651408&u=https%3A%2F%2Ffeverup.com%2Fm%2F651408&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 Una puerta extraña aparece en el sótano de una sala de exposición de muebles. 🕒 Fecha de estreno: 2026-06-05 🎥 Director: Kane Parsons 🌟 Reparto: Renate Reinsve, Chiwetel Ejiofor, Mark Duplass ⌛ Duración: 105 minutos 🎭 Género: Terror 👤 Edad: R Información 🎫 Entradas canjeables en los cines Y"
     },
     {
       "sku": "693800",
@@ -452,34 +438,6 @@
       "d": "Enjoy Edgar Allan Poe’s works, brought to life by expert historians and paired with themed cocktails in Málaga. Get your tickets now!"
     },
     {
-      "sku": "651406",
-      "n": "El drama",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7.20",
-      "img": "884bd02c-546f-11f1-a95d-ce9e545d8c66.jpg",
-      "url": "https://feverup.com/m/651406/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=651406&u=https%3A%2F%2Ffeverup.com%2Fm%2F651406&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 Una pareja, en los días previos a su boda, se enfrenta a una crisis cuando unas inesperadas revelaciones desbaratan lo que uno de ellos creía saber sobre el otro. 🕒 Fecha de estreno: 2026-05-29 🎥 Director: Kristoffer Borgli 🌟 Reparto: Zendaya, Robert Pattinson, Mamoudou Athie ⌛ Duración: 105 m"
-    },
-    {
-      "sku": "672312",
-      "n": "El día de la revelación - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "2a57c1ee-6e5d-11f1-93f5-9e9b2716affa.jpg",
-      "url": "https://feverup.com/m/672312/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672312&u=https%3A%2F%2Ffeverup.com%2Fm%2F672312&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 Si descubrieras que no estamos solos, si alguien te abriera los ojos y te lo demostrase, ¿te asustarías? Este verano, la verdad será revelada a siete mil millones de personas. Llega... el día de la revelación. 🕒 Fecha de estreno: 2026-06-10 🎥 Director: Steven Spielberg 🌟 Reparto: Emily Blunt,"
-    },
-    {
       "sku": "589923",
       "n": "El Templo Del Flamenco: Espectáculo Flamenco + Cena y Bebida Opcional",
       "c": "tours",
@@ -522,18 +480,18 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
+      "sku": "432252",
+      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
       "c": "tours",
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "p": "From €295",
+      "img": "473aa63c-9fa4-11f1-9f41-dad0d130611a.jpg",
+      "url": "https://feverup.com/m/432252/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+      "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
     },
     {
       "sku": "89659",
@@ -548,20 +506,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
       "feat": 0,
       "d": "Individual tickets to visit the Alcazaba of Malaga with art historian guide. Duration: 1 hour approx. Get your tickets now!"
-    },
-    {
-      "sku": "672313",
-      "n": "He-Man y los masters del universo - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "3513bc6e-6e5d-11f1-a236-ae73ddcbe67b.jpg",
-      "url": "https://feverup.com/m/672313/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672313&u=https%3A%2F%2Ffeverup.com%2Fm%2F672313&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 En las regiones más lejanas del espacio, el reino de Eternia está amenazado por el villano Skeletor y sus traviesos ejércitos de oscuridad. Para salvar el reino de su padre y proteger las vidas de sus seres queridos, el joven príncipe Adam tiene que recuperar una espada mítica y convertirse en el"
     },
     {
       "sku": "92941",
@@ -676,20 +620,6 @@
       "d": "⭐ Mysterious Nerja: An Outdoor Escape Room That Will Test Your Wits Highlights 🔍 An urban adventure in Nerja where you will solve enigmas in its most surprising corners. 📱 Interactive game guided by an app: explore the city at your own pace. 🕵️‍♂️ Discover local legends and hidden secrets of the"
     },
     {
-      "sku": "684932",
-      "n": "Obsesión",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7.20",
-      "img": "b3f929a4-7c56-11f1-85f8-663f7bb544ce.jpg",
-      "url": "https://feverup.com/m/684932/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=684932&u=https%3A%2F%2Ffeverup.com%2Fm%2F684932&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 El anhelo romántico desesperado de un chico por su amor platónico de toda la vida desencadena un siniestro hechizo: Niki se vuelve irracionalmente obsesiva hasta convertirse en la sombra de Bear. Una fantasía aparentemente inofensiva que se convertirá en una perturbadora pesadilla. 🕒 Fecha de es"
-    },
-    {
       "sku": "141843",
       "n": "Olive grove farm from Seville: Guided tour",
       "c": "tours",
@@ -800,20 +730,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=92888&u=https%3A%2F%2Ffeverup.com%2Fm%2F92888&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy a sunset cruise and dinner in Malaga! Sail along the coast, watch the sunset and enjoy a delicious Mediterranean dinner - get your tickets now!"
-    },
-    {
-      "sku": "672310",
-      "n": "Supergirl - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "1e6a831c-6e5d-11f1-876d-4a1f66e1dc0f.jpg",
-      "url": "https://feverup.com/m/672310/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672310&u=https%3A%2F%2Ffeverup.com%2Fm%2F672310&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 Tomando como referencia la reciente miniserie escrita por Tom King, esta película promete una visión diferente de lo que la mayoría piensa cuando le viene a la mente la prima de Superman. \"Veremos la diferencia entre Superman, que fue enviado a la Tierra y criado por unos padres cariñosos desde q"
     },
     {
       "sku": "678292",
@@ -1265,7 +1181,7 @@
     },
     {
       "sku": "503719",
-      "n": "🎨✨ NEON&WINE! A Unique Sensorial & Painting Experience! - Malaga",
+      "n": "🎨✨ Neon Art&Wine: Fluorescent Painting Workshop with Unlimited Wine for 2 Hours - Mala",
       "c": "food",
       "cat": "Food & Drink",
       "v": "",
@@ -1275,7 +1191,7 @@
       "url": "https://feverup.com/m/503719/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Tickets for 🎨✨ NEÓN&WINE! A Unique Sensorial & Painting Experience! in Malaga, Spain 🎫 General Admission General Info 📅 Date: Select your dates directly in the ticket selector 🕒 Time: 19:00 - 21:00 📍 Location: 📍 At the corner of Gerona & Grilo Streets, near María Zambrano Station, Málaga Descr"
+      "d": "Imagine a group experience where you explore your creative side while enjoying a glass of wine? Neon Art&Wine is an artistic and social activity designed to help you disconnect, have fun and let yourself be carried away by color, music and atmosphere. During the session, we guide you step by step wi"
     },
     {
       "sku": "545188",
@@ -1466,7 +1382,7 @@
       "cat": "Games",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €20",
+      "p": "From €18",
       "img": "8d859624-90e0-11f1-a9d4-a233f6906938.jpg",
       "url": "https://feverup.com/m/459773/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=459773&u=https%3A%2F%2Ffeverup.com%2Fm%2F459773&intsrc=CATF_15532",
@@ -1500,6 +1416,76 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=324006&u=https%3A%2F%2Ffeverup.com%2Fm%2F324006&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
+    },
+    {
+      "sku": "739246",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "57c292f0-a14b-11f1-8d0d-8e064ff3488c.jpg",
+      "url": "https://feverup.com/m/739246/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739246&u=https%3A%2F%2Ffeverup.com%2Fm%2F739246&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "739247",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "682aaff6-a14b-11f1-a9f7-62be54837f50.jpg",
+      "url": "https://feverup.com/m/739247/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739247&u=https%3A%2F%2Ffeverup.com%2Fm%2F739247&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "739248",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "5d9e1a8c-a14b-11f1-9d41-ae21bb8c6ce0.jpg",
+      "url": "https://feverup.com/m/739248/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739248&u=https%3A%2F%2Ffeverup.com%2Fm%2F739248&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "739249",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "62ba5c2e-a14b-11f1-833f-e292273fa751.jpg",
+      "url": "https://feverup.com/m/739249/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739249&u=https%3A%2F%2Ffeverup.com%2Fm%2F739249&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "739250",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "6cef0be0-a14b-11f1-8781-427bfeeac305.jpg",
+      "url": "https://feverup.com/m/739250/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739250&u=https%3A%2F%2Ffeverup.com%2Fm%2F739250&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
     },
     {
       "sku": "158822",
