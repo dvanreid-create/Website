@@ -539,8 +539,24 @@
     },
     "sun and thunder": {
      "url": "https://marenostrumfuengirola.com/eventos/sun-thunder-26/",
+     "prefer": "map",
      "date": "27/08/2026",
-     "venue_name": "SUN & THUNDER 26"
+     "venue_name": "SUN & THUNDER 26",
+     "note": "CATCH-ALL for the festival, and the fallback for THURSDAY 27/08 whose per-night ticket page no longer exists (sales closed once the festival opened). prefer:map is DELIBERATE: the sweep captured the 3-day pass URL (.../abono-3-dias-sun-thunder-festival-2026/A3SUNTHUNDER26), the ticketer withdrew that product on 27/08/2026, and every night was left on a 'Página no encontrada'. Without prefer, venue_resolve keeps a deep link even when it is dead. This sends 27/08 to the festival's own info page instead of a 404. The two longer keys below are MORE SPECIFIC (6 tokens vs 3) and _venue_lookup sorts most-specific-first, so 28/08 and 29/08 take their own per-night pages, not this one. WARNING: the info page still advertises 'entradas a partir del 2 de septiembre, 165€' - that is the ORIGINAL 2025 announcement left online (its images sit under /2025/08/), NOT current pricing."
+    },
+    "sun and thunder 26 day 2": {
+     "url": "https://marenostrumfuengirola.janto.es/espectaculo/sun-thunder-festival--viernes-28-de-agosto-2026/VSUNTHUNDER26",
+     "prefer": "map",
+     "date": "28/08/2026",
+     "venue_name": "SUN & THUNDER FESTIVAL - VIERNES 28 DE AGOSTO 2026",
+     "note": "Per-night ticket page, read straight off the ticketer's own música catalogue in a browser on 27/08/2026 (Sofia confirmed the link). NOT guessed: an inferred 'JSUNTHUNDER26' for the Thursday 404'd, so only URLs seen in janto's own listing are used here. Only TWO Sun & Thunder products remain on sale - this one and the Saturday below."
+    },
+    "sun and thunder 26 day 3": {
+     "url": "https://marenostrumfuengirola.janto.es/espectaculo/sun-thunder-festival--sabado-29-de-agosto-2026/SSUNTHUNDER26",
+     "prefer": "map",
+     "date": "29/08/2026",
+     "venue_name": "SUN & THUNDER FESTIVAL - SÁBADO 29 DE AGOSTO 2026",
+     "note": "Per-night ticket page for Saturday 29/08, read off the ticketer's own música catalogue in a browser on 27/08/2026. Day 3 is the strongest bill of the three (Avantasia, Lordi, Soen, Primal Fear)."
     },
     "chambao": {
      "url": "https://marenostrumfuengirola.com/eventos/chambao/",
