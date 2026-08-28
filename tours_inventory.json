@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "count": 107,
   "items": [
     {
@@ -382,6 +382,20 @@
       "d": "Enjoy a creative ceramics session in Malaga with unlimited wine. Learn basic techniques and create your own piece. Get your tickets today!"
     },
     {
+      "sku": "739246",
+      "n": "Cronos - Malaga - Tickets",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "57c292f0-a14b-11f1-8d0d-8e064ff3488c.jpg",
+      "url": "https://feverup.com/m/739246/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739246&u=https%3A%2F%2Ffeverup.com%2Fm%2F739246&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
       "sku": "388878",
       "n": "Date Night Scavenger Hunt: Mission Málaga",
       "c": "tours",
@@ -480,20 +494,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "432252",
-      "n": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €295",
-      "img": "473aa63c-9fa4-11f1-9f41-dad0d130611a.jpg",
-      "url": "https://feverup.com/m/432252/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
-    },
-    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -522,6 +522,20 @@
       "d": "Take on a team challenge! Close a magical portal and save the world from chaos. Get your tickets for the game on the streets of Malaga now: Magic Portal!"
     },
     {
+      "sku": "739248",
+      "n": "Insidious: Out Of The Further - Malaga - Tickets",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "5d9e1a8c-a14b-11f1-9d41-ae21bb8c6ce0.jpg",
+      "url": "https://feverup.com/m/739248/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739248&u=https%3A%2F%2Ffeverup.com%2Fm%2F739248&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
       "sku": "141765",
       "n": "Kelipé Flamenco Show",
       "c": "tours",
@@ -548,6 +562,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=634608&u=https%3A%2F%2Ffeverup.com%2Fm%2F634608&intsrc=CATF_15532",
       "feat": 0,
       "d": "La cena criminal is an interactive theatrical show where you can dine while solving a murder. Between delicious dishes and a glass of wine, the actors will involve you in a plot full of secrets and suspicions. Get your tickets now!"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -746,6 +774,20 @@
       "d": "💃 Discover the excitement of pure flamenco in the heart of Granada! Tablao Flamenco La Alboreá invites you to enjoy a live show with highly talented dancers, singers, and guitarists who convey the passion and authenticity of this unique art form. Highlights 🌟 A top-tier live flamenco show every da"
     },
     {
+      "sku": "739250",
+      "n": "Tad The Explorer - Malaga - Tickets",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "6cef0be0-a14b-11f1-8781-427bfeeac305.jpg",
+      "url": "https://feverup.com/m/739250/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739250&u=https%3A%2F%2Ffeverup.com%2Fm%2F739250&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
       "sku": "593470",
       "n": "Tasting and Pairing in Cordoba: 4 Wines + 4 Tapas",
       "c": "tours",
@@ -758,6 +800,34 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=593470&u=https%3A%2F%2Ffeverup.com%2Fm%2F593470&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy a wine and food pairing tasting in Cordoba with 4 wines and 4 selected tapas. Buy your ticket now and live a unique experience at VinumPlay."
+    },
+    {
+      "sku": "739247",
+      "n": "The Dog Stars - Malaga - Tickets",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "682aaff6-a14b-11f1-a9f7-62be54837f50.jpg",
+      "url": "https://feverup.com/m/739247/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739247&u=https%3A%2F%2Ffeverup.com%2Fm%2F739247&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "739249",
+      "n": "The End Of Oak Street - Malaga - Tickets",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "62ba5c2e-a14b-11f1-833f-e292273fa751.jpg",
+      "url": "https://feverup.com/m/739249/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739249&u=https%3A%2F%2Ffeverup.com%2Fm%2F739249&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
     },
     {
       "sku": "421698",
@@ -1416,76 +1486,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=324006&u=https%3A%2F%2Ffeverup.com%2Fm%2F324006&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
-    },
-    {
-      "sku": "739246",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "57c292f0-a14b-11f1-8d0d-8e064ff3488c.jpg",
-      "url": "https://feverup.com/m/739246/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739246&u=https%3A%2F%2Ffeverup.com%2Fm%2F739246&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "739247",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "682aaff6-a14b-11f1-a9f7-62be54837f50.jpg",
-      "url": "https://feverup.com/m/739247/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739247&u=https%3A%2F%2Ffeverup.com%2Fm%2F739247&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "739248",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "5d9e1a8c-a14b-11f1-9d41-ae21bb8c6ce0.jpg",
-      "url": "https://feverup.com/m/739248/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739248&u=https%3A%2F%2Ffeverup.com%2Fm%2F739248&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "739249",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "62ba5c2e-a14b-11f1-833f-e292273fa751.jpg",
-      "url": "https://feverup.com/m/739249/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739249&u=https%3A%2F%2Ffeverup.com%2Fm%2F739249&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "739250",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "6cef0be0-a14b-11f1-8781-427bfeeac305.jpg",
-      "url": "https://feverup.com/m/739250/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739250&u=https%3A%2F%2Ffeverup.com%2Fm%2F739250&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
     },
     {
       "sku": "158822",
