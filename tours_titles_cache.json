@@ -15561,16 +15561,16 @@
     }
   },
   "viator:350808P3459": {
-    "h": "9f0cf90bc7177578d097c52d7ffa4ea6",
+    "h": "0f3c674a28295c29074913ba14b1b867",
     "names": {
-      "en": "Private Marbella and Puerto Banús Shore Tour from Málaga",
-      "es": "Excursión Privada a Marbella y Puerto Banús desde Málaga",
-      "de": "Private Küstentour nach Marbella und Puerto Banús ab Málaga",
-      "fr": "Excursion privée à Marbella et Puerto Banús depuis Málaga",
-      "sv": "Privat kustutflykt till Marbella och Puerto Banús från Málaga",
-      "no": "Privat kysttur til Marbella og Puerto Banús fra Málaga",
-      "da": "Privat kysttur til Marbella og Puerto Banús fra Málaga",
-      "fi": "Yksityinen Marbella ja Puerto Banús -rannikkoretki Málagasta"
+      "en": "Private Marbella & Puerto Banús Shore Tour from Málaga",
+      "es": "Tour privado de Marbella y Puerto Banús desde Málaga",
+      "de": "Private Marbella & Puerto-Banús-Tour ab Malaga",
+      "fr": "Visite privée de Marbella et Puerto Banús au départ de Málaga",
+      "sv": "Privat rundtur till Marbella & Puerto Banús från Málaga",
+      "no": "Privat Marbella- og Puerto Banús-utflukt fra Málaga",
+      "da": "Privat udflugt til Marbella & Puerto Banús fra Málaga",
+      "fi": "Yksityinen Marbella & Puerto Banúsin risteily Malagasta"
     }
   },
   "viator:5674539P35": {
@@ -15584,6 +15584,19 @@
       "no": "Designer Outlet Málaga selvkjørende rabattpakke",
       "da": "Designer Outlet Málaga selvkørende rabatpakke",
       "fi": "Designer Outlet Málaga omatoiminen ajopaketti alennuksella"
+    }
+  },
+  "viator:5604460P2": {
+    "h": "ff18dd969d55565253cf1f993d8782fc",
+    "names": {
+      "en": "Private Cross Country Sport Fishing Tour in Marbella",
+      "es": "Tour privado de pesca deportiva a campo traviesa en Marbella",
+      "de": "Private Hochseefischertour in Marbella",
+      "fr": "Excursion privée de pêche sportive en pleine mer à Marbella",
+      "sv": "Privat sportfisketur i kustnära vatten i Marbella",
+      "no": "Privat sportsfisketur i åpent farvann i Marbella",
+      "da": "Privat sportsfisketur på tværs af landet i Marbella",
+      "fi": "Yksityinen maastokalastusretki Marbellassa"
     }
   }
 }

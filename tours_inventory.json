@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-28",
-  "count": 107,
+  "generated": "2026-08-29",
+  "count": 106,
   "items": [
     {
       "sku": "194665",
@@ -719,12 +719,12 @@
     },
     {
       "sku": "684931",
-      "n": "Spider-Man: Un nuevo día",
+      "n": "Spider-Man: Un nuevo día - Málaga",
       "c": "tours",
       "cat": "Experience",
-      "v": "Málaga",
+      "v": "",
       "area": "Málaga",
-      "p": "From €7.20",
+      "p": "See price",
       "img": "aec2c65c-7c56-11f1-ac53-f23fca973739.jpg",
       "url": "https://feverup.com/m/684931/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=684931&u=https%3A%2F%2Ffeverup.com%2Fm%2F684931&intsrc=CATF_15532",
@@ -816,20 +816,6 @@
       "d": "<empty>"
     },
     {
-      "sku": "739249",
-      "n": "The End Of Oak Street - Malaga - Tickets",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "62ba5c2e-a14b-11f1-833f-e292273fa751.jpg",
-      "url": "https://feverup.com/m/739249/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739249&u=https%3A%2F%2Ffeverup.com%2Fm%2F739249&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
       "sku": "421698",
       "n": "The Plague in Malaga - Theatrical Tour",
       "c": "tours",
@@ -884,6 +870,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
       "feat": 0,
       "d": "Get your tickets for Flamenco Authentic Show at Teatro Flamenco Málaga and don"
+    },
+    {
+      "sku": "643664",
+      "n": "Tickets for the K",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
+      "url": "https://feverup.com/m/643664/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "LA K"
     },
     {
       "sku": "587444",
@@ -943,12 +943,12 @@
     },
     {
       "sku": "684930",
-      "n": "Vaiana",
+      "n": "Vaiana - Málaga",
       "c": "tours",
       "cat": "Experience",
-      "v": "Málaga",
+      "v": "",
       "area": "Málaga",
-      "p": "From €7.20",
+      "p": "See price",
       "img": "aa0b0160-7c56-11f1-945a-aad50148676c.jpg",
       "url": "https://feverup.com/m/684930/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=684930&u=https%3A%2F%2Ffeverup.com%2Fm%2F684930&intsrc=CATF_15532",
@@ -1251,7 +1251,7 @@
     },
     {
       "sku": "503719",
-      "n": "🎨✨ Neon Art&Wine: Fluorescent Painting Workshop with Unlimited Wine for 2 Hours - Mala",
+      "n": "🎨✨ NEON&WINE! A Unique Sensorial & Painting Experience!",
       "c": "food",
       "cat": "Food & Drink",
       "v": "",
@@ -1261,7 +1261,7 @@
       "url": "https://feverup.com/m/503719/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Imagine a group experience where you explore your creative side while enjoying a glass of wine? Neon Art&Wine is an artistic and social activity designed to help you disconnect, have fun and let yourself be carried away by color, music and atmosphere. During the session, we guide you step by step wi"
+      "d": "An Unforgettable Evening: A Unique Creative & Immersive Experience! Join us for a memorable evening where you can create your own artwork on canvas while enjoying unlimited wine and tasty bites throughout the experience. Immerse yourself in a vibrant neon atmosphere, perfect for dates, gatherings wi"
     },
     {
       "sku": "545188",
@@ -1486,20 +1486,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=324006&u=https%3A%2F%2Ffeverup.com%2Fm%2F324006&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
-    },
-    {
-      "sku": "158822",
-      "n": "Tickets for Yelmo Cinemas in Malaga: all the listings!",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7.20",
-      "img": "d4ced4b0-17e0-11f1-9de8-ce4177021ddf.png",
-      "url": "https://feverup.com/m/158822/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=158822&u=https%3A%2F%2Ffeverup.com%2Fm%2F158822&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Get your tickets for Yelmo Cinemas in Malaga at a special price with Fever. Enjoy all the movie listings at a discount!"
     }
   ]
 }
