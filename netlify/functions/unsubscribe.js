@@ -46,11 +46,14 @@ exports.handler = async (event) => {
         headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json", "Accept": "application/json" },
         body: JSON.stringify({ email: email, status: "unsubscribed" })
       });
+      const respText = await r.text();
+      console.log("[unsubscribe] MailerLite status=" + r.status + " body=" + respText.slice(0, 500));
       if (r.ok) {
         return html(`<h1>You're unsubscribed</h1><p><b>${esc(email)}</b> has been removed from the M&aacute;laga Live weekly newsletter. Sorry to see you go &mdash; you can resubscribe anytime from the site.</p>`);
       }
       return html(`<h1>Couldn't complete that</h1><p>${help}</p>`);
     } catch (e) {
+      console.log("[unsubscribe] EXCEPTION " + (e && e.message ? e.message : String(e)));
       return html(`<h1>Couldn't complete that</h1><p>${help}</p>`);
     }
   }
