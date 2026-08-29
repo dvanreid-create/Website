@@ -1567,6 +1567,102 @@
    ],
    "verified": "2026-08-28",
    "via": "browser"
+  },
+  "blues jam session|2026-09-16": {
+   "act": "Blues Jam Session",
+   "date": "2026-09-16",
+   "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-143/",
+   "expect": [
+    "blues",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "jazz jam session con clarence jazz band|2026-09-17": {
+   "act": "Jazz Jam Session con Clarence Jazz Band",
+   "date": "2026-09-17",
+   "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-302/",
+   "expect": [
+    "jazz",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "jazz jam session|2026-09-17": {
+   "act": "Jazz Jam Session",
+   "date": "2026-09-17",
+   "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-302/",
+   "expect": [
+    "jazz",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "blues jam session|2026-09-23": {
+   "act": "Blues Jam Session",
+   "date": "2026-09-23",
+   "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-144/",
+   "expect": [
+    "blues",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "jazz jam session|2026-09-24": {
+   "act": "Jazz Jam Session",
+   "date": "2026-09-24",
+   "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-303/",
+   "expect": [
+    "jazz",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "yuri storione quartet|2026-09-25": {
+   "act": "Yuri Storione Quartet",
+   "date": "2026-09-25",
+   "url": "https://www.clarencejazzclub.com/wp/events/yuri-storione-quartet/",
+   "expect": [
+    "yuri",
+    "storione"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "louis ford new orleans flairs feat carlos childe|2026-09-26": {
+   "act": "Louis Ford New Orleans Flairs feat. Carlos Childe",
+   "date": "2026-09-26",
+   "url": "https://www.clarencejazzclub.com/wp/events/louis-ford-new-orleans-flairs-feat-carlos-childe/",
+   "expect": [
+    "louis",
+    "ford"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+  },
+  "blues jam session|2026-09-30": {
+   "act": "Blues Jam Session",
+   "date": "2026-09-30",
+   "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-145/",
+   "expect": [
+    "blues",
+    "jam"
+   ],
+   "verified": "2026-08-28",
+   "via": "browser",
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
   }
  },
  "trusted_hosts": [

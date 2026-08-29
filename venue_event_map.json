@@ -1170,7 +1170,7 @@
   "clarence jazz club": {
    "source": "https://www.clarencejazzclub.com/",
    "complete": false,
-   "note": "Clarence Jazz Club, Torremolinos. 200+ concerts/year; regular weekly format: Blues Jam Wed 22:00, Jazz Jam Thu 22:00, Simon Chivallon Trio Fri 22:00, Kalenidimia Fusion Jazz Sat 22:00. Walk-in friendly; no per-event deep ticket links available. Sweep events from this venue should link to website homepage. Added 2026-07-27. | 2026-08-25: added per-event permalinks for the two September ticketed cards (Jakob Dreyer 18 Sep, Asys Quartet 19 Sep). The old blanket 'link to the homepage/programacion' advice fails while the club is on its summer break: /wp/programacion/ opens on the CURRENT month and shows SIN EVENTOS. Clarence DOES publish per-event permalinks under /wp/events/<slug>/ - the earlier note that none exist is wrong.",
+   "note": "Clarence Jazz Club, Torremolinos. 200+ concerts/year; regular weekly format: Blues Jam Wed 22:00, Jazz Jam Thu 22:00, Simon Chivallon Trio Fri 22:00, Kalenidimia Fusion Jazz Sat 22:00. Walk-in friendly; no per-event deep ticket links available. Sweep events from this venue should link to website homepage. Added 2026-07-27. | 2026-08-25: added per-event permalinks for the two September ticketed cards (Jakob Dreyer 18 Sep, Asys Quartet 19 Sep). The old blanket 'link to the homepage/programacion' advice fails while the club is on its summer break: /wp/programacion/ opens on the CURRENT month and shows SIN EVENTOS. Clarence DOES publish per-event permalinks under /wp/events/<slug>/ - the earlier note that none exist is wrong. | 2026-08-28 (browser, Chrome sofia@): read the club's OWN calendar by clicking the next-month arrow on /wp/programacion/ (the ?mo=/?yr=, ?focus_month= and ?ev_month= query forms are all IGNORED - the month is only reachable by clicking, so there is NO month-addressable URL and urls_by_month cannot help here). SEPTIEMBRE 2026 reads: MIE 16 SEP Blues Jam Session 22:00, JUE 17 SEP Jazz Jam Session 22:00, VIE 18 SEP Jakob Dreyer, SAB 19 SEP Asys Quartet, MIE 23 SEP Blues Jam Session 22:00, JUE 24 SEP Jazz Jam Session, VIE 25 SEP Yuri Storione Quartet, SAB 26 SEP Louis Ford New Orleans Flairs, MIE 30 SEP Blues Jam. The club's own X post confirms the season restarts 16 September. PRICING, settled: Clarence sells NO per-night ticket online and publishes NO door price. Its shop (/wp/tienda/) carries only Bono Anual Zona A/B/C (1.200 / 900 / 600 EUR), Tarjeta Socio (80 EUR) and merch; no event page - jam OR named concert - has a WooCommerce add-to-cart or a price. So the older '10 EUR ticketed' note in the record is NOT supported by the club's own site: these nights are door-paid. The three jam cards currently render as Free with a 'Free info' button to /wp/programacion/, which is the right destination in substance and self-corrects on 1 Sep, but until then it opens on AGOSTO 2026 / SIN EVENTOS. WHY NO PER-NIGHT FIX IS SHIPPED HERE: _venue_lookup matches acts by NAME ONLY and ignores the entry's own 'date', and these acts repeat WEEKLY under identical names - one 'blues jam session' key would send BOTH 16 Sep and 23 Sep (and 30 Sep) to blues-jam-session-143, and one 'jazz jam session' key would send both 17 Sep and 24 Sep to jazz-jam-session-302. A wrong-date event page fails SILENTLY, which is the trade Sofia rejected on 2026-08-27 for the ZZ Pub wrong-month case, so no such key is added. The permalinks are recorded verbatim below and in verified_ticket_links.json (whose keys ARE date-scoped). Giving a weekly repeating act per-night links needs _venue_lookup to honour an entry's 'date' via the _map_ymd helper that already exists in build_site.py for the time correction - a GENERATOR change, which the click-test is scoped out of.",
    "acts": {
     "jakob dreyer project feat roman filiu": {
      "url": "https://www.clarencejazzclub.com/wp/events/jakob-dreyer-quartet/",
@@ -1179,6 +1179,44 @@
     "asys quartet": {
      "url": "https://www.clarencejazzclub.com/wp/events/asys-quartet/",
      "why": "Browser-verified 2026-08-25. Same fix as Jakob Dreyer above: the programacion listing opens on August ('SIN EVENTOS'); the September view shows 'SAB 19 SEP ASYS QUARTET, HORARIO 22:00' and this permalink renders that event. Key is accent-stripped ('asys') because _eci_norm strips accents from 'Asys Quartet'."
+    }
+   },
+   "_nights_2026_09": {
+    "_why": "REFERENCE ONLY - deliberately NOT under 'acts'. _venue_lookup is date-blind, so putting these under 'acts' would give every Blues Jam night the 16 Sep page and every Jazz Jam night the 17 Sep page. Browser-verified 2026-08-28; each permalink renders its own date and 22:00 start.",
+    "2026-09-16": {
+     "act": "Blues Jam Session",
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-143/",
+     "time": "22:00"
+    },
+    "2026-09-17": {
+     "act": "Jazz Jam Session",
+     "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-302/",
+     "time": "22:00"
+    },
+    "2026-09-23": {
+     "act": "Blues Jam Session",
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-144/",
+     "time": "22:00"
+    },
+    "2026-09-24": {
+     "act": "Jazz Jam Session",
+     "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-303/",
+     "time": "22:00"
+    },
+    "2026-09-25": {
+     "act": "Yuri Storione Quartet",
+     "url": "https://www.clarencejazzclub.com/wp/events/yuri-storione-quartet/",
+     "time": "22:00"
+    },
+    "2026-09-26": {
+     "act": "Louis Ford New Orleans Flairs feat. Carlos Childe",
+     "url": "https://www.clarencejazzclub.com/wp/events/louis-ford-new-orleans-flairs-feat-carlos-childe/",
+     "time": "22:00"
+    },
+    "2026-09-30": {
+     "act": "Blues Jam Session",
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-145/",
+     "time": "22:00"
     }
    }
   },
@@ -1786,7 +1824,7 @@
    "source": "https://conciertos.club/malaga/locales/sala-marte",
    "complete": false,
    "gate": false,
-   "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
+   "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-08-28 (browser): ANDRES KOI, SAB 19 SEP 21:00, 25 EUR - searched for a buyable page after the event was dropped for 'link goes to a different event'. CAUSE CONFIRMED: conciertos.club's own Andres Koi page carries NO buy control of its own; the two 'Comprar entradas' buttons ON that page belong to OTHER events (Fauces at Sala Core, and Apartamentos Acapulco at this same venue), which is exactly how a neighbouring event's link got attached. On the venue's listing every other night has a COMPRAR ENTRADAS button and Andres Koi alone has none. NO SELLER FOUND, affiliates first: El Corte Ingles search 'andres koi' = 0 results; Ticketmaster.es finds the artist but 'There are no upcoming events in Spain' (only an international 25 Oct date); Fever's own Sala Marte venue page lists no Sala Marte concerts at all; tomaticket's Andres Koi artist page lists Madrid only; taquilla.com/malaga/sala-marte-malaga does not list him; wegow.com/es/conciertos/andres-koi 404s; entradas.conciertos.club has no such event; the venue's own salamartemalaga.com is an empty placeholder. The ONLY offers are RESALE - ticketle/StubHub from 130 EUR against a 25 EUR face - which is not a seller to route a reader to. DELIBERATELY NOT BLOCKLISTED: the gig is real and dated, so it must return the moment the promoter opens sales; leaving it un-blocklisted keeps it in the daily re-check.",
    "acts": {}
   },
   "la cochera cabaret": {
