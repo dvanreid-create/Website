@@ -6,7 +6,7 @@
 [build.environment]
   # These keys are read by the functions at runtime; their values are never written into the repo
   # or build output. Tell Netlify's secret scanner not to flag them (verified: no values committed).
-  SECRETS_SCAN_OMIT_KEYS = "AIRTABLE_TOKEN,STRIPE_SECRET_KEY,STRIPE_WEBHOOK_SECRET"
+  SECRETS_SCAN_OMIT_KEYS = "AIRTABLE_TOKEN,STRIPE_SECRET_KEY,STRIPE_WEBHOOK_SECRET,MAILERLITE_TOKEN"
 
 [functions]
   directory = "netlify/functions"
@@ -33,6 +33,14 @@
 [[redirects]]
   from = "/stats.json"
   to = "/.netlify/functions/stats-feed"
+  status = 200
+  force = true
+
+# Newsletter unsubscribe for the WEB / home-screen-badge copy (the emailed copy uses MailerLite's
+# {$unsubscribe} tag; on the site that tag is literal and 404s, so the web copy links to /unsubscribe).
+[[redirects]]
+  from = "/unsubscribe"
+  to = "/.netlify/functions/unsubscribe"
   status = 200
   force = true
 
