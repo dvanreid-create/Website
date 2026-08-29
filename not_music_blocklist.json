@@ -1,6 +1,6 @@
 {
  "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park (marenostrumfuengirola.com) list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build, as a gate running BEFORE the phantom / Fever-unbuyable / receipt gates. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test. IMPORTANT: set 'venue' whenever the phrase could belong to a real act somewhere else — a personal name ('David Navarro', 'José Tejada') or a common phrase ('La Granja') must be scoped to the venue, or a genuine gig elsewhere would be silently dropped. Omit 'venue' only for names distinctive enough to be safe anywhere. NOT blocked, deliberately: CABARET 2.0 at the same Benalmádena venue IS live music (Sofia 2026-07-29). This gate's drops appear in the build log's [gate] block. NOTE (2026-08-04): this file is now shipped by the canonical deploy-site.bat (added to its Website scp list), so a normal deploy applies any edit here — no separate genre-fix bat needed. This gate also carries OWNER CONTENT-POLICY removals (e.g. 'love of lesbian', DLR 2026-08-04), not only not-music rows; the log prefix 'not live music' is cosmetic for those. STANDING INSTRUCTION (Sofia, 2026-08-24): do NOT wait for a non-music show to appear on the site or in a reel before acting. Whenever comedy, theatre, a clown/children's show, magic, dance or any other non-music event is spotted on a tracked venue's programme, TELL SOFIA IMMEDIATELY so it can be added here in advance - she cannot know about shows she has never seen. Pre-loading beats reacting: a reactive block only helps after the thing has already been published.",
- "generated": "2026-08-20",
+ "generated": "2026-08-28",
  "blocked": [
   {
    "match": "hipnosis de comedia",
@@ -90,18 +90,6 @@
    "venue": "paris",
    "date": "2026-09-15",
    "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-24 by the daily click-test (NOT a genre judgement). The card's Tickets link is the BARE HOMEPAGE www.entradas.com/, and entradas.com's own site search returns no Kevin Kaarl at all. Chased to the source in the browser 2026-08-24: (a) the venue's own page paris15.es/event/kevin-kaarl/ dates the show 'septiembre 15, 2025' and its entradas.com deep link /event/kevin-kaarl-sala-paris-15-19892866/ returns 'La pagina que buscas no esta disponible'; (b) Songkick's page for that exact gig, /concerts/42459298-kevin-kaarl-at-sala-paris-15, is headed PAST CONCERT - Monday 15 September 2025; (c) Songkick's Sala Paris 15 venue page lists 22 upcoming shows including El Kuelgue 10 Sep, Emanero 12 Sep, Villano Antillano 18 Sep, Callejero Fino 20 Sep and Ciro y los Persas 24 Sep 2026 - and NO Kevin Kaarl; (d) tomaticket's Kevin Kaarl artist page shows only Monterrey dates upcoming. Same failure mode as Antonio Cortes 14 Sep: a past show read one year forward. Scoped to venue+date so a genuine future Kevin Kaarl gig still publishes."
-  },
-  {
-   "match": "jakob dreyer",
-   "venue": "clarence",
-   "date": "2026-09-18",
-   "why": "NO BUYING PAGE EXISTS - removed 2026-08-24 by the daily click-test (NOT a genre judgement; this IS live music). The card's Tickets control links clarencejazzclub.com/wp/programacion/, a month-browser that renders 'AGOSTO, 2026 - SIN EVENTOS'; /wp/events/ returns the eventON error 'Please select a event archive page in eventON Settings'. Browser-verified 2026-08-24: the club's OWN site-wide search for 'Jakob Dreyer' returns 'No results found', so there is no event page, no price and no buy control anywhere on the seller - the club's X feed says it is on holiday and reopens 16 September with the 26/27 season, which it has not yet published. A visitor clicking Tickets gets an empty listing. REVERSIBLE: delete this entry once Clarence publishes the show at /wp/events/<slug>/ (that is where its August gigs lived and where the baseline already holds eight of them). Scoped to venue+date."
-  },
-  {
-   "match": "asys quartet",
-   "venue": "clarence",
-   "date": "2026-09-19",
-   "why": "NO BUYING PAGE EXISTS - removed 2026-08-24 by the daily click-test (NOT a genre judgement; this IS live music). Identical to the Jakob Dreyer 18 Sep case: the card links the clarencejazzclub.com/wp/programacion/ month-browser, which shows 'AGOSTO, 2026 - SIN EVENTOS', and the club's own search for 'Asys' returns 'No results found' (browser-verified 2026-08-24), so no event page, price or buy control exists. Clarence reopens 16 September with the 26/27 season and has not published it yet. Match is written unaccented because the gate normalises NFKD, so 'Asys Quartet' catches the site's 'Asys Quartet'. REVERSIBLE: delete once the club publishes the show. Scoped to venue+date."
   },
   {
    "match": "canela party 2026",
@@ -226,6 +214,36 @@
    "match": "miercoles addams",
    "venue": "benalmadena",
    "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. 'Miercoles Addams: El Secreto de la Mansion', family theatre, 30 Oct-1 Nov 2026. Scoped: a themed music night of the same name is imaginable elsewhere."
+  },
+  {
+   "match": "abba voyage",
+   "venue": "marbella arena",
+   "date": "2026-08-29",
+   "why": "CANCELLED BY THE SELLER - removed 2026-08-28 by the daily click-test (NOT a genre judgement; this IS live music). 'The Tribute - Inspired by ABBA Voyage London', 29 Aug 2026, Marbella Arena. The card's own Tickets link opens ticketmaster.es/event/.../1628507111, which renders the right act, the right venue and 'Sat, 29 Aug 2026, 21:30' and then states 'This event has been cancelled. Ticket sales have stopped, but there may be tickets available for other dates.' Checked for a second seller before removing: tomaticket.es still publishes a page for the date, but its COMPRAR ENTRADAS button is an Impact redirect (ticketmaster.evyy.net) back to that SAME cancelled Ticketmaster event - a stale shell, not an alternative. DATE+VENUE SCOPED: other ABBA Voyage tribute dates are unaffected."
+  },
+  {
+   "match": "mecano",
+   "venue": "miramar",
+   "date": "2026-09-13",
+   "why": "NO BUYABLE SESSION - removed 2026-08-28 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/656280 'Candlelight: Tributo a Mecano' renders its date selector with 'dom 13 sept' carrying level-item--disabled (it will not select); the first sellable date on the plan is 'dom 04 oct'. Candlelight is Fever-exclusive, so no rival seller can hold this date. DATE+VENUE SCOPED so the 4 Oct occurrence stays live."
+  },
+  {
+   "match": "candlelight queen vs abba",
+   "venue": "unicaja",
+   "date": "2026-09-18",
+   "why": "NO BUYABLE SESSION - removed 2026-08-28 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/555765 'Candlelight: Queen vs. ABBA' at Sala Fundacion Unicaja Ma Cristina offers only 'sab 10 oct' and 'vie 13 nov' in its own date selector - 18 Sep is gone from the plan. Fever's Malaga venue page for Sala Unicaja confirms the run as 10 Oct - 13 Nov. Candlelight is Fever-exclusive, so no rival seller can hold it. DATE+VENUE SCOPED: the Oct and Nov dates stay live, as does the separate Marbella plan."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-28",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-28 by the daily click-test (NOT a genre judgement; the festival itself IS live music and stays on the site). Twin of the 27 Aug entry added 2026-08-24: the same festival is listed a second time at 'Plaza de Toros de Torremolinos' while the real venue, confirmed on the seller's own page (ingresse.com/canela-party-2026, 'Recinto Ferial de Torremolinos - Malaga'), is the Recinto Ferial. The Dia 1/2/3 rows are the correct ones and survive."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-29",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-28 by the daily click-test. Same case as the 27 and 28 Aug entries: the wrong-venue duplicate re-renders with each new day of the festival, so the final night is scoped too. The seller's own page (ingresse.com/canela-party-2026) gives the venue as Recinto Ferial de Torremolinos and sells 'Sat 29 Aug 06:30 PM'; the Dia 3 row carries that correctly and stays live."
   }
  ]
 }
