@@ -1,6 +1,6 @@
 {
  "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park (marenostrumfuengirola.com) list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build, as a gate running BEFORE the phantom / Fever-unbuyable / receipt gates. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test. IMPORTANT: set 'venue' whenever the phrase could belong to a real act somewhere else — a personal name ('David Navarro', 'José Tejada') or a common phrase ('La Granja') must be scoped to the venue, or a genuine gig elsewhere would be silently dropped. Omit 'venue' only for names distinctive enough to be safe anywhere. NOT blocked, deliberately: CABARET 2.0 at the same Benalmádena venue IS live music (Sofia 2026-07-29). This gate's drops appear in the build log's [gate] block. NOTE (2026-08-04): this file is now shipped by the canonical deploy-site.bat (added to its Website scp list), so a normal deploy applies any edit here — no separate genre-fix bat needed. This gate also carries OWNER CONTENT-POLICY removals (e.g. 'love of lesbian', DLR 2026-08-04), not only not-music rows; the log prefix 'not live music' is cosmetic for those. STANDING INSTRUCTION (Sofia, 2026-08-24): do NOT wait for a non-music show to appear on the site or in a reel before acting. Whenever comedy, theatre, a clown/children's show, magic, dance or any other non-music event is spotted on a tracked venue's programme, TELL SOFIA IMMEDIATELY so it can be added here in advance - she cannot know about shows she has never seen. Pre-loading beats reacting: a reactive block only helps after the thing has already been published.",
- "generated": "2026-08-28",
+ "generated": "2026-08-29",
  "blocked": [
   {
    "match": "hipnosis de comedia",
@@ -244,6 +244,12 @@
    "venue": "plaza de toros",
    "date": "2026-08-29",
    "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-28 by the daily click-test. Same case as the 27 and 28 Aug entries: the wrong-venue duplicate re-renders with each new day of the festival, so the final night is scoped too. The seller's own page (ingresse.com/canela-party-2026) gives the venue as Recinto Ferial de Torremolinos and sells 'Sat 29 Aug 06:30 PM'; the Dia 3 row carries that correctly and stays live."
+  },
+  {
+   "match": "villano antillano",
+   "venue": "sala paris 15",
+   "date": "2026-09-18",
+   "why": "CANCELLED - removed 2026-08-29 by the browser click-test (NOT a genre judgment). 'Villano Antillano', 18 Sep 2026, Sala Paris 15, Malaga. Proved unsellable on five independent checks: the taquilla.com listing's own Malaga buy button lands on entradas.com/event/villano-antillano-sala-paris-15-21485879/ which renders 'Unfortunately, this page is no longer available'; entradas.com/artist/villano-antillano/ now offers only a TicketAlarm signup with 0 events; ticketmaster.es search returns '0 Results'; wegow and dice.fm list no Malaga date; the venue's own programme at paris15.es jumps 15 Sep -> 19 Sep with no 18 Sep show; and laganzua.net's page for this exact date and venue is stamped 'Cancelado'. No paying seller (ECI/awin, Fever/pxf, Ticketmaster/Impact) and no non-paying seller has a buyable page for this date, so the drop costs no commission. Date+venue scoped so any future Villano Antillano show ships."
   }
  ]
 }
