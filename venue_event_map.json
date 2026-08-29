@@ -263,6 +263,13 @@
      "venue_name": "Pastora Soler",
      "genre": "Flamenco"
     },
+    "premios juventud": {
+     "url": "https://www.entradas.com/en/event/starlite-festival-2026-premios-juventud-starlite-marbella-2026-starlite-marbella-22049017/",
+     "date": "03/09/2026",
+     "venue_name": "Premios Juventud",
+     "genre": "Latin",
+     "note": "ADDED 2026-08-29 — a real, in-window, buyable Starlite Auditorio night the sweep never sourced: on 29 Aug the site's own 3 Sep bill held only Damian Cordoba, La Creedance and El Trio del Saco. Starlite's box office sells it (entradas.starlitemarbella.com/checkout/premios-juventud-1h8x5l, banner '3 DE SEPTIEMBRE', live seat map, Fees 0.00 EUR, tiers 119.00-391.00 EUR) and entradas.com sells the SAME night at the SAME entry price (from 119.00 EUR) — so routing to entradas.com earns Awin commission (mid 24761, wrapped at build time by entradas_aff) with NO markup to the reader and no conflict with the 'No Fees or Markups' promise. starlite is on the backfill_calendar.py WHITELIST, so this dated entry lets the deterministic backstop inject the night instead of waiting for the LLM sweep to find it."
+    },
     "rosana": {
      "venue_name": "Rosana",
      "genre": "Pop"
