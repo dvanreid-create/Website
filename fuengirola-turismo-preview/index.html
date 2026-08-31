@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Vista previa — enlace de Málaga Live en Somos Fuengirola</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Pattern deliberately matched to the Cultura previews (torremolinos-preview et al):
+   dark surround + disclaimer in the chrome, their page faithfully recreated inside a
+   white frame, and Málaga Live appearing EXACTLY ONCE, inside the frame, at real size.
+   Colour + type sampled from somosfuengirola.es: teal #178087, Public Sans. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#3a4046;font-family:"Public Sans",Arial,sans-serif;color:#2c3435;padding:26px 14px 60px;
+     -webkit-font-smoothing:antialiased}
+.note{max-width:1120px;margin:0 auto 14px;font-size:13px;color:#e9e9e9;text-align:center;line-height:1.55}
+.note b{color:#4fc4cd}
+.frame{max-width:1120px;margin:0 auto;background:#fff;border:1px solid #d6d6d6;border-radius:10px;
+       overflow:hidden;box-shadow:0 8px 34px rgba(0,0,0,.28)}
+
+/* ---------- their header ---------- */
+.util{display:flex;justify-content:flex-end;gap:22px;padding:10px 34px;background:#f4f6f6;
+      border-bottom:1px solid #eceeee}
+.util a{color:#5f6b6d;text-decoration:none;font-size:12.5px;font-weight:500}
+.top{display:flex;align-items:center;justify-content:space-between;padding:18px 34px;gap:16px;flex-wrap:wrap}
+.top img.tlogo{height:52px;width:auto}
+.lang{display:flex;align-items:center;gap:7px;border:1px solid #dcdcdc;border-radius:4px;padding:6px 11px;
+      font-size:12.5px;color:#5f6b6d;font-weight:600}
+.lang .ch{color:#9aa;font-size:10px}
+nav{display:flex;flex-wrap:wrap;gap:26px;padding:0 34px 18px;border-bottom:1px solid #eee}
+nav a{color:#2c3435;text-decoration:none;font-size:13.5px;font-weight:600;letter-spacing:.4px}
+nav a.on{color:#178087;border-bottom:2px solid #178087;padding-bottom:3px}
+
+/* ---------- page body ---------- */
+.section{padding:34px 46px 46px}
+.crumb{font-size:12.5px;color:#8b9196;margin-bottom:18px}
+h1{font-size:33px;font-weight:300;line-height:1.22;letter-spacing:-.015em;color:#22303a;
+   max-width:22ch;margin:0 0 20px}
+.body p{font-size:16.5px;line-height:1.7;color:#4a5658;max-width:76ch;margin:0 0 15px}
+.body p b{color:#22303a;font-weight:700}
+
+/* ---------- OUR INSERTION — the only Málaga Live on the page ---------- */
+/* No box, no background, no button. One centred row: their sentence + our logo as the link.
+   This restraint is the point: the module must read at the size it would really occupy. */
+.ml{padding:8px 30px;margin:30px auto 26px;max-width:1040px}
+.ml .mlrow{display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
+.ml .capgroup{display:flex;flex-direction:column;align-items:center;gap:3px}
+.ml .cap{font-size:16px;font-weight:700;color:#2b2f33;line-height:1.35;text-align:center;max-width:34ch}
+.ml .mlsub{font-size:13px;font-weight:600;color:#6a7075;text-align:center}
+.ml .mllink{display:block;text-decoration:none}
+.ml .mllogo{width:300px;max-width:100%;height:auto;display:block}
+
+/* ---------- their event blocks ---------- */
+.eyebrow{color:#178087;font-size:15px;font-weight:600;margin:38px 0 4px}
+h2{font-size:30px;font-weight:300;letter-spacing:-.01em;margin:0 0 26px;color:#22303a}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.card{position:relative}
+.ph{position:relative;aspect-ratio:1;border-radius:50%;overflow:hidden;background:#eef3f4;margin-bottom:16px}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+/* Pill sits on .card, NOT inside .ph — inside the circle it gets sliced by
+   border-radius:50% + overflow:hidden. */
+.pill{position:absolute;top:10px;left:10px;z-index:2;background:#178087;color:#fff;border-radius:10px;
+      padding:8px 12px;font-size:13px;font-weight:700;line-height:1.05;text-align:center;
+      box-shadow:0 4px 12px rgba(0,0,0,.26)}
+.card h4{font-size:17px;font-weight:600;margin:0 0 6px;line-height:1.32;color:#22303a}
+.card .more{font-size:14px;font-weight:600;color:#178087;text-decoration:none}
+.rule{border:0;border-top:1px solid #eef1f2;margin:44px 0 0}
+.foot-note{font-size:13px;color:#9aa0a2;padding:22px 46px 30px}
+
+/* ---------- web-team block: OUTSIDE the frame, on the dark surround ---------- */
+.web{max-width:1120px;margin:26px auto 0;color:#dfe3e4}
+.web h5{font-size:16px;font-weight:700;color:#fff;margin:0 0 10px;letter-spacing:.01em}
+.web p{font-size:13.5px;line-height:1.65;color:#b9c0c2;margin:0 0 12px;max-width:88ch}
+.web strong{color:#e8ecec}
+/* pre-WRAP, not pre: with `pre` the long caption line ran off the right edge behind a
+   scrollbar, so the recipient couldn't see the code they're being asked to copy.
+   Wrapping here is purely visual — copied text keeps the original line breaks only. */
+.code{background:#0e1a26;color:#e6eef6;border-radius:10px;padding:22px 24px;margin:14px 0 14px;
+      font:13px/1.72 ui-monospace,SFMono-Regular,Menlo,monospace;
+      white-space:pre-wrap;overflow-wrap:anywhere}
+.code .c{color:#7fb2c9}
+.sig{font-size:12.5px;color:#8f9698;border-top:1px solid #4a5157;padding-top:18px;margin-top:22px}
+
+@media(max-width:760px){
+  .section{padding:24px 20px 32px}
+  .cards{grid-template-columns:1fr;gap:26px}
+  h1{font-size:26px}
+  h2{font-size:24px}
+  nav{gap:16px;padding:0 20px 16px}
+  .top{padding:16px 20px}
+  .util{padding:10px 20px;gap:14px}
+  .foot-note{padding:20px}
+}
+</style></head>
+<body>
+
+<div class="note">
+  VISTA PREVIA / MOCKUP — cómo se vería el bloque de <b>Málaga Live</b> sobre vuestros conciertos
+  (somosfuengirola.es). El logo es un enlace real: abre la agenda completa de Málaga Live,
+  en el idioma del visitante y con filtro por municipio. No se ha modificado nada en su web.
+</div>
+
+<div class="frame">
+
+  <div class="util">
+    <a href="#">Profesionales del turismo</a>
+    <a href="#">El blog de Fuengirola</a>
+    <a href="#">Estado de las playas</a>
+  </div>
+
+  <div class="top">
+    <img class="tlogo" src="https://www.somosfuengirola.es/includes/public/assets/shared/logos/fuengirola_logo.svg" alt="Fuengirola">
+    <div class="lang">Español <span class="ch">&#9662;</span></div>
+  </div>
+
+  <nav>
+    <a href="#">Descubre</a><a href="#">Qué hacer</a><a class="on" href="#">Agenda de eventos</a>
+    <a href="#">Dónde comer</a><a href="#">Alojamientos</a><a href="#">Planifica</a>
+  </nav>
+
+  <div class="section">
+    <div class="crumb">Inicio / Agenda de eventos / Conciertos en Fuengirola</div>
+
+    <h1>Conciertos únicos en Fuengirola: música en vivo frente el Mediterráneo</h1>
+
+    <div class="body">
+      <p>En <b>Fuengirola</b> la música no es un evento puntual, es parte del paisaje cotidiano. Cada verano,
+        <b>Marenostrum</b> convierte el entorno del Castillo Sohail en uno de los grandes escenarios de la Costa
+        del Sol, con el Mediterráneo de fondo y un cartel que combina pop, rock, flamenco y jazz para todos los
+        públicos. Sin embargo, <b>la ciudad late musicalmente mucho más allá de las grandes citas</b>: durante todo
+        el año, plazas y paseo marítimo acogen conciertos gratuitos al aire libre que solo requieren de las ganas
+        de pararse a escuchar.</p>
+      <p>Y en cualquier rincón del centro o del puerto, bares y locales de ocio organizan su propia
+        <b>programación de jazz, flamenco o sesiones acústicas</b>, esa música menos anunciada que conviene buscar
+        preguntando en la barra. Entre grandes nombres y noches improvisadas, en Fuengirola siempre hay un
+        concierto cerca.</p>
+    </div>
+
+    <!-- ============ THE PROPOSED LINE — the only Málaga Live on the page ============ -->
+    <div class="ml"><div class="mlrow">
+      <div class="capgroup">
+        <span class="cap">Con un solo clic, consulta nuestra agenda interactiva completa, en 8 idiomas, en:</span>
+        <div class="mlsub">(con búsqueda por fecha, evento y artista)</div>
+      </div>
+      <a class="mllink" href="https://malagalivepulse.com/es/" target="_blank" rel="noopener"><img
+        class="mllogo" src="https://malagalivepulse.com/assets/malaga-live-logo-es.png"
+        alt="Málaga Live — agenda de música en directo en Málaga y la Costa del Sol, en 8 idiomas"></a>
+    </div></div>
+    <!-- ============================ end of insertion ============================= -->
+
+    <p class="eyebrow">De Sting a Aitana</p>
+    <h2>Marenostrum Fuengirola 2026</h2>
+
+    <div class="cards">
+      <div class="card">
+        <div class="ph"><img alt="Chambao - Marenostrum Fuengirola 2026" src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_271,q_65,w_271/https://spaindmsmedia.newmindmedia.com/wsimgs/chambao_189173553.jpg"></div>
+        <div class="pill">SEP<br>06</div>
+        <h4>Chambao — Marenostrum Fuengirola 2026</h4>
+        <a class="more" href="#">Saber más →</a>
+      </div>
+      <div class="card">
+        <div class="ph"><img alt="Apulanta - Marenostrum Fuengirola 2026" src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_271,q_65,w_271/https://spaindmsmedia.newmindmedia.com/wsimgs/APULANTA-1080-x-1350-px_1949491969.jpg"></div>
+        <div class="pill">SEP<br>12</div>
+        <h4>Apulanta — Marenostrum Fuengirola 2026</h4>
+        <a class="more" href="#">Saber más →</a>
+      </div>
+      <div class="card">
+        <div class="ph"><img alt="Feria del Rosario" src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_271,q_65,w_271/https://spaindmsmedia.newmindmedia.com/wsimgs/feria-del-rosario.jpg"></div>
+        <div class="pill">OCT<br>06</div>
+        <h4>Feria del Rosario</h4>
+        <a class="more" href="#">Saber más →</a>
+      </div>
+    </div>
+
+    <hr class="rule">
+  </div>
+
+  <p class="foot-note">Maqueta ilustrativa. Textos, logotipo e imágenes de los eventos: © Ayuntamiento de
+    Fuengirola / promotores — reproducidos aquí únicamente para mostrar cómo quedaría la línea de enlace
+    en su propia página.</p>
+
+</div>
+
+<div class="web">
+  <h5>Para su equipo web — el código, listo para pegar</h5>
+  <p>Esto genera exactamente la línea que aparece arriba. Es HTML plano con estilos en línea:
+    <strong>sin JavaScript, sin dependencias externas y sin cookies</strong>, así que no hay nada que declarar
+    en su política de privacidad. Hereda la tipografía de la página. Cero mantenimiento por su parte: la agenda
+    se actualiza en nuestro lado, cada semana.</p>
+
+<div class="code"><span class="c">&lt;!-- Málaga Live · agenda colaboradora de música en directo --&gt;</span>
+&lt;div style="max-width:1040px;margin:30px auto 26px;padding:8px 30px;font-family:inherit;text-align:center"&gt;
+  &lt;div style="display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap"&gt;
+    &lt;div&gt;
+      &lt;div style="font-size:16px;font-weight:700;color:#2b2f33;line-height:1.35;max-width:34ch;margin:0 auto"&gt;Con un solo clic, consulta nuestra agenda interactiva completa, en 8 idiomas, en:&lt;/div&gt;
+      &lt;div style="font-size:13px;font-weight:600;color:#6a7075;margin-top:3px"&gt;(con búsqueda por fecha, evento y artista)&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a href="https://malagalivepulse.com/es/" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none"&gt;
+      &lt;img src="https://malagalivepulse.com/assets/malaga-live-logo-es.png"
+           alt="Málaga Live — agenda de música en directo en Málaga y la Costa del Sol, en 8 idiomas"
+           width="300" style="width:300px;max-width:100%;height:auto;display:block"&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</div>
+
+  <p><strong>Nota:</strong> el bloque usa estilos en línea, así que si su editor de contenido los elimina al
+    pegar, basta con insertarlo en un bloque de «HTML personalizado / código fuente». El portal está construido
+    sobre <strong>Simpleview</strong>, de modo que entra en cualquier bloque de contenido libre sin tocar
+    plantillas. El único elemento de ancho fijo es el logo, y lleva <code>max-width:100%</code>, así que el
+    bloque se adapta a cualquier ancho de columna sin desbordar en móvil.</p>
+
+  <p><strong>Versiones en otros idiomas.</strong> Su portal ya publica en alemán, inglés, francés y finés
+    (thisisfuengirola.org). Málaga Live publica en esos mismos idiomas, así que en cada edición el enlace puede
+    apuntar a la suya: <code>/en/</code>, <code>/de/</code>, <code>/fr/</code>, <code>/fi/</code>.</p>
+
+  <p class="sig">Málaga Live · malagalivepulse.com — guía independiente de música en directo en Málaga y la
+    Costa del Sol, publicada en ocho idiomas. Contacto: hello@malagalivepulse.com</p>
+</div>
+
+</body></html>
