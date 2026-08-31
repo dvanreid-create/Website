@@ -1,24 +1,24 @@
 {
- "generated": "2026-08-31",
+ "generated": "2026-09-01",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
    "mapped_in_window": 1,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 9,
+   "verdict": "ok"
   },
   "starlite": {
    "venue": "Starlite Occident",
    "mapped_in_window": 1,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 1,
+   "verdict": "ok"
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
    "mapped_in_window": 2,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 2,
+   "verdict": "ok"
   },
   "purolatino": {
    "venue": "Puro Latino Torremolinos",
@@ -40,15 +40,15 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "calendar_in_window": 22,
    "verdict": "ok"
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
    "mapped_in_window": 1,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 1,
+   "verdict": "ok"
   },
   "benalmadenacultura": {
    "venue": "Ayuntamiento de Benalmádena",
@@ -101,8 +101,8 @@
   "trinchera": {
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 3,
+   "verdict": "ok"
   },
   "me marbella": {
    "venue": "ME Marbella",
@@ -113,20 +113,20 @@
   "miramar": {
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
-   "calendar_in_window": 0,
-   "verdict": "STALE"
+   "calendar_in_window": 6,
+   "verdict": "ok"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
    "mapped_in_window": 5,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 2,
+   "verdict": "THIN"
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
    "mapped_in_window": 9,
-   "calendar_in_window": 0,
-   "verdict": "DARK"
+   "calendar_in_window": 4,
+   "verdict": "THIN"
   }
  },
  "problems": [
@@ -137,16 +137,10 @@
   "esteponacultura",
   "marbella arena",
   "marbellacultura",
-  "marenostrum",
   "me marbella",
   "mijascultura",
-  "miramar",
   "moonlight",
   "nerjacultura",
-  "operabenalmadena",
-  "purolatino",
-  "starlite",
-  "torremolinoscultura",
-  "trinchera"
+  "purolatino"
  ]
 }
