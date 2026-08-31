@@ -1,27 +1,27 @@
 {
- "generated": "2026-09-01",
+ "generated": "2026-08-31",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
    "mapped_in_window": 1,
-   "calendar_in_window": 9,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-18",
-   "verdict": "ok"
+   "verdict": "DARK"
   },
   "starlite": {
    "venue": "Starlite Occident",
    "mapped_in_window": 1,
-   "calendar_in_window": 1,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-03",
-   "verdict": "ENDING"
+   "verdict": "DARK"
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
    "mapped_in_window": 2,
-   "calendar_in_window": 2,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-12",
-   "verdict": "ok"
+   "verdict": "DARK"
   },
   "purolatino": {
    "venue": "Puro Latino Torremolinos",
@@ -46,17 +46,17 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 0,
-   "calendar_in_window": 22,
+   "mapped_in_window": 1,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-08-31",
-   "verdict": "STALE"
+   "verdict": "ENDING"
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
    "mapped_in_window": 1,
-   "calendar_in_window": 1,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-12",
-   "verdict": "ok"
+   "verdict": "DARK"
   },
   "benalmadenacultura": {
    "venue": "Ayuntamiento de Benalmádena",
@@ -117,9 +117,9 @@
   "trinchera": {
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
-   "calendar_in_window": 3,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-11-29",
-   "verdict": "ok"
+   "verdict": "DARK"
   },
   "me marbella": {
    "venue": "ME Marbella",
@@ -131,23 +131,23 @@
   "miramar": {
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
-   "calendar_in_window": 6,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-08-23",
    "verdict": "STALE"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
    "mapped_in_window": 5,
-   "calendar_in_window": 2,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-05",
-   "verdict": "THIN"
+   "verdict": "DARK"
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
    "mapped_in_window": 9,
-   "calendar_in_window": 4,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-30",
-   "verdict": "THIN"
+   "verdict": "DARK"
   }
  },
  "problems": [
@@ -157,12 +157,16 @@
   "clarence jazz club",
   "marbella arena",
   "marbellacultura",
+  "marenostrum",
   "me marbella",
   "mijascultura",
   "miramar",
   "nerjacultura",
+  "operabenalmadena",
   "purolatino",
   "starlite",
+  "torremolinoscultura",
+  "trinchera",
   "zz pub"
  ]
 }
