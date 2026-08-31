@@ -1,10 +1,7 @@
-=== tours_debug Mon Aug 31 02:51:39 PM UTC 2026 ===
-srchash=833bcd285e19630a14b5c39577834714
+=== tours_debug Mon Aug 31 02:55:25 PM UTC 2026 ===
+srchash=c1a62ed5469b617a0f2e8b4ca63e2e6f
 --- rebuild procs ---
-2939619 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-2939627 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-2939663 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-2939692 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
 HEAD is now at e2cfdb682a Tours rebuild 2026-08-31T05:33:14Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
@@ -25,3 +22,6 @@ HEAD is now at e2cfdb682a Tours rebuild 2026-08-31T05:33:14Z [vps]
 [bygo] gallery self-hosted images: 66 of 68
 Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   e2cfdb682a..acdc04811c  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)
