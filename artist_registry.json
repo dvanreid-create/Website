@@ -328,7 +328,7 @@
 "mles": 47.9
 },
 "asys-quartet": {
-"name": "Äsys Quartet",
+"name": "Asys Quartet",
 "mles": 48.1
 },
 "country-night": {
@@ -425,6 +425,14 @@
 },
 "legends-and-mysteries": {
 "name": "Legends and Mysteries",
+"mles": 0.0
+},
+"yuri-storione-quartet": {
+"name": "Yuri Storione Quartet",
+"mles": 0.0
+},
+"louis-ford-new-orleans-flairs-feat-carlos-childe": {
+"name": "Louis Ford New Orleans Flairs feat. Carlos Childe",
 "mles": 0.0
 }
 }

@@ -1187,10 +1187,95 @@
    "acts": {}
   },
   "clarence jazz club": {
-   "source": "https://www.clarencejazzclub.com/",
-   "complete": false,
+   "source": "https://www.clarencejazzclub.com/wp/programacion/",
+   "complete": true,
+   "gate": false,
    "note": "Clarence Jazz Club, Torremolinos. 200+ concerts/year; regular weekly format: Blues Jam Wed 22:00, Jazz Jam Thu 22:00, Simon Chivallon Trio Fri 22:00, Kalenidimia Fusion Jazz Sat 22:00. Walk-in friendly; no per-event deep ticket links available. Sweep events from this venue should link to website homepage. Added 2026-07-27. | 2026-08-25: added per-event permalinks for the two September ticketed cards (Jakob Dreyer 18 Sep, Asys Quartet 19 Sep). The old blanket 'link to the homepage/programacion' advice fails while the club is on its summer break: /wp/programacion/ opens on the CURRENT month and shows SIN EVENTOS. Clarence DOES publish per-event permalinks under /wp/events/<slug>/ - the earlier note that none exist is wrong. | 2026-08-28 (browser, Chrome sofia@): read the club's OWN calendar by clicking the next-month arrow on /wp/programacion/ (the ?mo=/?yr=, ?focus_month= and ?ev_month= query forms are all IGNORED - the month is only reachable by clicking, so there is NO month-addressable URL and urls_by_month cannot help here). SEPTIEMBRE 2026 reads: MIE 16 SEP Blues Jam Session 22:00, JUE 17 SEP Jazz Jam Session 22:00, VIE 18 SEP Jakob Dreyer, SAB 19 SEP Asys Quartet, MIE 23 SEP Blues Jam Session 22:00, JUE 24 SEP Jazz Jam Session, VIE 25 SEP Yuri Storione Quartet, SAB 26 SEP Louis Ford New Orleans Flairs, MIE 30 SEP Blues Jam. The club's own X post confirms the season restarts 16 September. PRICING, settled: Clarence sells NO per-night ticket online and publishes NO door price. Its shop (/wp/tienda/) carries only Bono Anual Zona A/B/C (1.200 / 900 / 600 EUR), Tarjeta Socio (80 EUR) and merch; no event page - jam OR named concert - has a WooCommerce add-to-cart or a price. So the older '10 EUR ticketed' note in the record is NOT supported by the club's own site: these nights are door-paid. The three jam cards currently render as Free with a 'Free info' button to /wp/programacion/, which is the right destination in substance and self-corrects on 1 Sep, but until then it opens on AGOSTO 2026 / SIN EVENTOS. WHY NO PER-NIGHT FIX IS SHIPPED HERE: _venue_lookup matches acts by NAME ONLY and ignores the entry's own 'date', and these acts repeat WEEKLY under identical names - one 'blues jam session' key would send BOTH 16 Sep and 23 Sep (and 30 Sep) to blues-jam-session-143, and one 'jazz jam session' key would send both 17 Sep and 24 Sep to jazz-jam-session-302. A wrong-date event page fails SILENTLY, which is the trade Sofia rejected on 2026-08-27 for the ZZ Pub wrong-month case, so no such key is added. The permalinks are recorded verbatim below and in verified_ticket_links.json (whose keys ARE date-scoped). Giving a weekly repeating act per-night links needs _venue_lookup to honour an entry's 'date' via the _map_ymd helper that already exists in build_site.py for the time correction - a GENERATOR change, which the click-test is scoped out of.",
    "acts": {
+    "_why_dated_keys": {
+     "_why": "PROMOTED FROM _nights_2026_09 ON 2026-08-31. These nine dated keys are the venue's whole September bill and they are here so backfill_calendar.py can INJECT them: on 2026-08-31 the live site carried ZERO Clarence events although the club's own calendar lists nine, because the only path in was clarence_scrape.py inside the weekly generate.sh — and that reads /wp/programacion/, which opens on the CURRENT month and read 'SIN EVENTOS' all August while the club was on its summer break, so it returned nothing and failed soft, silently, every week. A complete:true block plus a WHITELIST line in backfill_calendar.py makes the bill deterministic instead. The date tail on each key was previously unusable ('REFERENCE ONLY - deliberately NOT under acts') because _venue_lookup was date-blind and would have sent every Blues Jam night to the 16 Sep page; _venue_lookup now prefers an entry whose own 'date' equals the row's date (build_site.py, 2026-08-31), so each night routes to its own permalink. All nine permalinks were browser-verified 2026-08-28 and each renders its own date and 22:00 start. gate:false is deliberate: this list is one month of a 200-concerts-a-year room, so it must never be treated as authority to delete a Clarence show it does not name. paid_free 'Paid' + price 'Check venue' matches clarence_scrape.py's own convention — the club sells no per-night ticket online and publishes no door price, so quoting one would be inventing it. TO MAINTAIN: add next month's nights here (or let clarence_scrape do it now that the page shows a month with events); the coverage check in Tools/agent/venue_coverage_check.py shouts if this venue ever falls back to zero."
+    },
+    "blues jam session 16/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-143/",
+     "date": "16/09/2026",
+     "time": "22:00",
+     "venue_name": "Blues Jam Session",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "jazz jam session 17/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-302/",
+     "date": "17/09/2026",
+     "time": "22:00",
+     "venue_name": "Jazz Jam Session",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "jakob dreyer project feat roman filiu 18/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/jakob-dreyer-quartet/",
+     "date": "18/09/2026",
+     "time": "22:00",
+     "venue_name": "Jakob Dreyer Project feat. Román Filiú",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "asys quartet 19/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/asys-quartet/",
+     "date": "19/09/2026",
+     "time": "22:00",
+     "venue_name": "Asys Quartet",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "blues jam session 23/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-144/",
+     "date": "23/09/2026",
+     "time": "22:00",
+     "venue_name": "Blues Jam Session",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "jazz jam session 24/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/jazz-jam-session-303/",
+     "date": "24/09/2026",
+     "time": "22:00",
+     "venue_name": "Jazz Jam Session",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "yuri storione quartet 25/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/yuri-storione-quartet/",
+     "date": "25/09/2026",
+     "time": "22:00",
+     "venue_name": "Yuri Storione Quartet",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "louis ford new orleans flairs feat carlos childe 26/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/louis-ford-new-orleans-flairs-feat-carlos-childe/",
+     "date": "26/09/2026",
+     "time": "22:00",
+     "venue_name": "Louis Ford New Orleans Flairs feat. Carlos Childe",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
+    "blues jam session 30/09/2026": {
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-145/",
+     "date": "30/09/2026",
+     "time": "22:00",
+     "venue_name": "Blues Jam Session",
+     "genre": "Jazz & Soul",
+     "paid_free": "Paid",
+     "price": "Check venue"
+    },
     "jakob dreyer project feat roman filiu": {
      "url": "https://www.clarencejazzclub.com/wp/events/jakob-dreyer-quartet/",
      "why": "Browser-verified 2026-08-25. The live site sent both September Clarence cards to https://www.clarencejazzclub.com/wp/programacion/, which opens on the CURRENT month — August 2026 — and reads 'SIN EVENTOS' (the club is on holiday until 16 Sep), so a reader clicking through saw an empty page with no sign of the show. Clicking SEPTIEMBRE reveals 'VIE 18 SEP JAKOB DREYER PROJECT FEAT ROMAN FILIU, HORARIO 22:00'; its own permalink is this URL and it renders the event with its date. _is_deep() already treats a '/programacion/' URL as a listing, so venue_resolve upgrades it without needing a prefer flag. complete:false on this block, so it can never phantom-drop."

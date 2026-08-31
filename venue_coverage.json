@@ -1,0 +1,152 @@
+{
+ "generated": "2026-08-31",
+ "window_days": 30,
+ "venues": {
+  "operabenalmadena": {
+   "venue": "Auditorio Municipal de Benalmádena",
+   "mapped_in_window": 1,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "starlite": {
+   "venue": "Starlite Occident",
+   "mapped_in_window": 1,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "marenostrum": {
+   "venue": "Marenostrum Castle Park",
+   "mapped_in_window": 2,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "purolatino": {
+   "venue": "Puro Latino Torremolinos",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "moonlight": {
+   "venue": "Málaga Forum",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "101musicfestival": {
+   "venue": "Plaza de Toros La Malagueta",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "zz pub": {
+   "venue": "ZZ PUB",
+   "mapped_in_window": 1,
+   "calendar_in_window": 1,
+   "verdict": "ok"
+  },
+  "torremolinoscultura": {
+   "venue": "Plaza de Toros de Torremolinos",
+   "mapped_in_window": 1,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "benalmadenacultura": {
+   "venue": "Ayuntamiento de Benalmádena",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "mijascultura": {
+   "venue": "Ayuntamiento de Mijas",
+   "mapped_in_window": 1,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "malagacultura": {
+   "venue": "Ayuntamiento de Málaga — Cultura",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "ok"
+  },
+  "marbellacultura": {
+   "venue": "Ayuntamiento de Marbella — Cultura",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "fuengirolacultura": {
+   "venue": "Ayuntamiento de Fuengirola — Cultura",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "ok"
+  },
+  "esteponacultura": {
+   "venue": "Ayuntamiento de Estepona — Cultura",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "nerjacultura": {
+   "venue": "Ayuntamiento de Nerja — Cultura",
+   "mapped_in_window": 1,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "alhaurincultura": {
+   "venue": "Ayuntamiento de Alhaurín de la Torre — Cultura",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "trinchera": {
+   "venue": "Sala La Trinchera",
+   "mapped_in_window": 2,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "me marbella": {
+   "venue": "ME Marbella",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "miramar": {
+   "venue": "Salón Real del Gran Hotel Miramar",
+   "mapped_in_window": 0,
+   "calendar_in_window": 0,
+   "verdict": "STALE"
+  },
+  "marbella arena": {
+   "venue": "Marbella Arena",
+   "mapped_in_window": 5,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  },
+  "clarence jazz club": {
+   "venue": "Clarence Jazz Club",
+   "mapped_in_window": 9,
+   "calendar_in_window": 0,
+   "verdict": "DARK"
+  }
+ },
+ "problems": [
+  "101musicfestival",
+  "alhaurincultura",
+  "benalmadenacultura",
+  "clarence jazz club",
+  "esteponacultura",
+  "marbella arena",
+  "marbellacultura",
+  "marenostrum",
+  "me marbella",
+  "mijascultura",
+  "miramar",
+  "moonlight",
+  "nerjacultura",
+  "operabenalmadena",
+  "purolatino",
+  "starlite",
+  "torremolinoscultura",
+  "trinchera"
+ ]
+}
