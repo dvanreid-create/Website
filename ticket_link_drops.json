@@ -1,8 +1,5 @@
 {
- "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-08-31",
- "drops": {
-  "Premios Juventud (feat. Marc Anthony, Christian Nodal, Wisin y Yandel)": "WRONG_EVENT — page 'Tickets para Yandel Sinfónico | Tickex Experience SL' has none of ['premios', 'juventud', 'feat']",
-  "Sofía Ellar": "WRONG_EVENT — page 'Sala La Trinchera, Málaga | Programación y Venta de Entradas' has none of ['sofia', 'ellar']"
- }
+ "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies. THIS REPO COPY IS A ONE-SHOT REPAIR SEED, NOT THE LIVE LIST: ops_sync.sh excludes this filename from the normal Website rsync (the box owns it) and copies this file over the box's only while the box still holds the stale 2026-08-19 file that wrongly dropped six real events. Empty on purpose - as of the 2026-08-19 browser pass every ticketed event on the live site reaches a valid buying page, so the truthful drop list is empty.",
+ "generated": "2026-08-19",
+ "drops": {}
 }
