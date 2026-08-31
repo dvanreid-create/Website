@@ -1,0 +1,40 @@
+=== tours_debug Mon Aug 31 12:51:23 AM UTC 2026 ===
+srchash=833bcd285e19630a14b5c39577834714
+--- rebuild procs ---
+none
+--- tours_rebuild.log (tail 80) ---
+HEAD is now at 8c7ca571f9 Tours rebuild 2026-08-31T00:16:18Z [vps]
+[tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
+[tours_copy] copy cache up to date
+[tours_titles] title cache up to date
+/app/runtime/Tools/agent/build_tours.py:1958: SyntaxWarning: invalid escape sequence '\B'
+  </html>"""
+/app/runtime/Tools/agent/build_tours.py:1958: SyntaxWarning: invalid escape sequence '\d'
+  </html>"""
+[guides] guide cache up to date (24 topics)
+[hotels-i18n] cache up to date (187 strings)
+[ttk-i18n] cache up to date (86 strings)
+/app/runtime/Tools/agent/build_tours.py:1958: SyntaxWarning: invalid escape sequence '\B'
+  </html>"""
+/app/runtime/Tools/agent/build_tours.py:1958: SyntaxWarning: invalid escape sequence '\d'
+  </html>"""
+[paco] seasonal couple image -> summer
+[bygo] keep hotlink (download failed): 960px-Calesa_en_la_feria_de_Malaga_%281353978599%29.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Flameco_dancers_in_the_streets_of_M%C3%A1laga%2C_Andalusia%2C_Spain%2C_Southeastern_Europe.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Montse_Cortes_en_Malaga_en_Flamenco_%2823_de_agosto_de_2007%29.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Flamenco_dancing_in_the_bandstand_-_Mijas_%2814541873291%29.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Rosary_procession_Malaga%2C_Spain_-_Procesi%C3%B3n_Virgen_del_Rosario.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Procesi%C3%B3n_M%C3%A1laga_Semana_Santa.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Mercado_de_Atarazanas_%2832157402205%29.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Mercado_de_Atarazanas_%2831782453480%29.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Tapas_en_El_Pimpi.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Casa_Mira_in_Marqu%C3%A9s_de_Larios_Street.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Martonela_Ice_Cream_Shop.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-Fuengirola_harbour.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] keep hotlink (download failed): 960px-M%C3%A1laga_-_Paseo_del_Muelle_Uno_1.jpg HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)
+[bygo] gallery self-hosted images: 53 of 68
+Built 8 languages · 184 landing pages · 1032 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1032 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   8c7ca571f9..c9b16f7d20  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)
