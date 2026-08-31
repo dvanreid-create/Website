@@ -164,7 +164,7 @@
 "mles": 43.9
 },
 "soul-on-fire": {
-"name": "SOUL ON FIRE",
+"name": "Soul on Fire",
 "mles": 47.3
 },
 "sun-thunder-26": {
@@ -177,7 +177,7 @@
 },
 "damian-cordoba": {
 "name": "Damian Cordoba",
-"mles": 41.7
+"mles": 47.7
 },
 "thomas-helmig": {
 "name": "Thomas Helmig",
@@ -233,11 +233,11 @@
 },
 "apulanta": {
 "name": "Apulanta",
-"mles": 43.9
+"mles": 41.8
 },
 "china-crisis": {
 "name": "China Crisis",
-"mles": 42.1
+"mles": 38.5
 },
 "emanero-tour-2026-in-malaga": {
 "name": "EMANERO TOUR 2026 in Malaga",
@@ -265,7 +265,7 @@
 },
 "la-creedance": {
 "name": "La Creedance",
-"mles": 0.0
+"mles": 51.6
 },
 "alejandro-hurtado-e-inmaculada-salomon": {
 "name": "Alejandro Hurtado e Inmaculada Salomón",
@@ -285,7 +285,7 @@
 },
 "el-kuelgue": {
 "name": "El Kuelgue",
-"mles": 43.4
+"mles": 42.2
 },
 "el-amir": {
 "name": "El Amir",
@@ -338,5 +338,85 @@
 "premios-juventud": {
 "name": "Premios Juventud",
 "mles": 0.0
+},
+"manuel-carrasco": {
+"name": "Manuel Carrasco",
+"mles": 70.3
+},
+"fauces": {
+"name": "Fauces",
+"mles": 0.0
+},
+"wisin": {
+"name": "Wisin",
+"mles": 0.0
+},
+"sara-hebe": {
+"name": "Sara Hebe",
+"mles": 0.0
+},
+"blanca-paloma": {
+"name": "Blanca Paloma",
+"mles": 41.9
+},
+"apartamentos-acapulco": {
+"name": "Apartamentos Acapulco",
+"mles": 49.3
+},
+"sandra-groove": {
+"name": "Sandra Groove",
+"mles": 47.3
+},
+"fraderita": {
+"name": "Fraderita",
+"mles": 44.7
+},
+"idaira-siles": {
+"name": "Idaira Siles",
+"mles": 50.1
+},
+"andres-koi": {
+"name": "Andrés Koi",
+"mles": 52.9
+},
+"the-britpop-authority": {
+"name": "The Britpop Authority",
+"mles": 45.9
+},
+"bm-callejero-fino": {
+"name": "BM & Callejero Fino",
+"mles": 47.9
+},
+"ciro-y-los-persas": {
+"name": "Ciro y Los Persas",
+"mles": 49.4
+},
+"la-ultima-fila": {
+"name": "La Última Fila",
+"mles": 53.9
+},
+"sheila-paz": {
+"name": "Sheila Paz",
+"mles": 50.1
+},
+"wasabi-cru": {
+"name": "Wasabi Cru",
+"mles": 48.1
+},
+"migueli": {
+"name": "Migueli",
+"mles": 56.1
+},
+"raimundo-amador": {
+"name": "Raimundo Amador",
+"mles": 47.1
+},
+"south-funk": {
+"name": "South Funk",
+"mles": 47.3
+},
+"ocean-colour-scene": {
+"name": "Ocean Colour Scene",
+"mles": 53.2
 }
 }

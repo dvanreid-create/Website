@@ -27,7 +27,7 @@
     "da": "søn 11 okt · Teatro Cervantes · Málaga",
     "fi": "su 11 lokak. · Teatro Cervantes · Málaga"
    },
-   "url": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/concierto-de-malu-en-malaga",
+   "url": "https://www.teatrocervantes.com/es/programacion/teatro-cervantes/",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -79,6 +79,43 @@
    },
    "credit": {
     "en": "Photo: Alterna2 · CC BY 2.0"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-3286a1d52705bdeb.jpg",
+   "tint": "rgba(232,102,42,.42)",
+   "expires": "2026-09-04",
+   "tag": {
+    "en": "★ Top pick this week",
+    "es": "★ Top de la semana",
+    "de": "★ Top-Tipp der Woche",
+    "fr": "★ Coup de cœur",
+    "sv": "★ Veckans tips",
+    "no": "★ Ukens tips",
+    "da": "★ Ugens tip",
+    "fi": "★ Viikon valinta"
+   },
+   "head": "Manuel Carrasco",
+   "sub": {
+    "en": "Fri 4 Sep · Starlite Marbella",
+    "es": "Vie 4 sep · Starlite Marbella",
+    "de": "Fr 4 Sep · Starlite Marbella",
+    "fr": "ven. 4 sept. · Starlite Marbella",
+    "sv": "fre 4 sep · Starlite Marbella",
+    "no": "fre 4 sep · Starlite Marbella",
+    "da": "fre 4 sep · Starlite Marbella",
+    "fi": "pe 4 syysk. · Starlite Marbella"
+   },
+   "url": "https://entradas.starlitemarbella.com/event/manuel-carrasco-ri3ia2",
+   "cta": {
+    "en": "Tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
    }
   },
   {
@@ -397,14 +434,14 @@
    "headBottom": true,
    "expires": "2026-09-05",
    "sub": {
-    "en": "Sat 5 Sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 5 sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 5 Sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 5 sept. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 5 sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 5 sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 5 sep · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 5 syysk. · Salón Real del Gran Hotel Miramar · Málaga"
+    "en": "Sat 5 Sep · Hotel Miramar · Málaga",
+    "es": "Sáb 5 sep · Hotel Miramar · Málaga",
+    "de": "Sa 5 Sep · Hotel Miramar · Málaga",
+    "fr": "sam. 5 sept. · Hotel Miramar · Málaga",
+    "sv": "lör 5 sep · Hotel Miramar · Málaga",
+    "no": "lør 5 sep · Hotel Miramar · Málaga",
+    "da": "lør 5 sep · Hotel Miramar · Málaga",
+    "fi": "la 5 syysk. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=621145&u=https%3A%2F%2Ffeverup.com%2Fm%2F621145&intsrc=CATF_15532",
    "cta": {
