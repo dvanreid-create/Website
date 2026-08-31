@@ -341,6 +341,7 @@
     },
     "thomas helmig 04/09/2026": {
      "url": "https://www.ticketmaster.dk/event/thomas-helmig-malaga-billetter/1162665300",
+     "prefer": "map",
      "date": "04/09/2026",
      "time": "21:30",
      "venue_name": "Thomas Helmig",
@@ -349,6 +350,7 @@
     },
     "thomas helmig 05/09/2026": {
      "url": "https://www.ticketmaster.dk/event/thomas-helmig-malaga-billetter/281256954",
+     "prefer": "map",
      "date": "05/09/2026",
      "time": "21:30",
      "venue_name": "Thomas Helmig",
@@ -362,7 +364,7 @@
      "time": "21:30",
      "venue_name": "Thomas Helmig",
      "genre": "Pop",
-     "why": "ADDED 2026-08-24 browser pass. The existing keys 'thomas helmig 04/09/2026' / '05/09/2026' can NEVER match: _venue_lookup requires the map key's word set to be a SUBSET of the act's words, and the act on the site is just 'Thomas Helmig', so the date tail blocks every lookup. Result: the live 4 Sep card was shipping the 5 Sep Ticketmaster event id (281256954). prefer:'eci' because that wrong link is _is_deep(), so the plain upgrade path refuses to touch it. BROWSER-CONFIRMED 2026-08-24: .../1162665300 = 'Thomas Helmig Malaga Fri, 4 Sept 2026, 21.30, Marbella Arena'."
+     "why": "ADDED 2026-08-24 browser pass. The existing keys 'thomas helmig 04/09/2026' / '05/09/2026' can NEVER match: _venue_lookup requires the map key's word set to be a SUBSET of the act's words, and the act on the site is just 'Thomas Helmig', so the date tail blocks every lookup. Result: the live 4 Sep card was shipping the 5 Sep Ticketmaster event id (281256954). prefer:'eci' because that wrong link is _is_deep(), so the plain upgrade path refuses to touch it. BROWSER-CONFIRMED 2026-08-24: .../1162665300 = 'Thomas Helmig Malaga Fri, 4 Sept 2026, 21.30, Marbella Arena'. | 2026-08-31: THIS UNDATED KEY IS NOW THE FALLBACK, NOT THE ROUTE. Fixing the 4 Sep card this way broke the other night: the act on BOTH cards is just 'Thomas Helmig', so this one key answered for 5 Sep too and sent that card to the 4 Sep page (1162665300). _venue_lookup now takes an entry whose 'date' equals the row's own date when one exists, so the per-night keys above finally fire and each card gets its own event id; both were re-confirmed in Chrome 2026-08-31 (1162665300 = 'Fri, 4 Sept 2026, 21.30', 281256954 = 'Sat, 5 Sept 2026, 21.30', both Marbella Arena, both official TM pages). Keep this entry: it still answers if a row arrives with no usable date. NOTE for whoever checks next: on 2026-08-31 BOTH official pages read 'Tickets are currently unavailable from Ticketmaster' — that is TM's own inventory state on a Danish-market package run, not a bad link, and it is the same on both nights. Ticketmaster.es lists both concerts and both bus transfers and hands you straight back to these same .dk ids, El Corte Ingles has no Thomas Helmig at all, entradas.com has none, and tomaticket's Marbella Arena page does not carry him — everything else that sells these nights is resale. So the official per-date page stays the destination; do NOT swap it for a marketplace."
     },
     "thomas helmig 2a noche": {
      "prefer": "eci",
