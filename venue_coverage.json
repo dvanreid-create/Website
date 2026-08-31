@@ -6,126 +6,147 @@
    "venue": "Auditorio Municipal de Benalmádena",
    "mapped_in_window": 1,
    "calendar_in_window": 9,
+   "latest_mapped": "2026-09-18",
    "verdict": "ok"
   },
   "starlite": {
    "venue": "Starlite Occident",
    "mapped_in_window": 1,
    "calendar_in_window": 1,
-   "verdict": "ok"
+   "latest_mapped": "2026-09-03",
+   "verdict": "ENDING"
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
    "mapped_in_window": 2,
    "calendar_in_window": 2,
+   "latest_mapped": "2026-09-12",
    "verdict": "ok"
   },
   "purolatino": {
    "venue": "Puro Latino Torremolinos",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-07-18",
    "verdict": "STALE"
   },
   "moonlight": {
    "venue": "Málaga Forum",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
-   "verdict": "STALE"
+   "latest_mapped": "2027-02-06",
+   "verdict": "ok"
   },
   "101musicfestival": {
    "venue": "Plaza de Toros La Malagueta",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-07-31",
    "verdict": "STALE"
   },
   "zz pub": {
    "venue": "ZZ PUB",
    "mapped_in_window": 0,
    "calendar_in_window": 22,
-   "verdict": "ok"
+   "latest_mapped": "2026-08-31",
+   "verdict": "STALE"
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
    "mapped_in_window": 1,
    "calendar_in_window": 1,
+   "latest_mapped": "2026-09-12",
    "verdict": "ok"
   },
   "benalmadenacultura": {
    "venue": "Ayuntamiento de Benalmádena",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-08-11",
    "verdict": "STALE"
   },
   "mijascultura": {
    "venue": "Ayuntamiento de Mijas",
    "mapped_in_window": 1,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-09-02",
    "verdict": "DARK"
   },
   "malagacultura": {
    "venue": "Ayuntamiento de Málaga — Cultura",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
-   "verdict": "ok"
+   "latest_mapped": null,
+   "verdict": "unmapped"
   },
   "marbellacultura": {
    "venue": "Ayuntamiento de Marbella — Cultura",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-08-20",
    "verdict": "STALE"
   },
   "fuengirolacultura": {
    "venue": "Ayuntamiento de Fuengirola — Cultura",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
-   "verdict": "ok"
+   "latest_mapped": null,
+   "verdict": "unmapped"
   },
   "esteponacultura": {
    "venue": "Ayuntamiento de Estepona — Cultura",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
-   "verdict": "STALE"
+   "latest_mapped": null,
+   "verdict": "unmapped"
   },
   "nerjacultura": {
    "venue": "Ayuntamiento de Nerja — Cultura",
    "mapped_in_window": 1,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-09-14",
    "verdict": "DARK"
   },
   "alhaurincultura": {
    "venue": "Ayuntamiento de Alhaurín de la Torre — Cultura",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-08-25",
    "verdict": "STALE"
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
    "calendar_in_window": 3,
+   "latest_mapped": "2026-11-29",
    "verdict": "ok"
   },
   "me marbella": {
    "venue": "ME Marbella",
    "mapped_in_window": 0,
    "calendar_in_window": 0,
+   "latest_mapped": "2026-08-27",
    "verdict": "STALE"
   },
   "miramar": {
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
    "calendar_in_window": 6,
-   "verdict": "ok"
+   "latest_mapped": "2026-08-23",
+   "verdict": "STALE"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
    "mapped_in_window": 5,
    "calendar_in_window": 2,
+   "latest_mapped": "2026-09-05",
    "verdict": "THIN"
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
    "mapped_in_window": 9,
    "calendar_in_window": 4,
+   "latest_mapped": "2026-09-30",
    "verdict": "THIN"
   }
  },
@@ -134,13 +155,14 @@
   "alhaurincultura",
   "benalmadenacultura",
   "clarence jazz club",
-  "esteponacultura",
   "marbella arena",
   "marbellacultura",
   "me marbella",
   "mijascultura",
-  "moonlight",
+  "miramar",
   "nerjacultura",
-  "purolatino"
+  "purolatino",
+  "starlite",
+  "zz pub"
  ]
 }
