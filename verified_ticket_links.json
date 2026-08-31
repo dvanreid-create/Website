@@ -1720,6 +1720,45 @@
    "via": "browser",
    "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present."
   },
+  "premios juventud feat marc anthony christian nodal wisin y yandel|2026-09-03": {
+   "act": "Premios Juventud (feat. Marc Anthony, Christian Nodal, Wisin y Yandel)",
+   "date": "2026-09-03",
+   "url": "https://www.entradas.com/en/event/starlite-festival-2026-premios-juventud-starlite-marbella-2026-starlite-marbella-22049017/",
+   "expect": [
+    "premios",
+    "juventud",
+    "starlite"
+   ],
+   "verified": "2026-08-31",
+   "via": "browser",
+   "note": "SECOND KEY FOR THE SAME NIGHT, added 2026-08-31, and this is the entry that actually fixes it. The night was dropped again overnight as 'link goes to a different event' while the short key below sat right there — because the baseline is looked up as norm(act)|date and the CALENDAR spells the act with its billing, 'Premios Juventud (feat. Marc Anthony, Christian Nodal, Wisin y Yandel)', which normalises to this long key and matched nothing. With no baseline row the run fell back to expect=['premios','juventud','feat'] AND lost its baseline_url, so the OK_BASELINE branch could not fire either; entradas.com answers a bot by landing on the grouped 'Starlite Festival 2026 in Marbella, 03/09/2026 22:00' date-overview title, which carries none of those three tokens. This key restores both protections: 'starlite' is in that title, so the 200-path passes, and baseline_url is present, so a 403 passes too. Same spelling trap as S.O.P.H.I.E #6/#7. RE-CONFIRMED IN CHROME 2026-08-31: the url below opens 'Premios Juventud - Starlite Marbella 2026', Thursday 03/09/2026 22:00, Marbella | Starlite Marbella, seat map + Best-seat picker, 119.00 / 139.00 / 238.00 EUR, not sold out."
+  },
+  "sofia ellar|2026-09-25": {
+   "act": "Sofía Ellar",
+   "date": "2026-09-25",
+   "url": "https://www.tomaticket.es/es-es/entradas-sofia-ellar-en-malaga",
+   "expect": [
+    "sofia",
+    "ellar",
+    "malaga"
+   ],
+   "verified": "2026-08-31",
+   "via": "browser",
+   "note": "BROWSER-CONFIRMED 2026-08-31 (Chrome): tomaticket.es shows 'Sofia Ellar en Málaga', 25/09/2026, Sala Trinchera, C. Parauta 25, 29006 Málaga, 'Viernes 25 de Septiembre de 2026', live 'COMPRAR ENTRADAS - DESDE: 27,50 €'. Replaces the link that had her dropped as 'goes to a different event'. No PAYING seller has this night: entradas.com search 'sofia ellar' returns no Málaga date, El Corte Inglés lists only Fuengirola and Sevilla, and mutick (the venue's usual ticketer, which is what the auto-refreshed 'trinchera' map block is built from) does not sell her at all — which is why the routing lives in the hand-maintained 'la trinchera' block instead."
+  },
+  "andres koi|2026-09-19": {
+   "act": "Andrés Koi",
+   "date": "2026-09-19",
+   "url": "https://doitproduction.es/etn/andres-koi-malaga/",
+   "expect": [
+    "andres",
+    "koi",
+    "malaga"
+   ],
+   "verified": "2026-08-31",
+   "via": "browser",
+   "note": "BROWSER-CONFIRMED 2026-08-31 (Chrome): doitproduction.es — the promoter dOit! Production's own shop, credited on the gig poster as 'ENTRADAS EN dOit!' — sells 'Andrés Koi Málaga, 19 de septiembre de 2026, Sala Marte', GENERAL 25,00 EUR / Golden Ticket 50,00 EUR, quantity steppers and a 'Conseguir entradas' button, 'Precios con gastos de gestión ya incluidos'. This REPLACES ticketle.es/…/event/718150, which the site had been shipping: ticketle is a RESALE aggregator ('sold by our partner sellers', 'StubHub · from 130 €') at 5x the 25 EUR face, which the 'No Fees or Markups' promise forbids. The nightly verdict on it was HOST_REFUSED_US, which is in NEVER_DROP, so the resale link would have stayed live indefinitely without this. No paying seller has the night (ECI 0 results; entradas.com's Sala Marte venue page holds only VOLAVENT 06/02/2027 and LEVITANTS 12/02/2027; wegow 404; tomaticket no Málaga date)."
+  },
   "premios juventud|2026-09-03": {
    "act": "Premios Juventud - Starlite Marbella 2026",
    "date": "2026-09-03",
@@ -1729,7 +1768,7 @@
     "juventud",
     "starlite"
    ],
-   "verified": "2026-08-30",
+   "verified": "2026-08-31",
    "via": "browser"
   }
  },
