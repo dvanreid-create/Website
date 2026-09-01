@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by fever_scrape.py each sweep; read by build_site.py's fever_unbuyable() gate. {sku:[buyable ISO dates]}, []=off sale.",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "buyable": {
     "266775": [],
     "405945": [],
@@ -165,6 +165,8 @@
     ],
     "141849": [],
     "141791": [],
-    "428543": []
+    "428543": [
+      "2026-09-11"
+    ]
   }
 }
