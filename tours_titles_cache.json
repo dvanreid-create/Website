@@ -10101,16 +10101,16 @@
     }
   },
   "viator:5669043P1": {
-    "h": "4cf959452f15a93574aac9f3deac6d3e",
+    "h": "2ed0bd91f3aec1b2fc479b71b8499da1",
     "names": {
-      "en": "Explore Málaga with a Self-Guided City Game",
-      "es": "Descubre Málaga con un Juego Urbano Autoguiado",
-      "de": "Entdecken Sie Málaga mit einem selbstgeführten Stadtspiel",
-      "fr": "Explorez Malaga avec un jeu de piste urbain autoguidé",
-      "sv": "Utforska Málaga med ett självguidat stadsspel",
-      "no": "Utforsk Málaga med et selvguidet byspill",
-      "da": "Oplev Málaga med et selvguidet byspil",
-      "fi": "Tutustu Malagaan itseohjautuvalla kaupunkipelillä"
+      "en": "Discover Hidden Málaga: Self-Guided City Game",
+      "es": "Descubre la Málaga Oculta: Juego Urbano Autoguiado",
+      "de": "Entdecke das verborgene Málaga: Selbstgeführtes Stadtspiel",
+      "fr": "Découvrez Málaga secrète : jeu urbain en autonomie",
+      "sv": "Upptäck det dolda Málaga: Guidat stadsspel på egen hand",
+      "no": "Oppdag skjulte Málaga: Selvguidet byspill",
+      "da": "Discover Skjulte Málaga: Selvguidet Byspil",
+      "fi": "Löydä piilotettu Málaga: Itseohjattu kaupunkipeli"
     }
   },
   "viator:5571815P6": {
@@ -15600,16 +15600,16 @@
     }
   },
   "viator:5624152P29": {
-    "h": "024c75735151d9c786baffdc179f82f7",
+    "h": "8842b7a5e895ea7fded4de114cbb7ab1",
     "names": {
-      "en": "Gibralfaro Castle Ticket and Self-Guided Tour created by Guide",
-      "es": "Entrada al Castillo de Gibralfaro y visita autoguiada creada por Guide",
-      "de": "Gibralfaro-Burg: Eintrittskarte und selbstgeführte Tour",
-      "fr": "Billet pour le château de Gibralfaro et visite autoguidée créée par un guide",
-      "sv": "Biljett till Gibralfaroslottet och självguidad tur skapad av Guide",
-      "no": "Inngangsbillett til Gibralfaro-borgen og selvguidet omvisning",
-      "da": "Gibralfaro-slottet: Billet og selvguidet tur oprettet af guide",
-      "fi": "Gibralfaron linnan pääsylippu ja itseoppaistettu kierros"
+      "en": "Gibralfaro Castle: Ticket and Self-Guided Tour created by Guide",
+      "es": "Castillo de Gibralfaro: Entrada y Visita Autoguiada creada por Guide",
+      "de": "Burg Gibralfaro: Ticket und selbstgeführte Tour",
+      "fr": "Château de Gibralfaro : billet et visite autoguidée créée par un guide",
+      "sv": "Gibralfaro-slottet: Biljett och egenguidad rundtur skapad av Guide",
+      "no": "Gibralfaro-slottet: Billett og selvguidet omvisning laget av guide",
+      "da": "Gibralfaro Slot: Billet og Selvguidet Tur skabt af Guide",
+      "fi": "Gibralfaron linna: Lippu ja itseohjattu opastettu kierros"
     }
   }
 }

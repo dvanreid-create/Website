@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-08-31",
-  "count": 106,
+  "generated": "2026-09-01",
+  "count": 105,
   "items": [
     {
       "sku": "194665",
@@ -136,7 +136,7 @@
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €26",
+      "p": "From €29",
       "img": "4191b6ba-677d-11ee-b225-565e2e982434",
       "url": "https://feverup.com/m/141812/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141812&u=https%3A%2F%2Ffeverup.com%2Fm%2F141812&intsrc=CATF_15532",
@@ -276,7 +276,7 @@
       "cat": "Day Trip",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €30",
+      "p": "From €32",
       "img": "531fdf88-8430-11f1-b537-720cfdd8a8d0.jpeg",
       "url": "https://feverup.com/m/693797/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693797&u=https%3A%2F%2Ffeverup.com%2Fm%2F693797&intsrc=CATF_15532",
@@ -369,7 +369,7 @@
     },
     {
       "sku": "534149",
-      "n": "Creative Ceramics Tickets in Malaga",
+      "n": "Creative Ceramics at Bspark Málaga",
       "c": "tours",
       "cat": "Experience",
       "v": "",
@@ -379,7 +379,7 @@
       "url": "https://feverup.com/m/534149/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=534149&u=https%3A%2F%2Ffeverup.com%2Fm%2F534149&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Enjoy a creative ceramics session in Malaga with unlimited wine. Learn basic techniques and create your own piece. Get your tickets today!"
+      "d": "A guided pottery session in Málaga where you can create your own piece from scratch, with unlimited wine, clay included and no prior experience required. Get your tickets now!"
     },
     {
       "sku": "739246",
@@ -506,20 +506,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=432252&u=https%3A%2F%2Ffeverup.com%2Fm%2F432252&intsrc=CATF_15532",
       "feat": 0,
       "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
-    },
-    {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
     },
     {
       "sku": "89659",
@@ -780,7 +766,7 @@
       "cat": "Day Trip",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €10.80",
+      "p": "From €12",
       "img": "7d0a1c66-7619-11f1-b528-769286b6242f.jpeg",
       "url": "https://feverup.com/m/678292/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=678292&u=https%3A%2F%2Ffeverup.com%2Fm%2F678292&intsrc=CATF_15532",
@@ -1208,6 +1194,20 @@
       "d": "Experience a day of wellness and gastronomy at La Zambra Resort Mijas with spa, wine tasting and dinner included. Relax and taste in one plan, Get your tickets today!"
     },
     {
+      "sku": "503719",
+      "n": "Neón Art&Wine Tickets - Malaga",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "534658f0-a05c-11f1-b4ba-96207a84cde6.jpeg",
+      "url": "https://feverup.com/m/503719/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Enjoy an immersive artistic experience with wine and fluorescent paint at Neón Art&Wine at Bspark Málaga. Get your tickets now!"
+    },
+    {
       "sku": "475995",
       "n": "The Criminal Dinner",
       "c": "food",
@@ -1248,20 +1248,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=590899&u=https%3A%2F%2Ffeverup.com%2Fm%2F590899&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy 4 wines and 4 tapas in front of the sea in Malaga. Get your tickets today! Get your tickets today!"
-    },
-    {
-      "sku": "503719",
-      "n": "🎨✨ NEON&WINE! A Unique Sensorial & Painting Experience!",
-      "c": "food",
-      "cat": "Food & Drink",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "534658f0-a05c-11f1-b4ba-96207a84cde6.jpeg",
-      "url": "https://feverup.com/m/503719/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "An Unforgettable Evening: A Unique Creative & Immersive Experience! Join us for a memorable evening where you can create your own artwork on canvas while enjoying unlimited wine and tasty bites throughout the experience. Immerse yourself in a vibrant neon atmosphere, perfect for dates, gatherings wi"
     },
     {
       "sku": "545188",

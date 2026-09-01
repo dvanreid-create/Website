@@ -1,11 +1,15 @@
-=== tours_debug Tue Sep  1 03:57:34 AM UTC 2026 ===
+=== tours_debug Tue Sep  1 04:05:40 AM UTC 2026 ===
 srchash=7b4426cc91767269c69e48bacc33459a
 --- rebuild procs ---
-3045690 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3045701 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3045737 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3045778 bash /app/orchestrator/tours_deploy.sh
-3045851 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
+3047622 /bin/bash -c cd /app/runtime && ML_ROOT=/app/runtime HOME=/root python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh >> /app/logs/cron_tours_deploy.log 2>&1
+3047626 python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh
+3047629 bash /app/orchestrator/tours_deploy.sh
+3048116 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+3048123 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3048154 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3048187 bash /app/orchestrator/tours_deploy.sh
+3048290 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
+3049701 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
 HEAD is now at 0ec1c7d457 Tours rebuild 2026-09-01T03:37:13Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
