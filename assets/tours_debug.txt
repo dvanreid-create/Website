@@ -1,4 +1,4 @@
-=== tours_debug Tue Sep  1 05:07:37 AM UTC 2026 ===
+=== tours_debug Tue Sep  1 05:11:38 AM UTC 2026 ===
 srchash=f942867bdec877a0ff393d4b663a072e
 --- rebuild procs ---
 3063791 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
