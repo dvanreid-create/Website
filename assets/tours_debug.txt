@@ -1,10 +1,7 @@
-=== tours_debug Tue Sep  1 04:29:36 AM UTC 2026 ===
-srchash=9ef2e5865cce4ed3077bdff41e82973d
+=== tours_debug Tue Sep  1 04:49:33 AM UTC 2026 ===
+srchash=f942867bdec877a0ff393d4b663a072e
 --- rebuild procs ---
-3054542 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3054553 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3054585 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3054612 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
 HEAD is now at 06557b96b1 Tours rebuild 2026-09-01T04:09:03Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
@@ -25,3 +22,24 @@ HEAD is now at 06557b96b1 Tours rebuild 2026-09-01T04:09:03Z [vps]
 [bygo] gallery self-hosted images: 66 of 68
 Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+ ! [rejected]              main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:dvanreid-create/malagatoursandmore.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[tours] push rejected -> re-syncing to origin/main and retrying once
+Updating files:   0% (82/8776)Updating files:   1% (88/8776)Updating files:   2% (176/8776)Updating files:   3% (264/8776)Updating files:   4% (352/8776)Updating files:   4% (387/8776)Updating files:   5% (439/8776)Updating files:   6% (527/8776)Updating files:   7% (615/8776)Updating files:   8% (703/8776)Updating files:   8% (769/8776)Updating files:   9% (790/8776)Updating files:  10% (878/8776)Updating files:  11% (966/8776)Updating files:  12% (1054/8776)Updating files:  13% (1141/8776)Updating files:  14% (1229/8776)Updating files:  14% (1273/8776)Updating files:  15% (1317/8776)Updating files:  16% (1405/8776)Updating files:  17% (1492/8776)Updating files:  18% (1580/8776)Updating files:  19% (1668/8776)Updating files:  19% (1677/8776)Updating files:  20% (1756/8776)Updating files:  21% (1843/8776)Updating files:  22% (1931/8776)Updating files:  23% (2019/8776)Updating files:  24% (2107/8776)Updating files:  25% (2194/8776)Updating files:  26% (2282/8776)Updating files:  26% (2306/8776)Updating files:  27% (2370/8776)Updating files:  28% (2458/8776)Updating files:  29% (2546/8776)Updating files:  30% (2633/8776)Updating files:  30% (2711/8776)Updating files:  31% (2721/8776)Updating files:  32% (2809/8776)Updating files:  33% (2897/8776)Updating files:  34% (2984/8776)Updating files:  35% (3072/8776)Updating files:  35% (3110/8776)Updating files:  36% (3160/8776)Updating files:  37% (3248/8776)Updating files:  38% (3335/8776)Updating files:  39% (3423/8776)Updating files:  40% (3511/8776)Updating files:  40% (3570/8776)Updating files:  41% (3599/8776)Updating files:  42% (3686/8776)Updating files:  43% (3774/8776)Updating files:  44% (3862/8776)Updating files:  44% (3886/8776)Updating files:  45% (3950/8776)Updating files:  46% (4037/8776)Updating files:  47% (4125/8776)Updating files:  48% (4213/8776)Updating files:  48% (4266/8776)Updating files:  49% (4301/8776)Updating files:  50% (4388/8776)Updating files:  51% (4476/8776)Updating files:  52% (4564/8776)Updating files:  52% (4643/8776)Updating files:  53% (4652/8776)Updating files:  54% (4740/8776)Updating files:  55% (4827/8776)Updating files:  55% (4884/8776)Updating files:  56% (4915/8776)Updating files:  57% (5003/8776)Updating files:  58% (5091/8776)Updating files:  59% (5178/8776)Updating files:  60% (5266/8776)Updating files:  61% (5354/8776)Updating files:  62% (5442/8776)Updating files:  62% (5511/8776)Updating files:  63% (5529/8776)Updating files:  64% (5617/8776)Updating files:  65% (5705/8776)Updating files:  66% (5793/8776)Updating files:  67% (5880/8776)Updating files:  68% (5968/8776)Updating files:  68% (6035/8776)Updating files:  69% (6056/8776)Updating files:  70% (6144/8776)Updating files:  71% (6231/8776)Updating files:  72% (6319/8776)Updating files:  73% (6407/8776)Updating files:  74% (6495/8776)Updating files:  74% (6573/8776)Updating files:  75% (6582/8776)Updating files:  76% (6670/8776)Updating files:  77% (6758/8776)Updating files:  78% (6846/8776)Updating files:  79% (6934/8776)Updating files:  80% (7021/8776)Updating files:  81% (7109/8776)Updating files:  82% (7197/8776)Updating files:  82% (7232/8776)Updating files:  83% (7285/8776)Updating files:  84% (7372/8776)Updating files:  85% (7460/8776)Updating files:  86% (7548/8776)Updating files:  86% (7623/8776)Updating files:  87% (7636/8776)Updating files:  88% (7723/8776)Updating files:  89% (7811/8776)Updating files:  90% (7899/8776)Updating files:  91% (7987/8776)Updating files:  91% (7998/8776)Updating files:  92% (8074/8776)Updating files:  93% (8162/8776)Updating files:  94% (8250/8776)Updating files:  95% (8338/8776)Updating files:  95% (8378/8776)Updating files:  96% (8425/8776)Updating files:  97% (8513/8776)Updating files:  98% (8601/8776)Updating files:  99% (8689/8776)Updating files: 100% (8776/8776)Updating files: 100% (8776/8776), done.
+HEAD is now at 6b155d90d2 Tours rebuild 2026-09-01T04:20:57Z [vps retry]
+/app/runtime/Tools/agent/build_tours.py:2088: SyntaxWarning: invalid escape sequence '\B'
+  </html>"""
+/app/runtime/Tools/agent/build_tours.py:2088: SyntaxWarning: invalid escape sequence '\d'
+  </html>"""
+[paco] seasonal couple image -> fall
+[bygo] gallery self-hosted images: 66 of 68
+Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   6b155d90d2..a5639975f8  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)
