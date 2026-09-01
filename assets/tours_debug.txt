@@ -1,12 +1,9 @@
-=== tours_debug Tue Sep  1 05:35:36 AM UTC 2026 ===
-srchash=b2d2e034d6b5d6be71c576c2401470b6
+=== tours_debug Tue Sep  1 05:57:32 AM UTC 2026 ===
+srchash=7d2283684b55d77b831f16801cb95efb
 --- rebuild procs ---
-3069810 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3069817 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3069854 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3069880 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at d6304b7f088 Tours rebuild 2026-09-01T05:07:58Z [vps]
+HEAD is now at 05fbb59e36c Tours rebuild 2026-09-01T05:31:08Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
@@ -16,7 +13,7 @@ HEAD is now at d6304b7f088 Tours rebuild 2026-09-01T05:07:58Z [vps]
   </html>"""
 [guides] guide cache up to date (24 topics)
 [hotels-i18n] cache up to date (187 strings)
-[ttk-i18n] translated 1 strings this run; 0 remain
+[ttk-i18n] cache up to date (87 strings)
 /app/runtime/Tools/agent/build_tours.py:2103: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
 /app/runtime/Tools/agent/build_tours.py:2103: SyntaxWarning: invalid escape sequence '\d'
@@ -25,3 +22,6 @@ HEAD is now at d6304b7f088 Tours rebuild 2026-09-01T05:07:58Z [vps]
 [bygo] gallery self-hosted images: 66 of 68
 Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   05fbb59e36c..bdb9133cb7a  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)
