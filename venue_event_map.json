@@ -950,23 +950,44 @@
     "festival de rock": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51237",
      "date": "12/09/2026",
-     "time": "20:00",
+     "time": "19:30",
      "venue_name": "FESTIVAL DE ROCK",
-     "note": "TIME ADDED 2026-09-01 from the tourism agenda's schedule block ('Sabado 20:00'); the venue bills it as 'Festival Rock en Estado Puro', 12-13 Sep. 12 Sep 2026 IS a Saturday. Site was showing 21:00."
+     "note": "TIME CORRECTED 2026-09-01 to 19:30 (was 20:00). The 20:00 came from a tourism-agenda schedule block, a secondary source; the SELLER'S OWN session picker is authoritative and onebox 51237 lists 'SÁB 12 SEP 19:30 ... Desde 20,00 €' — the '20,00' in that row is the PRICE, which is almost certainly what the agenda reading picked up. Browser-confirmed on the rendered Sesiones tab 2026-09-01. 12 Sep 2026 IS a Saturday. Site was showing 21:00."
     },
     "festival de rock night 2": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51237",
      "date": "13/09/2026",
-     "time": "20:00",
+     "time": "19:30",
      "venue_name": "FESTIVAL DE ROCK (Night 2)",
-     "note": "TIME ADDED 2026-09-01 ('Domingo 20:00'). 13 Sep 2026 IS a Sunday. SEPARATE KEY, NOT A DUPLICATE: both nights carry the same act words, so one key could not address them individually. This key's extra words ('night 2') are a subset only of the second night's act name, and venue_time_override breaks ties towards the LONGEST matching key, so night 1 keeps the entry above and night 2 takes this one."
+     "note": "TIME CORRECTED 2026-09-01 to 19:30 (was 20:00, from a tourism agenda — the seller's own session picker is authoritative and onebox 51237 lists 'DOM 13 SEP 19:30 ... Desde 20,00 €', the 20,00 being the price). Browser-confirmed on the rendered Sesiones tab 2026-09-01. 13 Sep 2026 IS a Sunday. SEPARATE KEY, NOT A DUPLICATE: both nights carry the same act words, so one key could not address them individually. This key's extra words ('night 2') are a subset only of the second night's act name, and venue_time_override breaks ties towards the LONGEST matching key, so night 1 keeps the entry above and night 2 takes this one."
     },
     "tributo a adele": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/59197",
      "date": "17/09/2026",
      "time": "21:30",
      "venue_name": "TRIBUTO A ADELE",
-     "note": "TIME ADDED 2026-09-01 from the tourism agenda ('Jueves 21:30'). 17 Sep 2026 IS a Thursday. Site was showing 21:00."
+     "note": "TIME ADDED 2026-09-01 from the tourism agenda ('Jueves 21:30'); RE-CONFIRMED 2026-09-01 against the seller — onebox 59197 renders 'JUE 17 SEP 21:30' in its own Sesiones tab. 17 Sep 2026 IS a Thursday. Site was showing 21:00."
+    },
+    "country night": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/58521",
+     "date": "20/09/2026",
+     "time": "20:00",
+     "venue_name": "COUNTRY NIGHT",
+     "note": "TIME ADDED 2026-09-01 by the daily click-test. SELLER-VERIFIED in the browser: onebox 58521 headers '20 de septiembre de 2026, 20:00' and its Sesiones tab lists 'DOM 20 SEP 20:00 ... Desde 15,00 €'. Site was showing 21:00."
+    },
+    "la ultima fila": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/59305",
+     "date": "25/09/2026",
+     "time": "21:30",
+     "venue_name": "LA ULTIMA FILA",
+     "note": "TIME ADDED 2026-09-01 by the daily click-test. SELLER-VERIFIED in the browser: onebox 59305 headers '25 de septiembre de 2026, 21:30' and its Sesiones tab lists 'VIE 25 SEP 21:30 ... Desde 12,00 €'. Site was showing 21:00. Key is unaccented ('ultima') because venue_time_override normalises the calendar act 'La Última Fila' to accent-stripped words before the subset test."
+    },
+    "south funk": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/58687",
+     "date": "27/09/2026",
+     "time": "21:00",
+     "venue_name": "SOUTH FUNK",
+     "note": "TIME RECORDED 2026-09-01 by the daily click-test. SELLER-VERIFIED in the browser: onebox 58687 headers '27 de septiembre de 2026, 21:00' and its Sesiones tab lists 'DOM 27 SEP 21:00 ... Desde 12,00 €'. This is the ONE Benalmádena night the sweep already had right, so the override is a no-op today — it is entered anyway so a future sweep cannot silently move it."
     }
    }
   },
