@@ -929,7 +929,44 @@
     "soul on fire": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51226",
      "date": "18/09/2026",
-     "venue_name": "SOUL ON FIRE"
+     "time": "20:00",
+     "venue_name": "SOUL ON FIRE",
+     "note": "TIME ADDED 2026-09-01. Fri 18 Sep is the Friday slot of a residency (28/08-27/11), and the venue's schedule is Viernes 20:00 / Sabado 21:00 - so this date is 20:00, not the sweep's guessed 21:00."
+    },
+    "la creedance": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/50563",
+     "date": "03/09/2026",
+     "time": "21:30",
+     "venue_name": "LA CREEDANCE",
+     "note": "TIME ADDED 2026-09-01, DOUBLE-SOURCED: the promoter's own poster reads '3 DE SEPTIEMBRE 2026 / 21:30 h / AUDITORIO DE BENALMADENA', and the town's tourism agenda gives 'Jueves 21:30 - 23:00'. 3 Sep 2026 IS a Thursday. Site was showing the sweep's guessed 21:00."
+    },
+    "tributo queen": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51233",
+     "date": "05/09/2026",
+     "time": "22:00",
+     "venue_name": "TRIBUTO QUEEN",
+     "note": "TIME ADDED 2026-09-01, DOUBLE-SOURCED: promoter poster reads '5 DE SEPTIEMBRE / 22:00 h', tourism agenda gives 'Sabado 22:00'. 5 Sep 2026 IS a Saturday. Site was showing 21:00 - a FULL HOUR early. DATE-SCOPED to the 5th on purpose: the run is 5-6 Sep and only the 5th is verified, so the 6 Sep row is deliberately left alone rather than guessed at."
+    },
+    "festival de rock": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51237",
+     "date": "12/09/2026",
+     "time": "20:00",
+     "venue_name": "FESTIVAL DE ROCK",
+     "note": "TIME ADDED 2026-09-01 from the tourism agenda's schedule block ('Sabado 20:00'); the venue bills it as 'Festival Rock en Estado Puro', 12-13 Sep. 12 Sep 2026 IS a Saturday. Site was showing 21:00."
+    },
+    "festival de rock night 2": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51237",
+     "date": "13/09/2026",
+     "time": "20:00",
+     "venue_name": "FESTIVAL DE ROCK (Night 2)",
+     "note": "TIME ADDED 2026-09-01 ('Domingo 20:00'). 13 Sep 2026 IS a Sunday. SEPARATE KEY, NOT A DUPLICATE: both nights carry the same act words, so one key could not address them individually. This key's extra words ('night 2') are a subset only of the second night's act name, and venue_time_override breaks ties towards the LONGEST matching key, so night 1 keeps the entry above and night 2 takes this one."
+    },
+    "tributo a adele": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/59197",
+     "date": "17/09/2026",
+     "time": "21:30",
+     "venue_name": "TRIBUTO A ADELE",
+     "note": "TIME ADDED 2026-09-01 from the tourism agenda ('Jueves 21:30'). 17 Sep 2026 IS a Thursday. Site was showing 21:00."
     }
    }
   },
