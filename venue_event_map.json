@@ -1177,8 +1177,27 @@
   "teatro cervantes": {
    "source": "https://www.teatrocervantes.com/es/programacion/",
    "complete": false,
-   "note": "Teatro Cervantes, main public theatre in Málaga city (Procultura Málaga). Also hosts the Terral outdoor summer festival (typically June). Same organisation manages Teatro Echegaray (see that entry). Website is JS-rendered — refresh_venue_map.py needs browser tools to scrape. Added 2026-07-27 as stub for link upgrading; no in-window ticketed events confirmed.",
-   "acts": {}
+   "note": "Teatro Cervantes, main public theatre in Málaga city (Procultura Málaga). Also hosts the Terral outdoor summer festival (typically June). Same organisation manages Teatro Echegaray (see that entry). Website is JS-rendered — refresh_venue_map.py needs browser tools to scrape. Added 2026-07-27 as stub for link upgrading; no in-window ticketed events confirmed. | LINK-OVERRIDE ACTS ADDED 2026-09-01 by the daily click-test. THE TRAP THIS FIXES: the theatre publishes each show at BOTH /es/espectaculo/<slug>-<id> and /es/genero/<genre>/<season>/<slug>-<id>, and ONLY the second path resolves — the /es/espectaculo/ form 302s to the theatre HOMEPAGE, so a card carrying it looks fine to a link checker (HTTP 200, real title) while sending the reader to a season index. Both acts below therefore carry prefer:'map' so the map URL wins over the calendar's own deep link. The URLs are the theatre's OWN ticketer, unientradas.es (janto family), which is where the site's 'Comprar entradas' buttons go — one hop closer to the basket than the venue page and it renders the date + seat map + 'Ver precios' directly. NO PAYING SELLER EXISTS for either show: entradas.com's malaga-490 / benalmadena-9255 / estepona-2322 listings carry neither, El Corte Inglés lists neither, and Ticketmaster has no Málaga date — so routing to a non-earning box office is forced, not chosen. Keep 'source' on the STABLE season index, never a dated page.",
+   "acts": {
+    "ocean colour scene": {
+     "url": "https://www.unientradas.es/es/espectaculo/ocean-colour-scene-in-concert/26-27OceanColour",
+     "prefer": "map",
+     "date": "29/09/2026",
+     "time": "20:00",
+     "venue_name": "Ocean Colour Scene",
+     "genre": "Rock & Indie",
+     "why": "BROWSER-CONFIRMED 2026-09-01: unientradas.es renders 'OCEAN COLOUR SCENE IN CONCERT, 29 septiembre 2026 20:00, TEATRO CERVANTES', 'Martes 29/09/2026 20:00', seat map + 'Ver precios'. The live site was linking teatrocervantes.com/es/espectaculo/ocean-colour-scene-in-concert-2154, which redirects to the theatre homepage. NOTE the site card says 21:00 but the seller says 20:00 — the time is generated upstream and this map's 'time' field is only read by backfill_calendar.py for rows the sweep did not produce, so it cannot correct it here."
+    },
+    "malu": {
+     "url": "https://www.unientradas.es/es/espectaculo/malu-quince-tour/26-27MaluSing",
+     "prefer": "map",
+     "date": "11/10/2026",
+     "time": "19:00",
+     "venue_name": "Malú",
+     "genre": "Pop",
+     "why": "BROWSER-CONFIRMED 2026-09-01: unientradas.es renders 'MALÚ. Quince tour, 11 octubre 2026 19:00, TEATRO CERVANTES', 'Domingo 11/10/2026 19:00', seat map + 'Ver precios'. This is the site's MARQUEE card, which was pointing at teatrocervantes.com/es/programacion/teatro-cervantes/ — the whole-season listing, not the event."
+    }
+   }
   },
   "teatro echegaray": {
    "source": "https://www.teatrocervantes.com/es/programacion/teatro-echegaray/",
@@ -1945,6 +1964,14 @@
      "date": "25/09/2026",
      "venue_name": "Sofía Ellar",
      "genre": "Pop"
+    },
+    "perota chingo": {
+     "url": "https://www.entradas.com/en/event/perota-chingo-sala-la-trinchera-21748743/",
+     "prefer": "map",
+     "date": "30/09/2026",
+     "venue_name": "Perotá Chingó",
+     "genre": "Rock & Indie",
+     "why": "DESTINATION LOCK, added 2026-09-01. The row itself is INJECTED from the 'trinchera' block below (that is the key backfill_calendar.WHITELIST iterates), but that block is rewritten wholesale from mutick every Monday and Perotá Chingó is not on mutick. This block is never rewritten and _venue_lookup reaches it FIRST (its key is also a substring of 'sala la trinchera'), so the entradas.com destination holds even after a rescrape drops the other copy. Browser-confirmed 2026-09-01: 'PEROTÁ CHINGÓ, Wednesday, 30/09/2026 | 21:00, Sala La Trinchera', 27.50 EUR, add-to-cart live. Paying seller (entradas.com, Awin mid 24761); mutick does not sell this night. RETIRE this entry together with the Sofía Ellar one once both dates have passed."
     }
    }
   },
@@ -1978,6 +2005,14 @@
      "venue_name": "Damian Cordoba",
      "genre": "Flamenco",
      "why": "BROWSER-CONFIRMED 2026-08-20: movingtickets 'Damian Cordoba en Sala Trinchera', SALA TRINCHERA C. Parauta 25 Malaga, doors 20:30, 25,00 EUR + 2,50 g.g = 27,50 EUR. NOT on mutick, so refresh_venue_map.py's Monday rescrape will not re-create this row — if it disappears again, re-add it here."
+    },
+    "perota chingo": {
+     "url": "https://www.entradas.com/en/event/perota-chingo-sala-la-trinchera-21748743/",
+     "date": "30/09/2026",
+     "time": "21:00",
+     "venue_name": "Perotá Chingó",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-09-01 by the daily click-test: this show was IN-WINDOW on entradas.com and ABSENT from the live site, i.e. lost commission at a paying seller. BROWSER-CONFIRMED: entradas.com renders 'PEROTÁ CHINGÓ, Wednesday, 30/09/2026 | 21:00, Sala La Trinchera | Calle Parauta, 25 | 29006 Málaga', General Admission 27.50 EUR, 'Add to shopping cart 2 tickets, 55.00 EUR'. Seller choice: mutick.com/v/sala-la-trinchera lists only China Crisis (17 Sep), The Silencers (15 Oct) and Clearwater Creedence Revival (29 Nov) — it does NOT sell this night — so entradas.com is both the only seller found and a paying one (Awin mid 24761; build_site.entradas_aff wraps the raw URL at build time, which is why the URL here is unwrapped). WHY THIS ROW IS FRAGILE: refresh_venue_map.py rebuilds blk['acts'] for the 'trinchera' key WHOLESALE from mutick every Monday, and Perotá Chingó is not on mutick — same trap as Damián Córdoba above. It is entered here anyway because 'trinchera' is the key backfill_calendar.WHITELIST iterates, so this block is the ONLY one that can inject the row; a duplicate link-override entry sits in the 'la trinchera' block (which nothing rewrites) so the DESTINATION survives a rescrape even if the injection does not. If the card vanishes after a Monday, re-add it here."
     }
    },
    "gate": false
