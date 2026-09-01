@@ -1,9 +1,9 @@
-=== tours_debug Tue Sep  1 07:28:48 AM UTC 2026 ===
-srchash=42e2646fc36e85a69c870d5fd631528d
+=== tours_debug Tue Sep  1 07:59:31 AM UTC 2026 ===
+srchash=67ee6c20b6d26bf9926af0557cf263d4
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 40ae77b5aa6 Tours rebuild 2026-09-01T06:20:20Z [vps]
+HEAD is now at 0cfec40071e Tours rebuild 2026-09-01T06:44:22Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
@@ -23,5 +23,5 @@ HEAD is now at 40ae77b5aa6 Tours rebuild 2026-09-01T06:20:20Z [vps]
 Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1816 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   40ae77b5aa6..0cfec40071e  main -> main
+   0cfec40071e..9c84ce6f952  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
