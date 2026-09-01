@@ -1,12 +1,12 @@
-=== tours_debug Tue Sep  1 05:11:38 AM UTC 2026 ===
-srchash=f942867bdec877a0ff393d4b663a072e
+=== tours_debug Tue Sep  1 05:35:36 AM UTC 2026 ===
+srchash=b2d2e034d6b5d6be71c576c2401470b6
 --- rebuild procs ---
-3063791 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3063798 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3063826 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3063861 bash /app/orchestrator/tours_deploy.sh
+3069810 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+3069817 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3069854 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3069880 bash /app/orchestrator/tours_deploy.sh
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at a5639975f80 Tours rebuild 2026-09-01T04:42:12Z [vps retry]
+HEAD is now at d6304b7f088 Tours rebuild 2026-09-01T05:07:58Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
@@ -16,7 +16,7 @@ HEAD is now at a5639975f80 Tours rebuild 2026-09-01T04:42:12Z [vps retry]
   </html>"""
 [guides] guide cache up to date (24 topics)
 [hotels-i18n] cache up to date (187 strings)
-[ttk-i18n] cache up to date (86 strings)
+[ttk-i18n] translated 1 strings this run; 0 remain
 /app/runtime/Tools/agent/build_tours.py:2103: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
 /app/runtime/Tools/agent/build_tours.py:2103: SyntaxWarning: invalid escape sequence '\d'
