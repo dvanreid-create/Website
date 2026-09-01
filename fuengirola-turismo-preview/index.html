@@ -35,8 +35,16 @@ body{background:#3a4046;font-family:"Public Sans",Arial,sans-serif;color:#393939
          display:flex;align-items:center;gap:7px}
 .langsel .ch{font-size:9px;color:#9aa}
 
+/* ---------- their video hero ----------
+   Same video as the live page (YouTube id fZpuXo1W0sQ, "MARENOSTRUM FUENGIROLA"), 16:9,
+   autoplay + no controls, exactly as they run it. ONE deliberate difference: their embed
+   sets noCookie=false; we serve this from youtube-nocookie.com so OUR copy of their page
+   doesn't drop tracking cookies on anyone who opens it. */
+.hero{position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden}
+.hero iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+
 /* ---------- page body ---------- */
-.section{padding:6px 46px 40px}
+.section{padding:22px 46px 40px}
 .share{display:flex;justify-content:flex-end;align-items:center;gap:8px;color:#178087;font-size:15px;
        font-weight:600;margin:0 0 10px}
 h1{font-family:"Didact Gothic",sans-serif;font-size:42px;font-weight:400;line-height:1.2;color:#393939;
@@ -123,6 +131,13 @@ h1{font-family:"Didact Gothic",sans-serif;font-size:42px;font-weight:400;line-he
     <div class="langsel">Español <span class="ch">&#9660;</span></div>
   </div>
 
+  <div class="hero">
+    <iframe src="https://www.youtube-nocookie.com/embed/fZpuXo1W0sQ?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=fZpuXo1W0sQ&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1"
+            title="MARENOSTRUM FUENGIROLA — Concejalía Turismo Fuengirola"
+            allow="autoplay; encrypted-media; fullscreen" referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy" allowfullscreen></iframe>
+  </div>
+
   <div class="section">
     <div class="share">&#8599; Compartir</div>
 
@@ -201,8 +216,8 @@ h1{font-family:"Didact Gothic",sans-serif;font-size:42px;font-weight:400;line-he
 
   <p class="foot-note">Maqueta ilustrativa. Textos, logotipo e imágenes de los eventos: © Ayuntamiento de
     Fuengirola / promotores — reproducidos aquí únicamente para mostrar cómo quedaría la línea de enlace en
-    su propia página. Se han omitido el vídeo de cabecera y las secciones inferiores para centrar la vista
-    en la zona donde iría el bloque.</p>
+    su propia página. El vídeo de cabecera es el suyo, incrustado desde su canal de YouTube (en su versión
+    sin cookies). Se han omitido únicamente las secciones inferiores de la página.</p>
 
 </div>
 
