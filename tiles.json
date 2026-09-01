@@ -417,45 +417,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-f0dd00b13ccd78e8.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "The Lord of the Rings",
-   "headBottom": true,
-   "expires": "2026-09-05",
-   "sub": {
-    "en": "Sat 5 Sep · Hotel Miramar · Málaga",
-    "es": "Sáb 5 sep · Hotel Miramar · Málaga",
-    "de": "Sa 5 Sep · Hotel Miramar · Málaga",
-    "fr": "sam. 5 sept. · Hotel Miramar · Málaga",
-    "sv": "lör 5 sep · Hotel Miramar · Málaga",
-    "no": "lør 5 sep · Hotel Miramar · Málaga",
-    "da": "lør 5 sep · Hotel Miramar · Málaga",
-    "fi": "la 5 syysk. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=621145&u=https%3A%2F%2Ffeverup.com%2Fm%2F621145&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
