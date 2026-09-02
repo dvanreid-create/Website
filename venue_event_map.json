@@ -1223,6 +1223,13 @@
      "eci_from": 33.0,
      "prefer": "eci",
      "why": "MOVED ONTO A PAYING SELLER 2026-08-29. The card shipped the Fourvenues/TANDPROD page, which pays nothing AND is the link the box's nightly verifier keeps dropping as 'lands on a homepage/search, not the event'. El Corte Ingles - our Awin merchant 13034, 1% - sells the SAME show: browser-verified 2026-08-29 at this URL, which renders 'Descemer Bueno en Malaga, Fechas: 11 de Septiembre de 2026, Horario: A las 21:00 h., Recinto: Sala Paris 15, Desde 33,00 EUR' with a live COMPRAR button (rendered page read, not JSON-LD, per the ECI off-sale trap). Found via tomaticket's own COMPRAR ENTRADAS for this gig, which is itself an awin1 pclick to m=13034. prefer:eci matches the Marenostrum pattern: same product, same price, but only the ECI link earns. Also fixes the drop - elcorteingles.es is in trusted_hosts and blocks the box's datacentre, so this takes the OK_TRUSTED_HOST path and is never judged on a bot-rendered page. box_url keeps the promoter's own page on record."
+    },
+    "ciro y los persas": {
+     "url": "https://www.entradas.com/en/event/ciro-y-los-persas-sala-paris-15-20865104/",
+     "date": "24/09/2026",
+     "time": "21:00",
+     "venue_name": "Ciro y Los Persas",
+     "note": "TIME CORRECTED 2026-09-01 by the daily click-test: the site was showing 20:30, which is neither the door nor the stage time. TWO INDEPENDENT SOURCES agree on 21:00 — the venue's own page paris15.es/event/ciro-y-los-persas/ reads 'Fecha: septiembre 24, 2026 20:00h, Apertura: 20:00h, Comienzo: 21:00h', and the seller our card links to, entradas.com, renders 'Thursday, 24/09/2026 | 21:00, Málaga | Sala Paris 15'. The site's convention at this venue is the STAGE time (Comienzo), which is how El Kuelgue 21:00, Emanero 21:30, BM & Callejero Fino 20:30 and Raimundo Amador 21:30 are all already correct — 20:30 was simply wrong, not a doors reading. url matches the shipped destination so this entry only stamps the time and cannot move the link."
     }
    }
   },
