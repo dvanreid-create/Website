@@ -1,9 +1,13 @@
-=== tours_debug Wed Sep  2 03:35:23 AM UTC 2026 ===
+=== tours_debug Wed Sep  2 03:39:36 AM UTC 2026 ===
 srchash=96a3cad9d5844dc0581b44f2c2806b4b
 --- rebuild procs ---
-none
+3217991 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+3218002 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3218034 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3218059 bash /app/orchestrator/tours_deploy.sh
+3218133 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 24ee91cf275 Tours rebuild 2026-09-02T03:15:39Z [vps]
+HEAD is now at 3b35b888abd Tours rebuild 2026-09-02T03:29:53Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
@@ -18,10 +22,3 @@ HEAD is now at 24ee91cf275 Tours rebuild 2026-09-02T03:15:39Z [vps]
   </html>"""
 /app/runtime/Tools/agent/build_tours.py:2120: SyntaxWarning: invalid escape sequence '\d'
   </html>"""
-[paco] seasonal couple image -> fall
-[bygo] gallery self-hosted images: 66 of 68
-Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1824 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
-To github.com:dvanreid-create/malagatoursandmore.git
-   24ee91cf275..3b35b888abd  main -> main
-[tours] push complete -> Netlify deploys any new commit (~1-2 min)
