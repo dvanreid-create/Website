@@ -1,0 +1,30 @@
+{
+ "_comment": "VENUE-FACT CORRECTIONS FOR THE LLM-WRITTEN 'why' BLURBS. Added 2026-09-01 (DLR: 'some of the Auditorio Benalmadena information is still wrong'). WHY THIS FILE EXISTS: the card blurbs are written by the weekly LLM sweep in all 8 languages and REGENERATE EVERY MONDAY, so a wrong fact about a venue cannot be fixed by editing a calendar row — it comes straight back. This is the same problem, and the same remedy, as the _house_en 'the Costa del Sol' stripper already in build_site.py: correct it at the OUTPUT BOUNDARY, on every build, where it can never come back. Applied per row in build_site.py immediately after the 'why' blurbs are read and next to the venue_time_override call, so it covers every page the blurb appears on and every language. SCOPE IS DELIBERATELY NARROW: a fix only runs when its venue_match is a substring of the row's normalised venue, and each rule is a literal-ish regex aimed at one wrong phrase — this is a FACT corrector, not a style rewriter. Do not use it to reword blurbs you merely dislike; fix those at source in source_calendar.py.",
+ "generated": "2026-09-01",
+ "fixes": [
+  {
+   "venue_match": "benalmadena",
+   "why": "THE VENUE IS NOT ON THE SEAFRONT. The Auditorio Municipal de Benalmádena (programmed as Ópera Benalmádena, ticketed via tickets.oneboxtds.com/operabenalmadena) is at Avda de Rocío Jurado 0, ARROYO DE LA MIEL — the inland district, beside Parque de la Paloma, about a kilometre from the shore. Address confirmed 2026-09-01 from the venue's own site (operabenalmadena.com) and the Junta de Andalucía / Bandsintown venue records, which give the same Av. de Rocío Jurado 0, 29631 Arroyo de la Miel. The sweep nevertheless described it as a coastal / seafront / seaside auditorium in EVERY language — and the Nordic blurbs went further and put it on Benalmádenas STRANDPROMENAD(E), the beach promenade, which is a different place entirely. The site's own Benalmádena area copy already says 'the Auditorio's tribute, opera and zarzuela season in Arroyo de la Miel', so the blurbs also contradicted the page they sat on. 'Open-air' is CORRECT and is deliberately preserved by these rules — it is a genuine open-air auditorium; only the sea claim is removed.",
+   "rules": [
+    ["open-air coastal auditorium", "open-air auditorium"],
+    ["coastal auditorium", "auditorium"],
+    ["seafront auditorium", "auditorium"],
+    ["seaside municipal auditorium", "municipal auditorium"],
+    ["seaside auditorium", "auditorium"],
+    ["auditorio junto al mar", "auditorio al aire libre"],
+    ["auditorio marítimo", "auditorio municipal"],
+    ["Küstenauditorium", "Auditorium"],
+    ["auditorium côtier", "auditorium"],
+    [" au bord de la mer", ""],
+    ["vid Benalmádenas strandpromenad", "i Benalmádena"],
+    ["ved Benalmádenas strandpromenade", "i Benalmádena"],
+    [" vid kusten", ""],
+    [" ved kysten", ""],
+    [" vid havet", ""],
+    [" ved havet", ""],
+    ["merenranta-?auditorio", "auditorio"],
+    ["Benalmádenan ranta-?auditorio", "Benalmádenan auditorio"]
+   ]
+  }
+ ]
+}
