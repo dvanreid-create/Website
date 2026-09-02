@@ -1,27 +1,27 @@
-=== tours_debug Wed Sep  2 09:21:53 AM UTC 2026 ===
-srchash=aa339f3f12b612e54afe6a7942f5b361
+=== tours_debug Wed Sep  2 04:43:25 PM UTC 2026 ===
+srchash=1e50db617201bf83965e8468d2d9366b
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 7b3d43f6011 Tours rebuild 2026-09-02T09:02:40Z [vps]
+HEAD is now at 2dcfb5f53e9 Tours rebuild 2026-09-02T11:39:24Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
-/app/runtime/Tools/agent/build_tours.py:2118: SyntaxWarning: invalid escape sequence '\B'
+/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
-/app/runtime/Tools/agent/build_tours.py:2118: SyntaxWarning: invalid escape sequence '\d'
+/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\d'
   </html>"""
 [guides] guide cache up to date (24 topics)
 [hotels-i18n] cache up to date (187 strings)
 [ttk-i18n] cache up to date (87 strings)
-/app/runtime/Tools/agent/build_tours.py:2118: SyntaxWarning: invalid escape sequence '\B'
+/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
-/app/runtime/Tools/agent/build_tours.py:2118: SyntaxWarning: invalid escape sequence '\d'
+/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\d'
   </html>"""
 [paco] seasonal couple image -> fall
 [bygo] gallery self-hosted images: 66 of 68
 Built 8 languages · 184 landing pages · 1031 tour pages · 28 guide pages · 1904 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1031 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   7b3d43f6011..55c58ed01ce  main -> main
+   2dcfb5f53e9..2402e4d5e9d  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
