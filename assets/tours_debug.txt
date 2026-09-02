@@ -1,9 +1,9 @@
-=== tours_debug Wed Sep  2 04:33:41 AM UTC 2026 ===
-srchash=2acc20d815b13d6541cd363f506388a9
+=== tours_debug Wed Sep  2 04:53:25 AM UTC 2026 ===
+srchash=4720e3c2a4c24de62511b82837ac1e13
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at a71150f9538 Tours rebuild 2026-09-02T03:44:05Z [vps]
+HEAD is now at 30abc2d125d Tours rebuild 2026-09-02T04:17:40Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [tours_titles] title cache up to date
@@ -20,8 +20,8 @@ HEAD is now at a71150f9538 Tours rebuild 2026-09-02T03:44:05Z [vps]
   </html>"""
 [paco] seasonal couple image -> fall
 [bygo] gallery self-hosted images: 66 of 68
-Built 8 languages · 184 landing pages · 1030 tour pages · 28 guide pages · 1824 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1030 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+Built 8 languages · 184 landing pages · 1031 tour pages · 28 guide pages · 1888 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1031 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   a71150f9538..244aa4069b4  main -> main
+   30abc2d125d..94468118ce3  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
