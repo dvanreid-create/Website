@@ -13,10 +13,10 @@
   },
   "starlite": {
    "venue": "Starlite Occident",
-   "mapped_in_window": 1,
-   "matched": 1,
+   "mapped_in_window": 2,
+   "matched": 2,
    "calendar_in_window": 3,
-   "latest_mapped": "2026-09-03",
+   "latest_mapped": "2026-09-05",
    "always_on": false,
    "verdict": "ok"
   },

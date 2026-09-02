@@ -312,6 +312,15 @@
      "venue_name": "Vanesa Martin",
      "genre": "Pop"
     },
+    "wisin melendi": {
+     "url": "https://www.entradas.com/en/event/starlite-festival-2026-wisin-melendi-starlite-marbella-2026-starlite-marbella-22061359/",
+     "prefer": "map",
+     "date": "05/09/2026",
+     "time": "22:00",
+     "venue_name": "Wisin + Melendi",
+     "genre": "Urban & Reggaeton",
+     "why": "ROUTED OFF THE BOX OFFICE ONTO A PAYING SELLER AT AN EQUAL PRICE, 2026-09-02 (DLR 2026-08-29 rule: cheaper wins, equal price goes to entradas.com so it earns). Both pages browser-confirmed today for the SAME night: entradas.com renders 'Wisin - Starlite Marbella 2026, Saturday 05/09/2026 | 22:00, Marbella | Starlite Marbella' with the seat/ticket selector and a cheapest tier of 27,00 EUR; the Starlite box office (entradas.starlitemarbella.com/event/wisin-sliqwp) renders 'Wisin + Melendi, 09/05/2026 Sat 10:00 PM, Auditorio Marbella' with 'Tickets start at 27.00 EUR' and a live Buy control. Same face price, so the reader pays no more and Awin mid 24761 now pays on it; entradas_aff() wraps this at build time and eci_resolve() early-returns on an entradas.com host so the ECI map cannot pull it back. DATE-SCOPED to 05/09/2026 on purpose. NOT applied to Manuel Carrasco 04/09: entradas.com does not carry that night at all - its Starlite artist hub (entradas.com/en/artist/starlite/) lists exactly two upcoming events, Premios Juventud 03/09 and Wisin 05/09 - so Carrasco stays on the box office."
+    },
     "yandel": {
      "venue_name": "Yandel Sinfonico",
      "genre": "Urban & Reggaeton"
