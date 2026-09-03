@@ -1,33 +1,33 @@
 {
- "generated": "2026-09-01",
+ "generated": "2026-09-03",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 1,
-   "matched": 0,
-   "calendar_in_window": 0,
-   "latest_mapped": "2026-09-18",
+   "mapped_in_window": 9,
+   "matched": 9,
+   "calendar_in_window": 10,
+   "latest_mapped": "2026-09-27",
    "always_on": true,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "starlite": {
    "venue": "Starlite Occident",
-   "mapped_in_window": 1,
-   "matched": 0,
-   "calendar_in_window": 0,
-   "latest_mapped": "2026-09-03",
+   "mapped_in_window": 2,
+   "matched": 2,
+   "calendar_in_window": 3,
+   "latest_mapped": "2026-09-05",
    "always_on": false,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
    "mapped_in_window": 2,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "matched": 2,
+   "calendar_in_window": 2,
    "latest_mapped": "2026-09-12",
    "always_on": false,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "purolatino": {
    "venue": "Puro Latino Torremolinos",
@@ -67,21 +67,21 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 30,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "mapped_in_window": 29,
+   "matched": 29,
+   "calendar_in_window": 28,
    "latest_mapped": "2026-09-30",
    "always_on": true,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
    "mapped_in_window": 1,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "matched": 1,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-12",
    "always_on": false,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "benalmadenacultura": {
    "venue": "Ayuntamiento de Benalmádena",
@@ -94,12 +94,12 @@
   },
   "mijascultura": {
    "venue": "Ayuntamiento de Mijas",
-   "mapped_in_window": 1,
+   "mapped_in_window": 0,
    "matched": 0,
    "calendar_in_window": 0,
    "latest_mapped": "2026-09-02",
    "always_on": false,
-   "verdict": "DARK"
+   "verdict": "quiet"
   },
   "malagacultura": {
    "venue": "Ayuntamiento de Málaga — Cultura",
@@ -140,11 +140,11 @@
   "nerjacultura": {
    "venue": "Ayuntamiento de Nerja — Cultura",
    "mapped_in_window": 1,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "matched": 1,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-14",
    "always_on": false,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "alhaurincultura": {
    "venue": "Ayuntamiento de Alhaurín de la Torre — Cultura",
@@ -157,12 +157,12 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 2,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "mapped_in_window": 3,
+   "matched": 3,
+   "calendar_in_window": 4,
    "latest_mapped": "2026-11-29",
    "always_on": true,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "me marbella": {
    "venue": "ME Marbella",
@@ -177,41 +177,29 @@
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
    "matched": 0,
-   "calendar_in_window": 0,
+   "calendar_in_window": 5,
    "latest_mapped": "2026-08-23",
    "always_on": true,
-   "verdict": "STALE"
+   "verdict": "ok"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
    "mapped_in_window": 2,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "matched": 2,
+   "calendar_in_window": 2,
    "latest_mapped": "2026-09-05",
    "always_on": true,
-   "verdict": "DARK"
+   "verdict": "ok"
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
    "mapped_in_window": 9,
-   "matched": 0,
-   "calendar_in_window": 0,
+   "matched": 9,
+   "calendar_in_window": 9,
    "latest_mapped": "2026-09-30",
    "always_on": true,
-   "verdict": "DARK"
+   "verdict": "ok"
   }
  },
- "problems": [
-  "clarence jazz club",
-  "marbella arena",
-  "marenostrum",
-  "mijascultura",
-  "miramar",
-  "nerjacultura",
-  "operabenalmadena",
-  "starlite",
-  "torremolinoscultura",
-  "trinchera",
-  "zz pub"
- ]
+ "problems": []
 }
