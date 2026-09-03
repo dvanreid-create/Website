@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02",
+ "generated": "2026-09-03",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 30,
-   "matched": 30,
-   "calendar_in_window": 29,
+   "mapped_in_window": 29,
+   "matched": 29,
+   "calendar_in_window": 28,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -94,12 +94,12 @@
   },
   "mijascultura": {
    "venue": "Ayuntamiento de Mijas",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-02",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "quiet"
   },
   "malagacultura": {
    "venue": "Ayuntamiento de Málaga — Cultura",

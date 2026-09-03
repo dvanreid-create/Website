@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Vista previa — enlace de Málaga Live en Visita Málaga</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<style>
+/* Recreation of visita.malaga.eu/es/que-ver-y-hacer/agenda
+   Values READ OFF THE LIVE PAGE with getComputedStyle (2026-09-02) via Sofia's browser
+   (the site blocks ours with a verification wall):
+     h1          roboto_condensed_bold 56px  #222222
+     card title  roboto_bold 29.4px          #333333
+     card desc   roboto_regular 16.8px       #202020
+     date badge  roboto_regular 14px         #ffffff  (overlaid on the image)
+     brand blue  #2670CA        accent coral #EB5D40
+     card        410px wide, padding 0 15px, NO border, transparent bg; image 350x250, square corners
+   Their platform is a CUSTOM build (not WordPress, not Simpleview) - the paste note says so.
+   Roboto / Roboto Condensed are loaded from Google Fonts as the closest match to their
+   self-hosted roboto_regular / roboto_bold / roboto_condensed_bold. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#3a4046;font-family:"Roboto",Arial,sans-serif;color:#333;padding:26px 14px 60px;
+     -webkit-font-smoothing:antialiased}
+.note{max-width:1120px;margin:0 auto 14px;font-size:13px;color:#e9e9e9;text-align:center;line-height:1.55}
+.note b{color:#7fb2ea}
+.frame{max-width:1120px;margin:0 auto;background:#fff;border:1px solid #d6d6d6;border-radius:4px;
+       overflow:hidden;box-shadow:0 8px 34px rgba(0,0,0,.28)}
+
+/* ---------- their header ---------- */
+.util{display:flex;justify-content:flex-end;gap:20px;padding:9px 34px;background:#f4f5f6;
+      border-bottom:1px solid #eceeef;font-size:12.5px;color:#555}
+.top{display:flex;align-items:center;gap:26px;padding:18px 34px;flex-wrap:wrap}
+.top .logo{height:54px;width:auto;margin-right:auto}
+.top nav{display:flex;gap:24px;flex-wrap:wrap}
+.top nav a{color:#333;text-decoration:none;font-size:14.5px}
+.top nav a.on{color:#2670CA;font-weight:700}
+.langsel{display:flex;gap:9px;font-size:13px;color:#666}
+.langsel b{color:#2670CA}
+
+/* ---------- page body ---------- */
+.section{padding:30px 34px 44px}
+.crumb{font-size:12.5px;color:#767676;margin-bottom:14px}
+h1{font-family:"Roboto Condensed",Arial,sans-serif;font-weight:700;font-size:56px;color:#222;
+   line-height:1.1;margin:0 0 10px}
+.lede{font-size:16.8px;color:#202020;line-height:1.6;max-width:76ch;margin:0}
+
+/* ---------- OUR INSERTION — the only Málaga Live inside their page ---------- */
+.ml{padding:8px 30px;margin:30px auto 26px;max-width:1040px}
+.ml .mlrow{display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
+.ml .capgroup{display:flex;flex-direction:column;align-items:center;gap:3px}
+.ml .cap{font-size:16px;font-weight:700;color:#2b2f33;line-height:1.35;text-align:center;max-width:34ch}
+.ml .mlsub{font-size:13px;font-weight:600;color:#6a7075;text-align:center}
+.ml .mllink{display:block;text-decoration:none}
+.ml .mllogo{width:300px;max-width:100%;height:auto;display:block}
+
+/* ---------- their agenda cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin:34px 0 0}
+.card .ph{position:relative;aspect-ratio:350/250;overflow:hidden;background:#e9edf1}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.card .badge{position:absolute;left:0;bottom:0;background:rgba(38,112,202,.92);color:#fff;
+             font-size:14px;padding:7px 13px}
+.card .place{position:absolute;left:0;top:0;background:rgba(0,0,0,.55);color:#fff;font-size:14px;
+             padding:6px 12px}
+.card h3{font-family:"Roboto",Arial,sans-serif;font-weight:700;font-size:22px;color:#333;
+         line-height:1.25;margin:14px 0 8px}
+.card p{font-size:16.8px;color:#202020;line-height:1.5}
+.fav{display:inline-block;margin-top:10px;font-size:13.5px;color:#2670CA}
+.foot-note{font-size:13px;color:#9aa0a2;padding:26px 34px 30px;border-top:1px solid #f0f2f2;margin:34px 0 0}
+
+/* ---------- web-team block: OUTSIDE the frame ---------- */
+.web{max-width:1120px;margin:26px auto 0;color:#dfe3e4}
+.web h5{font-size:16px;font-weight:700;color:#fff;margin:0 0 10px}
+.web p{font-size:13.5px;line-height:1.65;color:#b9c0c2;margin:0 0 12px;max-width:88ch}
+.web strong{color:#e8ecec}
+.code{background:#0e1a26;color:#e6eef6;border-radius:8px;padding:22px 24px;margin:14px 0;
+      font:13px/1.72 ui-monospace,SFMono-Regular,Menlo,monospace;
+      white-space:pre-wrap;overflow-wrap:anywhere}
+.code .c{color:#7fb2c9}
+.sig{font-size:12.5px;color:#8f9698;border-top:1px solid #4a5157;padding-top:18px;margin-top:22px}
+
+@media(max-width:860px){
+  .section{padding:24px 20px 32px}
+  .cards{grid-template-columns:1fr;gap:24px}
+  h1{font-size:36px}
+  .top{padding:16px 20px;gap:14px}
+  .top nav{display:none}
+  .util{padding:9px 20px}
+  .foot-note{padding:22px 20px}
+}
+</style></head>
+<body>
+
+<div class="note">
+  VISTA PREVIA / MOCKUP — cómo se vería el bloque de <b>Málaga Live</b> en su página
+  <b>«Agenda»</b> (visita.malaga.eu). El logo es un enlace real: abre la agenda completa de Málaga
+  Live, en el idioma del visitante. No se ha modificado nada en su web.
+</div>
+
+<div class="frame">
+
+  <div class="util">Profesional &nbsp;·&nbsp; Convention Bureau</div>
+
+  <div class="top">
+    <img class="logo" src="https://static.visita.malaga.eu/visitamalaga/interfaz//img/malagaciudadredonda.svg" alt="Visita Málaga">
+    <nav>
+      <a href="#">Conoce Málaga</a>
+      <a href="#">Planifica</a>
+      <a href="#">Qué ver y hacer</a>
+      <a class="on" href="#">Agenda</a>
+      <a href="#">Blog</a>
+    </nav>
+    <span class="langsel"><b>ES</b> EN FR DE</span>
+  </div>
+
+  <div class="section">
+    <div class="crumb">Inicio / Qué ver y hacer / Agenda</div>
+
+    <h1>Agenda</h1>
+    <p class="lede">Consulta la agenda cultural y de ocio de la ciudad de Málaga.</p>
+
+    <!-- ================= THE PROPOSED LINE ================= -->
+    <div class="ml"><div class="mlrow">
+      <div class="capgroup">
+        <span class="cap">Con un solo clic, consulta nuestra agenda interactiva completa, en 8 idiomas, en:</span>
+        <div class="mlsub">(con búsqueda por fecha, evento y artista)</div>
+      </div>
+      <a class="mllink" href="https://malagalivepulse.com/es/" target="_blank" rel="noopener"><img
+        class="mllogo" src="https://malagalivepulse.com/assets/malaga-live-logo-es.png"
+        alt="Málaga Live — agenda de música en directo en Málaga y la Costa del Sol, en 8 idiomas"></a>
+    </div></div>
+    <!-- ========================= end ========================= -->
+
+    <div class="cards">
+      <div class="card">
+        <div class="ph">
+          <img alt="La agenda cultural y de ocio de septiembre en Málaga" src="https://static.visita.malaga.eu/visita/subidas/imagenes/6/4/arc_41646_m.jpg">
+          <span class="badge">1 SEP 2026 - 30 SEP 2026</span>
+        </div>
+        <h3>La agenda cultural y de ocio de septiembre en Málaga</h3>
+        <p>Consulta la agenda cultural y de ocio de la ciudad de Málaga para este mes de septiembre.</p>
+        <span class="fav">☆ Añadir a favoritos</span>
+      </div>
+
+      <div class="card">
+        <div class="ph">
+          <img alt="Procesión de Santa María de la Victoria 2026" src="https://static.visita.malaga.eu/visita/subidas/imagenes/4/4/arc_41644_m.jpg">
+          <span class="badge">8 SEP 2026</span>
+        </div>
+        <h3>Procesión de Santa María de la Victoria 2026</h3>
+        <p>Santa María de la Victoria, Patrona de Málaga y su Diócesis. Del 30 de agosto al 7 de
+          septiembre, Novena en la Catedral.</p>
+        <span class="fav">☆ Añadir a favoritos</span>
+      </div>
+
+      <div class="card">
+        <div class="ph">
+          <img alt="Mijaíl Glinka, en la Colección del Museo Ruso" src="https://static.visita.malaga.eu/visita/subidas/imagenes/8/9/arc_41598_m.jpg">
+          <span class="badge">3 AGO 2026 - 31 DIC 2026</span>
+        </div>
+        <h3>Mijaíl Glinka, en la Colección del Museo Ruso</h3>
+        <p>Mijaíl Glinka. El viajero romántico. Un recorrido por la figura del compositor ruso y su
+          universo cultural.</p>
+        <span class="fav">☆ Añadir a favoritos</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="foot-note">Maqueta ilustrativa. Textos, logotipo e imágenes: © Ayuntamiento de Málaga —
+    reproducidos aquí únicamente para mostrar cómo quedaría la línea de enlace en su propia página.
+    Se han omitido las demás fichas de la agenda para centrar la vista.</p>
+
+</div>
+
+<div class="web">
+  <h5>Para su equipo web — el código, listo para pegar</h5>
+  <p>Esto genera exactamente la línea que aparece arriba. Es HTML plano con estilos en línea:
+    <strong>sin JavaScript, sin dependencias externas y sin cookies</strong>, así que no hay nada que
+    declarar en su política de privacidad. Hereda la tipografía de la página. Cero mantenimiento por su
+    parte: la agenda se actualiza en nuestro lado, cada semana.</p>
+
+<div class="code"><span class="c">&lt;!-- Málaga Live · agenda colaboradora de música en directo --&gt;</span>
+&lt;div style="max-width:1040px;margin:30px auto 26px;padding:8px 30px;font-family:inherit;text-align:center"&gt;
+  &lt;div style="display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap"&gt;
+    &lt;div style="display:flex;flex-direction:column;align-items:center;gap:3px"&gt;
+      &lt;div style="font-size:16px;font-weight:700;color:#2b2f33;line-height:1.35;max-width:34ch;text-align:center"&gt;Con un solo clic, consulta nuestra agenda interactiva completa, en 8 idiomas, en:&lt;/div&gt;
+      &lt;div style="font-size:13px;font-weight:600;color:#6a7075;text-align:center"&gt;(con búsqueda por fecha, evento y artista)&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;a href="https://malagalivepulse.com/es/" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none"&gt;
+      &lt;img src="https://malagalivepulse.com/assets/malaga-live-logo-es.png"
+           alt="Málaga Live — agenda de música en directo en Málaga y la Costa del Sol, en 8 idiomas"
+           width="300" style="width:300px;max-width:100%;height:auto;display:block"&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</div>
+
+  <p><strong>Nota:</strong> el bloque usa estilos en línea, así que si su gestor de contenidos los
+    elimina al pegar, basta con insertarlo en un bloque de «HTML personalizado / código fuente». Su
+    portal es un desarrollo propio, de modo que el bloque no depende de ningún tema ni plantilla. El
+    único elemento de ancho fijo es el logo, y lleva <code>max-width:100%</code>, así que se adapta a
+    cualquier ancho de columna sin desbordar en móvil.</p>
+
+  <p><strong>Versiones en otros idiomas.</strong> Su portal publica en español, inglés, francés y
+    alemán. Málaga Live publica en esos cuatro y además en <strong>finés, sueco, noruego y danés</strong>,
+    así que en cada edición el enlace puede apuntar a la suya: <code>/en/</code>, <code>/fr/</code>,
+    <code>/de/</code> — y las nórdicas quedan disponibles para sus visitantes aunque su portal aún no
+    las publique: <code>/fi/</code>, <code>/sv/</code>, <code>/no/</code>, <code>/da/</code>.</p>
+
+  <p class="sig">Málaga Live · malagalivepulse.com — guía independiente de música en directo en Málaga
+    y la Costa del Sol, publicada en ocho idiomas. Contacto: hello@malagalivepulse.com</p>
+</div>
+
+</body></html>

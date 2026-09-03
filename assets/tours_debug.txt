@@ -1,27 +1,25 @@
-=== tours_debug Wed Sep  2 04:43:25 PM UTC 2026 ===
-srchash=1e50db617201bf83965e8468d2d9366b
+=== tours_debug Thu Sep  3 01:45:34 AM UTC 2026 ===
+srchash=a79160aa5501b34c31a86db88b7d71fb
 --- rebuild procs ---
-none
+3423919 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+3423927 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3423956 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3423982 bash /app/orchestrator/tours_deploy.sh
+3424270 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 2dcfb5f53e9 Tours rebuild 2026-09-02T11:39:24Z [vps]
+HEAD is now at 670a56bfe77 Tours rebuild 2026-09-03T01:28:34Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
+[copycheck] 0 checked, 0 flagged -> tours_copy_drift_report.txt
 [tours_titles] title cache up to date
-/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\B'
+/app/runtime/Tools/agent/build_tours.py:2197: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
-/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\d'
+/app/runtime/Tools/agent/build_tours.py:2197: SyntaxWarning: invalid escape sequence '\d'
   </html>"""
 [guides] guide cache up to date (24 topics)
 [hotels-i18n] cache up to date (187 strings)
-[ttk-i18n] cache up to date (87 strings)
-/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\B'
+[ttk-i18n] translated 1 strings this run; 0 remain
+/app/runtime/Tools/agent/build_tours.py:2197: SyntaxWarning: invalid escape sequence '\B'
   </html>"""
-/app/runtime/Tools/agent/build_tours.py:2119: SyntaxWarning: invalid escape sequence '\d'
+/app/runtime/Tools/agent/build_tours.py:2197: SyntaxWarning: invalid escape sequence '\d'
   </html>"""
-[paco] seasonal couple image -> fall
-[bygo] gallery self-hosted images: 66 of 68
-Built 8 languages · 184 landing pages · 1031 tour pages · 28 guide pages · 1904 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1031 (featured: 10) · landings: ronda, cordoba-day-trip, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
-To github.com:dvanreid-create/malagatoursandmore.git
-   2dcfb5f53e9..2402e4d5e9d  main -> main
-[tours] push complete -> Netlify deploys any new commit (~1-2 min)
