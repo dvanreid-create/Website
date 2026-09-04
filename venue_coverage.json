@@ -157,8 +157,8 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 2,
-   "matched": 2,
+   "mapped_in_window": 3,
+   "matched": 3,
    "calendar_in_window": 4,
    "latest_mapped": "2026-11-29",
    "always_on": true,

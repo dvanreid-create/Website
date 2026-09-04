@@ -1453,6 +1453,18 @@
    "verified": "2026-09-03",
    "via": "browser"
   },
+  "macaco|2026-10-03": {
+   "act": "Macaco",
+   "date": "2026-10-03",
+   "url": "https://feverup.com/m/652051",
+   "expect": [
+    "macaco",
+    "malaga"
+   ],
+   "verified": "2026-09-04",
+   "why": "CONFIRMED 2026-09-04 on the seller's own page: feverup.com/m/652051/en is 'Macaco in Málaga', '📅 Date: 3rd October 2026', doors 20:00 / concert 21:00, La Trinchera Malaga (Calle Parauta 25, 29006), and its 'Select date and session' picker offers ONE bookable session — 'Sat 03 Oct, 9:00 PM, General admission, €25.00' — with a live Tickets control. Not sold out, not a listing, not a different event. Added in response to DLR's report that the Macaco link showed a different date: Fever files this tour as sequential per-city SKUs (652053 Valencia, 652054 Barcelona, 652055 Zaragoza, 652056 Madrid, 652057 Bilbao) plus an artist hub listing every tour date, so a neighbouring SKU or the hub renders 'Macaco' under the wrong date. 652051 is the only SKU that is our night. Cross-checked against conciertos.club (S3/10/26 21:00, Sala Trinchera, 25€) and tomaticket.es ('Macaco en Málaga, Sábado 03 Octubre', La Trinchera), which agree on act, date and venue. Fever is the only seller found for this night and it pays (Impact 6%); tomaticket lists it but pays nothing, so there is no cheaper-non-payer trade-off. NOTE ON EVIDENCE GRADE: via is 'fetch', not 'browser' — Claude in Chrome was offline and the in-app browser is denied every seller origin — but the date-session picker is present in the server-rendered HTML, so the Fever date-chip rule is satisfied on the seller's own markup rather than inferred from page-body text. Re-confirm in a browser on the next run that has one.",
+   "via": "fetch"
+  },
   "festival de rock|2026-09-12": {
    "act": "Festival de Rock",
    "date": "2026-09-12",
