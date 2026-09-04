@@ -1,28 +1,20 @@
-=== tours_debug Fri Sep  4 08:07:42 AM UTC 2026 ===
-srchash=919358ce5774b60d33ea068b1b72adf4
+=== tours_debug Fri Sep  4 03:44:14 PM UTC 2026 ===
+srchash=398a3b5c704a622fc7ca6ee3f8347363
 --- rebuild procs ---
-3686645 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3686651 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3686688 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3686725 bash /app/orchestrator/tours_deploy.sh
-3686779 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
+3734438 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+3734444 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3734480 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+3734520 bash /app/orchestrator/tours_deploy.sh
+3734965 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at c2cf8bbf016 Tours rebuild 2026-09-04T08:05:13Z [vps]
+HEAD is now at fb09e32679a Tours rebuild 2026-09-04T14:46:58Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [copycheck] 0 checked, 0 flagged -> tours_copy_drift_report.txt
 [tours_titles] title cache up to date
-/app/runtime/Tools/agent/build_tours.py:2232: SyntaxWarning: invalid escape sequence '\B'
-  </html>"""
-/app/runtime/Tools/agent/build_tours.py:2232: SyntaxWarning: invalid escape sequence '\d'
-  </html>"""
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [guides] guide cache up to date (24 topics)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [hotels-i18n] cache up to date (187 strings)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [ttk-i18n] cache up to date (84 strings)
-/app/runtime/Tools/agent/build_tours.py:2232: SyntaxWarning: invalid escape sequence '\B'
-  </html>"""
-/app/runtime/Tools/agent/build_tours.py:2232: SyntaxWarning: invalid escape sequence '\d'
-  </html>"""
