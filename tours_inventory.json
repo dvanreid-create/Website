@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-03",
-  "count": 107,
+  "generated": "2026-09-04",
+  "count": 105,
   "items": [
     {
       "sku": "194665",
@@ -508,20 +508,6 @@
       "d": "MADRING is preparing to host the Formula 1® TAG HEUER Spanish Grand Prix in September 2026. Buy your tickets and feel the adrenaline of F1® in Madrid."
     },
     {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
-    },
-    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -898,20 +884,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
       "feat": 0,
       "d": "Get your tickets for Flamenco Authentic Show at Teatro Flamenco Málaga and don"
-    },
-    {
-      "sku": "643664",
-      "n": "Tickets for the K",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "LA K"
     },
     {
       "sku": "587444",

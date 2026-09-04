@@ -1,21 +1,21 @@
 {
- "generated": "2026-09-03",
+ "generated": "2026-09-04",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 9,
-   "matched": 9,
-   "calendar_in_window": 10,
+   "mapped_in_window": 8,
+   "matched": 8,
+   "calendar_in_window": 9,
    "latest_mapped": "2026-09-27",
    "always_on": true,
    "verdict": "ok"
   },
   "starlite": {
    "venue": "Starlite Occident",
-   "mapped_in_window": 2,
-   "matched": 2,
-   "calendar_in_window": 3,
+   "mapped_in_window": 1,
+   "matched": 1,
+   "calendar_in_window": 2,
    "latest_mapped": "2026-09-05",
    "always_on": false,
    "verdict": "ok"
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 29,
-   "matched": 29,
-   "calendar_in_window": 28,
+   "mapped_in_window": 28,
+   "matched": 28,
+   "calendar_in_window": 27,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -157,8 +157,8 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 3,
-   "matched": 3,
+   "mapped_in_window": 2,
+   "matched": 2,
    "calendar_in_window": 4,
    "latest_mapped": "2026-11-29",
    "always_on": true,

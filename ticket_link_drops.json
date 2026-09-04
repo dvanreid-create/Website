@@ -1,5 +1,7 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-09-03",
- "drops": {}
+ "generated": "2026-09-04",
+ "drops": {
+  "Macaco in Málaga": "DATE_MISMATCH — page year ['2051'] != event 2026"
+ }
 }
