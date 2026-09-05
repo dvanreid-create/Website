@@ -7878,16 +7878,16 @@
     }
   },
   "viator:246084P51": {
-    "h": "3f6f260f3de53375571c0d001cd334b2",
+    "h": "cf9ad70f2e7c1e042d2e3fb6d60ab415",
     "names": {
-      "en": "Self Guided Escape Game in Malaga. Find the secret exit!",
-      "es": "Juego de Escape Autoguiado en Malaga. ¡Encuentra la salida secreta!",
-      "de": "Selbstgeführtes Escape Game in Malaga. Finde den geheimen Ausgang!",
-      "fr": "Jeu d'évasion autoguidé à Malaga. Trouvez la sortie secrète !",
-      "sv": "Självguidat escape game i Malaga. Hitta den hemliga utgången!",
-      "no": "Selvguidet escape game i Malaga. Finn den hemmelige utgangen!",
-      "da": "Selvguidet escape game i Malaga. Find den hemmelige udgang!",
-      "fi": "Omatoiminen pakopeli Malagassa. Löydä salainen uloskäynti!"
+      "en": "Escape Tours® Malaga - Self-guided citygame. Find the exit!",
+      "es": "Escape Tours® Malaga - Juego urbano autoguiado. ¡Encuentra la salida!",
+      "de": "Escape Tours® Malaga - Selbstgeführtes Stadtspiel. Finde den Ausgang!",
+      "fr": "Escape Tours® Malaga - Jeu de piste urbain en autonomie. Trouvez la sortie !",
+      "sv": "Escape Tours® Malaga - Egen stadsspel. Hitta utgången!",
+      "no": "Escape Tours® Malaga - Selvguidet byspill. Finn utgangen!",
+      "da": "Escape Tours® Malaga - Selvguidet byspil. Find udgangen!",
+      "fi": "Escape Tours® Malaga – Omatoiminen kaupunkipeli. Löydä uloskäynti!"
     }
   },
   "viator:280895P398": {
@@ -18054,6 +18054,19 @@
       "no": "Privat fottur til El Torcal fra Malaga",
       "da": "Privat vandretur til El Torcal fra Malaga",
       "fi": "Yksityinen vaellusretki El Torcaliin Malagasta"
+    }
+  },
+  "viator:63610P11": {
+    "h": "341d400e375960a47b6ac5c375bd5f7a",
+    "names": {
+      "en": "History and Watercolor Above Malaga",
+      "es": "Historia y acuarela sobre Malaga",
+      "de": "Geschichte und Aquarellmalerei über Malaga",
+      "fr": "Histoire et aquarelle au-dessus de Malaga",
+      "sv": "Historia och akvarell över Malaga",
+      "no": "Historie og akvarell over Malaga",
+      "da": "Historie og akvarelmaleri over Malaga",
+      "fi": "Historiaa ja akvarelleja Malagan yllä"
     }
   }
 }

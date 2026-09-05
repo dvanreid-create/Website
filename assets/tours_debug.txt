@@ -1,13 +1,9 @@
-=== tours_debug Fri Sep  4 03:44:14 PM UTC 2026 ===
-srchash=398a3b5c704a622fc7ca6ee3f8347363
+=== tours_debug Sat Sep  5 06:57:21 AM UTC 2026 ===
+srchash=7fa6ef95c6495714f4da88d16b17372f
 --- rebuild procs ---
-3734438 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-3734444 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3734480 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-3734520 bash /app/orchestrator/tours_deploy.sh
-3734965 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
+none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at fb09e32679a Tours rebuild 2026-09-04T14:46:58Z [vps]
+HEAD is now at 5145f481c1f Tours rebuild 2026-09-05T06:37:32Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [copycheck] 0 checked, 0 flagged -> tours_copy_drift_report.txt
@@ -18,3 +14,11 @@ HEAD is now at fb09e32679a Tours rebuild 2026-09-04T14:46:58Z [vps]
 [hotels-i18n] cache up to date (187 strings)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [ttk-i18n] cache up to date (84 strings)
+[tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
+[paco] seasonal couple image -> fall
+[bygo] gallery self-hosted images: 57 of 65
+Built 8 languages · 168 landing pages · 1220 tour pages · 28 guide pages · 1936 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1220 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   5145f481c1f..c1077677043  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)

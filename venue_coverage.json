@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04",
+ "generated": "2026-09-05",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -15,7 +15,7 @@
    "venue": "Starlite Occident",
    "mapped_in_window": 1,
    "matched": 1,
-   "calendar_in_window": 2,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-05",
    "always_on": false,
    "verdict": "ok"
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 28,
-   "matched": 28,
-   "calendar_in_window": 27,
+   "mapped_in_window": 27,
+   "matched": 27,
+   "calendar_in_window": 26,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -177,16 +177,16 @@
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
    "matched": 0,
-   "calendar_in_window": 5,
+   "calendar_in_window": 8,
    "latest_mapped": "2026-08-23",
    "always_on": true,
    "verdict": "ok"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
-   "mapped_in_window": 2,
-   "matched": 2,
-   "calendar_in_window": 2,
+   "mapped_in_window": 1,
+   "matched": 1,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-05",
    "always_on": true,
    "verdict": "ok"

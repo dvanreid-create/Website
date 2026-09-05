@@ -82,43 +82,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/manuel-carrasco-live.jpg",
-   "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-09-04",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "Manuel Carrasco",
-   "sub": {
-    "en": "Fri 4 Sep · Starlite Marbella",
-    "es": "Vie 4 sep · Starlite Marbella",
-    "de": "Fr 4 Sep · Starlite Marbella",
-    "fr": "ven. 4 sept. · Starlite Marbella",
-    "sv": "fre 4 sep · Starlite Marbella",
-    "no": "fre 4 sep · Starlite Marbella",
-    "da": "fre 4 sep · Starlite Marbella",
-    "fi": "pe 4 syysk. · Starlite Marbella"
-   },
-   "url": "https://entradas.starlitemarbella.com/event/manuel-carrasco-ri3ia2",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "logo": "/assets/tiles/ext-0b8921299b981691.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
@@ -600,6 +563,123 @@
     "fi": "su 13 syysk. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-5dbfa33da7e00c7d.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Rock Classics",
+   "headBottom": true,
+   "expires": "2026-10-04",
+   "sub": {
+    "en": "Sun 4 Oct · Hotel Miramar · Málaga",
+    "es": "Dom 4 oct · Hotel Miramar · Málaga",
+    "de": "So 4 Okt · Hotel Miramar · Málaga",
+    "fr": "dim. 4 oct. · Hotel Miramar · Málaga",
+    "sv": "sön 4 okt · Hotel Miramar · Málaga",
+    "no": "søn 4 okt · Hotel Miramar · Málaga",
+    "da": "søn 4 okt · Hotel Miramar · Málaga",
+    "fi": "su 4 lokak. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=466621&u=https%3A%2F%2Ffeverup.com%2Fm%2F466621&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-54d70da380f438ba.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Babies: Classic Sounds to Stimulate Little Minds",
+   "headBottom": true,
+   "expires": "2026-10-04",
+   "sub": {
+    "en": "Sun 4 Oct · Hotel Miramar · Málaga",
+    "es": "Dom 4 oct · Hotel Miramar · Málaga",
+    "de": "So 4 Okt · Hotel Miramar · Málaga",
+    "fr": "dim. 4 oct. · Hotel Miramar · Málaga",
+    "sv": "sön 4 okt · Hotel Miramar · Málaga",
+    "no": "søn 4 okt · Hotel Miramar · Málaga",
+    "da": "søn 4 okt · Hotel Miramar · Málaga",
+    "fi": "su 4 lokak. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=592280&u=https%3A%2F%2Ffeverup.com%2Fm%2F592280&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Mecano",
+   "headBottom": true,
+   "expires": "2026-10-04",
+   "sub": {
+    "en": "Sun 4 Oct · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 4 oct · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 4 Okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 4 oct. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 4 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 4 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 4 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 4 lokak. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
