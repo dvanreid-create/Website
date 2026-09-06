@@ -1890,18 +1890,6 @@
    "why": "ADDED 2026-09-06 browser click-test. feverup.com/m/466621 = 'Candlelight: Clasicos del Rock', Hotel Miramar Malaga. Its own date selector shows 'dom 04 oct' as the ACTIVE, SELECTED (bookable) chip with time 19:00 - matches the card exactly. Not judged from page-body text.",
    "via": "browser"
   },
-  "candlelight babies classic sounds to stimulate little minds|2026-10-04": {
-   "act": "Candlelight Babies: Classic Sounds to Stimulate Little Minds",
-   "date": "2026-10-04",
-   "url": "https://feverup.com/m/592280",
-   "expect": [
-    "candlelight",
-    "babies"
-   ],
-   "verified": "2026-09-06",
-   "why": "ADDED 2026-09-06 browser click-test. feverup.com/m/592280 = 'Candlelight Babies: Sonidos Clasicos para Estimular Pequenas Mentes'. Date selector shows 'dom 04 oct' ACTIVE + SELECTED with bookable times 11:00 / 12:45.",
-   "via": "browser"
-  },
   "candlelight tribute to mecano|2026-10-04": {
    "act": "Candlelight: Tribute to Mecano",
    "date": "2026-10-04",
