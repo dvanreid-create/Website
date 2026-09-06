@@ -992,6 +992,13 @@
      "venue_name": "COUNTRY NIGHT",
      "note": "TIME ADDED 2026-09-01 by the daily click-test. SELLER-VERIFIED in the browser: onebox 58521 headers '20 de septiembre de 2026, 20:00' and its Sesiones tab lists 'DOM 20 SEP 20:00 ... Desde 15,00 €'. Site was showing 21:00."
     },
+    "shania twain dolly parton": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/58521",
+     "date": "20/09/2026",
+     "time": "20:00",
+     "venue_name": "COUNTRY NIGHT",
+     "note": "SURVIVAL KEY for Country Night, added 2026-09-06 — same reasoning as 'festival de rock bon jovi'. ADDITIVE: the 'country night' key above is kept and both carry 20:00 for 20/09/2026, so a tie is harmless. The bare 'country night' key survives most renames ('Country Night — Shania Twain, Dolly Parton & Kenny Rogers' still contains both words), but the seller subtitles this show 'Country Legends: Una Noche Inolvidable', so a rename to 'Country Legends — ...' would drop the word NIGHT and orphan that key, losing the seller-verified 20:00. Keying on two of the tribute artists covers every naming that lists them. LINE-UP VERIFIED 2026-09-06 from the seller page (Sofia's browser; Cloudflare blocks ours): 'tres de los artistas más importantes de la historia del country: Shania Twain, Dolly Parton y Kenny Rogers', and the poster reads 'TRES SHOWS INCREÍBLES · en homenaje a SHANIA TWAIN · KENNY ROGERS · DOLLY PARTON · APERTURA 19:00 h · SHOW 20:00 h'. That poster also re-confirms the 20:00 already recorded above, and shows doors at 19:00 — the 19:00 is DOORS, not the start, and must not be used as the event time."
+    },
     "la ultima fila": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/59305",
      "date": "25/09/2026",

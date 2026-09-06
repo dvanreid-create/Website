@@ -1,12 +1,13 @@
-=== tours_debug Sun Sep  6 08:05:37 PM UTC 2026 ===
-srchash=a5c3a66fc749f7115593bfc6e190b009
+=== tours_debug Sun Sep  6 09:01:39 PM UTC 2026 ===
+srchash=011a58aa4634985ff78eb8b65fa85084
 --- rebuild procs ---
-40336 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-40342 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-40378 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-40415 bash /app/orchestrator/tours_deploy.sh
+62734 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+62740 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+62777 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+62820 bash /app/orchestrator/tours_deploy.sh
+63227 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 2ae03daa1e4 Tours rebuild 2026-09-06T19:55:12Z [vps]
+HEAD is now at cf4a6e60322 Tours rebuild 2026-09-06T20:48:32Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [copycheck] 0 checked, 0 flagged -> tours_copy_drift_report.txt
@@ -16,9 +17,5 @@ HEAD is now at 2ae03daa1e4 Tours rebuild 2026-09-06T19:55:12Z [vps]
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [hotels-i18n] cache up to date (187 strings)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
-[ttk-i18n] cache up to date (84 strings)
-[tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
-[paco] seasonal couple image -> fall
-[bygo] gallery self-hosted images: 57 of 65
-Built 8 languages · 168 landing pages · 1217 tour pages · 28 guide pages · 1944 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1217 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+[ttk-i18n] batch @0 failed -> retry next run
+[ttk-i18n] translated 0 strings this run; 3 remain
