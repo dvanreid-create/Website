@@ -1,13 +1,13 @@
-=== tours_debug Sun Sep  6 02:29:34 AM UTC 2026 ===
-srchash=29e86140e925687ec4a4051dbc5fb38e
+=== tours_debug Sun Sep  6 02:45:41 AM UTC 2026 ===
+srchash=0d79eccbaf554623cf69d917fa3934b3
 --- rebuild procs ---
-4040022 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-4040028 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-4040062 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
-4040108 bash /app/orchestrator/tours_deploy.sh
-4040258 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
+4045246 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+4045252 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+4045286 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 worker bash /app/orchestrator/tours_deploy.sh
+4045306 bash /app/orchestrator/tours_deploy.sh
+4045494 python /app/runtime/Tools/agent/build_tours.py --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 6ad69f999e7 Tours rebuild 2026-09-06T02:22:19Z [vps]
+HEAD is now at 4398c911558 Tours rebuild 2026-09-06T02:32:59Z [vps]
 [tours] SKIP_SCRAPE=1 -> building from last-good inventory (no Fever/Viator refresh)
 [tours_copy] copy cache up to date
 [copycheck] 0 checked, 0 flagged -> tours_copy_drift_report.txt
