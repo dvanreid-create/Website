@@ -970,6 +970,14 @@
      "venue_name": "FESTIVAL DE ROCK (Night 2)",
      "note": "TIME CORRECTED 2026-09-01 to 19:30 (was 20:00, from a tourism agenda — the seller's own session picker is authoritative and onebox 51237 lists 'DOM 13 SEP 19:30 ... Desde 20,00 €', the 20,00 being the price). Browser-confirmed on the rendered Sesiones tab 2026-09-01. 13 Sep 2026 IS a Sunday. SEPARATE KEY, NOT A DUPLICATE: both nights carry the same act words, so one key could not address them individually. This key's extra words ('night 2') are a subset only of the second night's act name, and venue_time_override breaks ties towards the LONGEST matching key, so night 1 keeps the entry above and night 2 takes this one."
     },
+    "festival de rock bon jovi": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51237",
+     "date": "13/09/2026",
+     "time": "19:30",
+     "venue_name": "FESTIVAL DE ROCK (Night 2)",
+     "note": "SURVIVAL KEY for the second night, added 2026-09-06. ADDITIVE - the 'festival de rock night 2' key above is kept, and both carry 19:30 for 13/09/2026, so a tie between them is harmless. WHY IT EXISTS: source_calendar.py's MULTI-ACT BILLS rule renames this row to 'Festival de Rock — Bon Jovi & AC/DC' on the sweep, which DROPS the words 'night' and '2'. venue_time_override (build_site.py:474) needs the KEY's words to be a SUBSET of the act's, so at that moment the 'night 2' key stops matching and 13 Sep would silently lose its 19:30 and fall back to the wrong 21:00 corrected on 2026-09-01. This key uses the BAND names instead, which are the venue's own words and appear under BOTH namings: _eci_norm gives 'festival de rock bon jovi and ac dc' for the renamed row and '...night 2 bon jovi and ac dc' if '(Night 2)' is kept, and {festival,de,rock,bon,jovi} is a subset of both. LINE-UP VERIFIED 2026-09-06 on the seller's own INFORMACIÓN tab (Sofia's browser; Cloudflare blocks ours): '12 DE SEPTIEMBRE: LED ZEPPELIN & KISS' and '13 DE SEPTIEMBRE: BON JOVI & AC/DC', 'Dos noches. Cuatro leyendas.' The event poster (s3.amazonaws.com/onebox-repository/pro/1/2106/evento/51237/) names all four tributes and '12 Y 13 DE SEPTIEMBRE 19:30 h', independently confirming the time.",
+     "_night1_note": "Night 1 needs no equivalent: its key is the bare 'festival de rock', which stays a subset of 'Festival de Rock — Led Zeppelin & KISS', and its 12/09/2026 date guard keeps it off the 13th."
+    },
     "tributo a adele": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/59197",
      "date": "17/09/2026",
