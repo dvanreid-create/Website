@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Chambao",
-      "yt": "q1OqrXK-Fws",
-      "where": "6 Sep · Marenostrum, Fuengirola"
-    },
-    {
-      "act": "Hans Zimmer",
-      "yt": "YF1eYbfbH5k",
-      "where": "6 Sep · Hotel Miramar, Málaga"
-    },
-    {
       "act": "El Kuelgue",
       "yt": "IHRvx2GF90I",
       "where": "10 Sep · Sala París 15, Málaga"
@@ -39,6 +29,21 @@
       "act": "Mecano",
       "yt": "OwGG5fX7bxY",
       "where": "13 Sep · Gran Hotel Miramar, Málaga"
+    },
+    {
+      "act": "China Crisis",
+      "yt": "OHNB2L12tFw",
+      "where": "17 Sep · La Trinchera, Málaga"
+    },
+    {
+      "act": "Blanca Paloma",
+      "yt": "NGnEoSypBhE",
+      "where": "18 Sep · La Cochera Cabaret, Málaga"
+    },
+    {
+      "act": "Villano Antillano",
+      "yt": "8sf5OPyzdMM",
+      "where": "18 Sep · Sala París 15, Málaga"
     }
   ],
   "thumbs": {

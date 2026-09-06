@@ -536,45 +536,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-54d70da380f438ba.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Babies: Classic Sounds to Stimulate Little Minds",
-   "headBottom": true,
-   "expires": "2026-10-04",
-   "sub": {
-    "en": "Sun 4 Oct · Hotel Miramar · Málaga",
-    "es": "Dom 4 oct · Hotel Miramar · Málaga",
-    "de": "So 4 Okt · Hotel Miramar · Málaga",
-    "fr": "dim. 4 oct. · Hotel Miramar · Málaga",
-    "sv": "sön 4 okt · Hotel Miramar · Málaga",
-    "no": "søn 4 okt · Hotel Miramar · Málaga",
-    "da": "søn 4 okt · Hotel Miramar · Málaga",
-    "fi": "su 4 lokak. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=592280&u=https%3A%2F%2Ffeverup.com%2Fm%2F592280&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
