@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Thomas Helmig",
-      "yt": "QRd5blX8_k4",
-      "where": "5 Sep · Marbella Arena, Marbella"
-    },
-    {
-      "act": "Wisin",
-      "yt": "3X9wEwulYhk",
-      "where": "5 Sep · Starlite, Marbella"
-    },
-    {
       "act": "Chambao",
       "yt": "q1OqrXK-Fws",
       "where": "6 Sep · Marenostrum, Fuengirola"
@@ -52,9 +42,6 @@
     }
   ],
   "thumbs": {
-    "Thomas Helmig": "QRd5blX8_k4",
-    "Wisin + Melendi": "ULoXlXJOZOo",
-    "Candlelight Open Air: Tribute to Queen": "fJ9rUzIMcZQ",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Candlelight: Disney Love Songs": "eitDnP0_83k",
     "EMANERO TOUR 2026 in Malaga ( Sala Paris 15)": "SqS_xdeH1fY",
@@ -65,6 +52,7 @@
     "Miguel Ríos": "Rm-yZGvcf2U",
     "Miguel Rios": "Rm-yZGvcf2U",
     "Lola Indigo": "1pzK60N1Wqc",
+    "Thomas Helmig": "QRd5blX8_k4",
     "Emanero": "SqS_xdeH1fY",
     "Emanero Tour 2026 in Malaga ( Sala Paris 15)": "SqS_xdeH1fY"
   }

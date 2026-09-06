@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-05",
+ "generated": "2026-09-06",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 8,
-   "matched": 8,
-   "calendar_in_window": 9,
+   "mapped_in_window": 7,
+   "matched": 7,
+   "calendar_in_window": 8,
    "latest_mapped": "2026-09-27",
    "always_on": true,
    "verdict": "ok"
   },
   "starlite": {
    "venue": "Starlite Occident",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-05",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "quiet"
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 27,
-   "matched": 27,
-   "calendar_in_window": 26,
+   "mapped_in_window": 26,
+   "matched": 26,
+   "calendar_in_window": 25,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -177,19 +177,19 @@
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
    "matched": 0,
-   "calendar_in_window": 8,
+   "calendar_in_window": 7,
    "latest_mapped": "2026-08-23",
    "always_on": true,
    "verdict": "ok"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-05",
    "always_on": true,
-   "verdict": "ok"
+   "verdict": "STALE"
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
@@ -201,5 +201,7 @@
    "verdict": "ok"
   }
  },
- "problems": []
+ "problems": [
+  "marbella arena"
+ ]
 }

@@ -380,45 +380,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Open Air: Tribute to Queen",
-   "headBottom": true,
-   "expires": "2026-09-05",
-   "sub": {
-    "en": "Sat 5 Sep · Auditorio José Pernía Calderón · Marbella",
-    "es": "Sáb 5 sep · Auditorio José Pernía Calderón · Marbella",
-    "de": "Sa 5 Sep · Auditorio José Pernía Calderón · Marbella",
-    "fr": "sam. 5 sept. · Auditorio José Pernía Calderón · Marbella",
-    "sv": "lör 5 sep · Auditorio José Pernía Calderón · Marbella",
-    "no": "lør 5 sep · Auditorio José Pernía Calderón · Marbella",
-    "da": "lør 5 sep · Auditorio José Pernía Calderón · Marbella",
-    "fi": "la 5 syysk. · Auditorio José Pernía Calderón · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701689&u=https%3A%2F%2Ffeverup.com%2Fm%2F701689&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -446,45 +407,6 @@
     "fi": "su 6 syysk. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
-   "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Vivaldi's Four Seasons",
-   "headBottom": true,
-   "expires": "2026-09-06",
-   "sub": {
-    "en": "Sun 6 Sep · Hotel Miramar · Málaga",
-    "es": "Dom 6 sep · Hotel Miramar · Málaga",
-    "de": "So 6 Sep · Hotel Miramar · Málaga",
-    "fr": "dim. 6 sept. · Hotel Miramar · Málaga",
-    "sv": "sön 6 sep · Hotel Miramar · Málaga",
-    "no": "søn 6 sep · Hotel Miramar · Málaga",
-    "da": "søn 6 sep · Hotel Miramar · Málaga",
-    "fi": "su 6 syysk. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
