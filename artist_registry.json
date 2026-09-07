@@ -442,5 +442,85 @@
 "macaco-in-malaga": {
 "name": "Macaco in Malaga",
 "mles": 45.8
+},
+"motown-band": {
+"name": "Motown Band",
+"mles": 0.0
+},
+"the-children-of-queen": {
+"name": "The Children of Queen",
+"mles": 0.0
+},
+"the-killer-rockets": {
+"name": "The Killer Rockets",
+"mles": 45.0
+},
+"el-trio-del-saco": {
+"name": "El Trío del Saco",
+"mles": 51.0
+},
+"80ers": {
+"name": "80ERS",
+"mles": 47.3
+},
+"kerry-kenny-band": {
+"name": "Kerry Kenny Band",
+"mles": 47.3
+},
+"mystery-machine": {
+"name": "Mystery Machine",
+"mles": 46.7
+},
+"tyler-faraday-band": {
+"name": "Tyler Faraday Band",
+"mles": 43.8
+},
+"magicos-cabrones-del-ruido": {
+"name": "Mágicos Cabrones del Ruido",
+"mles": 46.7
+},
+"dan-shiva-da-machine": {
+"name": "Dan Shiva Da Machine",
+"mles": 49.5
+},
+"miami-curl-co": {
+"name": "Miami Curl Co.",
+"mles": 47.3
+},
+"maika-lavera": {
+"name": "Maika Lavera",
+"mles": 45.0
+},
+"the-hairbreakers": {
+"name": "The Hairbreakers",
+"mles": 50.9
+},
+"the-outsiders": {
+"name": "The Outsiders",
+"mles": 47.3
+},
+"capitan-wallace": {
+"name": "Capitán Wallace",
+"mles": 47.3
+},
+"fat-beat": {
+"name": "Fat Beat",
+"mles": 45.0
+},
+"top-secret": {
+"name": "Top Secret",
+"mles": 46.7
+},
+"stones-of-the-coast": {
+"name": "Stones of the Coast",
+"mles": 46.7
+},
+"sinverguenzas": {
+"name": "Sinvergüenzas",
+"mles": 46.7
+},
+"funkonauts": {
+"name": "Funkonauts",
+"mles": 43.8
 }
 }

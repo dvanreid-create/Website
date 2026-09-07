@@ -26,6 +26,53 @@
     ["merenranta-?auditorio", "auditorio"],
     ["Benalmádenan ranta-?auditorio", "Benalmádenan auditorio"]
    ]
+  },
+  {
+   "venue_match": "benalmadena",
+   "why": "NAME THE TRIBUTE ACTS. Added 2026-09-07 (Sofia). Three Benalmádena bills are sold on named tribute acts, but the sweep wrote the blurbs as 'con varios artistas' / 'across multiple acts' / 'med flera artister' — unsearchable, and useless to a reader deciding which of two consecutive nights to buy. source_calendar.py's MULTI-ACT BILLS rule is supposed to carry the names in `act` (and BLURB_SYSTEM would then inherit them), but the 2026-09-07 sweep did NOT apply it — the ticketer that names the acts is behind Cloudflare, and an LLM instruction is not a guarantee. These rules correct the prose deterministically until the rename lands. LINE-UPS VERIFIED 2026-09-06 on the seller's own INFORMACIÓN tab (Sofia's browser): 'FESTIVAL DE ROCK – 12 Y 13 DE SEPTIEMBRE. Dos noches. Cuatro leyendas.' / '12 DE SEPTIEMBRE: LED ZEPPELIN & KISS' / '13 DE SEPTIEMBRE: BON JOVI & AC/DC'; and for 20 Sep, 'tres de los artistas más importantes de la historia del country: Shania Twain, Dolly Parton y Kenny Rogers'. PATTERNS ARE DELIBERATELY LONG: 'con varios artistas' alone would also fire on Legends Night (3 Oct) and Rock & Pop Legends (16 Oct) at this same venue and name the wrong bands, so each pattern carries enough of its own sentence to be unique to that event. A rule that stops matching after a future sweep simply does not fire — it cannot corrupt a blurb.",
+   "rules": [
+    ["celebrando el rock con varios artistas", "celebrando el rock con los tributos a Led Zeppelin y KISS"],
+    ["celebrating rock across multiple acts", "celebrating rock with the Led Zeppelin and KISS tributes"],
+    ["voller Live-Musik mit Rock-Highlights", "voller Live-Musik mit den Tributen an Led Zeppelin und KISS"],
+    ["célébrant le rock avec plusieurs artistes", "célébrant le rock avec les hommages à Led Zeppelin et KISS"],
+    ["som hyllar rock med flera artister", "som hyllar rock med hyllningarna till Led Zeppelin och KISS"],
+    ["som feirer rock med flere artister", "som feirer rock med hyllestene til Led Zeppelin og KISS"],
+    ["der fejrer rock med flere kunstnere", "der fejrer rock med hyldesterne til Led Zeppelin og KISS"],
+    ["juhlistaa rockia useilla esiintyjillä", "juhlistaa rockia Led Zeppelin- ja KISS-tributeilla"],
+
+    ["La segunda noche del festival de rock", "La segunda noche del festival de rock, con los tributos a Bon Jovi y AC/DC,"],
+    ["Night two of the rock festival", "Night two of the rock festival, with the Bon Jovi and AC/DC tributes,"],
+    ["Die zweite Nacht des Rockfestivals", "Die zweite Nacht des Rockfestivals, mit den Tributen an Bon Jovi und AC/DC,"],
+    ["La deuxième nuit du festival de rock", "La deuxième nuit du festival de rock, avec les hommages à Bon Jovi et AC/DC,"],
+    ["Festivalens andra rocknatt", "Festivalens andra rocknatt, med hyllningarna till Bon Jovi och AC/DC,"],
+    ["Festivalens andre rocknatt", "Festivalens andre rocknatt, med hyllestene til Bon Jovi og AC/DC,"],
+    ["Festivalens anden rocknat", "Festivalens anden rocknat, med hyldesterne til Bon Jovi og AC/DC,"],
+    ["Rockfestivaalin toinen yö", "Rockfestivaalin toinen yö, Bon Jovi- ja AC/DC-tributeilla,"],
+
+    ["el espíritu más auténtico del country", "el espíritu más auténtico del country, con tributos a Shania Twain, Dolly Parton y Kenny Rogers,"],
+    ["the boot-stomping spirit of country", "the boot-stomping spirit of country, with tributes to Shania Twain, Dolly Parton and Kenny Rogers,"],
+    ["im echten Country-Geist", "im echten Country-Geist, mit Tributen an Shania Twain, Dolly Parton und Kenny Rogers,"],
+    ["célébrant l'esprit authentique du country", "célébrant l'esprit authentique du country, avec des hommages à Shania Twain, Dolly Parton et Kenny Rogers,"],
+    ["i äkta country-anda", "i äkta country-anda, med hyllningar till Shania Twain, Dolly Parton och Kenny Rogers,"],
+    ["i ekte country-ånd", "i ekte country-ånd, med hyllester til Shania Twain, Dolly Parton og Kenny Rogers,"],
+    ["i ægte country-ånd", "i ægte country-ånd, med hyldester til Shania Twain, Dolly Parton og Kenny Rogers,"],
+    ["aidossa country-hengessä", "aidossa country-hengessä, kunnianosoituksina Shania Twainille, Dolly Partonille ja Kenny Rogersille,"]
+   ]
+  },
+  {
+   "venue_match": "zz pub",
+   "free": false,
+   "why": "ZZ PUB IS NOT FREE. Added 2026-09-07 (Sofia). Every sweep writes the ZZ Pub nights as free — 'Música en vivo gratuita', 'Free live music', 'Kostenlose Live-Musik' — in all eight languages, and it is wrong in all eight. ZZ Pub's own September poster, quoted verbatim on zzpub.es/conciertos-en-malaga-septiembre-2026/, reads: 'Aforo limitado. Ocupar tu aforo 10€, excepto viernes y sábado 15€. Regalo 1 copa o 2 cervezas.' So entry is 10€ Sunday-Thursday and 15€ Friday and Saturday, each including a drink or two beers. Telling readers a paid night is free is the one error that makes someone turn up and be refused at the door. THESE RULES ONLY STRIP THE FALSE CLAIM — they deliberately do NOT write a number into the blurb, because a single venue-wide rule cannot know which day a row falls on, and a flat '10€' would be wrong on the six Friday/Saturday dates still to come this month (11, 12, 18, 19, 25, 26 Sep). The price belongs in the card's own price pill, which is driven by the row's `free` flag, NOT here. Swedish and Danish share the identical opening 'Gratis livemusik' and take the same replacement, which is harmless since the corrected word is identical in both.",
+   "rules": [
+    ["Música en vivo gratuita", "Música en vivo"],
+    ["Música en directo gratuita", "Música en directo"],
+    ["Free live music", "Live music"],
+    ["Kostenlose Live-Musik", "Live-Musik"],
+    ["Musique live gratuite", "Musique live"],
+    ["Gratis livemusikk", "Livemusikk"],
+    ["Gratis livemusik", "Livemusik"],
+    ["Ilmaista livemusiikkia", "Livemusiikkia"]
+   ]
   }
  ]
 }
