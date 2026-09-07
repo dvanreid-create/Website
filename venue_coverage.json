@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06",
+ "generated": "2026-09-07",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
    "mapped_in_window": 7,
    "matched": 7,
-   "calendar_in_window": 8,
+   "calendar_in_window": 7,
    "latest_mapped": "2026-09-27",
    "always_on": true,
    "verdict": "ok"
@@ -22,9 +22,9 @@
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
-   "mapped_in_window": 2,
-   "matched": 2,
-   "calendar_in_window": 2,
+   "mapped_in_window": 1,
+   "matched": 1,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-12",
    "always_on": false,
    "verdict": "ok"
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 26,
-   "matched": 26,
-   "calendar_in_window": 25,
+   "mapped_in_window": 25,
+   "matched": 25,
+   "calendar_in_window": 24,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
