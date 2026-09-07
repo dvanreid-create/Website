@@ -3367,16 +3367,16 @@
     }
   },
   "viator:37956P2": {
-    "h": "c0b1f8e20d4f849d7bc6962a9f43e2e4",
+    "h": "c7288e432b9eb58be890768e120ad16a",
     "names": {
-      "en": "Málaga: Private Sightseeing Treasure Hunt",
-      "es": "Málaga: Búsqueda del Tesoro Turística Privada",
-      "de": "Málaga: Private Sightseeing-Schatzsuche",
-      "fr": "Málaga : chasse au trésor privée à la découverte de la ville",
-      "sv": "Málaga: Privat skattjakt med sightseeing",
-      "no": "Málaga: privat sightseeing-skattejakt",
-      "da": "Málaga: Privat skattejagt med seværdigheder",
-      "fi": "Málaga: yksityinen nähtävyyksien aarrejahti"
+      "en": "Private Self-Guided Málaga Treasure Hunt with GPS",
+      "es": "Búsqueda del Tesoro Privada Autoguiada en Málaga con GPS",
+      "de": "Private geführte Málaga-Schatzsuche mit GPS (auf eigene Faust)",
+      "fr": "Chasse au Trésor Privée en Autonomie à Malaga avec GPS",
+      "sv": "Privat Självguidad Skattjakt i Málaga med GPS",
+      "no": "Privat selvguidet skattejakt i Malaga med GPS",
+      "da": "Privat selvguidet skattejagt i Málaga med GPS",
+      "fi": "Yksityinen omatoiminen Málagan aarteenmetsästys GPS:llä"
     }
   },
   "viator:18583P4": {
@@ -18067,6 +18067,32 @@
       "no": "Historie og akvarell over Malaga",
       "da": "Historie og akvarelmaleri over Malaga",
       "fi": "Historiaa ja akvarelleja Malagan yllä"
+    }
+  },
+  "viator:37956P6": {
+    "h": "b24aad0826b24f502aa9fd68968391b7",
+    "names": {
+      "en": "Private Málaga Hen Party & Bachelorette Treasure Hunt",
+      "es": "Despedida de Soltera Privada en Málaga: Búsqueda del Tesoro",
+      "de": "Private Málaga Junggesellinnenabschied-Schatzsuche",
+      "fr": "Chasse au Trésor Privée pour Enterrement de Vie de Jeune Fille à Malaga",
+      "sv": "Privat Möhippa & Svensexa Skattjakt i Málaga",
+      "no": "Privat utdrikningslag skattejakt i Malaga",
+      "da": "Privat polterabend & bachelorette skattejagt i Málaga",
+      "fi": "Yksityinen Málagan polttarit – aarteenmetsästys"
+    }
+  },
+  "viator:37956P5": {
+    "h": "add5b58e07776a37ab569be954364a2a",
+    "names": {
+      "en": "Private Málaga Team-Building Treasure Hunt Challenge",
+      "es": "Reto Privado de Búsqueda del Tesoro para Team Building en Málaga",
+      "de": "Private Málaga Teambuilding-Schatzsuche-Challenge",
+      "fr": "Chasse au Trésor Privée en Team Building à Malaga",
+      "sv": "Privat Skattjaktsutmaning för Teambuilding i Málaga",
+      "no": "Privat teambuilding skattejakt-utfordring i Malaga",
+      "da": "Privat teambuilding skattejagtsudfordring i Málaga",
+      "fi": "Yksityinen Málagan tiimin rakentamisen aarteenmetsästyshaaste"
     }
   }
 }

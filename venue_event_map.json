@@ -1921,51 +1921,24 @@
    }
   },
   "trinchera": {
-   "source": "https://mutick.com/v/sala-la-trinchera",
+   "source": "https://mutick.com/l/malaga",
    "complete": true,
    "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep. KEY RENAMED 2026-08-10 'sala trinchera' -> 'trinchera'. _venue_lookup() matches only when the KEY IS A SUBSTRING of the normalised venue name or URL. The venue calls itself 'Sala LA Trinchera', and 'sala trinchera' is NOT a substring of 'sala la trinchera' - so this block could never match anything, no matter what was in it. Bare 'trinchera' matches every spelling and the mutick slug sala-la-trinchera too. AUTO-REFRESH ADDED 2026-08-10: refresh_venue_map.py now rescrapes this block every Monday from mutick.com/l/malaga - the CITY-scoped page, never mutick as a whole, because mutick is a national Madrid-based platform and a site-wide scrape would drag in Madrid listings. Rows are kept only when the card names 'trinchera', so the same city page can serve other Malaga venues later. After the first refresh 'source' above will read /l/malaga (what is actually scraped) rather than the venue page. COMPLETE FLIPPED TO TRUE 2026-08-10 (Sofia: 'as long as China Crisis appears in the event list'). complete:false could not deliver that - backfill only injects from complete venues, so the listing depended entirely on the LLM sweep, which this codebase documents as intermittently dropping whole venues. True makes injection DETERMINISTIC. The price of that is the phantom gate: a Trinchera show that is NOT on mutick and that the sweep finds elsewhere would now be dropped as 'not on trinchera's own programme'. Judged acceptable because mutick IS the venue's ticketer and refresh_venue_map.py now re-reads it every Monday, so the list cannot go stale. To reverse, set complete back to false - one word. | 2026-08-20: gate:false ADDED. complete:true stays (injection stays deterministic), but the phantom gate is switched OFF for this block because mutick lists only the shows IT sells: Damian Cordoba (3 Sep, Sala Trinchera) sells through movingtickets.com, was therefore absent from the Monday mutick refresh, and was phantom-deleted off the live site even though the seller page is live at 27,50 EUR. gate:false removes the delete power without touching injection.",
    "acts": {
     "china crisis": {
      "url": "https://mutick.com/e/entradas-china-crisis-malaga-2",
      "date": "17/09/2026",
-     "venue_name": "China Crisis (UK)",
-     "genre": "Pop"
+     "venue_name": "CHINA CRISIS (UK)"
     },
     "the silencers": {
      "url": "https://mutick.com/e/entradas-the-silencers-malaga-2",
      "date": "15/10/2026",
-     "venue_name": "The Silencers (UK)",
-     "genre": "Rock & Indie"
+     "venue_name": "The SILENCERS (UK)"
     },
     "clearwater creedence revival": {
      "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
      "date": "29/11/2026",
-     "venue_name": "Clearwater Creedence Revival (UK&USA)",
-     "genre": "Tribute"
-    },
-    "damian cordoba": {
-     "url": "https://movingtickets.com/Entradas-Damian-Cordoba-concierto-Sala-Trinchera-Malaga/",
-     "date": "03/09/2026",
-     "time": "20:30",
-     "venue_name": "Damian Cordoba",
-     "genre": "Flamenco",
-     "why": "BROWSER-CONFIRMED 2026-08-20: movingtickets 'Damian Cordoba en Sala Trinchera', SALA TRINCHERA C. Parauta 25 Malaga, doors 20:30, 25,00 EUR + 2,50 g.g = 27,50 EUR. NOT on mutick, so refresh_venue_map.py's Monday rescrape will not re-create this row — if it disappears again, re-add it here."
-    },
-    "perota chingo": {
-     "url": "https://www.entradas.com/en/event/perota-chingo-sala-la-trinchera-21748743/",
-     "date": "30/09/2026",
-     "time": "21:00",
-     "venue_name": "Perotá Chingó",
-     "genre": "Rock & Indie",
-     "why": "ADDED 2026-09-01 by the daily click-test: this show was IN-WINDOW on entradas.com and ABSENT from the live site, i.e. lost commission at a paying seller. BROWSER-CONFIRMED: entradas.com renders 'PEROTÁ CHINGÓ, Wednesday, 30/09/2026 | 21:00, Sala La Trinchera | Calle Parauta, 25 | 29006 Málaga', General Admission 27.50 EUR, 'Add to shopping cart 2 tickets, 55.00 EUR'. Seller choice: mutick.com/v/sala-la-trinchera lists only China Crisis (17 Sep), The Silencers (15 Oct) and Clearwater Creedence Revival (29 Nov) — it does NOT sell this night — so entradas.com is both the only seller found and a paying one (Awin mid 24761; build_site.entradas_aff wraps the raw URL at build time, which is why the URL here is unwrapped). WHY THIS ROW IS FRAGILE: refresh_venue_map.py rebuilds blk['acts'] for the 'trinchera' key WHOLESALE from mutick every Monday, and Perotá Chingó is not on mutick — same trap as Damián Córdoba above. It is entered here anyway because 'trinchera' is the key backfill_calendar.WHITELIST iterates, so this block is the ONLY one that can inject the row; a duplicate link-override entry sits in the 'la trinchera' block (which nothing rewrites) so the DESTINATION survives a rescrape even if the injection does not. If the card vanishes after a Monday, re-add it here."
-    },
-    "macaco": {
-     "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=652051&u=https%3A%2F%2Ffeverup.com%2Fm%2F652051&intsrc=CATF_15532",
-     "date": "03/10/2026",
-     "time": "21:00",
-     "venue_name": "Macaco",
-     "genre": "Latin",
-     "why": "ADDED 2026-09-04 after DLR reported 'Macaco 03/10/2026 — link shows a different date'. TWO defects found. (1) MISSING EVENT: 3 Oct is INSIDE the 30-day window from today (04/09/2026) yet Macaco appeared NOWHERE on the live site — checked /en/, /es/, /en/free/, all eight live city pages and sitemap.xml, zero hits — so a 6%-paying Fever night was being lost entirely. (2) WRONG-DATE LINK: Fever files this tour as SEQUENTIAL per-city SKUs — 652051 Málaga 03/10, 652053 Valencia 20/11, 652054 Barcelona 13/02, 652055 Zaragoza 25/02, 652056 Madrid 25/02, 652057 Bilbao 04/04 (all six enumerated from conciertos.club/artistas/macaco) — plus an artist hub at feverup.com/music/en/artist/5fe1295a-macaco that lists EVERY tour date. Any of those neighbours renders 'Macaco' with a date that is not ours, which is exactly the symptom reported; build_site._is_deep already treats /artist/ hubs as upgradeable, so pinning the single-event SKU here is the durable fix. CONFIRMED on the seller's own page 2026-09-04: feverup.com/m/652051/en is 'Macaco in Málaga', '📅 Date: 3rd October 2026', doors 20:00 / concert 21:00, venue La Trinchera Malaga (Calle Parauta 25, 29006), and its own 'Select date and session' picker offers ONE bookable session — 'Sat 03 Oct, 9:00 PM, General admission, €25.00' with a live Tickets control. Not sold out, not a listing, not a different event. Cross-checked against two independent sellers that agree on act+date+venue: conciertos.club (S3/10/26 21:00, Sala Trinchera, 25€) and tomaticket.es ('Macaco en Málaga, Sábado 03 Octubre', La Trinchera). EVIDENCE GRADE: first read from the server-rendered page via fetch while Claude in Chrome was offline, then RE-CONFIRMED IN THE BROWSER the same day once the extension came back — the rendered page shows picker 'Select date and session / Sat 03 Oct / 9:00 PM / General admission / EUR25.00 / Tickets', not sold out. The Fever date-chip rule is satisfied on a real browser render. SELLER CHOICE: Fever is the ONLY seller found for this night and it is a paying one (Impact 6%), so there is no cheaper-non-payer trade-off to make here; tomaticket also lists it but pays nothing. URL IS PRE-WRAPPED (unlike the entradas.com row above) because nothing in build_site.py wraps Fever — the Impact template is applied upstream by fever_scrape.aff_link, which a map-injected row does not necessarily pass through; the template is the standard publisher-7440720 one and is idempotent. WHY THIS ROW IS FRAGILE: same Monday trap as Damián Córdoba and Perotá Chingó — refresh_venue_map.py rebuilds this block's acts wholesale from mutick and Macaco is not on mutick, so a duplicate link-override sits in the 'la trinchera' block. If the card vanishes after a Monday, re-add it here."
+     "venue_name": "Clearwater Creedence Revival (UK&USA)"
     }
    },
    "gate": false
