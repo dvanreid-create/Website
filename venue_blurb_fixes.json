@@ -71,7 +71,17 @@
     ["Musique live gratuite", "Musique live"],
     ["Gratis livemusikk", "Livemusikk"],
     ["Gratis livemusik", "Livemusik"],
-    ["Ilmaista livemusiikkia", "Livemusiikkia"]
+    ["Ilmaista livemusiikkia", "Livemusiikkia"],
+
+    ["\\s+gratuit[ao]s?\\b", ""],
+    ["\\s+gratis\\b", ""],
+    ["\\bgratis\\s+", ""],
+    ["\\bfree\\s+", ""],
+    ["\\s+kostenlos(e[srnm]?)?\\b", ""],
+    ["\\bkostenlos(e[srnm]?)?\\s+", ""],
+    ["\\s+gratuite?s?\\b", ""],
+    ["\\bilmai(nen|sta|sia|set|sen|s)\\w*\\s+", ""],
+    ["\\s+ilmai(nen|sta|sia|set|sen|s)\\w*\\b", ""]
    ]
   }
  ]
