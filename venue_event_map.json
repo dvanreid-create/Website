@@ -1032,6 +1032,15 @@
      "date": "10/07/2026",
      "venue_name": "El Brujo (10-12 Jul, past)"
     },
+    "carmen linares": {
+     "url": "https://checkoutentradas2.elcorteingles.es/eci_teatrodelsoho/events/58453",
+     "prefer": "map",
+     "date": "12/09/2026",
+     "time": "20:00",
+     "venue_name": "Carmen Linares - Antología 30 Aniversario",
+     "genre": "Flamenco",
+     "why": "BROWSER-CONFIRMED 2026-09-08: the Soho's ECI-powered box office event 58453 shows Sesiones 'SÁB 12 SEP 20:00, Teatro del Soho CaixaBank, Desde 30,00 €, Comprar ahora'. IN WINDOW and ON SALE but absent from the live site."
+    },
     "chungo": {
      "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-55503555033087-soho_onebox-channel",
      "date": "05/10/2026",
@@ -1268,6 +1277,24 @@
    "complete": false,
    "note": "Teatro Cervantes, main public theatre in Málaga city (Procultura Málaga). Also hosts the Terral outdoor summer festival (typically June). Same organisation manages Teatro Echegaray (see that entry). Website is JS-rendered — refresh_venue_map.py needs browser tools to scrape. Added 2026-07-27 as stub for link upgrading; no in-window ticketed events confirmed. | LINK-OVERRIDE ACTS ADDED 2026-09-01 by the daily click-test. THE TRAP THIS FIXES: the theatre publishes each show at BOTH /es/espectaculo/<slug>-<id> and /es/genero/<genre>/<season>/<slug>-<id>, and ONLY the second path resolves — the /es/espectaculo/ form 302s to the theatre HOMEPAGE, so a card carrying it looks fine to a link checker (HTTP 200, real title) while sending the reader to a season index. Both acts below therefore carry prefer:'map' so the map URL wins over the calendar's own deep link. The URLs are the theatre's OWN ticketer, unientradas.es (janto family), which is where the site's 'Comprar entradas' buttons go — one hop closer to the basket than the venue page and it renders the date + seat map + 'Ver precios' directly. NO PAYING SELLER EXISTS for either show: entradas.com's malaga-490 / benalmadena-9255 / estepona-2322 listings carry neither, El Corte Inglés lists neither, and Ticketmaster has no Málaga date — so routing to a non-earning box office is forced, not chosen. Keep 'source' on the STABLE season index, never a dated page.",
    "acts": {
+    "antonio sanchez birdman live": {
+     "url": "https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma",
+     "prefer": "map",
+     "date": "14/09/2026",
+     "time": "20:00",
+     "venue_name": "Antonio Sánchez 'Birdman Live'",
+     "genre": "Jazz & Soul",
+     "why": "BROWSER-CONFIRMED 2026-09-08: teatrocervantes.com's own COMPRAR ENTRADAS button for this show points at unientradas 26-27AntonBirdma, which renders 'Lunes 14/09/2026 20:00 TEATRO CERVANTES' with Ver precios from 36,86 EUR. Recorded on the unientradas deep link, not the teatrocervantes page, because teatrocervantes.com is the silent-302 class (HTTP 200 + real title while redirecting to the theatre homepage) that already cost Ocean Colour Scene and Malú. The show is IN WINDOW and ON SALE but absent from the live site; 'teatro cervantes' is not on backfill_calendar.py's WHITELIST, so this map entry cannot inject it - it upgrades the link if the sweep finds the show, and is on record for a human ruling on the WHITELIST."
+    },
+    "jose merce": {
+     "url": "https://www.unientradas.es/es/espectaculo/jose-merce/26-27MerceJoseMa",
+     "prefer": "map",
+     "date": "03/10/2026",
+     "time": "20:00",
+     "venue_name": "José Mercé",
+     "genre": "Flamenco",
+     "why": "BROWSER-CONFIRMED 2026-09-08: teatrocervantes.com bills 'sábado 3 octubre 20.00 h' and its COMPRAR ENTRADAS points at unientradas 26-27MerceJoseMa, which renders 'Sábado 03/10/2026 20:00 TEATRO CERVANTES' with price tiers 18,43 to 88,06 EUR. Same silent-302 reasoning as Ocean Colour Scene. IN WINDOW and ON SALE but absent from the live site; venue not on the backfill WHITELIST."
+    },
     "ocean colour scene": {
      "url": "https://www.unientradas.es/es/espectaculo/ocean-colour-scene-in-concert/26-27OceanColour",
      "prefer": "map",
@@ -1895,6 +1922,15 @@
    "gate": false,
    "note": "LINK-OVERRIDE BLOCK, added 2026-08-31 — do NOT reorder, do NOT rename. WHY IT EXISTS: Sofía Ellar (25/09/2026, Sala La Trinchera) was dropped overnight as 'link goes to a different event'. She is REAL and ON SALE, but she does NOT sell through mutick, and the 'trinchera' block directly below is rewritten WHOLESALE from mutick.com/l/malaga every Monday by refresh_venue_map.py (it replaces blk['acts'] entirely), so an act typed into it by hand survives at most until the next refresh — that is the same trap documented in the 'cartel malaga' note. The key 'la trinchera' is NOT in refresh_venue_map.VENUES (which uses bare 'trinchera'), so nothing rewrites this block. ORDER MATTERS: it must stay ABOVE 'trinchera' — _venue_lookup returns the FIRST block whose key is a substring of the normalised venue, and 'trinchera' also matches 'sala la trinchera'. KNOWN AND ACCEPTED COST OF THAT: while this block sits first, a Trinchera row whose act is not listed here resolves to (key, None) and no longer picks up the mutick-derived url from the block below — harmless today (China Crisis already ships its own deep mutick link, and Damian Cordoba is captured earlier by the 'cartel malaga' block), and it cannot delete anything because complete:false and gate:false. TO RETIRE: delete this whole block once 25/09/2026 has passed, which restores the plain 'trinchera' behaviour. SELLER CHOICE, affiliates first (checked in Chrome 2026-08-31): entradas.com search for 'sofia ellar' returns no Málaga date; El Corte Inglés lists her only for Fuengirola and Sevilla, not this night; mutick.com/l/malaga carries only China Crisis, The Silencers and Clearwater Creedence Revival. No paying seller sells this night, so it routes to the box-office ticketer, which earns nothing and is the right destination anyway. DESTINATION BROWSER-CONFIRMED 2026-08-31: tomaticket.es shows 'Sofia Ellar en Málaga, 25/09/2026, Sala Trinchera, C. Parauta 25, 29006 Málaga', 'Viernes 25 de Septiembre de 2026', with a live 'COMPRAR ENTRADAS - DESDE: 27,50 €' control. tomaticket.es is already in trusted_hosts. prefer:'map' because the calendar's own link is deep and rule 2 would otherwise leave the wrong page in place.",
    "acts": {
+    "fully alive fest": {
+     "url": "https://www.taquilla.com/entradas/fully-alive-fest",
+     "prefer": "map",
+     "date": "12/09/2026",
+     "time": "20:00",
+     "venue_name": "Fully Alive Fest",
+     "genre": "Rock & Indie",
+     "why": "BROWSER-CONFIRMED 2026-09-08: taquilla.com renders 'FULLY ALIVE FEST, Sala La Trinchera, Málaga, Sábado 12 Sep, 20:00, desde 18,00€' with a Ver Oferta control. IN WINDOW and ON SALE but absent from the live site. Kept out of the auto-refreshed 'trinchera' block (rewritten every Monday from mutick, which does not sell this show) and put in the hand-maintained 'la trinchera' block instead."
+    },
     "sofia ellar": {
      "url": "https://www.tomaticket.es/es-es/entradas-sofia-ellar-en-malaga",
      "prefer": "map",

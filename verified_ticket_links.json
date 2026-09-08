@@ -892,8 +892,8 @@
    "expect": [
     "apulanta"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: janto renders 'APULANTA, 12 September 2026, MARENOSTRUM FUENGIROLA' with 'View prices' and the General / Frontstage / PMR seat map.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: janto: APULANTA, 12 September 2026, MARENOSTRUM FUENGIROLA, View prices 60,50/71,50 EUR + Continue.",
    "via": "browser"
   },
   "galvan real gira 10o aniversario|2026-08-21": {
@@ -997,8 +997,8 @@
     "china",
     "crisis"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02 - see 'china crisis|2026-09-17'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: mutick: 17 SEP 2026 20:00 Sala La Trinchera, Comprar entradas.",
    "via": "browser"
   },
   "china crisis|2026-09-17": {
@@ -1009,8 +1009,8 @@
     "china",
     "crisis"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: mutick renders 'CHINA CRISIS (UK) en Malaga, 17 SEP 2026 20:00, Sala La Trinchera', Desde 28,00 EUR with a live 'Comprar entradas'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: mutick: 17 SEP 2026 20:00 Sala La Trinchera, Comprar entradas.",
    "via": "browser"
   },
   "inna|2026-08-22": {
@@ -1052,8 +1052,8 @@
    "expect": [
     "emanero"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: Fever 570333 'EMANERO TOUR 2026 en Malaga (Sala Paris 15)' date selector shows 'sab 12 sept' with meet-and-greet 90,00 EUR and early-entry tiers on sale. KEPT ON FEVER although entradas.com also sells the night ('Emanero - Todo por un beso - Malaga', 12/09/2026 21:00): Fever pays 6% against Awin's lower rate, and the standing ruling on the duplicate 12 Sep Emanero rows is KEEP FEVER.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 570333 date selector: sab 12 sept, sessions on sale.",
    "via": "browser"
   },
   "candlelight the best of the 80s|2026-09-13": {
@@ -1064,8 +1064,20 @@
     "candlelight",
     "80"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: Fever 643699 'Candlelight: Lo Mejor de los 80' date selector offers 'dom 13 sept' (plus 18 oct); the 21:00 session sells Zona D 17,00 through Zona A 40,00 EUR.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 643699 chips dom 13 sept / 18 oct / 06 dic; 21:00 Zona C 27,00 to Zona A 40,00 EUR on sale.",
+   "via": "browser"
+  },
+  "candlelight disney love songs|2026-09-20": {
+   "act": "Candlelight: Disney Love Songs",
+   "date": "2026-09-20",
+   "url": "https://feverup.com/m/646736",
+   "expect": [
+    "candlelight",
+    "disney"
+   ],
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 646736 'Candlelight: Disney Canciones de Amor' date selector offers 'dom 20 sept' (10 sept greyed out); the 21:00 session sells Zona B 39,50 and Zona A 41,50 EUR (Zona D 22,50 and Zona C 36,50 Agotado) with a '39,50 EUR - Comprar ahora' control. NOTE the site card says 19:00; Fever's only 20 Sep session is 21:00.",
    "via": "browser"
   },
   "candlelight tribute to mecano|2026-09-13": {
@@ -1382,8 +1394,8 @@
    "expect": [
     "kuelgue"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: DICE renders 'El Kuelgue, Sala Paris 15, Thu, Sep 10, 8:00 PM GMT+2, Malaga, From 27,54 EUR' with the buy control beside the price.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: DICE 'El Kuelgue Tickets | Sep 10 | Sala Paris 15, Malaga', From 27,54 EUR buy control.",
    "via": "browser"
   },
   "el amir alma flamenca festival internacional de guitarra pepe romero|2026-09-11": {
@@ -1394,8 +1406,9 @@
     "amir",
     "flamenca"
    ],
-   "verified": "2026-08-30",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: mientrada.net: 11 septiembre 2026 19:30, Sala Fundacion Unicaja Maria Cristina, 10 EUR, COMPRAR ENTRADAS. ON SALE but NOT on the live site."
   },
   "descemer bueno|2027-03-07": {
    "act": "Descemer Bueno",
@@ -1417,8 +1430,9 @@
     "fully",
     "alive"
    ],
-   "verified": "2026-08-30",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: taquilla.com: Sabado 12 Sep 20:00 Sala La Trinchera, desde 18,00 EUR, Ver Oferta. ON SALE but NOT on the live site."
   },
   "carmen linares|2026-09-12": {
    "act": "Carmen Linares",
@@ -1428,8 +1442,9 @@
     "carmen",
     "linares"
    ],
-   "verified": "2026-08-25",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: ECI Soho box office 58453 Sesiones: SAB 12 SEP 20:00 Teatro del Soho CaixaBank, desde 30,00 EUR, Comprar ahora. ON SALE but NOT on the live site."
   },
   "emanero tour 2026|2026-09-12": {
    "act": "Emanero Tour 2026",
@@ -1438,8 +1453,9 @@
    "expect": [
     "emanero"
    ],
-   "verified": "2026-09-07",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 570333 date selector: sab 12 sept, sessions on sale."
   },
   "macaco|2026-10-03": {
    "act": "Macaco",
@@ -1449,8 +1465,8 @@
     "macaco",
     "malaga"
    ],
-   "verified": "2026-09-07",
-   "why": "CONFIRMED 2026-09-04 on the seller's own page: feverup.com/m/652051/en is 'Macaco in Málaga', '📅 Date: 3rd October 2026', doors 20:00 / concert 21:00, La Trinchera Malaga (Calle Parauta 25, 29006), and its 'Select date and session' picker offers ONE bookable session — 'Sat 03 Oct, 9:00 PM, General admission, €25.00' — with a live Tickets control. Not sold out, not a listing, not a different event. Added in response to DLR's report that the Macaco link showed a different date: Fever files this tour as sequential per-city SKUs (652053 Valencia, 652054 Barcelona, 652055 Zaragoza, 652056 Madrid, 652057 Bilbao) plus an artist hub listing every tour date, so a neighbouring SKU or the hub renders 'Macaco' under the wrong date. 652051 is the only SKU that is our night. Cross-checked against conciertos.club (S3/10/26 21:00, Sala Trinchera, 25€) and tomaticket.es ('Macaco en Málaga, Sábado 03 Octubre', La Trinchera), which agree on act, date and venue. Fever is the only seller found for this night and it pays (Impact 6%); tomaticket lists it but pays nothing, so there is no cheaper-non-payer trade-off. NOTE ON EVIDENCE GRADE: via is 'fetch', not 'browser' — Claude in Chrome was offline and the in-app browser is denied every seller origin — but the date-session picker is present in the server-rendered HTML, so the Fever date-chip rule is satisfied on the seller's own markup rather than inferred from page-body text. Re-confirm in a browser on the next run that has one.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 652051: sab 03 oct 21:00, Entrada general 25,00 EUR, Comprar ahora.",
    "via": "browser"
   },
   "festival de rock|2026-09-12": {
@@ -1461,8 +1477,8 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 51237 Sesiones lists 'SAB 12 SEP 19:30 ... Desde 20,00 EUR, Comprar ahora'. Cheaper than entradas.com's 22,00 EUR for the same night, so it stays on the box office per DLR 2026-08-29.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: SAB 12 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
   "festival de rock 2a noche|2026-09-13": {
@@ -1473,21 +1489,22 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-07",
-   "why": "See 'festival de rock night 2|2026-09-13' - re-checked 2026-09-02.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: DOM 13 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
   "antonio sanchez birdman live mosma reloaded|2026-09-14": {
    "act": "Antonio Sánchez – Birdman Live (MOSMA Reloaded)",
    "date": "2026-09-14",
-   "url": "https://www.teatrocervantes.com/es/genero/musica/mosma-2026-27/antonio-sanchez-birdman-live-2322",
+   "url": "https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma",
    "expect": [
     "antonio",
     "sanchez",
     "birdman"
    ],
-   "verified": "2026-08-30",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27AntonBirdma: Lunes 14/09/2026 20:00 TEATRO CERVANTES, Ver precios from 36,86 EUR. MOVED OFF teatrocervantes.com (silent-302 class, same as Ocean Colour Scene / Malu) onto the venue's own COMPRAR ENTRADAS destination. ON SALE but NOT on the live site."
   },
   "tributo a adele|2026-09-17": {
    "act": "Tributo a Adele",
@@ -1497,8 +1514,8 @@
     "tributo",
     "adele"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 59197 renders 'TRIBUTO A ADELE, 17 de septiembre de 2026' and Sesiones 'JUE 17 SEP 21:30 ... Desde 15,00 EUR, Comprar ahora'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 59197: 17 de septiembre de 2026 21:30, Comprar ahora.",
    "via": "browser"
   },
   "villano antillano|2026-09-18": {
@@ -1520,8 +1537,9 @@
     "villalobos",
     "sophie"
    ],
-   "verified": "2026-08-30",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, tickets from 25,50 EUR. ON SALE but NOT on the live site."
   },
   "k beat fest 2026 p1harmony kard shaun young posse xlov|2026-09-19": {
    "act": "K-Beat Fest 2026 (P1Harmony, KARD, SHAUN, Young Posse, XLOV)",
@@ -1532,8 +1550,9 @@
     "fest",
     "kard"
    ],
-   "verified": "2026-08-30",
-   "via": "browser"
+   "verified": "2026-09-08",
+   "via": "browser",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Ticketmaster.es 432310294: Sat 19 Sept 2026 16:30, Auditorio Mpal Cortijo de Torres Malaga, live seat map. PAYING SELLER, ON SALE, but NOT on the live site."
   },
   "perdido en los 80|2026-09-19": {
    "act": "Perdido en los 80",
@@ -1554,8 +1573,8 @@
     "country",
     "night"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02 - see 'country night|2026-09-20'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58521: 20 de septiembre de 2026 20:00, Comprar ahora.",
    "via": "browser"
   },
   "canela party 2026 dia 1 unknown mortal orchestra melody s echo chamber nation of language mannequin pussy more|2026-08-27": {
@@ -1577,8 +1596,8 @@
     "jakob",
     "dreyer"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../jakob-dreyer-quartet/ returns 200, titled 'Jakob Dreyer Project Feat Roman Filiu', dated 18/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub jakob-dreyer-quartet: VIE 18 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "asys quartet|2026-09-19": {
@@ -1589,8 +1608,8 @@
     "asys",
     "quartet"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../asys-quartet/ returns 200, dated 19/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub asys-quartet: SAB 19 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "soul on fire|2026-09-18": {
@@ -1601,8 +1620,8 @@
     "soul",
     "fire"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 51226 Sesiones lists three separate sessions and the first is 'VIE 18 SEP 20:00 ... Desde 15,00 EUR, Comprar ahora' (the others are 24 Oct and 27 Nov). Cheaper than entradas.com's 22,00 EUR, so it stays on the box office.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51226 Sesiones: VIE 18 SEP 20:00, desde 15,00 EUR, Comprar ahora.",
    "via": "browser"
   },
   "blues jam session|2026-09-16": {
@@ -1613,8 +1632,8 @@
     "blues",
     "jam"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../blues-jam-session-143/ renders 'BLUES JAM SESSION, MIE 16 SEP, HORARIO 22:00'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub blues-jam-session-143: MIE 16 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "jazz jam session con clarence jazz band|2026-09-17": {
@@ -1625,9 +1644,10 @@
     "jazz",
     "jam"
    ],
-   "verified": "2026-09-07",
+   "verified": "2026-09-08",
    "via": "browser",
-   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub jazz-jam-session-302: JUE 17 SEP, HORARIO 22:00."
   },
   "jazz jam session|2026-09-17": {
    "act": "Jazz Jam Session",
@@ -1637,8 +1657,8 @@
     "jazz",
     "jam"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: clarencejazzclub.com/wp/events/jazz-jam-session-302/ returns 200 and dates itself 17/09/2026. Free listing - no commission, repaired to the same standard.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub jazz-jam-session-302: JUE 17 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "blues jam session|2026-09-23": {
@@ -1649,8 +1669,8 @@
     "blues",
     "jam"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../blues-jam-session-144/ returns 200, dated 23/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub blues-jam-session-144: MIE 23 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "jazz jam session|2026-09-24": {
@@ -1661,8 +1681,8 @@
     "jazz",
     "jam"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../jazz-jam-session-303/ returns 200, dated 24/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub jazz-jam-session-303: JUE 24 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "yuri storione quartet|2026-09-25": {
@@ -1673,9 +1693,10 @@
     "yuri",
     "storione"
    ],
-   "verified": "2026-09-07",
+   "verified": "2026-09-08",
    "via": "browser",
-   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout."
+   "note": "Clarence per-event permalink, read off the club's own SEPTIEMBRE 2026 calendar on 2026-08-28. Door-paid: Clarence sells no per-night ticket online and publishes no price (its shop carries only the annual Bono/Tarjeta Socio and merch), so this permalink - which renders the act, the date and the 22:00 start - is the correct destination, not a checkout.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub yuri-storione-quartet: VIE 25 SEP, HORARIO 22:00."
   },
   "louis ford new orleans flairs feat carlos childe|2026-09-26": {
    "act": "Louis Ford New Orleans Flairs feat. Carlos Childe",
@@ -1685,8 +1706,8 @@
     "louis",
     "ford"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../louis-ford-new-orleans-flairs-feat-carlos-childe/ returns 200, dated 26/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub louis-ford-...: SAB 26 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "blues jam session|2026-09-30": {
@@ -1697,8 +1718,8 @@
     "blues",
     "jam"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: .../blues-jam-session-145/ returns 200, dated 30/09/2026.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: clarencejazzclub blues-jam-session-145: MIE 30 SEP, HORARIO 22:00.",
    "via": "browser"
   },
   "sophie festival chapter 6 richie hawtin sama abdulhadi objekt more|2026-09-05": {
@@ -1736,9 +1757,10 @@
     "sophie",
     "closing"
    ],
-   "verified": "2026-08-29",
+   "verified": "2026-09-08",
    "via": "browser",
-   "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present."
+   "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, tickets from 25,50 EUR. ON SALE but NOT on the live site."
   },
   "sophie festival chapter 7|2026-09-19": {
    "act": "Sophie Festival Chapter #7",
@@ -1749,9 +1771,10 @@
     "sophie",
     "closing"
    ],
-   "verified": "2026-08-29",
+   "verified": "2026-09-08",
    "via": "browser",
-   "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present."
+   "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, PACK 4x3 25,50 / ACCESS BEFORE 19H 28 / GENERAL 36 EUR. Billed 'Sophie CH#7 - Seth Troxler, Ricardo Villalobos, Roots & more'. ON SALE but NOT on the live site."
   },
   "premios juventud feat marc anthony christian nodal wisin y yandel|2026-09-03": {
    "act": "Premios Juventud (feat. Marc Anthony, Christian Nodal, Wisin y Yandel)",
@@ -1775,8 +1798,8 @@
     "ellar",
     "malaga"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: tomaticket renders 'Sofia Ellar en Malaga, 25/09/2026, Sala Trinchera' with 'COMPRAR ENTRADAS - DESDE: 27,50 EUR'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: tomaticket: 25/09/2026 Sala Trinchera, COMPRAR ENTRADAS desde 27,50 EUR.",
    "via": "browser"
   },
   "andres koi|2026-09-19": {
@@ -1788,8 +1811,8 @@
     "koi",
     "malaga"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: doitproduction renders 'Andres Koi Malaga, 19 de septiembre de 2026, Sala Marte' with a live Entradas widget - GENERAL 25,00 EUR and a quantity stepper. (The widget renders as a skeleton for a few seconds before the price appears.)",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: doitproduction: 19 de septiembre de 2026, Sala Marte, Entradas GENERAL 25,00 EUR with quantity selector.",
    "via": "browser"
   },
   "premios juventud|2026-09-03": {
@@ -1874,8 +1897,8 @@
     "rock",
     "classics"
    ],
-   "verified": "2026-09-07",
-   "why": "ADDED 2026-09-06 browser click-test. feverup.com/m/466621 = 'Candlelight: Clasicos del Rock', Hotel Miramar Malaga. Its own date selector shows 'dom 04 oct' as the ACTIVE, SELECTED (bookable) chip with time 19:00 - matches the card exactly. Not judged from page-body text.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 466621 chips dom 04 oct / 29 nov; 19:00 Zona D 20,50 to Zona A 40,00 EUR on sale.",
    "via": "browser"
   },
   "candlelight tribute to mecano|2026-10-04": {
@@ -1886,8 +1909,8 @@
     "candlelight",
     "mecano"
    ],
-   "verified": "2026-09-07",
-   "why": "ADDED 2026-09-06 browser click-test. feverup.com/m/656280 = 'Candlelight: Tributo a Mecano', Salon Real del Gran Hotel Miramar. Date selector: 'dom 13 sept' is DISABLED (not on sale), 'dom 04 oct' is ACTIVE + SELECTED at 21:00 - so the card's 4 Oct night is a bookable session.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 656280: 13 sept chip greyed out, dom 04 oct selectable at 21:00, Zona D 22,50 EUR on sale.",
    "via": "browser"
   },
   "festival de rock night 2|2026-09-13": {
@@ -1898,8 +1921,8 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 51237 Sesiones lists 'DOM 13 SEP 19:30 ... Desde 20,00 EUR, Comprar ahora' as a separate bookable session from the 12th.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: DOM 13 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
   "sara hebe f r a c|2026-09-17": {
@@ -1911,8 +1934,8 @@
     "hebe",
     "frac"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: conciertos.club renders 'SARA HEBE + FRAC EN MALAGA., SALA MARTE, 17.09.2026 21:00', ANTICIPADA 20,00 EUR with a live COMPRAR.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 17.09.2026 21:00 Sala Marte, ANTICIPADA 20,00 EUR, COMPRAR.",
    "via": "browser"
   },
   "blanca paloma|2026-09-18": {
@@ -1923,8 +1946,8 @@
     "blanca",
     "paloma"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: La Cochera renders 'BLANCA PALOMA, La Cochera Cabaret, Viernes 18 de septiembre - 21:00 h', Desde 18 EUR with COMPRAR ENTRADAS.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2595: Viernes 18 de septiembre 21:00, 18 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
   "apartamentos acapulco|2026-09-18": {
@@ -1935,8 +1958,8 @@
     "apartamentos",
     "acapulco"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: conciertos.club renders 'APARTAMENTOS ACAPULCO EN MALAGA, SALA MARTE, 18.09.2026 21:00', ENTRADA ANTICIPADA 15,47 EUR with a live COMPRAR.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 Sala Marte, 15,47 EUR, COMPRAR.",
    "via": "browser"
   },
   "sandra groove|2026-09-18": {
@@ -1947,8 +1970,8 @@
     "sandra",
     "groove"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: conciertos.club renders 'SANDRA GROOVE EN MALAGA CORAZONES ROTOS TOUR, THE HALL, 18.09.2026 21:00' with ENTRADA GENERAL ANTICIPADA 15,00 EUR and a MEET&GREET tier.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 The Hall, 15,00 EUR, COMPRAR.",
    "via": "browser"
   },
   "fraderita|2026-09-19": {
@@ -1958,8 +1981,8 @@
    "expect": [
     "fraderita"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: conciertos.club renders 'FRADERITA EN MALAGA - TOUR 2026, THE HALL, 19.09.2026 20:15', ENTRADA ANTICIPADA 18,00 EUR with a live COMPRAR.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 19.09.2026 20:15 The Hall, 18,00 EUR, COMPRAR.",
    "via": "browser"
   },
   "idaira siles|2026-09-19": {
@@ -1970,8 +1993,8 @@
     "idaira",
     "siles"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: La Cochera renders 'IDAIRA SILES, La Cochera Cabaret, Sabado 19 de septiembre - 21:00 h', Desde 13 EUR with COMPRAR ENTRADAS.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2643: Sabado 19 de septiembre 21:00, 13 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
   "the britpop authority|2026-09-20": {
@@ -1982,8 +2005,8 @@
     "britpop",
     "authority"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: La Cochera renders 'THE BRITPOP AUTHORITY, La Cochera Cabaret, Domingo 20 de septiembre - 19:00 h', Desde 15 EUR with COMPRAR ENTRADAS.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2619: Domingo 20 de septiembre 19:00, 15 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
   "country night|2026-09-20": {
@@ -1994,8 +2017,8 @@
     "country",
     "night"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 58521 renders 'COUNTRY NIGHT, 20 de septiembre de 2026, 20:00' and Sesiones 'DOM 20 SEP 20:00 ... Desde 15,00 EUR, Comprar ahora'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58521: 20 de septiembre de 2026 20:00, Comprar ahora.",
    "via": "browser"
   },
   "ciro y los persas|2026-09-24": {
@@ -2006,8 +2029,8 @@
     "ciro",
     "persas"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: entradas.com renders 'Ciro y los Persas, Thursday 24/09/2026 | 21:00, Malaga | Sala Paris 15' with the ticket-quantity step. Paying seller.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Thursday 24/09/2026 21:00 Malaga Sala Paris 15, ticket-selection page, from 44,00 EUR.",
    "via": "browser"
   },
   "la ultima fila|2026-09-25": {
@@ -2018,8 +2041,8 @@
     "ultima",
     "fila"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 59305 renders 'LA ULTIMA FILA - Homenaje a Manolo Garcia, 25 de septiembre de 2026, 21:30' and Sesiones 'VIE 25 SEP 21:30 ... Desde 12,00 EUR, Comprar ahora'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 59305: 25 de septiembre de 2026 21:30, Comprar ahora.",
    "via": "browser"
   },
   "sheila paz|2026-09-25": {
@@ -2030,8 +2053,8 @@
     "sheila",
     "paz"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: La Cochera renders 'SHEILA PAZ, La Cochera Cabaret, Viernes 25 de septiembre - 21:00 h', lateral izquierdo/derecho 15 EUR with COMPRAR ENTRADAS.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2644: Viernes 25 de septiembre 21:00, 15 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
   "migueli|2026-09-26": {
@@ -2041,8 +2064,8 @@
    "expect": [
     "migueli"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: La Cochera renders 'MIGUELI, La Cochera Cabaret, Sabado 26 de septiembre - 21:00 h', anticipada 13 EUR with COMPRAR ENTRADAS.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2649: Sabado 26 de septiembre 21:00, 13 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
   "raimundo amador|2026-09-26": {
@@ -2053,8 +2076,8 @@
     "raimundo",
     "amador"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: entradas.com renders 'Raimundo Amador Gira 2026, Saturday 26/09/2026 | 21:30, Malaga | Sala Paris 15' with the ticket-quantity step. Paying seller.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Saturday 26/09/2026 21:30 Malaga Sala Paris 15, ticket-selection page.",
    "via": "browser"
   },
   "south funk|2026-09-27": {
@@ -2065,8 +2088,8 @@
     "south",
     "funk"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: onebox 58687 renders 'SOUTH FUNK, 27 de septiembre de 2026, 21:00' and Sesiones 'DOM 27 SEP 21:00 ... Desde 12,00 EUR, Comprar ahora'.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58687: 27 de septiembre de 2026 21:00, Comprar ahora.",
    "via": "browser"
   },
   "ocean colour scene|2026-09-29": {
@@ -2078,8 +2101,8 @@
     "colour",
     "scene"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: unientradas renders 'OCEAN COLOUR SCENE IN CONCERT, 29 septiembre 2026 20:00, TEATRO CERVANTES', session row 'Martes 29/09/2026 20:00' with 'Ver precios' and the Teatro Cervantes seat map. (The cookie wall must be dismissed before the page body renders - an undismissed banner is not a dead page.)",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: unientradas: Martes 29/09/2026 20:00 TEATRO CERVANTES, Ver precios 16,38 to 78,85 EUR.",
    "via": "browser"
   },
   "perota chingo|2026-09-30": {
@@ -2090,8 +2113,8 @@
     "perota",
     "chingo"
    ],
-   "verified": "2026-09-07",
-   "why": "BROWSER-CONFIRMED 2026-09-02: entradas.com renders 'PEROTA CHINGO, Wednesday 30/09/2026 | 21:00, Sala La Trinchera, Calle Parauta 25, 29006 Malaga' with the ticket-quantity step. Paying seller.",
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Wednesday 30/09/2026 21:00 Sala La Trinchera, ticket-selection page.",
    "via": "browser"
   },
   "malu|2026-10-11": {
@@ -2109,13 +2132,14 @@
   "jose merce|2026-10-03": {
    "act": "Jose Merce",
    "date": "2026-10-03",
-   "url": "https://www.teatrocervantes.com/es/genero/musica/s-ngulares-2026/jose-merce-2117",
+   "url": "https://www.unientradas.es/es/espectaculo/jose-merce/26-27MerceJoseMa",
    "expect": [
     "jose",
     "merce"
    ],
-   "verified": "2026-09-02",
-   "why": "ADDED 2026-09-02. This is the OTHER live marquee look-ahead tile (gutter 'Get tickets'), and unlike Malu's it is correct: teatrocervantes.com/es/genero/musica/s-ngulares-2026/jose-merce-2117 is the real event page - 'JOSE MERCE. Jose Merce canta a Manuel Alejandro', 'sabado 3 octubre 20:00', with three live 'Comprar entradas' controls. Recorded so the nightly verifier has a baseline for it."
+   "verified": "2026-09-08",
+   "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27MerceJoseMa: Sabado 03/10/2026 20:00 TEATRO CERVANTES, Ver precios 18,43 to 88,06 EUR. MOVED OFF teatrocervantes.com (silent-302 class) onto the venue's own COMPRAR ENTRADAS destination. ON SALE but NOT on the live site.",
+   "via": "browser"
   }
  },
  "trusted_hosts": [
