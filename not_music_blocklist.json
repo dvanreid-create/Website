@@ -287,6 +287,12 @@
   {
    "match": "candlelight babies",
    "why": "OWNER REMOVAL (DLR 2026-09-06: \"I specifically had another Claude chat delete the Candlelight Babies\"). Candlelight Babies is Fever's baby sensory session (SKU 592280, 'Sonidos Clasicos para Estimular Pequenas Mentes', Gran Hotel Miramar, 11:00/12:45), not a live-music concert. WHY THIS ENTRY EXISTS AT ALL: the earlier removal was made as _HIDE_EVENTS = ('classic sounds to stimulate little minds',) in build_site.py, which only hides the show from the Featured rail and the MLTV candidate rail - it does NOT touch the calendar, so the card was still live on malagalivepulse.com/en on 2026-09-06 (4 Oct, ticketed) AND it was silently costing a Featured slot (7 eligible Fever dates, 6 tiles rendered). This gate runs on EVERY build before the phantom/Fever/receipt gates and removes the row itself, which is what 'delete' meant. _HIDE_EVENTS is left in place as a second net. Unscoped: 'candlelight babies' is a distinctive Fever product name, safe to block anywhere, and it blocks future dates of the same programme too. NOT a link fault - feverup.com/m/592280 was browser-confirmed on sale for 4 Oct the same day; this is an owner editorial removal and per the standing rule it outranks any 'but it is buyable' finding."
+  },
+  {
+   "match": "s o p h i e festival chapter 7",
+   "venue": "ogus park",
+   "date": "2026-09-19",
+   "why": "DUPLICATE CARD, NOT a genre judgement - removed 2026-09-08. Self-inflicted: the sweep-lost recovery block injected this show on 2026-09-08 as 'S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more', then the map's venue_name was edited to the shorter 'S.O.P.H.I.E Festival Chapter 7' in the same session. backfill_calendar dedups on the ACT NAME (covered_acts), so the renamed entry no longer matched the row already in the calendar and a SECOND card shipped for the same night - 19 Sep showed both. The map name has been reverted to the CH#7 string so no further duplicate can be injected; this entry removes the orphan that the rename already created (backfill only ADDS, it never withdraws a row). The CH#7 spelling is the one kept because it is exactly how sophie.es bills the night, which also settles the name-mismatch flag. Scoped to this act name + venue + date so it can never touch the real card."
   }
  ]
 }

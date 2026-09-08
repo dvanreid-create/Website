@@ -1331,7 +1331,7 @@
      "time": "18:00",
      "price": "Desde 25,50 EUR",
      "venue": "Ogus Park (Churriana)",
-     "venue_name": "S.O.P.H.I.E Festival Chapter 7",
+     "venue_name": "S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more",
      "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es renders 'SABADO, 19 DE SEPTIEMBRE 2026, 18:00 - 04:00, Sophie CH#7 - Seth Troxler, Ricardo Villalobos, Roots & more' with ENTRADAS rows PACK 4x3 25,50€ / ACCESS BEFORE 19H 28€ / GENERAL 36€, each with a live buy arrow. NAME MISMATCH ON RECORD: the seller bills it CH#7, our baseline aliases say Chapter 7 / Grand Closing - same night, same venue, not renamed without a ruling. Genre left BLANK on purpose so classify_genre's keyword pass decides (there is no Electronic genre in this map's vocabulary and 'Other' would suppress the classifier)."
     },
     "k beat fest": {
