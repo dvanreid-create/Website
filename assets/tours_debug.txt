@@ -1,6 +1,9 @@
-=== tours_debug Mon Sep  7 08:50:21 PM UTC 2026 ===
-srchash=257053dfd546b0421eea65a56f35c0e2
+=== tours_debug Tue Sep  8 03:19:22 AM UTC 2026 ===
+srchash=4ec22b904012f15a669209e1aaff6fd9
 --- rebuild procs ---
-none
+393807 docker compose exec -e HOME_ONLY=1 -e SKIP_SCRAPE=1 -e ML_ROOT=/app/runtime -e HOME=/root worker bash /app/orchestrator/tours_deploy.sh
+393823 /usr/libexec/docker/cli-plugins/docker-compose compose exec -e HOME_ONLY=1 -e SKIP_SCRAPE=1 -e ML_ROOT=/app/runtime -e HOME=/root worker bash /app/orchestrator/tours_deploy.sh
+393847 bash /app/orchestrator/tours_deploy.sh
+394583 python /app/runtime/Tools/agent/build_tours.py --home-only --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
 [tours] another deploy is already running -> exiting (no overlap)
