@@ -1,9 +1,11 @@
-=== tours_debug Tue Sep  8 03:19:22 AM UTC 2026 ===
-srchash=4ec22b904012f15a669209e1aaff6fd9
+=== tours_debug Tue Sep  8 06:01:37 AM UTC 2026 ===
+srchash=e321cf91bb483429c18af6fd8c2a75bc
 --- rebuild procs ---
-393807 docker compose exec -e HOME_ONLY=1 -e SKIP_SCRAPE=1 -e ML_ROOT=/app/runtime -e HOME=/root worker bash /app/orchestrator/tours_deploy.sh
-393823 /usr/libexec/docker/cli-plugins/docker-compose compose exec -e HOME_ONLY=1 -e SKIP_SCRAPE=1 -e ML_ROOT=/app/runtime -e HOME=/root worker bash /app/orchestrator/tours_deploy.sh
-393847 bash /app/orchestrator/tours_deploy.sh
-394583 python /app/runtime/Tools/agent/build_tours.py --home-only --out /app/runtime/tours_repo
+444385 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
+444391 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh
+444423 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh
+444468 bash /app/orchestrator/tours_deploy.sh
+444551 python /app/runtime/Tools/agent/build_tours.py --home-only --out /app/runtime/tours_repo
 --- tours_rebuild.log (tail 80) ---
-[tours] another deploy is already running -> exiting (no overlap)
+HEAD is now at 05cde86b625 Tours rebuild 2026-09-08T05:37:48Z [vps]
+[tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
