@@ -1272,6 +1272,89 @@
    "note": "Plaza de Toros La Malagueta, iconic bullring in Málaga city. Hosts multiple independent promoters. The '101musicfestival' entry in this map already tracks all 101 Music Festival Costa del Sol acts here (Mónica Naranjo 31 Jul, El Arrebato 25 Jul, etc.). Feria de Agosto concerts (~Aug 13-21) are free and need no ticket link. complete:false = NOT a phantom gate. Added 2026-07-27.",
    "acts": {}
   },
+  "sweeplost": {
+   "source": "https://malagalivepulse.com/en/",
+   "complete": true,
+   "gate": false,
+   "note": "SWEEP-LOST RECOVERY BLOCK (created 2026-09-08, browser click-test). WHAT IT IS: a narrow, hand-verified list of in-window shows that are ON SALE but that the weekly LLM sweep dropped, at venues backfill_calendar.py's WHITELIST does not cover. Every act here was opened in Chrome on 2026-09-08 and confirmed act + date + venue + a working buy control; the per-act 'why' records exactly what the page said. WHY A NEW BLOCK INSTEAD OF WHITELISTING THE REAL VENUES: backfill only injects from a block that is BOTH in the WHITELIST and complete:true, and flipping complete:true on the real venue blocks has two costs this block avoids entirely. (1) COLLATERAL INJECTION - 'teatro del soho' would also inject 'Chungo - Luis Zahera' (05/10/2026), a comedy show, onto a live-music site, and 'cortijo de torres' would inject 'Superstars 90' (12/09/2026), whose mapped URL malagadeporteyeventos.com/superstars-90-malaga-2/ was opened on 2026-09-08 and is a promoter INFO page with no buy control at all. (2) DELETION RISK - complete:true arms build_site's phantom gate against every other show at that venue, which is exactly what deleted Damian Cordoba. This block carries no real venue name, so _venue_lookup can never match it (its key must be a substring of the normalised venue or URL, and 'sweeplost' is a substring of neither), which means it can only ever ADD. gate:false is set as well, belt and braces. Each act carries its own 'venue' override, so one block serves several buildings - all of these are Malaga city. HOW TO RETIRE AN ENTRY: delete the act once its date has passed, or move it into its real venue block if that venue is ever properly whitelisted. If the sweep starts finding a show again, backfill's act-level dedup (covered_acts) suppresses this copy automatically - duplicates are not possible.",
+   "acts": {
+    "el amir alma flamenca": {
+     "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-el-amir-alma-flamenca/",
+     "prefer": "map",
+     "date": "11/09/2026",
+     "time": "19:30",
+     "price": "10 EUR",
+     "venue": "Sala Fundación Unicaja María Cristina",
+     "venue_name": "El Amir - Alma Flamenca",
+     "genre": "Flamenco",
+     "why": "BROWSER-CONFIRMED 2026-09-08: mientrada.net renders 'EL AMIR - ALMA FLAMENCA / PEPE ROMERO GUITAR FESTIVAL MALAGA 2026' with DETAILS 'Date: 11 septiembre, Time: 19:30, Cost: 10€', venue 'Sala Fundación Unicaja María Cristina', and a COMPRAR ENTRADAS control. Also held in the 'fundacion unicaja' block, which is complete:false and not whitelisted, so it could never inject."
+    },
+    "carmen linares antologia": {
+     "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-58453584533087-soho_onebox-channel",
+     "box_url": "https://checkoutentradas2.elcorteingles.es/eci_teatrodelsoho/events/58453",
+     "prefer": "eci",
+     "date": "12/09/2026",
+     "time": "20:00",
+     "price": "Desde 30 EUR",
+     "venue": "Teatro del Soho CaixaBank",
+     "venue_name": "Carmen Linares - Antología 30 Aniversario",
+     "genre": "Flamenco",
+     "why": "BROWSER-CONFIRMED 2026-09-08, and ROUTED FOR REVENUE. Both pages were opened. The Soho's own box office (checkoutentradas2.elcorteingles.es event 58453, kept above as box_url) reads 'SAB 12 SEP 20:00, Teatro del Soho CaixaBank, Desde 30,00 €, Comprar ahora' - but that CHECKOUT SUBDOMAIN is not the Awin ECI merchant host, so it earns nothing. The ECI storefront page above renders 'Carmen Linares - Antologia 30 Aniversario en Malaga, Desde 30,00€, COMPRAR, 12 de Septiembre de 2026, RECINTO: Teatro del Soho CaixaBank' - SAME show, SAME date, SAME 30,00€ entry price, on elcorteingles.es, which the Awin wrapper (merchant 13034) does catch at ~1%. No reader penalty and no cheaper-seller conflict: the prices are identical, so the earning seller wins under the standing rule. Same pattern as the 'chungo' entry in the teatro del soho block."
+    },
+    "fully alive fest": {
+     "url": "https://www.taquilla.com/entradas/fully-alive-fest",
+     "prefer": "map",
+     "date": "12/09/2026",
+     "time": "20:00",
+     "price": "Desde 18 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Fully Alive Fest",
+     "genre": "Rock & Indie",
+     "why": "BROWSER-CONFIRMED 2026-09-08: taquilla.com renders 'FULLY ALIVE FEST, Sala La Trinchera (Malaga), Sabado 12 Sep, 20:00, desde 18,00€' with a Ver Oferta control. Deliberately NOT added to the 'trinchera' block, which refresh_venue_map.py rewrites from mutick every Monday and mutick does not sell this show."
+    },
+    "antonio sanchez birdman live": {
+     "url": "https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma",
+     "prefer": "map",
+     "date": "14/09/2026",
+     "time": "20:00",
+     "price": "Desde 36,86 EUR",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Antonio Sánchez 'Birdman Live'",
+     "genre": "Jazz & Soul",
+     "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27AntonBirdma renders 'ANTONIO SANCHEZ BIRDMAN LIVE, Lunes 14/09/2026 20:00, TEATRO CERVANTES' with Ver precios from 36,86€. Routed to unientradas, not teatrocervantes.com, because that host is the silent-302 class (HTTP 200 + real title while redirecting to the theatre homepage) that already cost Ocean Colour Scene and Malu. Neither seller pays commission; no paying seller carries this show."
+    },
+    "sophie ch7 grand closing": {
+     "url": "https://sophie.es/entradas/sophie-grand-closing-ricardo-villalobos-19-sep",
+     "prefer": "map",
+     "date": "19/09/2026",
+     "time": "18:00",
+     "price": "Desde 25,50 EUR",
+     "venue": "Ogus Park (Churriana)",
+     "venue_name": "S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more",
+     "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es renders 'SABADO, 19 DE SEPTIEMBRE 2026, 18:00 - 04:00, Sophie CH#7 - Seth Troxler, Ricardo Villalobos, Roots & more' with ENTRADAS rows PACK 4x3 25,50€ / ACCESS BEFORE 19H 28€ / GENERAL 36€, each with a live buy arrow. NAME MISMATCH ON RECORD: the seller bills it CH#7, our baseline aliases say Chapter 7 / Grand Closing - same night, same venue, not renamed without a ruling. Genre left BLANK on purpose so classify_genre's keyword pass decides (there is no Electronic genre in this map's vocabulary and 'Other' would suppress the classifier)."
+    },
+    "k beat fest": {
+     "url": "https://www.ticketmaster.es/event/432310294",
+     "prefer": "map",
+     "date": "19/09/2026",
+     "time": "16:30",
+     "venue": "Auditorio Municipal Cortijo de Torres",
+     "venue_name": "K-Beat Fest",
+     "why": "BROWSER-CONFIRMED 2026-09-08: ticketmaster.es/event/432310294 is titled 'Buy tickets for K-Beat Fest Sat, 19 Sept 2026, 16:30, Auditorio Mpal Cortijo de Torres in Malaga' and renders a live seat map with View seat map / See best available. THIS IS THE ONLY ONE OF THE SEVEN ON A PAYING SELLER - Ticketmaster via Impact, wrapped by tm_aff() at build time - so every day it stayed off the site was lost commission. Genre left BLANK for the keyword classifier."
+    },
+    "jose merce": {
+     "url": "https://www.unientradas.es/es/espectaculo/jose-merce/26-27MerceJoseMa",
+     "prefer": "map",
+     "date": "03/10/2026",
+     "time": "20:00",
+     "price": "Desde 18,43 EUR",
+     "venue": "Teatro Cervantes",
+     "venue_name": "José Mercé",
+     "genre": "Flamenco",
+     "why": "BROWSER-CONFIRMED 2026-09-08: teatrocervantes.com bills 'sabado 3 octubre 20.00 h' and its own COMPRAR ENTRADAS points at unientradas 26-27MerceJoseMa, which renders 'JOSE MERCE, Sabado 03/10/2026 20:00, TEATRO CERVANTES' with tiers 18,43 to 88,06€. Same silent-302 reasoning as Antonio Sanchez."
+    }
+   }
+  },
   "teatro cervantes": {
    "source": "https://www.teatrocervantes.com/es/programacion/",
    "complete": false,

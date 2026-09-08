@@ -1437,14 +1437,14 @@
   "carmen linares|2026-09-12": {
    "act": "Carmen Linares",
    "date": "2026-09-12",
-   "url": "https://checkoutentradas2.elcorteingles.es/eci_teatrodelsoho/events/58453",
+   "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-58453584533087-soho_onebox-channel",
    "expect": [
     "carmen",
     "linares"
    ],
    "verified": "2026-09-08",
    "via": "browser",
-   "why": "BROWSER-CONFIRMED 2026-09-08: ECI Soho box office 58453 Sesiones: SAB 12 SEP 20:00 Teatro del Soho CaixaBank, desde 30,00 EUR, Comprar ahora. ON SALE but NOT on the live site."
+   "why": "BROWSER-CONFIRMED 2026-09-08: ECI storefront page renders 'Carmen Linares - Antologia 30 Aniversario en Malaga, Desde 30,00 EUR, COMPRAR, 12 de Septiembre de 2026, Teatro del Soho CaixaBank'. MOVED OFF the checkoutentradas2.elcorteingles.es box-office host (same show, same 30,00 EUR, but not the Awin merchant host so it earned nothing) onto elcorteingles.es, which the Awin wrapper catches at ~1%. Identical price, so no cheaper-seller conflict."
   },
   "emanero tour 2026|2026-09-12": {
    "act": "Emanero Tour 2026",
