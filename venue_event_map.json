@@ -1033,13 +1033,14 @@
      "venue_name": "El Brujo (10-12 Jul, past)"
     },
     "carmen linares": {
-     "url": "https://checkoutentradas2.elcorteingles.es/eci_teatrodelsoho/events/58453",
-     "prefer": "map",
+     "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-58453584533087-soho_onebox-channel",
+     "box_url": "https://checkoutentradas2.elcorteingles.es/eci_teatrodelsoho/events/58453",
+     "prefer": "eci",
      "date": "12/09/2026",
      "time": "20:00",
      "venue_name": "Carmen Linares - Antología 30 Aniversario",
      "genre": "Flamenco",
-     "why": "BROWSER-CONFIRMED 2026-09-08: the Soho's ECI-powered box office event 58453 shows Sesiones 'SÁB 12 SEP 20:00, Teatro del Soho CaixaBank, Desde 30,00 €, Comprar ahora'. IN WINDOW and ON SALE but absent from the live site."
+     "why": "ADDED 2026-09-08 and it does TWO jobs. (1) REVENUE: the card shipped on the Soho's box-office host checkoutentradas2.elcorteingles.es, which the Awin wrapper wraps but which is NOT the merchant host, so it earned nothing. The 'sweeplost' recovery block that put the show back on the site is keyed so _venue_lookup can never match it (that is what stops it deleting anything), so it cannot re-route an existing calendar row either - only an entry HERE can, and prefer:'eci' makes venue_resolve take the mapped URL even over a deep link. Both pages opened 2026-09-08: same show, same 12/09/2026, same 30,00 EUR entry price, so the earning seller wins with no reader penalty. (2) PHANTOM-DROP PROTECTION: this block is complete:true with no gate:false, so _venue_lookup was returning (key='teatro del soho', ent=None) for this act and phantom_reason was one build away from deleting it as 'not on teatro del soho's own programme'. An entry here makes ent truthy, which returns '' before the gate is ever reached."
     },
     "chungo": {
      "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-55503555033087-soho_onebox-channel",
@@ -1330,7 +1331,7 @@
      "time": "18:00",
      "price": "Desde 25,50 EUR",
      "venue": "Ogus Park (Churriana)",
-     "venue_name": "S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more",
+     "venue_name": "S.O.P.H.I.E Festival Chapter 7",
      "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es renders 'SABADO, 19 DE SEPTIEMBRE 2026, 18:00 - 04:00, Sophie CH#7 - Seth Troxler, Ricardo Villalobos, Roots & more' with ENTRADAS rows PACK 4x3 25,50€ / ACCESS BEFORE 19H 28€ / GENERAL 36€, each with a live buy arrow. NAME MISMATCH ON RECORD: the seller bills it CH#7, our baseline aliases say Chapter 7 / Grand Closing - same night, same venue, not renamed without a ruling. Genre left BLANK on purpose so classify_genre's keyword pass decides (there is no Electronic genre in this map's vocabulary and 'Other' would suppress the classifier)."
     },
     "k beat fest": {
