@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-09",
-  "count": 106,
+  "generated": "2026-09-10",
+  "count": 110,
   "items": [
     {
       "sku": "194665",
@@ -872,20 +872,6 @@
       "d": "Get your tickets for Flamenco Authentic Show at Teatro Flamenco Málaga and don"
     },
     {
-      "sku": "643664",
-      "n": "Tickets for the K",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "LA K"
-    },
-    {
       "sku": "587444",
       "n": "TOP Malaga: Guided Tour with Your Mobile Phone",
       "c": "tours",
@@ -1486,6 +1472,76 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=324006&u=https%3A%2F%2Ffeverup.com%2Fm%2F324006&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
+    },
+    {
+      "sku": "752414",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "ba42cf22-ac3a-11f1-a3a5-8ed72896cf03.jpg",
+      "url": "https://feverup.com/m/752414/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752414&u=https%3A%2F%2Ffeverup.com%2Fm%2F752414&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "752415",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "c01c209c-ac3a-11f1-8fb9-066cef84a08c.jpg",
+      "url": "https://feverup.com/m/752415/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752415&u=https%3A%2F%2Ffeverup.com%2Fm%2F752415&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "752416",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "c5cd42aa-ac3a-11f1-8fb9-066cef84a08c.jpg",
+      "url": "https://feverup.com/m/752416/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752416&u=https%3A%2F%2Ffeverup.com%2Fm%2F752416&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "752417",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "cb628a90-ac3a-11f1-9e7a-32b4fcd49bd8.jpg",
+      "url": "https://feverup.com/m/752417/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752417&u=https%3A%2F%2Ffeverup.com%2Fm%2F752417&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "158822",
+      "n": "Tickets for Yelmo Cinemas in Malaga: all the listings!",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €7",
+      "img": "d4ced4b0-17e0-11f1-9de8-ce4177021ddf.png",
+      "url": "https://feverup.com/m/158822/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=158822&u=https%3A%2F%2Ffeverup.com%2Fm%2F158822&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Get your tickets for Yelmo Cinemas in Malaga at a special price with Fever. Enjoy all the movie listings at a discount!"
     }
   ]
 }
