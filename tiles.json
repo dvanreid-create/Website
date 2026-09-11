@@ -612,6 +612,45 @@
     "da": "Billetter →",
     "fi": "Liput →"
    }
+  },
+  {
+   "photo": "/assets/tiles/ext-8a0ede579fb5201c.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Queen vs. ABBA",
+   "headBottom": true,
+   "expires": "2026-10-11",
+   "sub": {
+    "en": "Sun 11 Oct · Salón Linares Anantara Villa Padierna · Marbella",
+    "es": "Dom 11 oct · Salón Linares Anantara Villa Padierna · Marbella",
+    "de": "So 11 Okt · Salón Linares Anantara Villa Padierna · Marbella",
+    "fr": "dim. 11 oct. · Salón Linares Anantara Villa Padierna · Marbella",
+    "sv": "sön 11 okt · Salón Linares Anantara Villa Padierna · Marbella",
+    "no": "søn 11 okt · Salón Linares Anantara Villa Padierna · Marbella",
+    "da": "søn 11 okt · Salón Linares Anantara Villa Padierna · Marbella",
+    "fi": "su 11 lokak. · Salón Linares Anantara Villa Padierna · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677232&u=https%3A%2F%2Ffeverup.com%2Fm%2F677232&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
   }
  ],
  "info": [
