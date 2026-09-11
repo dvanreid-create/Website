@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "count": 110,
   "items": [
     {
@@ -494,20 +494,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
-    },
-    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -690,6 +676,34 @@
       "d": "Museo Picasso Málaga: Tour guiado in Málaga. Get your tickets on Fever now!"
     },
     {
+      "sku": "545294",
+      "n": "Premium Experience at Flamenco Theatre Málaga - Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "989db6dc-6e1b-11f1-8008-66f218f52282.png",
+      "url": "https://feverup.com/m/545294/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "What you are going to enjoy 💃 An authentic and intimate flamenco show 🎶 Live singing, dancing and guitar with top-tier artists 🔥 An intense, emotional experience full of passion 🎭 A show ideal for both newcomers to flamenco and seasoned fans General Info 📍 Location: Teatro Flamenco Málaga, Call"
+    },
+    {
+      "sku": "310615",
+      "n": "Premium Experience at Flamenco Theatre, Granada - Granada",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "7d8ee1c2-6e1b-11f1-a1a4-a28421aa1ff5.png",
+      "url": "https://feverup.com/m/310615/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Sensations - Flamenco Theater Granada - Flamenco Show Tickets 🎫 General Admission: Table seating with one drink included 🎫 Promo Admission: Seating on a chair, no drink 🎫 Reduced Admission: Seating on a chair, no drink. For students, residents of Granada over 65, children (6 to 12 years old), o"
+    },
+    {
       "sku": "693794",
       "n": "Ronda and Setenil: Day Trip from Málaga",
       "c": "tours",
@@ -702,20 +716,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693794&u=https%3A%2F%2Ffeverup.com%2Fm%2F693794&intsrc=CATF_15532",
       "feat": 0,
       "d": "Ronda and Setenil: Day Trip from Málaga in Málaga. Get your tickets on Fever now!"
-    },
-    {
-      "sku": "310615",
-      "n": "Sensaciones Tickets - Teatro Flamenco Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "7d8ee1c2-6e1b-11f1-a1a4-a28421aa1ff5.png",
-      "url": "https://feverup.com/m/310615/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Experience flamenco at its best at the Teatro Flamenco Granada with \"Sensaciones\". Enjoy singing, dancing and guitar, get your tickets now!"
     },
     {
       "sku": "684931",
@@ -858,18 +858,18 @@
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
     },
     {
-      "sku": "545294",
-      "n": "Tickets for Flamenco Authentic Flamenco Show at Flamenco Theater Malaga",
+      "sku": "335976",
+      "n": "Tickets Spa Circuit + Relaxing Massage at La Zambra Resort 5*",
       "c": "tours",
       "cat": "Experience",
       "v": "",
       "area": "Málaga",
       "p": "See price",
-      "img": "989db6dc-6e1b-11f1-8008-66f218f52282.png",
-      "url": "https://feverup.com/m/545294/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
+      "img": "590a6ebe-0893-11f0-8967-0a1772b1b4f7.jpg",
+      "url": "https://feverup.com/m/335976/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=335976&u=https%3A%2F%2Ffeverup.com%2Fm%2F335976&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Get your tickets for Flamenco Authentic Show at Teatro Flamenco Málaga and don"
+      "d": "Enjoy a luxury experience at La Zambra Resort 5* with spa circuit and relaxing massage. Get your tickets now!"
     },
     {
       "sku": "587444",
