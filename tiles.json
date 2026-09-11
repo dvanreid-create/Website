@@ -419,6 +419,45 @@
    }
   },
   {
+   "photo": "/assets/tiles/ext-c2987acdfa47772a.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Disney Love Songs",
+   "headBottom": true,
+   "expires": "2026-09-20",
+   "sub": {
+    "en": "Sun 20 Sep · Hotel Miramar · Málaga",
+    "es": "Dom 20 sep · Hotel Miramar · Málaga",
+    "de": "So 20 Sep · Hotel Miramar · Málaga",
+    "fr": "dim. 20 sept. · Hotel Miramar · Málaga",
+    "sv": "sön 20 sep · Hotel Miramar · Málaga",
+    "no": "søn 20 sep · Hotel Miramar · Málaga",
+    "da": "søn 20 sep · Hotel Miramar · Málaga",
+    "fi": "su 20 syysk. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=646736&u=https%3A%2F%2Ffeverup.com%2Fm%2F646736&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
    "photo": "/assets/tiles/ext-bdb6b1d9189c637e.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -485,6 +524,84 @@
     "fi": "su 4 lokak. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay and Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-10-10",
+   "sub": {
+    "en": "Sat 10 Oct · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "es": "Sáb 10 oct · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "de": "Sa 10 Okt · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fr": "sam. 10 oct. · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "sv": "lör 10 okt · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "no": "lør 10 okt · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "da": "lør 10 okt · Sala Fundación Unicaja Mª Cristina · Málaga",
+    "fi": "la 10 lokak. · Sala Fundación Unicaja Mª Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=532802&u=https%3A%2F%2Ffeverup.com%2Fm%2F532802&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-8a0ede579fb5201c.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Queen vs. ABBA",
+   "headBottom": true,
+   "expires": "2026-10-10",
+   "sub": {
+    "en": "Sat 10 Oct · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Sáb 10 oct · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Sa 10 Okt · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "sam. 10 oct. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "lör 10 okt · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "lør 10 okt · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "lør 10 okt · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "la 10 lokak. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=555765&u=https%3A%2F%2Ffeverup.com%2Fm%2F555765&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",

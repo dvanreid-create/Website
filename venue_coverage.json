@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 22,
-   "matched": 22,
-   "calendar_in_window": 21,
+   "mapped_in_window": 21,
+   "matched": 21,
+   "calendar_in_window": 20,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
