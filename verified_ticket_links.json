@@ -892,7 +892,7 @@
    "expect": [
     "apulanta"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: janto: APULANTA, 12 September 2026, MARENOSTRUM FUENGIROLA, View prices 60,50/71,50 EUR + Continue.",
    "via": "browser"
   },
@@ -997,7 +997,7 @@
     "china",
     "crisis"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: mutick: 17 SEP 2026 20:00 Sala La Trinchera, Comprar entradas.",
    "via": "browser"
   },
@@ -1009,7 +1009,7 @@
     "china",
     "crisis"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: mutick: 17 SEP 2026 20:00 Sala La Trinchera, Comprar entradas.",
    "via": "browser"
   },
@@ -1052,7 +1052,7 @@
    "expect": [
     "emanero"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 570333 date selector: sab 12 sept, sessions on sale.",
    "via": "browser"
   },
@@ -1064,7 +1064,7 @@
     "candlelight",
     "80"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 643699 chips dom 13 sept / 18 oct / 06 dic; 21:00 Zona C 27,00 to Zona A 40,00 EUR on sale.",
    "via": "browser"
   },
@@ -1430,7 +1430,7 @@
     "fully",
     "alive"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: taquilla.com: Sabado 12 Sep 20:00 Sala La Trinchera, desde 18,00 EUR, Ver Oferta. ON SALE but NOT on the live site."
   },
@@ -1442,7 +1442,7 @@
     "carmen",
     "linares"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: ECI storefront page renders 'Carmen Linares - Antologia 30 Aniversario en Malaga, Desde 30,00 EUR, COMPRAR, 12 de Septiembre de 2026, Teatro del Soho CaixaBank'. MOVED OFF the checkoutentradas2.elcorteingles.es box-office host (same show, same 30,00 EUR, but not the Awin merchant host so it earned nothing) onto elcorteingles.es, which the Awin wrapper catches at ~1%. Identical price, so no cheaper-seller conflict."
   },
@@ -1453,7 +1453,7 @@
    "expect": [
     "emanero"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 570333 date selector: sab 12 sept, sessions on sale."
   },
@@ -1465,7 +1465,7 @@
     "macaco",
     "malaga"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 652051: sab 03 oct 21:00, Entrada general 25,00 EUR, Comprar ahora.",
    "via": "browser"
   },
@@ -1477,7 +1477,7 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: SAB 12 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
@@ -1489,7 +1489,7 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: DOM 13 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
@@ -1502,7 +1502,7 @@
     "sanchez",
     "birdman"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27AntonBirdma: Lunes 14/09/2026 20:00 TEATRO CERVANTES, Ver precios from 36,86 EUR. MOVED OFF teatrocervantes.com (silent-302 class, same as Ocean Colour Scene / Malu) onto the venue's own COMPRAR ENTRADAS destination. ON SALE but NOT on the live site."
   },
@@ -1514,7 +1514,7 @@
     "tributo",
     "adele"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 59197: 17 de septiembre de 2026 21:30, Comprar ahora.",
    "via": "browser"
   },
@@ -1537,7 +1537,7 @@
     "villalobos",
     "sophie"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, tickets from 25,50 EUR. ON SALE but NOT on the live site."
   },
@@ -1550,7 +1550,7 @@
     "fest",
     "kard"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "why": "BROWSER-CONFIRMED 2026-09-08: Ticketmaster.es 432310294: Sat 19 Sept 2026 16:30, Auditorio Mpal Cortijo de Torres Malaga, live seat map. PAYING SELLER, ON SALE, but NOT on the live site."
   },
@@ -1573,7 +1573,7 @@
     "country",
     "night"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58521: 20 de septiembre de 2026 20:00, Comprar ahora.",
    "via": "browser"
   },
@@ -1620,7 +1620,7 @@
     "soul",
     "fire"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51226 Sesiones: VIE 18 SEP 20:00, desde 15,00 EUR, Comprar ahora.",
    "via": "browser"
   },
@@ -1757,7 +1757,7 @@
     "sophie",
     "closing"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present.",
    "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, tickets from 25,50 EUR. ON SALE but NOT on the live site."
@@ -1771,7 +1771,7 @@
     "sophie",
     "closing"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "via": "browser",
    "note": "Browser-verified 2026-08-29. Keyed under the act spelling the BOX uses in its own nightly email (English 'Sophie Festival Chapter #N'), because the baseline is looked up as norm(act)|date and the Spanish card text 'S.O.P.H.I.E Festival Capitulo #N' normalises to a DIFFERENT key - so the browser-verified entry was never found for these two rows. Both keys are now present.",
    "why": "BROWSER-CONFIRMED 2026-09-08: sophie.es: SABADO 19 DE SEPTIEMBRE 2026 18:00-04:00, PACK 4x3 25,50 / ACCESS BEFORE 19H 28 / GENERAL 36 EUR. Billed 'Sophie CH#7 - Seth Troxler, Ricardo Villalobos, Roots & more'. ON SALE but NOT on the live site."
@@ -1798,7 +1798,7 @@
     "ellar",
     "malaga"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: tomaticket: 25/09/2026 Sala Trinchera, COMPRAR ENTRADAS desde 27,50 EUR.",
    "via": "browser"
   },
@@ -1811,7 +1811,7 @@
     "koi",
     "malaga"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: doitproduction: 19 de septiembre de 2026, Sala Marte, Entradas GENERAL 25,00 EUR with quantity selector. | 2026-09-11 RE-OPENED AND SCREENSHOTTED: the page is the right act, right date and right venue ('Andres Koi Malaga, 19 de septiembre de 2026, Sala Marte', live countdown, 'Precios con gastos de gestion ya incluidos') but the ticket widget that was there on 09-08 DOES NOT RENDER today - the DOM holds no price, no quantity selector and no add-to-cart control, only a YouTube embed. Almost certainly the same upstream fault as the four entradas.conciertos.club 403s: conciertos.club is this show's ticketer (its own page bills 'SAB 19 SEP 21:00 SALA MARTE 25 EUR' and, uniquely among that venue's listings, shows NO buy button). Every alternative was searched: the artist's official site andreskoi.com sends buyers to THIS exact url, tomaticket has no Malaga date, taquilla has none, ticketmaster/ECI/Fever have none, and ticketle only offers StubHub RESALE at 130 EUR against a 25 EUR face - which ML does not route to. KEPT, not dropped: real show, official destination. HUMAN RULING WANTED.",
    "via": "browser"
   },
@@ -1897,7 +1897,7 @@
     "rock",
     "classics"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 466621 chips dom 04 oct / 29 nov; 19:00 Zona D 20,50 to Zona A 40,00 EUR on sale.",
    "via": "browser"
   },
@@ -1909,7 +1909,7 @@
     "candlelight",
     "mecano"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: Fever 656280: 13 sept chip greyed out, dom 04 oct selectable at 21:00, Zona D 22,50 EUR on sale.",
    "via": "browser"
   },
@@ -1921,7 +1921,7 @@
     "festival",
     "rock"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 51237 Sesiones: DOM 13 SEP 19:30, desde 20,00 EUR, Comprar ahora.",
    "via": "browser"
   },
@@ -1934,7 +1934,7 @@
     "hebe",
     "frac"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 17.09.2026 21:00 Sala Marte, ANTICIPADA 20,00 EUR, COMPRAR. | 2026-09-11 COULD NOT BE RE-CONFIRMED: every url on entradas.conciertos.club returned '403 Forbidden' to the in-app browser this run (the Chrome extension was unreachable), including when clicked from conciertos.club itself, which renders normally. NOT MOVED: the seller's own parent page conciertos.club/malaga/conciertos/120098-sara-hebe-f-r-a-c still bills 'JUE 17 SEP 21:00 SALA MARTE 20 EUR, Venta anticipada: Conciertos.club' with a live COMPRAR ENTRADAS, so the show is on sale and this is its exclusive seller; the only alternative found, taquilla.com's multi-city Sara Hebe listing, resells the same 20,00 EUR allocation and is a weaker (non-deep) destination. HUMAN RULING WANTED on whether the 403 is visitor-facing.",
    "via": "browser"
   },
@@ -1946,7 +1946,7 @@
     "blanca",
     "paloma"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2595: Viernes 18 de septiembre 21:00, 18 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
@@ -1958,7 +1958,7 @@
     "apartamentos",
     "acapulco"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 Sala Marte, 15,47 EUR, COMPRAR. | 2026-09-11 COULD NOT BE RE-CONFIRMED: entradas.conciertos.club returned '403 Forbidden' for every url on that host to the in-app browser this run. NOT MOVED: conciertos.club/malaga/locales/sala-marte still bills 'V18/9/26 21:00 APARTAMENTOS ACAPULCO SALA MARTE 15,47 EUR' with a live COMPRAR ENTRADAS, and taquilla.com resells the identical 15,47 EUR allocation from a weaker multi-city artist page. HUMAN RULING WANTED on whether the 403 is visitor-facing.",
    "via": "browser"
   },
@@ -1970,7 +1970,7 @@
     "sandra",
     "groove"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11 (Chrome, later run): conciertos.club renders 'SANDRA GROOVE EN MALAGA CORAZONES ROTOS TOUR, THE HALL, C. HEROE DE SOSTOA 63, 18.09.2026 21:00' with a live ticket selector - ENTRADA GENERAL ANTICIPADA 15,00 EUR and ENTRADA + MEET&GREET 20,00 EUR - and a COMPRAR button. REVERTED off tomaticket: the earlier 2026-09-11 run moved it there because this host returned '403 Forbidden' on every path, but that 403 was client/IP-specific to that one session and does NOT reproduce - all four conciertos.club events open normally today. This restores the url the live site actually ships, and matches Sara Hebe + Apartamentos Acapulco, which were never moved. Identical 15 EUR price, neither seller pays commission, so the revert costs no revenue.",
    "via": "browser"
   },
@@ -1981,7 +1981,7 @@
    "expect": [
     "fraderita"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11 (Chrome, later run): conciertos.club renders 'FRADERITA EN MALAGA - TOUR 2026, THE HALL, C. HEROE DE SOSTOA 63, 19.09.2026 20:15', ENTRADA ANTICIPADA 18,00 EUR with a live COMPRAR. REVERTED off tomaticket for the same reason as Sandra Groove 18/09: the 403 that triggered the move was client/IP-specific to one session and does not reproduce. Identical 18 EUR price, neither seller pays, so the revert costs no revenue and restores the link the live site ships.",
    "via": "browser"
   },
@@ -1993,7 +1993,7 @@
     "idaira",
     "siles"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2643: Sabado 19 de septiembre 21:00, 13 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
@@ -2005,7 +2005,7 @@
     "britpop",
     "authority"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2619: Domingo 20 de septiembre 19:00, 15 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
@@ -2017,7 +2017,7 @@
     "country",
     "night"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58521: 20 de septiembre de 2026 20:00, Comprar ahora.",
    "via": "browser"
   },
@@ -2029,7 +2029,7 @@
     "ciro",
     "persas"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Thursday 24/09/2026 21:00 Malaga Sala Paris 15, ticket-selection page, from 44,00 EUR.",
    "via": "browser"
   },
@@ -2041,7 +2041,7 @@
     "ultima",
     "fila"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 59305: 25 de septiembre de 2026 21:30, Comprar ahora.",
    "via": "browser"
   },
@@ -2053,7 +2053,7 @@
     "sheila",
     "paz"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2644: Viernes 25 de septiembre 21:00, 15 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
@@ -2064,7 +2064,7 @@
    "expect": [
     "migueli"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: lacocheraentradas 2649: Sabado 26 de septiembre 21:00, 13 EUR, COMPRAR ENTRADAS.",
    "via": "browser"
   },
@@ -2076,7 +2076,7 @@
     "raimundo",
     "amador"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Saturday 26/09/2026 21:30 Malaga Sala Paris 15, ticket-selection page.",
    "via": "browser"
   },
@@ -2088,7 +2088,7 @@
     "south",
     "funk"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: onebox 58687: 27 de septiembre de 2026 21:00, Comprar ahora.",
    "via": "browser"
   },
@@ -2101,7 +2101,7 @@
     "colour",
     "scene"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: unientradas: Martes 29/09/2026 20:00 TEATRO CERVANTES, Ver precios 16,38 to 78,85 EUR.",
    "via": "browser"
   },
@@ -2113,7 +2113,7 @@
     "perota",
     "chingo"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: entradas.com event page: Wednesday 30/09/2026 21:00 Sala La Trinchera, ticket-selection page.",
    "via": "browser"
   },
@@ -2137,7 +2137,7 @@
     "jose",
     "merce"
    ],
-   "verified": "2026-09-08",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27MerceJoseMa: Sabado 03/10/2026 20:00 TEATRO CERVANTES, Ver precios 18,43 to 88,06 EUR. MOVED OFF teatrocervantes.com (silent-302 class) onto the venue's own COMPRAR ENTRADAS destination. ON SALE but NOT on the live site.",
    "via": "browser"
   },
@@ -2149,7 +2149,7 @@
     "candlelight",
     "coldplay"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 532802 date chips read 'sab 10 oct' and 'vie 13 nov'; 10 Oct selected, ticket tiers live from 37,50 EUR.",
    "via": "browser"
   },
@@ -2162,7 +2162,7 @@
     "queen",
     "abba"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 555765 (Unicaja Concert Hall Maria Cristina) date chips read 'sab 10 oct' and 'vie 13 nov'; tiers live from 38,00 EUR.",
    "via": "browser"
   },
@@ -2175,7 +2175,7 @@
     "queen",
     "abba"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 677232 (Salon Linares, Anantara Villa Padierna, Marbella) offers the single chip 'dom 11 oct'; tiers live from 40,00 EUR. Distinct plan from the Malaga 10 Oct show of the same name.",
    "via": "browser"
   },
@@ -2187,7 +2187,7 @@
     "filip",
     "miskovic"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'FILIP MISKOVIC - PEPE ROMERO GUITAR FESTIVAL MALAGA 2026' with a live Anadir / COMPRAR control (no AGOTADAS banner).",
    "via": "browser"
   },
@@ -2199,7 +2199,7 @@
     "daniel",
     "casares"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'DANIEL CASARES', Sala Fundacion Unicaja Maria Cristina, live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2211,7 +2211,7 @@
     "daniel",
     "zapico"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'DANIEL ZAPICO', live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2224,7 +2224,7 @@
     "fermin",
     "fernandez"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JOSE FERMIN FERNANDEZ', live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2237,7 +2237,7 @@
     "jimenez",
     "mendez"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JONI JIMENEZ Y JESUS MENDEZ', live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2250,7 +2250,7 @@
     "fernandez",
     "moral"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'RICARDO FERNANDEZ DEL MORAL', live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2263,7 +2263,7 @@
     "luis",
     "puerto"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JOSE LUIS RUIZ DEL PUERTO', live Anadir / COMPRAR control.",
    "via": "browser"
   },
@@ -2275,7 +2275,7 @@
     "aranjuez",
     "williams"
    ],
-   "verified": "2026-09-11",
+   "verified": "2026-09-12",
    "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'CONCIERTO DE ARANJUEZ Y SELECCION MUSICA CINE JOHN WILLIAMS', Teatro Cervantes, live Anadir / COMPRAR control.",
    "via": "browser"
   },
