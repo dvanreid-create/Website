@@ -1,18 +1,18 @@
-=== tours_debug Sat Sep 12 12:40:38 AM UTC 2026 ===
-srchash=868ad064920fce66a46f930cfd717dc4
+=== tours_debug Sat Sep 12 01:26:33 AM UTC 2026 ===
+srchash=6afa6d15794cdedeaf03805d766aff87
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at f2b0ef0b08b Tours rebuild 2026-09-11T20:20:51Z [vps]
+HEAD is now at 6e692c994ad Tours rebuild 2026-09-11T23:54:02Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [paco] seasonal couple image -> fall
 [guides] resized malaga-kids-tivoli.jpg 1200x600 -> 1120x720
 [guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
-[guides] lead image not copied: butibamba-lomo-la-cala-de-mijas.jpg [Errno 2] No such file or directory: '/app/runtime/Tools/agent/guide_img/butibamba-lomo-la-cala-de-mijas.jpg'
+[guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
 [bygo] gallery self-hosted images: 44 of 62
 Built 8 languages · 176 landing pages · 1225 tour pages · 28 guide pages · 1984 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1225 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   f2b0ef0b08b..6e692c994ad  main -> main
+   6e692c994ad..12cdcc25eb1  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
