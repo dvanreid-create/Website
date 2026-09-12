@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12",
+ "generated": "2026-09-13",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 7,
-   "matched": 7,
-   "calendar_in_window": 7,
+   "mapped_in_window": 6,
+   "matched": 6,
+   "calendar_in_window": 6,
    "latest_mapped": "2026-09-27",
    "always_on": true,
    "verdict": "ok"
@@ -22,12 +22,12 @@
   },
   "marenostrum": {
    "venue": "Marenostrum Castle Park",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-12",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "quiet"
   },
   "purolatino": {
    "venue": "Puro Latino Torremolinos",
@@ -67,21 +67,21 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 20,
-   "matched": 20,
-   "calendar_in_window": 19,
+   "mapped_in_window": 19,
+   "matched": 19,
+   "calendar_in_window": 18,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-09-12",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "quiet"
   },
   "benalmadenacultura": {
    "venue": "Ayuntamiento de Benalmádena",
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 3,
    "matched": 3,
-   "calendar_in_window": 6,
+   "calendar_in_window": 5,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
@@ -202,9 +202,9 @@
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 7,
-   "matched": 7,
-   "calendar_in_window": 21,
+   "mapped_in_window": 5,
+   "matched": 5,
+   "calendar_in_window": 18,
    "latest_mapped": "2026-10-09",
    "always_on": false,
    "verdict": "ok"
