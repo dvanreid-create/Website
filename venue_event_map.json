@@ -2291,23 +2291,8 @@
    "source": "https://conciertos.club/malaga/locales/the-hall",
    "complete": false,
    "gate": false,
-   "note": "The Hall, Malaga city. Concert hall and jazz club with a regular ticketed programme. Confirmed on the province agenda 2026-08-21: Sandra Groove 18 Sep, Fraderita 19 Sep. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-09-11: acts is no longer empty - two LINK OVERRIDES were added after entradas.conciertos.club started returning '403 Forbidden' on every path (see below). complete:false and gate:false still stand.",
-   "acts": {
-    "sandra groove": {
-     "url": "https://www.tomaticket.es/es-es/entradas-sandra-groove-corazones-rotos-tour-en-malaga",
-     "date": "18/09/2026",
-     "venue_name": "The Hall",
-     "genre": "Pop",
-     "why": "DESTINATION BROWSER-CONFIRMED 2026-09-11: tomaticket renders 'Sandra Groove Corazones Rotos Tour en Malaga', 18/09/2026, Sala The Hall, C. Heroe de Sostoa 65, with a live COMPRAR ENTRADAS - DESDE: 15 EUR. Replaces entradas.conciertos.club/es/events/sandra-groove-en-malaga-corazones-rotos-tour, which returned Apache '403 Forbidden' for every path on that host this run, including when clicked from conciertos.club itself. Identical 15 EUR price and neither seller pays commission, so the move costs no revenue."
-    },
-    "fraderita": {
-     "url": "https://www.tomaticket.es/es-es/entradas-fraderita-tour-2026-en-malaga",
-     "date": "19/09/2026",
-     "venue_name": "The Hall",
-     "genre": "Flamenco",
-     "why": "DESTINATION BROWSER-CONFIRMED 2026-09-11: tomaticket renders 'Fraderita - Tour 2026 en Malaga', 19/09/2026, Sala The Hall, with a live COMPRAR ENTRADAS - DESDE: 18 EUR. Replaces entradas.conciertos.club/es/events/fraderita-en-malaga-tour-2026, which 403s on every path. Identical 18 EUR price; neither seller pays commission."
-    }
-   }
+   "note": "The Hall, Malaga city. Concert hall and jazz club with a regular ticketed programme. Confirmed on the province agenda 2026-08-21: Sandra Groove 18 Sep, Fraderita 19 Sep. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-09-11 (earlier run): two LINK OVERRIDES were added pointing Sandra Groove + Fraderita at tomaticket, after entradas.conciertos.club returned '403 Forbidden' on every path. | 2026-09-11 (later Chrome run) REVERTED, premise disproved: the SAME entradas.conciertos.club urls render perfectly in Chrome today - 'SANDRA GROOVE EN MALAGA CORAZONES ROTOS TOUR, THE HALL, 18.09.2026 21:00, ENTRADA GENERAL ANTICIPADA 15,00 EUR + ENTRADA + MEET&GREET 20,00 EUR, live COMPRAR' and 'FRADERITA EN MALAGA - TOUR 2026, THE HALL, 19.09.2026 20:15, ENTRADA ANTICIPADA 18,00 EUR, live COMPRAR'. The 403 was client/IP-specific to that one session, not a dead product. Sara Hebe and Apartamentos Acapulco were never moved, so keeping these two on tomaticket would have split four identical conciertos.club shows across two sellers for no reason. Neither seller pays commission and the prices are identical, so the revert costs nothing and restores the link the live site already ships. acts is empty again on purpose.",
+   "acts": {}
   },
   "sala core": {
    "source": "https://conciertos.club/malaga/locales/sala-core",
