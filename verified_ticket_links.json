@@ -1,6 +1,6 @@
 {
- "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run. | 2026-08-10 LIVE-SITE full pass #2 (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en (42 ticketed events, 10-31 Aug + Sinatra 24 Oct), followed each card's own decoded link. 38 reached a valid buying page. FIXED: Disney Love Songs 23/08 — tiles.json shipped the generic listing feverup.com/en/malaga/candlelight; deep link feverup.com/m/646736 browser-confirmed to sell 23/08 (planTicketSelectorData sessions incl 2026-08-23), tiles.json url upgraded to the standard fever.pxf.io wrapper for sku 646736. FLAGGED for human ruling (off-sale/sold-out, no in-window alternative found): Alejandro Astola 13/08 (ECI 'ya no se encuentra a la venta' + venue janto 'Sold Out'); Candlelight Open Air Ludovico Einaudi Marbella 14/08 feverup m/132355->138232 ('no hay entradas disponibles'); Candlelight Tributo a Joan Manuel Serrat 15/08 feverup m/656279 (off-sale banner). These three Fever/janto plans should be auto-dropped by the build's Fever buyability sweep / need a human drop for Astola (ECI trusted-host ships unfetched). RESOLVED prior flag: NOCHE FLAMENCA DEL COMPÁS onebox 51613 now sells 22/08 (Del 22 al 23 agosto, Ver sesiones). Off-sale baseline entries left in place pending human ruling (not removed unilaterally). | 2026-08-11 LIVE-SITE full pass (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en one-by-one (55 ticketed cards incl 4 Clarence). 52 reached a valid buying page. ADDED 14 browser-confirmed live events (Sept Candlelight m/621145 Lord of the Rings, m/611306 Jazz Room, m/701689 Open Air Queen 05/09, m/155745 Hans Zimmer 06/09, m/88307 Vivaldi 06/09; Chambao 06/09 janto; onebox SOUL ON FIRE 23/08 ev51226, De la Alhambra a Aranjuez 29/08 sel2688292, Disne-y 30/08 sel2698901, Revive a Queen 05/09 sel2688295; Torremolinos Cultura Zarzuela 25/08, Canela Party 27/08, Furor 30/08, Bresh 12/09). ADDED torremolinoscultura.es to trusted_hosts (official municipal ticketer, JS-rendered/blocks datacentre fetch, 4 valid events). FLAGGED for human ruling: Noche Movida 11/08 (ECI 'ya no se encuentra a la venta', event day); Alejandro Astola 13/08 (ECI AGOTADO, sold out, no alt seller); Damián Córdoba 03/09 — live card links salatrinchera.com/cartel-malaga-2/ (a generic 'cartel malaga' listing, not the buy page); correct buy page movingtickets.com confirmed on sale (baseline already holds it) but build treats the listing URL as 'deep' so venue_resolve can't auto-upgrade — needs a human/source fix. Existing off-sale + not-on-live entries left in place (not removed). | 2026-08-14 browser click-test (Claude in Chrome, sofia@): opened all 48 ticketed cards on the LIVE site one by one. 44 reached a valid buying page. FIXED Noches de Tango - La Portena 20 Aug: live linked the marbella.es agenda LISTING -> confirmed seller page mientrada.net (COMPRAR ENTRADAS, 20 ago 2026, 25 EUR); venue_event_map marbellacultura updated. OFF SALE: Omega 30 Aniversario 15 Aug (ECI 'YA NO SE ENCUENTRA A LA VENTA'; Starlite box office /checkout/omega-30-aniversario-kiki-morente returns 404 - no seller). STILL BROKEN: Damian Cordoba 3 Sep still ships salatrinchera.com/cartel-malaga-2/ (a listing); the correct page movingtickets.com is confirmed on sale (27.50 EUR) and is in this baseline. FLAG: Antonio Cortes 14 Sep links to a nerja.es PRESS RELEASE dated 10 Sep 2024 about a 14 Sep 2024 concert; cultura.nerja.es, mientrada.net and tomaticket show no 2026 date - needs a human ruling. NAME MISMATCH kept live: site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' (same venue + 5 Sep). Also fixed the accented 'damian cordoba' baseline key (accents meant norm() could never match it) and pointed Antonito Molina 18 Aug at the /checkout/ URL the live site actually uses. | 2026-08-18 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 61 events, 37 ticketed (24 free/no-purchase) — and opened all 37 ticketed destinations one-by-one from each card's OWN decoded link. 35 reached a valid buying page. TWO FIXED (site was shipping the Ayuntamiento's INFO page, which shows date+price but has NO buy control): Canela Party 2026 27/08 torremolinoscultura .../canela-party-2026-gdnu -> ingresse.com/canela-party-2026/ (BUY TICKET, sessions Thu 27 / Fri 28 / Sat 29 Aug all listed); Furor, The Show 30/08 torremolinoscultura .../furor-the-show-bulz -> site.fourvenues.com/... -62HH (Domingo 30 agosto 2026 19:00, EQUIPO AMARILLO/MORADO 15 EUR live). Root cause = the same one as Damian Cordoba: venue_event_map already held the right seller URLs but the calendar's torremolinoscultura link is _is_deep() so venue_resolve refused to upgrade it; fixed with prefer:'eci' PLUS a rewrite-proof LINK-OVERRIDE block above the torremolinoscultura block. FLAG (name mismatch, kept live): site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' — same venue (Opera Benalmadena) + same date (SAB 5 sept 2026 22:00), on sale from 15 EUR. FLAG (wrong venue on the live card, comes from the box-generated calendar, not from any file in this repo): Furor 30/08 shows 'Palacio de Congresos de Torremolinos'; both the Ayuntamiento page and the seller say Plaza de Toros de Torremolinos. FLAG (duplicate): 27 Aug carries both 'Canela Party - Day 1' and 'Canela Party 2026' (same festival, same seller). Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees only 27 events vs 37 live — the live site was used as the worklist, as the task requires. | 2026-08-22 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 44 cards, 30 ticketed + the Sinatra 24 Oct gutter tile = 31 unique ticketed destinations — and opened all 31 one-by-one from each card's OWN decoded link. 29 reached a valid buying page. FIXED: Pastora Soler 22/08 — the site shipped the El Corte Ingles page, which shows the red 'Actualmente este evento ya no se encuentra a la venta' banner and a dead buy box while its JSON-LD still reads InStock 25,00 EUR (the documented ECI trap); the Starlite box office https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i sells it (08/22/2026 Sat 22:00, Auditorio Marbella, from EUR25.00, live 'Buy tickets'), so an eci_pins.json exclude was added and the baseline now holds the box-office URL. FLAGGED for human ruling (Fever date not selectable, Candlelight is Fever-exclusive so there is no alternative seller): Candlelight: Tribute to Ludovico Einaudi 22/08 feverup m/145066 — the 'sab 22 ago' chip carries level-item--disabled and clicking it does not select (only 'dom 01 nov' is bookable); Candlelight: Disney Love Songs 23/08 feverup m/646736 — 'dom 23 ago' chip disabled while 10 + 20 sept are bookable (the 10/09 row on the site is fine). Both off-sale entries left in place, not removed unilaterally. Fever method used throughout: read the plan's own date selector chips (.level-item--date, --disabled vs --selected), never page-body dates. Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees 19 in-window ticketed rows vs 31 live — the live site was used as the worklist, as the task requires. | 2026-08-25 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 99 events, 59 unique ticketed destinations - and opened all 59 one-by-one from each card's OWN decoded link. 50 reached a valid buying page AS FOUND; 9 did not. Of the 9, four are STALE-BUILD regressions the repo already fixes (Canela Party Dia 1/2/3 shipping the canelaparty.com homepage; S.O.P.H.I.E Grand Closing shipping the sophie.es homepage), one is a stale-build WRONG EVENT (Thomas Helmig 4 Sep shipping ticketmaster.dk id 281256954, which is the 5 Sep show; the repo map already routes it to 1162665300), one was already blocked yesterday (Kevin Kaarl), and three were fixed in data this run (Nile Rodgers & CHIC, Jakob Dreyer, Asys Quartet). FIXED (1) Nile Rodgers & CHIC 26/08: the site shipped the El Corte Ingles page, which shows 'Fechas: 26 de Agosto de 2026' then the red banner 'Actualmente este evento ya no se encuentra a la venta' over a dead buy box - the FIFTH ECI off-sale in a week; CORRECTED SAME DAY after DLR pointed out the revenue cost: the first fix sent it to the Starlite box office, which pays NO commission. Ticketmaster.es sells the same show and DOES pay (Impact/evyy.net), so it is routed to https://www.ticketmaster.es/event/nile-rodgers--chic-entradas/771593509 - 'Nile Rodgers & CHIC, Wed, 26 Aug 2026, 22:00, Auditorio Starlite, Marbella', live seat map, browser-verified. STANDING LESSON: when a fix moves a link off a paying seller, check every other PAYING seller before falling back to a box office. (2) Jakob Dreyer 18/09 + Asys Quartet 19/09: both linked clarencejazzclub.com/wp/programacion/, which opens on the CURRENT month (August) and reads 'SIN EVENTOS' because the club is on summer break until 16 Sep; both shows ARE on the September view and have their own permalinks, now in venue_event_map. REMOVED (3) Kevin Kaarl 15/09: a PHANTOM - the card linked the bare entradas.com homepage, and Songkick has the gig as a PAST CONCERT on Monday 15 September 2025 while paris15.es still reads 'Fecha: septiembre 15, 2025'; no 2026 date exists anywhere. Blocked date+venue-scoped, same shape as the Antonio Cortes Nerja 2024 phantom. STALE-BUILD FINDING (not a data fault): the live site is still serving a build made on 24 Aug - it shows the window '24 Aug-22 Sep' with the already-past Gloria Trevi 24/08 as its marquee, and it still ships canelaparty.com (homepage), sophie.es (homepage) and the WRONG Thomas Helmig id (281256954 on the 4 Sep card, which is the 5 Sep show) even though the repo's venue_event_map ALREADY resolves all four correctly - verified by running venue_resolve() against the live inputs this run. Those three will correct themselves on the next rebuild; no data change was needed. Fever method: read each plan's own date-selector chips and, where the calendar date was not the default selection (Mecano 13/09, Queen vs. ABBA 18/09), CLICKED the chip and confirmed a bookable session and live prices (Mecano 19:00 Zona D 21,50 EUR; Queen vs. ABBA 17:45 Zona D 16,00 EUR). | 2026-08-28 FULL browser pass (Claude in Chrome, sofia@): worklist built from the LIVE site; every ticketed card opened one-by-one. Fixes this run: El Kuelgue 10 Sep moved off entradas.crashmusic.es (its only ticket type reads 'Agotadas'; tomaticket resells the SAME enterticket allocation, also 'Agotadas') to dice.fm, which shows a live BUY NOW at 27,54 EUR - no paying alternative exists (El Corte Ingles search 'kuelgue' = 0 results, Ticketmaster.es = 0 results, Fever Malaga = no match), so this move costs no commission. Sun & Thunder 28/08 per-night janto page VSUNTHUNDER26 went 'page not found' on the morning of the show (identical to the Thursday), and the 3-day pass A3SUNTHUNDER26 is dead too - the day-2 map entry now falls back to the festival's own Marenostrum page, as Thursday already does. Off-sale found and blocklisted: Candlelight Tribute to Mecano 13/09 (plan 656280's own chip for dom 13 sept is level-item--disabled; next sellable date 4 Oct) and Candlelight Queen vs. ABBA 18/09 (plan 555765's date selector offers only sab 10 oct and vie 13 nov). Cancelled and blocklisted: The Tribute - Inspired by ABBA Voyage 29/08 Marbella Arena (Ticketmaster.es 1628507111 renders 'This event has been cancelled. Ticket sales have stopped'; tomaticket's COMPRAR ENTRADAS is an Impact redirect back to that same cancelled event, so there is no second seller). Restored: Jakob Dreyer 18/09 and Asys Quartet 19/09 - both Clarence per-event pages are live (VIE 18 SEP 22:00 / SAB 19 SEP 22:00), confirming the 2026-08-25 reversal, but their 2026-08-24 blocklist rows had never been deleted, which is why neither event was on the site. | 2026-08-29 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 70 cards, 40 ticketed (30 free/no-purchase) - and opened all 40 destinations one-by-one from each card's OWN decoded ticket anchor. 39 reached a valid buying page as found; every baseline URL matched what the live site actually ships, so no link fix was needed. Method: onebox/janto read from the event header date + seat map/price control; Fever read from each plan's own date-selector chips in .ticket-selector (never page-body dates); sophie.es confirmed by screenshot of the embedded widget (SATURDAY 5TH OF SEPTEMBER 2026 / SABADO 19 DE SEPTIEMBRE 2026, live ticket tiers). REMOVED (1) Villano Antillano 18/09 Sala Paris 15 - CANCELLED. The card linked the taquilla.com multi-city artist listing; its Malaga 'Ver 38,72 EUR' button lands on entradas.com/event/villano-antillano-sala-paris-15-21485879/ which renders 'Unfortunately, this page is no longer available'. Searched every seller before dropping: entradas.com/artist/villano-antillano/ now offers only a TicketAlarm signup with 0 events, ticketmaster.es search = '0 Results', wegow lists no Malaga date, dice.fm returns nothing, the venue's own programme at paris15.es jumps 15 Sep -> 19 Sep, and laganzua.net's page for this exact date/venue is stamped 'Cancelado'. No paying seller (ECI/awin, Fever/pxf, Ticketmaster/Impact) and no non-paying seller has a buyable page, so the drop costs no commission; blocked date+venue-scoped in not_music_blocklist.json. FLAG (duplicate, human ruling): 12 Sep carries the SAME show twice - 'Emanero Tour 2026' -> enterticket.es/...-370663 and 'EMANERO TOUR 2026 in Malaga ( Sala Paris 15)' -> feverup.com/m/570333. Both are valid buying pages for Sala Paris 15 on sab 12 sept, but only the Fever one pays (pxf, 6%); if the pair is merged, keep the Fever link. NOT A MISMATCH (checked, no action): 'Tributo Queen' 5 + 6 Sep and 'Festival de Rock' 12 + 13 Sep each point at ONE onebox event that legitimately covers both nights ('Del 5 al 6 de septiembre de 2026' / 'Del 12 al 13 de septiembre de 2026'). Clarence Jazz Club's Jakob Dreyer 18/09 and Asys Quartet 19/09 remain correct per-event pages with no online buy control - the site's 'Check venue' label is accurate. CROSS-CHECK IMPOSSIBLE: Tools/agent/verify_ticket_links.py exits 'no calendar in .../Events' because the deploy repo carries no Events/ folder, and the only local calendar (Malaga-Live/Events/ 2026-08-04_next30days.xlsx) is 25 days stale - the live site was used as the worklist, as the task requires. ANOMALY TO WATCH: the box's own overnight report Events/ticket-link-check_2026-08-29.md claims only '2 ticketed events were checked' on a day the live site was showing 40. | 2026-08-30 ROOT-CAUSE FIX after DLR reported 'Premios Juventud 3 Sep was dropped — said event buying page could not be confirmed'. That string is verify_ticket_links' UNVERIFIED verdict, and the cause was MY omission on 2026-08-29: I routed that event to entradas.com (Awin mid 24761 — a PAYING seller, and the box office sold the same night at the same 119.00 EUR entry price, so the drop cost commission and gained the reader nothing) while entradas.com was NOT in trusted_hosts. entradas.com 403s our datacentre IP — it is listed in reel_artwork.SKIP_HOSTS next to elcorteingles.es and ticketmaster.es for exactly that reason — so the unattended verifier could never fetch the page and correctly refused to confirm it. trusted_hosts is the documented remedy for precisely this class ('Sellers known to block datacentre traffic, whose DEEP links we trust unfetched'), so entradas.com is now on it and the verdict becomes OK_TRUSTED_HOST, not a drop. This was load-bearing beyond one event: entradas_scrape.py (shipped 2026-08-29) adds entradas.com rows on every sweep and every deploy, and EVERY ONE of them would have been dropped the same way the day it appeared. Re-confirmed in Chrome 2026-08-30 before making the change: the page is live and correct — 'Starlite Festival 2026 in Marbella, 03/09/2026 22:00', Marbella | Starlite Marbella, Best seat + Seating chart controls, tiers 119.00/139.00/238.00 EUR. The deep URL also passes is_generic_landing (its last path segment is far longer than 20 chars), so the trusted-host path applies to it rather than the listing screen. Baseline entry added so the drop clears on the next verifier run (ticket_link_drops.json is rebuilt every run and an event returns once its link verifies). | 2026-08-30 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 65 cards, 35 ticketed (30 free/no-purchase) - and opened all 35 destinations one-by-one from each card's OWN decoded ticket anchor. 34 reached a valid buying page. Method: onebox read from each event's Sesiones list (session date + 'Comprar ahora' + price); Fever read from the plan's own Event JSON-LD startDate + offers.availability, and where no JSON-LD Event was emitted (m/701689, m/643699) from a screenshot of the plan's own date selector; janto from the event header date + 'View prices' seat map; sophie.es by screenshot of the embedded widget (SATURDAY 5TH OF SEPTEMBER 2026 / SATURDAY 19TH OF SEPTEMBER 2026, live ticket tiers). FLAG (human ruling, kept live): 'Tributo Queen (2a noche)' 6 Sep links onebox 51233, which is the right act at the right venue but whose Sesiones list now offers ONLY 'SAB 5 SEP 22:00' - the 6 Sep session has come off sale. Every seller was searched before flagging: entradas.com Benalmadena lists Tributo Queen on 05/09 only, ticketrona.com lists 'Sabado 5 De Septiembre De 2026' only, tomaticket has no 2026 date, and operabenalmadena.com's own programme still advertises '5 al 6 septiembre 2026' but links only to 51233. No buyable 6 Sep page exists anywhere, so the event was NOT dropped and no link was moved off any seller. FLAG (duplicate, unchanged from 2026-08-29): 12 Sep still carries the same Emanero show twice - 'Emanero Tour 2026' -> enterticket.es/...-370663 and 'EMANERO TOUR 2026 in Malaga ( Sala Paris 15)' -> feverup.com/m/570333; both are valid buying pages, only the Fever one pays. ENTRADAS.COM COVERAGE (all three city ids opened): malaga-490, benalmadena-9255 and estepona-2322 hold NO in-window live-music date the site is missing - the only in-window rows are Premios Juventud 03/09 (site already carries it, routed to entradas.com), Emanero 12/09 (already carried twice), Tributo Queen 05/09 / Festival de Rock 12+13/09 / Soul on Fire 18/09 (all already carried on onebox at 15-20 EUR vs entradas.com 22 EUR, so the reader stays on the CHEAPER non-paying seller per DLR's 2026-08-29 ruling), plus non-music rows (Teleferico Benalmadena, Selwo Aventura, De Cuentos el Musical, Leyendas y Misterios) which are correctly excluded. FIXED IN BASELINE: K-Beat Fest 19/09 baseline URL now carries the '?brand=base_mb_es' query the live site actually ships; the S.O.P.H.I.E Chapter #6 entry is re-keyed to the site's current act name. CROSS-CHECK IMPOSSIBLE AGAIN: verify_ticket_links.py finds no Events/ folder in the deploy repo, and the only local calendar (Malaga-Live/Events/2026-08-04_next30days.xlsx) is 26 days stale - run against it the resolver returns 0 in-window events, so the LIVE SITE was the worklist, as the task requires. | 2026-09-05 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 76 cards, 49 ticketed (27 free/no-purchase) - and opened all 49 destinations one-by-one from each card's OWN decoded ticket anchor. 45 reached a live buying page. The other 4, none of them a bad link: Thomas Helmig 04/09 (ticketmaster.dk 1162665300) and Manuel Carrasco 04/09 (Starlite box office, 'The sale has ended') are YESTERDAY'S shows, still on the page only because this run happened at 02:50 local, before the 05:00 rebuild - right act, right date, sale simply closed after the show; Thomas Helmig 05/09 (ticketmaster.dk 281256954) is the right event and date with TM reading 'This event is happening in less than 24h - tickets are no longer available online, but may be available at the box office', which is inventory state, not a page fault (Marbella Arena's own programme links this exact id, per the 2026-09-03 ruling, and the only other inventory is resale, which ML does not route to); Tributo Queen 06/09 (onebox 51233) is the venue's own event page for the whole 5-6 Sep run and its Sesiones list still offers SAB 5 SEP only - kept live per the 2026-09-03 ruling. NOTHING WAS DROPPED AND NO SELLER WAS MOVED: every one of the 49 live-site destinations already matched this baseline exactly, so zero URL corrections were needed; the 47 in-window entries were re-stamped verified 2026-09-05. Method: onebox read from each event's own Sesiones list ('Ver sesiones' -> session date + 'Comprar ahora' + price); Fever read from the plan's own .ticket-selector-wrapper date chips, never page-body dates (m/701689 sab 05 sept, m/155745 dom 06 sept, m/88307 dom 06 sept, m/646736 jue 10 sept, m/570333 sab 12 sept, m/643699 dom 13 sept); janto from the event header date plus the 'View prices' seat map; entradas.com, conciertos.club, lacocheraentradas, mutick, tomaticket, dice.fm, doitproduction, paris15 and unientradas from the event header date plus a live price/buy control; Clarence Jazz Club's 9 nights each on their own dated per-event page. FLAG (name mismatch, human ruling, kept live): the site bills 05/09 Starlite as 'Wisin + Melendi' while entradas.com event 22061359 bills the same night and venue as 'Wisin - Starlite Marbella 2026' - right date, right venue, live seat map 27.00-89.00 EUR, but Melendi is not named by the seller. ENTRADAS.COM COVERAGE (all three city ids opened in the browser): malaga-490, benalmadena-9255 and estepona-2322 hold NO in-window live-music date the site is missing - the in-window rows are Wisin 05/09, Emanero 12/09, Ciro y los Persas 24/09, Raimundo Amador 26/09 and Perota Chingo 30/09 (all already carried) plus Tributo Queen 05/09, Festival de Rock 12+13/09 and Soul on Fire 18/09 (already carried on onebox at 12-20 EUR against entradas.com's higher price, so the reader stays on the CHEAPER non-paying seller per DLR's 2026-08-29 ruling); the remainder are non-music (Teleferico Benalmadena, Selwo Aventura, De Cuentos El Musical, The Magic Experience, Visita nocturna al Cementerio Ingles) and correctly excluded. CROSS-CHECK IMPOSSIBLE FOR A SIXTH DAY: the deploy repo has no Events/ folder and the only local calendar (Malaga-Live/Events/2026-08-04_next30days.xlsx) is 32 days stale with zero in-window rows, so the resolver returns 0 ticketed events - the LIVE SITE was the worklist, as the task requires.",
- "generated": "2026-09-07",
+ "_comment": "Browser-verified correct ticket destinations. key = normalized 'act|YYYY-MM-DD'. expect = tokens that must appear in the final page title/URL. url = the true destination (wrapper decoded). | 2026-08-04 FULL browser pass (Claude in Chrome, sofia@): opened EVERY ticketed row on the 2026-08-03 calendar (48 events dated 2026-08-04..2026-08-23) one-by-one. All 21 El Corte Inglés confirmed (JSON-LD startDate = calendar date + InStock). All 8 onebox opened (SESIONES/date confirmed). All 12 Fever plans confirmed via the date selector (calendar date listed as a bookable session). Bocata Fest janto: both 06 & 07 Aug sessions bookable. 5 Marenostrum .com event pages: hero date = calendar date + working COMPRAR button. FLAG: NOCHE FLAMENCA DEL COMPÁS onebox 51613 sells only 23 Aug but the calendar lists 22 Aug (right event, buyable) — kept live, human ruling on the date. Earlier 2026-07-31 pass entries (2026-07-20 calendar, now past) preserved below. | 2026-08-10 browser pass (sofia@): investigated the box's 10-drop list; 7 were valid-but-bot-blocked (Galván Real, INNA, CantaJuego, Canela Party 27/28/29, KREAM — all opened + confirmed on sale). ADDED 3 confirmed Sept events whose calendar links were wrong/unverifiable: Damián Córdoba 03/09 (Sala Trinchera -> movingtickets), Thomas Helmig 04/09 + 05/09 (Marbella Arena -> ticketmaster.dk). Existing entries not re-clicked this run. | 2026-08-10 LIVE-SITE full pass #2 (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en (42 ticketed events, 10-31 Aug + Sinatra 24 Oct), followed each card's own decoded link. 38 reached a valid buying page. FIXED: Disney Love Songs 23/08 — tiles.json shipped the generic listing feverup.com/en/malaga/candlelight; deep link feverup.com/m/646736 browser-confirmed to sell 23/08 (planTicketSelectorData sessions incl 2026-08-23), tiles.json url upgraded to the standard fever.pxf.io wrapper for sku 646736. FLAGGED for human ruling (off-sale/sold-out, no in-window alternative found): Alejandro Astola 13/08 (ECI 'ya no se encuentra a la venta' + venue janto 'Sold Out'); Candlelight Open Air Ludovico Einaudi Marbella 14/08 feverup m/132355->138232 ('no hay entradas disponibles'); Candlelight Tributo a Joan Manuel Serrat 15/08 feverup m/656279 (off-sale banner). These three Fever/janto plans should be auto-dropped by the build's Fever buyability sweep / need a human drop for Astola (ECI trusted-host ships unfetched). RESOLVED prior flag: NOCHE FLAMENCA DEL COMPÁS onebox 51613 now sells 22/08 (Del 22 al 23 agosto, Ver sesiones). Off-sale baseline entries left in place pending human ruling (not removed unilaterally). | 2026-08-11 LIVE-SITE full pass (Claude in Chrome, sofia@): opened EVERY ticketed card on malagalivepulse.com/en one-by-one (55 ticketed cards incl 4 Clarence). 52 reached a valid buying page. ADDED 14 browser-confirmed live events (Sept Candlelight m/621145 Lord of the Rings, m/611306 Jazz Room, m/701689 Open Air Queen 05/09, m/155745 Hans Zimmer 06/09, m/88307 Vivaldi 06/09; Chambao 06/09 janto; onebox SOUL ON FIRE 23/08 ev51226, De la Alhambra a Aranjuez 29/08 sel2688292, Disne-y 30/08 sel2698901, Revive a Queen 05/09 sel2688295; Torremolinos Cultura Zarzuela 25/08, Canela Party 27/08, Furor 30/08, Bresh 12/09). ADDED torremolinoscultura.es to trusted_hosts (official municipal ticketer, JS-rendered/blocks datacentre fetch, 4 valid events). FLAGGED for human ruling: Noche Movida 11/08 (ECI 'ya no se encuentra a la venta', event day); Alejandro Astola 13/08 (ECI AGOTADO, sold out, no alt seller); Damián Córdoba 03/09 — live card links salatrinchera.com/cartel-malaga-2/ (a generic 'cartel malaga' listing, not the buy page); correct buy page movingtickets.com confirmed on sale (baseline already holds it) but build treats the listing URL as 'deep' so venue_resolve can't auto-upgrade — needs a human/source fix. Existing off-sale + not-on-live entries left in place (not removed). | 2026-08-14 browser click-test (Claude in Chrome, sofia@): opened all 48 ticketed cards on the LIVE site one by one. 44 reached a valid buying page. FIXED Noches de Tango - La Portena 20 Aug: live linked the marbella.es agenda LISTING -> confirmed seller page mientrada.net (COMPRAR ENTRADAS, 20 ago 2026, 25 EUR); venue_event_map marbellacultura updated. OFF SALE: Omega 30 Aniversario 15 Aug (ECI 'YA NO SE ENCUENTRA A LA VENTA'; Starlite box office /checkout/omega-30-aniversario-kiki-morente returns 404 - no seller). STILL BROKEN: Damian Cordoba 3 Sep still ships salatrinchera.com/cartel-malaga-2/ (a listing); the correct page movingtickets.com is confirmed on sale (27.50 EUR) and is in this baseline. FLAG: Antonio Cortes 14 Sep links to a nerja.es PRESS RELEASE dated 10 Sep 2024 about a 14 Sep 2024 concert; cultura.nerja.es, mientrada.net and tomaticket show no 2026 date - needs a human ruling. NAME MISMATCH kept live: site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' (same venue + 5 Sep). Also fixed the accented 'damian cordoba' baseline key (accents meant norm() could never match it) and pointed Antonito Molina 18 Aug at the /checkout/ URL the live site actually uses. | 2026-08-18 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 61 events, 37 ticketed (24 free/no-purchase) — and opened all 37 ticketed destinations one-by-one from each card's OWN decoded link. 35 reached a valid buying page. TWO FIXED (site was shipping the Ayuntamiento's INFO page, which shows date+price but has NO buy control): Canela Party 2026 27/08 torremolinoscultura .../canela-party-2026-gdnu -> ingresse.com/canela-party-2026/ (BUY TICKET, sessions Thu 27 / Fri 28 / Sat 29 Aug all listed); Furor, The Show 30/08 torremolinoscultura .../furor-the-show-bulz -> site.fourvenues.com/... -62HH (Domingo 30 agosto 2026 19:00, EQUIPO AMARILLO/MORADO 15 EUR live). Root cause = the same one as Damian Cordoba: venue_event_map already held the right seller URLs but the calendar's torremolinoscultura link is _is_deep() so venue_resolve refused to upgrade it; fixed with prefer:'eci' PLUS a rewrite-proof LINK-OVERRIDE block above the torremolinoscultura block. FLAG (name mismatch, kept live): site 'Revive a Queen' vs onebox 'TRIBUTO QUEEN' — same venue (Opera Benalmadena) + same date (SAB 5 sept 2026 22:00), on sale from 15 EUR. FLAG (wrong venue on the live card, comes from the box-generated calendar, not from any file in this repo): Furor 30/08 shows 'Palacio de Congresos de Torremolinos'; both the Ayuntamiento page and the seller say Plaza de Toros de Torremolinos. FLAG (duplicate): 27 Aug carries both 'Canela Party - Day 1' and 'Canela Party 2026' (same festival, same seller). Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees only 27 events vs 37 live — the live site was used as the worklist, as the task requires. | 2026-08-22 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en — 44 cards, 30 ticketed + the Sinatra 24 Oct gutter tile = 31 unique ticketed destinations — and opened all 31 one-by-one from each card's OWN decoded link. 29 reached a valid buying page. FIXED: Pastora Soler 22/08 — the site shipped the El Corte Ingles page, which shows the red 'Actualmente este evento ya no se encuentra a la venta' banner and a dead buy box while its JSON-LD still reads InStock 25,00 EUR (the documented ECI trap); the Starlite box office https://entradas.starlitemarbella.com/event/pastora-soler-vgvw2i sells it (08/22/2026 Sat 22:00, Auditorio Marbella, from EUR25.00, live 'Buy tickets'), so an eci_pins.json exclude was added and the baseline now holds the box-office URL. FLAGGED for human ruling (Fever date not selectable, Candlelight is Fever-exclusive so there is no alternative seller): Candlelight: Tribute to Ludovico Einaudi 22/08 feverup m/145066 — the 'sab 22 ago' chip carries level-item--disabled and clicking it does not select (only 'dom 01 nov' is bookable); Candlelight: Disney Love Songs 23/08 feverup m/646736 — 'dom 23 ago' chip disabled while 10 + 20 sept are bookable (the 10/09 row on the site is fine). Both off-sale entries left in place, not removed unilaterally. Fever method used throughout: read the plan's own date selector chips (.level-item--date, --disabled vs --selected), never page-body dates. Local calendar is STALE (newest is 2026-08-04_next30days.xlsx) so the resolver cross-check sees 19 in-window ticketed rows vs 31 live — the live site was used as the worklist, as the task requires. | 2026-08-25 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 99 events, 59 unique ticketed destinations - and opened all 59 one-by-one from each card's OWN decoded link. 50 reached a valid buying page AS FOUND; 9 did not. Of the 9, four are STALE-BUILD regressions the repo already fixes (Canela Party Dia 1/2/3 shipping the canelaparty.com homepage; S.O.P.H.I.E Grand Closing shipping the sophie.es homepage), one is a stale-build WRONG EVENT (Thomas Helmig 4 Sep shipping ticketmaster.dk id 281256954, which is the 5 Sep show; the repo map already routes it to 1162665300), one was already blocked yesterday (Kevin Kaarl), and three were fixed in data this run (Nile Rodgers & CHIC, Jakob Dreyer, Asys Quartet). FIXED (1) Nile Rodgers & CHIC 26/08: the site shipped the El Corte Ingles page, which shows 'Fechas: 26 de Agosto de 2026' then the red banner 'Actualmente este evento ya no se encuentra a la venta' over a dead buy box - the FIFTH ECI off-sale in a week; CORRECTED SAME DAY after DLR pointed out the revenue cost: the first fix sent it to the Starlite box office, which pays NO commission. Ticketmaster.es sells the same show and DOES pay (Impact/evyy.net), so it is routed to https://www.ticketmaster.es/event/nile-rodgers--chic-entradas/771593509 - 'Nile Rodgers & CHIC, Wed, 26 Aug 2026, 22:00, Auditorio Starlite, Marbella', live seat map, browser-verified. STANDING LESSON: when a fix moves a link off a paying seller, check every other PAYING seller before falling back to a box office. (2) Jakob Dreyer 18/09 + Asys Quartet 19/09: both linked clarencejazzclub.com/wp/programacion/, which opens on the CURRENT month (August) and reads 'SIN EVENTOS' because the club is on summer break until 16 Sep; both shows ARE on the September view and have their own permalinks, now in venue_event_map. REMOVED (3) Kevin Kaarl 15/09: a PHANTOM - the card linked the bare entradas.com homepage, and Songkick has the gig as a PAST CONCERT on Monday 15 September 2025 while paris15.es still reads 'Fecha: septiembre 15, 2025'; no 2026 date exists anywhere. Blocked date+venue-scoped, same shape as the Antonio Cortes Nerja 2024 phantom. STALE-BUILD FINDING (not a data fault): the live site is still serving a build made on 24 Aug - it shows the window '24 Aug-22 Sep' with the already-past Gloria Trevi 24/08 as its marquee, and it still ships canelaparty.com (homepage), sophie.es (homepage) and the WRONG Thomas Helmig id (281256954 on the 4 Sep card, which is the 5 Sep show) even though the repo's venue_event_map ALREADY resolves all four correctly - verified by running venue_resolve() against the live inputs this run. Those three will correct themselves on the next rebuild; no data change was needed. Fever method: read each plan's own date-selector chips and, where the calendar date was not the default selection (Mecano 13/09, Queen vs. ABBA 18/09), CLICKED the chip and confirmed a bookable session and live prices (Mecano 19:00 Zona D 21,50 EUR; Queen vs. ABBA 17:45 Zona D 16,00 EUR). | 2026-08-28 FULL browser pass (Claude in Chrome, sofia@): worklist built from the LIVE site; every ticketed card opened one-by-one. Fixes this run: El Kuelgue 10 Sep moved off entradas.crashmusic.es (its only ticket type reads 'Agotadas'; tomaticket resells the SAME enterticket allocation, also 'Agotadas') to dice.fm, which shows a live BUY NOW at 27,54 EUR - no paying alternative exists (El Corte Ingles search 'kuelgue' = 0 results, Ticketmaster.es = 0 results, Fever Malaga = no match), so this move costs no commission. Sun & Thunder 28/08 per-night janto page VSUNTHUNDER26 went 'page not found' on the morning of the show (identical to the Thursday), and the 3-day pass A3SUNTHUNDER26 is dead too - the day-2 map entry now falls back to the festival's own Marenostrum page, as Thursday already does. Off-sale found and blocklisted: Candlelight Tribute to Mecano 13/09 (plan 656280's own chip for dom 13 sept is level-item--disabled; next sellable date 4 Oct) and Candlelight Queen vs. ABBA 18/09 (plan 555765's date selector offers only sab 10 oct and vie 13 nov). Cancelled and blocklisted: The Tribute - Inspired by ABBA Voyage 29/08 Marbella Arena (Ticketmaster.es 1628507111 renders 'This event has been cancelled. Ticket sales have stopped'; tomaticket's COMPRAR ENTRADAS is an Impact redirect back to that same cancelled event, so there is no second seller). Restored: Jakob Dreyer 18/09 and Asys Quartet 19/09 - both Clarence per-event pages are live (VIE 18 SEP 22:00 / SAB 19 SEP 22:00), confirming the 2026-08-25 reversal, but their 2026-08-24 blocklist rows had never been deleted, which is why neither event was on the site. | 2026-08-29 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 70 cards, 40 ticketed (30 free/no-purchase) - and opened all 40 destinations one-by-one from each card's OWN decoded ticket anchor. 39 reached a valid buying page as found; every baseline URL matched what the live site actually ships, so no link fix was needed. Method: onebox/janto read from the event header date + seat map/price control; Fever read from each plan's own date-selector chips in .ticket-selector (never page-body dates); sophie.es confirmed by screenshot of the embedded widget (SATURDAY 5TH OF SEPTEMBER 2026 / SABADO 19 DE SEPTIEMBRE 2026, live ticket tiers). REMOVED (1) Villano Antillano 18/09 Sala Paris 15 - CANCELLED. The card linked the taquilla.com multi-city artist listing; its Malaga 'Ver 38,72 EUR' button lands on entradas.com/event/villano-antillano-sala-paris-15-21485879/ which renders 'Unfortunately, this page is no longer available'. Searched every seller before dropping: entradas.com/artist/villano-antillano/ now offers only a TicketAlarm signup with 0 events, ticketmaster.es search = '0 Results', wegow lists no Malaga date, dice.fm returns nothing, the venue's own programme at paris15.es jumps 15 Sep -> 19 Sep, and laganzua.net's page for this exact date/venue is stamped 'Cancelado'. No paying seller (ECI/awin, Fever/pxf, Ticketmaster/Impact) and no non-paying seller has a buyable page, so the drop costs no commission; blocked date+venue-scoped in not_music_blocklist.json. FLAG (duplicate, human ruling): 12 Sep carries the SAME show twice - 'Emanero Tour 2026' -> enterticket.es/...-370663 and 'EMANERO TOUR 2026 in Malaga ( Sala Paris 15)' -> feverup.com/m/570333. Both are valid buying pages for Sala Paris 15 on sab 12 sept, but only the Fever one pays (pxf, 6%); if the pair is merged, keep the Fever link. NOT A MISMATCH (checked, no action): 'Tributo Queen' 5 + 6 Sep and 'Festival de Rock' 12 + 13 Sep each point at ONE onebox event that legitimately covers both nights ('Del 5 al 6 de septiembre de 2026' / 'Del 12 al 13 de septiembre de 2026'). Clarence Jazz Club's Jakob Dreyer 18/09 and Asys Quartet 19/09 remain correct per-event pages with no online buy control - the site's 'Check venue' label is accurate. CROSS-CHECK IMPOSSIBLE: Tools/agent/verify_ticket_links.py exits 'no calendar in .../Events' because the deploy repo carries no Events/ folder, and the only local calendar (Malaga-Live/Events/ 2026-08-04_next30days.xlsx) is 25 days stale - the live site was used as the worklist, as the task requires. ANOMALY TO WATCH: the box's own overnight report Events/ticket-link-check_2026-08-29.md claims only '2 ticketed events were checked' on a day the live site was showing 40. | 2026-08-30 ROOT-CAUSE FIX after DLR reported 'Premios Juventud 3 Sep was dropped — said event buying page could not be confirmed'. That string is verify_ticket_links' UNVERIFIED verdict, and the cause was MY omission on 2026-08-29: I routed that event to entradas.com (Awin mid 24761 — a PAYING seller, and the box office sold the same night at the same 119.00 EUR entry price, so the drop cost commission and gained the reader nothing) while entradas.com was NOT in trusted_hosts. entradas.com 403s our datacentre IP — it is listed in reel_artwork.SKIP_HOSTS next to elcorteingles.es and ticketmaster.es for exactly that reason — so the unattended verifier could never fetch the page and correctly refused to confirm it. trusted_hosts is the documented remedy for precisely this class ('Sellers known to block datacentre traffic, whose DEEP links we trust unfetched'), so entradas.com is now on it and the verdict becomes OK_TRUSTED_HOST, not a drop. This was load-bearing beyond one event: entradas_scrape.py (shipped 2026-08-29) adds entradas.com rows on every sweep and every deploy, and EVERY ONE of them would have been dropped the same way the day it appeared. Re-confirmed in Chrome 2026-08-30 before making the change: the page is live and correct — 'Starlite Festival 2026 in Marbella, 03/09/2026 22:00', Marbella | Starlite Marbella, Best seat + Seating chart controls, tiers 119.00/139.00/238.00 EUR. The deep URL also passes is_generic_landing (its last path segment is far longer than 20 chars), so the trusted-host path applies to it rather than the listing screen. Baseline entry added so the drop clears on the next verifier run (ticket_link_drops.json is rebuilt every run and an event returns once its link verifies). | 2026-08-30 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 65 cards, 35 ticketed (30 free/no-purchase) - and opened all 35 destinations one-by-one from each card's OWN decoded ticket anchor. 34 reached a valid buying page. Method: onebox read from each event's Sesiones list (session date + 'Comprar ahora' + price); Fever read from the plan's own Event JSON-LD startDate + offers.availability, and where no JSON-LD Event was emitted (m/701689, m/643699) from a screenshot of the plan's own date selector; janto from the event header date + 'View prices' seat map; sophie.es by screenshot of the embedded widget (SATURDAY 5TH OF SEPTEMBER 2026 / SATURDAY 19TH OF SEPTEMBER 2026, live ticket tiers). FLAG (human ruling, kept live): 'Tributo Queen (2a noche)' 6 Sep links onebox 51233, which is the right act at the right venue but whose Sesiones list now offers ONLY 'SAB 5 SEP 22:00' - the 6 Sep session has come off sale. Every seller was searched before flagging: entradas.com Benalmadena lists Tributo Queen on 05/09 only, ticketrona.com lists 'Sabado 5 De Septiembre De 2026' only, tomaticket has no 2026 date, and operabenalmadena.com's own programme still advertises '5 al 6 septiembre 2026' but links only to 51233. No buyable 6 Sep page exists anywhere, so the event was NOT dropped and no link was moved off any seller. FLAG (duplicate, unchanged from 2026-08-29): 12 Sep still carries the same Emanero show twice - 'Emanero Tour 2026' -> enterticket.es/...-370663 and 'EMANERO TOUR 2026 in Malaga ( Sala Paris 15)' -> feverup.com/m/570333; both are valid buying pages, only the Fever one pays. ENTRADAS.COM COVERAGE (all three city ids opened): malaga-490, benalmadena-9255 and estepona-2322 hold NO in-window live-music date the site is missing - the only in-window rows are Premios Juventud 03/09 (site already carries it, routed to entradas.com), Emanero 12/09 (already carried twice), Tributo Queen 05/09 / Festival de Rock 12+13/09 / Soul on Fire 18/09 (all already carried on onebox at 15-20 EUR vs entradas.com 22 EUR, so the reader stays on the CHEAPER non-paying seller per DLR's 2026-08-29 ruling), plus non-music rows (Teleferico Benalmadena, Selwo Aventura, De Cuentos el Musical, Leyendas y Misterios) which are correctly excluded. FIXED IN BASELINE: K-Beat Fest 19/09 baseline URL now carries the '?brand=base_mb_es' query the live site actually ships; the S.O.P.H.I.E Chapter #6 entry is re-keyed to the site's current act name. CROSS-CHECK IMPOSSIBLE AGAIN: verify_ticket_links.py finds no Events/ folder in the deploy repo, and the only local calendar (Malaga-Live/Events/2026-08-04_next30days.xlsx) is 26 days stale - run against it the resolver returns 0 in-window events, so the LIVE SITE was the worklist, as the task requires. | 2026-09-05 LIVE-SITE full browser pass (Claude in Chrome, sofia@): enumerated EVERY card on malagalivepulse.com/en - 76 cards, 49 ticketed (27 free/no-purchase) - and opened all 49 destinations one-by-one from each card's OWN decoded ticket anchor. 45 reached a live buying page. The other 4, none of them a bad link: Thomas Helmig 04/09 (ticketmaster.dk 1162665300) and Manuel Carrasco 04/09 (Starlite box office, 'The sale has ended') are YESTERDAY'S shows, still on the page only because this run happened at 02:50 local, before the 05:00 rebuild - right act, right date, sale simply closed after the show; Thomas Helmig 05/09 (ticketmaster.dk 281256954) is the right event and date with TM reading 'This event is happening in less than 24h - tickets are no longer available online, but may be available at the box office', which is inventory state, not a page fault (Marbella Arena's own programme links this exact id, per the 2026-09-03 ruling, and the only other inventory is resale, which ML does not route to); Tributo Queen 06/09 (onebox 51233) is the venue's own event page for the whole 5-6 Sep run and its Sesiones list still offers SAB 5 SEP only - kept live per the 2026-09-03 ruling. NOTHING WAS DROPPED AND NO SELLER WAS MOVED: every one of the 49 live-site destinations already matched this baseline exactly, so zero URL corrections were needed; the 47 in-window entries were re-stamped verified 2026-09-05. Method: onebox read from each event's own Sesiones list ('Ver sesiones' -> session date + 'Comprar ahora' + price); Fever read from the plan's own .ticket-selector-wrapper date chips, never page-body dates (m/701689 sab 05 sept, m/155745 dom 06 sept, m/88307 dom 06 sept, m/646736 jue 10 sept, m/570333 sab 12 sept, m/643699 dom 13 sept); janto from the event header date plus the 'View prices' seat map; entradas.com, conciertos.club, lacocheraentradas, mutick, tomaticket, dice.fm, doitproduction, paris15 and unientradas from the event header date plus a live price/buy control; Clarence Jazz Club's 9 nights each on their own dated per-event page. FLAG (name mismatch, human ruling, kept live): the site bills 05/09 Starlite as 'Wisin + Melendi' while entradas.com event 22061359 bills the same night and venue as 'Wisin - Starlite Marbella 2026' - right date, right venue, live seat map 27.00-89.00 EUR, but Melendi is not named by the seller. ENTRADAS.COM COVERAGE (all three city ids opened in the browser): malaga-490, benalmadena-9255 and estepona-2322 hold NO in-window live-music date the site is missing - the in-window rows are Wisin 05/09, Emanero 12/09, Ciro y los Persas 24/09, Raimundo Amador 26/09 and Perota Chingo 30/09 (all already carried) plus Tributo Queen 05/09, Festival de Rock 12+13/09 and Soul on Fire 18/09 (already carried on onebox at 12-20 EUR against entradas.com's higher price, so the reader stays on the CHEAPER non-paying seller per DLR's 2026-08-29 ruling); the remainder are non-music (Teleferico Benalmadena, Selwo Aventura, De Cuentos El Musical, The Magic Experience, Visita nocturna al Cementerio Ingles) and correctly excluded. CROSS-CHECK IMPOSSIBLE FOR A SIXTH DAY: the deploy repo has no Events/ folder and the only local calendar (Malaga-Live/Events/2026-08-04_next30days.xlsx) is 32 days stale with zero in-window rows, so the resolver returns 0 ticketed events - the LIVE SITE was the worklist, as the task requires. | 2026-09-11 LIVE-SITE full browser pass (in-app browser pane, because the Claude in Chrome extension was unreachable all run; the sandbox shell was also down, so the resolver cross-check could not be run at all). Enumerated EVERY card on malagalivepulse.com/en from each card's OWN ticket anchor: 77 event cards, 56 unique destinations, all 77 accounted for. 69 cards reached a valid buying page. THE EIGHT THAT DID NOT, and every one of them was searched across all sellers before any decision: (a) FOUR entradas.conciertos.club urls - Sara Hebe + F.R.A.C. 17/09, Apartamentos Acapulco 18/09, Sandra Groove 18/09, Fraderita 19/09 - returned Apache '403 Forbidden' for EVERY path on that host, including when clicked from conciertos.club itself, which renders perfectly; all four rendered normally from Chrome on 09-08, so this looks like a client/IP block on the ticketing subdomain rather than a dead product. Sandra Groove and Fraderita were MOVED to tomaticket.es event pages at the SAME prices (15 EUR / 18 EUR) - a strictly better destination at no revenue cost, since neither seller pays. Sara Hebe and Apartamentos Acapulco were NOT moved: the only alternative is taquilla.com's multi-city artist listing reselling the identical 20,00 EUR / 15,47 EUR allocation, which is a weaker non-deep page; conciertos.club's own venue page still bills both nights with a live COMPRAR ENTRADAS. (b) Andres Koi 19/09 doitproduction.es: right act, date and venue with a live countdown, but the ticket widget that existed on 09-08 no longer renders - no price, no quantity selector, no add-to-cart in the DOM (screenshotted). Same upstream ticketer (conciertos.club), which uniquely shows NO buy button for this one show. The artist's own site andreskoi.com sends buyers to this exact url; tomaticket, taquilla, ticketmaster, ECI and Fever have no Malaga date; ticketle offers only StubHub RESALE at 130 EUR against a 25 EUR face, which ML does not route to. KEPT, not dropped. (c) THREE Pepe Romero guitar festival nights are stamped 'ENTRADAS AGOTADAS' at the festival's own exclusive seller mientrada.net - Ausias Parejo 12/09, Pituquete y Encarna Anillo 17/09, Mabel Millan 18/09. Sold out is not a broken link and no second seller exists for a festival box office, so nothing was moved or dropped; not added to this baseline. The other seven Pepe Romero nights are on sale and were ADDED. ADDED this run (30 entries): the 3 October Fever plans (Coldplay + Imagine Dragons 10/10 m/532802, Queen vs. ABBA 10/10 m/555765, Queen vs. ABBA 11/10 Marbella m/677232 - a distinct plan), 8 Pepe Romero mientrada nights, and all 19 ZZ PUB nights (one shared agenda page; door-paid at 10/15 EUR with no online ticket, so the site's 'Check venue' label is accurate). Method: onebox read from each event's own Sesiones list (session date + Comprar + price); Fever from the plan's own date-selector chips, never page-body dates; janto from the event header date plus the View prices seat map; ECI, entradas.com, unientradas, lacocheraentradas, mutick, tomaticket, taquilla, mientrada and Clarence from the event header date plus a live buy control; sophie.es from its embedded fourvenues widget. Every other baseline URL matched what the live site ships exactly, so no further link fix was needed. ENTRADAS.COM COVERAGE (all three city ids opened): the in-window rows are Emanero 12/09, Festival de Rock 12+13/09, Soul on Fire 18/09, Ciro y los Persas 24/09, Raimundo Amador 26/09 and Perota Chingo 30/09 - all already carried, with the three Opera Benalmadena nights deliberately left on the CHEAPER non-paying onebox per DLR's 2026-08-29 ruling. Two in-window rows the site does not carry were opened and judged NOT live music, so not injected: La Kermese Redonda 09/10 Sala La Trinchera (38,50 EUR) and CABARET 2.0 09+10/10 Opera Benalmadena (33,00-38,50 EUR, sold with a MENU DEGUSTACION tier) - both variety/dinner-theatre, the same class as the De Cuentos El Musical rows the spec excludes. SEPARATE COVERAGE FINDING (not entradas.com): conciertos.club's Sala Marte page carries LA JUAN ROMAN, 25/09/2026 21:00, 10 EUR with a live COMPRAR ENTRADAS, and the live site does not list it.",
+ "generated": "2026-09-11",
  "events": {
   "gente de zona|2026-08-05": {
    "act": "Gente de Zona",
@@ -1812,7 +1812,7 @@
     "malaga"
    ],
    "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: doitproduction: 19 de septiembre de 2026, Sala Marte, Entradas GENERAL 25,00 EUR with quantity selector.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: doitproduction: 19 de septiembre de 2026, Sala Marte, Entradas GENERAL 25,00 EUR with quantity selector. | 2026-09-11 RE-OPENED AND SCREENSHOTTED: the page is the right act, right date and right venue ('Andres Koi Malaga, 19 de septiembre de 2026, Sala Marte', live countdown, 'Precios con gastos de gestion ya incluidos') but the ticket widget that was there on 09-08 DOES NOT RENDER today - the DOM holds no price, no quantity selector and no add-to-cart control, only a YouTube embed. Almost certainly the same upstream fault as the four entradas.conciertos.club 403s: conciertos.club is this show's ticketer (its own page bills 'SAB 19 SEP 21:00 SALA MARTE 25 EUR' and, uniquely among that venue's listings, shows NO buy button). Every alternative was searched: the artist's official site andreskoi.com sends buyers to THIS exact url, tomaticket has no Malaga date, taquilla has none, ticketmaster/ECI/Fever have none, and ticketle only offers StubHub RESALE at 130 EUR against a 25 EUR face - which ML does not route to. KEPT, not dropped: real show, official destination. HUMAN RULING WANTED.",
    "via": "browser"
   },
   "premios juventud|2026-09-03": {
@@ -1935,7 +1935,7 @@
     "frac"
    ],
    "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 17.09.2026 21:00 Sala Marte, ANTICIPADA 20,00 EUR, COMPRAR.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 17.09.2026 21:00 Sala Marte, ANTICIPADA 20,00 EUR, COMPRAR. | 2026-09-11 COULD NOT BE RE-CONFIRMED: every url on entradas.conciertos.club returned '403 Forbidden' to the in-app browser this run (the Chrome extension was unreachable), including when clicked from conciertos.club itself, which renders normally. NOT MOVED: the seller's own parent page conciertos.club/malaga/conciertos/120098-sara-hebe-f-r-a-c still bills 'JUE 17 SEP 21:00 SALA MARTE 20 EUR, Venta anticipada: Conciertos.club' with a live COMPRAR ENTRADAS, so the show is on sale and this is its exclusive seller; the only alternative found, taquilla.com's multi-city Sara Hebe listing, resells the same 20,00 EUR allocation and is a weaker (non-deep) destination. HUMAN RULING WANTED on whether the 403 is visitor-facing.",
    "via": "browser"
   },
   "blanca paloma|2026-09-18": {
@@ -1959,30 +1959,30 @@
     "acapulco"
    ],
    "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 Sala Marte, 15,47 EUR, COMPRAR.",
+   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 Sala Marte, 15,47 EUR, COMPRAR. | 2026-09-11 COULD NOT BE RE-CONFIRMED: entradas.conciertos.club returned '403 Forbidden' for every url on that host to the in-app browser this run. NOT MOVED: conciertos.club/malaga/locales/sala-marte still bills 'V18/9/26 21:00 APARTAMENTOS ACAPULCO SALA MARTE 15,47 EUR' with a live COMPRAR ENTRADAS, and taquilla.com resells the identical 15,47 EUR allocation from a weaker multi-city artist page. HUMAN RULING WANTED on whether the 403 is visitor-facing.",
    "via": "browser"
   },
   "sandra groove|2026-09-18": {
    "act": "Sandra Groove",
    "date": "2026-09-18",
-   "url": "https://entradas.conciertos.club/es/events/sandra-groove-en-malaga-corazones-rotos-tour",
+   "url": "https://www.tomaticket.es/es-es/entradas-sandra-groove-corazones-rotos-tour-en-malaga",
    "expect": [
     "sandra",
     "groove"
    ],
-   "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 18.09.2026 21:00 The Hall, 15,00 EUR, COMPRAR.",
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: tomaticket 'Sandra Groove Corazones Rotos Tour en Malaga', 18/09/2026, Sala The Hall, C. Heroe de Sostoa 65, COMPRAR ENTRADAS - DESDE: 15 EUR. MOVED OFF entradas.conciertos.club, which returned '403 Forbidden - You don't have permission to access this resource' for EVERY url on that host this run (including via a click from its own parent site conciertos.club, which itself renders fine) - the same host that 09-08 confirmed at 15,00 EUR. Same price, so the reader loses nothing; neither seller pays commission, so the move costs no revenue. conciertos.club's own The Hall page still advertises this night at 15 EUR, so the show is real and on sale - only the ticketing subdomain is refusing this client.",
    "via": "browser"
   },
   "fraderita|2026-09-19": {
    "act": "Fraderita",
    "date": "2026-09-19",
-   "url": "https://entradas.conciertos.club/es/events/fraderita-en-malaga-tour-2026",
+   "url": "https://www.tomaticket.es/es-es/entradas-fraderita-tour-2026-en-malaga",
    "expect": [
     "fraderita"
    ],
-   "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: conciertos.club: 19.09.2026 20:15 The Hall, 18,00 EUR, COMPRAR.",
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: tomaticket 'Fraderita - Tour 2026 en Malaga', 19/09/2026, Sala The Hall, COMPRAR ENTRADAS - DESDE: 18 EUR. MOVED OFF entradas.conciertos.club, which 403s every url on that host for this client this run. Identical 18 EUR price and neither seller pays commission, so the move costs nothing and gains a destination that actually renders.",
    "via": "browser"
   },
   "idaira siles|2026-09-19": {
@@ -2139,6 +2139,372 @@
    ],
    "verified": "2026-09-08",
    "why": "BROWSER-CONFIRMED 2026-09-08: unientradas 26-27MerceJoseMa: Sabado 03/10/2026 20:00 TEATRO CERVANTES, Ver precios 18,43 to 88,06 EUR. MOVED OFF teatrocervantes.com (silent-302 class) onto the venue's own COMPRAR ENTRADAS destination. ON SALE but NOT on the live site.",
+   "via": "browser"
+  },
+  "candlelight coldplay and imagine dragons|2026-10-10": {
+   "act": "Candlelight: Coldplay and Imagine Dragons",
+   "date": "2026-10-10",
+   "url": "https://feverup.com/m/532802",
+   "expect": [
+    "candlelight",
+    "coldplay"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 532802 date chips read 'sab 10 oct' and 'vie 13 nov'; 10 Oct selected, ticket tiers live from 37,50 EUR.",
+   "via": "browser"
+  },
+  "candlelight queen vs abba|2026-10-10": {
+   "act": "Candlelight: Queen vs. ABBA",
+   "date": "2026-10-10",
+   "url": "https://feverup.com/m/555765",
+   "expect": [
+    "candlelight",
+    "queen",
+    "abba"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 555765 (Unicaja Concert Hall Maria Cristina) date chips read 'sab 10 oct' and 'vie 13 nov'; tiers live from 38,00 EUR.",
+   "via": "browser"
+  },
+  "candlelight queen vs abba|2026-10-11": {
+   "act": "Candlelight: Queen vs. ABBA",
+   "date": "2026-10-11",
+   "url": "https://feverup.com/m/677232",
+   "expect": [
+    "candlelight",
+    "queen",
+    "abba"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: Fever plan 677232 (Salon Linares, Anantara Villa Padierna, Marbella) offers the single chip 'dom 11 oct'; tiers live from 40,00 EUR. Distinct plan from the Malaga 10 Oct show of the same name.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival filip miskovic|2026-09-13": {
+   "act": "Pepe Romero guitar festival Filip Miskovic",
+   "date": "2026-09-13",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-filip-miskovic/",
+   "expect": [
+    "filip",
+    "miskovic"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'FILIP MISKOVIC - PEPE ROMERO GUITAR FESTIVAL MALAGA 2026' with a live Anadir / COMPRAR control (no AGOTADAS banner).",
+   "via": "browser"
+  },
+  "pepe romero guitar festival daniel casares|2026-09-19": {
+   "act": "Pepe Romero guitar festival Daniel Casares",
+   "date": "2026-09-19",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-daniel-casares/",
+   "expect": [
+    "daniel",
+    "casares"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'DANIEL CASARES', Sala Fundacion Unicaja Maria Cristina, live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival daniel zapico|2026-09-20": {
+   "act": "Pepe Romero guitar festival Daniel Zapico",
+   "date": "2026-09-20",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-daniel-zapico/",
+   "expect": [
+    "daniel",
+    "zapico"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'DANIEL ZAPICO', live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival jose fermin fernandez|2026-09-24": {
+   "act": "Pepe Romero guitar festival José Fermín Fernández",
+   "date": "2026-09-24",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-jose-fermin-fernandez/",
+   "expect": [
+    "jose",
+    "fermin",
+    "fernandez"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JOSE FERMIN FERNANDEZ', live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival joni jimenez y jesus mendez|2026-09-25": {
+   "act": "Pepe Romero guitar festival Joni Jiménez y Jesús Méndez",
+   "date": "2026-09-25",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-joni-jimenez-jesus-mendez/",
+   "expect": [
+    "joni",
+    "jimenez",
+    "mendez"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JONI JIMENEZ Y JESUS MENDEZ', live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival ricardo fernandez del moral|2026-09-26": {
+   "act": "Pepe Romero guitar festival Ricardo Fernández del Moral",
+   "date": "2026-09-26",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-ricardo-fernandez-del-moral/",
+   "expect": [
+    "ricardo",
+    "fernandez",
+    "moral"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'RICARDO FERNANDEZ DEL MORAL', live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival jose luis ruiz del puerto|2026-09-27": {
+   "act": "Pepe Romero guitar festival José Luis Ruiz del Puerto",
+   "date": "2026-09-27",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-jose-luis-ruiz-del-puerto/",
+   "expect": [
+    "jose",
+    "luis",
+    "puerto"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'JOSE LUIS RUIZ DEL PUERTO', live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "pepe romero guitar festival pepe romero concierto de aranjuez y john williams|2026-09-30": {
+   "act": "Pepe Romero guitar festival Pepe Romero – Concierto de Aranjuez y John Williams",
+   "date": "2026-09-30",
+   "url": "https://www.mientrada.net/evento/pepe-romero-guitar-festival-2026-concierto-aranjuez/",
+   "expect": [
+    "aranjuez",
+    "williams"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: mientrada.net 'CONCIERTO DE ARANJUEZ Y SELECCION MUSICA CINE JOHN WILLIAMS', Teatro Cervantes, live Anadir / COMPRAR control.",
+   "via": "browser"
+  },
+  "dan shiva da machine|2026-09-12": {
+   "act": "Dan Shiva Da Machine",
+   "date": "2026-09-12",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB's own September 2026 agenda lists 'Sabado 12 de septiembre (Hip hop, fusion) DAN SHIVA DA MACHINE'. Door-paid venue (10 EUR, 15 EUR Fri/Sat) with no online ticket - the site's 'Check venue' label is correct.",
+   "via": "browser"
+  },
+  "miami curl co|2026-09-13": {
+   "act": "Miami Curl Co.",
+   "date": "2026-09-13",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Domingo 13 de septiembre (Rock, blues, pop) MIAMI CURL CO.'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "motown band diva del soul|2026-09-14": {
+   "act": "Motown Band + Diva del Soul",
+   "date": "2026-09-14",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, recurring 'Todos los lunes (Soul, funk, rhythm blues) MOTOWN BAND + DIVA DEL SOUL'; 14 Sep 2026 is a Monday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "the children of queen jam session|2026-09-15": {
+   "act": "The Children of Queen + Jam Session",
+   "date": "2026-09-15",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, recurring 'Todos los martes THE CHILDREN OF QUEEN + JAM SESSION'; 15 Sep 2026 is a Tuesday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "maika lavera|2026-09-16": {
+   "act": "Maika Lavera",
+   "date": "2026-09-16",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Miercoles 16 de septiembre (Rock, soul, rhythm blues) MAIKA LAVERA'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "el trio del saco|2026-09-17": {
+   "act": "El Trío del Saco",
+   "date": "2026-09-17",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, recurring 'Todos los jueves EL TRIO DEL SACO'; 17 Sep 2026 is a Thursday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "the hairbreakers|2026-09-18": {
+   "act": "The Hairbreakers",
+   "date": "2026-09-18",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Viernes 18 de septiembre (Power pop) THE HAIRBREAKERS'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "the outsiders|2026-09-19": {
+   "act": "The Outsiders",
+   "date": "2026-09-19",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Sabado 19 de septiembre (Rock, blues, folk rock, americana) THE OUTSIDERS'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "capitan wallace|2026-09-20": {
+   "act": "Capitán Wallace",
+   "date": "2026-09-20",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Domingo 20 de septiembre (Classic rock) CAPITAN WALLACE'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "motown band diva del soul|2026-09-21": {
+   "act": "Motown Band + Diva del Soul",
+   "date": "2026-09-21",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, Monday residency; 21 Sep 2026 is a Monday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "the children of queen jam session|2026-09-22": {
+   "act": "The Children of Queen + Jam Session",
+   "date": "2026-09-22",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, Tuesday residency; 22 Sep 2026 is a Tuesday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "fat beat|2026-09-23": {
+   "act": "Fat Beat",
+   "date": "2026-09-23",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Miercoles 23 de septiembre (Pop, rock, funk) FAT BEAT'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "el trio del saco|2026-09-24": {
+   "act": "El Trío del Saco",
+   "date": "2026-09-24",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, Thursday residency; 24 Sep 2026 is a Thursday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "top secret|2026-09-25": {
+   "act": "Top Secret",
+   "date": "2026-09-25",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Viernes 25 de septiembre (B.S.O. covers) TOP SECRET'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "stones of the coast|2026-09-26": {
+   "act": "Stones of the Coast",
+   "date": "2026-09-26",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Sabado 26 de septiembre (Homenaje a The Rolling Stones) Desde Valencia STONES OF THE COAST'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "sinverguenzas|2026-09-27": {
+   "act": "Sinvergüenzas",
+   "date": "2026-09-27",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Domingo 27 de septiembre (Rock covers) SINVERGUENZAS'. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "motown band diva del soul|2026-09-28": {
+   "act": "Motown Band + Diva del Soul",
+   "date": "2026-09-28",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, Monday residency; 28 Sep 2026 is a Monday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "the children of queen jam session|2026-09-29": {
+   "act": "The Children of Queen + Jam Session",
+   "date": "2026-09-29",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda, Tuesday residency; 29 Sep 2026 is a Tuesday. Door-paid, no online ticket.",
+   "via": "browser"
+  },
+  "funkonauts|2026-09-30": {
+   "act": "Funkonauts",
+   "date": "2026-09-30",
+   "url": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+   "expect": [
+    "zzpub",
+    "conciertos"
+   ],
+   "verified": "2026-09-11",
+   "why": "BROWSER-CONFIRMED 2026-09-11: ZZ PUB agenda lists 'Miercoles 30 de septiembre (Funk, groove) FUNKONAUTS'. Door-paid, no online ticket.",
    "via": "browser"
   }
  },
