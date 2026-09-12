@@ -1076,8 +1076,8 @@
     "candlelight",
     "disney"
    ],
-   "verified": "2026-09-08",
-   "why": "BROWSER-CONFIRMED 2026-09-08: Fever 646736 'Candlelight: Disney Canciones de Amor' date selector offers 'dom 20 sept' (10 sept greyed out); the 21:00 session sells Zona B 39,50 and Zona A 41,50 EUR (Zona D 22,50 and Zona C 36,50 Agotado) with a '39,50 EUR - Comprar ahora' control. NOTE the site card says 19:00; Fever's only 20 Sep session is 21:00.",
+   "verified": "2026-09-12",
+   "why": "RE-CONFIRMED IN CHROME 2026-09-12 after DLR reported the 20 Sep card had been DROPPED for a link issue. Fever 646736 'Candlelight: Disney Canciones de Amor' is ON SALE: its own 'Selecciona fecha y sesion' selector offers 'dom 20 sept' with BOTH a 19:00 and a 21:00 session, and Zona A 48,50 EUR is live (Zona D 22,50 / Zona C 36,50 / Zona B 43,00 read Agotado - inventory state on the cheap tiers, NOT an off-sale page). The 19:00 session now exists, so the time mismatch flagged on 2026-09-08 (card 19:00 vs Fever 21:00-only) has resolved itself. CAUSE OF THE DROP: this is the documented Fever failure class where plan_status() reads no session-selector blob for a real on-sale session and the sweep reports 'off sale' - the same removal that took Ludovico Einaudi 145066 and this very SKU on 23 Aug. REMEDY APPLIED (the sanctioned one): 2026-09-20 added to 646736 in Website/fever_buyable_overrides.json, which fever_scrape.py and verify_ticket_links.py both honour, so the night is never dropped again and is written into fever_availability.json for build_site's own gate. Paying seller (Fever/pxf); nothing moved.",
    "via": "browser"
   },
   "candlelight tribute to mecano|2026-09-13": {
