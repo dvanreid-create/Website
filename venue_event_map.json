@@ -1343,6 +1343,17 @@
      "venue_name": "K-Beat Fest",
      "why": "BROWSER-CONFIRMED 2026-09-08: ticketmaster.es/event/432310294 is titled 'Buy tickets for K-Beat Fest Sat, 19 Sept 2026, 16:30, Auditorio Mpal Cortijo de Torres in Malaga' and renders a live seat map with View seat map / See best available. THIS IS THE ONLY ONE OF THE SEVEN ON A PAYING SELLER - Ticketmaster via Impact, wrapped by tm_aff() at build time - so every day it stayed off the site was lost commission. Genre left BLANK for the keyword classifier."
     },
+    "la kermesse redonda": {
+     "url": "https://www.entradas.com/en/event/la-kermesse-redonda-sala-la-trinchera-21755651/",
+     "prefer": "map",
+     "date": "09/10/2026",
+     "time": "20:30",
+     "price": "Desde 33 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "La Kermesse Redonda",
+     "genre": "Rock & Indie",
+     "why": "BROWSER-CONFIRMED 2026-09-12: entradas.com event 21755651 renders 'La Kermese Redonda - Malaga, Friday, 09/10/2026 | 20:30, Sala La Trinchera, Calle Parauta 25, 29006 Malaga' with a ticket-quantity selector, General Admission 38,50 EUR and a live 'Add to shopping cart / 2 tickets, 77,00 EUR' control. CORRECTS THE 2026-09-11 RULING that filed this as variety/dinner-theatre: it is LIVE MUSIC. cierraporfuera.com lists it under 'Conciertos en Malaga' and describes it as keeping alive the legacy of Patricio Rey y sus Redonditos de Ricota 'con un espectaculo protagonizado por historicos miembros de la banda'; the promoters' own copy calls the Gira Espana 2026 a series of live concerts by musicians from the band's circle playing the Redondos catalogue. Sala La Trinchera is a rock club and the ticket page carries no menu tier (unlike CABARET 2.0 at Opera Benalmadena, which does carry a MENU DEGUSTACION tier and stays excluded). ROUTED TO A PAYING SELLER: entradas.com is Awin mid 24761 and build_site.entradas_aff wraps it at build time. Cheaper-seller check done before routing: the only other sellers found were fmsur.es (an Argentine community-radio shop that needs a FMSUR discount code) and cierraporfuera.com, an editorial listing that itself sends buyers to entradas.com; salatrinchera.com's own programme does not list it. Placed in 'sweeplost', not the 'trinchera' block, because refresh_venue_map.py rewrites 'trinchera' from mutick every Monday and mutick does not sell this show - same reasoning as 'fully alive fest'."
+    },
     "jose merce": {
      "url": "https://www.unientradas.es/es/espectaculo/jose-merce/26-27MerceJoseMa",
      "prefer": "map",
