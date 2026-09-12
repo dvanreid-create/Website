@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-11",
-  "count": 110,
+  "generated": "2026-09-12",
+  "count": 113,
   "items": [
     {
       "sku": "194665",
@@ -494,6 +494,20 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "310615",
+      "n": "Flamenco Theater Granada: Live the Flamenco experience - Granada",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "7d8ee1c2-6e1b-11f1-a1a4-a28421aa1ff5.png",
+      "url": "https://feverup.com/m/310615/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Sensations - Flamenco Theater Granada - Flamenco Show Tickets 🎫 General Admission: Table seating with one drink included 🎫 Promo Admission: Seating on a chair, no drink 🎫 Reduced Admission: Seating on a chair, no drink. For students, residents of Granada over 65, children (6 to 12 years old), o"
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -506,6 +520,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
       "feat": 0,
       "d": "Individual tickets to visit the Alcazaba of Malaga with art historian guide. Duration: 1 hour approx. Get your tickets now!"
+    },
+    {
+      "sku": "502745",
+      "n": "Healthy Poke Córdoba (Go Fit) - Córdoba",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "40675a2a-02a2-11f1-9f02-f6c37d028681.jpeg",
+      "url": "https://feverup.com/m/502745/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=502745&u=https%3A%2F%2Ffeverup.com%2Fm%2F502745&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Enjoy a healthy and delicious meal that combines a starter, a main dish, and a delightful dessert. A quick, wholesome, and nutritious meal that will make you feel good inside and out. Solo Combo Menu 🥟 Starter: 2 chicken gyozas 🥗 Bowl: 1 Asian Caesar Salad 🍧 Dessert: 1 yogurt berries & crumble"
     },
     {
       "sku": "92941",
@@ -562,6 +590,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=634608&u=https%3A%2F%2Ffeverup.com%2Fm%2F634608&intsrc=CATF_15532",
       "feat": 0,
       "d": "La cena criminal is an interactive theatrical show where you can dine while solving a murder. Between delicious dishes and a glass of wine, the actors will involve you in a plot full of secrets and suspicions. Get your tickets now!"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -676,34 +718,6 @@
       "d": "Museo Picasso Málaga: Tour guiado in Málaga. Get your tickets on Fever now!"
     },
     {
-      "sku": "545294",
-      "n": "Premium Experience at Flamenco Theatre Málaga - Malaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "989db6dc-6e1b-11f1-8008-66f218f52282.png",
-      "url": "https://feverup.com/m/545294/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "What you are going to enjoy 💃 An authentic and intimate flamenco show 🎶 Live singing, dancing and guitar with top-tier artists 🔥 An intense, emotional experience full of passion 🎭 A show ideal for both newcomers to flamenco and seasoned fans General Info 📍 Location: Teatro Flamenco Málaga, Call"
-    },
-    {
-      "sku": "310615",
-      "n": "Premium Experience at Flamenco Theatre, Granada - Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "7d8ee1c2-6e1b-11f1-a1a4-a28421aa1ff5.png",
-      "url": "https://feverup.com/m/310615/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Sensations - Flamenco Theater Granada - Flamenco Show Tickets 🎫 General Admission: Table seating with one drink included 🎫 Promo Admission: Seating on a chair, no drink 🎫 Reduced Admission: Seating on a chair, no drink. For students, residents of Granada over 65, children (6 to 12 years old), o"
-    },
-    {
       "sku": "693794",
       "n": "Ronda and Setenil: Day Trip from Málaga",
       "c": "tours",
@@ -816,6 +830,20 @@
       "d": "<empty>"
     },
     {
+      "sku": "545294",
+      "n": "The Flamenco Theater in Malaga: Live the Flamenco Experience - Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "989db6dc-6e1b-11f1-8008-66f218f52282.png",
+      "url": "https://feverup.com/m/545294/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545294&u=https%3A%2F%2Ffeverup.com%2Fm%2F545294&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "What you are going to enjoy 💃 An authentic and intimate flamenco show 🎶 Live singing, dancing and guitar with top-tier artists 🔥 An intense, emotional experience full of passion 🎭 A show ideal for both newcomers to flamenco and seasoned fans General Info 📍 Location: Teatro Flamenco Málaga, Call"
+    },
+    {
       "sku": "421698",
       "n": "The Plague in Malaga - Theatrical Tour",
       "c": "tours",
@@ -856,6 +884,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=328893&u=https%3A%2F%2Ffeverup.com%2Fm%2F328893&intsrc=CATF_15532",
       "feat": 0,
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
+    },
+    {
+      "sku": "643664",
+      "n": "Tickets for the K",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
+      "url": "https://feverup.com/m/643664/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "LA K"
     },
     {
       "sku": "335976",
@@ -1438,7 +1480,7 @@
       "cat": "Games",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €16",
+      "p": "From €20",
       "img": "8d859624-90e0-11f1-a9d4-a233f6906938.jpg",
       "url": "https://feverup.com/m/459773/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=459773&u=https%3A%2F%2Ffeverup.com%2Fm%2F459773&intsrc=CATF_15532",
