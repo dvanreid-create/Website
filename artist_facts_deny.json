@@ -1,0 +1,8 @@
+{
+ "_comment": "Slugs whose Wikipedia fact match is the WRONG entity (a name collision with a film, a stage musical, or a foreign band that is not the local act playing here). BOTH fetch_artist_facts.py (never fetches a fact for these) and build_site.py artist_fact_html (renders NO DYK card for these) honour this file, so a misattributed card can never resurface on the next fetch or build. Add a slug here whenever a DYK fact clearly describes something other than the act actually playing on the coast. (DLR 2026-09-12)",
+ "deny": {
+  "mystery-machine": "Fact matched 'Mystery Machine (band)', a 1990 Vancouver rock band; the ML act is a local EUR10 ZZ PUB gig (6 Sep 2026), not that band.",
+  "soul-on-fire": "Fact matched 'Soul on Fire', a 2025 American biographical film; not a band at all (act plays Auditorio Municipal de Benalmadena, 18 Sep 2026).",
+  "the-outsiders": "Fact matched 'The Outsiders (musical)', the 2023 Broadway musical; the ML act is a local EUR10 ZZ PUB gig (19 Sep 2026), not that show."
+ }
+}
