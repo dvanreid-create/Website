@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Carmen Linares",
-      "yt": "DVaDFoGRK_s",
-      "where": "12 Sep · Teatro del Soho, Málaga"
-    },
-    {
-      "act": "Mecano",
-      "yt": "OwGG5fX7bxY",
-      "where": "13 Sep · Gran Hotel Miramar, Málaga"
-    },
-    {
       "act": "Antonio Sánchez",
       "yt": "L8Sz3v2d_4U",
       "where": "14 Sep · Teatro Cervantes, Málaga"
@@ -34,12 +24,27 @@
       "act": "Villano Antillano",
       "yt": "8sf5OPyzdMM",
       "where": "18 Sep · Sala París 15, Málaga"
+    },
+    {
+      "act": "KARD",
+      "yt": "cxjWtPNJmzY",
+      "where": "19 Sep · Auditorio Cortijo de Torres, Málaga"
+    },
+    {
+      "act": "Ricardo Villalobos",
+      "yt": "rIlGvvuCtLc",
+      "where": "19 Sep · Ogus Park, Málaga"
+    },
+    {
+      "act": "Seth Troxler",
+      "yt": "CYbIsnjHS2s",
+      "where": "19 Sep · Ogus Park, Málaga"
     }
   ],
   "thumbs": {
-    "EMANERO TOUR 2026 in Malaga ( Sala Paris 15)": "SqS_xdeH1fY",
     "Candlelight: The Best of the 80s": "djV11Xbc914",
     "Candlelight: Tribute to Mecano": "LymUYXFf6wE",
+    "K-Beat Fest": "9wNcDkKCCsg",
     "Candlelight: Disney Love Songs": "eitDnP0_83k",
     "Macaco in Malaga": "b3GyAtcoogc",
     "Candlelight: Rock Classics": "l482T0yNkeo",
