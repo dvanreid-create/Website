@@ -638,5 +638,17 @@
 "morgenshtern": {
 "name": "Morgenshtern",
 "mles": 45.6
+},
+"legends-night": {
+"name": "LEGENDS NIGHT",
+"mles": 0.0
+},
+"cabaret-2-0": {
+"name": "CABARET 2.0",
+"mles": 0.0
+},
+"la-juan-roman": {
+"name": "La Juan Román",
+"mles": 0.0
 }
 }

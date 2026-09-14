@@ -4,10 +4,10 @@
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 5,
-   "matched": 5,
-   "calendar_in_window": 5,
-   "latest_mapped": "2026-09-27",
+   "mapped_in_window": 6,
+   "matched": 6,
+   "calendar_in_window": 7,
+   "latest_mapped": "2026-10-03",
    "always_on": true,
    "verdict": "ok"
   },
@@ -211,9 +211,9 @@
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 21,
-   "matched": 21,
-   "calendar_in_window": 37,
+   "mapped_in_window": 22,
+   "matched": 22,
+   "calendar_in_window": 41,
    "latest_mapped": "2026-10-12",
    "always_on": false,
    "verdict": "ok"
