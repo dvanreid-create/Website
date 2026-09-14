@@ -46,8 +46,12 @@
   .btn{display:inline-flex;align-items:center;gap:8px;background:var(--amber);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:11px 16px;border-radius:12px}
   .btn.alt{background:#fff;color:var(--amber);border:1.5px solid var(--amber)}
   figure.clip{margin:26px 0 0;border-top:1px solid var(--line);padding-top:18px}
-  figure.clip img{max-width:340px;width:100%;border-radius:8px;border:1px solid var(--line);display:block}
+  figure.clip img{max-width:340px;width:100%;border-radius:8px;border:1px solid var(--line);display:block;cursor:zoom-in}
   figure.clip figcaption{font-size:12px;color:#7a7568;margin-top:8px}
+  figure.clip .zoomhint{color:var(--sea);font-weight:600;white-space:nowrap}
+  .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:1000;cursor:zoom-out;padding:20px}
+  .lightbox.on{display:flex}
+  .lightbox img{max-width:95vw;max-height:95vh;border-radius:6px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
   .back{display:inline-block;margin-top:26px;color:var(--sea);text-decoration:none;font-weight:600;font-size:14px}
   footer.pf{max-width:920px;margin:26px auto 0;padding:16px 22px;border-top:1px solid var(--line);color:#8a8378;font-size:13px;text-align:center}
   footer.pf a{color:var(--sea);text-decoration:none;font-weight:600}
@@ -75,13 +79,15 @@
   </div>
 
   <figure class="clip">
-    <img src="essential-sept-2026-sofia-article.png" alt="Essential Magazine, September 2026, p. 187: Former Music Professor Launches Málaga Live Music Platform — as it appeared in print">
-    <figcaption>As it appeared in print — Essential Magazine, September 2026 Edition, p. 187.</figcaption>
+    <img id="clipImg" src="essential-sept-2026-sofia-article.png" alt="Essential Magazine, September 2026, p. 187: Former Music Professor Launches Málaga Live Music Platform — as it appeared in print">
+    <figcaption>As it appeared in print — Essential Magazine, September 2026 Edition, p. 187. <span class="zoomhint">Click to enlarge ⤢</span></figcaption>
   </figure>
 
   <a class="back" href="/press/">← Back to Press &amp; Media</a>
 
 </div>
 <footer class="pf">© 2026 Málaga Live · <a href="https://malagalivepulse.com/">malagalivepulse.com</a> · Press: hello@malagalivepulse.com</footer>
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Enlarged clipping"><img src="essential-sept-2026-sofia-article.png" alt="Essential Magazine, September 2026, p. 187 — enlarged"></div>
+<script>(function(){var t=document.getElementById('clipImg'),lb=document.getElementById('lightbox');if(!t||!lb)return;t.addEventListener('click',function(){lb.classList.add('on');});lb.addEventListener('click',function(){lb.classList.remove('on');});document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on');});})();</script>
 </body>
 </html>
