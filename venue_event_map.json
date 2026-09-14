@@ -1485,6 +1485,17 @@
      "genre": "Pop",
      "why": "BROWSER-CONFIRMED 2026-09-13: unientradas 26-27SanchezRafa renders '07 octubre 2026 20:00, room TEATRO CERVANTES, RAFA SANCHEZ, Miercoles 07/10/2026 20:00', on sale."
     },
+    "morgenshtern": {
+     "url": "https://ticketshop.store/en/events/107442/tickets?type=standticket",
+     "prefer": "map",
+     "date": "15/09/2026",
+     "time": "20:00",
+     "price": "40 EUR",
+     "venue": "Sala París 15",
+     "venue_name": "Morgenshtern",
+     "genre": "Urban & Reggaeton",
+     "why": "BROWSER-CONFIRMED 2026-09-13 on the VENUE'S OWN page, paris15.es/event/morgenshtern/: 'Fecha: septiembre 15, 2026', 'Apertura: 19:00h', 'Comienzo: 20:00h', 'Venta anticipada 40€ + gastos', sold through Ticketshop. THE TIME IS 20:00 — conciertos.club lists this show at 21:00 and is an hour out, which is why the venue page wins. This is the concert Sofia's question about 15 September exposed: the site showed ONE ZZ Pub gig that night because Sala Paris 15 was named in source_calendar with no URL, exactly like Teatro Cervantes. Link is the venue's own Comprar entradas target, NOT conciertos.club's affiliate wrapper (theirs carries awinaffid=728913 / c/3875474 and would pay THEM)."
+    },
     "obk 35 aniversario": {
      "url": "https://www.unientradas.es/es/espectaculo/obk-35-aniversario-vertigo-tour/26-27OBK35",
      "prefer": "map",
