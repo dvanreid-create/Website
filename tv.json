@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Antonio Sánchez",
-      "yt": "L8Sz3v2d_4U",
-      "where": "14 Sep · Teatro Cervantes, Málaga"
-    },
-    {
       "act": "China Crisis",
       "yt": "OHNB2L12tFw",
       "where": "17 Sep · La Trinchera, Málaga"
@@ -26,6 +21,11 @@
       "where": "18 Sep · Sala París 15, Málaga"
     },
     {
+      "act": "Pancho Céspedes",
+      "yt": "BZ-ewG9GqVU",
+      "where": "18 Sep · Teatro Cervantes, Málaga"
+    },
+    {
       "act": "KARD",
       "yt": "cxjWtPNJmzY",
       "where": "19 Sep · Auditorio Cortijo de Torres, Málaga"
@@ -42,12 +42,11 @@
     }
   ],
   "thumbs": {
-    "Candlelight: The Best of the 80s": "djV11Xbc914",
-    "Candlelight: Tribute to Mecano": "LymUYXFf6wE",
     "K-Beat Fest": "9wNcDkKCCsg",
     "Candlelight: Disney Love Songs": "eitDnP0_83k",
     "Macaco in Malaga": "b3GyAtcoogc",
     "Candlelight: Rock Classics": "l482T0yNkeo",
+    "Candlelight: Tribute to Mecano": "LymUYXFf6wE",
     "Candlelight: Coldplay and Imagine Dragons": "RB-RcX5DS5A",
     "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
