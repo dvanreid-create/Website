@@ -200,6 +200,15 @@
    "always_on": true,
    "verdict": "ok"
   },
+  "paris15": {
+   "venue": "Sala París 15",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 5,
+   "latest_mapped": null,
+   "always_on": false,
+   "verdict": "ok"
+  },
   "sweeplost": {
    "venue": "Málaga",
    "mapped_in_window": 21,

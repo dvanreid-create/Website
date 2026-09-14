@@ -1273,6 +1273,13 @@
    "note": "Plaza de Toros La Malagueta, iconic bullring in Málaga city. Hosts multiple independent promoters. The '101musicfestival' entry in this map already tracks all 101 Music Festival Costa del Sol acts here (Mónica Naranjo 31 Jul, El Arrebato 25 Jul, etc.). Feria de Agosto concerts (~Aug 13-21) are free and need no ticket link. complete:false = NOT a phantom gate. Added 2026-07-27.",
    "acts": {}
   },
+  "paris15": {
+   "source": "https://paris15.es/eventos/",
+   "complete": true,
+   "gate": false,
+   "note": "Sala París 15, C/ La Orotava 27, Málaga city — ~3,000 capacity, the largest private room in the city, open since 2010. ADDED 2026-09-14 (Sofia). WHY: on that date the venue had 14 in-window shows and malagalivepulse.com carried TWO of them (Ciro y Los Persas, Raimundo Amador). It was named in source_calendar.py with no URL, exactly like Teatro Cervantes, so the weekly LLM sweep re-guessed it each week and mostly returned nothing — and at least four of the missing shows sold through sellers that PAY us (Villano Antillano and Carlos Ares on entradas.com/Awin, Sidecars and Binomio de Oro on El Corte Inglés, La K'onga on Fever), so the gap cost commission as well as coverage. Refreshed weekly by refresh_venue_map.py using the dedicated 'paris15' parser, which reads the venue's own server-rendered /eventos/ page. complete:true so backfill_calendar injects the bill on EVERY build regardless of what the sweep found. gate:false ON PURPOSE: this listing is the venue's own and is good, but it is not provably exhaustive, so it must never be used as authority to phantom-delete a París 15 show it does not list. 'acts' starts empty and is filled by the first refresher run; an empty block injects nothing, so this is safe to ship before that run happens.",
+   "acts": {}
+  },
   "sweeplost": {
    "source": "https://malagalivepulse.com/en/",
    "complete": true,
