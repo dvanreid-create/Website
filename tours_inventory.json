@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
   "generated": "2026-09-14",
-  "count": 111,
+  "count": 112,
   "items": [
     {
       "sku": "194665",
@@ -606,6 +606,20 @@
       "d": "La cena criminal is an interactive theatrical show where you can dine while solving a murder. Between delicious dishes and a glass of wine, the actors will involve you in a plot full of secrets and suspicions. Get your tickets now!"
     },
     {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
+    },
+    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -886,18 +900,18 @@
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
     },
     {
-      "sku": "335976",
-      "n": "Tickets Spa Circuit + Relaxing Massage at La Zambra Resort 5*",
+      "sku": "643664",
+      "n": "Tickets for the K",
       "c": "tours",
       "cat": "Experience",
       "v": "",
       "area": "Málaga",
       "p": "See price",
-      "img": "590a6ebe-0893-11f0-8967-0a1772b1b4f7.jpg",
-      "url": "https://feverup.com/m/335976/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=335976&u=https%3A%2F%2Ffeverup.com%2Fm%2F335976&intsrc=CATF_15532",
+      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
+      "url": "https://feverup.com/m/643664/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Enjoy a luxury experience at La Zambra Resort 5* with spa circuit and relaxing massage. Get your tickets now!"
+      "d": "LA K"
     },
     {
       "sku": "587444",
