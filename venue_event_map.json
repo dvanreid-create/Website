@@ -1303,7 +1303,7 @@
      "price": "12 EUR",
      "venue": "Sala Marte",
      "venue_name": "La Juan Román - Cumbia en Málaga",
-     "genre": "Latin",
+     "genre": "Mixed",
      "why": "CLOSES THE OPEN ITEM LEFT BY THE 2026-09-11 PASS, which found this show live and correctly said it 'CANNOT be injected from venue_event_map' - but that was about the 'sala marte' block, which is complete:false and not whitelisted. The 'sweeplost' block is whitelisted, complete:true and gate:false with a per-act venue override, which is exactly the route used for LA KERMESSE REDONDA on 2026-09-12, so the show ships from here instead. RE-CONFIRMED IN CHROME 2026-09-14: entradas.conciertos.club/es/events/la-juan-roman-cumbia-en-malaga renders 'LA JUAN ROMAN CUMBIA EN MALAGA, CLASSIC MALAGUETA (ANTIGUA SALA MARTE), C. San Nicolas 2, 29016 Malaga, 25.09.2026 21:00' with a live selector - PRIMERAS ENTRADAS 10,00 EUR Agotadas, ENTRADA GENERAL 12,00 EUR (from 15,36) and TAQUILLA 15,00 EUR both buyable. Venue is given as 'Sala Marte' to match how the calendar already names the building for Apartamentos Acapulco and Andres Koi, which the site does carry. SELLER: conciertos.club is the promoter's own ticketer and pays nothing, but it is the only one - entradas.com's three city listings were opened this run and carry no La Juan Roman row, Fever and Ticketmaster.es have no match - so no paying alternative was passed over."
     },
     "el amir alma flamenca": {
@@ -1511,6 +1511,17 @@
      "venue_name": "Rafa Sánchez",
      "genre": "Pop",
      "why": "BROWSER-CONFIRMED 2026-09-13: unientradas 26-27SanchezRafa renders '07 octubre 2026 20:00, room TEATRO CERVANTES, RAFA SANCHEZ, Miercoles 07/10/2026 20:00', on sale."
+    },
+    "grupo firme": {
+     "url": "https://feverup.com/m/678230",
+     "prefer": "map",
+     "date": "20/09/2026",
+     "time": "20:00",
+     "price": "Desde 45 EUR",
+     "venue": "Málaga Forum",
+     "venue_name": "Grupo Firme",
+     "genre": "Mixed",
+     "why": "BROWSER-CONFIRMED 2026-09-14 on Fever's own plan page (feverup.com/m/678230): 'Gira Grupo Firme España 2026 - Málaga', 'Fecha: 20 de septiembre de 2026', 'Apertura de puertas: 18:30', 'El concierto empieza: 20:00', 'Lugar: Malaga Forum'. ON SALE: tiers at 45,00 / 65,00 / 85,00 / 90,00 EUR are live; ONLY the 40,00 EUR 'Preferencial' tier reads AGOTADO, so the show is NOT sold out and the price floor is 45 EUR, not 40 (checked deliberately after OBK, where a single word on the page decides between a Tickets button and a Sold out pill). REVENUE: Fever is a PAYING seller via pxf.io, so the raw feverup.com/m/<sku> link is stored here and build_site adds our affiliate wrapper — same pattern as the miramar block. WHY IT WAS MISSING: Malaga Forum is in source_calendar's venue list but the weekly LLM sweep never returned this show; found 2026-09-14 on the conciertos.club province agenda while auditing venues we carry nothing from. It is the biggest name on that list — Grupo Firme's first Spain tour, 'La Primera Europeda', with Valencia, Madrid and Barcelona dates the same week."
     },
     "morgenshtern": {
      "url": "https://ticketshop.store/en/events/107442/tickets?type=standticket",
