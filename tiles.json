@@ -1,8 +1,8 @@
 {
  "ads": [
   {
-   "photo": "/assets/tiles/ext-1d8a5fdeee24e020.jpg",
-   "tint": "rgba(8,10,16,.30)",
+   "photo": "/assets/tiles/ext-7b70ad7e064a1292.jpg",
+   "tint": "rgba(8,10,16,.26)",
    "pos": "50% 16%",
    "ribbon": {
     "en": "Marquee event",
@@ -37,6 +37,9 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
+   },
+   "credit": {
+    "en": "Photo: LalaPini · CC BY-SA 4.0"
    }
   },
   {
