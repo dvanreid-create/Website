@@ -120,7 +120,7 @@
 "mles": 51.3
 },
 "sidecars": {
-"name": "Sidecars",
+"name": "SIDECARS",
 "mles": 0.0
 },
 "gloria-trevi": {
@@ -649,6 +649,38 @@
 },
 "la-juan-roman": {
 "name": "La Juan Román",
+"mles": 0.0
+},
+"robot-rock-alive": {
+"name": "ROBOT ROCK ALIVE",
+"mles": 0.0
+},
+"valeria-lynch": {
+"name": "VALERIA LYNCH",
+"mles": 0.0
+},
+"la-konga": {
+"name": "LA KONGA",
+"mles": 0.0
+},
+"hechizo": {
+"name": "HECHIZO",
+"mles": 0.0
+},
+"binomio-de-oro": {
+"name": "BINOMIO DE ORO",
+"mles": 0.0
+},
+"los-herrera": {
+"name": "LOS HERRERA",
+"mles": 0.0
+},
+"back-to-glory-days": {
+"name": "BACK TO GLORY DAYS",
+"mles": 0.0
+},
+"90roll": {
+"name": "90ROLL",
 "mles": 0.0
 }
 }

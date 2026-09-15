@@ -1287,7 +1287,218 @@
    "complete": true,
    "gate": false,
    "note": "Sala París 15, C/ La Orotava 27, Málaga city — ~3,000 capacity, the largest private room in the city, open since 2010. ADDED 2026-09-14 (Sofia). WHY: on that date the venue had 14 in-window shows and malagalivepulse.com carried TWO of them (Ciro y Los Persas, Raimundo Amador). It was named in source_calendar.py with no URL, exactly like Teatro Cervantes, so the weekly LLM sweep re-guessed it each week and mostly returned nothing — and at least four of the missing shows sold through sellers that PAY us (Villano Antillano and Carlos Ares on entradas.com/Awin, Sidecars and Binomio de Oro on El Corte Inglés, La K'onga on Fever), so the gap cost commission as well as coverage. Refreshed weekly by refresh_venue_map.py using the dedicated 'paris15' parser, which reads the venue's own server-rendered /eventos/ page. complete:true so backfill_calendar injects the bill on EVERY build regardless of what the sweep found. gate:false ON PURPOSE: this listing is the venue's own and is good, but it is not provably exhaustive, so it must never be used as authority to phantom-delete a París 15 show it does not list. 'acts' starts empty and is filled by the first refresher run; an empty block injects nothing, so this is safe to ship before that run happens.",
-   "acts": {}
+   "acts": {
+    "morgenshtern": {
+     "url": "https://paris15.es/event/morgenshtern/",
+     "date": "15/09/2026",
+     "venue_name": "MORGENSHTERN"
+    },
+    "los herrera": {
+     "url": "https://paris15.es/event/los-herrera/",
+     "date": "17/09/2026",
+     "venue_name": "LOS HERRERA"
+    },
+    "back to glory days": {
+     "url": "https://paris15.es/event/back-to-glory-days/",
+     "date": "19/09/2026",
+     "venue_name": "BACK TO GLORY DAYS"
+    },
+    "ciro y los persas": {
+     "url": "https://www.entradas.com/event/ciro-y-los-persas-sala-paris-15-20865104/",
+     "date": "24/09/2026",
+     "venue_name": "CIRO Y LOS PERSAS"
+    },
+    "90roll": {
+     "url": "https://paris15.es/event/90roll/",
+     "date": "25/09/2026",
+     "venue_name": "90ROLL"
+    },
+    "raimundo amador": {
+     "url": "https://www.entradas.com/event/raimundo-amador-gira-2026-sala-paris-15-21342141/",
+     "date": "26/09/2026",
+     "venue_name": "RAIMUNDO AMADOR"
+    },
+    "sidecars": {
+     "url": "https://paris15.es/event/sidecars-2/",
+     "date": "02/10/2026",
+     "venue_name": "SIDECARS"
+    },
+    "robot rock alive": {
+     "url": "https://paris15.es/event/robot-rock-alive/",
+     "date": "03/10/2026",
+     "venue_name": "ROBOT ROCK ALIVE"
+    },
+    "valeria lynch": {
+     "url": "https://paris15.es/event/valeria-lynch/",
+     "date": "04/10/2026",
+     "venue_name": "VALERIA LYNCH"
+    },
+    "la konga": {
+     "url": "https://feverup.com/m/643664",
+     "date": "08/10/2026",
+     "venue_name": "LA KONGA"
+    },
+    "hechizo": {
+     "url": "https://paris15.es/event/hechizo-2/",
+     "date": "10/10/2026",
+     "venue_name": "HECHIZO"
+    },
+    "binomio de oro": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-festival-vallenato-binomio-de-oro-de-america-malaga/",
+     "date": "11/10/2026",
+     "venue_name": "BINOMIO DE ORO"
+    },
+    "sober": {
+     "url": "https://paris15.es/event/sober-2/",
+     "date": "17/10/2026",
+     "venue_name": "SÔBER"
+    },
+    "leoni torres": {
+     "url": "https://paris15.es/event/leoni-torres/",
+     "date": "18/10/2026",
+     "venue_name": "LEONI TORRES"
+    },
+    "las pelotas cruzando el charco": {
+     "url": "https://paris15.es/event/las-pelotas-cruzando-el-charco/",
+     "date": "21/10/2026",
+     "venue_name": "LAS PELOTAS + CRUZANDO EL CHARCO"
+    },
+    "no te va a gustar": {
+     "url": "https://paris15.es/event/no-te-va-a-gustar/",
+     "date": "23/10/2026",
+     "venue_name": "NO TE VA A GUSTAR"
+    },
+    "abhir": {
+     "url": "https://paris15.es/event/abhir/",
+     "date": "24/10/2026",
+     "venue_name": "ABHIR"
+    },
+    "sobredosis de soda": {
+     "url": "https://paris15.es/event/sobredosis-de-soda/",
+     "date": "04/11/2026",
+     "venue_name": "SOBREDOSIS DE SODA"
+    },
+    "grupo liberacion": {
+     "url": "https://paris15.es/event/grupo-liberacion/",
+     "date": "11/11/2026",
+     "venue_name": "GRUPO LIBERACIÓN"
+    },
+    "las pastillas del abuelo": {
+     "url": "https://paris15.es/event/las-pastillas-del-abuelo/",
+     "date": "12/11/2026",
+     "venue_name": "LAS PASTILLAS DEL ABUELO"
+    },
+    "melon diesel": {
+     "url": "https://www.entradas.com/event/melon-diesel-la-gira-de-mr-bond-sala-paris-15-21491835/",
+     "date": "13/11/2026",
+     "venue_name": "MELÓN DIESEL"
+    },
+    "neon collective the 80s show": {
+     "url": "https://paris15.es/event/neon-collective-u2-depeche-mode-the-cure/",
+     "date": "14/11/2026",
+     "venue_name": "NEON COLLECTIVE: THE 80s SHOW"
+    },
+    "carlos ares": {
+     "url": "https://www.entradas.com/event/carlos-ares-sala-paris-15-21699135/",
+     "date": "21/11/2026",
+     "venue_name": "CARLOS ARES"
+    },
+    "los fabulosos cadillacs": {
+     "url": "https://paris15.es/event/los-fabulosos-cadillacs-2/",
+     "date": "24/11/2026",
+     "venue_name": "LOS FABULOSOS CADILLACS"
+    },
+    "salistre": {
+     "url": "https://paris15.es/event/salistre/",
+     "date": "27/11/2026",
+     "venue_name": "SALISTRE"
+    },
+    "ruslana": {
+     "url": "https://paris15.es/event/ruslana-2/",
+     "date": "28/11/2026",
+     "venue_name": "RUSLANA"
+    },
+    "miss caffeina": {
+     "url": "https://paris15.es/event/miss-caffeina-3/",
+     "date": "05/12/2026",
+     "venue_name": "MISS CAFFEINA"
+    },
+    "cyril kamer": {
+     "url": "https://paris15.es/event/cyril-kamer/",
+     "date": "11/12/2026",
+     "venue_name": "CYRIL KAMER"
+    },
+    "la banda sabinera": {
+     "url": "https://paris15.es/event/la-banda-sabinera/",
+     "date": "12/12/2026",
+     "venue_name": "LA BANDA SABINERA"
+    },
+    "walls": {
+     "url": "https://paris15.es/event/walls/",
+     "date": "18/12/2026",
+     "venue_name": "WALLS"
+    },
+    "serko": {
+     "url": "https://paris15.es/event/serko/",
+     "date": "19/12/2026",
+     "venue_name": "SERKO"
+    },
+    "funzo": {
+     "url": "https://feverup.com/m/632234",
+     "date": "09/01/2027",
+     "venue_name": "FUNZO"
+    },
+    "kabrones": {
+     "url": "https://paris15.es/event/kabrones/",
+     "date": "15/01/2027",
+     "venue_name": "KABRÖNES"
+    },
+    "los zigarros": {
+     "url": "https://paris15.es/event/los-zigarros/",
+     "date": "22/01/2027",
+     "venue_name": "LOS ZIGARROS"
+    },
+    "javi medina": {
+     "url": "https://paris15.es/event/javi-medina/",
+     "date": "30/01/2027",
+     "venue_name": "JAVI MEDINA"
+    },
+    "funambulista": {
+     "url": "https://www.entradas.com/event/funambulista-sala-paris-15-21877780/",
+     "date": "05/02/2027",
+     "venue_name": "FUNAMBULISTA"
+    },
+    "rodrigo cuevas": {
+     "url": "https://paris15.es/event/rodrigo-cuevas-2/",
+     "date": "06/02/2027",
+     "venue_name": "RODRIGO CUEVAS"
+    },
+    "la la love you": {
+     "url": "https://feverup.com/m/653967",
+     "date": "26/02/2027",
+     "venue_name": "LA LA LOVE YOU"
+    },
+    "pibes chorros": {
+     "url": "https://paris15.es/event/pibes-chorros/",
+     "date": "11/04/2027",
+     "venue_name": "PIBES CHORROS"
+    },
+    "linkoln park": {
+     "url": "https://paris15.es/event/linkoln-park/",
+     "date": "24/04/2027",
+     "venue_name": "LINKOLN PARK"
+    },
+    "mescalina": {
+     "url": "https://www.entradas.com/event/mescalina-80senespanol-sala-paris-15-21952075/",
+     "date": "07/05/2027",
+     "venue_name": "MESCALINA"
+    },
+    "raule": {
+     "url": "https://paris15.es/event/raule-2/",
+     "date": "14/05/2027",
+     "venue_name": "RAULE"
+    }
+   }
   },
   "sweeplost": {
    "source": "https://malagalivepulse.com/en/",

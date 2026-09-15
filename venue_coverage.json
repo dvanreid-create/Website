@@ -202,10 +202,10 @@
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 0,
-   "matched": 0,
-   "calendar_in_window": 5,
-   "latest_mapped": null,
+   "mapped_in_window": 12,
+   "matched": 12,
+   "calendar_in_window": 14,
+   "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "ok"
   },
@@ -213,7 +213,7 @@
    "venue": "Málaga",
    "mapped_in_window": 22,
    "matched": 22,
-   "calendar_in_window": 41,
+   "calendar_in_window": 50,
    "latest_mapped": "2026-10-12",
    "always_on": false,
    "verdict": "ok"
