@@ -403,190 +403,15 @@
    "_eci": "MARENOSTRUM SELLS THROUGH EL CORTE INGLES (verified 16 Jul 2026): its own COMPRAR AHORA button posts to checkoutentradas.elcorteingles.es. Same seller = the price CANNOT differ, so the gate passes by construction and every one of these routes to ECI for 1% (Awin 13034). Spot-checked: Alejandro Sanz 71,50 on both. The checkout URL itself carries an expiring JWT and is NOT linkable - always link the ECI event page below, which eci_aff() wraps. Prices here are ECI's 'Desde' read 16 Jul 2026.",
    "note": "The homepage lists the whole 2026 season with per-event deep links and dates. Acts NOT on this list are not playing this venue - see Thirty Seconds to Mars (15 Jul) and Maria Pelae (6 Aug), both of which our calendar carried but the venue does not list.",
    "acts": {
-    "urban paradise": {
-     "url": "https://marenostrumfuengirola.com/eventos/urban-paradise/",
-     "date": "11/07/2026",
-     "venue_name": "URBAN PARADISE"
+    "take that": {
+     "url": "https://marenostrumfuengirola.com/eventos/take-that/",
+     "date": "11/07/2027",
+     "venue_name": "TAKE THAT"
     },
-    "sting": {
-     "url": "https://marenostrumfuengirola.com/eventos/sting/",
-     "date": "13/07/2026",
-     "venue_name": "STING",
-     "genre": "Rock & Indie"
-    },
-    "alejandro sanz": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-sanz-y-ahora-que-fuengirola/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/alejandro-sanz/",
-     "date": "24/07/2026",
-     "venue_name": "ALEJANDRO SANZ",
-     "eci_from": 71.5,
-     "prefer": "eci",
-     "why": "ECI is Marenostrum's own seller; 71,50 both. NOTE: Marenostrum's page says SOLD OUT while ECI still shows COMPRAR - ECI may hold the last stock.",
-     "genre": "Pop"
-    },
-    "los delinquentes": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-los-delinquentes-fuengirola-DELINMF26DELINMF26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/los-delinquentes/",
-     "date": "25/07/2026",
-     "venue_name": "LOS DELINQÜENTES",
-     "eci_from": 42.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Flamenco"
-    },
-    "beele": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-beele-malaga-fuengirola-SUAVEFESTSUAVEFESTMARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/beele-nanpabasico-lewispotter/",
-     "date": "26/07/2026",
-     "venue_name": "BEÉLE + NANPA BÁSICO + LEWIS POTTER",
-     "eci_from": 59.9,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Urban & Reggaeton"
-    },
-    "pablo lopez": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pablo-lopez-fuengirola-PLOPEZMF26PLOPEZMF26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/pablo-lopez/",
-     "date": "30/07/2026",
-     "venue_name": "PABLO LOPEZ",
-     "eci_from": 50.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Pop"
-    },
-    "operacion triunfo": {
-     "url": "https://marenostrumfuengirola.com/eventos/operacion-triunfo/",
-     "date": "31/07/2026",
-     "venue_name": "OPERACION TRIUNFO",
-     "genre": "Pop"
-    },
-    "hombres g": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hombres-g-los-mejores-anos-de-nuestra-vida-fuengirola/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/hombres-g/",
-     "date": "01/08/2026",
-     "venue_name": "HOMBRES G",
-     "eci_from": 51.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%. ECI lists TWO Hombres G pages that night: the standard one (51,00, used here) and a MAREVIP package (119,00). Standard = the cheaper, correct target.",
-     "genre": "Rock & Indie"
-    },
-    "vibras": {
-     "url": "https://marenostrumfuengirola.com/eventos/vibras/",
-     "date": "02/08/2026",
-     "venue_name": "VIBRAS"
-    },
-    "bocata fest": {
-     "url": "https://marenostrumfuengirola.com/eventos/bocata-fest-26/",
-     "date": "06/08/2026",
-     "venue_name": "BOCATA FEST"
-    },
-    "underworld": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-underworld-fuengirola-UNDERWORLD2026UNDERWORLD2026MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/underworld-live-satisfaxion-303/",
-     "date": "08/08/2026",
-     "venue_name": "UNDERWORLD (live) + SVEN VÄTH + BONOBO",
-     "eci_from": 44.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
-    },
-    "gipsy kings": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gipsy-kings-en-concierto-fuengirola-GIPSYKINGS26GIPSYKINGS26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/gipsy-kings/",
-     "date": "09/08/2026",
-     "venue_name": "GIPSY KINGS",
-     "eci_from": 35.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Flamenco"
-    },
-    "alejandro astola": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-astola-mi-guitarra-y-yo-gira-2026-fuengirola-ALEASTOLAMF26ALEASTOLAMF26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/alejandro-astola/",
-     "date": "13/08/2026",
-     "venue_name": "ALEJANDRO ASTOLA",
-     "eci_from": 38.5,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%"
-    },
-    "lola indigo": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-lola-indigo-fuengirola-LOLAINDIGOMF26LOLAINDIGOMF26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/lola-indigo/",
-     "date": "14/08/2026",
-     "venue_name": "LOLA INDIGO",
-     "eci_from": 50.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Pop"
-    },
-    "antonio orozco": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-antonio-orozco-fuengirola-AOROZCOMF26AOROZCOMF26MARE/",
-     "box_url": "https://marenostrumfuengirola.com/eventos/antonio-orozco/",
-     "date": "15/08/2026",
-     "venue_name": "ANTONIO OROZCO",
-     "eci_from": 45.0,
-     "prefer": "eci",
-     "why": "ECI is the seller -> 1%",
-     "genre": "Pop"
-    },
-    "mago orbit": {
-     "url": "https://marenostrumfuengirola.com/eventos/mago-orbit-presenta-acero-2-0-sohail-magico/",
-     "date": "16/08/2026",
-     "venue_name": "MAGO ORBIT PRESENTA ACERO 2.0 – SOHAIL MÁGICO"
-    },
-    "luna sur tardeo": {
-     "url": "https://marenostrumfuengirola.com/eventos/luna-sur-tardeo/",
-     "date": "18/08/2026",
-     "venue_name": "LUNA SUR TARDEO"
-    },
-    "galvan real": {
-     "url": "https://marenostrumfuengirola.com/eventos/galvan-real-gira-10o-aniversario/",
-     "date": "21/08/2026",
-     "venue_name": "GALVAN REAL – GIRA 10º ANIVERSARIO",
-     "genre": "Flamenco"
-    },
-    "la plazuela": {
-     "url": "https://marenostrumfuengirola.com/eventos/la-plazuela/",
-     "date": "22/08/2026",
-     "venue_name": "LA PLAZUELA",
-     "genre": "Flamenco"
-    },
-    "cantajuego": {
-     "url": "https://marenostrumfuengirola.janto.es/espectaculo/cantajuego--el-payaso-tallarin--su-gran-circo/CANTAJUEGO26",
-     "date": "23/08/2026",
-     "venue_name": "CANTAJUEGO – EL PAYASO TALLARIN",
-     "genre": "Other"
-    },
-    "sun and thunder": {
-     "url": "https://marenostrumfuengirola.com/eventos/sun-thunder-26/",
-     "prefer": "map",
-     "date": "27/08/2026",
-     "venue_name": "SUN & THUNDER 26",
-     "note": "CATCH-ALL for the festival, and the fallback for THURSDAY 27/08 whose per-night ticket page no longer exists (sales closed once the festival opened). prefer:map is DELIBERATE: the sweep captured the 3-day pass URL (.../abono-3-dias-sun-thunder-festival-2026/A3SUNTHUNDER26), the ticketer withdrew that product on 27/08/2026, and every night was left on a 'Página no encontrada'. Without prefer, venue_resolve keeps a deep link even when it is dead. This sends 27/08 to the festival's own info page instead of a 404. The two longer keys below are MORE SPECIFIC (6 tokens vs 3) and _venue_lookup sorts most-specific-first, so 28/08 and 29/08 take their own per-night pages, not this one. WARNING: the info page still advertises 'entradas a partir del 2 de septiembre, 165€' - that is the ORIGINAL 2025 announcement left online (its images sit under /2025/08/), NOT current pricing."
-    },
-    "sun and thunder 26 day 2": {
-     "url": "https://marenostrumfuengirola.com/eventos/sun-thunder-26/",
-     "prefer": "map",
-     "date": "28/08/2026",
-     "venue_name": "SUN & THUNDER 26",
-     "note": "FALLBACK, changed 2026-08-28 by the daily click-test. The per-night janto page this key used to hold (.../sun-thunder-festival--viernes-28-de-agosto-2026/VSUNTHUNDER26) was live when Sofia read it on 27/08 and returned 'page not found' on the morning of 28/08 - the ticketer withdraws each night's product once that night arrives, exactly as it did for the Thursday. Proven in the browser on 28/08: janto's own musica AND concierto catalogues list only the Saturday product (SSUNTHUNDER26); the 3-day pass A3SUNTHUNDER26 404s; the festival's own site links ticketgate.es/events/sun-thunder-2026 which 404s; tickety.es/event/sun-thunder-2026 says 'El evento ha finalizado'. No buyable page for 28/08 exists anywhere, so this sends the night to the festival's own info page instead of a 404 - same treatment as the 27/08 catch-all above. Costs no commission: janto pays nothing either."
-    },
-    "sun and thunder 26 day 3": {
-     "url": "https://marenostrumfuengirola.janto.es/espectaculo/sun-thunder-festival--sabado-29-de-agosto-2026/SSUNTHUNDER26",
-     "prefer": "map",
-     "date": "29/08/2026",
-     "venue_name": "SUN & THUNDER FESTIVAL - SÁBADO 29 DE AGOSTO 2026",
-     "note": "Per-night ticket page for Saturday 29/08, read off the ticketer's own música catalogue in a browser on 27/08/2026. Day 3 is the strongest bill of the three (Avantasia, Lordi, Soen, Primal Fear)."
-    },
-    "chambao": {
-     "url": "https://marenostrumfuengirola.com/eventos/chambao/",
-     "date": "06/09/2026",
-     "venue_name": "CHAMBAO"
-    },
-    "apulanta": {
-     "url": "https://marenostrumfuengirola.com/eventos/apulanta/",
-     "date": "12/09/2026",
-     "venue_name": "APULANTA",
-     "genre": "Rock & Indie"
+    "don omar": {
+     "url": "https://marenostrumfuengirola.com/eventos/don-omar/",
+     "date": "16/07/2027",
+     "venue_name": "DON OMAR"
     }
    }
   },
@@ -2473,51 +2298,24 @@
    }
   },
   "trinchera": {
-   "source": "https://mutick.com/v/sala-la-trinchera",
+   "source": "https://mutick.com/l/malaga",
    "complete": true,
    "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep. KEY RENAMED 2026-08-10 'sala trinchera' -> 'trinchera'. _venue_lookup() matches only when the KEY IS A SUBSTRING of the normalised venue name or URL. The venue calls itself 'Sala LA Trinchera', and 'sala trinchera' is NOT a substring of 'sala la trinchera' - so this block could never match anything, no matter what was in it. Bare 'trinchera' matches every spelling and the mutick slug sala-la-trinchera too. AUTO-REFRESH ADDED 2026-08-10: refresh_venue_map.py now rescrapes this block every Monday from mutick.com/l/malaga - the CITY-scoped page, never mutick as a whole, because mutick is a national Madrid-based platform and a site-wide scrape would drag in Madrid listings. Rows are kept only when the card names 'trinchera', so the same city page can serve other Malaga venues later. After the first refresh 'source' above will read /l/malaga (what is actually scraped) rather than the venue page. COMPLETE FLIPPED TO TRUE 2026-08-10 (Sofia: 'as long as China Crisis appears in the event list'). complete:false could not deliver that - backfill only injects from complete venues, so the listing depended entirely on the LLM sweep, which this codebase documents as intermittently dropping whole venues. True makes injection DETERMINISTIC. The price of that is the phantom gate: a Trinchera show that is NOT on mutick and that the sweep finds elsewhere would now be dropped as 'not on trinchera's own programme'. Judged acceptable because mutick IS the venue's ticketer and refresh_venue_map.py now re-reads it every Monday, so the list cannot go stale. To reverse, set complete back to false - one word. | 2026-08-20: gate:false ADDED. complete:true stays (injection stays deterministic), but the phantom gate is switched OFF for this block because mutick lists only the shows IT sells: Damian Cordoba (3 Sep, Sala Trinchera) sells through movingtickets.com, was therefore absent from the Monday mutick refresh, and was phantom-deleted off the live site even though the seller page is live at 27,50 EUR. gate:false removes the delete power without touching injection.",
    "acts": {
     "china crisis": {
      "url": "https://mutick.com/e/entradas-china-crisis-malaga-2",
      "date": "17/09/2026",
-     "venue_name": "China Crisis (UK)",
-     "genre": "Pop"
+     "venue_name": "CHINA CRISIS (UK)"
     },
     "the silencers": {
      "url": "https://mutick.com/e/entradas-the-silencers-malaga-2",
      "date": "15/10/2026",
-     "venue_name": "The Silencers (UK)",
-     "genre": "Rock & Indie"
+     "venue_name": "The SILENCERS (UK)"
     },
     "clearwater creedence revival": {
      "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
      "date": "29/11/2026",
-     "venue_name": "Clearwater Creedence Revival (UK&USA)",
-     "genre": "Tribute"
-    },
-    "damian cordoba": {
-     "url": "https://movingtickets.com/Entradas-Damian-Cordoba-concierto-Sala-Trinchera-Malaga/",
-     "date": "03/09/2026",
-     "time": "20:30",
-     "venue_name": "Damian Cordoba",
-     "genre": "Flamenco",
-     "why": "BROWSER-CONFIRMED 2026-08-20: movingtickets 'Damian Cordoba en Sala Trinchera', SALA TRINCHERA C. Parauta 25 Malaga, doors 20:30, 25,00 EUR + 2,50 g.g = 27,50 EUR. NOT on mutick, so refresh_venue_map.py's Monday rescrape will not re-create this row — if it disappears again, re-add it here."
-    },
-    "perota chingo": {
-     "url": "https://www.entradas.com/en/event/perota-chingo-sala-la-trinchera-21748743/",
-     "date": "30/09/2026",
-     "time": "21:00",
-     "venue_name": "Perotá Chingó",
-     "genre": "Rock & Indie",
-     "why": "ADDED 2026-09-01 by the daily click-test: this show was IN-WINDOW on entradas.com and ABSENT from the live site, i.e. lost commission at a paying seller. BROWSER-CONFIRMED: entradas.com renders 'PEROTÁ CHINGÓ, Wednesday, 30/09/2026 | 21:00, Sala La Trinchera | Calle Parauta, 25 | 29006 Málaga', General Admission 27.50 EUR, 'Add to shopping cart 2 tickets, 55.00 EUR'. Seller choice: mutick.com/v/sala-la-trinchera lists only China Crisis (17 Sep), The Silencers (15 Oct) and Clearwater Creedence Revival (29 Nov) — it does NOT sell this night — so entradas.com is both the only seller found and a paying one (Awin mid 24761; build_site.entradas_aff wraps the raw URL at build time, which is why the URL here is unwrapped). WHY THIS ROW IS FRAGILE: refresh_venue_map.py rebuilds blk['acts'] for the 'trinchera' key WHOLESALE from mutick every Monday, and Perotá Chingó is not on mutick — same trap as Damián Córdoba above. It is entered here anyway because 'trinchera' is the key backfill_calendar.WHITELIST iterates, so this block is the ONLY one that can inject the row; a duplicate link-override entry sits in the 'la trinchera' block (which nothing rewrites) so the DESTINATION survives a rescrape even if the injection does not. If the card vanishes after a Monday, re-add it here."
-    },
-    "macaco": {
-     "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=652051&u=https%3A%2F%2Ffeverup.com%2Fm%2F652051&intsrc=CATF_15532",
-     "date": "03/10/2026",
-     "time": "21:00",
-     "venue_name": "Macaco",
-     "genre": "Latin",
-     "why": "ADDED 2026-09-04 after DLR reported 'Macaco 03/10/2026 — link shows a different date'. TWO defects found. (1) MISSING EVENT: 3 Oct is INSIDE the 30-day window from today (04/09/2026) yet Macaco appeared NOWHERE on the live site — checked /en/, /es/, /en/free/, all eight live city pages and sitemap.xml, zero hits — so a 6%-paying Fever night was being lost entirely. (2) WRONG-DATE LINK: Fever files this tour as SEQUENTIAL per-city SKUs — 652051 Málaga 03/10, 652053 Valencia 20/11, 652054 Barcelona 13/02, 652055 Zaragoza 25/02, 652056 Madrid 25/02, 652057 Bilbao 04/04 (all six enumerated from conciertos.club/artistas/macaco) — plus an artist hub at feverup.com/music/en/artist/5fe1295a-macaco that lists EVERY tour date. Any of those neighbours renders 'Macaco' with a date that is not ours, which is exactly the symptom reported; build_site._is_deep already treats /artist/ hubs as upgradeable, so pinning the single-event SKU here is the durable fix. CONFIRMED on the seller's own page 2026-09-04: feverup.com/m/652051/en is 'Macaco in Málaga', '📅 Date: 3rd October 2026', doors 20:00 / concert 21:00, venue La Trinchera Malaga (Calle Parauta 25, 29006), and its own 'Select date and session' picker offers ONE bookable session — 'Sat 03 Oct, 9:00 PM, General admission, €25.00' with a live Tickets control. Not sold out, not a listing, not a different event. Cross-checked against two independent sellers that agree on act+date+venue: conciertos.club (S3/10/26 21:00, Sala Trinchera, 25€) and tomaticket.es ('Macaco en Málaga, Sábado 03 Octubre', La Trinchera). EVIDENCE GRADE: first read from the server-rendered page via fetch while Claude in Chrome was offline, then RE-CONFIRMED IN THE BROWSER the same day once the extension came back — the rendered page shows picker 'Select date and session / Sat 03 Oct / 9:00 PM / General admission / EUR25.00 / Tickets', not sold out. The Fever date-chip rule is satisfied on a real browser render. SELLER CHOICE: Fever is the ONLY seller found for this night and it is a paying one (Impact 6%), so there is no cheaper-non-payer trade-off to make here; tomaticket also lists it but pays nothing. URL IS PRE-WRAPPED (unlike the entradas.com row above) because nothing in build_site.py wraps Fever — the Impact template is applied upstream by fever_scrape.aff_link, which a map-injected row does not necessarily pass through; the template is the standard publisher-7440720 one and is idempotent. WHY THIS ROW IS FRAGILE: same Monday trap as Damián Córdoba and Perotá Chingó — refresh_venue_map.py rebuilds this block's acts wholesale from mutick and Macaco is not on mutick, so a duplicate link-override sits in the 'la trinchera' block. If the card vanishes after a Monday, re-add it here."
+     "venue_name": "Clearwater Creedence Revival (UK&USA)"
     }
    },
    "gate": false
