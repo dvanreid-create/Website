@@ -1481,6 +1481,25 @@
      "genre": "Classical & Candlelight",
      "why": "BROWSER-CONFIRMED 2026-09-13: unientradas 26-27MorriconOFM renders '24 septiembre 2026 20:00, room TEATRO CERVANTES, CINEMA MORRICONE', Descripcion 'MOSMA RELOADED 2026-27', on sale. OFM in the ticket code = Orquesta Filarmonica de Malaga."
     },
+    "los delinquentes": {
+     "url": "https://www.malagadeporteyeventos.com/concierto-los-delincuentes/",
+     "prefer": "map",
+     "date": "26/09/2026",
+     "time": "22:00",
+     "venue": "Auditorio Municipal Cortijo de Torres",
+     "venue_name": "Los Delinqüentes",
+     "genre": "Rock & Indie",
+     "why": "VERIFIED 2026-09-15, and ADDED AS A DELIBERATE EXCEPTION — read this before 'fixing' the link. THE SHOW IS REAL: the venue's own page (malagadeporteyeventos.com/concierto-los-delincuentes/) states 'CONCIERTO LOS DELINCUENTES, 26 septiembre 2026, Auditorio Municipal Cortijo de Torres, Apertura 20:00h e Inicio 22:00h', 25th-anniversary tour, promoter Rollercoaster Group SL. It was ABSENT from malagalivepulse.com on 2026-09-15 (no match for 'delinq'/'delinc' anywhere on the page) — an in-window show at the city's big outdoor auditorium, ten days out, that we were not carrying at all. TICKETS ARE ON SALE: press reporting on 2026-09-13 has them selling since mid-August with the first three tiers gone (~60% of an 8,000 capacity) and the last at 45 EUR. WHY THE LINK IS THE VENUE PAGE AND NOT A SELLER: there is no public buy control anywhere. The venue points at www.losdelinquentesmalaga.com, which was OPENED and is a pixea.es LEAD-CAPTURE LANDING — first name, last name, email, age, phone, one 'REGISTER ME' button, ZERO links, no prices, no widget, no iframe. The form was deliberately not submitted. tomaticket.es carries the artist but says 'De momento no hay eventos programados' for Malaga; every Delinquentes date it lists is past. So the choice was: link a registration wall that demands a reader's phone number before telling them anything, or link the Ayuntamiento's own authoritative page that gives the date, both times and names the sales channel. Chose the venue page. This is the same shape as the 'Superstars 90' entry the sweeplost note rejects, with one difference that justifies the exception: Superstars 90 could not be confirmed as on sale, and this one can. NO PRICE FIELD on purpose — 45 EUR comes from press, not from a seller page, so the card shows 'Check link' rather than quoting a figure we have not seen sold. NO AFFILIATE and therefore NO GUTTER TILE under the 2026-09-15 rule. REVISIT if a real seller appears; a direct buy link would be strictly better than this."
+    },
+    "vetusta morla": {
+     "url": "https://my.weezevent.com/vetusta-morla-2026-malaga-auditorio-cortijo-de-torres",
+     "prefer": "map",
+     "date": "31/10/2026",
+     "venue": "Auditorio Municipal Cortijo de Torres",
+     "venue_name": "Vetusta Morla",
+     "genre": "Rock & Indie",
+     "why": "VERIFIED 2026-09-15. Two independent sources agree: the VENUE's own page (malagadeporteyeventos.com/vetusta-morla/) states 'VETUSTA MORLA, 31 octubre 2026, Auditorio Municipal Cortijo de Torres, Organiza Riff Music' and points ticket sales at vetustamorla.com; the BAND's official tour page then lists 'Málaga, 31 octubre 2026' with an 'Entradas' link to my.weezevent.com/vetusta-morla-2026-malaga-auditorio-cortijo-de-torres. ON SALE, NOT SOLD OUT — the same page marks A Coruña 7 Nov and Madrid 20-21 Nov as 'Entradas agotadas' and Málaga is not among them, so the distinction is the band's own. WHY sweeplost AND NOT the 'cortijo de torres' block: that block is complete:false and is NOT in backfill_calendar's WHITELIST, so it can only UPGRADE a link the sweep already found — it injects nothing. This show is 31 Oct, i.e. outside the 30-day window until about 1 Oct, so the sweep has never had a chance at it and there is no way to know in advance whether it will catch it. For a band of this size that is the wrong thing to leave to chance. NO AFFILIATE: Weezevent is not one of our paying sellers and the band sells Málaga through it exclusively, so there is no commission to be had and no cheaper alternative to route to — stated here so nobody 'fixes' the link later. That also means it must NOT get a gutter tile under the 2026-09-15 no-affiliate rule; it is a calendar listing only."
+    },
     "vicente amigo": {
      "url": "https://www.unientradas.es/es/espectaculo/vicente-amigo-en-concierto/26-27AmigoVicent",
      "prefer": "map",
@@ -1707,7 +1726,8 @@
      "venue_name": "Asys Quartet",
      "genre": "Jazz & Soul",
      "paid_free": "Paid",
-     "price": "Check venue"
+     "price": "Desde 12 EUR",
+     "why_price": "Read off the club's own event page 2026-09-15: Zona A (rows 1-3) 18 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility and General 12 EUR, members 20% off. Was 'Check venue', which is what the site shows when we do not know — here we do."
     },
     "blues jam session 23/09/2026": {
      "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-144/",
@@ -1734,7 +1754,8 @@
      "venue_name": "Yuri Storione Quartet",
      "genre": "Jazz & Soul",
      "paid_free": "Paid",
-     "price": "Check venue"
+     "price": "Desde 12 EUR",
+     "why_price": "Read off the club's own event page 2026-09-15: Zona A (rows 1-3) 20 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility and General 12 EUR, members 20% off. Was 'Check venue', which is what the site shows when we do not know — here we do."
     },
     "louis ford new orleans flairs feat carlos childe 26/09/2026": {
      "url": "https://www.clarencejazzclub.com/wp/events/louis-ford-new-orleans-flairs-feat-carlos-childe/",
