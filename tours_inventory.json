@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-14",
-  "count": 112,
+  "generated": "2026-09-15",
+  "count": 103,
   "items": [
     {
       "sku": "194665",
@@ -312,20 +312,6 @@
       "d": "Caminito del Rey: Visita guiada en italiano + Autobús de ida desde El Chorro in Málaga. Get your tickets on Fever now!"
     },
     {
-      "sku": "502738",
-      "n": "Combo Classic Salmon Duo",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "40675a2a-02a2-11f1-9f02-f6c37d028681.jpeg",
-      "url": "https://feverup.com/m/502738/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=502738&u=https%3A%2F%2Ffeverup.com%2Fm%2F502738&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Enjoy Classic Salmon Duo in Madrid: gyozas, salmon bowls and soft drinks in a healthy and delicious plan. Get yours now!"
-    },
-    {
       "sku": "502741",
       "n": "Combo Classic Salmon Duo",
       "c": "tours",
@@ -336,20 +322,6 @@
       "img": "40675a2a-02a2-11f1-9f02-f6c37d028681.jpeg",
       "url": "https://feverup.com/m/502741/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=502741&u=https%3A%2F%2Ffeverup.com%2Fm%2F502741&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Enjoy Classic Salmon Duo in Madrid: gyozas, salmon bowls and soft drinks in a healthy and delicious plan. Get yours now!"
-    },
-    {
-      "sku": "502761",
-      "n": "Combo Classic Salmon Duo",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "40675a2a-02a2-11f1-9f02-f6c37d028681.jpeg",
-      "url": "https://feverup.com/m/502761/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=502761&u=https%3A%2F%2Ffeverup.com%2Fm%2F502761&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy Classic Salmon Duo in Madrid: gyozas, salmon bowls and soft drinks in a healthy and delicious plan. Get yours now!"
     },
@@ -452,20 +424,6 @@
       "d": "Enjoy Edgar Allan Poe’s works, brought to life by expert historians and paired with themed cocktails in Málaga. Get your tickets now!"
     },
     {
-      "sku": "589923",
-      "n": "El Templo Del Flamenco: Espectáculo Flamenco + Cena y Bebida Opcional",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €60",
-      "img": "0789aaa0-126a-11f1-8486-42ebcc627cad.jpeg",
-      "url": "https://feverup.com/m/589923/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=589923&u=https%3A%2F%2Ffeverup.com%2Fm%2F589923&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "El Templo Del Flamenco: Espectáculo Flamenco + Cena y Bebida Opcional in Granada. Get your tickets on Fever now!"
-    },
-    {
       "sku": "96645",
       "n": "El Toril Glamping Experience: Safari Tent Getaway with Breakfast",
       "c": "tours",
@@ -494,34 +452,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "310615",
-      "n": "Flamenco Theater Granada: Live the Flamenco experience - Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "7d8ee1c2-6e1b-11f1-a1a4-a28421aa1ff5.png",
-      "url": "https://feverup.com/m/310615/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=310615&u=https%3A%2F%2Ffeverup.com%2Fm%2F310615&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Sensations - Flamenco Theater Granada - Flamenco Show Tickets 🎫 General Admission: Table seating with one drink included 🎫 Promo Admission: Seating on a chair, no drink 🎫 Reduced Admission: Seating on a chair, no drink. For students, residents of Granada over 65, children (6 to 12 years old), o"
-    },
-    {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
-    },
-    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -534,20 +464,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
       "feat": 0,
       "d": "Individual tickets to visit the Alcazaba of Malaga with art historian guide. Duration: 1 hour approx. Get your tickets now!"
-    },
-    {
-      "sku": "502745",
-      "n": "Healthy Poke Córdoba (Go Fit) - Córdoba",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "40675a2a-02a2-11f1-9f02-f6c37d028681.jpeg",
-      "url": "https://feverup.com/m/502745/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=502745&u=https%3A%2F%2Ffeverup.com%2Fm%2F502745&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Enjoy a healthy and delicious meal that combines a starter, a main dish, and a delightful dessert. A quick, wholesome, and nutritious meal that will make you feel good inside and out. Solo Combo Menu 🥟 Starter: 2 chicken gyozas 🥗 Bowl: 1 Asian Caesar Salad 🍧 Dessert: 1 yogurt berries & crumble"
     },
     {
       "sku": "92941",
@@ -590,20 +506,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
-    },
-    {
-      "sku": "634608",
-      "n": "La Cena Criminal - Granada Tickets",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "9b3716b6-a041-11f0-972a-6af48f4b5d8b.png",
-      "url": "https://feverup.com/m/634608/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=634608&u=https%3A%2F%2Ffeverup.com%2Fm%2F634608&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La cena criminal is an interactive theatrical show where you can dine while solving a murder. Between delicious dishes and a glass of wine, the actors will involve you in a plot full of secrets and suspicions. Get your tickets now!"
     },
     {
       "sku": "653967",
@@ -788,20 +690,6 @@
       "d": "Enjoy a sunset cruise and dinner in Malaga! Sail along the coast, watch the sunset and enjoy a delicious Mediterranean dinner - get your tickets now!"
     },
     {
-      "sku": "678292",
-      "n": "Tableau Flamenco La Alboreá: Flamenco Show in Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €12",
-      "img": "7d0a1c66-7619-11f1-b528-769286b6242f.jpeg",
-      "url": "https://feverup.com/m/678292/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=678292&u=https%3A%2F%2Ffeverup.com%2Fm%2F678292&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "💃 Discover the excitement of pure flamenco in the heart of Granada! Tablao Flamenco La Alboreá invites you to enjoy a live show with highly talented dancers, singers, and guitarists who convey the passion and authenticity of this unique art form. Highlights 🌟 A top-tier live flamenco show every da"
-    },
-    {
       "sku": "739250",
       "n": "Tad The Explorer - Malaga - Tickets",
       "c": "tours",
@@ -872,20 +760,6 @@
       "d": "Experience The Plague in Malaga, a theatrical night tour that relives the Black Death with history and unique characters. Get your tickets now!"
     },
     {
-      "sku": "683220",
-      "n": "Tickets for an Authentic Flamenco Show at Tablao Flamenco Zawi in Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "1996d868-7a1f-11f1-9d0a-063f34aee2a1.jpeg",
-      "url": "https://feverup.com/m/683220/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=683220&u=https%3A%2F%2Ffeverup.com%2Fm%2F683220&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Experience the essence of Andalusia at ZAWI Granada, where live flamenco, music and culture come together in an intimate cultural venue in the heart of the city. Get your tickets now!"
-    },
-    {
       "sku": "328893",
       "n": "Tickets for Disco Tour Malaga",
       "c": "tours",
@@ -900,18 +774,18 @@
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
     },
     {
-      "sku": "643664",
-      "n": "Tickets for the K",
+      "sku": "335976",
+      "n": "Tickets Spa Circuit + Relaxing Massage at La Zambra Resort 5*",
       "c": "tours",
       "cat": "Experience",
       "v": "",
       "area": "Málaga",
       "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
+      "img": "590a6ebe-0893-11f0-8967-0a1772b1b4f7.jpg",
+      "url": "https://feverup.com/m/335976/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=335976&u=https%3A%2F%2Ffeverup.com%2Fm%2F335976&intsrc=CATF_15532",
       "feat": 0,
-      "d": "LA K"
+      "d": "Enjoy a luxury experience at La Zambra Resort 5* with spa circuit and relaxing massage. Get your tickets now!"
     },
     {
       "sku": "587444",
@@ -940,20 +814,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672311&u=https%3A%2F%2Ffeverup.com%2Fm%2F672311&intsrc=CATF_15532",
       "feat": 0,
       "d": "🎬 Buzz, Woody, Jessie y el resto de la pandilla tienen un trabajo exponencialmente más difícil cuando se enfrentan a esta nueva amenaza para la hora de jugar: la tecnología. 🕒 Fecha de estreno: 2026-06-17 🎥 Director: Andrew Stanton 🌟 Reparto: Tom Hanks, Tim Allen, Joan Cusack ⌛ Duración: 102 min"
-    },
-    {
-      "sku": "134492",
-      "n": "Traditional Flamenco Show at Casa Ana Granada",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €15",
-      "img": "b1e02b5a-1673-11ee-84ba-eacb7fb36157",
-      "url": "https://feverup.com/m/134492/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=134492&u=https%3A%2F%2Ffeverup.com%2Fm%2F134492&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Don"
     },
     {
       "sku": "326636",
@@ -1069,7 +929,7 @@
     },
     {
       "sku": "404641",
-      "n": "Ballet of Lights: The Sleeping Beauty in a Dazzling Show",
+      "n": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
       "c": "immersive",
       "cat": "Immersive",
       "v": "Málaga",
@@ -1079,7 +939,7 @@
       "url": "https://feverup.com/m/404641/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=404641&u=https%3A%2F%2Ffeverup.com%2Fm%2F404641&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Sleeping Beauty comes to life like never before in this ballet performance in Málaga. It’s classical ballet with a modern twist. Buy your tickets!"
+      "d": "La Bella Durmiente cobra vida como nunca antes en este espectáculo de ballet en Málaga. Es danza clásica con un toque moderno. ¡Compra tus entradas!"
     },
     {
       "sku": "454991",
@@ -1220,6 +1080,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=548572&u=https%3A%2F%2Ffeverup.com%2Fm%2F548572&intsrc=CATF_15532",
       "feat": 0,
       "d": "Experience a day of wellness and gastronomy at La Zambra Resort Mijas with spa, wine tasting and dinner included. Relax and taste in one plan, Get your tickets today!"
+    },
+    {
+      "sku": "765350",
+      "n": "Entradas An Idiot’s Guide to Wine: Comedia entre copas - Málaga",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "ae7b34c0-794c-11f1-9162-f6ecba384b1c.jpg",
+      "url": "https://feverup.com/m/765350/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "¡Disfruta de \"An Idiot’s Guide to Wine\" en el Hotel ILUNION Málaga! Un divertido show de stand-up comedy maridado con una cata de 6 vinos. ¡Consigue tus entradas hoy!"
     },
     {
       "sku": "503719",

@@ -1333,17 +1333,6 @@
    "gate": false,
    "note": "SWEEP-LOST RECOVERY BLOCK (created 2026-09-08, browser click-test). WHAT IT IS: a narrow, hand-verified list of in-window shows that are ON SALE but that the weekly LLM sweep dropped, at venues backfill_calendar.py's WHITELIST does not cover. Every act here was opened in Chrome on 2026-09-08 and confirmed act + date + venue + a working buy control; the per-act 'why' records exactly what the page said. WHY A NEW BLOCK INSTEAD OF WHITELISTING THE REAL VENUES: backfill only injects from a block that is BOTH in the WHITELIST and complete:true, and flipping complete:true on the real venue blocks has two costs this block avoids entirely. (1) COLLATERAL INJECTION - 'teatro del soho' would also inject 'Chungo - Luis Zahera' (05/10/2026), a comedy show, onto a live-music site, and 'cortijo de torres' would inject 'Superstars 90' (12/09/2026), whose mapped URL malagadeporteyeventos.com/superstars-90-malaga-2/ was opened on 2026-09-08 and is a promoter INFO page with no buy control at all. (2) DELETION RISK - complete:true arms build_site's phantom gate against every other show at that venue, which is exactly what deleted Damian Cordoba. This block carries no real venue name, so _venue_lookup can never match it (its key must be a substring of the normalised venue or URL, and 'sweeplost' is a substring of neither), which means it can only ever ADD. gate:false is set as well, belt and braces. Each act carries its own 'venue' override, so one block serves several buildings - all of these are Malaga city. HOW TO RETIRE AN ENTRY: delete the act once its date has passed, or move it into its real venue block if that venue is ever properly whitelisted. If the sweep starts finding a show again, backfill's act-level dedup (covered_acts) suppresses this copy automatically - duplicates are not possible.",
    "acts": {
-    "villano antillano": {
-     "url": "https://paris15.es/event/villano-antillano/",
-     "prefer": "map",
-     "date": "18/09/2026",
-     "time": "21:00",
-     "price": "Check link",
-     "venue": "Sala París 15",
-     "venue_name": "Villano Antillano",
-     "genre": "Urban & Reggaeton",
-     "why": "SWEEP-LOST RECOVERY (added 2026-09-14). Villano Antillano (Casi Una Bollo Tour) plays Sala París 15, Málaga on Fri 18/09/2026 21:00 — confirmed on the venue's own site (paris15.es/event/villano-antillano/) and on laganzua.net/taquilla.com, and it shows in MLTV, yet it was absent from the live calendar. CAUSE: the deterministic paris15 parser's 42-act pass skipped 18 Sep (the bill jumps 17 Sep LOS HERRERA -> 19 Sep BACK TO GLORY DAYS); the only other copy was the legacy sala paris block, which is complete:false and not whitelisted, so it never injected. Shipped from here (whitelisted, gate:false, per-act venue override) exactly as Morgenshtern was. SELLER: the venue's own event page carries the Comprar control and always exists; no paying partner (entradas.com/ECI/Fever/TM) was found to pass over."
-    },
     "sara hebe frac": {
      "url": "https://entradas.conciertos.club/es/events/sara-hebe-frac-en-malaga",
      "prefer": "map",
