@@ -682,5 +682,9 @@
 "90roll": {
 "name": "90ROLL",
 "mles": 0.0
+},
+"los-delinquentes": {
+"name": "Los Delinqüentes",
+"mles": 0.0
 }
 }
