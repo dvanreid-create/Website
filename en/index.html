@@ -76,7 +76,17 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
    rule allowed only PD/CC0 art here — which ruled out every usable photo of Grupo Firme, Malu and
    Rafa Sanchez on Commons. Small and low-contrast so it does not fight the artwork, but never
    hidden, never display:none, and never clipped away: an attribution that cannot be read is not an
-   attribution. pointer-events:none so it cannot eat the tile's own click. */
+   attribution. pointer-events:none so it cannot eat the tile's own click.
+   ⚠️ BROKEN ONCE ALREADY, ON 2026-09-15: the note below was pasted in carrying its own comment
+   TERMINATOR while the comment above still had one too, which left seven lines of prose sitting as
+   RAW CSS. The parser swallowed the .cred rule underneath, so the credit rendered completely
+   unstyled — 16px, solid white, four lines, 74px of a 330px tile, straight across the artwork.
+   THE PYTHON SYNTAX CHECK PASSED, because this whole block is a string: ast.parse validates the host
+   language and never the CSS or JS inside it. Only the live page showed it.
+   TWO RULES FOR EDITING HERE: keep this as ONE comment and do not start another, and NEVER write the
+   two-character comment terminator inside it — not even quoted, not even as an example. Quotes do
+   not protect it; the comment ends at the first one, and this note would break the rule it describes
+   (which is precisely what happened on the first attempt at writing it).
    ⚠️ RENDERED IN TWO PLACES AND BOTH MUST STAY IN STEP: the Python `_flank_tile()` paints the FIRST
    frame server-side, and the JS `fillFlank()` repaints the tile on every rotation (~5s) in BOTH
    gutters. On 2026-09-14 only the Python side was given the credit, so the attribution shipped in
