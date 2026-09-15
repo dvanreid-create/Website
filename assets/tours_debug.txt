@@ -1,9 +1,7 @@
-=== tours_debug Tue Sep 15 04:10:24 AM UTC 2026 ===
+=== tours_debug Tue Sep 15 04:25:44 AM UTC 2026 ===
 srchash=c1e05b55d74af6a3331808b615bf8745
 --- rebuild procs ---
-1545970 /bin/bash -c cd /app/runtime && ML_ROOT=/app/runtime HOME=/root python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh >> /app/logs/cron_tours_deploy.log 2>&1
-1545972 python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh
-1545975 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
 HEAD is now at 33ad831a2af Tours rebuild 2026-09-14T05:34:20Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
