@@ -230,6 +230,9 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 .talsq-main .rrnav-btn{font-family:-apple-system,"Segoe UI",Arial,sans-serif;width:22px;height:22px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--coral);font-size:13px;font-weight:400;letter-spacing:0;line-height:1;cursor:pointer;box-shadow:0 1px 3px rgba(20,58,78,.10);display:flex;align-items:center;justify-content:center;padding:0;flex:none;transition:.12s;}
 .talsq-main .rrnav-btn:hover{background:var(--coral);color:#fff;border-color:var(--coral);}
 .talsq-main .rrnav-btn:active{transform:scale(.92);}
+/* SPECIAL EVENTS header: pin the arrows to the card edges and let a long localized title (e.g. NO "SPESIAL ARRANGEMENT") wrap in the middle instead of pushing the arrows outside the card. (DLR 2026-09-16) */
+.talsq-main.talsq-nav{justify-content:space-between;width:100%;flex-wrap:nowrap;gap:6px;}
+.talsq-main.talsq-nav .talsq-ttlmid{flex:1 1 auto;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:2px 8px;}
 .talsq-sub{font-size:9px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:#993C1D;margin:6px 0 0;text-align:center;}
 .talsq-feat{font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--navy);margin:11px 0 8px;text-align:center;}
 .tvid{position:relative;height:250px;border-radius:14px;overflow:hidden;background-size:cover;background-position:center;margin:0;}
@@ -363,7 +366,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
 
     <aside class="trail">
       <div class="tcard" id="specialCardT">
-        <div class="talsq-hdr" id="specialHdrT"><div class="talsq-main"><button class="rrnav-btn rr-prev" type="button" aria-label="Previous">&larr;</button><i class="ti ti-star-filled gstar"></i> ERIKOIS <span class="sq">TAPAHTUMA</span> <i class="ti ti-star-filled gstar"></i><button class="rrnav-btn rr-next" type="button" aria-label="Next">&rarr;</button></div><div class="talsq-sub">Varaa ajoissa — ennen loppuunmyyntiä</div></div>
+        <div class="talsq-hdr" id="specialHdrT"><div class="talsq-main talsq-nav"><button class="rrnav-btn rr-prev" type="button" aria-label="Previous">&larr;</button><span class="talsq-ttlmid"><i class="ti ti-star-filled gstar"></i> ERIKOIS <span class="sq">TAPAHTUMA</span> <i class="ti ti-star-filled gstar"></i></span><button class="rrnav-btn rr-next" type="button" aria-label="Next">&rarr;</button></div><div class="talsq-sub">Varaa ajoissa — ennen loppuunmyyntiä</div></div>
         <a class="flank-slot" id="specialSqT" data-ad="Antonio Sánchez Birdman Live" href="https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma" target="_blank" rel="noopener" style="color:#fff;justify-content:flex-end;background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_S%C3%A1nchez_%26_Migration%2C_LantarenVenster_Rotterdam_11_januari_2019_-_Antonio_S%C3%A1nchez_%2851437432070%29.jpg?width=800');background-size:cover;background-position:center;"><span class="rib bar">Erikoistapahtuma — älä odota</span><div class="scrim"></div><div class="z"><div class="h disp" style="font-size:23px;line-height:1.02;overflow-wrap:anywhere;">Antonio Sánchez</div><div class="s">Ma 14. syysk. · Teatro Cervantes · 36 €</div><div class="cta">Varaa nyt →</div></div></a>
       </div>
     </aside>
