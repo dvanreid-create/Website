@@ -1527,7 +1527,8 @@
     "antillano"
    ],
    "verified": "2026-08-28",
-   "via": "browser"
+   "via": "browser",
+   "SUPERSEDED": "DO NOT TREAT THIS AS A CONFIRMATION. The show was ruled CANCELLED the very next day, 2026-08-29, on five independent checks, and is blocked in not_music_blocklist.json (match 'villano antillano', venue 'sala paris 15', date 2026-09-18) — the entradas.com page renders 'Unfortunately, this page is no longer available', entradas' artist page offers only a TicketAlarm with 0 events, ticketmaster.es returns 0 results, wegow and dice.fm have no Malaga date, paris15.es jumps 15 Sep -> 19 Sep, and laganzua.net stamps that date 'Cancelado'. This entry was left behind when the drop was made, so the baseline still appeared to vouch for a dead show. Kept rather than deleted because the baseline exists to protect events from bot-blocking sellers, and a silent deletion would look like an oversight; this note is the audit trail. RE-CHECKED 2026-09-16 (Sofia asked for a reel): taquilla.com STILL lists it at 38,72 EUR with three sibling tour dates, which is an aggregator carrying a dead listing for over two weeks — and paris15.es still does not list the show. AGGREGATOR PRESENCE IS NOT EVIDENCE OF A LIVE SHOW."
   },
   "s o p h i e festival grand closing ricardo villalobos seth troxler maher daniel more|2026-09-19": {
    "act": "S.O.P.H.I.E Festival – Grand Closing (Ricardo Villalobos, Seth Troxler, Maher Daniel + more)",
