@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by fever_scrape.py each sweep; read by build_site.py's Featured rail. {sku: Fever plan og:image URL} — used when no manual FEATURED_PHOTO pin.",
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "images": {
     "155745": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/2cdbbc5e-1396-11f0-ad7f-b60b2ede6686.jpg",
     "466621": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/e9d5cc3e-5dc2-11f0-b8c3-f6f755ba7603.jpg",
@@ -14,6 +14,7 @@
     "532802": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/fc3722ac-1159-11f0-bc4d-b6d1afefe88e.jpg",
     "555765": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/cfc3a094-1945-11f0-a825-56c21721c770.jpg",
     "405940": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/e2d3636e-1395-11f0-baa7-66dc5d784391.jpg",
-    "677232": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/cfc3a094-1945-11f0-a825-56c21721c770.jpg"
+    "677232": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/cfc3a094-1945-11f0-a825-56c21721c770.jpg",
+    "631867": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720,c_fill,g_auto/fever2/plan/photo/faa10610-3e4e-11f1-8cce-1e50b6926650.jpeg"
   }
 }
