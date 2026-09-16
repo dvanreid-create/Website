@@ -3031,6 +3031,19 @@
    ],
    "verified": "2026-09-16",
    "via": "browser click-test (Claude in Chrome, sofia@) from the live site"
+  },
+  "los delinquentes|2026-09-26": {
+   "act": "Los Delinqüentes",
+   "date": "2026-09-26",
+   "url": "https://www.malagadeporteyeventos.com/concierto-los-delincuentes/",
+   "expect": [
+    "delincuentes",
+    "concierto",
+    "malaga"
+   ],
+   "verified": "2026-09-16",
+   "via": "browser click-test (Claude in Chrome, sofia@)",
+   "note": "PINNED 2026-09-16 TO STOP A REPEAT DROP. The box emailed WRONG_EVENT ('link goes to a different event') and took this show off the site. The link was never wrong: the act is billed 'Los Delinqüentes' (q + ü) and the Ayuntamiento's page is titled 'CONCIERTO LOS DELINCUENTES' (c, no ü), so the auto-built expect token 'delinquentes' matched nothing on the page and verify_one's HTTP-200 branch called it a different event. That branch runs BEFORE the baseline-URL and trusted-host branches, so a baseline URL alone could not save it - only expect tokens the page actually carries can, and line 596 takes them from here. Tokens set to what the title and final URL really say. This is the accent/çedilla class of failure already on record; one pin fixes one act. RE-CONFIRMED NO SELLER EXISTS, 2026-09-16, all opened in Chrome: Fever search for Malaga returns nothing and the band's own losdelinquentes.es/conciertos/ sends only the (past) 12 Sep Fuenlabrada date to feverup.com/m/601739 while its Malaga button points at losdelinquentesmalaga.com; entradas.com site search and the malaga-490 listing have no row; elcorteingles.es search no row; ticketmaster.es has the artist hub /artist/los-delinquentes-entradas/53133 with '0 Results / No Upcoming Events'; tomaticket has no Malaga date; wegow lists none; the promoter's rollergroup.es is a parked Plesk default page. losdelinquentesmalaga.com is still the pixea.es lead-capture wall - 0 links, 1 iframe, one 'REGISTER ME' button, no prices; the form was deliberately not submitted. So the 2026-09-15 exception stands unchanged: the Ayuntamiento page is the best honest destination, it gives date, both times and names the sales channel, and it beats sending a reader to a wall that wants their phone number first. NO AFFILIATE, so still no gutter tile under the 2026-09-15 rule. REVISIT if a real seller appears."
   }
  },
  "trusted_hosts": [

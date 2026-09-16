@@ -690,6 +690,20 @@
      "note": "DATE CORRECTED 2026-09-14 by the daily browser click-test, from a stale '15-31/07/2026' (a run that ended two months ago) to the show's real current run. Opened in Chrome: onebox 51198 bills 'CABARET 2.0 - Si no lo ves no lo crees, Del 9 al 11 de octubre de 2026' and its Sesiones list gives VIE 9 OCT 20:30, SAB 10 OCT 20:30 and DOM 11 OCT 20:30, each 'Desde 30,00 EUR' with a live 'Comprar ahora'. WHY IT SHIPS, against the 2026-09-12 baseline note that filed it as dinner-theatre: not_music_blocklist.json's own header records the owner ruling that overrides that - 'NOT blocked, deliberately: CABARET 2.0 at the same Benalmadena venue IS live music (Sofia 2026-07-29)' - and the ticketer's description is consistent with it ('espectaculo visual y musical... donde la musica en directo, el baile y la interpretacion se fusionan'). The MENU DEGUSTACION tier existed in July too, when the show was on the site under this same map entry, so it cannot be the thing that excludes it now. SELLER CHOICE, stated plainly: entradas.com sells the same nights and PAYS (Awin mid 24761) at 33,00-38,50 EUR, while onebox pays NOTHING at 30,00 EUR. The reader is left on the cheaper non-paying onebox per DLR's 2026-08-29 ruling on the four Opera Benalmadena nights; this knowingly forgoes commission on three nights.",
      "venue_name": "CABARET 2.0"
     },
+    "cabaret 2 0 night 2": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+     "date": "10/10/2026",
+     "genre": "Tribute",
+     "note": "ADDED 2026-09-16 by the daily browser click-test. The 'cabaret' entry above carries the run as '09-11/10/2026', and backfill_calendar._date_range clamps a run to ONE row at its start date (d = max(d1, run)), so only 9 Oct was ever injected and the live site carried a single Cabaret 2.0 card while the show plays three nights. Proven in Chrome on 2026-09-16: onebox 51198's Sesiones tab lists VIE 9 OCT 20:30, SAB 10 OCT 20:30 and DOM 11 OCT 20:30, each 'Desde 30,00 EUR' with a live 'Comprar ahora'; entradas.com's benalmadena-9255 listing independently sells 09/10 and 10/10 (and 'Show all 3 events' for 09-11/10) at 33,00 EUR and up. SELLER CHOICE, stated plainly: entradas.com PAYS (Awin mid 24761) and onebox pays nothing, but onebox is 3,00-8,50 EUR cheaper for the same seat on the same night, so the reader stays on onebox per DLR's 2026-08-29 ruling on the Opera Benalmadena nights - this knowingly forgoes commission on these two extra nights, exactly as the 9 Oct row already does.",
+     "venue_name": "CABARET 2.0"
+    },
+    "cabaret 2 0 night 3": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+     "date": "11/10/2026",
+     "genre": "Tribute",
+     "note": "ADDED 2026-09-16 by the daily browser click-test. The 'cabaret' entry above carries the run as '09-11/10/2026', and backfill_calendar._date_range clamps a run to ONE row at its start date (d = max(d1, run)), so only 9 Oct was ever injected and the live site carried a single Cabaret 2.0 card while the show plays three nights. Proven in Chrome on 2026-09-16: onebox 51198's Sesiones tab lists VIE 9 OCT 20:30, SAB 10 OCT 20:30 and DOM 11 OCT 20:30, each 'Desde 30,00 EUR' with a live 'Comprar ahora'; entradas.com's benalmadena-9255 listing independently sells 09/10 and 10/10 (and 'Show all 3 events' for 09-11/10) at 33,00 EUR and up. SELLER CHOICE, stated plainly: entradas.com PAYS (Awin mid 24761) and onebox pays nothing, but onebox is 3,00-8,50 EUR cheaper for the same seat on the same night, so the reader stays on onebox per DLR's 2026-08-29 ruling on the Opera Benalmadena nights - this knowingly forgoes commission on these two extra nights, exactly as the 9 Oct row already does.",
+     "venue_name": "CABARET 2.0"
+    },
     "pink floyd experience": {
      "date": "17-18/07/2026",
      "venue_name": "PINK FLOYD EXPERIENCE",
