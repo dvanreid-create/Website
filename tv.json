@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "China Crisis",
-      "yt": "OHNB2L12tFw",
-      "where": "17 Sep · La Trinchera, Málaga"
-    },
-    {
-      "act": "Sara Hebe",
-      "yt": "JVf4IEC3khk",
-      "where": "17 Sep · Sala Marte, Málaga"
-    },
-    {
       "act": "Blanca Paloma",
       "yt": "NGnEoSypBhE",
       "where": "18 Sep · La Cochera Cabaret, Málaga"
@@ -39,6 +29,16 @@
       "act": "Seth Troxler",
       "yt": "CYbIsnjHS2s",
       "where": "19 Sep · Ogus Park, Málaga"
+    },
+    {
+      "act": "Daniel Casares",
+      "yt": "dP754qkuJsQ",
+      "where": "19 Sep · Sala Unicaja, Málaga"
+    },
+    {
+      "act": "Los Síréx",
+      "yt": "2UEiSPJQTZ4",
+      "where": "19 Sep · Teatro Cervantes, Málaga"
     }
   ],
   "thumbs": {

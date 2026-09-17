@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "count": 103,
   "items": [
     {
@@ -929,7 +929,7 @@
     },
     {
       "sku": "404641",
-      "n": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
+      "n": "Ballet of Lights: The Sleeping Beauty in a Dazzling Show",
       "c": "immersive",
       "cat": "Immersive",
       "v": "Málaga",
@@ -939,7 +939,7 @@
       "url": "https://feverup.com/m/404641/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=404641&u=https%3A%2F%2Ffeverup.com%2Fm%2F404641&intsrc=CATF_15532",
       "feat": 0,
-      "d": "La Bella Durmiente cobra vida como nunca antes en este espectáculo de ballet en Málaga. Es danza clásica con un toque moderno. ¡Compra tus entradas!"
+      "d": "Sleeping Beauty comes to life like never before in this ballet performance in Málaga. It’s classical ballet with a modern twist. Buy your tickets!"
     },
     {
       "sku": "454991",
@@ -1068,6 +1068,20 @@
       "d": "Enjoy an evening of stand-up comedy and wine tasting in Málaga! The perfect mix of laughter, learning and ‘liquid courage’. Get your tickets!"
     },
     {
+      "sku": "765350",
+      "n": "An Idiot’s Guide to Wine: Comedy Among the Glasses - Malaga",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "ae7b34c0-794c-11f1-9162-f6ecba384b1c.jpg",
+      "url": "https://feverup.com/m/765350/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Enjoy “An Idiot’s Guide to Wine” at the Hotel ILUNION Málaga! A fun stand-up comedy show paired with a tasting of six wines. Get your tickets today!"
+    },
+    {
       "sku": "548572",
       "n": "DAYPASS: Wellness & Wine at La Zambra Resort 5*.",
       "c": "food",
@@ -1080,20 +1094,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=548572&u=https%3A%2F%2Ffeverup.com%2Fm%2F548572&intsrc=CATF_15532",
       "feat": 0,
       "d": "Experience a day of wellness and gastronomy at La Zambra Resort Mijas with spa, wine tasting and dinner included. Relax and taste in one plan, Get your tickets today!"
-    },
-    {
-      "sku": "765350",
-      "n": "Entradas An Idiot’s Guide to Wine: Comedia entre copas - Málaga",
-      "c": "food",
-      "cat": "Food & Drink",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "ae7b34c0-794c-11f1-9162-f6ecba384b1c.jpg",
-      "url": "https://feverup.com/m/765350/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "¡Disfruta de \"An Idiot’s Guide to Wine\" en el Hotel ILUNION Málaga! Un divertido show de stand-up comedy maridado con una cata de 6 vinos. ¡Consigue tus entradas hoy!"
     },
     {
       "sku": "503719",
