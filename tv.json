@@ -1,21 +1,6 @@
 {
   "clips": [
     {
-      "act": "Blanca Paloma",
-      "yt": "NGnEoSypBhE",
-      "where": "18 Sep · La Cochera Cabaret, Málaga"
-    },
-    {
-      "act": "Villano Antillano",
-      "yt": "8sf5OPyzdMM",
-      "where": "18 Sep · Sala París 15, Málaga"
-    },
-    {
-      "act": "Pancho Céspedes",
-      "yt": "BZ-ewG9GqVU",
-      "where": "18 Sep · Teatro Cervantes, Málaga"
-    },
-    {
       "act": "KARD",
       "yt": "cxjWtPNJmzY",
       "where": "19 Sep · Auditorio Cortijo de Torres, Málaga"
@@ -39,6 +24,21 @@
       "act": "Los Síréx",
       "yt": "2UEiSPJQTZ4",
       "where": "19 Sep · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Callejero Fino",
+      "yt": "GRttYVhYa2w",
+      "where": "20 Sep · Sala París 15, Málaga"
+    },
+    {
+      "act": "Andrés Suárez",
+      "yt": "gV0ICpqcSP0",
+      "where": "20 Sep · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Grupo Firme",
+      "yt": "g2BzGJnNvEw",
+      "where": "20 Sep · Málaga Forum, Málaga"
     }
   ],
   "thumbs": {
