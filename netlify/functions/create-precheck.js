@@ -50,7 +50,7 @@ exports.handler = async (event) => {
     "Venue": venue,
     "Act": act,
     "Ticket price": t(d.price),
-    "Notes": [t(d.venuetype) && ("Venue: " + t(d.venuetype)), t(d.onsale) && ("On-sale: " + t(d.onsale)), t(d.notes)].filter(Boolean).join(" · "),
+    "Notes": [t(d.venuetype) && ("Venue: " + t(d.venuetype)), t(d.onsale) && ("On-sale: " + t(d.onsale)), t(d.sold) && ("Sold so far: " + t(d.sold) + (t(d.soldasof) ? (" as of " + t(d.soldasof)) : "")), t(d.notes)].filter(Boolean).join(" · "),
     "Contact email": email,
     "Payment": "Awaiting payment",
     "Status": "Awaiting payment",

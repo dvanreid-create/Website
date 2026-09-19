@@ -1222,16 +1222,16 @@
     }
   },
   "viator:34826P2": {
-    "h": "fa3481324cd9beca65ecfff3f2847831",
+    "h": "9335b9fed9214a6cdcf82fe402568432",
     "names": {
-      "en": "Malaga Electric Bikes Guided Tour",
-      "es": "Tour guiado en bicicleta eléctrica por Malaga",
-      "de": "Geführte E-Bike-Tour durch Malaga",
-      "fr": "Visite guidée de Malaga en vélo électrique",
-      "sv": "Malaga guidad tur med elcykel",
-      "no": "Guidet elsykkeltur i Malaga",
-      "da": "Guidet tur på elcykel i Malaga",
-      "fi": "Malagan opastettu sähköpyöräkierros"
+      "en": "Malaga E-Bike Tour: Old Town, Gibralfaro Forest and Coast",
+      "es": "Tour en bicicleta eléctrica por Malaga: Casco Antiguo, Bosque de Gibralfaro y Costa",
+      "de": "Malaga E-Bike-Tour: Altstadt, Gibralfaro-Wald und Küste",
+      "fr": "Visite de Malaga en vélo électrique : vieille ville, forêt de Gibralfaro et littoral",
+      "sv": "Malaga elcykeltur: Gamla stan, Gibralfaroskogen och kusten",
+      "no": "El-sykkeltur i Malaga: Gamlebyen, Gibralfaro-skogen og kysten",
+      "da": "Malaga el-cykeltur: Gamle bydel, Gibralfaro-skoven og kysten",
+      "fi": "Malagan sähköpyöräkierros: vanhakaupunki, Gibralfaron metsä ja rannikko"
     }
   },
   "viator:131275P3": {
@@ -3783,16 +3783,16 @@
     }
   },
   "viator:34826P8": {
-    "h": "086dac4b8d3c540a14b819de0ce922c5",
+    "h": "31b386418913e4eb957adc4ce7be9fd2",
     "names": {
-      "en": "Electric Bike Rental in Malaga",
-      "es": "Alquiler de bicicleta eléctrica en Malaga",
-      "de": "E-Bike-Verleih in Malaga",
-      "fr": "Location de vélo électrique à Malaga",
-      "sv": "Uthyrning av elcykel i Malaga",
-      "no": "Elsykkelutleie i Malaga",
-      "da": "Udlejning af elcykel i Malaga",
-      "fi": "Sähköpyörän vuokraus Malagassa"
+      "en": "Full-Day Electric Bike Rental in Malaga",
+      "es": "Alquiler de bicicleta eléctrica de día completo en Malaga",
+      "de": "Ganztägiger E-Bike-Verleih in Malaga",
+      "fr": "Location de vélo électrique à la journée à Malaga",
+      "sv": "Heldags elcykeluthyrning i Malaga",
+      "no": "Heldags utleie av elsykkel i Malaga",
+      "da": "Heldags udlejning af el-cykel i Malaga",
+      "fi": "Koko päivän sähköpyörän vuokraus Malagassa"
     }
   },
   "viator:160138P3": {
@@ -5460,16 +5460,16 @@
     }
   },
   "viator:34826P11": {
-    "h": "73e0d9f376c3ea9eec40ec78b6bc6303",
+    "h": "2f58e16895d2ff1574383db58f93ea93",
     "names": {
-      "en": "E-bike Tour and Rental in Malaga",
-      "es": "Tour y Alquiler de Bicicletas Eléctricas en Malaga",
-      "de": "E-Bike-Tour und -Verleih in Malaga",
-      "fr": "Visite et location de vélo électrique à Malaga",
-      "sv": "Elcykeltur och uthyrning i Malaga",
-      "no": "Elsykkeltur og -utleie i Malaga",
-      "da": "El-cykeltur og udlejning i Malaga",
-      "fi": "Sähköpyöräretki ja -vuokraus Malagassa"
+      "en": "Malaga E-Bike Tour with Full-Day E-Bike Rental",
+      "es": "Tour en bicicleta eléctrica por Malaga con alquiler de bicicleta eléctrica de día completo",
+      "de": "Malaga E-Bike-Tour mit ganztägigem E-Bike-Verleih",
+      "fr": "Visite de Malaga en vélo électrique avec location de vélo électrique à la journée",
+      "sv": "Malaga elcykeltur med heldags elcykeluthyrning",
+      "no": "El-sykkeltur i Malaga med heldags elsykkelutleie",
+      "da": "Malaga el-cykeltur med heldags el-cykeludlejning",
+      "fi": "Malagan sähköpyöräkierros ja koko päivän sähköpyörän vuokraus"
     }
   },
   "viator:137266P2172": {
@@ -5772,16 +5772,16 @@
     }
   },
   "viator:34826P7": {
-    "h": "a00bb6ecf5650767a45c1ab9879ca624",
+    "h": "84cb2d5895dbb0daaaaaa209ad6b9d3c",
     "names": {
-      "en": "Bike Rental in Malaga",
-      "es": "Alquiler de bicicletas en Malaga",
-      "de": "Fahrradverleih in Malaga",
-      "fr": "Location de vélo à Malaga",
-      "sv": "Cykeluthyrning i Malaga",
-      "no": "Sykkelutleie i Malaga",
-      "da": "Cykeludlejning i Malaga",
-      "fi": "Polkupyörän vuokraus Malagassa"
+      "en": "Full-Day City Bike Rental in Malaga",
+      "es": "Alquiler de bicicleta urbana de día completo en Malaga",
+      "de": "Ganztägiger Stadtfahrrad-Verleih in Malaga",
+      "fr": "Location de vélo à la journée à Malaga",
+      "sv": "Heldags cykeluthyrning i Malaga",
+      "no": "Heldags sykkelutleie i Malaga",
+      "da": "Heldags udlejning af bycykel i Malaga",
+      "fi": "Koko päivän kaupunkipyörän vuokraus Malagassa"
     }
   },
   "viator:17739P23": {
@@ -10413,16 +10413,16 @@
     }
   },
   "viator:5682404P3": {
-    "h": "1b79d2329260f0173b193fa16c9fd977",
+    "h": "fbcf72163e04ec04514d3acc095661d3",
     "names": {
-      "en": "Hike & Tapas at Sunset",
-      "es": "Senderismo y Tapas al Atardecer",
-      "de": "Wanderung & Tapas bei Sonnenuntergang",
-      "fr": "Randonnée & tapas au coucher du soleil",
-      "sv": "Vandring & tapas i solnedgången",
-      "no": "Fjelltur og tapas ved solnedgang",
-      "da": "Vandretur & tapas ved solnedgang",
-      "fi": "Vaellus ja tapaksia auringonlaskun aikaan"
+      "en": "Hike and Tapas",
+      "es": "Senderismo y tapas",
+      "de": "Wanderung und Tapas",
+      "fr": "Randonnée et tapas",
+      "sv": "Vandring och tapas",
+      "no": "Fottur og tapas",
+      "da": "Vandretur og tapas",
+      "fi": "Vaellus ja tapas"
     }
   },
   "viator:128285P1214": {
@@ -15899,16 +15899,16 @@
     }
   },
   "viator:271809P2": {
-    "h": "2df499a8d75acb0417680cd12a7d4aa8",
+    "h": "d48cd437e9ca2ecacb982769b11255ab",
     "names": {
-      "en": "Ronda and Setenil Winery Tour from Costa del Sol",
-      "es": "Tour de bodegas por Ronda y Setenil desde la Costa del Sol",
-      "de": "Ronda und Setenil Weingut-Tour ab Costa del Sol",
-      "fr": "Ronda et Setenil : visite de cave depuis la Costa del Sol",
-      "sv": "Vingårdstur till Ronda och Setenil från Costa del Sol",
-      "no": "Ronda og Setenil vingårdstur fra Costa del Sol",
-      "da": "Vingårdstur til Ronda og Setenil fra Costa del Sol",
-      "fi": "Ronda ja Setenil viinitilaretki Costa del Solilta"
+      "en": "Ronda & Setenil Guided Tour from Costa del Sol",
+      "es": "Visita guiada a Ronda y Setenil desde la Costa del Sol",
+      "de": "Geführte Tour nach Ronda & Setenil ab Costa del Sol",
+      "fr": "Visite guidée de Ronda et Setenil depuis la Costa del Sol",
+      "sv": "Guidad tur till Ronda & Setenil från Costa del Sol",
+      "no": "Guidet tur til Ronda & Setenil fra Costa del Sol",
+      "da": "Ronda & Setenil guidet tur fra Costa del Sol",
+      "fi": "Opastettu Ronda & Setenil -kierros Costa del Solilta"
     }
   },
   "viator:272378P4": {
@@ -16601,16 +16601,16 @@
     }
   },
   "viator:271809P1": {
-    "h": "32d4ca2691fb7faf3a596be2c335b071",
+    "h": "2be1c4aa7f9e9197c21d390e0de9452b",
     "names": {
-      "en": "Full Day Walking Tour to Caminito del Rey",
-      "es": "Tour de senderismo de día completo al Caminito del Rey",
-      "de": "Ganztägige Wanderung zum Caminito del Rey",
-      "fr": "Randonnée d'une journée au Caminito del Rey",
-      "sv": "Heldags vandringstur till Caminito del Rey",
-      "no": "Heldags vandretur til Caminito del Rey",
-      "da": "Vandretur til Caminito del Rey - hel dag",
-      "fi": "Koko päivän kävelykierros Caminito del Reylle"
+      "en": "Caminito del Rey: Guided Tour & Transport from Costa del Sol",
+      "es": "Caminito del Rey: Visita guiada y transporte desde la Costa del Sol",
+      "de": "Caminito del Rey: Geführte Tour & Transport ab Costa del Sol",
+      "fr": "Caminito del Rey : visite guidée et transport depuis la Costa del Sol",
+      "sv": "Caminito del Rey: Guidad tur & transport från Costa del Sol",
+      "no": "Caminito del Rey: Guidet tur og transport fra Costa del Sol",
+      "da": "Caminito del Rey: Guidet tur og transport fra Costa del Sol",
+      "fi": "Caminito del Rey: opastettu kierros ja kuljetus Costa del Solilta"
     }
   },
   "viator:8647P118": {
@@ -19071,16 +19071,16 @@
     }
   },
   "404641": {
-    "h": "cb9a431c5758930c37b917dad93e4ce4",
+    "h": "75e7453d6fc4bf74bb4c08c329d7b92f",
     "names": {
-      "en": "Ballet of Lights: The Sleeping Beauty in a Dazzling Show",
-      "es": "Ballet de las Luces: La Bella Durmiente en un Espectáculo Deslumbrante",
-      "de": "Ballett der Lichter: Dornröschen in einer atemberaubenden Show",
-      "fr": "Ballet de Lumières : La Belle au Bois Dormant dans un Spectacle Éblouissant",
-      "sv": "Ballettljus: Törnrosa i en bländande föreställning",
+      "en": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
+      "es": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
+      "de": "Ballet of Lights: Dornröschen in einer atemberaubenden Show",
+      "fr": "Ballet of Lights : La Belle au Bois Dormant dans un spectacle éblouissant",
+      "sv": "Ballet of Lights: Törnrosa i en fantastisk föreställning",
       "no": "Ballet of Lights: Tornerose i et strålende show",
-      "da": "Balletdans i Lys: Tornerose i et Fantastisk Show",
-      "fi": "Valojen baletti: Prinsessa Ruusunen häikäisevässä esityksessä"
+      "da": "Ballet of Lights: Tornerose i et blændende show",
+      "fi": "Ballet of Lights: La Bella Durmiente häikäisevässä esityksessä"
     }
   },
   "454991": {
@@ -19682,16 +19682,16 @@
     }
   },
   "viator:5697760P2": {
-    "h": "1d8d2fa7a07949fe79debb05b64c8498",
+    "h": "b8625530cf057f4c943a955ddb98c259",
     "names": {
-      "en": "Ronda: Beyond The City",
-      "es": "Ronda: Más Allá de la Ciudad",
-      "de": "Ronda: Jenseits der Stadt",
-      "fr": "Ronda : Au-Delà de la Ville",
-      "sv": "Ronda: Bortom staden",
-      "no": "Ronda: Utenfor byen",
-      "da": "Ronda: Ud over Byen",
-      "fi": "Ronda: kaupungin tuolla puolen"
+      "en": "Ronda Beyond The City",
+      "es": "Ronda más allá de la ciudad",
+      "de": "Ronda abseits der Stadt",
+      "fr": "Ronda autrement",
+      "sv": "Ronda bortom staden",
+      "no": "Ronda utover byen",
+      "da": "Ronda uden for byen",
+      "fi": "Ronda kaupungin tuolla puolen"
     }
   },
   "viator:5624588P4": {
@@ -19705,6 +19705,19 @@
       "no": "Privat dagstur til Ronda fra Marbella med tyrefekterarena, tapas og drinker",
       "da": "Privat dagstur til Ronda fra Marbella med tyrefægterarena, tapas og drinks",
       "fi": "Yksityinen päiväretki Rondaan Marbellasta – härkätaisteluareena, tapaksia ja juomia"
+    }
+  },
+  "viator:189147P32": {
+    "h": "4d6ec018d244fae524ede01c25869d66",
+    "names": {
+      "en": "Candles and Cocktails in Marbella",
+      "es": "Velas y cócteles en Marbella",
+      "de": "Kerzen und Cocktails in Marbella",
+      "fr": "Bougies et cocktails à Marbella",
+      "sv": "Ljus och cocktails i Marbella",
+      "no": "Lys og cocktailer i Marbella",
+      "da": "Stearinlys og cocktails i Marbella",
+      "fi": "Kynttilät ja cocktailit Marbellassa"
     }
   }
 }
