@@ -3,6 +3,10 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "selwo marina",
+   "why": "NOT MUSIC — Selwo Marina is a marine/animal park in Benalmadena (dolphins, penguins, sea lions). 'Selwo Marina Tickets' on Fever is park ADMISSION, not a concert, and it surfaced in the Featured Events rail. Malaga Live is a live-music site; a theme-park admission never belongs on it. Substring block on 'selwo marina' (specific park name, not a real act, so no venue scoping needed). Ruling DLR 2026-09-19 after it appeared in Featured Events."
+  },
+  {
    "match": "espectaculo flamenco",
    "venue": "alegria",
    "why": "PERMANENT DAILY TABLAO, NOT AN EVENT — and NOT a genre judgement: this IS live flamenco. 'Alegria. Flamenco y Gastronomia', Malaga, 28 EUR, listed by conciertos.club as '4 sesiones diarias' on EVERY SINGLE DAY of its agenda from 15 Sep 2026 to 10 Nov 2026 without a break. Sofia's ruling 2026-09-15 when shown it: block it permanently. REASONING: Malaga Live tells a reader what is on TONIGHT that is not on every other night. A standing tourist attraction running four sittings a day, forever, would add roughly 120 rows a month from one address and would outnumber the real concerts two to one on a quiet midweek night — 16 Sep 2026 has exactly two gigs (Maika Lavera at ZZ Pub, the Clarence blues jam) and this would have been a third of the page. ACKNOWLEDGED COST: a visitor specifically wanting flamenco in Malaga will not find this one through us. VENUE-SCOPED ON PURPOSE, and it must stay that way: 'espectaculo flamenco' is a generic phrase, and conciertos.club uses the IDENTICAL wording for the Pena Flamenca Nino de Velez nights (18 and 25 Sep, 20 EUR) which are genuine one-off peña shows — an unscoped block would silently delete those too, exactly what this file's own header warns about. Found by checking whether 16 Sep really held only two events; it did.",
