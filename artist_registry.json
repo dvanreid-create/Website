@@ -120,7 +120,7 @@
 "mles": 51.3
 },
 "sidecars": {
-"name": "SIDECARS",
+"name": "Sidecars",
 "mles": 0.0
 },
 "gloria-trevi": {
@@ -640,7 +640,7 @@
 "mles": 45.6
 },
 "legends-night": {
-"name": "LEGENDS NIGHT",
+"name": "Legends Night",
 "mles": 0.0
 },
 "cabaret-2-0": {
@@ -652,11 +652,11 @@
 "mles": 0.0
 },
 "robot-rock-alive": {
-"name": "ROBOT ROCK ALIVE",
+"name": "Robot Rock Alive",
 "mles": 0.0
 },
 "valeria-lynch": {
-"name": "VALERIA LYNCH",
+"name": "Valeria Lynch",
 "mles": 0.0
 },
 "la-konga": {
@@ -664,11 +664,11 @@
 "mles": 0.0
 },
 "hechizo": {
-"name": "HECHIZO",
+"name": "Hechizo",
 "mles": 0.0
 },
 "binomio-de-oro": {
-"name": "BINOMIO DE ORO",
+"name": "Binomio de Oro",
 "mles": 0.0
 },
 "los-herrera": {
@@ -676,11 +676,11 @@
 "mles": 0.0
 },
 "back-to-glory-days": {
-"name": "BACK TO GLORY DAYS",
+"name": "Back to Glory Days",
 "mles": 0.0
 },
 "90roll": {
-"name": "90ROLL",
+"name": "90Roll",
 "mles": 0.0
 },
 "los-delinquentes": {
@@ -688,7 +688,7 @@
 "mles": 0.0
 },
 "the-silencers": {
-"name": "The SILENCERS",
+"name": "The Silencers",
 "mles": 0.0
 },
 "grupo-firme": {
@@ -700,7 +700,151 @@
 "mles": 0.0
 },
 "leoni-torres": {
-"name": "LEONI TORRES",
+"name": "Leoni Torres",
+"mles": 0.0
+},
+"los-sirex": {
+"name": "Los Sírex",
+"mles": 0.0
+},
+"andres-suarez": {
+"name": "Andrés Suárez",
+"mles": 0.0
+},
+"alba-lamerced": {
+"name": "Alba LaMerced",
+"mles": 0.0
+},
+"concierto-benefico-manos-unidas": {
+"name": "Concierto Benéfico Manos Unidas",
+"mles": 0.0
+},
+"nievla": {
+"name": "Nievla",
+"mles": 0.0
+},
+"espectaculo-flamenco": {
+"name": "Espectáculo Flamenco",
+"mles": 0.0
+},
+"mocedades": {
+"name": "Mocedades",
+"mles": 0.0
+},
+"alis": {
+"name": "Alis",
+"mles": 0.0
+},
+"the-beatles-en-familia": {
+"name": "The Beatles en Familia",
+"mles": 0.0
+},
+"maria-del-tango": {
+"name": "María del Tango",
+"mles": 0.0
+},
+"javier-ruibal": {
+"name": "Javier Ruibal",
+"mles": 0.0
+},
+"the-animesy": {
+"name": "The Animesy",
+"mles": 0.0
+},
+"jammin-dose": {
+"name": "Jammin' Dose",
+"mles": 0.0
+},
+"rafa-taleguilla": {
+"name": "Rafa Taleguilla",
+"mles": 0.0
+},
+"maria-del-tango-en-malaga": {
+"name": "María del Tango en Málaga",
+"mles": 0.0
+},
+"macaco": {
+"name": "Macaco",
+"mles": 0.0
+},
+"hybrid-park": {
+"name": "Hybrid Park",
+"mles": 0.0
+},
+"la-bomba-de-tiempo": {
+"name": "La Bomba de Tiempo",
+"mles": 0.0
+},
+"juan-medina": {
+"name": "Juan Medina",
+"mles": 0.0
+},
+"fatal-move": {
+"name": "Fatal Move",
+"mles": 0.0
+},
+"brunch-weekender": {
+"name": "Brunch! Weekender",
+"mles": 0.0
+},
+"obk": {
+"name": "OBK",
+"mles": 0.0
+},
+"rafa-pons": {
+"name": "Rafa Pons",
+"mles": 0.0
+},
+"mario-diaz": {
+"name": "Mario Díaz",
+"mles": 0.0
+},
+"pedra": {
+"name": "Pedrá!",
+"mles": 0.0
+},
+"sike": {
+"name": "Sike",
+"mles": 0.0
+},
+"rock-pop-legends": {
+"name": "Rock & Pop Legends",
+"mles": 0.0
+},
+"borja-pico": {
+"name": "Borja Picó",
+"mles": 0.0
+},
+"nebulossa": {
+"name": "Nebulossa",
+"mles": 0.0
+},
+"vargas-blues-band": {
+"name": "Vargas Blues Band",
+"mles": 0.0
+},
+"benalsound": {
+"name": "Benalsound",
+"mles": 0.0
+},
+"rienda-suelta": {
+"name": "Rienda Suelta",
+"mles": 0.0
+},
+"leyendas-del-pop": {
+"name": "Leyendas del Pop",
+"mles": 0.0
+},
+"partiendo-la-pana": {
+"name": "Partiendo la Pana",
+"mles": 0.0
+},
+"benzu": {
+"name": "Benzú",
+"mles": 0.0
+},
+"santi-muk-in-malaga": {
+"name": "Santi Muk in Malaga",
 "mles": 0.0
 }
 }

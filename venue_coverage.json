@@ -6,7 +6,7 @@
    "venue": "Auditorio Municipal de Benalmádena",
    "mapped_in_window": 6,
    "matched": 6,
-   "calendar_in_window": 7,
+   "calendar_in_window": 4,
    "latest_mapped": "2026-10-11",
    "always_on": true,
    "verdict": "ok"
@@ -69,7 +69,7 @@
    "venue": "ZZ PUB",
    "mapped_in_window": 12,
    "matched": 12,
-   "calendar_in_window": 12,
+   "calendar_in_window": 19,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 1,
    "matched": 1,
-   "calendar_in_window": 5,
+   "calendar_in_window": 11,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
@@ -176,11 +176,11 @@
   "miramar": {
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 4,
+   "matched": 0,
+   "calendar_in_window": 5,
    "latest_mapped": "2026-09-20",
    "always_on": true,
-   "verdict": "ok"
+   "verdict": "DARK"
   },
   "marbella arena": {
    "venue": "Marbella Arena",
@@ -203,23 +203,25 @@
   "paris15": {
    "venue": "Sala París 15",
    "mapped_in_window": 12,
-   "matched": 12,
-   "calendar_in_window": 13,
+   "matched": 11,
+   "calendar_in_window": 12,
    "latest_mapped": "2027-05-14",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "THIN"
   },
   "sweeplost": {
    "venue": "Málaga",
    "mapped_in_window": 31,
    "matched": 31,
-   "calendar_in_window": 42,
+   "calendar_in_window": 54,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
   }
  },
  "problems": [
-  "marbella arena"
+  "marbella arena",
+  "miramar",
+  "paris15"
  ]
 }
