@@ -3,6 +3,14 @@
  "deny": {
   "mystery-machine": "Fact matched 'Mystery Machine (band)', a 1990 Vancouver rock band; the ML act is a local EUR10 ZZ PUB gig (6 Sep 2026), not that band.",
   "soul-on-fire": "Fact matched 'Soul on Fire', a 2025 American biographical film; not a band at all (act plays Auditorio Municipal de Benalmadena, 18 Sep 2026).",
-  "the-outsiders": "Fact matched 'The Outsiders (musical)', the 2023 Broadway musical; the ML act is a local EUR10 ZZ PUB gig (19 Sep 2026), not that show."
+  "the-outsiders": "Fact matched 'The Outsiders (musical)', the 2023 Broadway musical; the ML act is a local EUR10 ZZ PUB gig (19 Sep 2026), not that show.",
+  "alis": "Fact matched 'Adam Alis', an Indonesian footballer ('The performance earned him a call to the senior national team'); the ML act is a rock/indie bill at The Hall, Malaga (26 Sep 2026). (2026-09-19)",
+  "top-secret": "Fact matched 'Classified information', the government-secrecy article; not a band at all (act plays Malaga). (2026-09-19)",
+  "bm-callejero-fino": "Fact matched 'BM-21 Grad', a Soviet multiple rocket launcher; the ML act is the urban artist BM Callejero Fino. (2026-09-19)",
+  "sun-thunder-26": "Fact matched 'Sun Yat-sen', the Chinese revolutionary, and rendered in Chinese/Spanish; nothing to do with the Sun & Thunder 26 bill. (2026-09-19)",
+  "furor-the-show": "Fact matched 'Furor Gallico', an Italian Celtic/pagan metal band from Milan; the ML act is 'Furor, The Show', the Spanish music-quiz format staged live. (2026-09-19)",
+  "hechizo": "Fact matched 'Hechizos, pocimas y brujeria', a Mago de Oz album; the ML act is HECHIZO, a Heroes del Silencio tribute band from Madrid. (2026-09-19)",
+  "rock-pop-legends": "Fact matched 'Rock music', the generic genre article, not an act; the ML billing is a tribute gala at Auditorio de Benalmadena. (2026-09-19)",
+  "benzu": "Fact matched 'Benzu', a settlement in the Spanish autonomous city of Ceuta; the ML act is the artist Benzu, playing La Cochera Cabaret with Desorden (17 Oct 2026). (2026-09-19)"
  }
 }
