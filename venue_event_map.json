@@ -1035,6 +1035,12 @@
      "url": "https://www.malagadeporteyeventos.com/vetusta-morla/",
      "date": "31/10/2026",
      "venue_name": "Vetusta Morla"
+    },
+    "brunch": {
+     "url": "https://malaga.brunchelectronik.com/",
+     "prefer": "map",
+     "date": "11/10/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    }
   },
@@ -1938,6 +1944,12 @@
      "prefer": "map",
      "date": "30/09/2026",
      "why": "RESTORED 2026-09-20 (DLR): verified seller buy page from repo record; sourcing sweep was down on the 401 outage."
+    },
+    "manos unidas": {
+     "url": "https://www.teatrocervantes.com/es/genero/teatro//clasicos-de-teatro-de-malaga/concierto-benefico-manos-unidas-2",
+     "prefer": "map",
+     "date": "23/09/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    }
   },
@@ -2592,6 +2604,12 @@
      "venue_name": "Macaco",
      "genre": "Latin",
      "why": "DESTINATION LOCK, added 2026-09-04, twin of the injecting row in the 'trinchera' block below. Purpose is to pin the SINGLE-EVENT Fever SKU 652051 (Macaco in Málaga, La Trinchera, 03/10/2026 21:00, €25) against the wrong-date failure DLR reported: Fever files this tour as sequential per-city SKUs (652053 Valencia 20/11, 652054 Barcelona 13/02, 652055 Zaragoza 25/02, 652056 Madrid 25/02, 652057 Bilbao 04/04) plus an artist hub listing every tour date, so any neighbouring link renders 'Macaco' under a date that is not ours. prefer:map so this destination overrides whatever a scrape supplies. Confirmed 2026-09-04 on feverup.com/m/652051/en — 'Date: 3rd October 2026', La Trinchera Malaga, session picker offering one bookable session 'Sat 03 Oct, 9:00 PM, General admission, €25.00' with a live Tickets control. Browser-confirmed 2026-09-04 in Claude in Chrome: picker shows 'Sat 03 Oct / 9:00 PM / General admission / EUR25.00 / Tickets'. RETIRE this entry once the date has passed."
+    },
+    "partiendo la pana": {
+     "url": "https://jfpromotickets.es/es/events/festival-partiendo-la-pana-los-grandes-tributos-a-estopa-y-melendi-en-malaga-malaga",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    }
   },
@@ -2614,6 +2632,12 @@
      "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
      "date": "29/11/2026",
      "venue_name": "Clearwater Creedence Revival (UK&USA)"
+    },
+    "partiendo la pana": {
+     "url": "https://jfpromotickets.es/es/events/festival-partiendo-la-pana-los-grandes-tributos-a-estopa-y-melendi-en-malaga-malaga",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    },
    "gate": false
