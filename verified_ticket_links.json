@@ -3071,7 +3071,10 @@
    "via": "browser click-test (Claude in Chrome, sofia@) from the live site"
   }
  },
+ "_trusted_hosts_note_2026_09_20": "entradas.conciertos.club and entradium.com added today. WHY: they are ONE PLATFORM. conciertos.club is a WHITE-LABEL FRONT FOR ENTRADIUM - proven by identical slugs on both domains for the same show (Sala Paris 15's own event pages link to entradium.com/events/90-roll-malaga-paris-15-malaga and .../hechizo-homenaje-a-heroes-del-silencio-en-malaga-malaga, which are exactly the conciertos.club paths we carry). BOTH return an identical '403 Forbidden / You don't have permission to access this resource' to us, from the box AND from a normal browser, so neither can ever be fetched and every one of our 16 in-window events on them failed the daily check as UNVERIFIED - conciertos.club was the single largest failure host. They are real, deep, one-event URLs from a real seller, so trusting them removes 16 daily false failures. THE GUARDS STILL APPLY: host_trusted() runs is_generic_landing() and looks_like_event_url() first, so a bare homepage on these hosts is still caught. NOT A COMMISSION QUESTION - checked 2026-09-20 and there is NO paying seller underneath; Entradium is the primary ticketer for these small venues (Sala Marte, The Hall, Sala Core, ELCAMM, La Garrapata, Sala Roka, Louie Louie, La Caja Blanca). Entradium has no ordinary affiliate programme; it runs a DISTRIBUTOR NETWORK, which is what conciertos.club is. Becoming a distributor is a business conversation, not a config change - see task #36.",
  "trusted_hosts": [
+  "entradas.conciertos.club",
+  "entradium.com",
   "cart.ingresse.com",
   "elcorteingles.es",
   "entradas.starlitemarbella.com",
