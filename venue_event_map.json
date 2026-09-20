@@ -1946,10 +1946,16 @@
      "why": "RESTORED 2026-09-20 (DLR): verified seller buy page from repo record; sourcing sweep was down on the 401 outage."
     },
     "manos unidas": {
-     "url": "https://www.teatrocervantes.com/es/genero/teatro//clasicos-de-teatro-de-malaga/concierto-benefico-manos-unidas-2",
+     "url": "https://www.unientradas.es/espectaculo/concierto-lxvii-aniversario-de-manos-unidas/26-27ManosUnidas",
      "prefer": "map",
      "date": "23/09/2026",
-     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
+     "why": "RESTORED 2026-09-20 (DLR): verified Unientradas event deep link (Teatro Cervantes programme)."
+    },
+    "alba": {
+     "url": "https://www.unientradas.es/espectaculo/alba-la-merced-%E2%80%9C27-olas-de-plata-y-sal/26-27Cudeca",
+     "prefer": "map",
+     "date": "22/09/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified Unientradas event deep link (Teatro Cervantes programme)."
     }
    }
   },
@@ -2866,6 +2872,17 @@
    "gate": false,
    "note": "Malaga Forum, Malaga city. Large-capacity room. It already had NO map entry at all despite carrying marquee bookings that reach the site by other routes (elrow, 22 Aug). Grupo Firme 20 Sep at 45-90 EUR confirmed 2026-08-21 - exactly the kind of act that must not be missed. Also the venue for the Moonlight Malaga festival already referenced in source_calendar. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
    "acts": {}
+  },
+  "nino de velez": {
+   "source": "conciertos.club / show.flamencomalaga.com",
+   "acts": {
+    "espectaculo flamenco": {
+     "url": "https://show.flamencomalaga.com/es/837/4723",
+     "prefer": "map",
+     "date": "25/09/2026",
+     "why": "RESTORED 2026-09-20 (DLR): the 25/09 'Espectáculo Flamenco' at Peña Flamenca Niño de Vélez (€20) — verified buy button on the event page goes to show.flamencomalaga.com/es/837/4723 (peña's own ticketing). NOT the blocked Alegría tablao (that stays venue-scoped)."
+    }
+   }
   }
  }
 }
