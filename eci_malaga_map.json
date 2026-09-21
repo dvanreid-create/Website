@@ -1,0 +1,136 @@
+{
+ "_comment": "EL CORTE INGLES — MALAGA PROVINCE MUSIC INVENTORY. Built 2026-09-21 by reading ECI's own recinto directory (elcorteingles.es/entradas/recintos/malaga/) and every venue page under it, in Sofia's browser session — the box and the Claude sandbox are both IP-blocked by ECI. PURPOSE: eci_resolve() in build_site.py only ever runs for STARLITE rows (its first line returns unchanged unless the venue contains 'starlite'), so ECI was invisible for every other Malaga room. Leoni Torres (18 Oct, Sala Paris 15) was live on a promoter page paying NOTHING while ECI sold the same night at 48,50 EUR. Sofia: 'we need to make sure ECI is always covered, not only linked to Starlite'. This file is that coverage. REFRESH IT from the same directory whenever the window rolls.",
+ "generated": "2026-09-21",
+ "source": "https://www.elcorteingles.es/entradas/recintos/malaga/",
+ "venues_scanned": 18,
+ "events": [
+  {
+   "act": "Niña Pastori",
+   "ymd": "2026-10-17",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
+   "eci_from": 44.0,
+   "venue": "Auditorio Municipal Príncipe de Asturias",
+   "city": "Torremolinos"
+  },
+  {
+   "act": "Holi Not Holi",
+   "ymd": "2026-10-24",
+   "url": "https://www.elcorteingles.es/entradas/festivales/entradas-holi-not-holi-torremolinos/",
+   "eci_from": 38.5,
+   "venue": "Auditorio Municipal Príncipe de Asturias",
+   "city": "Torremolinos"
+  },
+  {
+   "act": "DJ Symphonic - 80s & 90s Edition",
+   "ymd": "2026-12-06",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-dj-symphonic-80s-90s-edition-malaga-54973549733113/",
+   "eci_from": 35.0,
+   "venue": "FYCMA",
+   "city": "Málaga"
+  },
+  {
+   "act": "Dj Symphonic & Royal Film Concert Orchestra",
+   "ymd": "2026-12-06",
+   "url": "https://www.elcorteingles.es/entradas/festivales/entradas-dj-symphonic-royal-film-concert-orchestra-malaga-55052550523113/",
+   "eci_from": 35.0,
+   "venue": "FYCMA",
+   "city": "Málaga"
+  },
+  {
+   "act": "Take That - Dreamers Tour",
+   "ymd": "2027-07-11",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-take-that-fuengirola/",
+   "eci_from": 85.0,
+   "venue": "Marenostrum Fuengirola",
+   "city": "Fuengirola"
+  },
+  {
+   "act": "Raphael - Raphaelísimo",
+   "ymd": "2026-11-28",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-raphael-malaga/",
+   "eci_from": 49.5,
+   "venue": "Palacio de Deportes José María Martín Carpena",
+   "city": "Málaga"
+  },
+  {
+   "act": "Benalsound",
+   "ymd": "2026-10-17",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-benalsound-benalmadena/",
+   "eci_from": 49.5,
+   "venue": "Recinto Ferial Los Nadales",
+   "city": "Benalmádena"
+  },
+  {
+   "act": "Sidecars - Gira Presentación EVEREST",
+   "ymd": "2026-10-02",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
+   "eci_from": 33.0,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Festival Vallenato - Binomio de Oro de América",
+   "ymd": "2026-10-11",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-festival-vallenato-binomio-de-oro-de-america-malaga/",
+   "eci_from": 51.75,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Leoni Torres - Gracias Por Tanto 2026",
+   "ymd": "2026-10-18",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-leoni-torres-malaga-2026-10-18/",
+   "eci_from": 48.5,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Rodrigo Cuevas - Moonlight Málaga",
+   "ymd": "2027-02-06",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-rodrigo-cuevas-moonlight-malaga-2027-malaga/",
+   "eci_from": 42.56,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Descemer Bueno",
+   "ymd": "2027-03-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-descemer-bueno-malaga/",
+   "eci_from": 33.0,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Tributo a Radio Futura, El Último de la Fila y Héroes del Silencio",
+   "ymd": "2027-05-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-radio-ultimo-de-la-fila-y-heroes-silencio-malaga/",
+   "eci_from": 19.25,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "La Gran Fiesta de los 80 y 90",
+   "ymd": "2027-04-10",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-gran-fiesta-de-los-80-y-90-malaga-57393573934690/",
+   "eci_from": 26.85,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Gonzalo Hermida",
+   "ymd": "2026-10-22",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gonzalo-hermida-malaga/",
+   "eci_from": 27.5,
+   "venue": "Sala Trinchera",
+   "city": "Málaga"
+  },
+  {
+   "act": "Tributo a Los Rodríguez, Jarabe de Palo y Maná",
+   "ymd": "2027-02-05",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-los-rodriguez-jarabe-de-palo-y-mana-malaga/",
+   "eci_from": 19.25,
+   "venue": "Sala Trinchera",
+   "city": "Málaga"
+  }
+ ]
+}
