@@ -1,9 +1,9 @@
-=== tours_debug Mon Sep 21 11:25:23 AM UTC 2026 ===
-srchash=9dcc1181dda2a89d63933c047bf6a3e1
+=== tours_debug Mon Sep 21 11:53:34 AM UTC 2026 ===
+srchash=24ffe640645fd8ec7a28ab98d213f7a0
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at abf38137cb9 Tours rebuild 2026-09-19T14:41:10Z [vps]
+HEAD is now at 771f0427875 Tours rebuild 2026-09-21T04:04:42Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [paco] seasonal couple image -> fall
@@ -14,8 +14,8 @@ HEAD is now at abf38137cb9 Tours rebuild 2026-09-19T14:41:10Z [vps]
 [guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
 [guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
 [bygo] gallery self-hosted images: 44 of 62
-Built 8 languages · 176 landing pages · 1210 tour pages · 28 guide pages · 1904 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1210 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
+Built 8 languages · 176 landing pages · 1212 tour pages · 28 guide pages · 1904 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1212 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   abf38137cb9..53c5c416414  main -> main
+   771f0427875..a90d25219ee  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
