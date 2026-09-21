@@ -403,11 +403,6 @@
    "_eci": "MARENOSTRUM SELLS THROUGH EL CORTE INGLES (verified 16 Jul 2026): its own COMPRAR AHORA button posts to checkoutentradas.elcorteingles.es. Same seller = the price CANNOT differ, so the gate passes by construction and every one of these routes to ECI for 1% (Awin 13034). Spot-checked: Alejandro Sanz 71,50 on both. The checkout URL itself carries an expiring JWT and is NOT linkable - always link the ECI event page below, which eci_aff() wraps. Prices here are ECI's 'Desde' read 16 Jul 2026.",
    "note": "The homepage lists the whole 2026 season with per-event deep links and dates. Acts NOT on this list are not playing this venue - see Thirty Seconds to Mars (15 Jul) and Maria Pelae (6 Aug), both of which our calendar carried but the venue does not list.",
    "acts": {
-    "fulanita fest 27": {
-     "url": "https://marenostrumfuengirola.com/eventos/fulanita-fest-27/",
-     "date": "27-28-29-30/05/2027",
-     "venue_name": "FULANITA FEST 27"
-    },
     "take that": {
      "url": "https://marenostrumfuengirola.com/eventos/take-that/",
      "date": "11/07/2027",
@@ -1138,35 +1133,59 @@
    "gate": false,
    "note": "Sala París 15, C/ La Orotava 27, Málaga city — ~3,000 capacity, the largest private room in the city, open since 2010. ADDED 2026-09-14 (Sofia). WHY: on that date the venue had 14 in-window shows and malagalivepulse.com carried TWO of them (Ciro y Los Persas, Raimundo Amador). It was named in source_calendar.py with no URL, exactly like Teatro Cervantes, so the weekly LLM sweep re-guessed it each week and mostly returned nothing — and at least four of the missing shows sold through sellers that PAY us (Villano Antillano and Carlos Ares on entradas.com/Awin, Sidecars and Binomio de Oro on El Corte Inglés, La K'onga on Fever), so the gap cost commission as well as coverage. Refreshed weekly by refresh_venue_map.py using the dedicated 'paris15' parser, which reads the venue's own server-rendered /eventos/ page. complete:true so backfill_calendar injects the bill on EVERY build regardless of what the sweep found. gate:false ON PURPOSE: this listing is the venue's own and is good, but it is not provably exhaustive, so it must never be used as authority to phantom-delete a París 15 show it does not list. 'acts' starts empty and is filled by the first refresher run; an empty block injects nothing, so this is safe to ship before that run happens.",
    "acts": {
+    "los herrera": {
+     "url": "https://paris15.es/event/los-herrera/",
+     "date": "17/09/2026",
+     "venue_name": "LOS HERRERA",
+     "time": "20:00"
+    },
+    "back to glory days": {
+     "url": "https://paris15.es/event/back-to-glory-days/",
+     "date": "19/09/2026",
+     "venue_name": "BACK TO GLORY DAYS",
+     "time": "21:00"
+    },
     "ciro y los persas": {
-     "url": "https://www.entradas.com/event/ciro-y-los-persas-sala-paris-15-20865104/",
+     "url": "https://www.entradas.com/en/event/ciro-y-los-persas-sala-paris-15-20865104/",
      "date": "24/09/2026",
      "venue_name": "CIRO Y LOS PERSAS",
-     "time": "21:00"
+     "time": "21:00",
+     "prefer": "map",
+     "why": "prefer:map activated 2026-09-21 by the daily browser audit — COMMISSION RECOVERY. The calendar link paris15.es/event/ciro-y-los-persas/ is a deep link, so rule 2 of venue_resolve left it alone and the map's entradas.com URL never shipped. paris15.es IS NOT A SELLER: its own page (read in browser 2026-09-21) says 'Entradas ya disponibles en Entradas.com' and its only 'comprar entradas' anchor is https://www.entradas.com/event/ciro-y-los-persas-sala-paris-15-20865104/ — the exact page mapped here. So this is the same seller at the same price with one fewer hop, and it is an Awin merchant (mid 24761), which the venue page is not. No cheaper-seller question arises: there is no other checkout. entradas.com page read in browser 2026-09-21: 'Ciro y los Persas, Thursday, 24/09/2026 | 21:00, Malaga | Sala Paris 15', 'No Numerado Entrada General Fase 2 EUR 44.00' with a live 'Add to shopping cart'. paris15.es still advertises 'desde 38,50 EUR' but has no checkout to honour it — Fase 1 is gone."
     },
     "90roll": {
      "url": "https://paris15.es/event/90roll/",
      "date": "25/09/2026",
      "venue_name": "90ROLL",
-     "time": "23:00"
+     "time": "23:00",
+     "prefer": "map",
+     "why": "prefer:map activated 2026-09-20 (was WRONG_EVENT on the calendar link)."
     },
     "raimundo amador": {
-     "url": "https://www.entradas.com/event/raimundo-amador-gira-2026-sala-paris-15-21342141/",
+     "url": "https://www.entradas.com/en/event/raimundo-amador-gira-2026-sala-paris-15-21342141/",
      "date": "26/09/2026",
      "venue_name": "RAIMUNDO AMADOR",
-     "time": "21:30"
+     "time": "21:30",
+     "prefer": "map",
+     "why": "prefer:map activated 2026-09-21 by the daily browser audit — COMMISSION RECOVERY, and a REGRESSION repaired: this show was routed to the paying seller in August (price-matched, so the cheaper-seller rule did not bite) and had since fallen back to the venue page. The calendar link paris15.es/event/raimundo-amador/ is a deep link, so venue_resolve rule 2 never replaced it. paris15.es IS NOT A SELLER: read in browser 2026-09-21 it says 'Entradas disponibles en Entradas.com / Venta anticipada 27,50 EUR' and its only 'comprar entradas' anchor is https://www.entradas.com/event/raimundo-amador-gira-2026-sala-paris-15-21342141/. The mapped entradas.com page, read in browser 2026-09-21: 'Raimundo Amador Gira 2026, Saturday, 26/09/2026 | 21:30, Malaga | Sala Paris 15', 'General General Admission EUR 27.50' with a live 'Add to shopping cart'. PRICE IS IDENTICAL (27.50 = 27,50), so routing to the Awin merchant (mid 24761) costs the reader nothing and earns."
     },
     "sidecars": {
-     "url": "https://paris15.es/event/sidecars-2/",
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
      "date": "02/10/2026",
      "venue_name": "SIDECARS",
-     "time": "21:00"
+     "time": "21:00",
+     "prefer": "map",
+     "eci_from": 33.0,
+     "box_from": 33.0,
+     "why": "ROUTED TO ECI 2026-09-21 by the daily browser audit — COMMISSION RECOVERY at an EQUAL price. Before: the card pointed at paris15.es/event/sidecars-2/, which is not a checkout — read in browser 2026-09-21 the venue page quotes '33€' and its only 'comprar entradas' anchor goes to malagaentradas.com (a non-paying box office this project deliberately excludes). ECI page read in browser 2026-09-21: 'SIDECARS - GIRA PRESENTACION EVEREST EN MALAGA, Fechas: 2 de Octubre de 2026, Horario: A las 21:00h, Recinto: Sala Paris 15', listing price 'Desde 33,00€', COMPRAR control live. PRICE IS EQUAL (33,00 = 33), so the reader pays no more and ECI is an Awin merchant (mid 13034) — the cheaper-seller rule does not bite. prefer:map is required because paris15.es/event/sidecars-2/ passes _is_deep(), so venue_resolve rule 2 would otherwise never replace it."
     },
     "robot rock alive": {
      "url": "https://paris15.es/event/robot-rock-alive/",
      "date": "03/10/2026",
      "venue_name": "ROBOT ROCK ALIVE",
-     "time": "21:30"
+     "time": "21:30",
+     "prefer": "map",
+     "why": "prefer:map activated 2026-09-20 (was WRONG_EVENT on the calendar link)."
     },
     "valeria lynch": {
      "url": "https://paris15.es/event/valeria-lynch/",
@@ -1222,22 +1241,10 @@
      "venue_name": "ABHIR",
      "time": "21:00"
     },
-    "fiebre club halloween": {
-     "url": "https://paris15.es/event/fiebre-club-halloween/",
-     "date": "30/10/2026",
-     "venue_name": "FIEBRE CLUB: HALLOWEEN",
-     "time": "23:59"
-    },
     "sobredosis de soda": {
      "url": "https://paris15.es/event/sobredosis-de-soda/",
      "date": "04/11/2026",
      "venue_name": "SOBREDOSIS DE SODA",
-     "time": "21:00"
-    },
-    "arde bogota": {
-     "url": "https://paris15.es/event/arde-bogota/",
-     "date": "06/11/2026",
-     "venue_name": "ARDE BOGOTÁ",
      "time": "21:00"
     },
     "grupo liberacion": {
@@ -1836,6 +1843,61 @@
      "venue_name": "Arcadi Volodos",
      "genre": "Classical & Candlelight",
      "why": "BROWSER-CONFIRMED 2026-09-13: unientradas 26-27VolodosArca renders '12 octubre 2026 19:00, room TEATRO CERVANTES, ARCADI VOLODOS EN CONCIERTO, Lunes 12/10/2026 19:00', on sale. NOTE 19:00."
+    },
+    "nina pastori": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "21:00",
+     "price": "Desde 44 EUR",
+     "venue": "Auditorio Municipal Príncipe de Asturias",
+     "venue_name": "Niña Pastori — Color Fania",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-09-21 by the daily browser audit — MISSING COMMISSIONABLE EVENT. The site carried nothing at all for this date, and El Corte Inglés is an Awin merchant (mid 13034), so the whole booking was invisible: no card, no click, no commission, and nothing in the clicks report to reveal it. BROWSER-CONFIRMED 2026-09-21 on elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/: 'Niña Pastori en Málaga, 17 de Octubre de 2026 / A las 21:00h., Auditorio Municipal Príncipe de Asturias, Desde 44,00€' with a live COMPRAR and no off-sale banner. NOTE THE PAGE HEADLINE SAYS 'en Málaga' BUT THE VENUE IS TORREMOLINOS — the recinto line and the body text both name the Torremolinos auditorium, hence the venue override here. Tour is 'COLOR FANIA'. CHEAPER-SELLER CHECK DONE: the going price quoted by the aggregators is also 'desde 44 €', so no non-paying seller undercuts ECI and routing to the payer costs the reader nothing. The stale eci_pins entry for this act (pointing at the PAST 21 Aug Starlite show) was repointed to this page in the same run, and the matching ECI exclusion — written for that past show — was lifted, so eci_resolve can no longer hijack this row."
+    },
+    "vivaldianno": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+     "prefer": "map",
+     "date": "15/10/2026",
+     "time": "19:00",
+     "price": "Desde 24,79 EUR",
+     "venue": "Teatro del Soho CaixaBank",
+     "venue_name": "Vivaldianno — El resplandor de Venecia",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-09-21 by the daily browser audit — MISSING COMMISSIONABLE EVENT, four nights of it. BROWSER-CONFIRMED 2026-09-21 on elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/: 'Vivaldianno en Málaga, Teatro del Soho CaixaBank, Desde 24,79€' with a live COMPRAR whose href is checkoutentradas2.elcorteingles.es/elcorteingles/events/59833, 'Fechas: Del 15 de Octubre de 2026 al 18 de Octubre de 2026, Horario: A las 19:00h', and the page's own JSON-LD types it @type MusicEvent, startDate 2026-10-15T19:00+02:00, endDate 2026-10-18, location Teatro del Soho CaixaBank. NO off-sale banner (checked explicitly — that is the ECI failure shape this project has been bitten by, and JSON-LD alone is never treated as proof here). IT IS LIVE MUSIC, not theatre: ECI files it under Conciertos and the blurb reads 'combina música en directo, proyecciones de vídeo en 3D y danza', Vivaldi's Four Seasons re-arranged by Michal Dvořák — the same bracket as the Anime Symphony and Cinema Morricone rows this site already carries. El Corte Inglés is an Awin merchant (mid 13034). Added under sweeplost, NOT under a 'teatro del soho' block, because complete:true on that venue would also inject its comedy bill (see this block's own note). One act key per night; the ECI page serves all four from its own date selector."
+    },
+    "vivaldianno night 2": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+     "prefer": "map",
+     "date": "16/10/2026",
+     "time": "19:00",
+     "price": "Desde 24,79 EUR",
+     "venue": "Teatro del Soho CaixaBank",
+     "venue_name": "Vivaldianno — El resplandor de Venecia",
+     "genre": "Classical & Candlelight",
+     "why": "SECOND NIGHT of the same production, same ticket page (its date selector offers all four). Separate act key because backfill writes one row per dated act. See 'vivaldianno' above for the full browser evidence."
+    },
+    "vivaldianno night 3": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "19:00",
+     "price": "Desde 24,79 EUR",
+     "venue": "Teatro del Soho CaixaBank",
+     "venue_name": "Vivaldianno — El resplandor de Venecia",
+     "genre": "Classical & Candlelight",
+     "why": "THIRD NIGHT of the same production, same ticket page. See 'vivaldianno' above for the full browser evidence."
+    },
+    "vivaldianno night 4": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+     "prefer": "map",
+     "date": "18/10/2026",
+     "time": "19:00",
+     "price": "Desde 24,79 EUR",
+     "venue": "Teatro del Soho CaixaBank",
+     "venue_name": "Vivaldianno — El resplandor de Venecia",
+     "genre": "Classical & Candlelight",
+     "why": "FOURTH AND LAST NIGHT of the same production, same ticket page. See 'vivaldianno' above for the full browser evidence."
     }
    }
   },
@@ -2625,6 +2687,11 @@
    "complete": true,
    "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep. KEY RENAMED 2026-08-10 'sala trinchera' -> 'trinchera'. _venue_lookup() matches only when the KEY IS A SUBSTRING of the normalised venue name or URL. The venue calls itself 'Sala LA Trinchera', and 'sala trinchera' is NOT a substring of 'sala la trinchera' - so this block could never match anything, no matter what was in it. Bare 'trinchera' matches every spelling and the mutick slug sala-la-trinchera too. AUTO-REFRESH ADDED 2026-08-10: refresh_venue_map.py now rescrapes this block every Monday from mutick.com/l/malaga - the CITY-scoped page, never mutick as a whole, because mutick is a national Madrid-based platform and a site-wide scrape would drag in Madrid listings. Rows are kept only when the card names 'trinchera', so the same city page can serve other Malaga venues later. After the first refresh 'source' above will read /l/malaga (what is actually scraped) rather than the venue page. COMPLETE FLIPPED TO TRUE 2026-08-10 (Sofia: 'as long as China Crisis appears in the event list'). complete:false could not deliver that - backfill only injects from complete venues, so the listing depended entirely on the LLM sweep, which this codebase documents as intermittently dropping whole venues. True makes injection DETERMINISTIC. The price of that is the phantom gate: a Trinchera show that is NOT on mutick and that the sweep finds elsewhere would now be dropped as 'not on trinchera's own programme'. Judged acceptable because mutick IS the venue's ticketer and refresh_venue_map.py now re-reads it every Monday, so the list cannot go stale. To reverse, set complete back to false - one word. | 2026-08-20: gate:false ADDED. complete:true stays (injection stays deterministic), but the phantom gate is switched OFF for this block because mutick lists only the shows IT sells: Damian Cordoba (3 Sep, Sala Trinchera) sells through movingtickets.com, was therefore absent from the Monday mutick refresh, and was phantom-deleted off the live site even though the seller page is live at 27,50 EUR. gate:false removes the delete power without touching injection.",
    "acts": {
+    "china crisis": {
+     "url": "https://mutick.com/e/entradas-china-crisis-malaga-2",
+     "date": "17/09/2026",
+     "venue_name": "CHINA CRISIS (UK)"
+    },
     "the silencers": {
      "url": "https://mutick.com/e/entradas-the-silencers-malaga-2",
      "date": "15/10/2026",
@@ -2634,6 +2701,12 @@
      "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
      "date": "29/11/2026",
      "venue_name": "Clearwater Creedence Revival (UK&USA)"
+    },
+    "partiendo la pana": {
+     "url": "https://jfpromotickets.es/es/events/festival-partiendo-la-pana-los-grandes-tributos-a-estopa-y-melendi-en-malaga-malaga",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    },
    "gate": false

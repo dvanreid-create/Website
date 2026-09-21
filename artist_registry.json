@@ -661,7 +661,7 @@
 },
 "la-konga": {
 "name": "LA KONGA",
-"mles": 0.0
+"mles": 59.4
 },
 "hechizo": {
 "name": "Hechizo",
@@ -902,5 +902,9 @@
 "cristian-de-moret": {
 "name": "Cristian de Moret",
 "mles": 59.8
+},
+"vivaldianno": {
+"name": "Vivaldianno",
+"mles": 0.0
 }
 }

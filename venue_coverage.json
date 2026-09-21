@@ -157,8 +157,8 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 1,
-   "matched": 1,
+   "mapped_in_window": 2,
+   "matched": 2,
    "calendar_in_window": 9,
    "latest_mapped": "2026-11-29",
    "always_on": true,
@@ -203,17 +203,17 @@
   "paris15": {
    "venue": "Sala París 15",
    "mapped_in_window": 12,
-   "matched": 10,
-   "calendar_in_window": 11,
+   "matched": 11,
+   "calendar_in_window": 12,
    "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "THIN"
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 24,
-   "matched": 24,
-   "calendar_in_window": 45,
+   "mapped_in_window": 29,
+   "matched": 29,
+   "calendar_in_window": 54,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
