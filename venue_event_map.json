@@ -1037,10 +1037,20 @@
      "venue_name": "Vetusta Morla"
     },
     "brunch": {
-     "url": "https://malaga.brunchelectronik.com/",
+     "url": "https://www.enterticket.es/eventos/weekender-brunch-electronik-malaga-2026-375954?id_entradas=270934,270935,270947,270530,270948,270949,270950,270896,279196,279198,270870",
      "prefer": "map",
      "date": "11/10/2026",
-     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
+     "time": "18:00",
+     "venue_name": "Brunch! Electronik Weekender — Sunday",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21. Was https://malaga.brunchelectronik.com/ — the festival's HOMEPAGE, not a checkout; the reader had to find the day and the ticket themselves. The festival's own site (read in browser 2026-09-21) carries one ENTRADAS button per day, and the SUNDAY 11 OCTOBER block (Adam Beyer, Loco Dice, Marco Faraone, Kobosil, 'Auditorio Cortijo de Torres — 18:00h.') links to exactly this enterticket URL — the id_entradas list is the day filter. BROWSER-CONFIRMED 2026-09-21: the page opens as 'Buy tickets for WEEKENDER BRUNCH ELECTRONIK Malaga 2026 ... at Enterticket', 'Auditorio Municipal Cortijo de Torres, 10 OCT - 12 OCT 2026, Malaga, 18:00h - 02:00h', with the ticket list rendered. NOTE: the page <title> says '10 Oct' for both days because that is the festival's start date; the DAY is selected by the id_entradas filter, so the two URLs must not be swapped. NO PAYING ALTERNATIVE: entradas.com's three Malaga-province listings, ECI Malaga, Ticketmaster.es Malaga and Fever Malaga were all read in full on 2026-09-21 and none sells this festival. The 2026-09-20 note this replaces called the homepage a 'verified event buy page' — it is not one."
+    },
+    "brunch electronik weekender boys noize": {
+     "url": "https://www.enterticket.es/eventos/weekender-brunch-electronik-malaga-2026-375954?id_entradas=270521,270892,270893,270894,270930,270931,270932,270895,279194,279195,270520",
+     "prefer": "map",
+     "date": "10/10/2026",
+     "time": "18:00",
+     "venue_name": "Brunch! Electronik Weekender — Saturday",
+     "why": "SATURDAY 10 OCTOBER, the other half of the same weekender, which had no entry at all and was also shipping the festival homepage. Key deliberately spelled out with 'boys noize' so it is a token-subset of the SATURDAY card's act string only ('Brunch! Electronik Weekender — Boys Noize, Joseph Capriati, Patrick Mason, Manda Moor, Alycia Bezgo, Francisco Allendes') and never of the Sunday card's; the plain 'brunch' key above is date-scoped to 11/10 so the two cannot cross over. The festival's own SATURDAY ENTRADAS button links here (browser-read 2026-09-21), and the page opens on enterticket as the real ticket list for the event. See the 'brunch' note above for the shared evidence and the title caveat."
     }
    }
   },
@@ -1085,14 +1095,26 @@
      "venue_name": "Emanero Tour 2026"
     },
     "raimundo amador": {
-     "url": "https://www.tomaticket.es/es-es/entradas-raimundo-amador-en-malaga",
+     "url": "https://www.entradas.com/en/event/raimundo-amador-gira-2026-sala-paris-15-21342141/",
      "date": "26/09/2026",
-     "venue_name": "Raimundo Amador"
+     "venue_name": "Raimundo Amador",
+     "prefer": "map",
+     "why": "REPOINTED + prefer:map 2026-09-21 by the daily browser audit — COMMISSION RECOVERY. THIS is the block that actually decides routing for Sala París 15: _venue_lookup walks VENUE_EVENTS in order and 'sala paris' is a substring of the normalised venue 'sala paris 15 malaga', so it matches BEFORE the 'paris15' block and returns first. Without an entry here, anything written in 'paris15' is inert for this venue. Was tomaticket (non-paying, and a stale shell). Now entradas.com, an Awin merchant (mid 24761). BROWSER-CONFIRMED 2026-09-21: entradas.com/en/event/raimundo-amador-gira-2026-sala-paris-15-21342141/ renders 'Raimundo Amador Gira 2026, Saturday, 26/09/2026 | 21:30, Malaga | Sala Paris 15', 'General General Admission EUR 27.50', live 'Add to shopping cart'. The venue's own page paris15.es/event/raimundo-amador/ IS NOT A CHECKOUT — it says 'Entradas disponibles en Entradas.com / Venta anticipada 27,50 EUR' and its only buy anchor is this same entradas.com page. PRICE IDENTICAL (27,50), so the cheaper-seller rule does not bite. prefer:map is required because the calendar link (paris15.es) passes _is_deep()."
     },
     "sidecars": {
-     "url": "https://www.tomaticket.es/es-es/entradas-sidecars-gira-presentacion-everest-en-malaga",
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
      "date": "02/10/2026",
-     "venue_name": "Sidecars – Gira EVEREST"
+     "venue_name": "Sidecars – Gira EVEREST",
+     "prefer": "map",
+     "why": "REPOINTED + prefer:map 2026-09-21 by the daily browser audit — COMMISSION RECOVERY at an EQUAL price. See the raimundo amador note above for why the routing entry has to live in THIS block and not 'paris15'. BROWSER-CONFIRMED 2026-09-21: elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/ renders 'SIDECARS - GIRA PRESENTACION EVEREST EN MALAGA, Fechas: 2 de Octubre de 2026, Horario: A las 21:00h, Recinto: Sala Paris 15', listing price 'Desde 33,00€', COMPRAR live, no off-sale banner. The shipped link was paris15.es/event/sidecars-2/, whose own text quotes '33€' and whose only buy anchor is malagaentradas.com — the non-paying box office this project deliberately excludes. Equal price (33,00 = 33) to an Awin merchant (mid 13034): the reader pays no more and the click earns. The old tomaticket URL here was never the shipped destination."
+    },
+    "nebulossa": {
+     "url": "https://entradas.conciertos.club/events/virtuzorrismo-tour-malaga",
+     "date": "16/10/2026",
+     "time": "21:30",
+     "venue_name": "Nebulossa",
+     "prefer": "map",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21. The card shipped https://entradas.conciertos.club/malaga — the seller's CITY LANDING, not this show, so the reader had to hunt. The seller's own published agenda at conciertos.club/malaga (read in browser 2026-09-21) lists, under the day heading 'Viernes 16 de Octubre', 'NEBULOSSA / POP ELECTRONICO, PARIS 15. MALAGA, 18€, COMPRAR ENTRADAS' pointing at this URL — act, date, venue and price all match our row. LIMITATION RECORDED HONESTLY: entradas.conciertos.club returns 403 Forbidden to this machine (the whole entradium white-label platform does — entradium.com and jfpromotickets.es block it too), so the destination page itself could not be opened today; the evidence is the seller's own dated programme entry, which is the same standard this map uses elsewhere. NO PAYING ALTERNATIVE: entradas.com's three Malaga-province city listings, El Corte Ingles' Malaga concert listing, Ticketmaster.es' Malaga page and Fever's Malaga listing were all read in full on 2026-09-21 and none carries Nebulossa on this date. Routing here does pay conciertos.club's own affiliate, which is the cost of the only real event page that exists."
     },
     "villano antillano": {
      "url": "https://www.taquilla.com/entradas/villano-antillano",
@@ -1117,6 +1139,8 @@
      "date": "24/09/2026",
      "time": "21:00",
      "venue_name": "Ciro y Los Persas",
+     "prefer": "map",
+     "why": "prefer:map ADDED 2026-09-21 by the daily browser audit — COMMISSION RECOVERY. THIS supersedes the last sentence of the 2026-09-01 note below ('url matches the shipped destination so this entry only stamps the time and cannot move the link'): that was true on 09-01 and is no longer true. The card now ships paris15.es/event/ciro-y-los-persas/, which is a deep link, so rule 2 of venue_resolve never replaced it — and paris15.es IS NOT A CHECKOUT. Read in browser 2026-09-21 the venue page says 'Entradas ya disponibles en Entradas.com' and its only 'comprar entradas' anchor is exactly the entradas.com URL in this entry. entradas.com page read the same day: 'Ciro y los Persas, Thursday, 24/09/2026 | 21:00, Malaga | Sala Paris 15', 'No Numerado Entrada General Fase 2 EUR 44.00', with a live 'Add to shopping cart'. Same seller, same price, one fewer hop for the reader, and Awin mid 24761 now earns. (paris15.es still advertises 'desde 38,50 EUR' but has no checkout to honour it — Fase 1 is gone, and entradas.com is selling Fase 2.) The time stamp below is unaffected. NOTE FOR FUTURE RUNS: this block ('sala paris') is the one that decides routing for Sala Paris 15 — _venue_lookup returns on the FIRST key that is a substring of the normalised venue 'sala paris 15 malaga', and 'sala paris' comes before 'paris15', so entries written only in the 'paris15' block are inert here.",
      "note": "TIME CORRECTED 2026-09-01 by the daily click-test: the site was showing 20:30, which is neither the door nor the stage time. TWO INDEPENDENT SOURCES agree on 21:00 — the venue's own page paris15.es/event/ciro-y-los-persas/ reads 'Fecha: septiembre 24, 2026 20:00h, Apertura: 20:00h, Comienzo: 21:00h', and the seller our card links to, entradas.com, renders 'Thursday, 24/09/2026 | 21:00, Málaga | Sala Paris 15'. The site's convention at this venue is the STAGE time (Comienzo), which is how El Kuelgue 21:00, Emanero 21:30, BM & Callejero Fino 20:30 and Raimundo Amador 21:30 are all already correct — 20:30 was simply wrong, not a doors reading. url matches the shipped destination so this entry only stamps the time and cannot move the link."
     }
    }
@@ -1996,6 +2020,15 @@
      "date": "02/10/2026",
      "why": "RESTORED 2026-09-20 (DLR): verified unientradas deep link from repo record; the sourcing sweep (claude -p) was down on the 401-token outage and left this on a homepage/wrong link. prefer:map upgrades it back."
     },
+    "cristian de moret": {
+     "url": "https://www.unientradas.es/espectaculo/cristian-de-moret-apache-bereber/26-27MoretApache",
+     "prefer": "map",
+     "date": "18/10/2026",
+     "time": "19:00",
+     "venue_name": "Cristian de Moret — Apache bereber",
+     "genre": "Flamenco",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21. The card was shipping the bare seller homepage https://www.unientradas.es/ — no event, no date, nothing to buy — because this act had no entry anywhere in the map. BROWSER-CONFIRMED 2026-09-21: unientradas.es/espectaculo/cristian-de-moret-apache-bereber/26-27MoretApache renders 'date_range 18 octubre 2026 19:00, room TEATRO CERVANTES, CRISTIAN DE MORET. Apache bereber' with a live CONTINUAR and the full Cervantes seat map (Patio de Butacas, Paraiso, Palcos 1o/2o Piso...). Billed under S!NGULARES 2026. Matches our row exactly: 18 Oct, Teatro Cervantes, 19:00. NO PAYING ALTERNATIVE — the Cervantes is unientradas-exclusive, and entradas.com's three Malaga-province listings, ECI's Malaga concert listing, Ticketmaster.es Malaga and Fever Malaga were all read in full on 2026-09-21 without a match. Fixed anyway: commission decides WHICH seller, never WHETHER to fix."
+    },
     "obk": {
      "url": "https://www.unientradas.es/es/espectaculo/obk-35-aniversario-vertigo-tour/26-27OBK35",
      "prefer": "map",
@@ -2679,6 +2712,22 @@
      "prefer": "map",
      "date": "17/10/2026",
      "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
+    },
+    "pedra": {
+     "url": "https://entradas.conciertos.club/es/events/pedra-tributo-a-extremoduro-en-malaga-sala-trinchera-malaga-sala-trinchera",
+     "prefer": "map",
+     "date": "10/10/2026",
+     "venue_name": "Pedrá! — Tributo a Extremoduro",
+     "genre": "Rock & Indie",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21. The card was shipping https://entradas.conciertos.club/malaga — the seller's CITY LANDING, not the show. conciertos.club's own dated agenda (conciertos.club/malaga, read in browser 2026-09-21) lists under 'Sabado 10 de Octubre': 'SALA TRINCHERA. MALAGA 18,55/22€ COMPRAR ENTRADAS' at this URL. Act, date and venue match. Key is 'pedra' (not 'pedra tributo...') so the containment rule matches our act string 'Pedrá! — Tributo a Extremoduro' after _eci_norm. LIMITATION: entradas.conciertos.club returns 403 Forbidden to this machine — the whole entradium white-label platform (entradium.com, jfpromotickets.es) blocks it — so the destination page itself could not be opened today; the evidence is the seller's own dated programme entry. NO PAYING ALTERNATIVE: entradas.com's three Malaga-province listings, ECI's Malaga concert listing, Ticketmaster.es Malaga and Fever Malaga were all read in full on 2026-09-21 and none carries it."
+    },
+    "sike": {
+     "url": "https://entradas.conciertos.club/es/events/sike-desvisteme-despacio-que-tengo-prisa",
+     "prefer": "map",
+     "date": "11/10/2026",
+     "venue_name": "SIKE",
+     "genre": "Rock & Indie",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21, same shape as 'pedra' above: the card was shipping entradas.conciertos.club/malaga. conciertos.club's dated agenda (read in browser 2026-09-21) lists under 'Domingo 11 de Octubre': 'SALA TRINCHERA. MALAGA 13,50€ COMPRAR ENTRADAS' at this URL. CAREFUL — the SAME SLUG also appears under 'Miercoles 11 de Noviembre' at 13€ (path /events/ without the /es/ prefix); our row is the OCTOBER one, which is the /es/events/ form listed above, so the two must not be swapped. Destination not openable from here (403 across the entradium platform). NO PAYING ALTERNATIVE (entradas.com x3, ECI Malaga, Ticketmaster.es, Fever Malaga all read 2026-09-21)."
     }
    }
   },
@@ -2944,6 +2993,100 @@
      "prefer": "map",
      "date": "25/09/2026",
      "why": "RESTORED 2026-09-20 (DLR): the 25/09 'Espectáculo Flamenco' at Peña Flamenca Niño de Vélez (€20) — verified buy button on the event page goes to show.flamencomalaga.com/es/837/4723 (peña's own ticketing). NOT the blocked Alegría tablao (that stays venue-scoped)."
+    }
+   }
+  },
+  "sohrlin": {
+   "source": "https://www.unientradas.es/",
+   "complete": false,
+   "gate": false,
+   "note": "Espacio SOHRLIN Andalucía, Málaga city — animation studio with a concert space, used by the MOSMA film-music festival. ADDED 2026-09-21 by the daily browser audit. WHY: both Animesy nights were shipping the bare seller homepage https://www.unientradas.es/ — no event, no date, nothing to buy. The correct URL was already in the map twice (sweeplost 'the animesy' / 'the animesy night 2', and 'teatro cervantes' 'the animesy'), but NEITHER could ever route it: sweeplost's key is deliberately unmatchable by _venue_lookup (see its own note), and 'teatro cervantes' is not a substring of the normalised venue 'espacio sohrlin andalucia malaga' — the show appears on the Cervantes MOSMA programme but is NOT at the Cervantes. 'sohrlin' is a substring, so this block is the first thing that can actually route these rows. complete:false + gate:false and NOT in backfill_calendar's WHITELIST: routing only, never injects, never phantom-deletes.",
+   "acts": {
+    "the animesy": {
+     "url": "https://www.unientradas.es/espectaculo/the-animesy-%C2%B7-the-anime-symphony-orchestra/26-27AnimesyThe",
+     "prefer": "map",
+     "date": "02/10/2026",
+     "time": "21:00",
+     "venue_name": "The Animesy · The Anime Symphony Orchestra",
+     "genre": "Classical & Candlelight",
+     "why": "BROWSER-CONFIRMED 2026-09-21: the page renders 'date_range 02 - 03 octubre 2026, room SOHRLIN ANDALUCIA, THE ANIMESY · The Anime Symphony Orchestra', description 'MOSMA RELOADED 2026-27', and a live day picker offering BOTH '02 oct. Viernes, 21:00' and '03 oct. Sabado, 21:00', with CONTINUAR. Note the canonical slug carries a '·' (%C2%B7) — the un-accented form previously held in the map is a different string, which is part of why nothing routed. NO PAYING ALTERNATIVE (entradas.com x3 city listings, ECI Malaga, Ticketmaster.es Malaga, Fever Malaga all read 2026-09-21)."
+    },
+    "the animesy night 2": {
+     "url": "https://www.unientradas.es/espectaculo/the-animesy-%C2%B7-the-anime-symphony-orchestra/26-27AnimesyThe",
+     "prefer": "map",
+     "date": "03/10/2026",
+     "time": "21:00",
+     "venue_name": "The Animesy · The Anime Symphony Orchestra",
+     "genre": "Classical & Candlelight",
+     "why": "SECOND NIGHT, same ticket page — its day picker offers both 2 and 3 October at 21:00 (browser-confirmed 2026-09-21). Separate key so the date-scoped branch of _venue_lookup can match each night."
+    }
+   }
+  },
+  "louie louie": {
+   "source": "https://louielouierockbar.com/tickets/",
+   "complete": false,
+   "gate": false,
+   "note": "Louie Louie Live Estepona, Avda. Luis Braille, Puerto Deportivo de Estepona — small rock club, live music Wed-Sun. ADDED 2026-09-21 by the daily browser audit: all three of its in-window nights were shipping https://conciertos.club/malaga or https://entradas.conciertos.club/malaga, i.e. a CITY LANDING instead of the show, because no block key matched the venue 'Louie Louie · Estepona' and venue_resolve had nothing to upgrade to. The venue publishes its own per-gig ticket links on /tickets/ (one poster per date, each linking straight to the seller) and its own bill on /conciertos/; both were read in the browser on 2026-09-21. complete:false and gate:false ON PURPOSE — this is a routing block only; it must never be able to phantom-delete a Louie Louie night, and it is deliberately NOT in backfill_calendar's WHITELIST, so it can only ever fix links, never inject rows. NOTE ON THE 403: entradium.com (the venue's seller) returns 403 Forbidden to this machine, as do entradas.conciertos.club and jfpromotickets.es — the same white-label platform — so the destination pages could not be opened today. The URLs below are not guesses: each is the exact anchor the VENUE'S OWN tickets page points its poster at, cross-checked against the act and date on the venue's own /conciertos/ bill and against conciertos.club's dated agenda. That is strictly better than the city landing the cards were shipping. NO PAYING ALTERNATIVE for any of the three: entradas.com Estepona-2322 and Malaga-490, El Corte Ingles' Malaga concert listing, Ticketmaster.es Malaga and Fever Malaga were all read in full on 2026-09-21 and none carries these tribute nights.",
+   "acts": {
+    "madman": {
+     "url": "https://entradium.com/events/madman-ozzy-black-sabbath-tribute-band-en-estepona",
+     "prefer": "map",
+     "date": "02/10/2026",
+     "venue_name": "MADMAN — Tributo a Ozzy & Black Sabbath",
+     "why": "Venue bill (louielouierockbar.com/conciertos/, read 2026-09-21) reads '02/10 Madman. Tributo Ozzy & Black Sabbath'; the venue's /tickets/ page lists the date 02/10/2026 and links its poster to this entradium URL. conciertos.club does NOT sell this one (its dated Malaga agenda has no 2 Oct Louie Louie entry and its artist page lists no upcoming dates), which is why the card fell back to conciertos.club/malaga — a landing page for a show that seller does not even carry."
+    },
+    "hybrid park": {
+     "url": "https://entradium.com/es/events/hybrid-park-tributo-a-linkin-park-en-estepona",
+     "prefer": "map",
+     "date": "03/10/2026",
+     "venue_name": "Hybrid Park — Tributo a Linkin Park",
+     "why": "TWO independent sources agree, both read 2026-09-21: the venue's own bill reads '03/10 Hibryd Park. Tributo a Linkin Park' and its /tickets/ poster for 03/10/2026 links to this entradium URL; conciertos.club's dated agenda lists it under 'Sabado 3 de Octubre' as 'LOUIE LOUIE. ESTEPONA (MALAGA) 12,37€ COMPRAR ENTRADAS' at entradas.conciertos.club/es/events/hybrid-park-tributo-a-linkin-park-en-estepona — the same slug on the same platform. Routed to the VENUE'S OWN seller rather than conciertos.club: neither pays us, and conciertos.club's links carry conciertos.club's affiliate ids, so that route would pay a competitor for our traffic. Same product, same price."
+    },
+    "festival de tributos": {
+     "url": "https://entradium.com/events/festival-de-tributos-american-rock-stars-estepona",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "venue_name": "Festival de Tributos — Disorder / Bombtruck / Black Horsemen (American Rock Festival)",
+     "why": "GENERIC-LANDING REPAIR 2026-09-21. The card — 'Festival de Tributos — Disorder (System of a Down), Bombtruck (Rage Against The Machine), Black Horsemen (Metallica)', Louie Louie Estepona, 17 Oct — was shipping https://conciertos.club/malaga, the seller's city landing. THREE sources agree it is one show, all read in browser 2026-09-21: the venue's own bill (louielouierockbar.com/conciertos/) reads '17/10 American Rock Festival'; the venue's /tickets/ page lists 17/10/2026 and links its poster to this entradium URL; conciertos.club's dated agenda lists it under 'Sabado 17 de Octubre' as 'LOUIE LOUIE. ESTEPONA (MALAGA) 15/18€' with the matching slug festival-de-tributos-american-rock-stars-estepona. KEY IS DELIBERATELY SHORT ('festival de tributos') because _venue_lookup needs the key's tokens to be a SUBSET of our act string, and our act string names the three tribute bands rather than the 'American Rock Stars' billing — a longer key silently fails to match, which is how this row stayed on the landing page. Routed to the venue's own seller rather than conciertos.club: neither pays us, and conciertos.club's links carry conciertos.club's own affiliate ids. Destination not openable from this machine (403 across the entradium platform)."
+    }
+   }
+  },
+  "la garrapata": {
+   "source": "conciertos.club / ticketandroll.com",
+   "complete": false,
+   "gate": false,
+   "note": "La Garrapata, Málaga city — small singer-songwriter / acoustic room. ADDED 2026-09-21 by the daily browser audit: both of its in-window nights were shipping https://entradas.conciertos.club/malaga or https://conciertos.club/malaga, the seller's CITY LANDING rather than the show. complete:false + gate:false, and deliberately NOT in backfill_calendar's WHITELIST — routing only, never injects, never phantom-deletes.",
+   "acts": {
+    "borja pico": {
+     "url": "https://entradas.conciertos.club/es/events/borja-pico-malaga-malaga",
+     "prefer": "map",
+     "date": "16/10/2026",
+     "venue_name": "Borja Picó",
+     "why": "conciertos.club's own dated agenda (conciertos.club/malaga, read in browser 2026-09-21) lists under 'Viernes 16 de Octubre': 'LA GARRAPATA. MALAGA 5€ COMPRAR ENTRADAS' pointing at this URL. Act, date and venue match our row. The destination itself could not be opened: entradas.conciertos.club returns 403 Forbidden to this machine (the whole entradium white-label platform does). NO PAYING ALTERNATIVE — entradas.com x3 city listings, ECI Malaga, Ticketmaster.es Malaga and Fever Malaga all read 2026-09-21, none carries it."
+    },
+    "mundo chillon": {
+     "url": "https://ticketandroll.com/evento/mundo-chillo-en-malaga",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "21:00",
+     "price": "15,60 EUR",
+     "venue_name": "Mundo Chillón",
+     "why": "FULLY BROWSER-CONFIRMED 2026-09-21, destination page opened: ticketandroll.com/evento/mundo-chillo-en-malaga renders 'Mundo Chillon, 17 octubre a las 21:00h, La Garrapata. Malaga, 15,60 € IVA incl' with live 'Obtener Entradas' controls. Reached from the artist's own TicketAndRoll organiser page, which lists the tour and shows '17 octubre. La Garrapata'. The card was shipping conciertos.club/malaga — and conciertos.club does not sell this show at all (its artist page lists no upcoming dates), so the reader was being sent to a seller that has never had the ticket. NO PAYING ALTERNATIVE: entradas.com, ECI, Ticketmaster.es and Fever Malaga listings all read 2026-09-21, none carries it."
+    }
+   }
+  },
+  "sala roka": {
+   "source": "conciertos.club",
+   "complete": false,
+   "gate": false,
+   "note": "Sala Roka, Málaga city. ADDED 2026-09-21 by the daily browser audit — routing only (complete:false, gate:false, not in backfill_calendar's WHITELIST). Its one in-window night was shipping the seller's city landing instead of the show.",
+   "acts": {
+    "rienda suelta": {
+     "url": "https://entradas.conciertos.club/es/events/noche-de-rock-con-sr-blanco-y-rienda-suelta",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "venue_name": "Rienda Suelta + Señor Blanco",
+     "why": "conciertos.club's own dated agenda (read in browser 2026-09-21) lists under 'Sabado 17 de Octubre': 'RIENDA SUELTA + SEÑOR BLANCO / ROCK, SALA ROKA. MALAGA 12€ COMPRAR ENTRADAS' at this URL — act, date and venue all match our row, which was shipping entradas.conciertos.club/malaga. Destination not openable from this machine (403 across the entradium platform), so the evidence is the seller's own dated programme entry. NO PAYING ALTERNATIVE (entradas.com x3, ECI, Ticketmaster.es, Fever Malaga all read 2026-09-21)."
     }
    }
   }
