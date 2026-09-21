@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21",
+ "generated": "2026-09-22",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 10,
-   "matched": 10,
-   "calendar_in_window": 10,
+   "mapped_in_window": 9,
+   "matched": 9,
+   "calendar_in_window": 9,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
@@ -203,11 +203,11 @@
   "paris15": {
    "venue": "Sala París 15",
    "mapped_in_window": 12,
-   "matched": 11,
-   "calendar_in_window": 12,
+   "matched": 12,
+   "calendar_in_window": 13,
    "latest_mapped": "2027-05-14",
    "always_on": false,
-   "verdict": "THIN"
+   "verdict": "ok"
   },
   "sweeplost": {
    "venue": "Málaga",
@@ -220,7 +220,6 @@
   }
  },
  "problems": [
-  "marbella arena",
-  "paris15"
+  "marbella arena"
  ]
 }
