@@ -2974,6 +2974,16 @@
      "date": "19/09/2026",
      "venue_name": "Andrés Koi",
      "genre": "Pop"
+    },
+    "querido": {
+     "url": "https://conciertos.club/malaga/locales/sala-marte",
+     "prefer": "map",
+     "date": "02/10/2026",
+     "time": "22:00",
+     "price": "15 EUR",
+     "venue_name": "Querido",
+     "genre": "Rock & Indie",
+     "why": "DEAD EVENT LINK REPLACED 2026-09-21 by the daily browser audit. The card was shipping https://entradas.conciertos.club/es/events/querido-malaga, which the box's own 07:30 check reported as a dead 404 — and unlike the other nine conciertos.club '404's in that same mail, THIS ONE IS REAL, not the platform blocking the server. PROOF, read in the browser 2026-09-21 on conciertos.club's own Sala Marte venue page (which renders fine from here): the listing shows 'V2/10/26 22:00 QUERIDO / POP-ROCK/INDIE, SALA MARTE. MALAGA, 15€' with NO 'COMPRAR ENTRADAS' control, while its neighbours on the same page (La Juan Roman 25/9, Gata Brass Band 23/10) DO carry one and DO carry an /events/ link. So the seller is announcing the date but has not opened sales — there is no event page to point at. THE EVENT IS NOT DROPPED: the reader now lands on the seller's dated Sala Marte listing, which names the act, date, time and price, instead of a 404. NO OTHER SELLER: conciertos.club's own Querido artist page lists no upcoming dates, taquilla.com's Sala Marte cartelera does not carry it, and entradas.com's three Malaga-province listings, ECI Malaga, Ticketmaster.es Malaga and Fever Malaga were all read the same day with no match. RE-CHECK: swap to the real /es/events/ URL the moment 'COMPRAR ENTRADAS' appears on that venue page."
     }
    }
   },
@@ -2996,8 +3006,19 @@
    "source": "https://conciertos.club/malaga/locales/sala-core",
    "complete": false,
    "gate": false,
-   "note": "Sala Core, Malaga city. Small indie/rock room, cheap tickets (Fauces + La enfermedad del beso, 5 Sep, 8 EUR - confirmed 2026-08-21). Sofia listed this as 'Sala Velvet / Sala Core'; the listings use SALA CORE, so that is the key. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised.",
-   "acts": {}
+   "note": "Sala Core, Malaga city. Small indie/rock room, cheap tickets (Fauces + La enfermedad del beso, 5 Sep, 8 EUR - confirmed 2026-08-21). Sofia listed this as 'Sala Velvet / Sala Core'; the listings use SALA CORE, so that is the key. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. ACTS IS NO LONGER EMPTY as of 2026-09-21 — see 'nievla'; the block still never injects (not in the WHITELIST) and still never deletes (complete:false, gate:false).",
+   "acts": {
+    "nievla": {
+     "url": "https://entradas.conciertos.club/es/events/nievla-conde-cortina-oniwa",
+     "prefer": "map",
+     "date": "25/09/2026",
+     "time": "20:30",
+     "price": "12 EUR",
+     "venue_name": "Nievla — Conde Cortina",
+     "genre": "Rock & Indie",
+     "why": "STALE SLUG CORRECTED 2026-09-21 by the daily browser audit. The card was shipping https://entradas.conciertos.club/es/events/nievla-conde-cortina and the box's 07:30 check called it a dead 404. UNLIKE most of the conciertos.club '404's in that mail, this verdict was CORRECT: the seller's real slug ends '-oniwa'. Read in the browser 2026-09-21 on conciertos.club's own Sala Core venue page (which renders from here even though the entradas.* checkout host 403s this machine): 'PROXIMOS CONCIERTOS EN SALA CORE — V25/9/26 20:30 NIEVLA + CONDE CORTINA / POP-ROCK/INDIE, SALA CORE. MALAGA, 12€, COMPRAR ENTRADAS' linking to .../es/events/nievla-conde-cortina-oniwa. Act, date, time, venue and price all match our row, and the COMPRAR control is present — so the show is on sale and only the URL was wrong. Time 20:30 and price 12 EUR stamped from the same reading. NO PAYING ALTERNATIVE: entradas.com's three Malaga-province listings, ECI Malaga, Ticketmaster.es Malaga and Fever Malaga were all read in full on 2026-09-21 with no match, so nothing was moved off a commissionable seller."
+    }
+   }
   },
   "elcamm": {
    "source": "https://conciertos.club/malaga/locales/elcamm-el-centro-de-artes-y-musica-moderna-de-malaga",
