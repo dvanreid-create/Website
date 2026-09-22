@@ -2307,7 +2307,8 @@
    "gate": false,
    "urls_by_month": {
     "2026-08": "https://zzpub.es/agenda-agosto-2026/",
-    "2026-09": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/"
+    "2026-09": "https://zzpub.es/conciertos-en-malaga-septiembre-2026/",
+    "2026-10": "https://zzpub.es/conciertos-en-malaga-octubre-2026/"
    },
    "url": "https://zzpub.es/agenda/",
    "prefer": "map",
@@ -2533,6 +2534,237 @@
      "paid_free": "Free",
      "venue_name": "Miami Curl Co.",
      "genre": "Rock & Indie"
+    },
+    "divas-del-soul-2026-10-05": {
+     "date": "05/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Divas del Soul",
+     "genre": "Jazz & Soul"
+    },
+    "divas-del-soul-2026-10-12": {
+     "date": "12/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Divas del Soul",
+     "genre": "Jazz & Soul"
+    },
+    "divas-del-soul-2026-10-19": {
+     "date": "19/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Divas del Soul",
+     "genre": "Jazz & Soul"
+    },
+    "divas-del-soul-2026-10-26": {
+     "date": "26/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Divas del Soul",
+     "genre": "Jazz & Soul"
+    },
+    "children-of-queen-2026-10-06": {
+     "date": "06/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Children of Queen",
+     "genre": "Rock & Indie"
+    },
+    "children-of-queen-2026-10-13": {
+     "date": "13/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Children of Queen",
+     "genre": "Rock & Indie"
+    },
+    "children-of-queen-2026-10-20": {
+     "date": "20/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Children of Queen",
+     "genre": "Rock & Indie"
+    },
+    "children-of-queen-2026-10-27": {
+     "date": "27/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Children of Queen",
+     "genre": "Rock & Indie"
+    },
+    "el-trio-del-saco-2026-10-01": {
+     "date": "01/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "El Trío del Saco",
+     "genre": "Rock & Indie"
+    },
+    "el-trio-del-saco-2026-10-08": {
+     "date": "08/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "El Trío del Saco",
+     "genre": "Rock & Indie"
+    },
+    "el-trio-del-saco-2026-10-15": {
+     "date": "15/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "El Trío del Saco",
+     "genre": "Rock & Indie"
+    },
+    "el-trio-del-saco-2026-10-22": {
+     "date": "22/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "El Trío del Saco",
+     "genre": "Rock & Indie"
+    },
+    "el-trio-del-saco-2026-10-29": {
+     "date": "29/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "El Trío del Saco",
+     "genre": "Rock & Indie"
+    },
+    "35o-aniversario-2026-10-01": {
+     "date": "01/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "35º Aniversario",
+     "genre": "Mixed"
+    },
+    "angela-hoodoo-2026-10-02": {
+     "date": "02/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Ángela Hoodoo",
+     "genre": "Rock & Indie"
+    },
+    "may-day-2026-10-03": {
+     "date": "03/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "May Day",
+     "genre": "Rock & Indie"
+    },
+    "desde-granada-2026-10-04": {
+     "date": "04/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Desde Granada.",
+     "genre": "Rock & Indie"
+    },
+    "the-killer-rockets-2026-10-07": {
+     "date": "07/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "The Killer Rockets",
+     "genre": "Rock & Indie"
+    },
+    "desde-portugal-2026-10-09": {
+     "date": "09/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Desde Portugal.",
+     "genre": "Rock & Indie"
+    },
+    "the-hank-moody-band-2026-10-10": {
+     "date": "10/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "The Hank Moody Band",
+     "genre": "Rock & Indie"
+    },
+    "william-mcshepard-2026-10-11": {
+     "date": "11/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "William McShepard",
+     "genre": "Rock & Indie"
+    },
+    "tyler-faraday-band-2026-10-14": {
+     "date": "14/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Tyler Faraday Band",
+     "genre": "Jazz & Soul"
+    },
+    "something-about-tsunamis-2026-10-16": {
+     "date": "16/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Something About Tsunamis",
+     "genre": "Rock & Indie"
+    },
+    "desde-portugal-2026-10-17": {
+     "date": "17/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Desde Portugal.",
+     "genre": "Rock & Indie"
+    },
+    "ultraligeros-2026-10-18": {
+     "date": "18/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Ultraligeros",
+     "genre": "Tribute"
+    },
+    "desde-serbia-2026-10-20": {
+     "date": "20/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Desde Serbia.",
+     "genre": "Rock & Indie"
+    },
+    "maika-lavera-2026-10-21": {
+     "date": "21/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Maika Lavera",
+     "genre": "Rock & Indie"
+    },
+    "ghost-riders-2026-10-23": {
+     "date": "23/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Ghost Riders",
+     "genre": "Rock & Indie"
+    },
+    "art-club-band-2026-10-24": {
+     "date": "24/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Art Club Band",
+     "genre": "Rock & Indie"
+    },
+    "mystery-machine-2026-10-25": {
+     "date": "25/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Mystery Machine",
+     "genre": "Tribute"
+    },
+    "funkonauts-2026-10-28": {
+     "date": "28/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Funkonauts",
+     "genre": "Jazz & Soul"
+    },
+    "howlin-ramblers-2026-10-30": {
+     "date": "30/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Howlin’ Ramblers",
+     "genre": "Rock & Indie"
+    },
+    "lady-punk-2026-10-31": {
+     "date": "31/10/2026",
+     "time": "23:30",
+     "paid_free": "Free",
+     "venue_name": "Lady Punk",
+     "genre": "Tribute"
     }
    }
   },
