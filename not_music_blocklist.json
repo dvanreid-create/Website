@@ -315,6 +315,12 @@
    "venue": "ogus park",
    "date": "2026-09-19",
    "why": "DUPLICATE CARD, NOT a genre judgement - removed 2026-09-08. Self-inflicted: the sweep-lost recovery block injected this show on 2026-09-08 as 'S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more', then the map's venue_name was edited to the shorter 'S.O.P.H.I.E Festival Chapter 7' in the same session. backfill_calendar dedups on the ACT NAME (covered_acts), so the renamed entry no longer matched the row already in the calendar and a SECOND card shipped for the same night - 19 Sep showed both. The map name has been reverted to the CH#7 string so no further duplicate can be injected; this entry removes the orphan that the rename already created (backfill only ADDS, it never withdraws a row). The CH#7 spelling is the one kept because it is exactly how sophie.es bills the night, which also settles the name-mismatch flag. Scoped to this act name + venue + date so it can never touch the real card."
+  },
+  {
+   "match": "querido",
+   "venue": "Sala Marte",
+   "date": "2026-10-02",
+   "why": "Removed at owner's request 2026-09-22: the Ticketmaster ticket link is dead (TM shows 0 upcoming concerts for Querido) and no working replacement seller was confirmed. Scoped to the 2 Oct 2026 Sala Marte row only."
   }
  ]
 }
