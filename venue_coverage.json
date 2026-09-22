@@ -76,10 +76,10 @@
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
-   "mapped_in_window": 0,
-   "matched": 0,
-   "calendar_in_window": 1,
-   "latest_mapped": "2026-09-12",
+   "mapped_in_window": 1,
+   "matched": 1,
+   "calendar_in_window": 2,
+   "latest_mapped": "2026-09-29",
    "always_on": false,
    "verdict": "ok"
   },

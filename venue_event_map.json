@@ -2633,6 +2633,17 @@
    "source": "https://torremolinoscultura.es/eventos/getforcategory/musica",
    "note": "Ayuntamiento de Torremolinos' official agenda (/eventos/getforcategory/musica). complete:true => BACKFILL-INJECTED so the town-hall events appear (the sweep only ever returned Clarence). RULE (DLR 2026-08-10): include an event only if it maps to a genre in our list (Jazz, Classical, Rock & Indie, Pop, Urban, Mixed, ...). 'Loco Bongo' (interactive game/comedy show) has NO music genre -> EXCLUDED. 'Furor, The Show' is a live TV music game show -> INCLUDED as Pop. 'Bresh' mixes reggaeton/pop/cumbia/house -> genre 'Mixed'. Each act carries its own venue/time/price/genre; city = Torremolinos; source = torremolinoscultura.es (this tags them 'Ayuntamiento').",
    "acts": {
+    "el kanka": {
+     "url": "https://www.torremolinoscultura.es/es/eventos/detail/feria-de-san-miguel-2026-hmfu",
+     "date": "29/09/2026",
+     "time": "20:00",
+     "venue": "Plaza Pablo Ruiz Picasso",
+     "venue_name": "El Kanka",
+     "genre": "Pop",
+     "paid_free": "Free",
+     "price": "Free",
+     "why": "Ayuntamiento de Torremolinos — Feria de San Miguel 2026. El cantautor malagueño El Kanka encabeza el concierto de clausura de la feria en la Plaza Pablo Ruiz Picasso (con Falete, Los Aslándticos y Pepe y Vizio en el cartel). Entrada gratuita. Fuente: torremolinoscultura.es (detalle Feria de San Miguel 2026). BROWSER-CONFIRMED 2026-09-21 (DLR): cost 'Free admission', 29 Sep 2026 20:00, Plaza Pablo Ruiz Picasso, Torremolinos. venue_name kept as 'El Kanka' so the municipal-validity gate (build_site _muni_valid) matches the calendar's own act name."
+    },
     "alberto raya": {
      "url": "https://torremolinoscultura.es/es/eventos/detail/summer-jazz-festival-alberto-raya-mkoy",
      "date": "17/08/2026",
