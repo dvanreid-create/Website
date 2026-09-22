@@ -7,7 +7,7 @@
  "awin_mid": "13034",
  "commission_group": "Conciertos y festivales 1.00% (assisted 0.50%)",
  "gate": "prefer=eci only when eci_from <= box_from; unknown price on either side => box",
- "count": 28,
+ "count": 29,
  "prefer_eci": 23,
  "prefer_box": 5,
  "acts": {
@@ -303,6 +303,16 @@
    "box_from": 25.0,
    "prefer": "eci",
    "why": "same price"
+  },
+  "nina pastori": {
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
+   "eci_from": 44.0,
+   "eci_date": "17/10/2026",
+   "eci_name": "Niña Pastori",
+   "box_name": "Niña Pastori Torremolinos 17/10",
+   "box_from": 44.0,
+   "why": "auto-enforced 2026-09-22: ECI 44 <= box 44 → prefer eci",
+   "prefer": "eci"
   }
  }
 }
