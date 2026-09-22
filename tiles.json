@@ -85,44 +85,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-ddbb6dbde1fcffb4.jpg",
-   "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-09-29",
-   "credit": "Photo: Arrimix00 · CC BY-SA 4.0",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "El Kanka",
-   "sub": {
-    "en": "Tue 29 Sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "es": "Mar 29 sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "de": "Di 29 Sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "fr": "mar. 29 sept. · Plaza Pablo Ruiz Picasso (Feria de",
-    "sv": "tis 29 sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "no": "tir 29 sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "da": "tir 29 sep · Plaza Pablo Ruiz Picasso (Feria de",
-    "fi": "ti 29 syysk. · Plaza Pablo Ruiz Picasso (Feria de"
-   },
-   "url": "https://www.torremolinoscultura.es/es/eventos/detail/feria-de-san-miguel-2026-hmfu",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "logo": "/assets/tiles/ext-0b8921299b981691.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
