@@ -13,6 +13,12 @@
    "_see_also": "The header of this file says CABARET 2.0 is deliberately NOT blocked (Sofia 2026-07-29), but the 'la kermesse redonda' note in venue_event_map.json claims it 'stays excluded' over a menu tier. Those contradict, and CABARET 2.0 does ship with WHY_FILL copy, so the header is right and the Kermesse note is wrong. Flagged 2026-09-15; the dinner-show precedent it appeals to does not exist, which is why this entry rests on 'permanent daily fixture' and not on 'has a menu'."
   },
   {
+   "match": "nebulossa",
+   "venue": "paris",
+   "date": "2026-10-16",
+   "why": "CANCELLED BY THE PROMOTER - removed 2026-09-23 by the daily browser click-test (NOT a genre judgement; this IS live music). 'Nebulossa - Virtuzorrismo Tour', 16 Oct 2026, Sala Paris 15, Malaga. The live site's own Tickets link entradas.conciertos.club/events/virtuzorrismo-tour-malaga was opened in Chrome: the page titles itself 'CONCIERTO NEBULOSSA - MALAGA - VIRTUZORRISMO TOUR', shows 'VARIAS FECHAS' and replaces the ticket selector with 'El evento ha sido cancelado. Este evento ha sido cancelado'. EVERY SELLER WAS SEARCHED BEFORE THE DROP, paying ones first: El Corte Ingles' Malaga province listing (rendered in the browser, not fetched) has no Nebulossa row; entradas.com city ids malaga-490, benalmadena-9255 and estepona-2322 have none; Ticketmaster.es search 'nebulossa' returns '0 Results / No Upcoming Events'; Fever Malaga search returns no match; and the VENUE'S OWN programme at paris15.es/eventos/ jumps 11 Oct (Binomio de Oro) straight to 17 Oct (Sober) with NO 16 Oct date at all - a second, independent signal that the night is off. conciertos.club IS the promoter's own ticketer (entradium white-label) for this date, so there is no third party to route to. The drop therefore costs no commission. Blocked act+venue+date-scoped so the weekly sweep cannot re-add it and so a genuine Nebulossa date elsewhere is untouched; reverse with one edit if the promoter reinstates the show."
+  },
+  {
    "match": "sara hebe",
    "venue": "marte",
    "date": "2026-09-17",
