@@ -4,15 +4,15 @@
  "venues": {
   "auditorio municipal principe de asturias": {
    "complete": false,
-   "source": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
-   "note": "Nina Pastori - Color Fania, Auditorio Municipal Principe de Asturias, Torremolinos, Sat 17 Oct 2026 21:00. The calendar row carries a jacksonlive.es link; route it to the ECI page (El Corte Ingles, Awin 13034) instead. eci_pins.json holds the same pin but patch_eci_aliases.py did not re-apply it to the live map (daily-report alert 2026-09-22), so this repo-side venue_event_map entry guarantees the ECI route regardless of the daily patch. complete:false so it can never phantom-drop. (DLR 2026-09-22)",
+   "source": "https://www.torremolinoscultura.es/",
+   "note": "Nina Pastori - Color Fania, Auditorio Municipal Principe de Asturias, Torremolinos, Sat 17 Oct 2026 21:00. The calendar row carries a jacksonlive.es link; route it to the ECI page (El Corte Ingles, Awin 13034) instead via prefer:eci/url below. eci_pins.json holds the same pin but patch_eci_aliases.py did not re-apply it to the live map (daily-report alert 2026-09-22), so this repo-side venue_event_map entry guarantees the ECI route regardless of the daily patch. complete:false so it can never phantom-drop. (DLR 2026-09-22) | FOLLOW-UP 2026-09-23: the ECI routing WAS reaching the built site (confirmed live in the page's JSON-LD, correct awin1.com/mid=13034 link) but the visible calendar card was still silently dropped every build. Root cause: the calendar row's own Source URL is torremolinoscultura.es, which build_site.py's MUNI_SRC check flags as a municipal-sourced row; that triggers the '_muni_valid' staleness filter (build_site.py ~line 5524), which drops a muni-sourced row unless SOME venue_event_map block that also reads as a muni source (key or source containing a MUNI_SRC domain) lists that EXACT act text under 'venue_name'. This block's source was the ECI url (no MUNI_SRC match) and venue_name was ASCII 'Nina Pastori - Color Fania' (no accent-fold in that specific check), so it silently failed both tests and the card was treated as stale. Fixed by pointing source at torremolinoscultura.es (true - it is where the row was verified) and setting venue_name to the EXACT calendar Act/Lineup text incl. the ñ and em dash. Same pattern already documented on the torremolinoscultura block's own 'el kanka' entry - this act just never had it applied. Verified live after site_deploy.sh: awin1.com ECI link confirmed in JSON-LD.",
    "acts": {
     "nina pastori": {
      "prefer": "eci",
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
      "date": "17/10/2026",
      "venue": "Auditorio Municipal Principe de Asturias",
-     "venue_name": "Nina Pastori - Color Fania"
+     "venue_name": "Niña Pastori — Color Fania"
     }
    }
   },
