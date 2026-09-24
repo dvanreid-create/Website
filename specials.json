@@ -1,12 +1,6 @@
 {
  "specials": [
   {
-   "label": "Cinema Morricone",
-   "program": "box office",
-   "host": "unientradas.es/es/espectaculo/cinema-morricone/26-27MorriconOFM",
-   "expires": "2026-09-24"
-  },
-  {
    "label": "The Animesy",
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/the-animesy-the-anime-symphony-orchestra/26-27AnimesyThe",
