@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "count": 103,
   "items": [
     {
@@ -508,20 +508,6 @@
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
     },
     {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
-    },
-    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -788,6 +774,20 @@
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
     },
     {
+      "sku": "643664",
+      "n": "Tickets for the K",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
+      "url": "https://feverup.com/m/643664/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "LA K"
+    },
+    {
       "sku": "587444",
       "n": "TOP Malaga: Guided Tour with Your Mobile Phone",
       "c": "tours",
@@ -929,7 +929,7 @@
     },
     {
       "sku": "404641",
-      "n": "Ballet of Lights: The Sleeping Beauty in a Dazzling Show",
+      "n": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
       "c": "immersive",
       "cat": "Immersive",
       "v": "Málaga",
@@ -939,7 +939,7 @@
       "url": "https://feverup.com/m/404641/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=404641&u=https%3A%2F%2Ffeverup.com%2Fm%2F404641&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Sleeping Beauty comes to life like never before in this ballet performance in Málaga. It’s classical ballet with a modern twist. Buy your tickets!"
+      "d": "La Bella Durmiente cobra vida como nunca antes en este espectáculo de ballet en Málaga. Es danza clásica con un toque moderno. ¡Compra tus entradas!"
     },
     {
       "sku": "454991",
