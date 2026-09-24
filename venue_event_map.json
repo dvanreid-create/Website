@@ -2108,7 +2108,16 @@
    "source": "https://www.teatrocervantes.com/es/programacion/teatro-echegaray/",
    "complete": false,
    "note": "Teatro Echegaray, sister venue to Teatro Cervantes, managed by Procultura Málaga (same website). Hosts flamenco, jazz cycles, contemporary dance. JS-rendered site. No in-window ticketed events confirmed. Added 2026-07-27 as stub.",
-   "acts": {}
+   "acts": {
+    "metalirica": {
+     "url": "https://www.unientradas.es/es/espectaculo/arquitectura-del-silencio/26-27SilencioArq",
+     "prefer": "map",
+     "date": "01/10/2026",
+     "time": "20:00",
+     "venue_name": "Metalírica 2026 — Tete Leal",
+     "why": "LINK REPAIR 2026-09-24 by the daily browser audit. The box's 07:30 check DROPPED 'Metalirica 2026 - Tete Leal' 01/10 as 'no verifiable buy page found anywhere'. The show is real and on sale: opened in Chrome 2026-09-24, unientradas.es 26-27SilencioArq renders 'ARQUITECTURA DEL SILENCIO, 01 octubre 2026 20:00, TEATRO ECHEGARAY', description 'METALIRICA 2026 ARQUITECTURA DEL SILENCIO TEATRO ECHEGARAY Jueves 01/10/2026 20:00', with the live seat-selection map (rows/seat numbers) - Procultura's own box office for Cervantes+Echegaray. Press (cinemagavia 23/09) confirms Metalirica = Tete Leal setting poets' verses to music, Teatro Echegaray 1-3 Oct 20:00. SELLER: unientradas pays nothing; no paying seller carries it (not on entradas.com's malaga-490 listing, not on ECI's Malaga concerts listing, not a Fever plan - all opened this run). The 02/10 'De menta y barro' and 03/10 'Luz de gas' Echegaray nights are listed on unientradas but not identified as Metalirica on the page itself, so they are NOT added."
+    }
+   }
   },
   "clarence jazz club": {
    "source": "https://www.clarencejazzclub.com/wp/programacion/",

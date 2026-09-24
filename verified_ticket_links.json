@@ -3010,31 +3010,18 @@
    "via": "browser",
    "why": "FALSE DROP CORRECTED 2026-09-15 (DLR flagged it from the box's 09-15 link-check mail, which said '2026-10-08 - LA KONGA: link goes to a different event'). THE LINK IS RIGHT AND THE VERDICT WAS WRONG. Opened in Chrome: feverup.com/m/643664 is 'Entradas para la K'onga en Malaga | Fever', PlanService.getPlanDetail name 'La K'onga en Malaga', defaultPlace 'Sala Paris 15', and firstActiveSessionDate = lastActiveSessionDate = 2026-10-08T21:00:00+02:00 - a single session, on exactly our date, at exactly our venue. ROOT CAUSE: an APOSTROPHE, not a bad link. Our act name is 'LA KONGA' so the expect tokens were 'la'/'konga', but Fever bills the band as 'La K'onga', and norm() maps every non-alphanumeric run to a space, so the page title normalises to 'entradas para la k onga en malaga fever' - the token 'konga' does not exist in it and tokens_present() fails. Hence 'goes to a different event' for a page that is the event. This baseline entry fixes it by expecting 'onga' (a real word in the normalised title) instead of 'konga'; 'malaga' and 'fever' are belt-and-braces. WHY IT WAS STILL ON THE SITE: a drop verdict does not retro-edit an already-built page, and ticket_link_drops.json is rebuilt from scratch every run, so the event returns as soon as its link verifies - which this entry makes it do. PAYING SELLER, so the false drop was costing commission: Fever pays through pxf.io, and the card's decoded link already points at this plan. Nothing was moved and no other seller was considered - there is no reason to leave a paying seller that sells the right night. WATCH FOR THIS SHAPE: any act whose seller spells it with an apostrophe, accent or ampersand can be false-dropped the same way."
   },
-  "la juan roman cumbia en malaga|2026-09-25": {
-   "act": "La Juan Román - Cumbia en Málaga",
-   "date": "2026-09-25",
-   "url": "https://entradas.conciertos.club/es/events/la-juan-roman-cumbia-en-malaga",
+  "metalirica 2026 tete leal|2026-10-01": {
+   "act": "Metalírica 2026 — Tete Leal",
+   "date": "2026-10-01",
+   "url": "https://www.unientradas.es/es/espectaculo/arquitectura-del-silencio/26-27SilencioArq",
    "expect": [
-    "juan",
-    "roman",
-    "cumbia"
+    "silencio",
+    "arquitectura",
+    "unientradas"
    ],
-   "verified": "2026-09-19",
+   "verified": "2026-09-24",
    "via": "browser click-test (Claude in Chrome, sofia@) from the live site",
-   "why": "COVERAGE RECOVERY 2026-09-14, closing the item the 2026-09-11 pass left open. BROWSER-CONFIRMED: conciertos.club renders 'LA JUAN ROMAN CUMBIA EN MALAGA, CLASSIC MALAGUETA (ANTIGUA SALA MARTE), 25.09.2026 21:00' with ENTRADA GENERAL 12,00 EUR and TAQUILLA 15,00 EUR both live (PRIMERAS ENTRADAS 10,00 EUR is Agotadas - inventory state, not an off-sale page). The 09-11 pass said it could not be injected because 'sala marte' is complete:false and unwhitelisted; it is now injected through the whitelisted gate:false 'sweeplost' block instead, the same route used for LA KERMESSE REDONDA. Only seller (no entradas.com, Fever or Ticketmaster row), so no paying alternative was passed over."
-  },
-  "la juan roman|2026-09-25": {
-   "act": "La Juan Román",
-   "date": "2026-09-25",
-   "url": "https://entradas.conciertos.club/es/events/la-juan-roman-cumbia-en-malaga",
-   "expect": [
-    "juan",
-    "roman",
-    "cumbia"
-   ],
-   "verified": "2026-09-14",
-   "via": "browser",
-   "why": "Short-name alias of 'la juan roman cumbia en malaga|2026-09-25' so the baseline matches whichever of the two act names the build ends up shipping, same belt-and-braces as the existing 'china crisis' / 'china crisis uk' pair."
+   "why": "FALSE DROP CORRECTED 2026-09-24. The box's 09-24 link check dropped this as 'no verifiable buy page found anywhere'. Opened in Chrome: unientradas 26-27SilencioArq = 'ARQUITECTURA DEL SILENCIO, 01 octubre 2026 20:00, TEATRO ECHEGARAY', description 'METALIRICA 2026 ARQUITECTURA DEL SILENCIO ... Jueves 01/10/2026 20:00', live seat map. Routed via the new 'metalirica' act in venue_event_map's 'teatro echegaray' block. Non-paying; no paying seller carries it (entradas.com malaga-490, ECI Malaga concerts, Fever Malaga all checked this run). RETIRED IN THE SAME EDIT: 'la juan roman cumbia en malaga|2026-09-25' and its 'la juan roman' alias - on 2026-09-24 entradas.conciertos.club/es/events/la-juan-roman-cumbia-en-malaga returns HTTP 404 in Chrome, the band's own site (lajuanroman.com) now lists Malaga as Thu 24 Sep with an entradium link that also 404s, and taquilla.com shows the 25 Sep date 'No disponible'. No seller anywhere; the box's drop is correct."
   },
   "pituquete y encarna anillo|2026-09-17": {
    "act": "Pituquete y Encarna Anillo",
