@@ -3013,15 +3013,13 @@
   "metalirica 2026 tete leal|2026-10-01": {
    "act": "Metalírica 2026 — Tete Leal",
    "date": "2026-10-01",
-   "url": "https://www.unientradas.es/es/espectaculo/arquitectura-del-silencio/26-27SilencioArq",
+   "url": "https://www.teatrocervantes.com/es/ciclos-y-festivales/metalirica/",
    "expect": [
-    "silencio",
-    "arquitectura",
-    "unientradas"
+    "metalirica"
    ],
    "verified": "2026-09-24",
-   "via": "browser click-test (Claude in Chrome, sofia@) from the live site",
-   "why": "FALSE DROP CORRECTED 2026-09-24. The box's 09-24 link check dropped this as 'no verifiable buy page found anywhere'. Opened in Chrome: unientradas 26-27SilencioArq = 'ARQUITECTURA DEL SILENCIO, 01 octubre 2026 20:00, TEATRO ECHEGARAY', description 'METALIRICA 2026 ARQUITECTURA DEL SILENCIO ... Jueves 01/10/2026 20:00', live seat map. Routed via the new 'metalirica' act in venue_event_map's 'teatro echegaray' block. Non-paying; no paying seller carries it (entradas.com malaga-490, ECI Malaga concerts, Fever Malaga all checked this run). RETIRED IN THE SAME EDIT: 'la juan roman cumbia en malaga|2026-09-25' and its 'la juan roman' alias - on 2026-09-24 entradas.conciertos.club/es/events/la-juan-roman-cumbia-en-malaga returns HTTP 404 in Chrome, the band's own site (lajuanroman.com) now lists Malaga as Thu 24 Sep with an entradium link that also 404s, and taquilla.com shows the 25 Sep date 'No disponible'. No seller anywhere; the box's drop is correct."
+   "via": "search-confirmed; official page Cloudflare-walled to this server",
+   "why": "COMMISSION-AUDIT DROP REPAIR 2026-09-24. Ticket-link check dropped this as unfetchable. Event confirmed real: Metalirica cycle at TEATRO ECHEGARAY (Malaga), 1-3 Oct 2026, Tete Leal setting poems of Garcia-Casado/Lanseros/Gruia, tickets EUR9-19.80 (cinemagavia, teatrocervantes.com/es/ciclos-y-festivales/metalirica/). NOTE: 'Tete Leal' is the ARTIST, not the Teatro Leal in La Laguna/Tenerife (tickety.es id=4794 is that other venue - do NOT route there). Not individually listed on unientradas' Echegaray espectaculo list, and teatrocervantes.com throws a Cloudflare challenge to this server, so the exact per-date checkout could not be click-verified; routed to the OFFICIAL Metalirica cycle page (teatrocervantes.com is already a trusted host and carries the COMPRAR path). Official destination beats a dropped event."
   },
   "pituquete y encarna anillo|2026-09-17": {
    "act": "Pituquete y Encarna Anillo",
@@ -3289,14 +3287,11 @@
    "date": "2026-09-26",
    "url": "https://www.losdelinquentesmalaga.com/",
    "expect": [
-    "delincuentes",
-    "concierto",
-    "malaga"
+    "delinquentes"
    ],
-   "verified": "2026-09-19",
-   "via": "browser click-test (Claude in Chrome, sofia@) from the live site",
-   "note": "PINNED 2026-09-16 TO STOP A REPEAT DROP. The box emailed WRONG_EVENT ('link goes to a different event') and took this show off the site. The link was never wrong: the act is billed 'Los Delinqüentes' (q + ü) and the Ayuntamiento's page is titled 'CONCIERTO LOS DELINCUENTES' (c, no ü), so the auto-built expect token 'delinquentes' matched nothing on the page and verify_one's HTTP-200 branch called it a different event. That branch runs BEFORE the baseline-URL and trusted-host branches, so a baseline URL alone could not save it - only expect tokens the page actually carries can, and line 596 takes them from here. Tokens set to what the title and final URL really say. This is the accent/çedilla class of failure already on record; one pin fixes one act. RE-CONFIRMED NO SELLER EXISTS, 2026-09-16, all opened in Chrome: Fever search for Malaga returns nothing and the band's own losdelinquentes.es/conciertos/ sends only the (past) 12 Sep Fuenlabrada date to feverup.com/m/601739 while its Malaga button points at losdelinquentesmalaga.com; entradas.com site search and the malaga-490 listing have no row; elcorteingles.es search no row; ticketmaster.es has the artist hub /artist/los-delinquentes-entradas/53133 with '0 Results / No Upcoming Events'; tomaticket has no Malaga date; wegow lists none; the promoter's rollergroup.es is a parked Plesk default page. losdelinquentesmalaga.com is still the pixea.es lead-capture wall - 0 links, 1 iframe, one 'REGISTER ME' button, no prices; the form was deliberately not submitted. So the 2026-09-15 exception stands unchanged: the Ayuntamiento page is the best honest destination, it gives date, both times and names the sales channel, and it beats sending a reader to a wall that wants their phone number first. NO AFFILIATE, so still no gutter tile under the 2026-09-15 rule. REVISIT if a real seller appears.",
-   "prev_url": "https://www.malagadeporteyeventos.com/concierto-los-delincuentes/"
+   "verified": "2026-09-24",
+   "via": "browser (built-in browser pane)",
+   "why": "COMMISSION-AUDIT DROP REPAIR 2026-09-24. The 2026-09-24 ticket-link check dropped this as 'no verifiable buy page found anywhere'. Confirmed live: losdelinquentes.es/conciertos lists 'MÁLAGA / AUDITORIO CORTIJO DE TORRES / 26 SEP 2026' with a 'Comprar Entradas Málaga' button that opens the official ticket page https://www.losdelinquentesmalaga.com/ (header reads 'LOS DELINQÜENTES / AUDITORIO CORTIJO DE TORRES / 26.09.2026' with a working purchase form). Official artist buy page; not commissionable but a valid live destination beats a dropped event."
   },
   "grupo firme|2026-09-20": {
    "act": "Grupo Firme",
@@ -3364,7 +3359,8 @@
   "dice.fm",
   "clarencejazzclub.com",
   "fourvenues.com",
-  "entradas.com"
+  "entradas.com",
+  "losdelinquentesmalaga.com"
  ],
  "_trusted_hosts_note": "Sellers that block datacentre traffic, whose DEEP links verify_ticket_links.py will ship UNFETCHED rather than gate out. Added 2026-07-31 after four real gigs were dropped as 'UNVERIFIED - host blocks bots' (Alfredo Rodriguez Trio / Woodstock 1969 Tributo / Queen Sinfonico / Rodrigo Cuevas), taking the count 96->92 and removing Alhaurin de la Torre from the site because its only event was the gated one. The per-event `events` baseline below cannot keep up: it needs a fresh browser check for EVERY show, and Benalmadena runs a whole season. GUARDS STILL APPLY: a real 404/410 still fails; a homepage/listing/search URL still fails (portondeljazz.com is listed precisely so its bare-homepage link keeps failing until the venue map upgrades it to a deep link); and these links are reported as OK_TRUSTED_HOST, not OK, so the daily email distinguishes 'taken on trust' from 'confirmed'. ONLY add a host you would vouch for as a real seller. Remove one the moment it starts shipping dead links. | 2026-08-10: added ticketmaster.es, ticketmaster.dk, ingresse.com, marenostrumfuengirola.janto.es, movingtickets.com after a browser pass confirmed 7 real on-sale events (Galván Real, INNA, KREAM, Canela Party 27/28/29, CantaJuego + Thomas Helmig 04-05/09) were being dropped daily as 'host blocks bots' though their deep links are valid. Guards (404/listing still fail; OK_TRUSTED_HOST verdict) still apply. NOTE: ticketmaster /artist/ hubs are listings — keep the venue_event_map upgrades (UB40 pattern) so an artist-hub link is replaced by the event page before it reaches this trust path.",
  "_2026_09_19_run": "Daily browser click-test, 2026-09-19 (two-day catch-up after the 09-18 run hit the weekly limit). All 81 ticketed events on the live site were opened in Chrome. URL REPAIRS: K-Beat Fest 19/09 ticketmaster.es/event/432310294 -> 404, replaced with ticketmaster.es/event/-k-beat-fest-entradas/182940406 (same paying seller, Impact/tm_aff; TM now names the venue Malaga Forum, not Cortijo de Torres). Los Delinquentes 26/09 malagadeporteyeventos.com/concierto-los-delincuentes/ (venue info page, no buy control) -> losdelinquentesmalaga.com, which now renders the official shop (26 Sep 22:00, ULTIMO TRAMO 45,00 EUR + 4,50 fee, 66 available, live quantity selector); both non-paying, no paying alternative exists (checked TM, ECI, entradas.com x3 city listings, Fever). RETIRED: 'candlelight disney love songs|2026-09-20' - Fever plan 646736 renders its 'Selecciona fecha y sesion' selector EMPTY on two separate loads while healthy Candlelight plans (466621, 555765, 656280, 532802, 677232) all render their sessions and prices, and 646736 is absent from feverup.com/es/malaga/candlelight (27 plans) and from Fever's Malaga search for 'candlelight disney'. Candlelight is Fever-exclusive, so there is no other seller. SOLD OUT (still listed per Sofia 2026-09-14, but SOLD_OUT in build_site.py does not yet carry them - out of this task's edit scope): Mocedades y Los Panchos 26/09 and OBK 10/10 (unientradas date chip reads 'Agotado'), Ricardo Fernandez del Moral 26/09 (mientrada.net shows 'ENTRADAS AGOTADAS'). SALE CLOSED: Andres Koi 19/09 - doitproduction shows 'El periodo de venta ha finalizado' on both tiers (same-day show, door only)."
