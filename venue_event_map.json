@@ -3060,6 +3060,16 @@
      "venue_name": "SIKE",
      "genre": "Rock & Indie",
      "why": "GENERIC-LANDING REPAIR 2026-09-21, same shape as 'pedra' above: the card was shipping entradas.conciertos.club/malaga. conciertos.club's dated agenda (read in browser 2026-09-21) lists under 'Domingo 11 de Octubre': 'SALA TRINCHERA. MALAGA 13,50€ COMPRAR ENTRADAS' at this URL. CAREFUL — the SAME SLUG also appears under 'Miercoles 11 de Noviembre' at 13€ (path /events/ without the /es/ prefix); our row is the OCTOBER one, which is the /es/events/ form listed above, so the two must not be swapped. Destination not openable from here (403 across the entradium platform). NO PAYING ALTERNATIVE (entradas.com x3, ECI Malaga, Ticketmaster.es, Fever Malaga all read 2026-09-21)."
+    },
+    "gonzalo hermida": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gonzalo-hermida-malaga/",
+     "prefer": "map",
+     "date": "22/10/2026",
+     "time": "21:30",
+     "price": "Desde 27,50 EUR",
+     "venue_name": "Gonzalo Hermida — Gira Bandera Libertad",
+     "genre": "Pop",
+     "why": "ADDED 2026-09-24 — MISSING COMMISSIONABLE EVENT, found by cross-referencing ECI's own Malaga concert listing against the live site (32 results checked, this was the one real gap). Not on mutick.com/l/malaga (browser-confirmed 2026-09-24: that page lists only The Silencers, a benefit concert, and Clearwater Creedence Revival — no Gonzalo Hermida), so the deterministic 'trinchera' block below never had a chance to inject him; same failure shape as Sofia Ellar/Perota Chingo/Plastic Woods/Fully Alive Fest above — a Trinchera show sold through a seller other than mutick depends entirely on the weekly LLM sweep, which missed this one. Placed here (hand-maintained, never rewritten), not in 'trinchera' below (rewritten wholesale from mutick every Monday). Browser-confirmed 2026-09-24 on elcorteingles.es/entradas/conciertos/entradas-gonzalo-hermida-malaga/: 'Concierto Gonzalo Hermida en Malaga', 'Fechas: 22 de Octubre de 2026', 'Horario: A las 21:30h', 'Recinto: Sala Trinchera', 'Desde 27,50€', live COMPRAR control. Paying seller: El Corte Ingles, Awin mid 13034."
     }
    }
   },
