@@ -908,6 +908,13 @@
    "source": "https://teatrodelsoho.com/programacion/?temporada=temporada-2025-2026 + ?temporada=temporada-2026-2027",
    "note": "READ BOTH SEASONS, 16 Jul 2026. The bare /programacion/ page is an ALL-SEASONS archive with no years on the dates ('18 - 19 Jul') - unusable. The ?temporada= filter fixes that: it returns ONE season, and the year is then derivable because a Soho season runs Sep->Jul, so Sep-Dec = the FIRST year of the label and Jan-Aug = the SECOND. Gershwin '18 - 19 Jul' in temporada-2025-2026 = 18-19 Jul 2026. Verified against the live calendar, which carries it on exactly those dates. Soho sells through ECI directly (its own 'Compra de entradas' points at elcorteingles.es/entradas/microsites/teatro-soho/), so eci_aff() wraps these and they earn 1% with no price gate needed - same seller, same price. Only the in/near-window entries are listed; the rest of both seasons is past or months out. IF SOHO ANNOUNCES A NEW SHOW, ADD IT HERE: this venue is 'complete', so an event absent from this list is DELETED as a phantom.",
    "acts": {
+    "vivaldianno": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+     "date": "15/10/2026",
+     "venue_name": "Vivaldianno — El resplandor de Venecia",
+     "prefer": "eci",
+     "why": "ADDED 2026-09-24 by the daily browser commission audit - FOUR ECI-EARNING NIGHTS WERE BEING PHANTOM-DROPPED. The box's 2026-09-24 commission audit email reported Vivaldianno 15/16/17/18 Oct 'dropped by: phantom_reason: not on teatro del soho's own programme' - this block is complete:true and did not list it, while the sweeplost block (added 2026-09-21) injects the rows. The show is real and on sale: opened in Chrome 2026-09-24, elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/ renders 'Vivaldianno en Malaga, Fechas: Del 15 de Octubre de 2026 al 18 de Octubre de 2026, Horario: A las 19:00h, Recinto: Teatro del Soho CaixaBank, Desde 24,79EUR' with a live COMPRAR and no off-sale banner. One undated-by-containment key covers all four nights ('vivaldianno' is a whole-word subset of the shipped act name), so phantom_reason() finds an entry for every night. Paying seller: ECI via Awin mid 13034 / affid 2958081."
+    },
     "gershwin in blue": {
      "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-50344503443087-soho_onebox-channel",
      "date": "18/07/2026",
@@ -2268,6 +2275,13 @@
      "url": "https://feverup.com/m/182969/en",
      "date": "22/08/2026",
      "venue_name": "Candlelight: Queen vs. ABBA"
+    },
+    "hans zimmer": {
+     "url": "https://feverup.com/m/405940/en",
+     "date": "11/10/2026",
+     "venue_name": "Candlelight: Tribute to Hans Zimmer",
+     "genre": "Classical",
+     "why": "ADDED 2026-09-24 by the daily browser commission audit - SILENT DROP OF AN EARNING EVENT. On 2026-09-23 the live site carried 11 Fever cards incl. plan 405940; on 2026-09-24 it carried 10 and 405940 was gone, with no removal recorded in not_music_blocklist / fever_buyable_overrides / ticket_link_drops. Opened live in Chrome 2026-09-24: feverup.com/m/405940 'Candlelight: Tributo a Hans Zimmer - Marbella' (Anantara Villa Padierna, Benahavis), ticket-selector session dom 11 oct 19:00 with 3 of 3 zones has_available_tickets=true, from 28,00 EUR; next session 08/01/2027. This block is complete:true and its acts list held only the old August open-air shows, so any Hans Zimmer row at this venue fails phantom_reason() ('not on anantara villa padierna's own programme') - the same show the 677232 Queen vs ABBA card escapes only because 'queen vs abba' is listed. Listing it here disarms that drop and lets backfill inject it. Seller: Fever, paying (fever_aff wraps it to fever.pxf.io/c/7440720/1928078/16345)."
     }
    }
   },
