@@ -824,11 +824,14 @@
      "venue_name": "LA GRANJA"
     },
     "soul on fire": {
-     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51226",
-     "date": "18/09/2026",
-     "time": "20:00",
-     "venue_name": "SOUL ON FIRE",
-     "note": "TIME ADDED 2026-09-01. Fri 18 Sep is the Friday slot of a residency (28/08-27/11), and the venue's schedule is Viernes 20:00 / Sabado 21:00 - so this date is 20:00, not the sweep's guessed 21:00."
+     "url": "https://www.entradas.com/en/event/soul-on-fire-opera-benalmadena-21859763/",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "time": "21:00",
+     "venue": "Ópera Benalmádena",
+     "venue_name": "Soul on Fire",
+     "genre": "Soul",
+     "why": "BROWSER-CONFIRMED 2026-09-25 (daily commission-coverage audit, Claude in Chrome, sofia@): entradas.com event 21859763 renders 'SOUL ON FIRE, Saturday, 24/10/2026 | 21:00, BENALMADENA (MALAGA) | Opera Benalmadena' with a live ticket selector, Precio 1 General 27.50 EUR available (Precio 2/3 partially sold out, not off-sale). REPLACES the prior 18/09/2026 date on this same key, which has passed. This is a NEW recurring date for the Soul on Fire residency that shipped correctly on 18/09 per the 2026-08-29/09-14 rulings (kept on the cheaper non-paying oneboxtds.com seller at 15 EUR that date, since oneboxtds carried it). For THIS date, operabenalmadena's own ticketer (tickets.oneboxtds.com/operabenalmadena/events) does not yet carry a 24/10 Soul on Fire listing (checked this run, no matching event id found), so there is no cheaper alternative to prefer over entradas.com: it is the ONLY confirmed seller for this date, and it pays (Awin mid 24761, awinaffid 2958081, wrapped at build time by build_site.entradas_aff). Found via the entradas.com city-listing coverage sweep (Priority 2.3), not via the onebox venue page, so it would otherwise ship earning nothing or not ship at all. operabenalmadena is on backfill_calendar.py's WHITELIST and this block is complete:true, same injection pattern as 'legends night' (2026-09-14). If onebox later lists this date cheaper, re-route per the standing cheaper-seller rule."
     },
     "la creedance": {
      "url": "https://tickets.oneboxtds.com/operabenalmadena/events/50563",

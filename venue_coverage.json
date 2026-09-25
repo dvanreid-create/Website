@@ -4,10 +4,10 @@
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 7,
-   "matched": 7,
-   "calendar_in_window": 1,
-   "latest_mapped": "2026-10-17",
+   "mapped_in_window": 8,
+   "matched": 8,
+   "calendar_in_window": 2,
+   "latest_mapped": "2026-10-24",
    "always_on": true,
    "verdict": "ok"
   },
