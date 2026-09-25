@@ -1,11 +1,11 @@
 {
- "generated": "2026-09-25",
+ "generated": "2026-09-26",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 8,
-   "matched": 8,
+   "mapped_in_window": 7,
+   "matched": 7,
    "calendar_in_window": 2,
    "latest_mapped": "2026-10-24",
    "always_on": true,
@@ -68,8 +68,8 @@
   "zz pub": {
    "venue": "ZZ PUB",
    "mapped_in_window": 40,
-   "matched": 39,
-   "calendar_in_window": 30,
+   "matched": 38,
+   "calendar_in_window": 29,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "THIN"
@@ -193,27 +193,27 @@
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
-   "mapped_in_window": 3,
-   "matched": 3,
-   "calendar_in_window": 3,
+   "mapped_in_window": 2,
+   "matched": 2,
+   "calendar_in_window": 2,
    "latest_mapped": "2026-09-30",
    "always_on": true,
    "verdict": "ok"
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 13,
-   "matched": 13,
-   "calendar_in_window": 14,
+   "mapped_in_window": 12,
+   "matched": 12,
+   "calendar_in_window": 13,
    "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "ok"
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 28,
-   "matched": 28,
-   "calendar_in_window": 52,
+   "mapped_in_window": 26,
+   "matched": 26,
+   "calendar_in_window": 46,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
