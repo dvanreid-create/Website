@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Ciro y Los Persas",
-      "yt": "xaaEURidIUs",
-      "where": "24 Sep · Sala París 15, Málaga"
-    },
-    {
-      "act": "Ennio Morricone",
-      "yt": "1AyxDVBX2o0",
-      "where": "24 Sep · Teatro Cervantes, Málaga"
-    },
-    {
       "act": "Vicente Amigo",
       "yt": "kHDiICpwZg4",
       "where": "25 Sep · Teatro Cervantes, Málaga"
@@ -44,6 +34,16 @@
       "act": "Ocean Colour Scene",
       "yt": "brzzM31G4x8",
       "where": "29 Sep · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Pepe Romero",
+      "yt": "-oxH-7VklBI",
+      "where": "30 Sep · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Fórmula V",
+      "yt": "FJi5Xd9Egzk",
+      "where": "01 Oct · Teatro Cervantes, Málaga"
     }
   ],
   "thumbs": {
