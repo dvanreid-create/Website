@@ -53,6 +53,13 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .hero .intro{font-size:15.5px;color:#cfdae1;max-width:770px;line-height:1.6;}
 .hero .intro b{color:#fff;font-weight:600;}
 .hero .glow{position:absolute;right:-70px;top:-50px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(232,102,42,.24),transparent 65%);}
+/* Homepage hero redesign (DLR 2026-09-25) */
+.hero .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.20);color:#dfe9f1;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:6px 13px;border-radius:20px;margin-bottom:8px;}
+.hero .hero-eyebrow .he-dot{width:8px;height:8px;border-radius:50%;background:#37d67a;box-shadow:0 0 0 4px rgba(55,214,122,.22);}
+.hero h1.heroline{font-size:clamp(26px,3.4vw,40px);line-height:1.12;white-space:normal;max-width:900px;}
+.hero .buypill{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;background:rgba(31,138,84,.22);border:1px solid rgba(55,214,122,.45);color:#eafff2;border-radius:22px;padding:9px 16px;font-size:13px;font-weight:700;margin-top:12px;}
+.hero .buypill svg{width:15px;height:15px;fill:#5ef2a0;flex:none;}
+@media(max-width:760px){.hero .buypill{white-space:normal;align-items:flex-start;line-height:1.4;}}
 /* phones: the corner glow crowds the H1 and tints the text area orange — hide it there */
 @media(max-width:640px){.hero .glow{display:none;}}
 .hsearch{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:20px;}
@@ -533,7 +540,7 @@ function go(livePaid){
 fetch('/tiles-live.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(lv){go((lv&&lv.ads)||[]);}).catch(function(){go([]);});})();
 
 fetch('/stats.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){if(d&&d.minutes){document.querySelectorAll('.dur').forEach(function(e){e.textContent=d.minutes;});}}).catch(function(){});
-(function(){var h=document.querySelector('.hero h1');if(!h)return;function fit(){h.style.whiteSpace='nowrap';h.style.fontSize='';var fs=parseFloat(getComputedStyle(h).fontSize),g=0;while(h.scrollWidth>h.clientWidth&&fs>17&&g<90){fs-=1;h.style.fontSize=fs+'px';g++;}if(h.scrollWidth>h.clientWidth){h.style.whiteSpace='normal';}}fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('resize',fit);})();
+(function(){var h=document.querySelector('.hero h1');if(!h||h.classList.contains('heroline'))return;function fit(){h.style.whiteSpace='nowrap';h.style.fontSize='';var fs=parseFloat(getComputedStyle(h).fontSize),g=0;while(h.scrollWidth>h.clientWidth&&fs>17&&g<90){fs-=1;h.style.fontSize=fs+'px';g++;}if(h.scrollWidth>h.clientWidth){h.style.whiteSpace='normal';}}fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('resize',fit);})();
 /* Right-align the MLE Score pill to the content edge (level with the Free only chip + Special
    Events gutter) and keep the caption centred under it, WITHOUT moving the language pill — a
    transform doesn't reflow the header, so the langsel stays put. Desktop only (>1000px);
