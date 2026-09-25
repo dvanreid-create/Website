@@ -693,6 +693,84 @@
     "da": "Billetter →",
     "fi": "Liput →"
    }
+  },
+  {
+   "photo": "/assets/tiles/ext-93a8727ea1ccba47.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Queen vs. The Beatles",
+   "headBottom": true,
+   "expires": "2026-10-25",
+   "sub": {
+    "en": "Sun 25 Oct · Hotel Miramar · Málaga",
+    "es": "Dom 25 oct · Hotel Miramar · Málaga",
+    "de": "So 25 Okt · Hotel Miramar · Málaga",
+    "fr": "dim. 25 oct. · Hotel Miramar · Málaga",
+    "sv": "sön 25 okt · Hotel Miramar · Málaga",
+    "no": "søn 25 okt · Hotel Miramar · Málaga",
+    "da": "søn 25 okt · Hotel Miramar · Málaga",
+    "fi": "su 25 lokak. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=259530&u=https%3A%2F%2Ffeverup.com%2Fm%2F259530&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay vs. Ed Sheeran",
+   "headBottom": true,
+   "expires": "2026-10-25",
+   "sub": {
+    "en": "Sun 25 Oct · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 25 oct · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 25 Okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 25 oct. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 25 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 25 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 25 okt · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 25 lokak. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643700&u=https%3A%2F%2Ffeverup.com%2Fm%2F643700&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
   }
  ],
  "info": [

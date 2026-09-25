@@ -68,8 +68,8 @@
   "zz pub": {
    "venue": "ZZ PUB",
    "mapped_in_window": 40,
-   "matched": 38,
-   "calendar_in_window": 29,
+   "matched": 39,
+   "calendar_in_window": 30,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "THIN"
@@ -177,7 +177,7 @@
    "venue": "Salón Real del Gran Hotel Miramar",
    "mapped_in_window": 0,
    "matched": 0,
-   "calendar_in_window": 5,
+   "calendar_in_window": 7,
    "latest_mapped": "2026-09-20",
    "always_on": true,
    "verdict": "ok"
