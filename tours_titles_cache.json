@@ -16263,16 +16263,16 @@
     }
   },
   "viator:8512P70": {
-    "h": "17e31915bdcc445b5202e55dd04c1e71",
+    "h": "6814f254c699592a1aa88f3f0e63f162",
     "names": {
-      "en": "Caminito del Rey Trekking Walkway",
-      "es": "Trekking por la pasarela del Caminito del Rey",
-      "de": "Caminito del Rey – Trekking auf dem Königspfad",
-      "fr": "Randonnée sur la passerelle du Caminito del Rey",
-      "sv": "Caminito del Rey vandringsled",
-      "no": "Caminito del Rey – vandring langs gangbanen",
-      "da": "Caminito del Rey - vandring på gangbroen",
-      "fi": "Caminito del Rey -patikointireitti"
+      "en": "Malaga: Caminito del Rey Walkway Guided Tour",
+      "es": "Málaga: Tour guiado por el Caminito del Rey",
+      "de": "Malaga: Geführte Wanderung auf dem Caminito del Rey",
+      "fr": "Malaga : visite guidée du Caminito del Rey",
+      "sv": "Malaga: Guidad tur på gångbron Caminito del Rey",
+      "no": "Malaga: Guidet tur på Caminito del Rey",
+      "da": "Málaga: Guidet vandretur på Caminito del Rey",
+      "fi": "Malaga: Caminito del Rey -kävelyreitin opastettu kierros"
     }
   },
   "viator:165158P4": {
@@ -19071,16 +19071,16 @@
     }
   },
   "404641": {
-    "h": "75e7453d6fc4bf74bb4c08c329d7b92f",
+    "h": "cb9a431c5758930c37b917dad93e4ce4",
     "names": {
-      "en": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
-      "es": "Ballet of Lights: La Bella Durmiente en un espectáculo deslumbrante",
+      "en": "Ballet of Lights: The Sleeping Beauty in a Dazzling Show",
+      "es": "Ballet de Luces: La Bella Durmiente en un Espectáculo Deslumbrante",
       "de": "Ballet of Lights: Dornröschen in einer atemberaubenden Show",
-      "fr": "Ballet of Lights : La Belle au Bois Dormant dans un spectacle éblouissant",
+      "fr": "Ballet of Lights : La Belle au bois dormant dans un spectacle éblouissant",
       "sv": "Ballet of Lights: Törnrosa i en bländande föreställning",
-      "no": "Ballet of Lights: La Bella Durmiente i et strålende show",
-      "da": "Ballet of Lights: Tornerose i et blændende show",
-      "fi": "Ballet of Lights: Prinsessa Ruusunen häikäisevässä esityksessä"
+      "no": "Ballet of Lights: Tornerose i et strålende show",
+      "da": "Ballet of Lights: Tornerose i et fantastisk show",
+      "fi": "Valojen baletti: Prinsessa Ruusunen häikäisevässä näytöksessä"
     }
   },
   "454991": {
@@ -22045,6 +22045,32 @@
       "no": "Utflukt til Antequera, Torcal, dolmener og historisk sentrum",
       "da": "Udflugt til Antequera, Torcal og dolmenerne samt historisk centrum",
       "fi": "Retki Antequeran Torcalin dolmeneille ja historialliseen keskustaan"
+    }
+  },
+  "776543": {
+    "h": "c84fc89d8917a62496a7bbf87e61fa23",
+    "names": {
+      "en": "Pinta tu pieza de cerámica con vino ilimitado en Bspark Málaga",
+      "es": "Pinta tu pieza de cerámica con vino ilimitado en Bspark Málaga",
+      "de": "Bemale deine Keramik mit unbegrenztem Wein in Bspark Málaga",
+      "fr": "Peignez votre pièce en céramique avec vin à volonté à Bspark Málaga",
+      "sv": "Måla din egen keramikbit med obegränsat vin på Bspark Málaga",
+      "no": "Mal din egen keramikk med ubegrenset vin hos Bspark Málaga",
+      "da": "Mal din keramikgenstand med ubegrænset vin hos Bspark Málaga",
+      "fi": "Maalaa keramiikkaesineesi rajattomalla viinillä Bspark Málagassa"
+    }
+  },
+  "viator:5689628P8": {
+    "h": "1fc884162e0e09f9171ab697e66ca9a3",
+    "names": {
+      "en": "Fuengirola guided Can Am Ryker 900 Tour 3h",
+      "es": "Tour guiado en Can Am Ryker 900 por Fuengirola 3h",
+      "de": "Geführte Can-Am-Ryker-900-Tour in Fuengirola, 3 Std.",
+      "fr": "Fuengirola : visite guidée en Can Am Ryker 900 de 3h",
+      "sv": "Fuengirola guidad Can Am Ryker 900-tur 3h",
+      "no": "Fuengirola guidet Can Am Ryker 900-tur 3t",
+      "da": "Guidet Can Am Ryker 900-tur i Fuengirola, 3 timer",
+      "fi": "Fuengirola: opastettu Can Am Ryker 900 -kierros 3h"
     }
   }
 }

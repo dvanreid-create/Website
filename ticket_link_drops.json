@@ -1,10 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-09-24",
- "drops": {
-  "La Juan Román — Cumbia en Málaga": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Los Delinqüentes": "CANNOT_FIX — no verifiable buy page (candidate rejected (GENERIC: homepage/search/listing: https://www.losdelinquentesmalaga.com/))",
-  "Metalírica 2026 — Tete Leal": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Camela": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
- }
+ "generated": "2026-09-25",
+ "drops": {}
 }
