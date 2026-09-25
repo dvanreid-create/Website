@@ -87,6 +87,10 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .shelf-slot{flex:0 0 258px;height:320px;}
 .flank-slot .rib.cl-rib{background:transparent;color:#fff;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:16px;letter-spacing:.3px;text-transform:none;padding:7px 12px;text-shadow:0 2px 8px rgba(0,0,0,.6);border-radius:0;}
 .mltv{max-width:680px;margin-left:auto;margin-right:auto;}
+.sp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+@media(max-width:900px){.sp-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:520px){.sp-grid{grid-template-columns:1fr;}}
+.sp-slot{height:320px;}
 /* phones: the corner glow crowds the H1 and tints the text area orange — hide it there */
 @media(max-width:640px){.hero .glow{display:none;}}
 .hsearch{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:20px;}
