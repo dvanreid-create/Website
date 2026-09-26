@@ -28,7 +28,7 @@
 body{font-family:'Inter',system-ui,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
 .disp{font-family:'Anton','Arial Narrow',sans-serif;font-weight:400;letter-spacing:.5px;}
 a{color:inherit;text-decoration:none;}
-.wrap{max-width:1300px;margin:0 auto;padding:0 22px;}
+.wrap{max-width:1276px;margin:0 auto;padding:0 22px;}  /* DO NOT WIDEN. 1276 = pre-redesign content width (720 centre + 2×(28 gap + 250 rail)). DLR 2026-09-25: this width is deliberate so the WHOLE site is viewable without horizontal scroll on common Spanish laptop screens (e.g. 1366px wide). */
 .btn{font-weight:600;font-size:13px;border:none;border-radius:9px;padding:9px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;}
 .btn-coral{background:var(--coral);color:#fff;} .btn-ghost{background:#fff;border:1px solid #cdd6dc;color:var(--sea);}
 .chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:8px 13px;border-radius:22px;white-space:nowrap;}
@@ -77,7 +77,7 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .vhub-c{display:block;font-size:13px;color:var(--mut);margin-top:2px;} .vhub-c b{color:var(--coral);}
 /* Homepage two shelves (DLR 2026-09-25) — replace the 3-column masthead */
 .grid{display:block !important;}
-.shelf{max-width:1120px;margin:0 auto;padding:0;}
+.shelf{max-width:none;margin:0 auto;padding:0;}  /* fill the content wrap so shelves match the subscribe card + calendar width (DLR 2026-09-25) */
 .sh-h{display:flex;align-items:flex-end;justify-content:space-between;margin:28px 0 14px;gap:10px;}
 .sh-t{font-family:'Anton',sans-serif;font-size:22px;letter-spacing:1.2px;text-transform:uppercase;color:var(--navy);line-height:1;}
 .sh-sub{font-family:'Inter',sans-serif;font-size:9px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:#993C1D;margin-top:6px;}
@@ -210,9 +210,6 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .ev .act{display:flex;flex-direction:column;align-items:flex-end;gap:8px;white-space:nowrap;}
 
 .news{margin-top:20px;border-radius:14px;padding:20px;color:#fff;background:radial-gradient(700px 220px at 8% -30%,#1d4d64,var(--navy));}
-/* Match the subscribe card + events calendar to the shelves' viewable width (.shelf = 1120px, centered)
-   so they don't stretch wider than Hot Sellers & Candlelight / Special & Featured above them (DLR 2026-09-25). */
-.news,.evbar,.daylabel,.ev,#nores{max-width:1120px;margin-left:auto;margin-right:auto;}
 .news h3{font-size:19px;margin-bottom:5px;} .news p{font-size:13px;color:#c9d5dd;max-width:560px;margin-bottom:13px;}
 .news .row{display:flex;gap:9px;max-width:460px;} .news .row .em{flex:1;background:#fff;border-radius:9px;color:var(--mut);font-size:13px;padding:11px 12px;}
 
@@ -235,7 +232,7 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 footer{background:var(--navy);color:#fff;padding:26px 0;}
 .foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;}
 .langline{font-size:11px;color:#9fb3bf;} .langline b{color:#c9d5dd;font-weight:500;}
-.note{max-width:1300px;margin:14px auto 40px;padding:0 22px;font-size:12px;color:var(--mut);text-align:center;}
+.note{max-width:1276px;margin:14px auto 40px;padding:0 22px;font-size:12px;color:var(--mut);text-align:center;}
 
 @media(max-width:1000px){.grid{grid-template-columns:1fr;}.flank-rail,.trail{position:static;top:auto;}.feat{display:grid;grid-template-columns:repeat(2,1fr);overflow:visible;}.feat::-webkit-scrollbar{display:none;}.fcard{scroll-snap-align:none;}}
 /* keep the Special Events (.trail) + Subscribe (.news) squares full-width & centred on mobile,
@@ -321,7 +318,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
   <div class="glow"></div>
   <div class="wrap">
     <h1 class="disp">Conciertos de Rock e indie en Málaga y la Costa del Sol</h1><p class="pgsub" style="font-size:16px;line-height:1.5;max-width:880px;margin:10px 0 0;opacity:.9">48 eventos de música en directo en Rock e indie (21 SEP–24 OCT 2026): desde Motown Band + Diva del Soul, The Children of Queen, Fat Beat y muchos más. Conciertos, festivales, DJ, flamenco y eventos gratis, actualizados cada semana.</p><p class="pgsub" style="font-size:15px;line-height:1.5;max-width:880px;margin:8px 0 0;opacity:.82">El rock y el indie suenan en la Costa del Sol en salas, escenarios de bares y festivales de verano de Málaga a Marbella.</p>
-    <p class="intro"><b>Málaga Live es la guía <span class="hi-live" style="color:#E8662A">de confianza</span> en 8 idiomas de música en vivo en Málaga capital y la Costa del Sol</b> — con <span id="herocnt">41</span> eventos publicados para 26 Sep–24 Oct 2026, incluidos San Pedro Rock 2026, Los Delinqüentes, Ocean Colour Scene y más. Explora conciertos, festivales, flamenco, jazz, Candlelight y conciertos gratis por ciudad, fecha o género.</p><p class="herobuy" style="font-weight:700;color:#fff;margin:8px 0 0">Compra tus entradas para eventos musicales a los precios oficiales de venta primaria más bajos verificados, sin comisiones ni recargos.</p>
+    <p class="intro"><b>Málaga Live es la guía <span class="hi-live" style="color:#E8662A">de confianza</span> en 8 idiomas de música en vivo en Málaga capital y la Costa del Sol</b> — con <span id="herocnt">41</span> eventos publicados para 26 Sep–24 Oct 2026, incluidos San Pedro Rock 2026, Los Delinqüentes, Ocean Colour Scene, Sidecars y más. Explora conciertos, festivales, flamenco, jazz, Candlelight y conciertos gratis por ciudad, fecha o género.</p><p class="herobuy" style="font-weight:700;color:#fff;margin:8px 0 0">Compra tus entradas para eventos musicales a los precios oficiales de venta primaria más bajos verificados, sin comisiones ni recargos.</p>
     <div class="hsearch">
       <label class="si"><i class="ti ti-search"></i><input id="searchf" type="text" placeholder="Buscar artista o sala…" aria-label="Buscar artista o sala" style="border:0;background:transparent;outline:0;flex:1;min-width:0;font:inherit;color:var(--ink);"></label>
       <div class="hchips">

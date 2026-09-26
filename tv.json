@@ -1,21 +1,6 @@
 {
   "clips": [
     {
-      "act": "Vicente Amigo",
-      "yt": "kHDiICpwZg4",
-      "where": "25 Sep · Teatro Cervantes, Málaga"
-    },
-    {
-      "act": "Manolo García",
-      "yt": "LAGnTMIurOA",
-      "where": "25 Sep · Auditorio de Benalmádena, Benalmádena"
-    },
-    {
-      "act": "Sofía Ellar",
-      "yt": "To81nXRrv1M",
-      "where": "25 Sep · Sala La Trinchera, Málaga"
-    },
-    {
       "act": "Mocedades",
       "yt": "A5vaIjBQnmk",
       "where": "26 Sep · Teatro Cervantes, Málaga"
@@ -44,6 +29,16 @@
       "act": "Fórmula V",
       "yt": "FJi5Xd9Egzk",
       "where": "01 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Javier Ruibal",
+      "yt": "Fg7DSmFF5m4",
+      "where": "02 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Sidecars",
+      "yt": "g1bH7YWiZrk",
+      "where": "02 Oct · Sala París 15, Málaga"
     }
   ],
   "thumbs": {
@@ -57,6 +52,8 @@
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Santi Muk in Malaga": "wUUKTL0C5A8",
     "Candlelight: The Best of the 80s": "djV11Xbc914",
+    "Candlelight: Queen vs. The Beatles": "A_MjCqQoLLA",
+    "Candlelight: Coldplay vs. Ed Sheeran": "2Vv-BfVoq4g",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
     "Miguel Ríos": "Rm-yZGvcf2U",
