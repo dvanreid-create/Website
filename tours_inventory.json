@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-25",
-  "count": 102,
+  "generated": "2026-09-26",
+  "count": 104,
   "items": [
     {
       "sku": "194665",
@@ -438,6 +438,20 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -606,20 +620,6 @@
       "d": "Museo Picasso Málaga: Tour guiado in Málaga. Get your tickets on Fever now!"
     },
     {
-      "sku": "776543",
-      "n": "Pinta tu pieza de cerámica con vino ilimitado en Bspark Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €35",
-      "img": "ed5a25c8-b73d-11f1-834d-e6e5e2d14467.jpeg",
-      "url": "https://feverup.com/m/776543/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=776543&u=https%3A%2F%2Ffeverup.com%2Fm%2F776543&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "¡Pinta tu propia pieza de cerámica mientras disfrutas de vino ilimitado o una bebida de cortesía en una sesión creativa relajada en Bspark Málaga! ¡Consigue tus entradas ahora!"
-    },
-    {
       "sku": "693794",
       "n": "Ronda and Setenil: Day Trip from Málaga",
       "c": "tours",
@@ -772,6 +772,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=328893&u=https%3A%2F%2Ffeverup.com%2Fm%2F328893&intsrc=CATF_15532",
       "feat": 0,
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
+    },
+    {
+      "sku": "643664",
+      "n": "Tickets for the K",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
+      "url": "https://feverup.com/m/643664/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "LA K"
     },
     {
       "sku": "587444",
@@ -1094,6 +1108,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy an immersive artistic experience with wine and fluorescent paint at Neón Art&Wine at Bspark Málaga. Get your tickets now!"
+    },
+    {
+      "sku": "776543",
+      "n": "Paint Your Ceramic Piece with Unlimited Wine at Bspark Malaga",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €35",
+      "img": "ed5a25c8-b73d-11f1-834d-e6e5e2d14467.jpeg",
+      "url": "https://feverup.com/m/776543/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=776543&u=https%3A%2F%2Ffeverup.com%2Fm%2F776543&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Paint your own piece of pottery whilst enjoying unlimited wine or a complimentary drink during a relaxed creative session at Bspark Málaga! Get your tickets now!"
     },
     {
       "sku": "475995",

@@ -15964,16 +15964,15 @@
     }
   },
   "viator:113310P51": {
-    "h": "76edb03383366df674287d2994b4bfa3",
+    "h": "3166d89f59734fc19875bc0a0b77dc8d",
     "names": {
-      "en": "Caminito del rey Entrance tickets and guided tour",
-      "es": "Caminito del Rey: entradas y tour guiado",
-      "de": "Caminito del Rey: Eintrittskarten und geführte Tour",
-      "fr": "Caminito del Rey : billets d'entrée et visite guidée",
-      "sv": "Caminito del Rey: Inträdesbiljetter och guidad tur",
-      "no": "Caminito del Rey inngangsbilletter og guidet tur",
-      "da": "Caminito del Rey: Entrébilletter og guidet tur",
-      "fi": "Caminito del Rey pääsyliput ja opastettu kierros"
+      "en": "Malaga: Caminito del Rey Ticket & Guided Tour",
+      "es": "Malaga: Entrada al Caminito del Rey y Tour Guiado",
+      "de": "Malaga: Ticket & geführte Tour Caminito del Rey",
+      "fr": "Malaga : billet Caminito del Rey et visite guidée",
+      "sv": "Malaga: Biljett till Caminito del Rey & guidad tur",
+      "no": "Malaga: Billett og guidet tur til Caminito del Rey",
+      "fi": "Malaga: Caminito del Rey -lippu ja opastettu kierros"
     }
   },
   "viator:113310P45": {
@@ -16393,16 +16392,15 @@
     }
   },
   "viator:113310P47": {
-    "h": "09831334925bf2fe1603a0d24c6c2b7b",
+    "h": "577d910b143905619944bc28d0c722ab",
     "names": {
-      "en": "El Caminito del Rey tour from Malaga with Alora village + Tapas",
-      "es": "Tour al Caminito del Rey desde Malaga con el pueblo de Alora + tapas",
-      "de": "Caminito del Rey Tour ab Malaga mit Dorf Alora + Tapas",
-      "fr": "Excursion au Caminito del Rey depuis Malaga avec le village d'Alora + tapas",
-      "sv": "Caminito del Rey-tur från Malaga med byn Alora + tapas",
-      "no": "Caminito del Rey-tur fra Malaga med landsbyen Alora + tapas",
-      "da": "El Caminito del Rey-tur fra Malaga med landsbyen Alora + Tapas",
-      "fi": "Caminito del Rey -kierros Malagasta Aloran kylä + tapakset"
+      "en": "Malaga: Caminito del Rey, Alora Village & Tapas",
+      "es": "Malaga: Caminito del Rey, Pueblo de Alora y Tapas",
+      "de": "Malaga: Caminito del Rey, Dorf Alora & Tapas",
+      "fr": "Malaga : Caminito del Rey, village d'Alora et tapas",
+      "sv": "Malaga: Caminito del Rey, byn Alora & tapas",
+      "no": "Malaga: Caminito del Rey, landsbyen Alora og tapas",
+      "fi": "Malaga: Caminito del Rey, Aloran kylä ja tapas"
     }
   },
   "viator:17739P40": {
@@ -22048,16 +22046,15 @@
     }
   },
   "776543": {
-    "h": "c84fc89d8917a62496a7bbf87e61fa23",
+    "h": "1408d9d9271d41e6c5778e6708e0c0d8",
     "names": {
-      "en": "Pinta tu pieza de cerámica con vino ilimitado en Bspark Málaga",
-      "es": "Pinta tu pieza de cerámica con vino ilimitado en Bspark Málaga",
-      "de": "Bemale deine Keramik mit unbegrenztem Wein in Bspark Málaga",
-      "fr": "Peignez votre pièce en céramique avec vin à volonté à Bspark Málaga",
-      "sv": "Måla din egen keramikbit med obegränsat vin på Bspark Málaga",
-      "no": "Mal din egen keramikk med ubegrenset vin hos Bspark Málaga",
-      "da": "Mal din keramikgenstand med ubegrænset vin hos Bspark Málaga",
-      "fi": "Maalaa keramiikkaesineesi rajattomalla viinillä Bspark Málagassa"
+      "en": "Paint Your Ceramic Piece with Unlimited Wine at Bspark Malaga",
+      "es": "Pinta tu Pieza de Cerámica con Vino Ilimitado en Bspark Malaga",
+      "de": "Bemale deine Keramik mit unbegrenztem Wein bei Bspark Malaga",
+      "fr": "Peignez votre pièce en céramique avec vin à volonté à Bspark Malaga",
+      "sv": "Måla din keramikbit med obegränsat vin på Bspark Malaga",
+      "no": "Mal keramikkstykket ditt med ubegrenset vin hos Bspark Malaga",
+      "fi": "Maalaa keramiikkaesineesi ja nauti rajattomasti viiniä Bspark Malagassa"
     }
   },
   "viator:5689628P8": {
@@ -22071,6 +22068,42 @@
       "no": "Fuengirola guidet Can Am Ryker 900-tur 3t",
       "da": "Guidet Can Am Ryker 900-tur i Fuengirola, 3 timer",
       "fi": "Fuengirola: opastettu Can Am Ryker 900 -kierros 3h"
+    }
+  },
+  "viator:113310P46": {
+    "h": "faecd2fd3307d107f7fda2632fec36ce",
+    "names": {
+      "en": "Malaga: Caminito del Rey Day Trip by Coach",
+      "es": "Malaga: Excursión de un Día al Caminito del Rey en Autocar",
+      "de": "Malaga: Tagesausflug zum Caminito del Rey mit dem Bus",
+      "fr": "Malaga : excursion d'une journée au Caminito del Rey en autocar",
+      "sv": "Malaga: Dagsutflykt till Caminito del Rey med buss",
+      "no": "Malaga: Dagstur med buss til Caminito del Rey",
+      "fi": "Malaga: Caminito del Rey -päiväretki linja-autolla"
+    }
+  },
+  "viator:121471P28": {
+    "h": "0d0465f8ddd07f750c5dbdeaeb329594",
+    "names": {
+      "en": "Antequera Palaeolithic and Torcal World Heritage from Malaga",
+      "es": "Patrimonio Mundial Paleolítico de Antequera y El Torcal desde Malaga",
+      "de": "Antequera Paläolithikum und Torcal Weltnaturerbe ab Malaga",
+      "fr": "Antequera paléolithique et Torcal, patrimoine mondial, au départ de Malaga",
+      "sv": "Antequera Paleolitikum och Torcal Världsarv från Malaga",
+      "no": "Antequera paleolittisk og Torcal verdensarv fra Malaga",
+      "fi": "Antequeran paleoliittinen kausi ja Torcalin maailmanperintökohde Malagasta"
+    }
+  },
+  "viator:5691182P2": {
+    "h": "0c12aa7da276dedf5eaad06bd77f3b2e",
+    "names": {
+      "en": "Excursion to Caminito del Rey and Tajo Gorge in Ronda",
+      "es": "Excursión al Caminito del Rey y la Garganta del Tajo en Ronda",
+      "de": "Ausflug zum Caminito del Rey und zur Tajo-Schlucht in Ronda",
+      "fr": "Excursion au Caminito del Rey et aux gorges du Tage à Ronda",
+      "sv": "Utflykt till Caminito del Rey och Tajoklyftan i Ronda",
+      "no": "Utflukt til Caminito del Rey og Tajo-kløften i Ronda",
+      "fi": "Retki Caminito del Reyhin ja Tajon rotkoon Rondassa"
     }
   }
 }
