@@ -211,6 +211,9 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .ev .act{display:flex;flex-direction:column;align-items:flex-end;gap:8px;white-space:nowrap;}
 
 .news{margin-top:20px;border-radius:14px;padding:20px;color:#fff;background:radial-gradient(700px 220px at 8% -30%,#1d4d64,var(--navy));}
+/* Match the subscribe card + events calendar to the shelves' viewable width (.shelf = 1120px, centered)
+   so they don't stretch wider than Hot Sellers & Candlelight / Special & Featured above them (DLR 2026-09-25). */
+.news,.evbar,.daylabel,.ev,#nores{max-width:1120px;margin-left:auto;margin-right:auto;}
 .news h3{font-size:19px;margin-bottom:5px;} .news p{font-size:13px;color:#c9d5dd;max-width:560px;margin-bottom:13px;}
 .news .row{display:flex;gap:9px;max-width:460px;} .news .row .em{flex:1;background:#fff;border-radius:9px;color:var(--mut);font-size:13px;padding:11px 12px;}
 
