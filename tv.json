@@ -1,21 +1,6 @@
 {
   "clips": [
     {
-      "act": "Mocedades",
-      "yt": "A5vaIjBQnmk",
-      "where": "26 Sep · Teatro Cervantes, Málaga"
-    },
-    {
-      "act": "Raimundo Amador",
-      "yt": "yKSTRJP-M6A",
-      "where": "26 Sep · Sala París 15, Málaga"
-    },
-    {
-      "act": "Los Delinqüentes",
-      "yt": "O6accG0Foz4",
-      "where": "26 Sep · Auditorio Cortijo de Torres, Málaga"
-    },
-    {
       "act": "Ocean Colour Scene",
       "yt": "brzzM31G4x8",
       "where": "29 Sep · Teatro Cervantes, Málaga"
@@ -24,6 +9,11 @@
       "act": "Pepe Romero",
       "yt": "-oxH-7VklBI",
       "where": "30 Sep · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Perotá Chingó",
+      "yt": "_aIuna5a8Dc",
+      "where": "30 Sep · Sala La Trinchera, Málaga"
     },
     {
       "act": "Fórmula V",
@@ -39,6 +29,16 @@
       "act": "Sidecars",
       "yt": "g1bH7YWiZrk",
       "where": "02 Oct · Sala París 15, Málaga"
+    },
+    {
+      "act": "José Mercé",
+      "yt": "ZgSxwkWKp-A",
+      "where": "03 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Macaco",
+      "yt": "b3GyAtcoogc",
+      "where": "03 Oct · La Trinchera, Málaga"
     }
   ],
   "thumbs": {
