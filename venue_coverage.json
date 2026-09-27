@@ -1,11 +1,11 @@
 {
- "generated": "2026-09-27",
+ "generated": "2026-09-28",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 7,
-   "matched": 7,
+   "mapped_in_window": 6,
+   "matched": 6,
    "calendar_in_window": 2,
    "latest_mapped": "2026-10-24",
    "always_on": true,
@@ -68,8 +68,8 @@
   "zz pub": {
    "venue": "ZZ PUB",
    "mapped_in_window": 41,
-   "matched": 39,
-   "calendar_in_window": 30,
+   "matched": 40,
+   "calendar_in_window": 31,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "THIN"
@@ -213,7 +213,7 @@
    "venue": "Málaga",
    "mapped_in_window": 24,
    "matched": 24,
-   "calendar_in_window": 42,
+   "calendar_in_window": 40,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
