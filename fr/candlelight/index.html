@@ -503,6 +503,14 @@ if(freeChip)freeChip.addEventListener('click',function(){
 if(datef)datef.addEventListener('change',function(){var _dc=datef.parentNode;if(datef.value){var pp=datef.value.split('-');if(dateLbl)dateLbl.textContent=String(+pp[2])+' '+(MON[+pp[1]-1]||'')+' '+pp[0];if(_dc){_dc.classList.remove('chip-off');_dc.classList.add('chip-on');}dateMode='';document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});}else{if(dateLbl)dateLbl.textContent=ALLDATES;if(_dc){_dc.classList.remove('chip-on');_dc.classList.add('chip-off');}}apply();});
 var lb=document.getElementById('loadAllBtn');
 if(lb)lb.addEventListener('click',function(){dateMode='';freeOn=false;expanded=true;if(searchf)searchf.value='';if(genref)genref.value='';if(cityf)cityf.value='';document.querySelectorAll('.chip[data-mode]').forEach(function(o){o.classList.remove('chip-on');o.classList.add('chip-off');});if(freeChip){freeChip.style.background='#FAECE7';freeChip.style.color='var(--coral)';}if(datef){datef.value='';if(dateLbl)dateLbl.textContent=ALLDATES;var _dc2=datef.parentNode;if(_dc2){_dc2.classList.remove('chip-on');_dc2.classList.add('chip-off');}}apply();});
+/* Every hero filter pill lands the viewer at the "[N] MUSIC EVENTS" line (start of the events list) so
+   filtered results are visible without scrolling. Separate listeners so apply()/load-time calls are
+   untouched; #tickets carries scroll-margin-top (130px desktop / 190px mobile), which scrollIntoView
+   honours, so it clears the sticky header on desktop AND mobile. (DLR 2026-09-27) */
+function _evScroll(){var t=document.getElementById('tickets');if(t)setTimeout(function(){t.scrollIntoView({behavior:'smooth',block:'start'});},60);}
+[genref,cityf,datef].forEach(function(el){if(el)el.addEventListener('change',_evScroll);});
+document.querySelectorAll('.chip[data-mode]').forEach(function(ch){ch.addEventListener('click',_evScroll);});
+if(freeChip)freeChip.addEventListener('click',_evScroll);
 var stage=document.getElementById('mltvStage');
 (function(){var chipsEl=document.getElementById('mltvChips');if(!stage||!chipsEl)return;
 var MMx={jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
@@ -634,7 +642,7 @@ try{var _gv=new URLSearchParams(location.search).get('genre');if(_gv&&genref){va
     if(genref){var gch=genref.parentNode; if(gch){gch.classList.toggle('chip-on',!!genref.value);gch.classList.toggle('chip-off',!genref.value);}}
     var cl=document.getElementById('cityLbl'); if(cl&&cityf)cl.textContent=cityf.options[cityf.selectedIndex].text;
     apply();
-    var sb=document.querySelector('.subbar')||document.querySelector('.filterbar'); if(sb)sb.scrollIntoView({behavior:'smooth',block:'start'});
+    var sb=document.getElementById('tickets')||document.querySelector('.subbar')||document.querySelector('.filterbar'); if(sb)sb.scrollIntoView({behavior:'smooth',block:'start'});
   });
 })();
 apply();
