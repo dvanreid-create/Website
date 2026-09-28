@@ -3589,52 +3589,70 @@
     }
    }
   },
-  "recinto ferial velez-malaga": {
-   "source": "https://www.elespanol.com/malaga/velez-malaga/20260914/conciertos-feria-velez-malaga-cali-dandee-maria-monte-gratis-camela-euros/1003744383171_0.html",
+  "plaza de la constitucion feria": {
+   "source": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
    "complete": true,
    "gate": false,
-   "note": "ADDED 2026-09-24 (DLR): four real, free, newsworthy Feria de San Miguel (Vélez-Málaga) headline acts the weekly sweep never ingested — none sell through mutick.com/l/malaga (the deterministic feed 'la trinchera' below depends on) or any other seller the sweep watches, since all four are free town-hall bookings. No affiliate/ticket link exists for any of them; 'url' points to organiser/press coverage. gate:false so this key can never arm the phantom-drop gate against another venue's block.",
+   "note": "RENAMED 2026-09-28 (was 'recinto ferial velez-malaga', split in two — found DEAD ON ARRIVAL since creation 2026-09-24: _venue_lookup() only fires when the top-level key is a literal substring of the row's own (accent-stripped, hyphen-stripped) venue text, and 'Plaza de la Constitución (Feria)' / 'Recinto Ferial (caseta oficial)' — the ACTUAL venue strings the live calendar carries — never mention 'Vélez-Málaga' at all (the city is a separate field), and even if they did, _eci_norm() turns every hyphen into a space, so the old key's literal '-' in 'velez-malaga' could never match anyway. Confirmed live 2026-09-28: all four cards were shipping with neither this block's url NOR the map's genre, silently, for four days. Two keys now, each an exact substring of its real venue text so the match is guaranteed rather than assumed; also switched 'url' from the elespanol.com press writeup to the town hall's own confirming article (both this key's act and the one below), since that same article names the fifth act (Camela) this block was missing — see the 'recinto ferial caseta oficial' key.",
    "acts": {
     "requiebros": {
-     "url": "https://velezmalaga.es/index.php?id=8832&mod=noticias",
+     "url": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
      "prefer": "map",
      "date": "29/09/2026",
      "paid_free": "Free",
      "price": "Free",
      "venue_name": "Requiebros — Feria de San Miguel, noche inaugural",
      "genre": "Flamenco",
-     "why": "WEB-CONFIRMED 2026-09-24 (velezmalaga.es town-hall notice, elespanol.com, 101tv.es, all dated Sep 2026): Requiebros open the Real Feria de San Miguel 2026 in the Recinto Ferial's official tent (caseta oficial), Tue 29 Sep, free entry."
-    },
+     "why": "WEB-CONFIRMED 2026-09-24, re-confirmed 2026-09-28 (velezmalaga.es town-hall notice, mod=noticias&id=8832): Requiebros open the Real Feria de San Miguel 2026 at Plaza de la Constitución, Tue 29 Sep, free entry."
+    }
+   }
+  },
+  "recinto ferial caseta oficial": {
+   "source": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
+   "complete": true,
+   "gate": false,
+   "note": "See 'plaza de la constitucion feria' above for why this was renamed 2026-09-28. Four real, free (bar Camela), newsworthy Feria de San Miguel (Vélez-Málaga) headline acts the weekly sweep never ingested correctly — none sell through mutick.com/l/malaga or any seller the sweep watches. gate:false so this key can never arm the phantom-drop gate against another venue's block.",
+   "acts": {
     "cali y el dandee": {
-     "url": "https://www.elespanol.com/malaga/velez-malaga/20260914/conciertos-feria-velez-malaga-cali-dandee-maria-monte-gratis-camela-euros/1003744383171_0.html",
+     "url": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
      "prefer": "map",
      "date": "02/10/2026",
      "paid_free": "Free",
      "price": "Free",
      "venue_name": "Cali y El Dandee — Feria de San Miguel",
      "genre": "Pop",
-     "why": "WEB-CONFIRMED 2026-09-24 (elespanol.com, velezmalaga.es, 101tv.es, all dated Sep 2026): Cali y El Dandee play the Feria de San Miguel's official tent, Fri 2 Oct, free entry."
+     "why": "WEB-CONFIRMED 2026-09-24, re-confirmed 2026-09-28 (velezmalaga.es, mod=noticias&id=8832): Cali y El Dandee play the Feria de San Miguel's official tent, Fri 2 Oct, free entry."
     },
     "salistre": {
-     "url": "https://www.elespanol.com/malaga/velez-malaga/20260914/conciertos-feria-velez-malaga-cali-dandee-maria-monte-gratis-camela-euros/1003744383171_0.html",
+     "url": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
      "prefer": "map",
      "date": "03/10/2026",
      "paid_free": "Free",
      "price": "Free",
      "venue_name": "Salistre — Feria de San Miguel",
      "genre": "Flamenco",
-     "why": "WEB-CONFIRMED 2026-09-24 (elespanol.com, velezmalaga.es, 101tv.es, all dated Sep 2026): Salistre play the Feria de San Miguel's official tent, Sat 3 Oct, free entry. NOT the same 'salistre' as the unrelated Paris 15 booking elsewhere in this file (27/11/2026, different act/venue/date) — this key is scoped inside 'recinto ferial velez-malaga' so it cannot collide with that one.",
+     "why": "WEB-CONFIRMED 2026-09-24, re-confirmed 2026-09-28 (velezmalaga.es, mod=noticias&id=8832): Salistre play the Feria de San Miguel's official tent, Sat 3 Oct, free entry. NOT the same 'salistre' as the unrelated Paris 15 booking elsewhere in this file (27/11/2026, different act/venue/date) — this key is scoped inside 'recinto ferial caseta oficial' so it cannot collide with that one.",
      "duplicate_name_note": "distinct from paris15's 'salistre' entry — different show, different venue, different date"
     },
     "maria del monte": {
-     "url": "https://www.elespanol.com/malaga/velez-malaga/20260914/conciertos-feria-velez-malaga-cali-dandee-maria-monte-gratis-camela-euros/1003744383171_0.html",
+     "url": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
      "prefer": "map",
      "date": "04/10/2026",
      "paid_free": "Free",
      "price": "Free",
      "venue_name": "María del Monte — Feria de San Miguel, noche de clausura",
      "genre": "Flamenco",
-     "why": "WEB-CONFIRMED 2026-09-24 (elespanol.com, velezmalaga.es, 101tv.es, all dated Sep 2026): María del Monte closes the Feria de San Miguel in the official tent, Sun 4 Oct, free entry."
+     "why": "WEB-CONFIRMED 2026-09-24, re-confirmed 2026-09-28 (velezmalaga.es, mod=noticias&id=8832): María del Monte closes the Feria de San Miguel in the official tent, Sun 4 Oct, free entry."
+    },
+    "camela": {
+     "url": "https://www.velezmalaga.es/index.php?mod=noticias&id=8832",
+     "prefer": "map",
+     "date": "01/10/2026",
+     "paid_free": "Paid",
+     "price": "5 EUR",
+     "venue_name": "Camela — Feria de San Miguel",
+     "genre": "Festival",
+     "why": "WEB-CONFIRMED 2026-09-28 (velezmalaga.es, mod=noticias&id=8832): the ONLY paid show in the feria's main lineup, 5 EUR, tickets sold in person only (Vélez-Málaga + Torre del Mar tourism offices, on sale since 16 Sep) — no online seller exists. Belt-and-braces entry: the actual row is hard-injected directly in build_site.py (see 'MANUAL ROW INJECTION: CAMELA' there) because this block's act-level lookup only fires once a calendar row already carries a matching venue/act, which Camela's never did — this map entry just keeps the venue-level data consistent with its three labelmates should the sweep ever pick her up on its own."
     }
    }
   }
