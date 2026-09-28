@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-27",
-  "count": 105,
+  "generated": "2026-09-28",
+  "count": 104,
   "items": [
     {
       "sku": "194665",
@@ -212,20 +212,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141809&u=https%3A%2F%2Ffeverup.com%2Fm%2F141809&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Benalmádena Golf Greenfee - Discover the golf paradise on the Costa del Sol! Tickets for Benalmádena Golf Greenfee 🎫 Adults (16+): 9 holes 🎫 Adults (16+): Unlimited holes 🎫 Children (0-15): Unlimited holes 🎫 Children (0-15): 9 holes Highlights ⛳️ Choose between 9 holes or unlimited holes at Be"
-    },
-    {
-      "sku": "141769",
-      "n": "Benalmádena Tourist Bus",
-      "c": "tours",
-      "cat": "City Tour",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €15",
-      "img": "42207342-677c-11ee-912d-b6f3ae8bcca3",
-      "url": "https://feverup.com/m/141769/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141769&u=https%3A%2F%2Ffeverup.com%2Fm%2F141769&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Benalmádena Tourist Bus - Tour Benalmádena at your leisure with our 48-hour ticket! Tickets 🎫 Adults (13+) Highlights 🎟️ Enjoy unlimited bus tickets 🚍 for 48 hours! 🌺Enjoy the ticket to the Butterfly Park!🦋 ♿ Wheelchair ramps available! 📍 Location Puerto Marina Benalmádena 📅 Dates and times"
     },
     {
       "sku": "693793",
