@@ -25,7 +25,7 @@
    "mapped_in_window": 0,
    "matched": 0,
    "calendar_in_window": 0,
-   "latest_mapped": "2027-07-16",
+   "latest_mapped": "2027-07-22",
    "always_on": false,
    "verdict": "quiet"
   },
@@ -157,8 +157,8 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 2,
-   "matched": 2,
+   "mapped_in_window": 1,
+   "matched": 1,
    "calendar_in_window": 10,
    "latest_mapped": "2026-11-29",
    "always_on": true,
@@ -202,8 +202,8 @@
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 11,
-   "matched": 11,
+   "mapped_in_window": 12,
+   "matched": 12,
    "calendar_in_window": 12,
    "latest_mapped": "2027-05-14",
    "always_on": false,

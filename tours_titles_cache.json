@@ -16081,16 +16081,16 @@
     }
   },
   "viator:183304P4": {
-    "h": "996bc0fe18f8ef52fd8a12049a6c80f5",
+    "h": "2e8c370856602275054030ca31f387e0",
     "names": {
-      "en": "Caminito del Rey Small Group Tour from Malaga with Picnic",
-      "es": "Caminito del Rey: tour en grupo reducido desde Málaga con pícnic",
-      "de": "Caminito del Rey Tour in kleiner Gruppe ab Malaga mit Picknick",
-      "fr": "Caminito del Rey : excursion en petit groupe depuis Malaga avec pique-nique",
-      "sv": "Caminito del Rey: Tur i liten grupp från Malaga med picknick",
-      "no": "Caminito del Rey tur i liten gruppe fra Malaga med piknik",
-      "da": "Caminito del Rey: Tur i lille gruppe fra Malaga med picnic",
-      "fi": "Caminito del Rey pienryhmäretki Malagasta piknikillä"
+      "en": "Caminito del Rey Small Group Tour from Malaga & Picnic",
+      "es": "Caminito del Rey Tour en Grupo Reducido desde Malaga con Picnic",
+      "de": "Caminito del Rey Kleingruppentour ab Malaga & Picknick",
+      "fr": "Visite en petit groupe du Caminito del Rey depuis Malaga et pique-nique",
+      "sv": "Caminito del Rey Liten Grupp Tur från Malaga & Picknick",
+      "no": "Caminito del Rey Liten Gruppetur fra Malaga & Piknik",
+      "da": "Caminito del Rey Small Group Tour fra Malaga & Picnic",
+      "fi": "Caminito del Rey pienryhmäretki Malagasta & piknik"
     }
   },
   "viator:113310P11": {
@@ -22110,6 +22110,32 @@
       "no": "Utflukt til Caminito del Rey og Tajo-kløften i Ronda",
       "fi": "Retki Caminito del Reyhin ja Tajon rotkoon Rondassa",
       "da": "Udflugt til Caminito del Rey og Tajo-kløften i Ronda"
+    }
+  },
+  "viator:5512868P27": {
+    "h": "b37149d60908fa4efc204f197fea9285",
+    "names": {
+      "en": "Luggage Storage Malaga Maria Zambrano Station",
+      "es": "Consigna de Equipaje Malaga Estacion Maria Zambrano",
+      "de": "Gepäckaufbewahrung Malaga Bahnhof Maria Zambrano",
+      "fr": "Consigne à bagages Malaga gare Maria Zambrano",
+      "sv": "Bagageförvaring Malaga Maria Zambrano Station",
+      "no": "Bagasjeoppbevaring Malaga Maria Zambrano Stasjon",
+      "da": "Bagageopbevaring Malaga Maria Zambrano Station",
+      "fi": "Matkatavarasäilytys Malaga Maria Zambrano -asemalla"
+    }
+  },
+  "viator:5689628P7": {
+    "h": "e43db562a7026b217291640c3f75fe68",
+    "names": {
+      "en": "Fuengirola guided Can AM Ryker 900 Tour Quicky",
+      "es": "Tour Rapido Guiado en Can AM Ryker 900 por Fuengirola",
+      "de": "Geführte Can-AM-Ryker-900-Kurztour in Fuengirola",
+      "fr": "Tour rapide guidé en Can AM Ryker 900 à Fuengirola",
+      "sv": "Fuengirola Guidad Can AM Ryker 900 Snabbtur",
+      "no": "Fuengirola guidet Can AM Ryker 900 Tur Quicky",
+      "da": "Fuengirola guidet Can AM Ryker 900 Tour Quicky",
+      "fi": "Fuengirola opastettu Can AM Ryker 900 -pikaretki"
     }
   }
 }
