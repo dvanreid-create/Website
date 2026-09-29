@@ -458,7 +458,12 @@ function _lev(a,b,max){var la=a.length,lb=b.length;if(Math.abs(la-lb)>max)return
    which plain _lev misses because the lengths differ by too much (DLR 2026-09-29). Bounded; min over
    all prefixes of b. Only used for 6+ letter queries so short words can't bleed into longer ones. */
 function _levPre(a,b,max){var la=a.length,lb=b.length;if(la-lb>max)return max+1;var prev=[],cur=[],i,j;for(j=0;j<=lb;j++)prev[j]=j;for(i=1;i<=la;i++){cur[0]=i;var best=cur[0];for(j=1;j<=lb;j++){var cost=a.charCodeAt(i-1)===b.charCodeAt(j-1)?0:1;cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+cost);if(cur[j]<best)best=cur[j];}if(best>max)return max+1;for(j=0;j<=lb;j++)prev[j]=cur[j];}var m=max+1;for(j=0;j<=lb;j++){if(prev[j]<m)m=prev[j];}return m;}
-function _tokMatch(tok,toks){var L=tok.length,max=L>=6?2:(L>=4?1:0);for(var i=0;i<toks.length;i++){var w=toks[i];if(w.indexOf(tok)>=0)return true;if(max>0){if(L>=6){if(_levPre(tok,w,max)<=max)return true;}else if(_lev(tok,w,max)<=max)return true;}}return false;}
+/* Fuzzy match REQUIRES the same first letter (DLR 2026-09-29): at edit distance 2 a 6-letter typo
+   otherwise pulls in unrelated words — "candel" was matching "dandee" (Cali y El Dandee) and "manuel"
+   (Jose Merce — Canta a Manuel), both exactly 2 substitutions away. Real typos virtually never change
+   the first letter, so gating on it kills those false hits while keeping candel->candle[light],
+   beethovan->beethoven, flamenko->flamenco. Substring/prefix (exact) matching is unaffected. */
+function _tokMatch(tok,toks){var L=tok.length,max=L>=6?2:(L>=4?1:0);for(var i=0;i<toks.length;i++){var w=toks[i];if(w.indexOf(tok)>=0)return true;if(max>0&&w.charAt(0)===tok.charAt(0)){if(L>=6){if(_levPre(tok,w,max)<=max)return true;}else if(_lev(tok,w,max)<=max)return true;}}return false;}
 function _fuzzyHit(q,hay){var qt=q.split(/\s+/).filter(Boolean),toks=hay.split(/\s+/).filter(Boolean);if(!qt.length)return true;for(var i=0;i<qt.length;i++){if(!_tokMatch(qt[i],toks))return false;}return true;}
 var searchf=document.getElementById('searchf');
 var genref=document.getElementById('genref');
