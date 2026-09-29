@@ -519,6 +519,11 @@ if(lb)lb.addEventListener('click',function(){dateMode='';freeOn=false;expanded=t
 function _evScroll(){var t=document.getElementById('tickets');if(t)setTimeout(function(){t.scrollIntoView({behavior:'smooth',block:'start'});},60);}
 [genref,cityf,datef].forEach(function(el){if(el)el.addEventListener('change',_evScroll);});
 document.querySelectorAll('.chip[data-mode]').forEach(function(ch){ch.addEventListener('click',_evScroll);});
+/* Search box lands the viewer at the results too (DLR 2026-09-29): typing a query filtered the list
+   but left the matches below the fold. Debounced so the jump fires once after typing settles — not on
+   every keystroke, which would yank the page mid-type — and only when the box actually has text, so
+   clearing it doesn't scroll. Same _evScroll target (#tickets, just above the first "Sun 4 Oct"). */
+if(searchf){var _sfScrollT;searchf.addEventListener('input',function(){clearTimeout(_sfScrollT);_sfScrollT=setTimeout(function(){if((searchf.value||'').trim())_evScroll();},450);});}
 if(freeChip)freeChip.addEventListener('click',_evScroll);
 var stage=document.getElementById('mltvStage');
 (function(){var chipsEl=document.getElementById('mltvChips');if(!stage||!chipsEl)return;
