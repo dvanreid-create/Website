@@ -327,6 +327,12 @@
    "venue": "Sala Marte",
    "date": "2026-10-02",
    "why": "Removed at owner's request 2026-09-22: the Ticketmaster ticket link is dead (TM shows 0 upcoming concerts for Querido) and no working replacement seller was confirmed. Scoped to the 2 Oct 2026 Sala Marte row only."
+  },
+  {
+   "match": "sidecars",
+   "venue": "sala paris 15",
+   "date": "2026-10-02",
+   "why": "RESCHEDULED OUT OF WINDOW - removed 2026-09-29 by the daily browser commission audit (NOT a genre judgement; this IS live music). El Corte Ingles, our own paying seller for this show (Awin 13034), now renders elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/ as 'Sidecars - Gira Presentacion EVEREST en Malaga, 3 de Abril de 2027, A las 21:00h, Sala Paris 15, Desde 33,00 EUR, COMPRAR' with the organiser's notice: the Friday 2 October show at Sala Paris 15 is POSTPONED (aplazado) because of a knee injury to Juancho; it will take place on Saturday 3 April 2027 at the same venue, tickets stay valid, refunds until 15 October 2026. So there is NO 2 Oct 2026 show and the card was selling a different date. THIS IS NOT A DROPPED EVENT: the show still exists and still sells through the paying seller; the venue_event_map sidecars entries now carry 03/04/2027 with the same ECI link, so it ships again when April 2027 enters the window and no commission is lost. Same pattern as Descemer Bueno 2026-09-04. DATE-SCOPED: removes ONLY the 2026-10-02 row. RETIRE after 2026-10-02."
   }
  ]
 }

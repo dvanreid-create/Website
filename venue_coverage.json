@@ -202,8 +202,8 @@
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 11,
-   "matched": 11,
+   "mapped_in_window": 10,
+   "matched": 10,
    "calendar_in_window": 12,
    "latest_mapped": "2027-05-14",
    "always_on": false,
