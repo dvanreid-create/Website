@@ -1133,6 +1133,14 @@
    "complete": false,
    "note": "Sala París 15, ~3,000-cap venue at C. La Orotava 27, 29006 Málaga. Primary ticket seller: tomaticket.es. Also listed on Songkick (17 upcoming) and paris15.es. Open since 2010. No events in current 30-day window; next show El Kuelgue 10 Sep. Events read 2026-07-27. complete:false = NOT a phantom gate.",
    "acts": {
+    "abhir": {
+     "url": "https://www.ticketmaster.es/event/abhir-entradas/1218088577",
+     "date": "24/10/2026",
+     "venue_name": "ABHIR",
+     "time": "21:00",
+     "prefer": "map",
+     "why": "ROUTED TO TICKETMASTER 2026-09-29 by the daily browser commission audit - COMMISSION RECOVERY at an equal price. Before: the card pointed at paris15.es/event/abhir/, which is NOT a checkout - read in the browser 2026-09-29 it says 'Entradas disponibles en Crash Music, Venta anticipada 27,50 EUR' and its only 'comprar entradas' anchor goes to entradas.crashmusic.es (non-paying). Ticketmaster.es event 1218088577, opened in the browser 2026-09-29: 'ABHIR, sab 24 oct 2026, 21:00, Sala Paris 15, Malaga', ULTRASWAN TOUR, Entrada General 27,60 EUR each INCLUDING 2,60 EUR booking fees (face 25,00), live ticket selector. So TM's all-in price equals the venue's quoted 27,50 advance before Crash Music's own fees (Crash Music page could not be opened from the audit browser - not approved). build_site's tm_aff() wraps this URL in the Impact link (7440720). Entry lives in THIS block because 'sala paris' matches before 'paris15' (see raimundo amador note); prefer:map because the calendar link passes _is_deep()."
+    },
     "el kuelgue": {
      "url": "https://dice.fm/event/9278bo-el-kuelgue-10th-sep-sala-paris-15-mlaga-tickets",
      "date": "10/09/2026",
@@ -1312,7 +1320,8 @@
      "time": "21:00"
     },
     "abhir": {
-     "url": "https://paris15.es/event/abhir/",
+     "url": "https://www.ticketmaster.es/event/abhir-entradas/1218088577",
+     "prefer": "map",
      "date": "24/10/2026",
      "venue_name": "ABHIR",
      "time": "21:00"
@@ -1475,6 +1484,18 @@
    "gate": false,
    "note": "SWEEP-LOST RECOVERY BLOCK (created 2026-09-08, browser click-test). WHAT IT IS: a narrow, hand-verified list of in-window shows that are ON SALE but that the weekly LLM sweep dropped, at venues backfill_calendar.py's WHITELIST does not cover. Every act here was opened in Chrome on 2026-09-08 and confirmed act + date + venue + a working buy control; the per-act 'why' records exactly what the page said. WHY A NEW BLOCK INSTEAD OF WHITELISTING THE REAL VENUES: backfill only injects from a block that is BOTH in the WHITELIST and complete:true, and flipping complete:true on the real venue blocks has two costs this block avoids entirely. (1) COLLATERAL INJECTION - 'teatro del soho' would also inject 'Chungo - Luis Zahera' (05/10/2026), a comedy show, onto a live-music site, and 'cortijo de torres' would inject 'Superstars 90' (12/09/2026), whose mapped URL malagadeporteyeventos.com/superstars-90-malaga-2/ was opened on 2026-09-08 and is a promoter INFO page with no buy control at all. (2) DELETION RISK - complete:true arms build_site's phantom gate against every other show at that venue, which is exactly what deleted Damian Cordoba. This block carries no real venue name, so _venue_lookup can never match it (its key must be a substring of the normalised venue or URL, and 'sweeplost' is a substring of neither), which means it can only ever ADD. gate:false is set as well, belt and braces. Each act carries its own 'venue' override, so one block serves several buildings - all of these are Malaga city. HOW TO RETIRE AN ENTRY: delete the act once its date has passed, or move it into its real venue block if that venue is ever properly whitelisted. If the sweep starts finding a show again, backfill's act-level dedup (covered_acts) suppresses this copy automatically - duplicates are not possible.",
    "acts": {
+    "the jazz room marbella new orleans": {
+     "url": "https://feverup.com/m/611306",
+     "prefer": "map",
+     "date": "03/10/2026",
+     "time": "18:00",
+     "price": "23.20-29 EUR",
+     "venue": "Volare Room Marbella",
+     "city": "Marbella",
+     "venue_name": "The Jazz Room: A Journey to the Heart of New Orleans",
+     "genre": "Jazz & Soul",
+     "why": "SILENT COMMISSION LEAK CLOSED 2026-09-29 by the daily browser commission audit. Fever (Impact 7440720, a PAYING seller) lists 'The Jazz Room Marbella: Tributo Nueva Orleans' (sku 611306) on its /en/malaga/concerts-festivals listing; opened in the browser 2026-09-29 the plan's own date selector reads 'sab 03 oct' (and 23 ene 2027) with sessions 18:00 and 20:00, Entrada General 29,00 EUR / promo 23,20 EUR, live 'Comprar entradas' control, venue Volare Room Marbella, 'Jazz, soul, blues'. It was ABSENT from malagalivepulse.com/en/ (no card, no 611306 anchor anywhere on the page), so an on-sale commissionable show was earning nothing. Injected from this block (whitelisted, complete:true, gate:false) with a per-act city override so the card reads Marbella, not Malaga city. Raw feverup.com/m/ link on purpose: build_site's Fever wrapper adds the fever.pxf.io affiliate link. Paired with a fever_buyable_overrides entry (611306 -> 2026-10-03) so the Fever-unbuyable gate cannot drop it. RETIRE after 2026-10-03."
+    },
     "sara hebe frac": {
      "url": "https://entradas.conciertos.club/es/events/sara-hebe-frac-en-malaga",
      "prefer": "map",
