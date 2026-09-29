@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -76,9 +76,9 @@
   },
   "torremolinoscultura": {
    "venue": "Plaza de Toros de Torremolinos",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 2,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 1,
    "latest_mapped": "2026-09-29",
    "always_on": false,
    "verdict": "ok"
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 10,
+   "calendar_in_window": 11,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
