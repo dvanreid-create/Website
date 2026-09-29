@@ -560,6 +560,15 @@ function monthRange(){var d=new Date();var e=new Date(d.getFullYear(),d.getMonth
    and the data-search index the same way. NFD splits a letter from its combining accent; we drop
    the accents (U+0300-036F). Fail-soft to the raw string on any engine without normalize. */
 function _fold(s){try{return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'');}catch(e){return s||'';}}
+/* Typo-tolerant search (DLR 2026-09-29): a misspelled query should still land on the intended act
+   — "beethovan"->Beethoven, "flamenko"->flamenco. This is a FALLBACK only: matches() first tries the
+   exact folded substring (fast, precise), and this runs solely when that finds nothing, so a correctly
+   spelled search is never diluted. Bounded Levenshtein edit distance, thresholded by word length so we
+   don't create false hits: <=3 letters must match exactly, 4-5 allow one typo, 6+ allow two. Each query
+   word must match some index word (substring OR within threshold); word order doesn't matter. */
+function _lev(a,b,max){var la=a.length,lb=b.length;if(Math.abs(la-lb)>max)return max+1;var prev=[],cur=[],i,j;for(j=0;j<=lb;j++)prev[j]=j;for(i=1;i<=la;i++){cur[0]=i;var best=cur[0];for(j=1;j<=lb;j++){var cost=a.charCodeAt(i-1)===b.charCodeAt(j-1)?0:1;cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+cost);if(cur[j]<best)best=cur[j];}if(best>max)return max+1;for(j=0;j<=lb;j++)prev[j]=cur[j];}return prev[lb];}
+function _tokMatch(tok,toks){var max=tok.length>=6?2:(tok.length>=4?1:0);for(var i=0;i<toks.length;i++){var w=toks[i];if(w.indexOf(tok)>=0)return true;if(max>0&&_lev(tok,w,max)<=max)return true;}return false;}
+function _fuzzyHit(q,hay){var qt=q.split(/\s+/).filter(Boolean),toks=hay.split(/\s+/).filter(Boolean);if(!qt.length)return true;for(var i=0;i<qt.length;i++){if(!_tokMatch(qt[i],toks))return false;}return true;}
 var searchf=document.getElementById('searchf');
 var genref=document.getElementById('genref');
 var cityf=document.getElementById('cityf');
@@ -598,7 +607,7 @@ function matches(el){
   var q=_fold((searchf&&searchf.value||'').trim().toLowerCase());
   var g=(genref&&genref.value)||'';
   var c=(cityf&&cityf.value)||'';
-  if(q&&_fold(el.getAttribute('data-search')||'').indexOf(q)<0)return false;
+  if(q){var _hay=_fold(el.getAttribute('data-search')||'');if(_hay.indexOf(q)<0&&!_fuzzyHit(q,_hay))return false;}
   if(g&&(el.getAttribute('data-genre')||'')!==g)return false;
   if(fArea&&fArea.length){var _cs=slug(el.getAttribute('data-city')||'');if(!fArea.some(function(m){return m&&_cs.indexOf(m)>=0;}))return false;}
   if(thOn&&(el.getAttribute('data-townhall')||'')!=='1')return false;
