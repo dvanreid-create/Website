@@ -37,7 +37,7 @@
   .meta{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#9a6b45;margin:0 0 18px}
   .feature{display:grid;grid-template-columns:230px 1fr;gap:26px;align-items:start;margin-top:8px}
   @media(max-width:680px){.feature{grid-template-columns:1fr}}
-  .feature .cover{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 16px rgba(20,58,78,.18);display:block}
+  .feature .cover{width:100%;height:auto;aspect-ratio:419/549;object-fit:cover;border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 16px rgba(20,58,78,.18);display:block}
   .feature p{margin:0 0 14px;font-size:16px;color:#2f2f2c}
   .arttitle{font-family:Georgia,serif;font-style:italic;font-size:19px;line-height:1.3;color:#6e4a30;margin:0 0 14px}
   .source{font-size:13px;color:#7a7568;margin:16px 0 0;line-height:1.5}
@@ -66,7 +66,7 @@
   <div class="meta">3 september 2026 · theolivepress.es · av Jessica Newton</div>
 
   <div class="feature">
-    <img class="cover" src="/press/olive-press/olive-press-sept-2026.png" alt="The Olive Press, 3 September 2026" onerror="this.onerror=null;this.src='/press/malaga-live-logo-on-dark.png';">
+    <img class="cover" src="/press/olive-press/olive-press-sept-2026.png" style="object-position:65% 50%" alt="The Olive Press, 3 September 2026" onerror="this.onerror=null;this.src='/press/malaga-live-logo-on-dark.png';">
     <div>
       <p class="arttitle">“New app for live music on the Costa del Sol promises to connect expats with over 70 local events”</p>
       <p>The Olive Press — Spaniens engelskspråkiga tidning — rapporterade om lanseringen av Málaga Live den 3 september 2026, i en artikel av Jessica Newton under rubriken ovan.</p>
@@ -76,16 +76,10 @@
     </div>
   </div>
 
-  <figure class="clip" id="clipFig">
-    <img id="clipImg" src="/press/olive-press/olive-press-sept-2026.png" alt="The Olive Press, 3 September 2026 — New app for live music on the Costa del Sol promises to connect expats with over 70 local events" onerror="var f=document.getElementById('clipFig');if(f)f.style.display='none';">
-    <figcaption>Som den publicerades online — The Olive Press, 3 september 2026. <span class="zoomhint" id="zoomHint">Klicka för att förstora ⤢</span></figcaption>
-  </figure>
 
   <a class="back" href="/press/sv/">← Tillbaka till Press & media</a>
 
 </div>
 <footer class="pf">© 2026 Málaga Live · <a href="https://malagalivepulse.com/">malagalivepulse.com</a> · Press: hello@malagalivepulse.com</footer>
-<div id="lightbox" class="lightbox" role="dialog" aria-label="Enlarged clipping"><img src="/press/olive-press/olive-press-sept-2026.png" alt="The Olive Press, 3 September 2026 — enlarged"></div>
-<script>(function(){var t=document.getElementById('clipImg'),z=document.getElementById('zoomHint'),lb=document.getElementById('lightbox');if(!lb)return;function op(){lb.classList.add('on');}if(t)t.addEventListener('click',op);if(z)z.addEventListener('click',op);lb.addEventListener('click',function(){lb.classList.remove('on');});document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on');});})();</script>
 </body>
 </html>
