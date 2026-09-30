@@ -34,10 +34,10 @@
   .muted{color:#7a7568;font-size:13px}
   .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:34px 26px;margin-top:16px}
   .news-card{display:flex;flex-direction:column;max-width:420px}
-  .news-card .cover{width:100%;height:auto;display:block;border-radius:6px;box-shadow:0 3px 14px rgba(20,58,78,.16);margin:0 0 16px}
+  .news-card .cover{width:100%;height:auto;aspect-ratio:419/549;object-fit:cover;display:block;border-radius:6px;box-shadow:0 3px 14px rgba(20,58,78,.16);margin:0 0 16px}
   .news-card .date{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#9a6b45;margin:0 0 8px}
   .news-card .title{font-family:Georgia,serif;font-size:20px;line-height:1.32;color:#6e4a30;margin:0 0 14px}
-  .news-card .news-more{align-self:flex-start;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--amber);text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px}
+  .news-card .news-more{align-self:flex-start;margin-top:auto;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--amber);text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px}
   .releases{margin-top:6px}
   .release{padding:16px 0;border-bottom:1px solid var(--line)}
   .release:first-child{padding-top:6px}
@@ -69,7 +69,7 @@
       <a class="news-more" href="/press/fr/essential-magazine/" target="_blank" rel="noopener">Lire la suite</a>
     </article>
     <article class="news-card" id="news-olivepress">
-      <img class="cover" src="/press/olive-press/olive-press-sept-2026.png" alt="The Olive Press, 3 September 2026 — New app for live music on the Costa del Sol promises to connect expats with over 70 local events" onerror="this.onerror=null;this.src='/press/malaga-live-logo-on-dark.png';">
+      <img class="cover" src="/press/olive-press/olive-press-sept-2026.png" style="object-position:65% 50%" alt="The Olive Press, 3 September 2026 — New app for live music on the Costa del Sol promises to connect expats with over 70 local events" onerror="this.onerror=null;this.src='/press/malaga-live-logo-on-dark.png';">
       <div class="date">3 septembre 2026 · The Olive Press</div>
       <div class="title">New app for live music on the Costa del Sol promises to connect expats with over 70 local events</div>
       <a class="news-more" href="/press/fr/olive-press/" target="_blank" rel="noopener">Lire la suite</a>
