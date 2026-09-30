@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "count": 103,
   "items": [
     {
@@ -424,6 +424,20 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "708013",
+      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
+      "url": "https://feverup.com/m/708013/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "MADRING is getting ready to host the Formula 1® Spanish Grand Prix in September 2027. Get your F1® tickets in Madrid now!"
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -758,20 +772,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=328893&u=https%3A%2F%2Ffeverup.com%2Fm%2F328893&intsrc=CATF_15532",
       "feat": 0,
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
-    },
-    {
-      "sku": "643664",
-      "n": "Tickets for the K",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "LA K"
     },
     {
       "sku": "587444",
@@ -1340,7 +1340,7 @@
       "cat": "Games",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €20",
+      "p": "From €18",
       "img": "8d859624-90e0-11f1-a9d4-a233f6906938.jpg",
       "url": "https://feverup.com/m/459773/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=459773&u=https%3A%2F%2Ffeverup.com%2Fm%2F459773&intsrc=CATF_15532",
