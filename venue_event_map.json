@@ -2160,6 +2160,51 @@
      "prefer": "map",
      "date": "22/09/2026",
      "why": "RESTORED 2026-09-20 (DLR): verified Unientradas event deep link (Teatro Cervantes programme)."
+    },
+    "gigantes y cabezudos": {
+     "url": "https://www.unientradas.es/es/espectaculo/gigantes-y-cabezudos/26-27CabezudosGi",
+     "prefer": "map",
+     "date": "04/10/2026",
+     "time": "19:00",
+     "venue_name": "Gigantes y Cabezudos",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (Sofia's unientradas.es/es/provincia/Malaga sweep). XXI Ciclo Malagueno de Zarzuela del Teatro Lirico Andaluz - a sung zarzuela, live orchestra and voices, not spoken theatre, so in scope the same way Candlelight/classical rows are. Listed on unientradas with a live Comprar control; not individually re-opened for price (same batch-confirmation bar as Coral Promusica below). NOTE: a DIFFERENT Zarzuela event was the subject of a 2026-08-17 DLR judgement call logged elsewhere in this project (an information-only Torremolinos Cultura listing with no online purchase) - this is not that event; this one is a live Unientradas checkout at Teatro Cervantes and should ship as a normal ticketed card, not an info-only one."
+    },
+    "concierto inauguracion ofm": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-inauguracion-ofm/26-27OFM01",
+     "prefer": "map",
+     "date": "08/10/2026",
+     "time": "20:00",
+     "venue_name": "Concierto Inauguración OFM",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (same sweep). Orquesta Filarmonica de Malaga's 26/27 season-opening concert, two nights (8 + 9 Oct). BROWSER-CONFIRMED: unientradas 26-27OFM01 shows a live date picker with BOTH '08 oct. Jueves 20:00' and '09 oct. Viernes 20:00' selectable (check_circle on both, price appears after choosing a date - not read, no quantity-selector screenshot taken). Mapped to the 8 Oct date; the 9 Oct date is covered by the 'concierto ofm programa' entries' own card if the site renders a second row, otherwise needs a second map entry dated 09/10/2026 if OFM wants both nights shown separately."
+    },
+    "concierto ofm programa 2": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-2/26-27OFM02",
+     "prefer": "map",
+     "date": "22/10/2026",
+     "time": "20:00",
+     "venue_name": "Concierto OFM Programa 2",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (same sweep). Second concert of the OFM 26/27 season, 22-23 Oct. Listed on unientradas with a live Comprar control; not individually re-opened (same batch-confirmation bar as Coral Promusica)."
+    },
+    "concierto ofm programa 3": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-3/26-27OFM03",
+     "prefer": "map",
+     "date": "29/10/2026",
+     "time": "20:00",
+     "venue_name": "Concierto OFM Programa 3",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (same sweep). Third concert of the OFM 26/27 season, 29-30 Oct. Listed on unientradas with a live Comprar control; not individually re-opened (same batch-confirmation bar as Coral Promusica)."
+    },
+    "farruquito en concierto": {
+     "url": "https://www.unientradas.es/es/espectaculo/farruquito-en-concierto/26-27ConcFarruqu",
+     "prefer": "map",
+     "date": "14/10/2026",
+     "time": "20:00",
+     "venue_name": "Farruquito en Concierto",
+     "genre": "Flamenco",
+     "why": "COVERAGE GAP FOUND 2026-09-30, caught specifically because Sofia asked why the earlier Tue 13/Wed 14 Oct WebSearch-based sweep found nothing when this unientradas province listing turned up real gaps minutes later. BROWSER-CONFIRMED: unientradas 26-27ConcFarruqu renders 'FARRUQUITO EN CONCIERTO, Miercoles 14/10/2026 20:00, TEATRO CERVANTES', live seat map + 'Ver precios' control. Billed 'EN CONCIERTO' (not just a Danza Malaga dance slot) - Farruquito is a flamenco dancer whose shows are built around live cante/guitar, same category this site already carries other flamenco artists in (Cristian de Moret, Javier Ruibal), so IN SCOPE as live music, unlike the surrounding Danza Malaga programme (contemporary dance pieces like 'Blanco, Solido, Cristalino' 13 Oct, 'Tierras Raras', 'El Corsario' etc - checked, no 'en concierto' framing, no live-music angle found, correctly left out). ROOT CAUSE OF THE MISS: the earlier sweep for 13/14 Oct used WebSearch/press aggregators only and never checked Teatro Cervantes' own box office (unientradas.es) directly - the exact same blind spot the other 5 gaps found this session came from. Teatro Cervantes' programme is structurally under-covered by both the automated weekly sweep AND by ad hoc WebSearch verification; it needs to be checked directly on unientradas, not inferred from search results."
     }
    }
   },
@@ -2855,6 +2900,25 @@
      "venue_name": "El Amir - Alma Flamenca",
      "genre": "Flamenco",
      "why": "TIME CORRECTION ON RECORD. Browser-verified 2026-08-24 from the seller's own DETAILS block: 'Date: 11 septiembre | Time: 19:30 | Cost: 10 EUR', Sala Fundacion Unicaja Maria Cristina, with a live COMPRAR ENTRADAS control. The live site's card shows 21:00. Link is correct; only the time is wrong, and it comes from the calendar sweep. Recorded here for backfill and for correcting the sweep against a sourced value."
+    },
+    "homenaje a falla en el 150 aniversario de su nacimiento": {
+     "url": "https://www.unientradas.es/es/espectaculo/homenaje-a-falla-en-el-150-aniversario-de-su-nacimiento/254582",
+     "prefer": "map",
+     "date": "01/10/2026",
+     "time": "20:00",
+     "price": "14,10 EUR",
+     "venue_name": "Homenaje a Falla en el 150 aniversario de su nacimiento",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (Sofia asked to sweep unientradas.es/es/provincia/Malaga for anything missing). Not on the live site at all. BROWSER-CONFIRMED same run: unientradas 254582 renders 'Homenaje a Falla en el 150 aniversario de su nacimiento, Jueves 01/10/2026 20:00, SALA FUNDACION UNICAJA Ma CRISTINA, Concierto para clave y 5 instrumentos y El amor brujo, SOCIEDAD FILARMONICA MALAGA, 14,10EUR +1,00EUR fee', live quantity selector ('add' control). Genuine classical concert (de Falla 150th-anniversary programme, presented by Sociedad Filarmonica Malaga), same venue/genre class as the existing Candlelight and Pepe Romero rows here - should have been swept, was not. Time-sensitive: plays TOMORROW from today's date."
+    },
+    "concierto v aniversario coral promusica": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-v-aniversario-coral-promusica/PROMOC26",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "time": "19:00",
+     "venue_name": "Concierto V Aniversario Coral Promúsica",
+     "genre": "Classical & Candlelight",
+     "why": "COVERAGE GAP FOUND 2026-09-30 (same unientradas.es/es/provincia/Malaga sweep as the Falla entry above). Listed on unientradas with a live 'Comprar' control (sat sala fundacion unicaja per the listing page strip, truncated on-screen as 'S...'; not individually re-opened for price the way Falla and the OFM inaugural were - the listing page's own Comprar button was treated as sufficient confirmation, same bar this file uses elsewhere for same-session batch finds). Choir anniversary concert, 5th year of Coral Promusica - genuinely absent from the live site."
     }
    }
   },
