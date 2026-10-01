@@ -3016,13 +3016,13 @@
   "metalirica 2026 tete leal|2026-10-01": {
    "act": "Metalírica 2026 — Tete Leal",
    "date": "2026-10-01",
-   "url": "https://www.teatrocervantes.com/es/ciclos-y-festivales/metalirica/",
+   "url": "https://www.teatroechegaray.com/es/ciclos-y-festivales/metalirica-2026/",
    "expect": [
     "metalirica"
    ],
-   "verified": "2026-09-24",
-   "via": "search-confirmed; official page Cloudflare-walled to this server",
-   "why": "COMMISSION-AUDIT DROP REPAIR 2026-09-24. Ticket-link check dropped this as unfetchable. Event confirmed real: Metalirica cycle at TEATRO ECHEGARAY (Malaga), 1-3 Oct 2026, Tete Leal setting poems of Garcia-Casado/Lanseros/Gruia, tickets EUR9-19.80 (cinemagavia, teatrocervantes.com/es/ciclos-y-festivales/metalirica/). NOTE: 'Tete Leal' is the ARTIST, not the Teatro Leal in La Laguna/Tenerife (tickety.es id=4794 is that other venue - do NOT route there). Not individually listed on unientradas' Echegaray espectaculo list, and teatrocervantes.com throws a Cloudflare challenge to this server, so the exact per-date checkout could not be click-verified; routed to the OFFICIAL Metalirica cycle page (teatrocervantes.com is already a trusted host and carries the COMPRAR path). Official destination beats a dropped event."
+   "verified": "2026-09-30",
+   "via": "Sofia, direct in Edge (Claude's own browser Cloudflare-walled on both teatrocervantes.com and teatroechegaray.com)",
+   "why": "BROKEN-CHECKOUT RULING 2026-09-30, SUPERSEDES the 2026-09-24 entry. That entry's unientradas.es/es/espectaculo/arquitectura-del-silencio/26-27SilencioArq link, working 2026-09-24, is now a flat 404 (confirmed independently). Sofia then opened all three Metalirica nights (01/02/03 Oct) directly on the venue's own page and screenshotted each: every single 'Comprar entradas' button, on all three dates, dead-ends at that same unientradas 404 - a venue-wide ticketing-partner outage, not a routing mistake. No working buy page exists anywhere for this event right now (also checked: not on entradas.com's malaga-490 listing, not ECI, not Fever). RULING: list informationally rather than drop - this URL is the venue's own event page (real date/price/on-sale info, no working buy control), same treatment as Clarence Jazz Club / ZZ PUB. Re-check next verifier run in case Unientradas's outage clears before 1 Oct."
   },
   "pituquete y encarna anillo|2026-09-17": {
    "act": "Pituquete y Encarna Anillo",
