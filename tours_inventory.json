@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-09-30",
-  "count": 103,
+  "generated": "2026-10-01",
+  "count": 104,
   "items": [
     {
       "sku": "194665",
@@ -438,6 +438,20 @@
       "d": "MADRING is getting ready to host the Formula 1® Spanish Grand Prix in September 2027. Get your F1® tickets in Madrid now!"
     },
     {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+    },
+    {
       "sku": "89659",
       "n": "Guided walking tour of the Alcazaba of Malaga",
       "c": "tours",
@@ -492,20 +506,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
-    },
-    {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -590,6 +590,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141843&u=https%3A%2F%2Ffeverup.com%2Fm%2F141843&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Immerse yourself in the fascinating world of olive oil in the world capital of liquid gold! Get your tickets!"
+    },
+    {
+      "sku": "785182",
+      "n": "Perdiendo el juicio -Monólogo en Malaga de Sergio Alamar - Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "283dccf2-bc6c-11f1-9f11-eef10690df03.jpeg",
+      "url": "https://feverup.com/m/785182/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=785182&u=https%3A%2F%2Ffeverup.com%2Fm%2F785182&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Perdiendo el juicio inicia la sesión con Sergio Alamar en el banquillo. Opiniones contundentes, casos de la audiencia y risas deciden el veredicto. Qué vas a disfrutar 🎭 Adéntrate en un monólogo al estilo de un tribunal impulsado por el agudo humor de Sergio Alamar 😂 Observa cómo las opiniones c"
     },
     {
       "sku": "141797",

@@ -1,6 +1,6 @@
 {
  "count": 15,
- "generated": "2026-09-30T04:02:51Z",
+ "generated": "2026-10-01T04:02:52Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -14,22 +14,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcirco-quiros%2F",
    "url": "https://www.entradas.com/en/artist/circo-quiros/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-music-circus-show-on-ice",
-   "n": "Ice Show with Highlights of FROZEN 1&2",
-   "c": "family",
-   "cat": "Family",
-   "v": "Palacio de Congresos y Exposiciones Adolfo Suárez · Marbella",
-   "area": "Marbella",
-   "p": "From €49",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Teatro_Cervantes_M%C3%A1laga.jpg/960px-Teatro_Cervantes_M%C3%A1laga.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmusic-circus-show-on-ice%2F",
-   "url": "https://www.entradas.com/en/artist/music-circus-show-on-ice/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -158,6 +142,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fel-desembarco-la-traicion-de-viriato%2F",
    "url": "https://www.entradas.com/en/artist/el-desembarco-la-traicion-de-viriato/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-music-circus-show-on-ice",
+   "n": "Ice Show with Highlights of FROZEN 1&2",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Palacio de Congresos y Exposiciones Adolfo Suárez · Marbella",
+   "area": "Marbella",
+   "p": "From €49",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Teatro_Cervantes_M%C3%A1laga.jpg/960px-Teatro_Cervantes_M%C3%A1laga.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmusic-circus-show-on-ice%2F",
+   "url": "https://www.entradas.com/en/artist/music-circus-show-on-ice/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
