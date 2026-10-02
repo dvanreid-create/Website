@@ -1,6 +1,6 @@
 {
  "_comment": "EL CORTE INGLES — MALAGA PROVINCE MUSIC INVENTORY. Built 2026-09-21 by reading ECI's own recinto directory (elcorteingles.es/entradas/recintos/malaga/) and every venue page under it, in Sofia's browser session — the box and the Claude sandbox are both IP-blocked by ECI. PURPOSE: eci_resolve() in build_site.py only ever runs for STARLITE rows (its first line returns unchanged unless the venue contains 'starlite'), so ECI was invisible for every other Malaga room. Leoni Torres (18 Oct, Sala Paris 15) was live on a promoter page paying NOTHING while ECI sold the same night at 48,50 EUR. Sofia: 'we need to make sure ECI is always covered, not only linked to Starlite'. This file is that coverage. REFRESH IT from the same directory whenever the window rolls.",
- "generated": "2026-09-21",
+ "generated": "2026-10-01",
  "source": "https://www.elcorteingles.es/entradas/recintos/malaga/",
  "venues_scanned": 18,
  "events": [
@@ -17,6 +17,14 @@
    "ymd": "2026-10-24",
    "url": "https://www.elcorteingles.es/entradas/festivales/entradas-holi-not-holi-torremolinos/",
    "eci_from": 38.5,
+   "venue": "Auditorio Municipal Príncipe de Asturias",
+   "city": "Torremolinos"
+  },
+  {
+   "act": "Niña Pastori - Color Fania",
+   "ymd": "2027-03-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/",
+   "eci_from": 49.5,
    "venue": "Auditorio Municipal Príncipe de Asturias",
    "city": "Torremolinos"
   },
@@ -45,27 +53,19 @@
    "city": "Fuengirola"
   },
   {
+   "act": "David Bisbal - Tour Eternos",
+   "ymd": "2027-07-22",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-david-bisbal-fuengirola-DAVIDBISBAL2027DAVIDBISBAL2027MARE/",
+   "eci_from": 63.8,
+   "venue": "Marenostrum Fuengirola",
+   "city": "Fuengirola"
+  },
+  {
    "act": "Raphael - Raphaelísimo",
    "ymd": "2026-11-28",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-raphael-malaga/",
    "eci_from": 49.5,
    "venue": "Palacio de Deportes José María Martín Carpena",
-   "city": "Málaga"
-  },
-  {
-   "act": "Benalsound",
-   "ymd": "2026-10-17",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-benalsound-benalmadena/",
-   "eci_from": 49.5,
-   "venue": "Recinto Ferial Los Nadales",
-   "city": "Benalmádena"
-  },
-  {
-   "act": "Sidecars - Gira Presentación EVEREST",
-   "ymd": "2026-10-02",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
-   "eci_from": 33.0,
-   "venue": "Sala París 15",
    "city": "Málaga"
   },
   {
@@ -101,6 +101,14 @@
    "city": "Málaga"
   },
   {
+   "act": "Sidecars - Gira Presentación EVEREST",
+   "ymd": "2027-04-03",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
+   "eci_from": 33.0,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
    "act": "Tributo a Radio Futura, El Último de la Fila y Héroes del Silencio",
    "ymd": "2027-05-07",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-radio-ultimo-de-la-fila-y-heroes-silencio-malaga/",
@@ -131,6 +139,62 @@
    "eci_from": 19.25,
    "venue": "Sala Trinchera",
    "city": "Málaga"
+  },
+  {
+   "act": "Vivaldianno",
+   "ymd": "2026-10-15",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
+   "eci_from": 24.79,
+   "venue": "Teatro del Soho CaixaBank",
+   "city": "Málaga"
+  },
+  {
+   "act": "Navidad en el Soho: Un Cuento Musical",
+   "ymd": "2026-12-02",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-navidad-en-el-soho-un-cuento-musical-malaga-58802588023087/",
+   "eci_from": 25.0,
+   "venue": "Teatro del Soho CaixaBank",
+   "city": "Málaga"
+  },
+  {
+   "act": "Concierto de Navidad en el Soho",
+   "ymd": "2026-12-25",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
+   "eci_from": 25.0,
+   "venue": "Teatro del Soho CaixaBank",
+   "city": "Málaga"
+  },
+  {
+   "act": "Les Ballets Trockadero de Monte Carlo - TIP TOE Soho International Dance Festival",
+   "ymd": "2027-04-06",
+   "url": "https://www.elcorteingles.es/entradas/festivales/entradas-les-ballets-trockadero-de-monte-caro-malaga/",
+   "eci_from": 25.0,
+   "venue": "Teatro del Soho CaixaBank",
+   "city": "Málaga"
+  },
+  {
+   "act": "Falete",
+   "ymd": "2026-10-31",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-43582435821796/",
+   "eci_from": 22.05,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
+  },
+  {
+   "act": "Falete",
+   "ymd": "2026-10-31",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-59535595351796/",
+   "eci_from": 22.05,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
+  },
+  {
+   "act": "Aidalai, Tributo Mecano",
+   "ymd": "2026-11-28",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-aidalai-tributo-mecano-malaga-43364433641796/",
+   "eci_from": 25.36,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
   }
- ]
+]
 }

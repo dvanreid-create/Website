@@ -1,6 +1,6 @@
 {
- "count": 15,
- "generated": "2026-10-01T04:02:52Z",
+ "count": 14,
+ "generated": "2026-10-02T04:02:55Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -30,6 +30,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fleyendas-y-misterios%2F",
    "url": "https://www.entradas.com/en/artist/leyendas-y-misterios/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-andalusian-night",
+   "n": "Andalusian Night",
+   "c": "immersive",
+   "cat": "Show",
+   "v": "Torremolinos",
+   "area": "Torremolinos",
+   "p": "From €75",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Teatro_Cervantes_M%C3%A1laga.jpg/960px-Teatro_Cervantes_M%C3%A1laga.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fandalusian-night%2F",
+   "url": "https://www.entradas.com/en/artist/andalusian-night/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -163,22 +179,6 @@
    "idx": 1
   },
   {
-   "sku": "entradas-la-peste-en-malaga-comedia-historica",
-   "n": "La Peste en Málaga - Comedia Histórica.",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "La Caja Blanca · Málaga",
-   "area": "Málaga",
-   "p": "From €15.73",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/lapestecomed_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fla-peste-en-malaga-comedia-historica%2F",
-   "url": "https://www.entradas.com/en/artist/la-peste-en-malaga-comedia-historica/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
    "sku": "entradas-miercoles-addams-el-musical",
    "n": "MIERCOLES ADDAMS EL SECRETO DE LA MANSION",
    "c": "theatre",
@@ -206,22 +206,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsun-line%2F",
    "url": "https://www.entradas.com/en/artist/sun-line/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-splean",
-   "n": "SPLEAN",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Teatro Auditorio Felipe VI · Estepona",
-   "area": "Estepona",
-   "p": "From €59",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/splean_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsplean%2F",
-   "url": "https://www.entradas.com/en/artist/splean/",
    "rating": 0,
    "nrev": 0,
    "idx": 1

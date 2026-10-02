@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "count": 104,
   "items": [
     {
@@ -424,20 +424,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "708013",
-      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
-      "url": "https://feverup.com/m/708013/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is getting ready to host the Formula 1® Spanish Grand Prix in September 2027. Get your F1® tickets in Madrid now!"
-    },
-    {
       "sku": "632234",
       "n": "Funzo in Málaga",
       "c": "tours",
@@ -508,6 +494,20 @@
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
     },
     {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
+    },
+    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -534,6 +534,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672309&u=https%3A%2F%2Ffeverup.com%2Fm%2F672309&intsrc=CATF_15532",
       "feat": 0,
       "d": "🎬 Una epopeya mitológica que sigue la historia de Odiseo y su largo viaje a casa, de 10 años de duración, tras la guerra de Troya. 🕒 Fecha de estreno: 2026-07-15 🎥 Director: Christopher Nolan 🌟 Reparto: Matt Damon, Tom Holland, Anne Hathaway ⌛ Duración: 172 minutos 🎭 Género: Aventura 👤 Edad: R"
+    },
+    {
+      "sku": "785182",
+      "n": "Losing Judgment - Monologue in Malaga by Sergio Alamar - Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "283dccf2-bc6c-11f1-9f11-eef10690df03.jpeg",
+      "url": "https://feverup.com/m/785182/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=785182&u=https%3A%2F%2Ffeverup.com%2Fm%2F785182&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Losing Judgment kicks off with Sergio Alamar in the dock. Strong opinions, audience cases and laughter decide the verdict. Highlights 🎭 Step into a courtroom-style monologue driven by the sharp humour of Sergio Alamar 😂 Watch as controversial opinions turn into laughter from the very first state"
     },
     {
       "sku": "553173",
@@ -590,20 +604,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141843&u=https%3A%2F%2Ffeverup.com%2Fm%2F141843&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Immerse yourself in the fascinating world of olive oil in the world capital of liquid gold! Get your tickets!"
-    },
-    {
-      "sku": "785182",
-      "n": "Perdiendo el juicio -Monólogo en Malaga de Sergio Alamar - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "283dccf2-bc6c-11f1-9f11-eef10690df03.jpeg",
-      "url": "https://feverup.com/m/785182/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=785182&u=https%3A%2F%2Ffeverup.com%2Fm%2F785182&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Perdiendo el juicio inicia la sesión con Sergio Alamar en el banquillo. Opiniones contundentes, casos de la audiencia y risas deciden el veredicto. Qué vas a disfrutar 🎭 Adéntrate en un monólogo al estilo de un tribunal impulsado por el agudo humor de Sergio Alamar 😂 Observa cómo las opiniones c"
     },
     {
       "sku": "141797",
