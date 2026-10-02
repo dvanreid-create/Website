@@ -3,6 +3,12 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "benalsound",
+   "venue": "nadales",
+   "date": "2026-10-17",
+   "why": "CANCELLED BY THE ORGANISER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Benalsound' (091, La Casa Azul, Elefantes, Tabletom, Sara Rais), Sat 17 Oct 2026, Recinto Ferial Los Nadales, Benalmádena. ECI's own page (Sofia's browser screenshot 2026-10-02, on our Awin link) shows the buy button replaced by 'CANCELADO' and the organiser's 'COMUNICADO OFICIAL | SUSPENSIÓN DE BENALSOUND': the festival 'no podrá celebrarse' for logistical and technical reasons, first edition suspended, tickets refunded automatically. Nothing to reroute to - ECI was the only seller. Missed on the 2026-10-01 ECI refresh (removed from the map but never blocked, so the sweep row stayed live); date-scoped so a future edition is untouched. Reel for this show was already pulled by Sofia."
+  },
+  {
    "match": "sidecars",
    "venue": "paris",
    "date": "2026-10-02",
