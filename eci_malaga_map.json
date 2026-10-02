@@ -5,14 +5,6 @@
  "venues_scanned": 18,
  "events": [
   {
-   "act": "Niña Pastori",
-   "ymd": "2026-10-17",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
-   "eci_from": 44.0,
-   "venue": "Auditorio Municipal Príncipe de Asturias",
-   "city": "Torremolinos"
-  },
-  {
    "act": "Holi Not Holi",
    "ymd": "2026-10-24",
    "url": "https://www.elcorteingles.es/entradas/festivales/entradas-holi-not-holi-torremolinos/",
@@ -145,14 +137,6 @@
    "ymd": "2026-10-15",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
    "eci_from": 24.79,
-   "venue": "Teatro del Soho CaixaBank",
-   "city": "Málaga"
-  },
-  {
-   "act": "Navidad en el Soho: Un Cuento Musical",
-   "ymd": "2026-12-02",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-navidad-en-el-soho-un-cuento-musical-malaga-58802588023087/",
-   "eci_from": 25.0,
    "venue": "Teatro del Soho CaixaBank",
    "city": "Málaga"
   },

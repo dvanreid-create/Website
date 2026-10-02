@@ -3,6 +3,24 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "sidecars",
+   "venue": "paris",
+   "date": "2026-10-02",
+   "why": "POSTPONED BY THE ORGANISER - recorded 2026-10-02. 'Sidecars - Gira Presentación EVEREST', Fri 2 Oct 2026, Sala París 15. ECI's own page (browser-read 2026-10-02) now dates the show 3 April 2027, 21:00, Sala París 15, from 33,00 EUR, and carries the organiser's notice that the concert is POSTPONED because of Juancho's knee injury. The 2 Oct card had already left the homepage; this entry stops the sweep re-adding it. Date-scoped so the 3 Apr 2027 show is untouched."
+  },
+  {
+   "match": "navidad en el soho",
+   "venue": "soho",
+   "date": "2026-12-02",
+   "why": "CANCELLED - recorded 2026-10-02. ECI's page for 'Navidad en el Soho: Un Cuento Musical' (2 Dec 2026, Teatro del Soho CaixaBank) shows CANCELADO (found by the ECI refresh's cancellation scan). Date-scoped."
+  },
+  {
+   "match": "nina pastori",
+   "venue": "principe de asturias",
+   "date": "2026-10-17",
+   "why": "CANCELLED / POSTPONED BY THE PROMOTER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Niña Pastori - Color Fania', Sat 17 Oct 2026, Auditorio Municipal Príncipe de Asturias, Torremolinos. Seen by Sofia in her own browser on our own Awin link: ECI's page elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/ shows the buy button replaced by 'CANCELADO' and the organiser's (Concert Tour) notice: the 17 Oct show is annulled and ALL tickets refunded because the concert is REPROGRAMMED to 7 March 2027, 20:00, same auditorium, now SEATED. The new date is on sale at ECI (elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/, from 49,50 EUR) and is outside the calendar window today. Date-scoped so the 7 Mar 2027 show is untouched; the manual injection in build_site.py is retired in the same change. Missed by the ECI map refresh of 2026-10-01 because the page text still rendered the date and a 'COMPRAR'-style scan did not read the banner - the refresh must also look for CANCELADO on every card page. Reverse with one edit if the promoter reinstates 17 Oct."
+  },
+  {
    "match": "selwo marina",
    "why": "NOT MUSIC — Selwo Marina is a marine/animal park in Benalmadena (dolphins, penguins, sea lions). 'Selwo Marina Tickets' on Fever is park ADMISSION, not a concert, and it surfaced in the Featured Events rail. Malaga Live is a live-music site; a theme-park admission never belongs on it. Substring block on 'selwo marina' (specific park name, not a real act, so no venue scoping needed). Ruling DLR 2026-09-19 after it appeared in Featured Events."
   },
