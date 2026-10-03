@@ -3663,6 +3663,24 @@
      "venue_name": "Noche en Vela - Centro Historico, Velez-Malaga"
     }
    }
+  },
+  "opera benalmadena": {
+   "source": "https://tickets.oneboxtds.com/operabenalmadena/events",
+   "complete": false,
+   "gate": false,
+   "note": "VENUE-NAME ALIAS for the 'operabenalmadena' block, added 2026-10-03 by the daily commission-coverage audit (Claude Browser). WHY: _venue_lookup() only matches a key against the normalised VENUE or URL. 'operabenalmadena' matches onebox URLs, but a sweep row whose link is entradas.com (soul-on-fire-opera-benalmadena-...) and whose venue is 'Opera Benalmadena' (with a space) matches NO key, so the 2026-09-28 Soul on Fire re-route written into the operabenalmadena block never fired - simulated 2026-10-03: _venue_lookup returned None and the live card still sent readers to entradas.com at 27,50 EUR. This block matches on the venue name instead. It is APPENDED LAST so any row whose URL already contains 'operabenalmadena' still resolves to the original block first. complete:false + gate:false = it never phantom-drops anything; an act with no entry here falls through venue_resolve untouched. Not in backfill_calendar.py's WHITELIST, so it never injects rows.",
+   "acts": {
+    "soul on fire": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51226",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "time": "21:00",
+     "venue_name": "Ópera Benalmádena",
+     "genre": "Jazz & Soul",
+     "price": "Desde 15,00 EUR",
+     "why": "BROWSER-VERIFIED 2026-10-03: onebox 51226 SESIONES tab 'SAB 24 OCT, Opera Benalmadena, SOUL ON FIRE, Desde 15,00 EUR, Comprar ahora' (also VIE 27 NOV, same price). entradas.com 21859763 same night (24/10/2026 21:00): Precio 1 General 27,50 EUR on sale; Precio 2 General 22,00 and Precio 3 16,50/13,20 AGOTADO; the 22,00 promo is code-gated per the 09-28 note. CHEAPER SELLER WINS (DLR 2026-08-29): this knowingly moves the reader OFF the paying entradas.com (Awin 24761) onto the non-paying box office, exactly as already ruled 2026-09-28 in the operabenalmadena block - this entry only makes that ruling actually reach the live site. Reverse by ruling."
+    }
+   }
   }
  }
 }
