@@ -601,7 +601,7 @@
 },
 "obk-35-aniversario-vertigo-tour": {
 "name": "OBK. 35 aniversario Vértigo tour",
-"mles": 55.9
+"mles": 70.8
 },
 "malu-quince-tour": {
 "name": "Malú. Quince tour",
@@ -644,7 +644,7 @@
 "mles": 58.1
 },
 "cabaret-2-0": {
-"name": "Cabaret 2.0",
+"name": "CABARET 2.0",
 "mles": 58.1
 },
 "la-juan-roman": {
@@ -660,7 +660,7 @@
 "mles": 52.3
 },
 "la-konga": {
-"name": "LA KONGA",
+"name": "La Konga",
 "mles": 59.4
 },
 "hechizo": {
@@ -908,7 +908,7 @@
 "mles": 58.7
 },
 "las-pelotas": {
-"name": "LAS PELOTAS",
+"name": "Las Pelotas",
 "mles": 0.0
 },
 "35o-aniversario": {
@@ -960,7 +960,7 @@
 "mles": 62.2
 },
 "no-te-va-a-gustar": {
-"name": "NO TE VA A GUSTAR",
+"name": "No Te Va A Gustar",
 "mles": 55.2
 },
 "art-club-band": {
@@ -968,7 +968,7 @@
 "mles": 58.9
 },
 "abhir": {
-"name": "ABHIR",
+"name": "Abhir",
 "mles": 52.3
 },
 "gonzalo-hermida": {
@@ -1012,7 +1012,7 @@
 "mles": 0.0
 },
 "howlin-ramblers": {
-"name": "Howlin’ Ramblers",
+"name": "Howlin' Ramblers",
 "mles": 58.9
 },
 "havard-ersland-trio": {
@@ -1098,5 +1098,313 @@
 "falete": {
 "name": "Falete",
 "mles": 69.7
+},
+"el-nino-delta": {
+"name": "El Niño Delta",
+"mles": 0.0
+},
+"david-bustamante": {
+"name": "David Bustamante",
+"mles": 0.0
+},
+"brunch-electronik-weekender-malaga-2026": {
+"name": "Brunch Electronik Weekender Málaga 2026",
+"mles": 0.0
+},
+"the-bateleurs": {
+"name": "The Bateleurs",
+"mles": 0.0
+},
+"brunch-elektronik-weekender": {
+"name": "Brunch Elektronik Weekender",
+"mles": 0.0
+},
+"binomio-de-oro-de-america": {
+"name": "Binomio de Oro de América",
+"mles": 0.0
+},
+"dm-experience": {
+"name": "DM Experience",
+"mles": 0.0
+},
+"marta-sanchez": {
+"name": "Marta Sánchez",
+"mles": 0.0
+},
+"valeria-lynch-en-malaga": {
+"name": "Valeria Lynch en Málaga",
+"mles": 0.0
+},
+"orquesta-filarmonica-de-malaga": {
+"name": "Orquesta Filarmónica de Málaga",
+"mles": 0.0
+},
+"el-saguaro": {
+"name": "El Saguaro",
+"mles": 0.0
+},
+"cotton-pickers": {
+"name": "Cotton Pickers",
+"mles": 0.0
+},
+"maggie-cullen": {
+"name": "Maggie Cullen",
+"mles": 0.0
+},
+"patax": {
+"name": "Patax",
+"mles": 0.0
+},
+"ebano-jazz-quartet": {
+"name": "Ébano Jazz Quartet",
+"mles": 0.0
+},
+"gata-brass-band": {
+"name": "Gata Brass Band",
+"mles": 0.0
+},
+"los-sabineros": {
+"name": "Los Sabineros",
+"mles": 0.0
+},
+"pedro-pastor": {
+"name": "Pedro Pastor",
+"mles": 0.0
+},
+"malas-companias": {
+"name": "Malas Compañías",
+"mles": 0.0
+},
+"margarita-dominguez": {
+"name": "Margarita Domínguez",
+"mles": 0.0
+},
+"puro-indie": {
+"name": "Puro Indie",
+"mles": 0.0
+},
+"el-chojin": {
+"name": "El Chojín",
+"mles": 0.0
+},
+"remember-house": {
+"name": "Remember House",
+"mles": 0.0
+},
+"blue-angel": {
+"name": "Blue Angel",
+"mles": 0.0
+},
+"stivijoes": {
+"name": "Stivijoes",
+"mles": 0.0
+},
+"los-palmeras": {
+"name": "Los Palmeras",
+"mles": 0.0
+},
+"de-cadiz-a-buenos-aires": {
+"name": "De Cádiz a Buenos Aires",
+"mles": 0.0
+},
+"recuerdos-locos": {
+"name": "Recuerdos Locos",
+"mles": 0.0
+},
+"fiebre-club-halloween": {
+"name": "Fiebre Club: Halloween",
+"mles": 0.0
+},
+"bendecida": {
+"name": "Bendecida",
+"mles": 0.0
+},
+"airbag": {
+"name": "Airbag",
+"mles": 0.0
+},
+"abstract": {
+"name": "Abstract",
+"mles": 0.0
+},
+"concierto-de-halloween": {
+"name": "Concierto de Halloween",
+"mles": 0.0
+},
+"sobredosis-de-soda": {
+"name": "Sobredosis de Soda",
+"mles": 0.0
+},
+"malaga-popfest-2026": {
+"name": "Málaga Popfest 2026",
+"mles": 0.0
+},
+"cupido": {
+"name": "Cupido",
+"mles": 0.0
+},
+"carmen-ferre": {
+"name": "Carmen Ferre",
+"mles": 0.0
+},
+"arde-bogota": {
+"name": "Arde Bogotá",
+"mles": 0.0
+},
+"hijos-de-la-ruina-tour": {
+"name": "Hijos de la Ruina Tour",
+"mles": 0.0
+},
+"yosh": {
+"name": "Yosh",
+"mles": 0.0
+},
+"los-caracoles": {
+"name": "Los Caracoles",
+"mles": 0.0
+},
+"nadie-patin": {
+"name": "Nadie Patín",
+"mles": 0.0
+},
+"migue-de-antilopez": {
+"name": "Migue de Antílopez",
+"mles": 0.0
+},
+"aleron": {
+"name": "Alerón",
+"mles": 0.0
+},
+"los-canos": {
+"name": "Los Caños",
+"mles": 0.0
+},
+"ciclo-de-lirica": {
+"name": "Ciclo de Lírica",
+"mles": 0.0
+},
+"servando-florentino": {
+"name": "Servando & Florentino",
+"mles": 0.0
+},
+"grupo-liberacion": {
+"name": "GRUPO LIBERACIÓN",
+"mles": 0.0
+},
+"milongas-extremas": {
+"name": "Milongas Extremas",
+"mles": 0.0
+},
+"las-pastillas-del-abuelo": {
+"name": "Las Pastillas del Abuelo",
+"mles": 0.0
+},
+"tennessee": {
+"name": "Tennessee",
+"mles": 0.0
+},
+"melon-diesel": {
+"name": "Melón Diesel",
+"mles": 0.0
+},
+"mala-gestion": {
+"name": "Mala Gestión",
+"mles": 0.0
+},
+"20-aniversario-drunk-o-rama": {
+"name": "20 Aniversario Drunk-o-rama",
+"mles": 0.0
+},
+"neon-collective-the-80s-show": {
+"name": "Neon Collective: The 80s Show",
+"mles": 0.0
+},
+"miranda": {
+"name": "Miranda!",
+"mles": 0.0
+},
+"victor-manuel": {
+"name": "Víctor Manuel",
+"mles": 0.0
+},
+"brujeria": {
+"name": "Brujería",
+"mles": 0.0
+},
+"lyapis-trubetskoy": {
+"name": "Lyapis Trubetskoy",
+"mles": 0.0
+},
+"xv-la-filarmonica-frente-al-mar": {
+"name": "XV La Filarmónica Frente al Mar",
+"mles": 0.0
+},
+"rata": {
+"name": "Rata",
+"mles": 0.0
+},
+"chiquita-movida": {
+"name": "Chiquita Movida",
+"mles": 0.0
+},
+"haze": {
+"name": "Haze",
+"mles": 0.0
+},
+"melendi": {
+"name": "Melendi",
+"mles": 0.0
+},
+"carlos-ares": {
+"name": "Carlos Ares",
+"mles": 0.0
+},
+"kinky-bwoy": {
+"name": "Kinky Bwoy",
+"mles": 0.0
+},
+"heat-remember-fantasy": {
+"name": "Heat: Remember Fantasy",
+"mles": 0.0
+},
+"los-fabulosos-cadillacs": {
+"name": "Los Fabulosos Cadillacs",
+"mles": 0.0
+},
+"gauchito-club": {
+"name": "Gauchito Club",
+"mles": 0.0
+},
+"salistre": {
+"name": "Salistre",
+"mles": 60.6
+},
+"hide-tyson": {
+"name": "Hide Tyson",
+"mles": 0.0
+},
+"vicky-gastelo": {
+"name": "Vicky Gastelo",
+"mles": 0.0
+},
+"la-cabra-mecanica": {
+"name": "La Cabra Mecánica",
+"mles": 0.0
+},
+"ruslana": {
+"name": "Ruslana",
+"mles": 0.0
+},
+"santero-y-los-muchachos": {
+"name": "Santero y Los Muchachos",
+"mles": 0.0
+},
+"neverland-bari": {
+"name": "Neverland Bari",
+"mles": 0.0
+},
+"tributo-a-creedence-clearwater-revival": {
+"name": "Tributo a Creedence Clearwater Revival",
+"mles": 0.0
 }
 }
