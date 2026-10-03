@@ -45,7 +45,7 @@
 },
 "malu": {
 "name": "Malú",
-"mles": 69.3
+"mles": 67.6
 },
 "noche-movida": {
 "name": "Noche Movida",
@@ -165,7 +165,7 @@
 },
 "soul-on-fire": {
 "name": "Soul on Fire",
-"mles": 59.5
+"mles": 58.1
 },
 "sun-thunder-26": {
 "name": "Sun & Thunder 26",
@@ -441,7 +441,7 @@
 },
 "macaco-in-malaga": {
 "name": "Macaco in Malaga",
-"mles": 59.5
+"mles": 52.3
 },
 "motown-band": {
 "name": "Motown Band",
@@ -449,15 +449,15 @@
 },
 "the-children-of-queen": {
 "name": "The Children of Queen",
-"mles": 58.5
+"mles": 62.8
 },
 "the-killer-rockets": {
 "name": "The Killer Rockets",
-"mles": 56.8
+"mles": 56.3
 },
 "el-trio-del-saco": {
 "name": "El Trío del Saco",
-"mles": 58.5
+"mles": 59.5
 },
 "80ers": {
 "name": "80ERS",
@@ -469,11 +469,11 @@
 },
 "mystery-machine": {
 "name": "Mystery Machine",
-"mles": 58.8
+"mles": 49.6
 },
 "tyler-faraday-band": {
 "name": "Tyler Faraday Band",
-"mles": 55.2
+"mles": 53.3
 },
 "magicos-cabrones-del-ruido": {
 "name": "Mágicos Cabrones del Ruido",
@@ -489,7 +489,7 @@
 },
 "maika-lavera": {
 "name": "Maika Lavera",
-"mles": 56.8
+"mles": 59.5
 },
 "the-hairbreakers": {
 "name": "The Hairbreakers",
@@ -521,11 +521,11 @@
 },
 "funkonauts": {
 "name": "Funkonauts",
-"mles": 58.5
+"mles": 56.5
 },
 "jose-merce": {
 "name": "José Mercé",
-"mles": 56.5
+"mles": 65.2
 },
 "antonio-sanchez-birdman-live": {
 "name": "Antonio Sánchez 'Birdman Live'",
@@ -593,11 +593,11 @@
 },
 "moderna-orquesta-moderna-flamenco-01": {
 "name": "Moderna · Orquesta Moderna: Flamenco #01",
-"mles": 52.7
+"mles": 66.1
 },
 "rafa-sanchez": {
 "name": "Rafa Sánchez",
-"mles": 63.3
+"mles": 61.8
 },
 "obk-35-aniversario-vertigo-tour": {
 "name": "OBK. 35 aniversario Vértigo tour",
@@ -609,7 +609,7 @@
 },
 "arcadi-volodos": {
 "name": "Arcadi Volodos",
-"mles": 51.9
+"mles": 59.3
 },
 "3-de-corazones-pancho-cespedes-enrique-ramil-y-jose-luis-jaen": {
 "name": "3 de Corazones · Pancho Céspedes, Enrique Ramil y José Luis Jaén",
@@ -641,11 +641,11 @@
 },
 "legends-night": {
 "name": "Legends Night",
-"mles": 60.3
+"mles": 58.1
 },
 "cabaret-2-0": {
 "name": "Cabaret 2.0",
-"mles": 60.3
+"mles": 58.1
 },
 "la-juan-roman": {
 "name": "La Juan Román",
@@ -653,11 +653,11 @@
 },
 "robot-rock-alive": {
 "name": "ROBOT ROCK ALIVE",
-"mles": 62.1
+"mles": 52.3
 },
 "valeria-lynch": {
 "name": "VALERIA LYNCH",
-"mles": 62.1
+"mles": 52.3
 },
 "la-konga": {
 "name": "LA KONGA",
@@ -665,11 +665,11 @@
 },
 "hechizo": {
 "name": "Hechizo",
-"mles": 64.0
+"mles": 52.3
 },
 "binomio-de-oro": {
 "name": "Binomio de Oro",
-"mles": 62.1
+"mles": 52.3
 },
 "los-herrera": {
 "name": "LOS HERRERA",
@@ -689,7 +689,7 @@
 },
 "the-silencers": {
 "name": "The Silencers",
-"mles": 58.4
+"mles": 59.1
 },
 "grupo-firme": {
 "name": "Grupo Firme",
@@ -697,11 +697,11 @@
 },
 "sober": {
 "name": "Sôber",
-"mles": 63.7
+"mles": 61.6
 },
 "leoni-torres": {
 "name": "Leoni Torres",
-"mles": 68.4
+"mles": 61.6
 },
 "los-sirex": {
 "name": "Los Sírex",
@@ -749,7 +749,7 @@
 },
 "the-animesy": {
 "name": "The Animesy",
-"mles": 53.6
+"mles": 56.0
 },
 "jammin-dose": {
 "name": "Jammin' Dose",
@@ -769,11 +769,11 @@
 },
 "hybrid-park": {
 "name": "Hybrid Park",
-"mles": 61.4
+"mles": 58.1
 },
 "la-bomba-de-tiempo": {
 "name": "La Bomba de Tiempo",
-"mles": 61.1
+"mles": 59.3
 },
 "juan-medina": {
 "name": "Juan Medina",
@@ -781,7 +781,7 @@
 },
 "fatal-move": {
 "name": "Fatal Move",
-"mles": 55.8
+"mles": 56.3
 },
 "brunch-weekender": {
 "name": "Brunch! Weekender",
@@ -789,7 +789,7 @@
 },
 "obk": {
 "name": "OBK",
-"mles": 73.8
+"mles": 70.8
 },
 "rafa-pons": {
 "name": "Rafa Pons",
@@ -797,23 +797,23 @@
 },
 "mario-diaz": {
 "name": "Mario Díaz",
-"mles": 58.5
+"mles": 58.9
 },
 "pedra": {
 "name": "Pedrá!",
-"mles": 61.4
+"mles": 52.3
 },
 "sike": {
 "name": "SIKE",
-"mles": 62.1
+"mles": 61.6
 },
 "rock-pop-legends": {
 "name": "Rock & Pop Legends",
-"mles": 60.3
+"mles": 58.1
 },
 "borja-pico": {
 "name": "Borja Picó",
-"mles": 60.6
+"mles": 52.3
 },
 "nebulossa": {
 "name": "Nebulossa",
@@ -821,7 +821,7 @@
 },
 "vargas-blues-band": {
 "name": "Vargas Blues Band",
-"mles": 56.9
+"mles": 53.1
 },
 "benalsound": {
 "name": "Benalsound",
@@ -829,15 +829,15 @@
 },
 "rienda-suelta": {
 "name": "Rienda Suelta",
-"mles": 62.1
+"mles": 61.6
 },
 "leyendas-del-pop": {
 "name": "Leyendas del Pop",
-"mles": 60.3
+"mles": 55.2
 },
 "partiendo-la-pana": {
 "name": "Partiendo la Pana",
-"mles": 61.4
+"mles": 52.3
 },
 "benzu": {
 "name": "Benzú",
@@ -845,7 +845,7 @@
 },
 "santi-muk-in-malaga": {
 "name": "Santi Muk in Malaga",
-"mles": 60.6
+"mles": 52.3
 },
 "selwo-marina-tickets": {
 "name": "Selwo Marina Tickets",
@@ -877,35 +877,35 @@
 },
 "brunch-electronik-weekender": {
 "name": "Brunch! Electronik Weekender",
-"mles": 59.7
+"mles": 53.4
 },
 "jota-carajota": {
 "name": "Jota Carajota",
-"mles": 57.3
+"mles": 52.3
 },
 "plastic-woods": {
 "name": "Plastic Woods",
-"mles": 62.1
+"mles": 61.6
 },
 "mundo-chillon": {
 "name": "Mundo Chillón",
-"mles": 60.6
+"mles": 52.3
 },
 "aidalai": {
 "name": "Aidalai",
-"mles": 60.3
+"mles": 55.2
 },
 "queen-of-magic": {
 "name": "Queen Of Magic",
-"mles": 57.0
+"mles": 49.5
 },
 "cristian-de-moret": {
 "name": "Cristian de Moret",
-"mles": 59.8
+"mles": 55.0
 },
 "vivaldianno": {
 "name": "Vivaldianno",
-"mles": 54.7
+"mles": 58.7
 },
 "las-pelotas": {
 "name": "LAS PELOTAS",
@@ -921,67 +921,67 @@
 },
 "may-day": {
 "name": "May Day",
-"mles": 59.5
+"mles": 58.9
 },
 "desde-granada": {
 "name": "Desde Granada.",
-"mles": 59.5
+"mles": 58.9
 },
 "divas-del-soul": {
 "name": "Divas del Soul",
-"mles": 55.2
+"mles": 56.1
 },
 "children-of-queen": {
 "name": "Children of Queen",
-"mles": 56.8
+"mles": 62.6
 },
 "desde-portugal": {
 "name": "Desde Portugal.",
-"mles": 59.5
+"mles": 58.9
 },
 "the-hank-moody-band": {
 "name": "The Hank Moody Band",
-"mles": 59.5
+"mles": 58.9
 },
 "william-mcshepard": {
 "name": "William McShepard",
-"mles": 59.5
+"mles": 58.9
 },
 "something-about-tsunamis": {
 "name": "Something About Tsunamis",
-"mles": 59.5
+"mles": 58.9
 },
 "ultraligeros": {
 "name": "Ultraligeros",
-"mles": 58.8
+"mles": 49.6
 },
 "ghost-riders": {
 "name": "Ghost Riders",
-"mles": 59.5
+"mles": 62.2
 },
 "no-te-va-a-gustar": {
 "name": "NO TE VA A GUSTAR",
-"mles": 62.1
+"mles": 55.2
 },
 "art-club-band": {
 "name": "Art Club Band",
-"mles": 59.5
+"mles": 58.9
 },
 "abhir": {
 "name": "ABHIR",
-"mles": 62.1
+"mles": 52.3
 },
 "gonzalo-hermida": {
 "name": "Gonzalo Hermida",
-"mles": 66.2
+"mles": 62.0
 },
 "la-insostenible-big-band": {
 "name": "La Insostenible Big Band",
-"mles": 59.5
+"mles": 55.8
 },
 "holi-not-holi": {
 "name": "Holi Not Holi",
-"mles": 65.8
+"mles": 65.1
 },
 "raphael": {
 "name": "Raphael",
@@ -989,7 +989,7 @@
 },
 "the-jazz-room-marbella-new-orleans-tribute": {
 "name": "The Jazz Room Marbella: New Orleans Tribute",
-"mles": 0.0
+"mles": 55.1
 },
 "the-jazz-room-malaga-tribute-to-sinatra-armstrong": {
 "name": "The Jazz Room Málaga: Tribute to Sinatra & Armstrong",
@@ -997,7 +997,7 @@
 },
 "la-k-onga-in-malaga": {
 "name": "La K'onga in Malaga",
-"mles": 0.0
+"mles": 49.7
 },
 "la-kermesse-redonda-in-malaga": {
 "name": "LA KERMESSE REDONDA in MALAGA",
@@ -1013,7 +1013,7 @@
 },
 "howlin-ramblers": {
 "name": "Howlin’ Ramblers",
-"mles": 0.0
+"mles": 58.9
 },
 "havard-ersland-trio": {
 "name": "Håvard Ersland Trio",
@@ -1021,15 +1021,15 @@
 },
 "kirk-knuffke-trio": {
 "name": "Kirk Knuffke Trio",
-"mles": 0.0
+"mles": 59.0
 },
 "raphael-du-valle-quarteto": {
 "name": "Raphael du Valle Quarteto",
-"mles": 0.0
+"mles": 59.0
 },
 "abe-rabade-trio": {
 "name": "Abe Rábade Trío",
-"mles": 0.0
+"mles": 59.0
 },
 "javi-rubial-trio": {
 "name": "Javi Rubial Trío",
@@ -1037,23 +1037,23 @@
 },
 "ramon-angel-rey-cuarteto": {
 "name": "Ramón Ángel Rey Cuarteto",
-"mles": 0.0
+"mles": 53.1
 },
 "erly-thornton-sextet": {
 "name": "Erly Thornton Sextet",
-"mles": 0.0
+"mles": 59.0
 },
 "vladimir-torres-quintet": {
 "name": "Vladimir Torres Quintet",
-"mles": 0.0
+"mles": 56.0
 },
 "paul-dunlea-quintet": {
 "name": "Paul Dunlea Quintet",
-"mles": 0.0
+"mles": 59.0
 },
 "diego-amador-amp-amp-jose-maria-bandera": {
 "name": "Diego Amador &amp;amp; José María Bandera",
-"mles": 0.0
+"mles": 59.0
 },
 "homenaje-a-falla-en-el-150-aniversario-de-su-nacimiento": {
 "name": "Homenaje a Falla en el 150 aniversario de su nacimiento",
@@ -1061,42 +1061,42 @@
 },
 "gigantes-y-cabezudos": {
 "name": "Gigantes y Cabezudos",
-"mles": 0.0
+"mles": 58.7
 },
 "concierto-inauguracion-ofm": {
 "name": "Concierto Inauguración OFM",
-"mles": 0.0
+"mles": 56.2
 },
 "farruquito-en-concierto": {
 "name": "Farruquito en Concierto",
-"mles": 0.0
+"mles": 66.1
 },
 "concierto-ofm-programa-2": {
 "name": "Concierto OFM Programa 2",
-"mles": 0.0
+"mles": 56.2
 },
 "concierto-v-aniversario-coral-promusica": {
 "name": "Concierto V Aniversario Coral Promúsica",
-"mles": 0.0
+"mles": 64.6
 },
 "concierto-ofm-programa-3": {
 "name": "Concierto OFM Programa 3",
-"mles": 0.0
+"mles": 59.3
 },
 "lady-punk": {
 "name": "Lady Punk",
-"mles": 0.0
+"mles": 52.4
 },
 "vetusta-morla": {
 "name": "Vetusta Morla",
-"mles": 0.0
+"mles": 58.6
 },
 "javi-ruibal-trio": {
 "name": "Javi Ruibal Trío",
-"mles": 0.0
+"mles": 59.0
 },
 "falete": {
 "name": "Falete",
-"mles": 59.2
+"mles": 69.7
 }
 }

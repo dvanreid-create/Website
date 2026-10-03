@@ -1550,7 +1550,8 @@
      "url": "https://feverup.com/m/611306",
      "prefer": "map",
      "date": "03/10/2026",
-     "time": "18:00",
+     "time": "20:00",
+     "time_why": "RE-TIMED 2026-10-03 (daily audit, Claude Browser): Fever 611306's ticket-selector now holds ONE session for 2026-10-03, starts_at 2026-10-03T20:00+02:00. The 18:00 session recorded on 09-29 is no longer offered, so the card's 18:00 pointed readers at a sitting they cannot buy.",
      "price": "23.20-29 EUR",
      "venue": "Volare Room Marbella",
      "city": "Marbella",
@@ -1648,7 +1649,8 @@
      "url": "https://feverup.com/m/713776",
      "prefer": "map",
      "date": "09/10/2026",
-     "time": "20:30",
+     "time": "21:00",
+     "time_why": "RE-TIMED 2026-10-03 (daily audit, Claude Browser): Fever 713776 - the seller this card routes to - states 'Horarios: inicio a las 21:00 h.' and its ticket-selector session is 2026-10-09T21:00. entradas.com's 20:30 (the reason this was left at 20:30 on 09-28) is not the seller we send readers to.",
      "price": "Desde 32,50 EUR",
      "venue": "Sala La Trinchera",
      "venue_name": "La Kermesse Redonda",
@@ -3176,7 +3178,8 @@
      "url": "https://feverup.com/m/713776",
      "prefer": "map",
      "date": "09/10/2026",
-     "time": "20:30",
+     "time": "21:00",
+     "time_why": "RE-TIMED 2026-10-03 (daily audit, Claude Browser): Fever 713776 - the seller this card routes to - states 'Horarios: inicio a las 21:00 h.' and its ticket-selector session is 2026-10-09T21:00. entradas.com's 20:30 (the reason this was left at 20:30 on 09-28) is not the seller we send readers to.",
      "venue_name": "La Kermesse Redonda",
      "genre": "Rock & Indie",
      "why": "DESTINATION LOCK, added 2026-10-02. The 2026-09-28 re-route to Fever 713776 lives in the 'sweeplost' block, which by design can NEVER match in _venue_lookup (its key is a substring of no venue or URL), so it only injects; the live homepage on 2026-10-02 still carried the sweep's own row for this night pointing at entradas.com 21755651 (via Awin) next to the Fever-scrape row on Fever 713776 - two cards, two sellers. This block is reached FIRST for 'sala la trinchera' (key is a substring), so the Fever link now wins for every Kermesse row. Browser-confirmed 2026-10-02 on feverup.com/m/713776: 'LA KERMESSE REDONDA en MALAGA (LA TRINCHERA)', 9 de octubre de 2026, Sala La Trinchera, start 21:00, tiers 30,00/32,50 AGOTADO, Desde 35,00 EUR still on sale. entradas.com 21755651 was 38,50 EUR on 2026-09-28, so Fever stays the cheaper paying seller. Time left at 20:30 per the sweeplost note. RETIRE with the rest of this block once 09/10/2026 has passed."
@@ -3679,6 +3682,30 @@
      "genre": "Jazz & Soul",
      "price": "Desde 15,00 EUR",
      "why": "BROWSER-VERIFIED 2026-10-03: onebox 51226 SESIONES tab 'SAB 24 OCT, Opera Benalmadena, SOUL ON FIRE, Desde 15,00 EUR, Comprar ahora' (also VIE 27 NOV, same price). entradas.com 21859763 same night (24/10/2026 21:00): Precio 1 General 27,50 EUR on sale; Precio 2 General 22,00 and Precio 3 16,50/13,20 AGOTADO; the 22,00 promo is code-gated per the 09-28 note. CHEAPER SELLER WINS (DLR 2026-08-29): this knowingly moves the reader OFF the paying entradas.com (Awin 24761) onto the non-paying box office, exactly as already ruled 2026-09-28 in the operabenalmadena block - this entry only makes that ruling actually reach the live site. Reverse by ruling."
+    },
+    "cabaret 2 0": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+     "date": "09/10/2026",
+     "time": "20:30",
+     "venue_name": "CABARET 2.0",
+     "genre": "Tribute",
+     "why": "TIME-ONLY ENTRY, added 2026-10-03 (daily audit, Claude Browser). The live site showed 'Check link' (no time) on the 9, 10 and 11 Oct Cabaret 2.0 cards although the operabenalmadena block records 20:30. Cause: venue_time_override() needs an entry whose key words are a SUBSET of the card's act words AND whose date parses to the card's date - the 'cabaret' entry's date is the run '09-11/10/2026' (unparseable as one day) and the 'cabaret 2 0 night 2/3' keys carry extra words ('night','2'/'3') that the act 'Cabaret 2.0' does not. These three keys ('cabaret 2 0', 'cabaret 2', 'cabaret') are subsets of 'cabaret 2 0', one per night. No 'prefer', so they never change a link (the cards' onebox URL is deep and routes via the operabenalmadena block first anyway). Seller time confirmed 2026-10-03: onebox 51198 SESIONES VIE 9 / SAB 10 / DOM 11 OCT, all 20:30 per the 09-14/09-21 notes and entradas.com 22005980/81 ('09/10/2026 20:30', '10/10/2026 20:30')."
+    },
+    "cabaret 2": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+     "date": "10/10/2026",
+     "time": "20:30",
+     "venue_name": "CABARET 2.0",
+     "genre": "Tribute",
+     "why": "TIME-ONLY ENTRY for the 10 Oct night - see 'cabaret 2 0' above."
+    },
+    "cabaret": {
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51198",
+     "date": "11/10/2026",
+     "time": "20:30",
+     "venue_name": "CABARET 2.0",
+     "genre": "Tribute",
+     "why": "TIME-ONLY ENTRY for the 11 Oct night - see 'cabaret 2 0' above."
     }
    }
   }
