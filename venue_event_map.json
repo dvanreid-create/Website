@@ -1652,9 +1652,21 @@
      "url": "https://www.enterticket.es/eventos/concierto-la-cabra-mecanica-malaga-sala-circus-sabado-28-de-noviembre-717251",
      "prefer": "map",
      "date": "28/11/2026",
+     "time": "21:00",
+     "price": "27.50 EUR",
      "venue": "Sala Circus",
      "venue_name": "Concierto La Cabra Mecánica - Málaga - Sala Circus",
-     "why": "URL REPLACED 2026-10-04 (Sofia, browser): the box's auto-repair pin pointed at a TomaTicket page that is now INACTIVE. The live buy page is Enterticket event 717251 ('Concierto La Cabra Mecánica - Málaga - Sala Circus - Sábado 28 de noviembre', 28 Nov 2026). Time/price not recorded - add from the page when next opened."
+     "why": "URL REPLACED 2026-10-04 (Sofia, browser): the box's auto-repair pin pointed at a TomaTicket page that is now INACTIVE. The live buy page is Enterticket event 717251 ('Concierto La Cabra Mecánica - Málaga - Sala Circus - Sábado 28 de noviembre', 28 Nov 2026). Price 27.50 EUR all-in (25.00 + 2.50 fees), seen 2026-10-04; Crash Music / Doctor Watson. Times tab: 21:00h, doors 20:00h. Venue: Sala Circus (Espacio Pop & Roll Circus, Auditorio Cortijo de Torres), C. Paquiro 9."
+    },
+    "tussiwarriors": {
+     "url": "https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248",
+     "prefer": "map",
+     "date": "05/11/2026",
+     "time": "22:00",
+     "price": "19.80 EUR",
+     "venue": "Sala Marte",
+     "venue_name": "Concierto Tussiwarriors - Málaga - Sala Marte",
+     "why": "ADDED 2026-10-04 (Sofia's Enterticket Málaga listing screenshot; not on the live site). Browser-confirmed: Enterticket event 412248, Thu 5 Nov 2026, Times 22:00h, doors 21:30h, listing 'From €19.80'."
     },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
