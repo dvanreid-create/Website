@@ -1668,6 +1668,28 @@
      "venue_name": "Concierto Tussiwarriors - Málaga - Sala Marte",
      "why": "ADDED 2026-10-04 (Sofia's Enterticket Málaga listing screenshot; not on the live site). Browser-confirmed: Enterticket event 412248, Thu 5 Nov 2026, Times 22:00h, doors 21:30h, listing 'From €19.80'."
     },
+    "perita fest 27/11/2026": {
+     "url": "https://www.enterticket.es/eventos/perita-fest-829149",
+     "prefer": "map",
+     "date": "27/11/2026",
+     "time": "19:00",
+     "price": "11 EUR",
+     "venue": "Auditorio Municipal Príncipe de Asturias",
+     "venue_name": "Perita Fest - La Flamenca en Torremolinos",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-10-04 (Sofia's Enterticket festivals screenshot; not on the live site). Browser-confirmed: Enterticket event 829149, Perita Fest, Auditorio Municipal Príncipe de Asturias, Torremolinos, organiser Eternidad Eventos; 2-day pass 15 EUR, listing 'From €11'. Fri 27 Nov 19:00-02:00 (doors 18:00): 'La Flamenca en Torremolinos'."
+    },
+    "perita fest 28/11/2026": {
+     "url": "https://www.enterticket.es/eventos/perita-fest-829149",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "16:00",
+     "price": "11 EUR",
+     "venue": "Auditorio Municipal Príncipe de Asturias",
+     "venue_name": "Perita Fest - Aarón Sevilla, Alba Dreid, Al Liquindoi, Antonio Romero, Ariel Estrella, La Corredera & more",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-10-04 (Sofia's Enterticket festivals screenshot; not on the live site). Browser-confirmed: Enterticket event 829149, Perita Fest, Auditorio Municipal Príncipe de Asturias, Torremolinos, organiser Eternidad Eventos; 2-day pass 15 EUR, listing 'From €11'. Sat 28 Nov 16:00-04:00: Aarón Sevilla / Alba Dreid / Al Liquindoi / Antonio Romero / Ariel Estrella / La Corredera / Los Est… (list truncated on page)."
+    },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
      "prefer": "map",
