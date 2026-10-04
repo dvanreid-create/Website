@@ -1,5 +1,17 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-03",
- "drops": {}
+ "generated": "2026-10-04",
+ "drops": {
+  "XLVIII Festival Flamenco El Jabegote — Israel Fernández, Paqui Corpas, El Petro": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "David Bustamante": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Antonio José — Gira LUZ": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Marta Sánchez — Gira 40 Años": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Orquesta Filarmónica de Málaga — Il Verismo: L'Italia e Opera": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Ébano Jazz Quartet": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Margarita Domínguez — Diálogos para Piano": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "De Cádiz a Buenos Aires — Marina Morles & Alfonso Guerrero": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Orquesta Filarmónica de Málaga — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "GRUPO LIBERACIÓN": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))",
+  "Orquesta Filarmónica de Málaga — Il Verismo: L&#x27;Italia e Opera": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 10am (Europe/Madrid)))"
+ }
 }

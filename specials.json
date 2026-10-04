@@ -1,12 +1,6 @@
 {
  "specials": [
   {
-   "label": "The Animesy",
-   "program": "box office",
-   "host": "unientradas.es/es/espectaculo/the-animesy-the-anime-symphony-orchestra/26-27AnimesyThe",
-   "expires": "2026-10-03"
-  },
-  {
    "label": "Cine Philharmonic Orchestra",
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/cinema-philharmonic-orchestra/26-27CinePhiOrch",
