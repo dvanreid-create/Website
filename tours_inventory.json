@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-04",
-  "count": 101,
+  "generated": "2026-10-05",
+  "count": 102,
   "items": [
     {
       "sku": "194665",
@@ -214,20 +214,6 @@
       "d": "⭐ Benalmádena Golf Greenfee - Discover the golf paradise on the Costa del Sol! Tickets for Benalmádena Golf Greenfee 🎫 Adults (16+): 9 holes 🎫 Adults (16+): Unlimited holes 🎫 Children (0-15): Unlimited holes 🎫 Children (0-15): 9 holes Highlights ⛳️ Choose between 9 holes or unlimited holes at Be"
     },
     {
-      "sku": "141769",
-      "n": "Benalmádena Tourist Bus",
-      "c": "tours",
-      "cat": "City Tour",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €20",
-      "img": "42207342-677c-11ee-912d-b6f3ae8bcca3",
-      "url": "https://feverup.com/m/141769/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141769&u=https%3A%2F%2Ffeverup.com%2Fm%2F141769&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Benalmádena Tourist Bus - Tour Benalmádena at your leisure with our 48-hour ticket! Tickets 🎫 Adults (13+) Highlights 🎟️ Enjoy unlimited bus tickets 🚍 for 48 hours! 🌺Enjoy the ticket to the Butterfly Park!🦋 ♿ Wheelchair ramps available! 📍 Location Puerto Marina Benalmádena 📅 Dates and times"
-    },
-    {
       "sku": "693793",
       "n": "Boat Tour of Málaga",
       "c": "tours",
@@ -424,6 +410,20 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "708013",
+      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
+      "url": "https://feverup.com/m/708013/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
+    },
+    {
       "sku": "632234",
       "n": "Funzo in Málaga",
       "c": "tours",
@@ -492,6 +492,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",

@@ -1,0 +1,13 @@
+{
+ "_comment": "Street addresses for MAIN, permanent concert venues, used ONLY for the schema.org Event 'location.address' (clears the Search Console 'Missing field streetAddress' warning). Key = normalised venue name (lowercase, accents stripped, non-alphanumerics -> space); matched as an exact normalised name or a prefix of it. A venue NOT listed keeps the old city-only address, so a missing entry is harmless. A WRONG address is worse than none: add only venues whose address was confirmed and that do not move. Deliberately left out: hotel rooms, municipal rooms, and Clarence Jazz Club (it moved to Torremolinos). Added 2026-10-04 (Sofia).",
+ "venues": {
+  "sala paris 15": {"street": "Calle La Orotava 25-27", "postal": "29006", "city": "Málaga"},
+  "sala la trinchera": {"street": "Calle Parauta 25", "postal": "29006", "city": "Málaga"},
+  "sala marte": {"street": "Calle San Nicolás 2", "postal": "29016", "city": "Málaga"},
+  "teatro cervantes": {"street": "Calle Ramos Marín s/n", "postal": "29012", "city": "Málaga"},
+  "teatro del soho caixabank": {"street": "Calle Córdoba 13", "postal": "29001", "city": "Málaga"},
+  "la cochera cabaret": {"street": "Avenida de los Guindos 19", "postal": "29004", "city": "Málaga"},
+  "palacio de deportes jose maria martin carpena": {"street": "Avenida Miguel Mérida Nicolich 2", "postal": "29004", "city": "Málaga"},
+  "zz pub": {"street": "Calle Tejón y Rodríguez 6", "postal": "29008", "city": "Málaga"}
+ }
+}

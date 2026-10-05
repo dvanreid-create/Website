@@ -417,6 +417,16 @@
    "_eci": "MARENOSTRUM SELLS THROUGH EL CORTE INGLES (verified 16 Jul 2026): its own COMPRAR AHORA button posts to checkoutentradas.elcorteingles.es. Same seller = the price CANNOT differ, so the gate passes by construction and every one of these routes to ECI for 1% (Awin 13034). Spot-checked: Alejandro Sanz 71,50 on both. The checkout URL itself carries an expiring JWT and is NOT linkable - always link the ECI event page below, which eci_aff() wraps. Prices here are ECI's 'Desde' read 16 Jul 2026.",
    "note": "The homepage lists the whole 2026 season with per-event deep links and dates. Acts NOT on this list are not playing this venue - see Thirty Seconds to Mars (15 Jul) and Maria Pelae (6 Aug), both of which our calendar carried but the venue does not list.",
    "acts": {
+    "fulanita fest 27": {
+     "url": "https://marenostrumfuengirola.com/eventos/fulanita-fest-27/",
+     "date": "27-28-29-30/05/2027",
+     "venue_name": "FULANITA FEST 27"
+    },
+    "siloe": {
+     "url": "https://marenostrumfuengirola.com/eventos/siloe/",
+     "date": "11/06/2027",
+     "venue_name": "SILOE"
+    },
     "take that": {
      "url": "https://marenostrumfuengirola.com/eventos/take-that/",
      "date": "11/07/2027",
@@ -426,6 +436,11 @@
      "url": "https://marenostrumfuengirola.com/eventos/don-omar/",
      "date": "16/07/2027",
      "venue_name": "DON OMAR"
+    },
+    "david bisbal": {
+     "url": "https://marenostrumfuengirola.com/eventos/david-bisbal/",
+     "date": "22/07/2027",
+     "venue_name": "DAVID BISBAL"
     }
    }
   },
@@ -1229,69 +1244,6 @@
    "gate": false,
    "note": "Sala París 15, C/ La Orotava 27, Málaga city — ~3,000 capacity, the largest private room in the city, open since 2010. ADDED 2026-09-14 (Sofia). WHY: on that date the venue had 14 in-window shows and malagalivepulse.com carried TWO of them (Ciro y Los Persas, Raimundo Amador). It was named in source_calendar.py with no URL, exactly like Teatro Cervantes, so the weekly LLM sweep re-guessed it each week and mostly returned nothing — and at least four of the missing shows sold through sellers that PAY us (Villano Antillano and Carlos Ares on entradas.com/Awin, Sidecars and Binomio de Oro on El Corte Inglés, La K'onga on Fever), so the gap cost commission as well as coverage. Refreshed weekly by refresh_venue_map.py using the dedicated 'paris15' parser, which reads the venue's own server-rendered /eventos/ page. complete:true so backfill_calendar injects the bill on EVERY build regardless of what the sweep found. gate:false ON PURPOSE: this listing is the venue's own and is good, but it is not provably exhaustive, so it must never be used as authority to phantom-delete a París 15 show it does not list. 'acts' starts empty and is filled by the first refresher run; an empty block injects nothing, so this is safe to ship before that run happens.",
    "acts": {
-    "los herrera": {
-     "url": "https://paris15.es/event/los-herrera/",
-     "date": "17/09/2026",
-     "venue_name": "LOS HERRERA",
-     "time": "20:00"
-    },
-    "back to glory days": {
-     "url": "https://paris15.es/event/back-to-glory-days/",
-     "date": "19/09/2026",
-     "venue_name": "BACK TO GLORY DAYS",
-     "time": "21:00"
-    },
-    "ciro y los persas": {
-     "url": "https://www.entradas.com/en/event/ciro-y-los-persas-sala-paris-15-20865104/",
-     "date": "24/09/2026",
-     "venue_name": "CIRO Y LOS PERSAS",
-     "time": "21:00",
-     "prefer": "map",
-     "why": "prefer:map activated 2026-09-21 by the daily browser audit — COMMISSION RECOVERY. The calendar link paris15.es/event/ciro-y-los-persas/ is a deep link, so rule 2 of venue_resolve left it alone and the map's entradas.com URL never shipped. paris15.es IS NOT A SELLER: its own page (read in browser 2026-09-21) says 'Entradas ya disponibles en Entradas.com' and its only 'comprar entradas' anchor is https://www.entradas.com/event/ciro-y-los-persas-sala-paris-15-20865104/ — the exact page mapped here. So this is the same seller at the same price with one fewer hop, and it is an Awin merchant (mid 24761), which the venue page is not. No cheaper-seller question arises: there is no other checkout. entradas.com page read in browser 2026-09-21: 'Ciro y los Persas, Thursday, 24/09/2026 | 21:00, Malaga | Sala Paris 15', 'No Numerado Entrada General Fase 2 EUR 44.00' with a live 'Add to shopping cart'. paris15.es still advertises 'desde 38,50 EUR' but has no checkout to honour it — Fase 1 is gone."
-    },
-    "90roll": {
-     "url": "https://paris15.es/event/90roll/",
-     "date": "25/09/2026",
-     "venue_name": "90ROLL",
-     "time": "23:00",
-     "prefer": "map",
-     "why": "prefer:map activated 2026-09-20 (was WRONG_EVENT on the calendar link)."
-    },
-    "raimundo amador": {
-     "url": "https://www.entradas.com/en/event/raimundo-amador-gira-2026-sala-paris-15-21342141/",
-     "date": "26/09/2026",
-     "venue_name": "RAIMUNDO AMADOR",
-     "time": "21:30",
-     "prefer": "map",
-     "why": "prefer:map activated 2026-09-21 by the daily browser audit — COMMISSION RECOVERY, and a REGRESSION repaired: this show was routed to the paying seller in August (price-matched, so the cheaper-seller rule did not bite) and had since fallen back to the venue page. The calendar link paris15.es/event/raimundo-amador/ is a deep link, so venue_resolve rule 2 never replaced it. paris15.es IS NOT A SELLER: read in browser 2026-09-21 it says 'Entradas disponibles en Entradas.com / Venta anticipada 27,50 EUR' and its only 'comprar entradas' anchor is https://www.entradas.com/event/raimundo-amador-gira-2026-sala-paris-15-21342141/. The mapped entradas.com page, read in browser 2026-09-21: 'Raimundo Amador Gira 2026, Saturday, 26/09/2026 | 21:30, Malaga | Sala Paris 15', 'General General Admission EUR 27.50' with a live 'Add to shopping cart'. PRICE IS IDENTICAL (27.50 = 27,50), so routing to the Awin merchant (mid 24761) costs the reader nothing and earns."
-    },
-    "sidecars": {
-     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
-     "date": "03/04/2027",
-     "venue_name": "SIDECARS",
-     "time": "21:00",
-     "prefer": "map",
-     "eci_from": 33.0,
-     "box_from": 33.0,
-     "why": "ROUTED TO ECI 2026-09-21 by the daily browser audit — COMMISSION RECOVERY at an EQUAL price. Before: the card pointed at paris15.es/event/sidecars-2/, which is not a checkout — read in browser 2026-09-21 the venue page quotes '33€' and its only 'comprar entradas' anchor goes to malagaentradas.com (a non-paying box office this project deliberately excludes). ECI page read in browser 2026-09-21: 'SIDECARS - GIRA PRESENTACION EVEREST EN MALAGA, Fechas: 2 de Octubre de 2026, Horario: A las 21:00h, Recinto: Sala Paris 15', listing price 'Desde 33,00€', COMPRAR control live. PRICE IS EQUAL (33,00 = 33), so the reader pays no more and ECI is an Awin merchant (mid 13034) — the cheaper-seller rule does not bite. prefer:map is required because paris15.es/event/sidecars-2/ passes _is_deep(), so venue_resolve rule 2 would otherwise never replace it."
-    },
-    "robot rock alive": {
-     "url": "https://paris15.es/event/robot-rock-alive/",
-     "date": "03/10/2026",
-     "venue_name": "ROBOT ROCK ALIVE",
-     "time": "21:30",
-     "prefer": "map",
-     "why": "prefer:map activated 2026-09-20 (was WRONG_EVENT on the calendar link)."
-    },
-    "valeria lynch": {
-     "url": "https://conciertosya.com/Valeria-Lynch-en-Malaga/",
-     "prefer": "map",
-     "date": "13/10/2026",
-     "venue_name": "Valeria Lynch en Málaga",
-     "time": "21:00",
-     "price": "41.25 EUR",
-     "why": "REPROGRAMMED 2026-10-04 (Sofia, Sala París 15 Instagram poster: REPROGRAMACIÓN 13 octubre). The map still said 04/10, so a card for a show that is not happening shipped on 4 Oct. Seller is ConciertosYa (poster), browser-confirmed: 13-10-2026 21:00, doors 20:00, 37.50 + 3.75 fees = 41.25 EUR, live COMPRAR; paris15.es/event/ now redirects to a vibess list with no event."
-    },
     "la konga": {
      "url": "https://feverup.com/m/643664",
      "date": "08/10/2026",
@@ -1304,11 +1256,29 @@
      "venue_name": "HECHIZO",
      "time": "21:00"
     },
+    "brunch elektronik weekender after party": {
+     "url": "https://paris15.es/event/brunch-elektronik-weekender-after-party/",
+     "date": "10/10/2026",
+     "venue_name": "BRUNCH ELEKTRONIK WEEKENDER – AFTER PARTY",
+     "time": "23:59"
+    },
     "binomio de oro": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-festival-vallenato-binomio-de-oro-de-america-malaga/",
      "date": "11/10/2026",
      "venue_name": "BINOMIO DE ORO",
      "time": "19:30"
+    },
+    "brunch elektronik weekendr after party": {
+     "url": "https://paris15.es/event/11114/",
+     "date": "11/10/2026",
+     "venue_name": "BRUNCH ELEKTRONIK WEEKENDR – AFTER PARTY",
+     "time": "23:59"
+    },
+    "valeria lynch": {
+     "url": "https://paris15.es/event/valeria-lynch/",
+     "date": "13/10/2026",
+     "venue_name": "VALERIA LYNCH",
+     "time": "21:00"
     },
     "sober": {
      "url": "https://paris15.es/event/sober-2/",
@@ -1335,11 +1305,22 @@
      "time": "21:00"
     },
     "abhir": {
-     "url": "https://www.ticketmaster.es/event/abhir-entradas/1218088577",
-     "prefer": "map",
+     "url": "https://paris15.es/event/abhir/",
      "date": "24/10/2026",
      "venue_name": "ABHIR",
      "time": "21:00"
+    },
+    "fiebre club halloween": {
+     "url": "https://paris15.es/event/fiebre-club-halloween/",
+     "date": "30/10/2026",
+     "venue_name": "FIEBRE CLUB: HALLOWEEN",
+     "time": "23:59"
+    },
+    "abstract halloween": {
+     "url": "https://paris15.es/event/blackworks-halloween/",
+     "date": "31/10/2026",
+     "venue_name": "ABSTRACT: HALLOWEEN",
+     "time": "23:59"
     },
     "sobredosis de soda": {
      "url": "https://paris15.es/event/sobredosis-de-soda/",
@@ -1347,11 +1328,23 @@
      "venue_name": "SOBREDOSIS DE SODA",
      "time": "21:00"
     },
-    "grupo liberacion": {
-     "url": "https://paris15.es/event/grupo-liberacion/",
-     "date": "11/11/2026",
-     "venue_name": "GRUPO LIBERACIÓN",
-     "time": "20:00"
+    "arde bogota": {
+     "url": "https://paris15.es/event/arde-bogota/",
+     "date": "06/11/2026",
+     "venue_name": "ARDE BOGOTÁ (AGOTADO)",
+     "time": "21:00"
+    },
+    "aleron": {
+     "url": "https://paris15.es/event/aleron/",
+     "date": "07/11/2026",
+     "venue_name": "ALERON",
+     "time": "23:59"
+    },
+    "servando and florentino": {
+     "url": "https://www.entradas.com/event/servando-florentino-tour-espana-2026-se-buscan-vivos-o-inmortales-sala-paris-15-22147341/",
+     "date": "10/11/2026",
+     "venue_name": "SERVANDO & FLORENTINO",
+     "time": "20:30"
     },
     "las pastillas del abuelo": {
      "url": "https://paris15.es/event/las-pastillas-del-abuelo/",
@@ -1376,6 +1369,12 @@
      "date": "21/11/2026",
      "venue_name": "CARLOS ARES",
      "time": "21:00"
+    },
+    "heat remember fantasy": {
+     "url": "https://paris15.es/event/heat-pro-remember/",
+     "date": "21/11/2026",
+     "venue_name": "HEAT: REMEMBER FANTASY",
+     "time": "23:59"
     },
     "los fabulosos cadillacs": {
      "url": "https://paris15.es/event/los-fabulosos-cadillacs-2/",
@@ -1461,16 +1460,34 @@
      "venue_name": "RODRIGO CUEVAS",
      "time": "21:00"
     },
+    "dread mar i": {
+     "url": "https://paris15.es/event/dread-mar-i/",
+     "date": "14/02/2027",
+     "venue_name": "DREAD MAR I",
+     "time": "21:00"
+    },
     "la la love you": {
      "url": "https://feverup.com/m/653967",
      "date": "26/02/2027",
      "venue_name": "LA LA LOVE YOU",
      "time": "21:30"
     },
-    "pibes chorros": {
-     "url": "https://paris15.es/event/pibes-chorros/",
-     "date": "11/04/2027",
-     "venue_name": "PIBES CHORROS",
+    "neon collective brit festival": {
+     "url": "https://paris15.es/event/neon-collective-a-brit-show/",
+     "date": "27/02/2027",
+     "venue_name": "NEON COLLECTIVE: BRIT FESTIVAL",
+     "time": "21:00"
+    },
+    "pignoise": {
+     "url": "https://paris15.es/event/pignoise-2/",
+     "date": "05/03/2027",
+     "venue_name": "PIGNOISE",
+     "time": "21:00"
+    },
+    "sidecars": {
+     "url": "https://paris15.es/event/sidecars-2/",
+     "date": "03/04/2027",
+     "venue_name": "SIDECARS",
      "time": "21:00"
     },
     "linkoln park": {
@@ -1484,6 +1501,12 @@
      "date": "07/05/2027",
      "venue_name": "MESCALINA",
      "time": "21:30"
+    },
+    "pibes chorros": {
+     "url": "https://paris15.es/event/pibes-chorros/",
+     "date": "13/05/2027",
+     "venue_name": "PIBES CHORROS",
+     "time": "21:00"
     },
     "raule": {
      "url": "https://paris15.es/event/raule-2/",
@@ -3347,26 +3370,20 @@
    "complete": true,
    "note": "Sala La Trinchera, ~650-cap independent venue, Malaga city. Regular concert programme, heavy on UK/US heritage acts. SOURCE CHANGED 2026-08-10 (Sofia): it used to point at salatrinchera.com/proximos-eventos/, which is JS-rendered and returns an EMPTY page - so for two weeks this venue was 'covered' by a URL nothing could read, and its shows were never found. Its ticketer mutick.com is fully server-rendered and lists the whole ticketed programme. complete:false - mutick shows only TICKETED shows and the venue may run more, so arming the phantom gate could delete real events. VERIFIED on mutick 2026-08-10: China Crisis (UK) 17 Sep 2026, The Silencers (UK) 15 Oct 2026, Clearwater Creedence Revival (UK&USA) 29 Nov 2026 - all beyond the 30-day window on that date; China Crisis enters the calendar window at the Mon 24 Aug sweep. KEY RENAMED 2026-08-10 'sala trinchera' -> 'trinchera'. _venue_lookup() matches only when the KEY IS A SUBSTRING of the normalised venue name or URL. The venue calls itself 'Sala LA Trinchera', and 'sala trinchera' is NOT a substring of 'sala la trinchera' - so this block could never match anything, no matter what was in it. Bare 'trinchera' matches every spelling and the mutick slug sala-la-trinchera too. AUTO-REFRESH ADDED 2026-08-10: refresh_venue_map.py now rescrapes this block every Monday from mutick.com/l/malaga - the CITY-scoped page, never mutick as a whole, because mutick is a national Madrid-based platform and a site-wide scrape would drag in Madrid listings. Rows are kept only when the card names 'trinchera', so the same city page can serve other Malaga venues later. After the first refresh 'source' above will read /l/malaga (what is actually scraped) rather than the venue page. COMPLETE FLIPPED TO TRUE 2026-08-10 (Sofia: 'as long as China Crisis appears in the event list'). complete:false could not deliver that - backfill only injects from complete venues, so the listing depended entirely on the LLM sweep, which this codebase documents as intermittently dropping whole venues. True makes injection DETERMINISTIC. The price of that is the phantom gate: a Trinchera show that is NOT on mutick and that the sweep finds elsewhere would now be dropped as 'not on trinchera's own programme'. Judged acceptable because mutick IS the venue's ticketer and refresh_venue_map.py now re-reads it every Monday, so the list cannot go stale. To reverse, set complete back to false - one word. | 2026-08-20: gate:false ADDED. complete:true stays (injection stays deterministic), but the phantom gate is switched OFF for this block because mutick lists only the shows IT sells: Damian Cordoba (3 Sep, Sala Trinchera) sells through movingtickets.com, was therefore absent from the Monday mutick refresh, and was phantom-deleted off the live site even though the seller page is live at 27,50 EUR. gate:false removes the delete power without touching injection.",
    "acts": {
-    "china crisis": {
-     "url": "https://mutick.com/e/entradas-china-crisis-malaga-2",
-     "date": "17/09/2026",
-     "venue_name": "CHINA CRISIS (UK)"
-    },
     "the silencers": {
      "url": "https://mutick.com/e/entradas-the-silencers-malaga-2",
      "date": "15/10/2026",
      "venue_name": "The SILENCERS (UK)"
     },
+    "iberia sumergida tributo a heroes del silencio": {
+     "url": "https://mutick.com/e/entradas-iberia-sumergida-malaga-2026",
+     "date": "14/11/2026",
+     "venue_name": "IBERIA SUMERGIDA - Tributo a Héroes del Silencio"
+    },
     "clearwater creedence revival": {
      "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
      "date": "29/11/2026",
      "venue_name": "Clearwater Creedence Revival (UK&USA)"
-    },
-    "partiendo la pana": {
-     "url": "https://jfpromotickets.es/es/events/festival-partiendo-la-pana-los-grandes-tributos-a-estopa-y-melendi-en-malaga-malaga",
-     "prefer": "map",
-     "date": "17/10/2026",
-     "why": "RESTORED 2026-09-20 (DLR): verified event buy page; was flagged failing after the 401 outage."
     }
    },
    "gate": false
