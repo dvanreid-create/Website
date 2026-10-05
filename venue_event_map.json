@@ -2510,13 +2510,13 @@
      "date": "22/08/2026",
      "venue_name": "Candlelight: Queen vs. ABBA"
     },
-    "ludovico einaudi 13/11/2026": {
+    "ludovico einaudi": {
      "url": "https://feverup.com/m/138232/en",
      "date": "13/11/2026",
      "time": "19:00",
      "venue_name": "Candlelight: Tribute to Ludovico Einaudi (Marbella)",
      "genre": "Classical",
-     "why": "ADDED 2026-10-04, found while fixing 'oreja de van gogh' below (same phantom_reason drop: this block is complete:true and its acts list held only the August open-air Einaudi). Opened live in the browser 2026-10-04: feverup.com/m/138232 'Candlelight Marbella: Tributo a Ludovico Einaudi', Salon Linares Anantara Villa Padierna, selector vie 13 nov 19:00, Zona C 28,00 / Zona B 34,50 / Zona A 48,00 EUR, all offered, flagged 'Tickets volando'. NOT on the live site as of 2026-10-04 (checked malagalivepulse.com/en: the Einaudi cards there are the Malaga ones - 30 Oct Fundacion Unicaja Maria Cristina and 1 Nov Gran Hotel Miramar - and sku 138232 appears nowhere). Different show from those two: Marbella, 13 Nov. Seller Fever, paying (fever_aff wraps to fever.pxf.io/c/7440720/1928078/16345)."
+     "why": "KEY RENAMED 2026-10-04 (was 'ludovico einaudi 13/11/2026'): the build's phantom check matches an act to a key only when the KEY'S WORDS are a subset of the ACT'S, so a date-suffixed key never matches and the gate dropped this show ('not on anantara villa padierna's own programme', deploy #2303 log). ADDED 2026-10-04, found while fixing 'oreja de van gogh' below (same phantom_reason drop: this block is complete:true and its acts list held only the August open-air Einaudi). Opened live in the browser 2026-10-04: feverup.com/m/138232 'Candlelight Marbella: Tributo a Ludovico Einaudi', Salon Linares Anantara Villa Padierna, selector vie 13 nov 19:00, Zona C 28,00 / Zona B 34,50 / Zona A 48,00 EUR, all offered, flagged 'Tickets volando'. NOT on the live site as of 2026-10-04 (checked malagalivepulse.com/en: the Einaudi cards there are the Malaga ones - 30 Oct Fundacion Unicaja Maria Cristina and 1 Nov Gran Hotel Miramar - and sku 138232 appears nowhere). Different show from those two: Marbella, 13 Nov. Seller Fever, paying (fever_aff wraps to fever.pxf.io/c/7440720/1928078/16345)."
     },
     "oreja de van gogh": {
      "url": "https://feverup.com/m/738713/en",
