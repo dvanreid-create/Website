@@ -1797,6 +1797,27 @@
      "genre": "Jazz",
      "why": "ADDED 2026-10-05 (ticket-link email listed it as dropped). Browser-confirmed on mientrada.net: Fri 6 Nov 2026 19:00, 15 EUR, COMPRAR ENTRADAS live. OFM with José Carra Group and Arturo Serra, cond. Benjamín Levy."
     },
+    "zalamerias": {
+     "url": "https://lacocheraentradas.com/shows/details/2181/zalamerias",
+     "prefer": "map",
+     "date": "08/11/2026",
+     "time": "18:00",
+     "price": "13 EUR",
+     "venue": "La Cochera Cabaret",
+     "venue_name": "Zalamerías — Noche de ópera flamenca",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). Browser-confirmed on lacocheraentradas.com (La Cochera's own ticketer): Zalamerías, Música, La Cochera Cabaret, Sun 8 Nov 2026 18:00, from 13 EUR, COMPRAR ENTRADAS live."
+    },
+    "iberia sumergida": {
+     "url": "https://entradium.com/events/iberia-sumergida-en-la-trinchera-malaga-malaga-la-trinchera-malaga",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "22:00",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Iberia Sumergida (Tributo a Héroes del Silencio)",
+     "genre": "Rock",
+     "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). Sala Trinchera's own page (salatrinchera.com/6063-2/) says 14 Nov, tickets on sale at entradium.com, over-16s only, DNI required. Entradium returns 403 to our browser so the buy page itself was NOT opened; 22:00 is the agenda's time. Same seller as the Pedrá Extremoduro tribute already on the site."
+    },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
      "prefer": "map",
