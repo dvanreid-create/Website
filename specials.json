@@ -29,6 +29,12 @@
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/arcadi-volodos-en-concierto/26-27VolodosArca",
    "expires": "2026-10-12"
+  },
+  {
+   "label": "40 Festival Internacional de Jazz de Málaga",
+   "program": "box office",
+   "host": "unientradas.es/es/espectaculo/40-jazz/40JAZZ",
+   "expires": "2026-11-10"
   }
  ]
 }
