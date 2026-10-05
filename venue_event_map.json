@@ -1284,10 +1284,13 @@
      "why": "prefer:map activated 2026-09-20 (was WRONG_EVENT on the calendar link)."
     },
     "valeria lynch": {
-     "url": "https://paris15.es/event/valeria-lynch/",
-     "date": "04/10/2026",
-     "venue_name": "VALERIA LYNCH",
-     "time": "21:00"
+     "url": "https://conciertosya.com/Valeria-Lynch-en-Malaga/",
+     "prefer": "map",
+     "date": "13/10/2026",
+     "venue_name": "Valeria Lynch en Málaga",
+     "time": "21:00",
+     "price": "41.25 EUR",
+     "why": "REPROGRAMMED 2026-10-04 (Sofia, Sala París 15 Instagram poster: REPROGRAMACIÓN 13 octubre). The map still said 04/10, so a card for a show that is not happening shipped on 4 Oct. Seller is ConciertosYa (poster), browser-confirmed: 13-10-2026 21:00, doors 20:00, 37.50 + 3.75 fees = 41.25 EUR, live COMPRAR; paris15.es/event/ now redirects to a vibess list with no event."
     },
     "la konga": {
      "url": "https://feverup.com/m/643664",
@@ -2511,7 +2514,7 @@
      "url": "https://feverup.com/m/138232/en",
      "date": "13/11/2026",
      "time": "19:00",
-     "venue_name": "Candlelight: Tribute to Ludovico Einaudi",
+     "venue_name": "Candlelight: Tribute to Ludovico Einaudi (Marbella)",
      "genre": "Classical",
      "why": "ADDED 2026-10-04, found while fixing 'oreja de van gogh' below (same phantom_reason drop: this block is complete:true and its acts list held only the August open-air Einaudi). Opened live in the browser 2026-10-04: feverup.com/m/138232 'Candlelight Marbella: Tributo a Ludovico Einaudi', Salon Linares Anantara Villa Padierna, selector vie 13 nov 19:00, Zona C 28,00 / Zona B 34,50 / Zona A 48,00 EUR, all offered, flagged 'Tickets volando'. NOT on the live site as of 2026-10-04 (checked malagalivepulse.com/en: the Einaudi cards there are the Malaga ones - 30 Oct Fundacion Unicaja Maria Cristina and 1 Nov Gran Hotel Miramar - and sku 138232 appears nowhere). Different show from those two: Marbella, 13 Nov. Seller Fever, paying (fever_aff wraps to fever.pxf.io/c/7440720/1928078/16345)."
     },
