@@ -1693,6 +1693,77 @@
      "genre": "Flamenco",
      "why": "ADDED 2026-10-04 (Sofia's Enterticket festivals screenshot; not on the live site). Browser-confirmed: Enterticket event 829149, Perita Fest, Auditorio Municipal Príncipe de Asturias, Torremolinos, organiser Eternidad Eventos; 2-day pass 15 EUR, listing 'From €11'. Sat 28 Nov 16:00-04:00: Aarón Sevilla / Alba Dreid / Al Liquindoi / Antonio Romero / Ariel Estrella / La Corredera / Los Est… (list truncated on page)."
     },
+    "el jabegote festival flamenco": {
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229858097744",
+     "prefer": "map",
+     "date": "07/10/2026",
+     "time": "22:00",
+     "price": "10 EUR",
+     "city": "Fuengirola",
+     "venue": "Palacio de la Paz",
+     "venue_name": "XLVIII Festival Flamenco El Jabegote — Israel Fernández, Paqui Corpas, José El Petro",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Wed 7 Oct 2026 22:00, patio de butacas from 10 EUR. Cante: Israel Fernández, Paqui Corpas, José García 'El Petro'; guitar: Diego del Morao, Antonio Centenera, Carlos Haro. Was dropped by the link verifier (no buy page found) before this seller was known."
+    },
+    "david bustamante fuengirola": {
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229858097746",
+     "prefer": "map",
+     "date": "09/10/2026",
+     "time": "22:00",
+     "price": "10 EUR",
+     "city": "Fuengirola",
+     "venue": "Palacio de la Paz",
+     "venue_name": "David Bustamante en Fuengirola",
+     "genre": "Pop",
+     "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Fri 9 Oct 2026 22:00, patio de butacas 10 EUR / palcos 15 EUR. Was dropped by the link verifier (no buy page found) before this seller was known."
+    },
+    "marta sanchez fuengirola": {
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229858097749",
+     "prefer": "map",
+     "date": "12/10/2026",
+     "time": "22:00",
+     "price": "10 EUR",
+     "city": "Fuengirola",
+     "venue": "Palacio de la Paz",
+     "venue_name": "Marta Sánchez — Gira 40 Años (Fuengirola)",
+     "genre": "Pop",
+     "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Mon 12 Oct 2026 22:00, patio de butacas 10 EUR / palcos 15 EUR. Was dropped by the link verifier (no buy page found) before this seller was known."
+    },
+    "ebano jazz quartet fuengirola": {
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229964485888",
+     "prefer": "map",
+     "date": "23/10/2026",
+     "time": "20:00",
+     "price": "5 EUR",
+     "city": "Fuengirola",
+     "venue": "Casa de Cultura",
+     "venue_name": "Ébano Jazz Quartet (Fuengirola)",
+     "genre": "Jazz & Soul",
+     "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Fri 23 Oct 2026 20:00, numbered seats 5 EUR. Was dropped by the link verifier (no buy page found) before this seller was known."
+    },
+    "de cadiz a buenos aires fuengirola": {
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229945919564",
+     "prefer": "map",
+     "date": "30/10/2026",
+     "time": "20:00",
+     "price": "5 EUR",
+     "city": "Fuengirola",
+     "venue": "Casa de Cultura",
+     "venue_name": "De Cádiz a Buenos Aires — Marina Morles y Alfonso Guerrero (Fuengirola)",
+     "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Fri 30 Oct 2026 20:00, numbered seats 5 EUR. Guitar and violin concert: Marina Morles & Alfonso Guerrero. Was dropped by the link verifier (no buy page found) before this seller was known."
+    },
+    "daddy the party halloween": {
+     "url": "https://www.enterticket.es/eventos/daddy-the-party-halloween-5o-edicion-647776",
+     "prefer": "map",
+     "date": "31/10/2026",
+     "time": "21:00",
+     "price": "13 EUR",
+     "city": "Torremolinos",
+     "venue": "Auditorio Municipal Príncipe de Asturias",
+     "venue_name": "Daddy The Party — MacroHalloween (Juanjo García, Anmi, Juan Aragón, Sweet Suárez, Ezequiel Rodríguez)",
+     "genre": "Electronic",
+     "why": "ADDED 2026-10-04 (Sofia, Daddy The Party Instagram: 31.10.26 MacroHalloween Festival with a named DJ/artist line-up). Enterticket event 647776 browser-confirmed: 31 Oct - 1 Nov 2026, Auditorio Príncipe de Asturias, Torremolinos, 21:00h-06:00h, listing from 13 EUR."
+    },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
      "prefer": "map",

@@ -1,5 +1,5 @@
 {
-  "_comment": "Pinned display names for Fever events, keyed on Fever SKU (read by Tools/agent/fever_scrape.py name_overrides(); re-applied to the calendar on every run, beats any scraped or LLM name). 2026-10-04 (Sofia): sku 545643 was shown as 'Candlelight: Tribute to The Beatles' on the home Marquee, but Fever's own page for it (feverup.com/m/545643, Salon Real Gran Hotel Miramar, 15 Nov / 29 Nov / 31 Jan 2027) is 'Candlelight: Tribute to La Ley Innata' (EN title 'Tribute to The Innate Law'). The Beatles one is a different show, sku 259530 ('Queen vs. The Beatles').",
+  "_comment": "Pinned display names for Fever events, keyed on Fever SKU (read by Tools/agent/fever_scrape.py name_overrides(); re-applied to the calendar on every run, beats any scraped or LLM name). 2026-10-04 (Sofia): sku 545643 was shown as 'Candlelight: Tribute to The Beatles' on the home Marquee, but Fever's own page for it (feverup.com/m/545643, Salon Real Gran Hotel Miramar, 15 Nov / 29 Nov / 31 Jan 2027) is the Extremoduro tribute: 'La ley innata' is Extremoduro's 2008 album (Fever EN title 'Tribute to The Innate Law'). The Beatles one is a different show, sku 259530 ('Queen vs. The Beatles').",
   "overrides": {
     "545643": {"act": "Candlelight: Tribute to La Ley Innata"}
   }

@@ -1129,7 +1129,7 @@
 },
 "marta-sanchez": {
 "name": "Marta Sánchez",
-"mles": 0.0
+"mles": 74.5
 },
 "valeria-lynch-en-malaga": {
 "name": "Valeria Lynch en Málaga",
@@ -1157,7 +1157,7 @@
 },
 "ebano-jazz-quartet": {
 "name": "Ébano Jazz Quartet",
-"mles": 0.0
+"mles": 62.0
 },
 "gata-brass-band": {
 "name": "Gata Brass Band",
@@ -1205,7 +1205,7 @@
 },
 "de-cadiz-a-buenos-aires": {
 "name": "De Cádiz a Buenos Aires",
-"mles": 0.0
+"mles": 58.1
 },
 "recuerdos-locos": {
 "name": "Recuerdos Locos",
@@ -1406,5 +1406,9 @@
 "tributo-a-creedence-clearwater-revival": {
 "name": "Tributo a Creedence Clearwater Revival",
 "mles": 49.4
+},
+"david-bustamante-en-fuengirola": {
+"name": "David Bustamante en Fuengirola",
+"mles": 0.0
 }
 }
