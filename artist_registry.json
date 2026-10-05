@@ -93,7 +93,7 @@
 },
 "antonio-jose": {
 "name": "Antonio José",
-"mles": 58.6
+"mles": 71.9
 },
 "nina-pastori": {
 "name": "Niña Pastori",
@@ -1053,7 +1053,7 @@
 },
 "diego-amador-amp-amp-jose-maria-bandera": {
 "name": "Diego Amador &amp;amp; José María Bandera",
-"mles": 59.0
+"mles": 56.0
 },
 "homenaje-a-falla-en-el-150-aniversario-de-su-nacimiento": {
 "name": "Homenaje a Falla en el 150 aniversario de su nacimiento",
@@ -1129,7 +1129,7 @@
 },
 "marta-sanchez": {
 "name": "Marta Sánchez",
-"mles": 74.5
+"mles": 70.6
 },
 "valeria-lynch-en-malaga": {
 "name": "Valeria Lynch en Málaga",
@@ -1137,7 +1137,7 @@
 },
 "orquesta-filarmonica-de-malaga": {
 "name": "Orquesta Filarmónica de Málaga",
-"mles": 0.0
+"mles": 56.0
 },
 "el-saguaro": {
 "name": "El Saguaro",
@@ -1157,7 +1157,7 @@
 },
 "ebano-jazz-quartet": {
 "name": "Ébano Jazz Quartet",
-"mles": 62.0
+"mles": 58.9
 },
 "gata-brass-band": {
 "name": "Gata Brass Band",
@@ -1177,7 +1177,7 @@
 },
 "margarita-dominguez": {
 "name": "Margarita Domínguez",
-"mles": 0.0
+"mles": 58.7
 },
 "puro-indie": {
 "name": "Puro Indie",
@@ -1205,7 +1205,7 @@
 },
 "de-cadiz-a-buenos-aires": {
 "name": "De Cádiz a Buenos Aires",
-"mles": 58.1
+"mles": 55.2
 },
 "recuerdos-locos": {
 "name": "Recuerdos Locos",
@@ -1289,7 +1289,7 @@
 },
 "grupo-liberacion": {
 "name": "GRUPO LIBERACIÓN",
-"mles": 0.0
+"mles": 48.0
 },
 "milongas-extremas": {
 "name": "Milongas Extremas",
@@ -1409,14 +1409,18 @@
 },
 "david-bustamante-en-fuengirola": {
 "name": "David Bustamante en Fuengirola",
-"mles": 0.0
+"mles": 85.2
 },
 "concierto-tussiwarriors": {
 "name": "Concierto Tussiwarriors",
-"mles": 0.0
+"mles": 50.7
 },
 "concierto-la-cabra-mecanica": {
 "name": "Concierto La Cabra Mecánica",
+"mles": 0.0
+},
+"il-verismo": {
+"name": "Il Verismo",
 "mles": 0.0
 }
 }
