@@ -1813,10 +1813,22 @@
      "prefer": "map",
      "date": "14/11/2026",
      "time": "22:00",
+     "price": "17.41 EUR",
      "venue": "Sala La Trinchera",
      "venue_name": "Iberia Sumergida (Tributo a Héroes del Silencio)",
      "genre": "Rock",
-     "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). Sala Trinchera's own page (salatrinchera.com/6063-2/) says 14 Nov, tickets on sale at entradium.com, over-16s only, DNI required. Entradium returns 403 to our browser so the buy page itself was NOT opened; 22:00 is the agenda's time. Same seller as the Pedrá Extremoduro tribute already on the site."
+     "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). BUY PAGE CONFIRMED by Sofia (screenshot 2026-10-05; Entradium 403s our browser): 14.11.2026 22:00, La Trinchera C. Parauta 25, doors 21:00, General 17,41 EUR final price incl. fees, COMPRAR live. Over-16s only, DNI required. Same seller as the Pedrá Extremoduro tribute already on the site."
+    },
+    "homer el mero mero": {
+     "url": "https://www.entradas.com/event/homer-el-mero-mero-sala-la-trinchera-21594474/",
+     "prefer": "map",
+     "date": "12/11/2026",
+     "time": "21:00",
+     "price": "33 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Homer el Mero Mero — Resurrection Tour",
+     "genre": "Latin",
+     "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). Sofia opened the entradas.com page (screenshot 2026-10-05): HOMER El Mero Mero, jueves 12/11/2026 21:00, doors 20:00, Sala La Trinchera, Calle Parauta 25, General 33,00 EUR, live ticket selector. entradas.com is a COMMISSIONED seller (Awin), so the build wraps the link."
     },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
