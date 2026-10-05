@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "La Bomba de Tiempo",
-      "yt": "TLpgCNrbFt8",
-      "where": "04 Oct · Sala La Trinchera, Málaga"
-    },
-    {
-      "act": "Valeria Lynch",
-      "yt": "WUhzEWeIyBk",
-      "where": "04 Oct · Sala París 15, Málaga"
-    },
-    {
       "act": "Rafa Sánchez",
       "yt": "Y2SwrG5qHEE",
       "where": "07 Oct · Teatro Cervantes, Málaga"
@@ -44,10 +34,14 @@
       "act": "Joseph Capriati",
       "yt": "-60AWzV3xaI",
       "where": "10 Oct · Auditorio Cortijo de Torres, Málaga"
+    },
+    {
+      "act": "Antonio José",
+      "yt": "4XuUI9DzINY",
+      "where": "10 Oct · Palacio de la Paz, Fuengirola"
     }
   ],
   "thumbs": {
-    "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
     "La K'onga in Malaga": "qoUje2HBJyU",
     "LA KERMESSE REDONDA in MALAGA (LA TRINCHERA)": "0-TR_7Yq2s0",
     "Candlelight: Coldplay and Imagine Dragons": "yKNxeF4KMsY",
@@ -64,6 +58,7 @@
     "Candlelight: The Best of Hans Zimmer": "n1KyvyrTWiM",
     "Candlelight: Tribute to Michael Jackson": "Zi_XLOBDo_Y",
     "Candlelight: Tribute to La Oreja de Van Gogh": "nYnLVWXmRm8",
+    "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
     "Candlelight: Tribute to The Beatles": "A_MjCqQoLLA",
     "Candlelight: Tribute to Joan Manuel Serrat": "7dT5ojKvcZk",
     "Candlelight: Tribute to Phil Collins": "Q9ykcFwk4R8",

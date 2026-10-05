@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 36,
-   "matched": 36,
-   "calendar_in_window": 28,
+   "mapped_in_window": 34,
+   "matched": 34,
+   "calendar_in_window": 27,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 11,
+   "calendar_in_window": 10,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
@@ -175,9 +175,9 @@
   },
   "miramar": {
    "venue": "Salón Real del Gran Hotel Miramar",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 8,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 6,
    "latest_mapped": "2026-10-04",
    "always_on": true,
    "verdict": "ok"
@@ -211,9 +211,9 @@
   },
   "unientradas_cervantes": {
    "venue": "Málaga",
-   "mapped_in_window": 3,
-   "matched": 3,
-   "calendar_in_window": 17,
+   "mapped_in_window": 2,
+   "matched": 2,
+   "calendar_in_window": 16,
    "latest_mapped": "2026-10-24",
    "always_on": false,
    "verdict": "ok"
@@ -222,7 +222,7 @@
    "venue": "Málaga",
    "mapped_in_window": 22,
    "matched": 22,
-   "calendar_in_window": 41,
+   "calendar_in_window": 39,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
