@@ -3,6 +3,12 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "la konga",
+   "venue": "paris 15",
+   "date": "2026-10-08",
+   "why": "DUPLICATE, NON-COMMISSIONED SELLER - removed 2026-10-04 (Sofia). The sweep row 'La Konga - Cuartetour' (Sala Paris 15, 8 Oct) links to paris15.es/event/la-konga/ and pays nothing; the same show is on the site as 'La K'onga in Malaga' via Fever (sku 643664, commissioned). Normalised, the Fever title is 'la k onga ...' so this substring does NOT match it. Date-scoped so later La Konga dates are untouched."
+  },
+  {
    "match": "benalsound",
    "venue": "nadales",
    "date": "2026-10-17",
