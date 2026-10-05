@@ -1948,6 +1948,32 @@
      "genre": "Rock",
      "why": "ADDED 2026-10-05. Estepona Vive sus Calles: Seguridad Social, Sat 10 Oct 22:00, Plaza del Ajedrez, free (Ayuntamiento de Estepona press page; also Diario Costa, La Nación)."
     },
+    "mundo chillon": {
+     "url": "https://ticketandroll.com/evento/mundo-chillo-en-malaga",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "21:00",
+     "price": "15.60 EUR",
+     "paid_free": "Paid",
+     "city": "Málaga",
+     "venue": "La Garrapata",
+     "venue_name": "Mundo Chillón",
+     "genre": "Mixed",
+     "why": "ADDED 2026-10-05 from Conciertos.Club's Málaga agenda (venue not covered by the sweep). Seller page browser-checked 2026-10-05: ticketandroll.com/evento/mundo-chillo-en-malaga, Sat 17 Oct 21:00, La Garrapata (C/ Mariblanca 9, 29012), Anticipada 15,60 EUR IVA incl., Obtener Entradas live. Not a commissioned seller."
+    },
+    "american rock stars estepona": {
+     "url": "https://entradas.conciertos.club/es/events/festival-de-tributos-american-rock-stars-estepona",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "23:59",
+     "price": "15 EUR",
+     "paid_free": "Paid",
+     "city": "Estepona",
+     "venue": "Louie Louie",
+     "venue_name": "American Rock Stars: tributes to System of a Down, Rage Against the Machine and Metallica",
+     "genre": "Tribute",
+     "why": "ADDED 2026-10-05 from Conciertos.Club's Málaga agenda (Disorder + Bombtruck + Black Horsemen; venue not covered by the sweep). Seller page browser-checked 2026-10-05: entradas.conciertos.club festival-de-tributos-american-rock-stars-estepona, Sat 17 Oct 2026, Sala Louie Louie (Av. Luis Braille 1, Puerto Deportivo), doors 21:30, show 23:59, Entrada general 15,00 EUR (18 at door), COMPRAR live. Not a commissioned seller. Same Conciertos.Club ticketing as the Sara Hebe entry above."
+    },
     "k beat fest": {
      "url": "https://www.ticketmaster.es/event/-k-beat-fest-entradas/182940406",
      "prefer": "map",

@@ -8,6 +8,8 @@
   "teatro del soho caixabank": {"street": "Calle Córdoba 13", "postal": "29001", "city": "Málaga"},
   "la cochera cabaret": {"street": "Avenida de los Guindos 19", "postal": "29004", "city": "Málaga"},
   "palacio de deportes jose maria martin carpena": {"street": "Avenida Miguel Mérida Nicolich 2", "postal": "29004", "city": "Málaga"},
-  "zz pub": {"street": "Calle Tejón y Rodríguez 6", "postal": "29008", "city": "Málaga"}
+  "zz pub": {"street": "Calle Tejón y Rodríguez 6", "postal": "29008", "city": "Málaga"},
+  "la garrapata": {"street": "Calle Mariblanca 9", "postal": "29012", "city": "Málaga"},
+  "louie louie": {"street": "Avenida Luis Braille 1", "postal": "29680", "city": "Estepona"}
  }
 }
