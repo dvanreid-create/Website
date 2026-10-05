@@ -1277,7 +1277,7 @@
 },
 "los-canos": {
 "name": "Los Caños",
-"mles": 60.0
+"mles": 56.8
 },
 "ciclo-de-lirica": {
 "name": "Ciclo de Lírica",
@@ -1297,7 +1297,7 @@
 },
 "las-pastillas-del-abuelo": {
 "name": "Las Pastillas del Abuelo",
-"mles": 63.7
+"mles": 60.5
 },
 "tennessee": {
 "name": "Tennessee",
@@ -1425,7 +1425,7 @@
 },
 "zalamerias": {
 "name": "Zalamerías",
-"mles": 0.0
+"mles": 56.8
 },
 "iberia-sumergida": {
 "name": "Iberia Sumergida",
@@ -1433,6 +1433,6 @@
 },
 "homer-el-mero-mero": {
 "name": "Homer el Mero Mero",
-"mles": 0.0
+"mles": 53.2
 }
 }
