@@ -1840,6 +1840,66 @@
      "genre": "Latin",
      "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). Sofia opened the entradas.com page (screenshot 2026-10-05): HOMER El Mero Mero, jueves 12/11/2026 21:00, doors 20:00, Sala La Trinchera, Calle Parauta 25, General 33,00 EUR, live ticket selector. entradas.com is a COMMISSIONED seller (Awin), so the build wraps the link."
     },
+    "jose luis jaen jose carra parque de la alegria": {
+     "url": "https://mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/",
+     "prefer": "map",
+     "date": "09/10/2026",
+     "time": "19:00",
+     "paid_free": "Free",
+     "city": "Málaga",
+     "venue": "Parque de la Alegría",
+     "venue_name": "José Luis Jaén, Jose Carra",
+     "genre": "Mixed",
+     "why": "ADDED 2026-10-05 (town-hall link audit). Real programme page: Ayuntamiento de Málaga cycle 'Música… en tu Zona' (mmalaga.es), free, 'hasta completar aforo'. The sweep carried the 16-25 Oct dates but not these. Las canciones del cine español, Ciudad Jardín."
+    },
+    "the jazz cinema project parque virginia": {
+     "url": "https://mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/",
+     "prefer": "map",
+     "date": "10/10/2026",
+     "time": "19:00",
+     "paid_free": "Free",
+     "city": "Málaga",
+     "venue": "Auditorio Curro Román (Parque Virginia)",
+     "venue_name": "The Jazz Cinema Project",
+     "genre": "Jazz",
+     "why": "ADDED 2026-10-05 (town-hall link audit). Real programme page: Ayuntamiento de Málaga cycle 'Música… en tu Zona' (mmalaga.es), free, 'hasta completar aforo'. The sweep carried the 16-25 Oct dates but not these. Edad de Oro del cine en clave jazz, distrito Este."
+    },
+    "arturo serra trio parque martiricos": {
+     "url": "https://mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/",
+     "prefer": "map",
+     "date": "11/10/2026",
+     "time": "19:00",
+     "paid_free": "Free",
+     "city": "Málaga",
+     "venue": "Parque Martiricos",
+     "venue_name": "Arturo Serra Trío",
+     "genre": "Jazz",
+     "why": "ADDED 2026-10-05 (town-hall link audit). Real programme page: Ayuntamiento de Málaga cycle 'Música… en tu Zona' (mmalaga.es), free, 'hasta completar aforo'. The sweep carried the 16-25 Oct dates but not these. La música de Taxi Driver, Palma-Palmilla."
+    },
+    "the jazz cinema project bulevar iturbi": {
+     "url": "https://mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/",
+     "prefer": "map",
+     "date": "12/10/2026",
+     "time": "13:00",
+     "paid_free": "Free",
+     "city": "Málaga",
+     "venue": "Bulevar José Iturbi",
+     "venue_name": "The Jazz Cinema Project",
+     "genre": "Jazz",
+     "why": "ADDED 2026-10-05 (town-hall link audit). Real programme page: Ayuntamiento de Málaga cycle 'Música… en tu Zona' (mmalaga.es), free, 'hasta completar aforo'. The sweep carried the 16-25 Oct dates but not these. Lunes 12 oct 13:00, Bailén-Miraflores."
+    },
+    "ernesto naranjo plaza de la merced": {
+     "url": "https://mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/",
+     "prefer": "map",
+     "date": "12/10/2026",
+     "time": "19:00",
+     "paid_free": "Free",
+     "city": "Málaga",
+     "venue": "Plaza de la Merced",
+     "venue_name": "Ernesto Naranjo",
+     "genre": "Mixed",
+     "why": "ADDED 2026-10-05 (town-hall link audit). Real programme page: Ayuntamiento de Málaga cycle 'Música… en tu Zona' (mmalaga.es), free, 'hasta completar aforo'. The sweep carried the 16-25 Oct dates but not these. Canciones inolvidables del cine (piano y viola), Centro."
+    },
     "mago de oz feria de nerja": {
      "url": "https://www.nerja.es/mago-de-oz-chambao-el-arrebato-samuel-g-jose-de-las-heras-y-samuelyo-baby-protagonizaran-los-principales-conciertos-de-la-feria-de-nerja-2026/",
      "prefer": "map",

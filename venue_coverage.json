@@ -220,9 +220,9 @@
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 43,
-   "matched": 43,
-   "calendar_in_window": 73,
+   "mapped_in_window": 48,
+   "matched": 48,
+   "calendar_in_window": 77,
    "latest_mapped": "2026-11-28",
    "always_on": false,
    "verdict": "ok"
