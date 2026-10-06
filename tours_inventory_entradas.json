@@ -1,6 +1,6 @@
 {
  "count": 16,
- "generated": "2026-10-05T17:33:17Z",
+ "generated": "2026-10-06T04:02:51Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -243,17 +243,17 @@
    "idx": 1
   },
   {
-   "sku": "entradas-historia-viva-malaga",
-   "n": "Visita nocturna al Cementerio Inglés",
-   "c": "tours",
-   "cat": "Walking Tour",
-   "v": "Cementerio Inglés de Málaga · Málaga",
+   "sku": "entradas-la-bella-y-la-bestia-el-musical",
+   "n": "The Beauty And The Beast",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Málaga",
    "area": "Málaga",
-   "p": "From €19.02",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2024-222x222/CementerioIngles_222x222.jpg",
+   "p": "From €27.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/labellaylabestia_valladolid_222x222.png",
    "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fhistoria-viva-malaga%2F",
-   "url": "https://www.entradas.com/en/artist/historia-viva-malaga/",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fla-bella-y-la-bestia-el-musical%2F",
+   "url": "https://www.entradas.com/en/artist/la-bella-y-la-bestia-el-musical/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
