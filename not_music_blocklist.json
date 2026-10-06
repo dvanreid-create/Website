@@ -3,6 +3,12 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "margarita dominguez",
+   "venue": "maria cristina",
+   "date": "2026-10-24",
+   "why": "STALE 2024 EVENT, NOT A 2026 SHOW (Claude 2026-10-06, fundacionunicaja.com page read in the browser). The page 'Concierto Dialogos para piano de Margarita Dominguez' says 'jueves 24 de octubre' 19:30, Sala Fundacion Unicaja Maria Cristina, 15,10 EUR, tickets idEvento=251450 on unientradas; 24 Oct 2024 was a THURSDAY, 24 Oct 2026 is a SATURDAY, so the date on the site was the sweep re-reading an old page. CONTEXT.md already recorded it as a 2024 event ('never add'). The nightly link check also failed it (CANNOT_FIX). Date- and venue-scoped, so a genuine later Margarita Dominguez concert is unaffected. Reverse by deleting this entry if a 2026 page appears."
+  },
+  {
    "match": "tete leal",
    "venue": "virgen de las canas",
    "date": "2026-10-16",
