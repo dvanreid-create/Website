@@ -3,6 +3,12 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "tete leal",
+   "venue": "virgen de las canas",
+   "date": "2026-10-16",
+   "why": "REMOVED AT SOFIA'S REQUEST 2026-10-05 (NOT a genre judgement and NOT a cancellation; this IS live music). 'Tete Leal - Cinematronic. Musica para peliculas imaginarias', Fri 16 Oct 2026 19:00, Parque Virgen de las Canas (Puerto de la Torre), free. The show is REAL: it is on the Ayuntamiento de Malaga cycle 'Musica... en tu Zona' programme (mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/). Sofia could not find ANY event page, poster or press photo for it and asked for it to come off the site. Date- and venue-scoped, so his Metalirica show at Teatro Echegaray and any later date are untouched. Reverse by deleting this entry (and re-adding the 16 Oct TICKET_OVERRIDES line for 'tete-leal' if wanted) if a proper page turns up."
+  },
+  {
    "match": "la konga",
    "venue": "paris 15",
    "date": "2026-10-08",
