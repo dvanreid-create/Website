@@ -1671,6 +1671,17 @@
      "venue_name": "Concierto El Nido - Málaga - Sala Marte",
      "why": "ADDED 2026-10-05 (Sofia sent the Enterticket link; not on the live site). Browser-confirmed: Enterticket event 823069, Sat 24 Oct 2026, 22:00h, doors 21:30h, JSON-LD offer 16.50 EUR, InStock. Venue C. San Nicolas 2, 29016 Malaga."
     },
+    "catupecu machu": {
+     "url": "https://www.entradas.com/event/catupecu-machu-sala-la-trinchera-21957902/",
+     "prefer": "map",
+     "date": "05/12/2026",
+     "time": "21:00",
+     "price": "38.99 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Catupecu Machu",
+     "genre": "Rock",
+     "why": "ADDED 2026-10-06 (daily commission-coverage audit; entradas.com Malaga listing gap). Browser-confirmed on the live entradas.com event page 2026-10-06: Catupecu Machu, Sat 05/12/2026 21:00, Sala La Trinchera, Calle Parauta 25, live 'Add to shopping cart' selector, from 38,99 EUR. entradas.com is a COMMISSIONED seller (Awin mid 24761), so the build wraps the link."
+    },
     "tussiwarriors": {
      "url": "https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248",
      "prefer": "map",
@@ -1828,17 +1839,6 @@
      "venue_name": "Iberia Sumergida (Tributo a Héroes del Silencio)",
      "genre": "Rock",
      "why": "ADDED 2026-10-05 (conciertosmalaga agenda gap). BUY PAGE CONFIRMED by Sofia (screenshot 2026-10-05; Entradium 403s our browser): 14.11.2026 22:00, La Trinchera C. Parauta 25, doors 21:00, General 17,41 EUR final price incl. fees, COMPRAR live. Over-16s only, DNI required. Same seller as the Pedrá Extremoduro tribute already on the site."
-    },
-    "catupecu machu": {
-     "url": "https://www.entradas.com/event/catupecu-machu-sala-la-trinchera-21957902/",
-     "prefer": "map",
-     "date": "05/12/2026",
-     "time": "21:00",
-     "price": "38.99 EUR",
-     "venue": "Sala La Trinchera",
-     "venue_name": "Catupecu Machu",
-     "genre": "Rock",
-     "why": "ADDED 2026-10-06 (daily commission-coverage audit; entradas.com Malaga listing gap). Browser-confirmed on the live entradas.com event page 2026-10-06: Catupecu Machu, Sat 05/12/2026 21:00, Sala La Trinchera, Calle Parauta 25, live 'Add to shopping cart' selector, from 38,99 EUR. entradas.com is a COMMISSIONED seller (Awin mid 24761), so the build wraps the link."
     },
     "homer el mero mero": {
      "url": "https://www.entradas.com/event/homer-el-mero-mero-sala-la-trinchera-21594474/",
