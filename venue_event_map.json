@@ -1581,6 +1581,22 @@
     }
    }
   },
+  "felipe vi": {
+   "source": "https://www.giglon.com/evento/tributo-a-mecano-estepona",
+   "complete": false,
+   "gate": false,
+   "acts": {
+    "aidalai": {
+     "url": "https://www.giglon.com/evento/tributo-a-mecano-estepona",
+     "prefer": "map",
+     "date": "17/10/2026",
+     "time": "21:00",
+     "price": "22 EUR",
+     "venue_name": "Teatro Auditorio Felipe VI",
+     "why": "ADDED 2026-10-07. Giglon page read in browser: Tributo a Mecano, Teatro Auditorio Felipe VI, Estepona, 17/10/2026 21:00, desde 22,00 EUR, Comprar live. Not the 28 Nov ESAD Malaga show (that one is ECI)."
+    }
+   }
+  },
   "thyssen": {
    "source": "https://carmenthyssenmalaga.org/actividad/musica-clasica-coleccion-2026",
    "complete": false,
