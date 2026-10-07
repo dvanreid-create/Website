@@ -1145,6 +1145,32 @@
    "complete": false,
    "note": "Sala París 15, ~3,000-cap venue at C. La Orotava 27, 29006 Málaga. Primary ticket seller: tomaticket.es. Also listed on Songkick (17 upcoming) and paris15.es. Open since 2010. No events in current 30-day window; next show El Kuelgue 10 Sep. Events read 2026-07-27. complete:false = NOT a phantom gate.",
    "acts": {
+    "valeria lynch": {
+     "url": "https://conciertosya.com/Valeria-Lynch-en-Malaga/",
+     "prefer": "map",
+     "date": "13/10/2026",
+     "venue_name": "Valeria Lynch en Málaga",
+     "time": "21:00",
+     "price": "33.00 EUR",
+     "why": "ADDED 2026-10-07 (copy of the pin in block 'paris15'). ROOT CAUSE found by reading build_site._venue_lookup: it returns on the FIRST block whose key is inside the row's venue/url text. A row at 'Sala Paris 15' matches the block 'sala paris' first (venue norm 'sala paris 15'), finds no 'valeria lynch' there and returns (key, None), so the pin in 'paris15' was never consulted -> the card kept the dead paris15.es link and the ticket check dropped it. A pin for a Sala Paris act must live in THIS block. ConciertosYa page re-read 2026-10-07: 13-10-2026 21:00, 30.00 + 3.00 fees = 33.00 EUR all-in, doors 20:00."
+    },
+    "salistre": {
+     "url": "https://shopes.vivaticket.com/es/sell/?cmd=prices&pcode=85303&tcode=vt0004443&evento=salistre-gira-vaiven#/sell/events/15014/sessions/22316",
+     "prefer": "map",
+     "date": "27/11/2026",
+     "time": "21:00",
+     "price": "22 EUR",
+     "venue_name": "SALISTRE",
+     "why": "ADDED 2026-10-07 (Sofia sent the Vivaticket link; paris15.es/event/* is dead). Browser-verified 2026-10-07: shopes.vivaticket.com 'SALISTRE - GIRA VAIVEN - MALAGA', Viernes 27 de noviembre de 2026 21:00; OFERTA DE LANZAMIENTO 20.00 EUR + 2.00 fees = 22.00 EUR; ENTRADA GENERAL 25.00 + 2.50 = 27.50 EUR; ticket selector live. The Queue-it tokens (qubs*) were dropped from the link (not needed). '&evento=salistre-gira-vaiven' is a harmless extra query parameter (page loads identically, tested) so the page URL carries the act name: the ticket checker's WRONG_EVENT test looks for the act's words in the title/URL and Vivaticket's title is just 'Vivaticket'. Lives in block 'sala paris' on purpose (see the Valeria Lynch note: a Sala Paris row hits that block first). Not commissioned."
+    },
+    "neon collective": {
+     "url": "https://entradas.27ladridos.com/es/gira/evento/the-80s-show-by-neon-collective-en-malaga-j66r",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "20:00",
+     "price": "22 EUR",
+     "venue_name": "NEON COLLECTIVE"
+    },
     "abhir": {
      "url": "https://www.ticketmaster.es/event/abhir-entradas/1218088577",
      "date": "24/10/2026",
