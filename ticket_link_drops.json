@@ -1,7 +1,15 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-05",
+ "generated": "2026-10-07",
  "drops": {
-  "Leyendas del Pop — ABBA & Bee Gees Tribute Show": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 8:50am (Europe/Madrid)))"
+  "Love to Sing Choir — Concierto Benéfico": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Marta Sánchez — Gira 40 Años — Feria del Rosario": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Valeria Lynch": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benjamín Levy — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benj",
+  "Grupo Liberación": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "K.OS Only — The Rabbit Hole Tour 2026": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Cuarteto Lehmberg (Javier García Moreno, Diego Morales)": "CANNOT_FIX — no verifiable buy page (candidate rejected (WRONG_EVENT: page 'Música clásica en la Colección 2026 - Museo Carmen Thyssen M' has none of ['cuarteto",
+  "Salistre — Gira 2026 «Vaivén»": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Salistre — Gira 2026 «Vaivén»\\nVenue: Sala París 15\\nDate: 2026-11-27\\nReg",
+  "Orquesta Filarmónica de Málaga — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
  }
 }

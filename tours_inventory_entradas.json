@@ -1,6 +1,6 @@
 {
- "count": 16,
- "generated": "2026-10-06T04:02:51Z",
+ "count": 15,
+ "generated": "2026-10-07T04:02:56Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -222,22 +222,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsun-line%2F",
    "url": "https://www.entradas.com/en/artist/sun-line/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-splean",
-   "n": "SPLEAN",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Teatro Auditorio Felipe VI · Estepona",
-   "area": "Estepona",
-   "p": "From €59",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/evo/artwork/2026/splean_1240x480.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsplean%2F",
-   "url": "https://www.entradas.com/en/artist/splean/",
    "rating": 0,
    "nrev": 0,
    "idx": 1

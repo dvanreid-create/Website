@@ -4178,6 +4178,28 @@
      "why": "AUTO-REPAIRED 2026-10-04 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
+  },
+  "palacio de la paz": {
+   "source": "auto-repair",
+   "acts": {
+    "antonio jose gira luz feria del rosario": {
+     "url": "https://www.redentradas.com/?entradas=&eid=1205",
+     "prefer": "map",
+     "date": "10/10/2026",
+     "why": "AUTO-REPAIRED 2026-10-07 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    }
+   }
+  },
+  "teatro auditorio felipe vi": {
+   "source": "auto-repair",
+   "acts": {
+    "queen forever tribute we will rock you tour 2026": {
+     "url": "https://www.redentradas.com/?entradas=queen-forever-tribute&eid=2524",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-07 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    }
+   }
   }
  }
 }
