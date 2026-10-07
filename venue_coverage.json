@@ -213,7 +213,7 @@
    "venue": "Málaga",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 19,
+   "calendar_in_window": 20,
    "latest_mapped": "2026-10-24",
    "always_on": false,
    "verdict": "ok"
@@ -222,7 +222,7 @@
    "venue": "Málaga",
    "mapped_in_window": 48,
    "matched": 48,
-   "calendar_in_window": 85,
+   "calendar_in_window": 86,
    "latest_mapped": "2026-12-05",
    "always_on": false,
    "verdict": "ok"
