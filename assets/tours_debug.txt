@@ -1,4 +1,4 @@
-=== tours_debug Wed Oct  7 09:07:03 PM UTC 2026 ===
+=== tours_debug Wed Oct  7 09:24:40 PM UTC 2026 ===
 srchash=cc4924bea6d924435313c9e5674d3753
 --- rebuild procs ---
 none

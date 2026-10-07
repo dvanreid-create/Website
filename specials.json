@@ -7,6 +7,18 @@
    "expires": "2027-01-07"
   },
   {
+   "label": "David Bustamante",
+   "program": "box office",
+   "host": "entradas.fuengirola.es/selection/event/date?productId=10229858097746",
+   "expires": "2026-10-09"
+  },
+  {
+   "label": "Malú",
+   "program": "box office",
+   "host": "unientradas.es/es/espectaculo/malu-quince-tour/26-27MaluSing",
+   "expires": "2026-10-11"
+  },
+  {
    "label": "Rafa Sánchez",
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/rafa-sanchez/26-27SanchezRafa",
