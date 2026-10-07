@@ -1289,8 +1289,8 @@
      "date": "13/10/2026",
      "venue_name": "Valeria Lynch en Málaga",
      "time": "21:00",
-     "price": "41.25 EUR",
-     "why": "REPROGRAMMED 2026-10-04 (Sofia, Sala París 15 Instagram poster: REPROGRAMACIÓN 13 octubre). The map still said 04/10, so a card for a show that is not happening shipped on 4 Oct. Seller is ConciertosYa (poster), browser-confirmed: 13-10-2026 21:00, doors 20:00, 37.50 + 3.75 fees = 41.25 EUR, live COMPRAR; paris15.es/event/ now redirects to a vibess list with no event."
+     "price": "33.00 EUR",
+     "why": "PRICE RE-READ 2026-10-07 (web fetch of the ConciertosYa page): 30.00 EUR + 3.00 EUR fees = 33.00 EUR all-in, 13-10-2026 21:00, doors 20:00, Sala Paris 15 (it was 41.25 on 2026-10-04). REPROGRAMMED 2026-10-04 (Sofia, Sala París 15 Instagram poster: REPROGRAMACIÓN 13 octubre). The map still said 04/10, so a card for a show that is not happening shipped on 4 Oct. Seller is ConciertosYa (poster), browser-confirmed: 13-10-2026 21:00, doors 20:00, 37.50 + 3.75 fees = 41.25 EUR, live COMPRAR; paris15.es/event/ now redirects to a vibess list with no event."
     },
     "la konga": {
      "url": "https://feverup.com/m/643664",
@@ -1552,6 +1552,23 @@
      "venue_name": "Concierto V Aniversario Coral Promúsica",
      "price": "15,00 EUR",
      "genre": "Classical"
+    }
+   }
+  },
+  "thyssen": {
+   "source": "https://carmenthyssenmalaga.org/actividad/musica-clasica-coleccion-2026",
+   "complete": false,
+   "gate": false,
+   "note": "Museo Carmen Thyssen Malaga courtyard concerts. ADDED 2026-10-07 (Sofia) because the ticket-link check DROPPED the 14 Nov Cuarteto Lehmberg row ('no verifiable buy page'). Browser-verified 2026-10-07: the museum's own page lists 14 Nov 2026 20:30 (Cuarteto Lehmberg + Diego Morales, zarzuela for string quartet), Zona A 18 EUR / Zona B 16 EUR / Amigos y Balcon 14 EUR, Reservar buttons lead to the official ventaonline.carmenthyssenmalaga.org sale (live, 30-minute cart). The ticket price includes one museum visit. One page covers all four dates of the cycle, so it is the correct per-event link; no seller pays commission.",
+   "acts": {
+    "cuarteto lehmberg": {
+     "url": "https://carmenthyssenmalaga.org/actividad/musica-clasica-coleccion-2026",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "20:30",
+     "price": "14 EUR",
+     "venue_name": "Museo Carmen Thyssen Málaga",
+     "why": "ADDED 2026-10-07. See block note. Official museum page, not an affiliate seller."
     }
    }
   },
