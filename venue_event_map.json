@@ -2129,12 +2129,13 @@
      "why": "URL REPAIRED 2026-09-19 (browser click-test): ticketmaster.es/event/432310294 now 404s ('Página no encontrada'); the live event is ticketmaster.es/event/-k-beat-fest-entradas/182940406 — 'K-Beat Fest sáb, 19 sept 2026, 16:30, Málaga Forum en Málaga' with a live seat map ('Ver mapa de asientos' / 'Ver lo mejor disponible'). Still Ticketmaster via Impact (tm_aff()), so the paying seller is unchanged. TM now names the venue Málaga Forum rather than Auditorio Mpal Cortijo de Torres — flagged, not renamed. PRIOR RECORD: BROWSER-CONFIRMED 2026-09-08: ticketmaster.es/event/432310294 is titled 'Buy tickets for K-Beat Fest Sat, 19 Sept 2026, 16:30, Auditorio Mpal Cortijo de Torres in Malaga' and renders a live seat map with View seat map / See best available. THIS IS THE ONLY ONE OF THE SEVEN ON A PAYING SELLER - Ticketmaster via Impact, wrapped by tm_aff() at build time - so every day it stayed off the site was lost commission. Genre left BLANK for the keyword classifier."
     },
     "la kermesse redonda": {
-     "url": "https://feverup.com/m/713776",
+     "url": "https://www.entradas.com/en/event/la-kermesse-redonda-sala-la-trinchera-21755651/",
      "prefer": "map",
+     "entradas_why": "2026-10-08: Fever plan 713776 shows 'no hay entradas disponibles' (weekly click test) the day before the show, so the card now routes to entradas.com event 21755651 (Sala La Trinchera, Fri 9 Oct 2026 20:30, General 38,50 EUR, Awin). Sofia asked for the switch. NOTE: entradas.com 21755650 is the MALLORCA date (10 Oct, Son Castelló), NOT this show.",
      "date": "09/10/2026",
-     "time": "21:00",
+     "time": "20:30",
      "time_why": "RE-TIMED 2026-10-03 (daily audit, Claude Browser): Fever 713776 - the seller this card routes to - states 'Horarios: inicio a las 21:00 h.' and its ticket-selector session is 2026-10-09T21:00. entradas.com's 20:30 (the reason this was left at 20:30 on 09-28) is not the seller we send readers to.",
-     "price": "Desde 32,50 EUR",
+     "price": "38,50 EUR",
      "venue": "Sala La Trinchera",
      "venue_name": "La Kermesse Redonda",
      "genre": "Rock & Indie",
@@ -3716,10 +3717,11 @@
      "why": "ADDED 2026-09-24 — MISSING COMMISSIONABLE EVENT, found by cross-referencing ECI's own Malaga concert listing against the live site (32 results checked, this was the one real gap). Not on mutick.com/l/malaga (browser-confirmed 2026-09-24: that page lists only The Silencers, a benefit concert, and Clearwater Creedence Revival — no Gonzalo Hermida), so the deterministic 'trinchera' block below never had a chance to inject him; same failure shape as Sofia Ellar/Perota Chingo/Plastic Woods/Fully Alive Fest above — a Trinchera show sold through a seller other than mutick depends entirely on the weekly LLM sweep, which missed this one. Placed here (hand-maintained, never rewritten), not in 'trinchera' below (rewritten wholesale from mutick every Monday). Browser-confirmed 2026-09-24 on elcorteingles.es/entradas/conciertos/entradas-gonzalo-hermida-malaga/: 'Concierto Gonzalo Hermida en Malaga', 'Fechas: 22 de Octubre de 2026', 'Horario: A las 21:30h', 'Recinto: Sala Trinchera', 'Desde 27,50€', live COMPRAR control. Paying seller: El Corte Ingles, Awin mid 13034."
     },
     "la kermesse redonda": {
-     "url": "https://feverup.com/m/713776",
+     "url": "https://www.entradas.com/en/event/la-kermesse-redonda-sala-la-trinchera-21755651/",
      "prefer": "map",
+     "entradas_why": "2026-10-08: Fever plan 713776 shows 'no hay entradas disponibles' (weekly click test) the day before the show, so the card now routes to entradas.com event 21755651 (Sala La Trinchera, Fri 9 Oct 2026 20:30, General 38,50 EUR, Awin). Sofia asked for the switch. NOTE: entradas.com 21755650 is the MALLORCA date (10 Oct, Son Castelló), NOT this show.",
      "date": "09/10/2026",
-     "time": "21:00",
+     "time": "20:30",
      "time_why": "RE-TIMED 2026-10-03 (daily audit, Claude Browser): Fever 713776 - the seller this card routes to - states 'Horarios: inicio a las 21:00 h.' and its ticket-selector session is 2026-10-09T21:00. entradas.com's 20:30 (the reason this was left at 20:30 on 09-28) is not the seller we send readers to.",
      "venue_name": "La Kermesse Redonda",
      "genre": "Rock & Indie",
