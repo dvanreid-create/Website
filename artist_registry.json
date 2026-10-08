@@ -1598,5 +1598,13 @@
 "k-os-only-in-malaga": {
 "name": "K.OS ONLY in Málaga",
 "mles": 0.0
+},
+"dromedarios-magicos-en-malaga": {
+"name": "Dromedarios Mágicos en Málaga",
+"mles": 0.0
+},
+"solo-k-os-en-malaga": {
+"name": "SOLO K.OS en Málaga",
+"mles": 0.0
 }
 }
