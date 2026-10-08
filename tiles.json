@@ -1004,45 +1004,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-58aa37d8a6fe98db.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to La Oreja de Van Gogh",
-   "headBottom": true,
-   "expires": "2026-11-13",
-   "sub": {
-    "en": "Fri 13 Nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "es": "Vie 13 nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "de": "Fr 13 Nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "fr": "ven. 13 nov. · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "sv": "fre 13 nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "no": "fre 13 nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "da": "fre 13 nov · Salón Linares (Anantara Villa Padierna) · Marbella",
-    "fi": "pe 13 marrask. · Salón Linares (Anantara Villa Padierna) · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=738713&u=https%3A%2F%2Ffeverup.com%2Fm%2F738713&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
