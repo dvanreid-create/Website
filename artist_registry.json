@@ -445,7 +445,7 @@
 },
 "motown-band": {
 "name": "Motown Band",
-"mles": 0.0
+"mles": 56.1
 },
 "the-children-of-queen": {
 "name": "The Children of Queen",
@@ -656,7 +656,7 @@
 "mles": 52.3
 },
 "valeria-lynch": {
-"name": "VALERIA LYNCH",
+"name": "Valeria Lynch",
 "mles": 52.3
 },
 "la-konga": {
@@ -789,7 +789,7 @@
 },
 "obk": {
 "name": "OBK",
-"mles": 70.8
+"mles": 67.6
 },
 "rafa-pons": {
 "name": "Rafa Pons",
@@ -804,11 +804,11 @@
 "mles": 52.3
 },
 "sike": {
-"name": "SIKE",
+"name": "Sike",
 "mles": 61.6
 },
 "rock-pop-legends": {
-"name": "Rock & Pop Legends",
+"name": "ROCK & POP LEGENDS",
 "mles": 58.1
 },
 "borja-pico": {
@@ -832,7 +832,7 @@
 "mles": 61.6
 },
 "leyendas-del-pop": {
-"name": "Leyendas del Pop",
+"name": "LEYENDAS DEL POP",
 "mles": 52.3
 },
 "partiendo-la-pana": {
@@ -876,7 +876,7 @@
 "mles": 60.3
 },
 "brunch-electronik-weekender": {
-"name": "Brunch! Electronik Weekender",
+"name": "Brunch Electronik Weekender",
 "mles": 53.4
 },
 "jota-carajota": {
@@ -960,7 +960,7 @@
 "mles": 58.9
 },
 "no-te-va-a-gustar": {
-"name": "No Te Va A Gustar",
+"name": "No Te Va a Gustar",
 "mles": 61.6
 },
 "art-club-band": {
@@ -1105,7 +1105,7 @@
 },
 "david-bustamante": {
 "name": "David Bustamante",
-"mles": 0.0
+"mles": 73.7
 },
 "brunch-electronik-weekender-malaga-2026": {
 "name": "Brunch Electronik Weekender Málaga 2026",
@@ -1288,7 +1288,7 @@
 "mles": 59.3
 },
 "grupo-liberacion": {
-"name": "GRUPO LIBERACIÓN",
+"name": "Grupo Liberación",
 "mles": 48.0
 },
 "milongas-extremas": {
@@ -1473,6 +1473,130 @@
 },
 "dj-symphonic-royal-film-concert-orchestra": {
 "name": "DJ Symphonic & Royal Film Concert Orchestra",
+"mles": 0.0
+},
+"love-to-sing-choir": {
+"name": "Love to Sing Choir",
+"mles": 0.0
+},
+"then-jerico": {
+"name": "Then Jerico",
+"mles": 0.0
+},
+"disorder": {
+"name": "Disorder",
+"mles": 0.0
+},
+"san-miguel-60-anos-de-sentir-malaga": {
+"name": "San Miguel 60 Años de Sentir Málaga",
+"mles": 0.0
+},
+"gemelos-tour-2k26": {
+"name": "Gemelos Tour 2K26",
+"mles": 0.0
+},
+"the-jazz-room": {
+"name": "The Jazz Room",
+"mles": 0.0
+},
+"diego-catena": {
+"name": "Diego Catena",
+"mles": 0.0
+},
+"blue-angel-the-devils-in-disguise": {
+"name": "Blue Angel & The Devils in Disguise",
+"mles": 49.6
+},
+"fiebre-club": {
+"name": "Fiebre Club",
+"mles": 0.0
+},
+"supersuckers": {
+"name": "Supersuckers",
+"mles": 0.0
+},
+"orquesta-filarmonica-de-malaga-jose-carra-group-arturo-serra-dir-benjamin-levy": {
+"name": "Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benjamín Levy",
+"mles": 56.0
+},
+"la-dama-de-hierro": {
+"name": "La Dama de Hierro",
+"mles": 0.0
+},
+"quererte-a-medias": {
+"name": "Quererte a Medias",
+"mles": 0.0
+},
+"desert-vipers": {
+"name": "Desert Vipers",
+"mles": 0.0
+},
+"mateo-ortega": {
+"name": "Mateo Ortega",
+"mles": 0.0
+},
+"masterplan": {
+"name": "Masterplan",
+"mles": 0.0
+},
+"neon-collective": {
+"name": "Neon Collective",
+"mles": 0.0
+},
+"cuarteto-lehmberg": {
+"name": "Cuarteto Lehmberg",
+"mles": 0.0
+},
+"orquesta-filarmonica-de-malaga-dir-jose-luis-lopez-anton-jesus-berrio": {
+"name": "Orquesta Filarmónica de Málaga, dir. José Luis López Antón, Jesús Berrio",
+"mles": 56.0
+},
+"blanca-la-almendrita": {
+"name": "Blanca la Almendrita",
+"mles": 0.0
+},
+"delobos": {
+"name": "Delobos",
+"mles": 0.0
+},
+"transdisciplina-t-26": {
+"name": "Transdisciplina T#26",
+"mles": 0.0
+},
+"un-paseo-por-tu-vida": {
+"name": "Un Paseo Por Tu Vida",
+"mles": 0.0
+},
+"salma": {
+"name": "Salma",
+"mles": 0.0
+},
+"porn": {
+"name": "Porn",
+"mles": 0.0
+},
+"el-cebri": {
+"name": "El Cebri",
+"mles": 0.0
+},
+"the-plague-in-malaga": {
+"name": "The Plague in Malaga",
+"mles": 0.0
+},
+"dromedaries-magicos-in-malaga": {
+"name": "Dromedaries Mágicos in Malaga",
+"mles": 0.0
+},
+"chiquita-movida-in-malaga": {
+"name": "Chiquita Movida in Malaga",
+"mles": 0.0
+},
+"catupecu-machu-in-malaga": {
+"name": "CATUPECU MACHU in MÁLAGA",
+"mles": 0.0
+},
+"k-os-only-in-malaga": {
+"name": "K.OS ONLY in Málaga",
 "mles": 0.0
 }
 }

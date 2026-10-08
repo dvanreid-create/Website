@@ -1163,6 +1163,14 @@
      "venue_name": "SALISTRE",
      "why": "ADDED 2026-10-07 (Sofia sent the Vivaticket link; paris15.es/event/* is dead). Browser-verified 2026-10-07: shopes.vivaticket.com 'SALISTRE - GIRA VAIVEN - MALAGA', Viernes 27 de noviembre de 2026 21:00; OFERTA DE LANZAMIENTO 20.00 EUR + 2.00 fees = 22.00 EUR; ENTRADA GENERAL 25.00 + 2.50 = 27.50 EUR; ticket selector live. The Queue-it tokens (qubs*) were dropped from the link (not needed). '&evento=salistre-gira-vaiven' is a harmless extra query parameter (page loads identically, tested) so the page URL carries the act name: the ticket checker's WRONG_EVENT test looks for the act's words in the title/URL and Vivaticket's title is just 'Vivaticket'. Lives in block 'sala paris' on purpose (see the Valeria Lynch note: a Sala Paris row hits that block first). Not commissioned."
     },
+    "grupo liberacion": {
+     "url": "https://conciertosmalaga.com/agenda/grupo-liberacion-paris15-malaga",
+     "prefer": "map",
+     "date": "11/11/2026",
+     "time": "20:00",
+     "venue_name": "GRUPO LIBERACIÓN",
+     "why": "2026-10-08 (Sofia's screenshots): paris15.es/event/grupo-liberacion/ = Page not found. conciertosmalaga.com lists the show (Wed 11 Nov 2026 20:00, Sala París 15, desde 39,99 EUR) but its 'Comprar entradas' button opens tickets.vibess.es/vibess/events, a generic Onebox list that shows only INDIOS 2026 - NO working buy page exists for this show. Pinned to the conciertosmalaga listing as the best info page (same logic as the 2026-09-30 Metalirica info-only ruling). Replace with the real vibess event link when it appears."
+    },
     "neon collective": {
      "url": "https://entradas.27ladridos.com/es/gira/evento/the-80s-show-by-neon-collective-en-malaga-j66r",
      "prefer": "map",
@@ -1586,6 +1594,13 @@
    "complete": false,
    "gate": false,
    "acts": {
+    "queen forever": {
+     "url": "https://www.giglon.com/evento/queen-forever-tribute-estepona",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "21:00",
+     "why": "2026-10-08: Giglon is the seller linked from teatroestepona.com 'Comprar entradas'. Browser-verified: Queen Forever Tribute, Teatro Auditorio Felipe VI, 28/11/2026 21:00, desde 38,50 EUR, Comprar. Replaces the redentradas link the checker rejected (WRONG_EVENT, generic title)."
+    },
     "aidalai": {
      "url": "https://www.giglon.com/evento/tributo-a-mecano-estepona",
      "prefer": "map",
@@ -2745,6 +2760,14 @@
    "complete": false,
    "note": "Teatro Echegaray, sister venue to Teatro Cervantes, managed by Procultura Málaga (same website). Hosts flamenco, jazz cycles, contemporary dance. JS-rendered site. No in-window ticketed events confirmed. Added 2026-07-27 as stub.",
    "acts": {
+    "transdisciplina t26": {
+     "url": "https://www.unientradas.es/espectaculo/transdisciplina-t26-10-aniversario-2016-2026/26-27TDisciplina",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "20:00",
+     "venue_name": "Transdisciplina T#26 — Teatro Echegaray",
+     "why": "2026-10-08: Sofia's screenshots of unientradas.es and teatroechegaray.com (Sat 28 Nov 2026 20:00, Butacas 30,72 / Primer Piso 18,43 / Segundo Piso 10,24 EUR). Link read from the unientradas homepage event card."
+    },
     "metalirica": {
      "url": "https://www.teatroechegaray.com/es/ciclos-y-festivales/metalirica-2026/",
      "prefer": "map",
@@ -3898,6 +3921,23 @@
    "gate": false,
    "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-08-28 (browser): ANDRES KOI, SAB 19 SEP 21:00, 25 EUR - searched for a buyable page after the event was dropped for 'link goes to a different event'. CAUSE CONFIRMED: conciertos.club's own Andres Koi page carries NO buy control of its own; the two 'Comprar entradas' buttons ON that page belong to OTHER events (Fauces at Sala Core, and Apartamentos Acapulco at this same venue), which is exactly how a neighbouring event's link got attached. On the venue's listing every other night has a COMPRAR ENTRADAS button and Andres Koi alone has none. NO SELLER FOUND, affiliates first: El Corte Ingles search 'andres koi' = 0 results; Ticketmaster.es finds the artist but 'There are no upcoming events in Spain' (only an international 25 Oct date); Fever's own Sala Marte venue page lists no Sala Marte concerts at all; tomaticket's Andres Koi artist page lists Madrid only; taquilla.com/malaga/sala-marte-malaga does not list him; wegow.com/es/conciertos/andres-koi 404s; entradas.conciertos.club has no such event; the venue's own salamartemalaga.com is an empty placeholder. The ONLY offers are RESALE - ticketle/StubHub from 130 EUR against a 25 EUR face - which is not a seller to route a reader to. DELIBERATELY NOT BLOCKLISTED: the gig is real and dated, so it must return the moment the promoter opens sales; leaving it un-blocklisted keeps it in the daily re-check. | 2026-08-31 SELLER FOUND, and the live link was WORSE than none: the site had been routing this gig to ticketle.es/…/event/718150, which is a RESALE aggregator — its own page reads 'Tickets are sold by our partner sellers', 'BUY TICKETS StubHub · from 130 EUR' against a 25 EUR face. That is a 5x markup on a site whose headline is 'Tickets, No Fees or Markups', so it had to go whatever the verifier said (the nightly run flags it HOST_REFUSED_US, which is in NEVER_DROP, so the resale link was staying live indefinitely). THE PRIMARY SELLER IS THE PROMOTER'S OWN SHOP: the gig poster credits 'ENTRADAS EN dOit!' / 'ORGANIZA Fiesta Roja', and dOit! Production sells it directly. CONFIRMED IN CHROME 2026-08-31: doitproduction.es/etn/andres-koi-malaga/ — 'Andrés Koi Málaga, 19 de septiembre de 2026, Sala Marte, Calle San Nicolás, Málaga', countdown running, GENERAL 25,00 EUR and Golden Ticket 50,00 EUR with quantity steppers and a 'Conseguir entradas' button, and it states 'Precios con gastos de gestión ya incluidos' (fees included). AFFILIATES CHECKED FIRST AND STILL EMPTY on 2026-08-31: El Corte Inglés has no Málaga date; entradas.com's own Sala Marte venue page (city/malaga-490/venue/sala-marte-91699) lists only VOLAVENT 06/02/2027 and LEVITANTS 12/02/2027; wegow 404s; tomaticket has no Málaga date; conciertos.club's venue page now errors. So this is a non-paying route chosen because no paying seller sells it — face value to the reader beats commission. prefer:'map' because the calendar's own link is deep (the resale page) and rule 2 would otherwise leave it alone.",
    "acts": {
+    "k.os only": {
+     "url": "https://feverup.com/m/791278",
+     "prefer": "map",
+     "date": "13/11/2026",
+     "time": "21:00",
+     "price": "10.82 EUR",
+     "venue_name": "SOLO K.OS en Málaga — Rabbit Hole Tour",
+     "why": "2026-10-08: Sofia's Fever screenshot, re-opened in the built-in browser: 'SOLO K.OS en Málaga', Fri 13 Nov 2026 21:00, Sala Marte, Entrada general 10,82 EUR, no booking fee, Comprar ahora."
+    },
+    "solo k.os": {
+     "url": "https://feverup.com/m/791278",
+     "prefer": "map",
+     "date": "13/11/2026",
+     "time": "21:00",
+     "price": "10.82 EUR",
+     "venue_name": "SOLO K.OS en Málaga — Rabbit Hole Tour"
+    },
     "jota carajota": {
      "url": "https://woutick.com/es/entradas/jota-carajota-delirios-tour",
      "prefer": "map",
