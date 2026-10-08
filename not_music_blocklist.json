@@ -3,6 +3,14 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "peste en malaga",
+   "why": "THEATRE, NOT MUSIC - removed 2026-10-08 (Sofia: 'this is teatro, not supposed to be on Featured'). 'La Peste en Málaga - Visita teatralizada' (Historia Viva Málaga, Fever, a theatrical walking tour). All dates."
+  },
+  {
+   "match": "plague in malaga",
+   "why": "THEATRE, NOT MUSIC - removed 2026-10-08. English Fever title of 'La Peste en Málaga - Visita teatralizada' (Historia Viva Málaga). All dates."
+  },
+  {
    "match": "margarita dominguez",
    "venue": "maria cristina",
    "date": "2026-10-24",

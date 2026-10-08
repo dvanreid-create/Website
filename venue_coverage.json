@@ -67,8 +67,8 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 30,
-   "matched": 30,
+   "mapped_in_window": 24,
+   "matched": 24,
    "calendar_in_window": 26,
    "latest_mapped": "2026-10-31",
    "always_on": true,
