@@ -67,8 +67,8 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 24,
-   "matched": 24,
+   "mapped_in_window": 30,
+   "matched": 30,
    "calendar_in_window": 26,
    "latest_mapped": "2026-10-31",
    "always_on": true,
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 12,
+   "calendar_in_window": 11,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
