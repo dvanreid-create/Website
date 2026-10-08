@@ -1833,16 +1833,16 @@
     }
   },
   "viator:5591921P78": {
-    "h": "449ee40b0254be4ae3bf0fd8d0953e60",
+    "h": "f9b1ff37a03abf57f0e6a06ccadd8ee8",
     "names": {
-      "en": "Hello Ronda: 2-Hour Intro City Walk with Local Guide",
-      "es": "Hola Ronda: paseo introductorio de 2 horas por la ciudad con guía local",
-      "de": "Hello Ronda: 2-stündiger Einführungs-Stadtrundgang mit lokalem Guide",
-      "fr": "Hello Ronda : découverte de la ville à pied de 2 heures avec guide local",
-      "sv": "Hello Ronda: 2 timmars introducerande stadsvandring med lokal guide",
-      "no": "Hello Ronda: 2-timers introduksjonstur i byen med lokal guide",
-      "da": "Hello Ronda: 2 timers intro-byvandring med lokal guide",
-      "fi": "Hello Ronda: 2 tunnin johdatteleva kaupunkikävely paikallisoppaan kanssa"
+      "en": "Hello Ronda: Private 2-Hour Intro City Walk with Local Guide",
+      "es": "Hello Ronda: Paseo Introductorio Privado de 2 Horas por la Ciudad con Guía Local",
+      "de": "Hello Ronda: Private 2-stündige Einführungstour durch die Stadt mit lokalem Guide",
+      "fr": "Hello Ronda : visite guidée privée de 2 heures du centre-ville avec guide local",
+      "sv": "Hello Ronda: Privat 2-timmars introduktionspromenad med lokal guide",
+      "no": "Hello Ronda: Privat 2-timers introduksjonsvandring i byen med lokal guide",
+      "da": "Hello Ronda: Privat 2-timers introduktionsvandring i byen med lokal guide",
+      "fi": "Hello Ronda: Yksityinen 2 tunnin tutustumiskävely paikallisen oppaan kanssa"
     }
   },
   "viator:358726P3": {
@@ -4654,16 +4654,16 @@
     }
   },
   "viator:111795P11": {
-    "h": "56f1559c430c5f24562ec0aeff83bdc8",
+    "h": "5ccc735556060bbfd12f865c3778affd",
     "names": {
-      "en": "Málaga Sunset & Night Tour by Electric Car",
-      "es": "Tour de Atardecer y Noche por Málaga en Coche Eléctrico",
-      "de": "Málaga bei Sonnenuntergang & Nacht – Tour im Elektroauto",
-      "fr": "Circuit Coucher de Soleil et Nocturne à Málaga en Voiture Électrique",
-      "sv": "Malaga solnedgångs- och nattetur med elbil",
-      "no": "Málaga solnedgangs- og kveldstur med elbil",
-      "da": "Málaga solnedgangs- og nattur i elbil",
-      "fi": "Malagan auringonlasku- ja yökierros sähköautolla"
+      "en": "Málaga Christmas Lights & Night Tour by Electric Car",
+      "es": "Tour Nocturno de las Luces de Navidad de Málaga en Coche Eléctrico",
+      "de": "Málaga Weihnachtsbeleuchtung & Nachttour im Elektroauto",
+      "fr": "Visite nocturne des illuminations de Noël de Malaga en voiture électrique",
+      "sv": "Malagas julbelysning & nattur med elbil",
+      "no": "Málagas julelys og kveldstur med elbil",
+      "da": "Málaga Julelys & Nattetur i Elbil",
+      "fi": "Málagan joulovalot ja yökierros sähköautolla"
     }
   },
   "viator:271536P4": {
@@ -19682,16 +19682,16 @@
     }
   },
   "viator:5697760P2": {
-    "h": "ecb503c94fc8797e12f02e68ed5eb654",
+    "h": "827d8b5ee257e6898038338eb4468fd0",
     "names": {
-      "en": "E-Bike Tour - Ronda: Beyond the city",
-      "es": "E-Bike Tour - Ronda: más allá de la ciudad",
-      "de": "E-Bike-Tour – Ronda: Jenseits der Stadt",
-      "fr": "E-Bike Tour - Ronda : au-delà de la ville",
-      "sv": "E-cykeltur - Ronda: Bortom staden",
-      "no": "E-Bike-tur - Ronda: Utenfor allfarvei",
-      "da": "E-Bike Tour - Ronda: Bagsiden af byen",
-      "fi": "E-pyöräretki - Ronda: kaupungin ulkopuolella"
+      "en": "Electric Bike Tour Beyond the City",
+      "es": "Tour en Bicicleta Eléctrica Más Allá de la Ciudad",
+      "de": "E-Bike-Tour außerhalb der Stadt",
+      "fr": "Circuit à vélo électrique au-delà de la ville",
+      "sv": "Elcykeltur utanför staden",
+      "no": "Elektrisk sykkeltur utenfor byen",
+      "da": "Elcykeltur uden for byen",
+      "fi": "Sähköpyöräretki kaupungin ulkopuolelle"
     }
   },
   "viator:5624588P4": {
@@ -22204,29 +22204,29 @@
     }
   },
   "788820": {
-    "h": "ebf11e98e5e9b022eb347d933ea1a23f",
+    "h": "06c160cf55d41fbb8eaaa0ca36faa66d",
     "names": {
-      "en": "[MODEL] [MALAGA] CINEMA BASE PLAN",
-      "es": "[MODEL] [MALAGA] PLAN BASE DE CINE",
-      "de": "[MODELL] [MALAGA] CINEMA BASE PLAN",
-      "fr": "[MODEL] [MALAGA] FORFAIT DE BASE CINÉMA",
-      "sv": "[MODEL] [MALAGA] BIO GRUNDPLAN",
-      "no": "[MODEL] [MALAGA] KINO BASISPLAN",
-      "da": "[MODEL] [MALAGA] BIOGRAF BASISPLAN",
-      "fi": "[MALLI] [MALAGA] ELOKUVA PERUSPAKETTI"
+      "en": "Digger",
+      "es": "Digger",
+      "de": "Digger",
+      "fr": "Digger",
+      "sv": "Digger",
+      "no": "Digger",
+      "da": "Digger",
+      "fi": "Digger"
     }
   },
   "788822": {
-    "h": "ebf11e98e5e9b022eb347d933ea1a23f",
+    "h": "5d59e2d7b445451e7e43b06930bcd094",
     "names": {
-      "en": "[MODEL] [MALAGA] CINEMA BASE PLAN",
-      "es": "[MODEL] [MALAGA] PLAN BASE DE CINE",
-      "de": "[MODELL] [MALAGA] CINEMA BASE PLAN",
-      "fr": "[MODEL] [MALAGA] FORFAIT DE BASE CINÉMA",
-      "sv": "[MODEL] [MALAGA] BIO GRUNDPLAN",
-      "no": "[MODEL] [MALAGA] KINO BASISPLAN",
-      "da": "[MODEL] [MALAGA] BIOGRAF BASISPLAN",
-      "fi": "[MALLI] [MALAGA] ELOKUVA PERUSPAKETTI"
+      "en": "Other Mommy",
+      "es": "Otra Mamá",
+      "de": "Other Mommy",
+      "fr": "Other Mommy",
+      "sv": "Other Mommy",
+      "no": "Other Mommy",
+      "da": "Other Mommy",
+      "fi": "Other Mommy"
     }
   },
   "788819": {
@@ -22331,6 +22331,58 @@
       "no": "30 minutters privat fotoshoot ved sjøen i La Herradura",
       "da": "30 minutters privat fotoshoot ved havet i La Herradura",
       "fi": "30 minuutin yksityinen valokuvauskierros merellä La Herradurassa"
+    }
+  },
+  "793055": {
+    "h": "27be251c4016c17714413aa66f10e334",
+    "names": {
+      "en": "Entradas Los 40: con lo que yo he sido - Málaga",
+      "es": "Entradas Los 40: con lo que yo he sido - Málaga",
+      "de": "Tickets Los 40: con lo que yo he sido - Málaga",
+      "fr": "Billets Los 40 : avec ce que j'ai été - Malaga",
+      "sv": "Biljetter Los 40: con lo que yo he sido - Málaga",
+      "no": "Billetter Los 40: con lo que yo he sido - Málaga",
+      "da": "Billetter Los 40: con lo que yo he sido - Málaga",
+      "fi": "Liput Los 40: con lo que yo he sido - Málaga"
+    }
+  },
+  "793049": {
+    "h": "d750020549867cee136b6223377fa5ea",
+    "names": {
+      "en": "Entradas ¡Todos Locos! - Málaga",
+      "es": "Entradas ¡Todos Locos! - Málaga",
+      "de": "Tickets ¡Todos Locos! - Málaga",
+      "fr": "Billets Tous Fous ! - Malaga",
+      "sv": "Biljetter ¡Todos Locos! - Málaga",
+      "no": "Billetter ¡Todos Locos! - Málaga",
+      "da": "Billetter ¡Todos Locos! - Málaga",
+      "fi": "Liput ¡Todos Locos! - Málaga"
+    }
+  },
+  "viator:420897P2": {
+    "h": "7a273a604ac55c275d773bafa1dc26ff",
+    "names": {
+      "en": "Tangier Airport Private Taxi Transfer",
+      "es": "Traslado Privado en Taxi al Aeropuerto de Tánger",
+      "de": "Privater Taxitransfer Flughafen Tangier",
+      "fr": "Transfert privé en taxi à l'aéroport de Tanger",
+      "sv": "Privat taxitransfer till Tangier flygplats",
+      "no": "Privat taxitransport fra Tangier flyplass",
+      "da": "Privat taxitransfer til Tangier Lufthavn",
+      "fi": "Tangierin lentokentän yksityinen taksikuljetus"
+    }
+  },
+  "viator:374880P8": {
+    "h": "87012a9653189e59380b06f6dbc08a72",
+    "names": {
+      "en": "Marbella and Mijas Day Tour and Puerto Banus and Benalmadena",
+      "es": "Tour de Día por Marbella, Mijas, Puerto Banús y Benalmádena",
+      "de": "Tagestour Marbella und Mijas mit Puerto Banus und Benalmadena",
+      "fr": "Excursion d'une journée à Marbella et Mijas avec Puerto Banús et Benalmádena",
+      "sv": "Dagstur till Marbella och Mijas samt Puerto Banús och Benalmadena",
+      "no": "Dagstur til Marbella og Mijas, samt Puerto Banus og Benalmadena",
+      "da": "Marbella og Mijas Dagstur samt Puerto Banús og Benalmádena",
+      "fi": "Marbella ja Mijas -päiväretki sekä Puerto Banus ja Benalmadena"
     }
   }
 }

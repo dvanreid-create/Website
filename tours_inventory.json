@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-07",
-  "count": 103,
+  "generated": "2026-10-08",
+  "count": 105,
   "items": [
     {
       "sku": "194665",
@@ -368,6 +368,20 @@
       "d": "Disfruta de una búsqueda del tesoro autoguiada de 2 horas especial para parejas. ¡Consigue ya tus entradas!"
     },
     {
+      "sku": "788820",
+      "n": "Digger",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €7",
+      "img": "aab3f146-be58-11f1-ab9e-3ea664810669.jpg",
+      "url": "https://feverup.com/m/788820/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788820&u=https%3A%2F%2Ffeverup.com%2Fm%2F788820&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
       "sku": "141792",
       "n": "Doña Felisa Winery: Guided tour and wine tasting or lunch",
       "c": "tours",
@@ -396,6 +410,34 @@
       "d": "Enjoy Edgar Allan Poe’s works, brought to life by expert historians and paired with themed cocktails in Málaga. Get your tickets now!"
     },
     {
+      "sku": "793055",
+      "n": "Entradas Los 40: con lo que yo he sido - Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "86f5b170-c1cf-11f1-9c03-aaaf353bf8b9.jpg",
+      "url": "https://feverup.com/m/793055/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793055&u=https%3A%2F%2Ffeverup.com%2Fm%2F793055&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Un divertido monólogo de Patxi Zubeldia. ¡Consigue ya tus entradas!"
+    },
+    {
+      "sku": "793049",
+      "n": "Entradas ¡Todos Locos! - Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "ed586e42-c1c7-11f1-85e4-b6ef12171a1b.jpg",
+      "url": "https://feverup.com/m/793049/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793049&u=https%3A%2F%2Ffeverup.com%2Fm%2F793049&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Jorge Santos comparte sus propias experiencias y anécdotas, mezclando humor escatológico y subido de tono. ¡Consigue ya tus entradas!"
+    },
+    {
       "sku": "655977",
       "n": "Escape Challenge Malaga",
       "c": "tours",
@@ -408,20 +450,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=655977&u=https%3A%2F%2Ffeverup.com%2Fm%2F655977&intsrc=CATF_15532",
       "feat": 0,
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
-    },
-    {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
     },
     {
       "sku": "92887",
@@ -492,6 +520,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -590,6 +632,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141843&u=https%3A%2F%2Ffeverup.com%2Fm%2F141843&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Immerse yourself in the fascinating world of olive oil in the world capital of liquid gold! Get your tickets!"
+    },
+    {
+      "sku": "788822",
+      "n": "Other Mommy",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €7",
+      "img": "b509b0a4-be58-11f1-a141-e200d4fefdaa.jpg",
+      "url": "https://feverup.com/m/788822/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788822&u=https%3A%2F%2Ffeverup.com%2Fm%2F788822&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
     },
     {
       "sku": "141797",
@@ -1318,34 +1374,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=324006&u=https%3A%2F%2Ffeverup.com%2Fm%2F324006&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
-    },
-    {
-      "sku": "788820",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "aab3f146-be58-11f1-ab9e-3ea664810669.jpg",
-      "url": "https://feverup.com/m/788820/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788820&u=https%3A%2F%2Ffeverup.com%2Fm%2F788820&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "788822",
-      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN",
-      "c": "cinema",
-      "cat": "Cinema",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "b509b0a4-be58-11f1-a141-e200d4fefdaa.jpg",
-      "url": "https://feverup.com/m/788822/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788822&u=https%3A%2F%2Ffeverup.com%2Fm%2F788822&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
     },
     {
       "sku": "752414",
