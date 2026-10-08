@@ -3,6 +3,12 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "bustamante feria del rosario",
+   "venue": "palacio de la paz",
+   "date": "2026-10-09",
+   "why": "DUPLICATE WITH A WRONG LINK - removed 2026-10-08 (Sofia). The sweep row 'David Bustamante - Feria del Rosario' (9 Oct, Palacio de la Paz, Fuengirola) shows Agotado / 'Consultar sala' with a bad link. The real show is the curated Featured tile 'David Bustamante' (SecuTix, from 10 EUR). Date-scoped; the curated tile is not a calendar row and is untouched."
+  },
+  {
    "match": "peste en malaga",
    "why": "THEATRE, NOT MUSIC - removed 2026-10-08 (Sofia: 'this is teatro, not supposed to be on Featured'). 'La Peste en Málaga - Visita teatralizada' (Historia Viva Málaga, Fever, a theatrical walking tour). All dates."
   },
