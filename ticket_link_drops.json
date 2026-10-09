@@ -1,11 +1,9 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "drops": {
-  "Queen Forever Tribute — We Will Rock You Tour 2026": "CANNOT_FIX — no verifiable buy page (candidate rejected (WRONG_EVENT: page 'Comprar entradas SERVICIOS ESPECIALIZADOS EN DISTRIBUCI&Oacu' has none of ['queen', ",
-  "Míniver": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Leyendas del Pop — ABBA & Bee Gees Tribute Show": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Malafé + Corazón Inverso": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Malafé + Corazón Inverso\\nVenue: Sala Marte\\nDate: 2026-10-30\\nRegion: Mál",
-  "Clarent": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
+  "Love to Sing Choir — Concierto Benéfico": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Marta Sánchez — Gira 40 Años — Feria del Rosario": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benjamín Levy — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benj"
  }
 }
