@@ -3,6 +3,11 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "bustamante",
+   "date": "2026-10-09",
+   "why": "REMOVED FROM THE SITE 2026-10-09 (Sofia: 'remove bustamante from the site'). David Bustamante, Fri 9 Oct, Palacio de la Paz (Fuengirola): sold out (only a wheelchair-companion seat left, see SOLD_OUT), non-commissionable town-hall seller. Blocks every calendar row for that date, any spelling ('David Bustamante en Fuengirola', 'David Bustamante - Feria del Rosario'); the Featured tile is expired in build_site.py. This deliberately overrides the 2026-09-13 'list sold-out shows' rule at Sofia's explicit request. The show is tonight, so it would have dropped by itself tomorrow."
+  },
+  {
    "match": "dromedaries magicos",
    "date": "2026-11-06",
    "why": "DUPLICATE - removed 2026-10-08 (Sofia). The Fever scraper added 'Dromedaries Mágicos in Malaga' (6 Nov, The Club) with the blurb 'en directo en The Club, entradas a través de Fever', which names the seller and could send buyers away. The curated row 'Dromedarios Mágicos en Málaga' (build_site.py _viva_rows, same Fever sku 742552) stays. Date-scoped; different spelling (ies vs ios) so it does not touch the curated row."
