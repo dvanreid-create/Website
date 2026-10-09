@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-08",
-  "count": 105,
+  "generated": "2026-10-09",
+  "count": 104,
   "items": [
     {
       "sku": "194665",
@@ -142,6 +142,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141812&u=https%3A%2F%2Ffeverup.com%2Fm%2F141812&intsrc=CATF_15532",
       "feat": 0,
       "d": "Experience the passion of flamenco in the heart of Seville! Get your tickets now!"
+    },
+    {
+      "sku": "793049",
+      "n": "All Crazy! - Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "ed586e42-c1c7-11f1-85e4-b6ef12171a1b.jpg",
+      "url": "https://feverup.com/m/793049/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793049&u=https%3A%2F%2Ffeverup.com%2Fm%2F793049&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "All Crazy! in Malaga"
     },
     {
       "sku": "676381",
@@ -327,17 +341,17 @@
     },
     {
       "sku": "534149",
-      "n": "Creative Ceramics at Bspark Málaga",
+      "n": "Creative Ceramics! - Malaga",
       "c": "tours",
       "cat": "Experience",
       "v": "",
       "area": "Málaga",
       "p": "See price",
-      "img": "c4ba4792-e0ec-11f0-abd6-f6413b2a7a11.png",
+      "img": "a228f43d-3906-46d0-b2f3-37e5fbf6a2cd.png",
       "url": "https://feverup.com/m/534149/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=534149&u=https%3A%2F%2Ffeverup.com%2Fm%2F534149&intsrc=CATF_15532",
       "feat": 0,
-      "d": "A guided pottery session in Málaga where you can create your own piece from scratch, with unlimited wine, clay included and no prior experience required. Get your tickets now!"
+      "d": "⭐ Between clay, wine and a break, Creative Ceramics turns a guided session into a slow, tactile, make-it-yourself gesture. Highlights 🎨 Guided CREATIVE CERAMICS!! session to shape clay from scratch 🍷 Enjoy unlimited wine while exploring shapes, textures and calm 👐 Create your own piece with 250 g"
     },
     {
       "sku": "388878",
@@ -408,34 +422,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=720957&u=https%3A%2F%2Ffeverup.com%2Fm%2F720957&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy Edgar Allan Poe’s works, brought to life by expert historians and paired with themed cocktails in Málaga. Get your tickets now!"
-    },
-    {
-      "sku": "793055",
-      "n": "Entradas Los 40: con lo que yo he sido - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "86f5b170-c1cf-11f1-9c03-aaaf353bf8b9.jpg",
-      "url": "https://feverup.com/m/793055/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793055&u=https%3A%2F%2Ffeverup.com%2Fm%2F793055&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Un divertido monólogo de Patxi Zubeldia. ¡Consigue ya tus entradas!"
-    },
-    {
-      "sku": "793049",
-      "n": "Entradas ¡Todos Locos! - Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "ed586e42-c1c7-11f1-85e4-b6ef12171a1b.jpg",
-      "url": "https://feverup.com/m/793049/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793049&u=https%3A%2F%2Ffeverup.com%2Fm%2F793049&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Jorge Santos comparte sus propias experiencias y anécdotas, mezclando humor escatológico y subido de tono. ¡Consigue ya tus entradas!"
     },
     {
       "sku": "655977",
@@ -732,6 +718,20 @@
       "d": "Enjoy a wine and food pairing tasting in Cordoba with 4 wines and 4 selected tapas. Buy your ticket now and live a unique experience at VinumPlay."
     },
     {
+      "sku": "793055",
+      "n": "The 40: with what I have been - Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "86f5b170-c1cf-11f1-9c03-aaaf353bf8b9.jpg",
+      "url": "https://feverup.com/m/793055/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793055&u=https%3A%2F%2Ffeverup.com%2Fm%2F793055&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "A Funny Monologue by Patxi Zubeldia. Get Your Tickets Now!"
+    },
+    {
       "sku": "545294",
       "n": "The Flamenco Theater in Malaga: Live the Flamenco Experience - Malaga",
       "c": "tours",
@@ -786,20 +786,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=328893&u=https%3A%2F%2Ffeverup.com%2Fm%2F328893&intsrc=CATF_15532",
       "feat": 0,
       "d": "The Disco Tour is the most fun activity to do in Malaga with your friends, either for a bachelor party, birthday or any special celebration. For one hour, you will all have wireless headphones and enjoy the best songs of the moment, accompanied by an entertainer just for your group. You will walk th"
-    },
-    {
-      "sku": "643664",
-      "n": "Tickets for the K",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "fb71bb5c-1095-11f1-a401-c285eb4650e2.jpeg",
-      "url": "https://feverup.com/m/643664/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643664&u=https%3A%2F%2Ffeverup.com%2Fm%2F643664&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "LA K"
     },
     {
       "sku": "587444",

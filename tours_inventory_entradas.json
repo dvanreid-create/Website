@@ -1,6 +1,6 @@
 {
- "count": 15,
- "generated": "2026-10-08T04:03:08Z",
+ "count": 16,
+ "generated": "2026-10-09T04:03:09Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -26,10 +26,26 @@
    "v": "Estatua del Cardenal Herrera Oria · Málaga",
    "area": "Málaga",
    "p": "From €16.83",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/evo/artwork/2025/LeyendasMisterios_1240x480.jpg",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2025/LEYYMIS_222x222.jpg",
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fleyendas-y-misterios%2F",
    "url": "https://www.entradas.com/en/artist/leyendas-y-misterios/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-andalusian-night",
+   "n": "Andalusian Night",
+   "c": "immersive",
+   "cat": "Show",
+   "v": "Torremolinos",
+   "area": "Torremolinos",
+   "p": "From €75",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Teatro_Cervantes_M%C3%A1laga.jpg/960px-Teatro_Cervantes_M%C3%A1laga.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fandalusian-night%2F",
+   "url": "https://www.entradas.com/en/artist/andalusian-night/",
    "rating": 0,
    "nrev": 0,
    "idx": 1

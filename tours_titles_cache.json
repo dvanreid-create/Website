@@ -1378,16 +1378,16 @@
     }
   },
   "viator:5624152P3": {
-    "h": "4a02f34dbab9895bb57aed34c2b93904",
+    "h": "c6cdcdb8ec8db4774de5b20ffa271722",
     "names": {
-      "en": "Cathedral Malaga : Ticket + Self-Guided Tour created by Official Guide",
-      "es": "Catedral de Malaga: entrada + visita autoguiada creada por guía oficial",
-      "de": "Kathedrale von Malaga: Ticket + selbstgeführte Tour von offiziellem Guide erstellt",
-      "fr": "Cathédrale de Malaga : billet + visite autoguidée créée par un guide officiel",
-      "sv": "Katedralen i Malaga: Biljett + självguidad tur skapad av officiell guide",
-      "no": "Katedralen i Malaga: billett + selvguidet tur laget av offisiell guide",
-      "da": "Malaga katedral: Billet + selvguidet tur udarbejdet af officiel guide",
-      "fi": "Malagan katedraali: lippu + itseopastettu kierros virallisen oppaan laatimana"
+      "en": "Málaga Cathedral: Ticket without queues or groups + Self-guided Tour",
+      "es": "Catedral de Málaga: Entrada sin colas ni grupos + Tour autoguiado",
+      "de": "Kathedrale von Málaga: Ticket ohne Warteschlangen oder Gruppen + Selbstgeführte Tour",
+      "fr": "Cathédrale de Malaga : billet sans file d'attente ni groupes + visite autoguidée",
+      "sv": "Malagas katedral: Biljett utan köer eller grupper + Självguidad tur",
+      "no": "Malaga katedral: Billett uten kø eller grupper + selvguidet tur",
+      "da": "Malaga Katedral: Billet uden kø eller grupper + Selvguidet tur",
+      "fi": "Malagan katedraali: Lippu ilman jonoja tai ryhmiä + itseopastettu kierros"
     }
   },
   "viator:2140JTCDS04": {
@@ -5681,16 +5681,16 @@
     }
   },
   "viator:5624152P2": {
-    "h": "d12c7d9be82c21b27df16a7ca1c43a80",
+    "h": "5c99b967174514b0c120ffe847e1c720",
     "names": {
-      "en": "Alcazaba Málaga : Ticket + Self-Guided Tour created by Guía Oficial",
-      "es": "Alcazaba Málaga: Entrada + Tour Autoguiado creado por Guía Oficial",
-      "de": "Alcazaba Málaga: Ticket + selbstgeführte Tour, erstellt von einem offiziellen Guide",
-      "fr": "Alcazaba de Malaga : billet + visite en autonomie créée par un Guide Officiel",
-      "sv": "Alcazaba Málaga: biljett + självguidad tur skapad av officiell guide",
-      "no": "Alcazaba Málaga: billett + selvguidet tur laget av offisiell guide",
-      "da": "Alcazaba Málaga: billet + selvguidet tur skabt af Guía Oficial",
-      "fi": "Alcazaba Malaga: lippu + omatoiminen kierros, luonut Guía Oficial"
+      "en": "Alcazaba of Malaga: Ticket without queues or groups + Self-guided Tour",
+      "es": "Alcazaba de Málaga: Entrada sin colas ni grupos + Tour autoguiado",
+      "de": "Alcazaba von Malaga: Ticket ohne Warteschlangen oder Gruppen + Selbstgeführte Tour",
+      "fr": "Alcazaba de Malaga : billet sans file d'attente ni groupes + visite autoguidée",
+      "sv": "Alcazaba i Malaga: Biljett utan köer eller grupper + Självguidad tur",
+      "no": "Alcazaba i Malaga: Billett uten kø eller grupper + selvguidet tur",
+      "da": "Alcazaba i Malaga: Billet uden kø eller grupper + Selvguidet tur",
+      "fi": "Malagan Alcazaba: Lippu ilman jonoja tai ryhmiä + itseopastettu kierros"
     }
   },
   "viator:320728P1747": {
@@ -15600,16 +15600,16 @@
     }
   },
   "viator:5624152P29": {
-    "h": "8842b7a5e895ea7fded4de114cbb7ab1",
+    "h": "bfb6c33abed4daf59ccdf80a2d904c7a",
     "names": {
-      "en": "Gibralfaro Castle: Ticket and Self-Guided Tour created by Guide",
-      "es": "Castillo de Gibralfaro: Entrada y Visita Autoguiada creada por Guide",
-      "de": "Burg Gibralfaro: Ticket und selbstgeführte Tour",
-      "fr": "Château de Gibralfaro : billet et visite autoguidée créée par un guide",
-      "sv": "Gibralfaro-slottet: Biljett och egenguidad rundtur skapad av Guide",
-      "no": "Gibralfaro-slottet: Billett og selvguidet omvisning laget av guide",
-      "da": "Gibralfaro Slot: Billet og Selvguidet Tur skabt af Guide",
-      "fi": "Gibralfaron linna: Lippu ja itseohjattu opastettu kierros"
+      "en": "Gibralfaro Castle of Malaga: Skip-the-line Ticket + Self-guided Tour",
+      "es": "Castillo de Gibralfaro de Málaga: Entrada sin colas + Tour autoguiado",
+      "de": "Gibralfaro-Burg von Malaga: Ticket ohne Anstehen + Selbstgeführte Tour",
+      "fr": "Château de Gibralfaro de Malaga : billet coupe-file + visite autoguidée",
+      "sv": "Gibralfaroslottet i Malaga: Hoppa över kön-biljett + Självguidad tur",
+      "no": "Gibralfaro-slottet i Malaga: Billett uten kø + selvguidet tur",
+      "da": "Gibralfaro-borgen i Malaga: Billet uden kø + Selvguidet tur",
+      "fi": "Malagan Gibralfaron linna: Jonon ohittava lippu + itseopastettu kierros"
     }
   },
   "viator:350808P3462": {
@@ -18434,16 +18434,16 @@
     }
   },
   "534149": {
-    "h": "94945fbcaee35d86180d9e04383c5fdc",
+    "h": "e637e2a00bfa7cb957c4b883dd6347e2",
     "names": {
-      "en": "Creative Ceramics at Bspark Málaga",
-      "es": "Cerámica Creativa en Bspark Málaga",
-      "de": "Kreative Keramik im Bspark Málaga",
-      "fr": "Céramique créative chez Bspark Malaga",
-      "sv": "Kreativ keramik på Bspark Málaga",
-      "no": "Kreativ keramikk hos Bspark Malaga",
-      "da": "Kreativ keramik hos Bspark Málaga",
-      "fi": "Luova keramiikka Bspark Málagassa"
+      "en": "Creative Ceramics! - Malaga",
+      "es": "¡Cerámica creativa! - Málaga",
+      "de": "Kreative Keramik! - Malaga",
+      "fr": "Céramique créative ! - Malaga",
+      "sv": "Creative Ceramics! - Malaga",
+      "no": "Kreativ keramikk! - Malaga",
+      "da": "Kreativ keramik! - Malaga",
+      "fi": "Luovaa keramiikkaa! - Malaga"
     }
   },
   "739246": {
@@ -22334,29 +22334,29 @@
     }
   },
   "793055": {
-    "h": "27be251c4016c17714413aa66f10e334",
+    "h": "13a067dbde1f727b13313f8273bdc4e4",
     "names": {
-      "en": "Entradas Los 40: con lo que yo he sido - Málaga",
-      "es": "Entradas Los 40: con lo que yo he sido - Málaga",
-      "de": "Tickets Los 40: con lo que yo he sido - Málaga",
-      "fr": "Billets Los 40 : avec ce que j'ai été - Malaga",
-      "sv": "Biljetter Los 40: con lo que yo he sido - Málaga",
-      "no": "Billetter Los 40: con lo que yo he sido - Málaga",
-      "da": "Billetter Los 40: con lo que yo he sido - Málaga",
-      "fi": "Liput Los 40: con lo que yo he sido - Málaga"
+      "en": "The 40: with what I have been - Malaga",
+      "es": "Los 40: con lo que he tenido - Málaga",
+      "de": "Die 40: mit dem, was ich gewesen bin - Malaga",
+      "fr": "Les 40 : avec ce que j'ai eu - Malaga",
+      "sv": "The 40: med vad jag haft med mig - Malaga",
+      "no": "De 40: med det jeg har vært - Malaga",
+      "da": "De 40: med det jeg har været - Malaga",
+      "fi": "40: sillä, mitä olen ollut - Malaga"
     }
   },
   "793049": {
-    "h": "d750020549867cee136b6223377fa5ea",
+    "h": "cf6077f2cfdda0b159180be09b0d11c4",
     "names": {
-      "en": "Entradas ¡Todos Locos! - Málaga",
-      "es": "Entradas ¡Todos Locos! - Málaga",
-      "de": "Tickets ¡Todos Locos! - Málaga",
-      "fr": "Billets Tous Fous ! - Malaga",
-      "sv": "Biljetter ¡Todos Locos! - Málaga",
-      "no": "Billetter ¡Todos Locos! - Málaga",
-      "da": "Billetter ¡Todos Locos! - Málaga",
-      "fi": "Liput ¡Todos Locos! - Málaga"
+      "en": "All Crazy! - Malaga",
+      "es": "¡Todos locos! - Málaga",
+      "de": "Alles verrückt! - Malaga",
+      "fr": "Tout fou ! - Malaga",
+      "sv": "All Crazy! - Malaga",
+      "no": "All Crazy! - Malaga",
+      "da": "Helt skørt! - Malaga",
+      "fi": "Täysin hullua! - Malaga"
     }
   },
   "viator:420897P2": {
@@ -22383,6 +22383,19 @@
       "no": "Dagstur til Marbella og Mijas, samt Puerto Banus og Benalmadena",
       "da": "Marbella og Mijas Dagstur samt Puerto Banús og Benalmádena",
       "fi": "Marbella ja Mijas -päiväretki sekä Puerto Banus ja Benalmadena"
+    }
+  },
+  "viator:332541P529": {
+    "h": "c0024718ea7876ad4d9cf4e9e52ec547",
+    "names": {
+      "en": "Malaga Old Town Private Tour with Sightseeing Cruise Tickets",
+      "es": "Tour privado por el casco antiguo de Málaga con entradas a crucero turístico",
+      "de": "Private Altstadt-Tour durch Malaga mit Sightseeing-Kreuzfahrt-Tickets",
+      "fr": "Visite privée de la vieille ville de Malaga avec billets de croisière touristique",
+      "sv": "Privat rundtur i Malagas gamla stad med biljetter till sightseeingkryssning",
+      "no": "Privat tur i Malagas gamle bydel med billetter til sightseeingcruise",
+      "da": "Privat rundtur i Malagas gamle bydel med billetter til sightseeingkrydstogt",
+      "fi": "Malagan vanhan kaupungin yksityiskierros ja nähtävyysristeilyn liput"
     }
   }
 }
