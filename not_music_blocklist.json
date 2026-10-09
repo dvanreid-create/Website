@@ -3,6 +3,11 @@
  "generated": "2026-09-14",
  "blocked": [
   {
+   "match": "dromedaries magicos",
+   "date": "2026-11-06",
+   "why": "DUPLICATE - removed 2026-10-08 (Sofia). The Fever scraper added 'Dromedaries Mágicos in Malaga' (6 Nov, The Club) with the blurb 'en directo en The Club, entradas a través de Fever', which names the seller and could send buyers away. The curated row 'Dromedarios Mágicos en Málaga' (build_site.py _viva_rows, same Fever sku 742552) stays. Date-scoped; different spelling (ies vs ios) so it does not touch the curated row."
+  },
+  {
    "match": "bustamante feria del rosario",
    "venue": "palacio de la paz",
    "date": "2026-10-09",
