@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-09",
-  "count": 104,
+  "generated": "2026-10-10",
+  "count": 105,
   "items": [
     {
       "sku": "194665",
@@ -276,7 +276,7 @@
       "cat": "Day Trip",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €32",
+      "p": "From €30",
       "img": "531fdf88-8430-11f1-b537-720cfdd8a8d0.jpeg",
       "url": "https://feverup.com/m/693797/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693797&u=https%3A%2F%2Ffeverup.com%2Fm%2F693797&intsrc=CATF_15532",
@@ -338,20 +338,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545186&u=https%3A%2F%2Ffeverup.com%2Fm%2F545186&intsrc=CATF_15532",
       "feat": 0,
       "d": "Uncover a deadly secret in this outdoor murder mystery sequel! Explore the city, solve puzzles and help Agent X catch the killer at your own pace - get your access now!"
-    },
-    {
-      "sku": "534149",
-      "n": "Creative Ceramics! - Malaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "a228f43d-3906-46d0-b2f3-37e5fbf6a2cd.png",
-      "url": "https://feverup.com/m/534149/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=534149&u=https%3A%2F%2Ffeverup.com%2Fm%2F534149&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "⭐ Between clay, wine and a break, Creative Ceramics turns a guided session into a slow, tactile, make-it-yourself gesture. Highlights 🎨 Guided CREATIVE CERAMICS!! session to shape clay from scratch 🍷 Enjoy unlimited wine while exploring shapes, textures and calm 👐 Create your own piece with 250 g"
     },
     {
       "sku": "388878",
@@ -436,6 +422,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=655977&u=https%3A%2F%2Ffeverup.com%2Fm%2F655977&intsrc=CATF_15532",
       "feat": 0,
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
+    },
+    {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
     },
     {
       "sku": "92887",
@@ -704,6 +704,20 @@
       "d": "Enjoy a sunset cruise and dinner in Malaga! Sail along the coast, watch the sunset and enjoy a delicious Mediterranean dinner - get your tickets now!"
     },
     {
+      "sku": "797014",
+      "n": "Taller de Joyas con Vino Ilimitado y Picoteo en Bspark Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €35",
+      "img": "8f04a89e-02ba-4522-b50e-72a4d554f3b1.png",
+      "url": "https://feverup.com/m/797014/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=797014&u=https%3A%2F%2Ffeverup.com%2Fm%2F797014&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Crea joyería personalizada con guía, vino y aperitivos en Bspark Málaga. Haz pulseras, collares y pendientes. ¡Consigue tus entradas ahora!"
+    },
+    {
       "sku": "593470",
       "n": "Tasting and Pairing in Cordoba: 4 Wines + 4 Tapas",
       "c": "tours",
@@ -758,20 +772,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=421698&u=https%3A%2F%2Ffeverup.com%2Fm%2F421698&intsrc=CATF_15532",
       "feat": 0,
       "d": "Experience The Plague in Malaga, a theatrical night tour that relives the Black Death with history and unique characters. Get your tickets now!"
-    },
-    {
-      "sku": "775051",
-      "n": "Tickets for *Heridas que bailan* - Málaga at La Escuela de Campanillas, Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "be81b1d4-b67b-11f1-850b-7e6ed141b7e3.jpg",
-      "url": "https://feverup.com/m/775051/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=775051&u=https%3A%2F%2Ffeverup.com%2Fm%2F775051&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Enjoy *Heridas que bailan - Málaga* at La Escuela de Campanillas in Málaga. Get your tickets now!"
     },
     {
       "sku": "328893",
@@ -1052,6 +1052,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy “An Idiot’s Guide to Wine” at the Hotel ILUNION Málaga! A fun stand-up comedy show paired with a tasting of six wines. Get your tickets today!"
+    },
+    {
+      "sku": "534149",
+      "n": "Create Your Own Piece: Creative Ceramic Experience with Unlimited Wine for 2.5hrs - Mal",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "a228f43d-3906-46d0-b2f3-37e5fbf6a2cd.png",
+      "url": "https://feverup.com/m/534149/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=534149&u=https%3A%2F%2Ffeverup.com%2Fm%2F534149&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Between clay, wine and a break, Creative Ceramics turns a guided session into a slow, tactile, make-it-yourself gesture. Highlights 🎨 Guided CREATIVE CERAMICS!! session to shape clay from scratch 🍷 Enjoy unlimited wine while exploring shapes, textures and calm 👐 Create your own piece with 250 g"
     },
     {
       "sku": "548572",

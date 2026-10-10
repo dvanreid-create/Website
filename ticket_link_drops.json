@@ -1,9 +1,8 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-09",
+ "generated": "2026-10-10",
  "drops": {
-  "Love to Sing Choir — Concierto Benéfico": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Marta Sánchez — Gira 40 Años — Feria del Rosario": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benjamín Levy — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benj"
+  "Remember House": "CANNOT_FIX — no verifiable buy page (candidate rejected (UNVERIFIED: host blocks bots and no matching browser-verified URL))",
+  "Heat: Remember Fantasy (Flúor Edition)": "CANNOT_FIX — no verifiable buy page (candidate rejected (UNVERIFIED: host blocks bots and no matching browser-verified URL))"
  }
 }

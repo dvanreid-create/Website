@@ -18434,16 +18434,16 @@
     }
   },
   "534149": {
-    "h": "e637e2a00bfa7cb957c4b883dd6347e2",
+    "h": "a2fa9b27ab96a047acadaf0f02663182",
     "names": {
-      "en": "Creative Ceramics! - Malaga",
-      "es": "¡Cerámica creativa! - Málaga",
-      "de": "Kreative Keramik! - Malaga",
-      "fr": "Céramique créative ! - Malaga",
-      "sv": "Creative Ceramics! - Malaga",
-      "no": "Kreativ keramikk! - Malaga",
-      "da": "Kreativ keramik! - Malaga",
-      "fi": "Luovaa keramiikkaa! - Malaga"
+      "en": "Create Your Own Piece: Creative Ceramic Experience with Unlimited Wine for 2.5hrs - Mal",
+      "es": "Crea tu Propia Pieza: Experiencia Creativa de Cerámica con Vino Ilimitado durante 2,5 horas - Málaga",
+      "de": "Gestalte dein eigenes Stück: Kreatives Keramikerlebnis mit unbegrenztem Wein für 2,5 Stunden - Malaga",
+      "fr": "Créez Votre Propre Pièce : Expérience Céramique Créative avec Vin à Volonté pendant 2h30 - Malaga",
+      "sv": "Skapa Din Egen Keramikskapelse: Kreativ Keramikupplevelse med Obegränsat Vin i 2,5 timmar - Mal",
+      "no": "Lag Ditt Eget Stykke: Kreativ Keramikkopplevelse med Ubegrenset Vin i 2,5 Timer - Málaga",
+      "da": "Skab dit eget stykke: Kreativ keramikoplevelse med fri vin i 2,5 timer - Málaga",
+      "fi": "Luo oma koru: Luova keramiikkaelämys rajattomalla viinillä, 2,5 tuntia - Mal"
     }
   },
   "739246": {
@@ -22396,6 +22396,32 @@
       "no": "Privat tur i Malagas gamle bydel med billetter til sightseeingcruise",
       "da": "Privat rundtur i Malagas gamle bydel med billetter til sightseeingkrydstogt",
       "fi": "Malagan vanhan kaupungin yksityiskierros ja nähtävyysristeilyn liput"
+    }
+  },
+  "797014": {
+    "h": "ff61f13e94312035ec0d9450c272481a",
+    "names": {
+      "en": "Taller de Joyas con Vino Ilimitado y Picoteo en Bspark Málaga",
+      "es": "Taller de Joyas con Vino Ilimitado y Picoteo en Bspark Málaga",
+      "de": "Schmuck-Workshop mit unbegrenztem Wein und Häppchen bei Bspark Málaga",
+      "fr": "Atelier de Bijoux avec Vin à Volonté et Tapas à Bspark Málaga",
+      "sv": "Smyckesworkshop med Obegränsat Vin och Tilltugg på Bspark Málaga",
+      "no": "Smykkeverksted med Ubegrenset Vin og Snacks i Bspark Málaga",
+      "da": "Smykkeværksted med fri vin og snacks hos Bspark Málaga",
+      "fi": "Koruntekopaja Rajattomalla Viinillä ja Pientä Purtavaa Bspark Málagassa"
+    }
+  },
+  "viator:374880P19": {
+    "h": "a6dc1e5d012fb9797fab21e91c3374ab",
+    "names": {
+      "en": "Private Boat in Malaga Up to 50 People with 2 XXL Slides",
+      "es": "Barco Privado en Málaga para Hasta 50 Personas con 2 Toboganes XXL",
+      "de": "Privatboot in Malaga für bis zu 50 Personen mit 2 XXL-Rutschen",
+      "fr": "Bateau Privé à Malaga Jusqu'à 50 Personnes avec 2 Toboggans XXL",
+      "sv": "Privat Båt i Málaga för Upp till 50 Personer med 2 XXL-Rutschkanor",
+      "no": "Privat Båt i Málaga for Opptil 50 Personer med 2 XXL-Sklier",
+      "da": "Privat bådtur i Málaga op til 50 personer med 2 XXL-rutsjebaner",
+      "fi": "Yksityinen vene Malagassa jopa 50 hengelle ja 2 XXL-liukumäellä"
     }
   }
 }
