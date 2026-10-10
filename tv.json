@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "David Bustamante",
-      "yt": "DDR8zn-pNUU",
-      "where": "09 Oct · Palacio de la Paz, Fuengirola"
-    },
-    {
-      "act": "La Kermesse",
-      "yt": "0-TR_7Yq2s0",
-      "where": "09 Oct · Sala La Trinchera, Málaga"
-    },
-    {
       "act": "OBK",
       "yt": "Sbb55K8Nvp8",
       "where": "10 Oct · Teatro Cervantes, Málaga"
@@ -21,46 +11,60 @@
       "where": "10 Oct · Auditorio Cortijo de Torres, Málaga"
     },
     {
-      "act": "Antonio José",
-      "yt": "4XuUI9DzINY",
-      "where": "10 Oct · Palacio de la Paz, Fuengirola"
-    },
-    {
       "act": "Then Jerico",
       "yt": "TYbt4rjdTZk",
       "where": "10 Oct · Sala Roka, Málaga"
     },
     {
+      "act": "Rafa Pons",
+      "yt": "KFI7Hv4T_-o",
+      "where": "10 Oct · La Garrapata, Málaga"
+    },
+    {
+      "act": "Mario Díaz",
+      "yt": "KYPwlP2rtkQ",
+      "where": "10 Oct · La Cochera Cabaret, Málaga"
+    },
+    {
       "act": "Malú",
       "yt": "z-OpYWFgomw",
       "where": "11 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Binomio de Oro",
+      "yt": "hBftAxR5VSQ",
+      "where": "11 Oct · Sala París 15, Málaga"
+    },
+    {
+      "act": "Arcadi Volodos",
+      "yt": "aDS3X-yiKV8",
+      "where": "12 Oct · Teatro Cervantes, Málaga"
     }
   ],
   "thumbs": {
-    "Candlelight — Queen vs. ABBA": "xFrGuyw1V8s",
-    "Candlelight: Coldplay and Imagine Dragons": "dvgZkm1xWPE",
-    "Candlelight: Queen vs. ABBA": "-tJYN-eG1zk",
+    "Candlelight: Coldplay and Imagine Dragons": "WgzS-a0KNpM",
+    "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
     "Santi Muk in Malaga": "kjLKRnnIOBY",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
-    "The Jazz Room Málaga: Tribute to Sinatra & Armstrong": "JYuyWrkwpok",
-    "Candlelight: Tribute to Queen": "5fJnbpt_0e4",
-    "Candlelight: Coldplay vs. Ed Sheeran": "JGwWNGJdvx8",
+    "The Jazz Room Málaga: Tribute to Sinatra & Armstrong": "EEjq8ZoyXuQ",
+    "Candlelight: Tribute to Queen": "HgzGwKwLmgM",
+    "Candlelight: Coldplay vs. Ed Sheeran": "dvgZkm1xWPE",
     "Candlelight: Tribute to Ludovico Einaudi": "CQ8zglIXZi8",
-    "Candlelight: Michael Jackson": "9GFCdQrec8M",
-    "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "O9wjmEhMKFw",
-    "Candlelight: Tribute to Adele": "rYEDA3JcQqw",
-    "Dromedaries Mágicos in Malaga": "UEd_6XIz44k",
-    "Candlelight — The Best of Hans Zimmer (Premium)": "JuSsvM8B4Jc",
-    "Candlelight — Tribute to Michael Jackson (Premium)": "Zi_XLOBDo_Y",
-    "Candlelight: Tribute to La Ley Innata": "1D3tSv9LQlE",
-    "Candlelight: Tribute to Mecano": "7WCGu9FEjZk",
-    "Chiquita Movida in Malaga": "PTNTwTHxXdY",
-    "Candlelight: Tribute to Joan Manuel Serrat": "7JJByYw9pe0",
-    "Candlelight — Tribute to Hans Zimmer": "n1KyvyrTWiM",
-    "Candlelight — Tribute to Phil Collins (Premium)": "m_D0YgcC5hI",
-    "Candlelight — Tribute to Mecano (Premium)": "_mAmEKNqg1g",
-    "CATUPECU MACHU in MÁLAGA (LA TRINCHERA)": "oIGhYj_A7U8",
-    "Candlelight: Tribute to Leiva": "oMLY-78sKjk",
+    "Candlelight: Michael Jackson": "sOnqjkJTMaA",
+    "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "1e9B31FLT-s",
+    "Candlelight: Tribute to Adele": "ovZ5s0DOLFc",
+    "Dromedaries Mágicos in Malaga": "sMhpWf54lPU",
+    "Candlelight — The Best of Hans Zimmer (Premium)": "kpK4cDk2bRs",
+    "Candlelight — Tribute to Michael Jackson (Premium)": "rSw2Ywjce0M",
+    "Candlelight: Tribute to La Ley Innata": "QB5-_Y57WYI",
+    "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
+    "Chiquita Movida in Malaga": "EJtL0xyhyDI",
+    "Candlelight: Tribute to Joan Manuel Serrat": "vQ7Kis8k2zM",
+    "Candlelight — Tribute to Hans Zimmer": "hMQ7VhcCpuY",
+    "Candlelight — Tribute to Phil Collins (Premium)": "YkADj0TPrJA",
+    "Candlelight — Tribute to Mecano (Premium)": "7WCGu9FEjZk",
+    "Catupecu Machu": "nSJy7uPNBe0",
+    "Candlelight: Tribute to Leiva": "1Iwlkb5yM7g",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
     "Miguel Ríos": "Rm-yZGvcf2U",
