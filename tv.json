@@ -1,31 +1,6 @@
 {
   "clips": [
     {
-      "act": "OBK",
-      "yt": "Sbb55K8Nvp8",
-      "where": "10 Oct · Teatro Cervantes, Málaga"
-    },
-    {
-      "act": "Joseph Capriati",
-      "yt": "-60AWzV3xaI",
-      "where": "10 Oct · Auditorio Cortijo de Torres, Málaga"
-    },
-    {
-      "act": "Then Jerico",
-      "yt": "TYbt4rjdTZk",
-      "where": "10 Oct · Sala Roka, Málaga"
-    },
-    {
-      "act": "Rafa Pons",
-      "yt": "KFI7Hv4T_-o",
-      "where": "10 Oct · La Garrapata, Málaga"
-    },
-    {
-      "act": "Mario Díaz",
-      "yt": "KYPwlP2rtkQ",
-      "where": "10 Oct · La Cochera Cabaret, Málaga"
-    },
-    {
       "act": "Malú",
       "yt": "z-OpYWFgomw",
       "where": "11 Oct · Teatro Cervantes, Málaga"
@@ -39,10 +14,34 @@
       "act": "Arcadi Volodos",
       "yt": "aDS3X-yiKV8",
       "where": "12 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Marta Sánchez",
+      "yt": "YpQzBACzmhQ",
+      "where": "12 Oct · Palacio de la Paz, Fuengirola"
+    },
+    {
+      "act": "Valeria Lynch",
+      "yt": "GQnD3DFTD3w",
+      "where": "13 Oct · Sala París 15, Málaga"
+    },
+    {
+      "act": "Farruquito",
+      "yt": "Q9xbrzfBT8o",
+      "where": "14 Oct · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Vivaldianno",
+      "yt": "vvLgFcrZK_E",
+      "where": "15 Oct · Teatro del Soho CaixaBank, Málaga"
+    },
+    {
+      "act": "Filarmónica de Málaga",
+      "yt": "inSSk4D2B8I",
+      "where": "16 Oct · Auditorio Edgar Neville, Málaga"
     }
   ],
   "thumbs": {
-    "Candlelight: Coldplay and Imagine Dragons": "WgzS-a0KNpM",
     "Candlelight: Queen vs. ABBA": "fJ9rUzIMcZQ",
     "Santi Muk in Malaga": "kjLKRnnIOBY",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
@@ -56,6 +55,7 @@
     "Dromedaries Mágicos in Malaga": "sMhpWf54lPU",
     "Candlelight — The Best of Hans Zimmer (Premium)": "kpK4cDk2bRs",
     "Candlelight — Tribute to Michael Jackson (Premium)": "rSw2Ywjce0M",
+    "Candlelight: Coldplay and Imagine Dragons": "WgzS-a0KNpM",
     "Candlelight: Tribute to La Ley Innata": "QB5-_Y57WYI",
     "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
     "Chiquita Movida in Malaga": "EJtL0xyhyDI",
