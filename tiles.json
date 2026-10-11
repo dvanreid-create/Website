@@ -377,10 +377,11 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
+   "photo": "/assets/tiles/ext-ba1d5690696d123c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -416,10 +417,11 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Collider Video · CC BY 3.0"
   },
   {
-   "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
+   "photo": "/assets/tiles/ext-ba1d5690696d123c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -455,7 +457,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Collider Video · CC BY 3.0"
   },
   {
    "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
@@ -494,7 +497,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-93a8727ea1ccba47.jpg",
@@ -533,7 +537,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
@@ -572,7 +577,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
@@ -611,12 +617,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-0b487477de664a2c.jpg",
+   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 12%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -650,7 +657,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
   },
   {
    "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
@@ -689,12 +697,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-b5d75d5c3e5bba91.jpg",
+   "photo": "/assets/tiles/ext-2c891d7019fa2c2c.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 22%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -728,10 +737,11 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Kristopher Harris · CC BY 2.0"
   },
   {
-   "photo": "/assets/tiles/ext-f8a96e4bdd82a58e.jpg",
+   "photo": "/assets/tiles/ext-ba1d5690696d123c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -767,12 +777,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Collider Video · CC BY 3.0"
   },
   {
-   "photo": "/assets/tiles/ext-a16ae38725eabc5f.jpg",
+   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 12%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -806,7 +817,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
   },
   {
    "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
@@ -845,7 +857,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-0bc5de741556b2fb.jpg",
@@ -884,7 +897,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
@@ -923,12 +937,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 18%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -962,7 +977,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-2cdeaa4bd1be6a45.jpg",
@@ -1001,7 +1017,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-18ead2011bb1ab60.jpg",
@@ -1040,12 +1057,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-8e9193f97ca9cafa.jpg",
+   "photo": "/assets/tiles/ext-2c891d7019fa2c2c.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 22%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -1079,7 +1097,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Kristopher Harris · CC BY 2.0"
   },
   {
    "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
@@ -1118,10 +1137,11 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-2bb67c6db64afdd0.jpg",
+   "photo": "/assets/tiles/ext-ba1d5690696d123c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -1157,12 +1177,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Collider Video · CC BY 3.0"
   },
   {
-   "photo": "/assets/tiles/ext-b60a5b2e36f94b0e.jpg",
+   "photo": "/assets/tiles/ext-8b98fd83f2cf7258.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 10%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -1196,7 +1217,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": "Photo: Raph_PH · CC BY 2.0"
   },
   {
    "photo": "/assets/tiles/ext-21e412af9cee9687.jpg",
@@ -1235,7 +1257,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-bdb6b1d9189c637e.jpg",
@@ -1274,7 +1297,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-2cdeaa4bd1be6a45.jpg",
@@ -1313,7 +1337,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
@@ -1352,12 +1377,13 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
+   "pos": "50% 18%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -1391,7 +1417,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
@@ -1430,7 +1457,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-4233d1414bb79aea.jpg",
@@ -1469,7 +1497,8 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   }
+   },
+   "credit": null
   }
  ],
  "info": [
