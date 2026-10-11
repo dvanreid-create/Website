@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-11",
+ "generated": "2026-10-12",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
    "venue": "Auditorio Municipal de Benalmádena",
-   "mapped_in_window": 4,
-   "matched": 4,
-   "calendar_in_window": 4,
+   "mapped_in_window": 3,
+   "matched": 3,
+   "calendar_in_window": 3,
    "latest_mapped": "2026-10-24",
    "always_on": true,
    "verdict": "ok"
@@ -58,18 +58,18 @@
   },
   "anantara villa padierna": {
    "venue": "Anantara Villa Padierna Palace Benahavís Marbella Resort",
-   "mapped_in_window": 1,
-   "matched": 1,
-   "calendar_in_window": 1,
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
    "latest_mapped": "2026-11-13",
    "always_on": false,
-   "verdict": "ok"
+   "verdict": "quiet"
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 21,
-   "matched": 21,
-   "calendar_in_window": 23,
+   "mapped_in_window": 20,
+   "matched": 20,
+   "calendar_in_window": 22,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -213,16 +213,16 @@
    "venue": "Málaga",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 19,
+   "calendar_in_window": 17,
    "latest_mapped": "2026-10-24",
    "always_on": false,
    "verdict": "ok"
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 34,
-   "matched": 34,
-   "calendar_in_window": 78,
+   "mapped_in_window": 31,
+   "matched": 31,
+   "calendar_in_window": 75,
    "latest_mapped": "2026-12-05",
    "always_on": false,
    "verdict": "ok"
