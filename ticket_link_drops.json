@@ -1,5 +1,7 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-12",
- "drops": {}
+ "generated": "2026-10-13",
+ "drops": {
+  "Orquesta Filarmónica de Málaga, José Carra Group & Arturo Serra, dir. Benjamín Levy — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
+ }
 }
