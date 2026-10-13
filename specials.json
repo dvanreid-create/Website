@@ -25,12 +25,6 @@
    "expires": "2027-01-23"
   },
   {
-   "label": "Arcadi Volodos",
-   "program": "box office",
-   "host": "unientradas.es/es/espectaculo/arcadi-volodos-en-concierto/26-27VolodosArca",
-   "expires": "2026-10-12"
-  },
-  {
    "label": "40 Festival Internacional de Jazz de Málaga",
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/40-jazz/40JAZZ",
@@ -41,12 +35,6 @@
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/victor-manuel/26-27ManuelVicto",
    "expires": "2026-11-15"
-  },
-  {
-   "label": "Marta Sánchez",
-   "program": "box office",
-   "host": "entradas.fuengirola.es/selection/event/date?productId=10229858097749",
-   "expires": "2026-10-12"
   }
  ]
 }

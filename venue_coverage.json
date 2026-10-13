@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -25,7 +25,7 @@
    "mapped_in_window": 0,
    "matched": 0,
    "calendar_in_window": 0,
-   "latest_mapped": "2027-08-22",
+   "latest_mapped": "2027-07-16",
    "always_on": false,
    "verdict": "quiet"
   },
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 20,
-   "matched": 20,
-   "calendar_in_window": 22,
+   "mapped_in_window": 19,
+   "matched": 19,
+   "calendar_in_window": 21,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -157,8 +157,8 @@
   },
   "trinchera": {
    "venue": "Sala La Trinchera",
-   "mapped_in_window": 1,
-   "matched": 1,
+   "mapped_in_window": 2,
+   "matched": 2,
    "calendar_in_window": 10,
    "latest_mapped": "2026-11-29",
    "always_on": true,
@@ -202,9 +202,9 @@
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 12,
-   "matched": 12,
-   "calendar_in_window": 14,
+   "mapped_in_window": 9,
+   "matched": 9,
+   "calendar_in_window": 15,
    "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "ok"
@@ -213,16 +213,16 @@
    "venue": "Málaga",
    "mapped_in_window": 2,
    "matched": 2,
-   "calendar_in_window": 17,
+   "calendar_in_window": 16,
    "latest_mapped": "2026-10-24",
    "always_on": false,
    "verdict": "ok"
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 31,
-   "matched": 31,
-   "calendar_in_window": 75,
+   "mapped_in_window": 27,
+   "matched": 27,
+   "calendar_in_window": 66,
    "latest_mapped": "2026-12-05",
    "always_on": false,
    "verdict": "ok"
