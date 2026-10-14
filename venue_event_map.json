@@ -1790,6 +1790,50 @@
      "genre": "Blues",
      "why": "ADDED 2026-10-14 (window slid past it; venue not on backfill WHITELIST). Browser-confirmed 2026-10-14: entradas.com event 22225453, 'Blues Brothers Tribute «Soul Mission» MÁLAGA 11/12/2026 20:00', FYCMA, JSON-LD EventScheduled, banner 'Muy popular / alta demanda'. Price 43,11 EUR = La Ganzua 'desde' (not read on the seller page). Commissioned (entradas.com via Awin 24761). Retire after 2026-12-11."
     },
+    "candlelight tribute hans zimmer 8 dic": {
+     "url": "https://feverup.com/m/155745",
+     "prefer": "map",
+     "date": "08/12/2026",
+     "time": "19:00",
+     "price": "Desde 17,00€",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Tribute to Hans Zimmer",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 08/12/2026 at 19:00 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-08."
+    },
+    "candlelight tribute joan manuel serrat 11 dic": {
+     "url": "https://feverup.com/m/129317",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "time": "17:45",
+     "price": "Desde 13,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Tribute to Joan Manuel Serrat",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 11/12/2026 at 17:45 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-11."
+    },
+    "candlelight queen abba 11 dic": {
+     "url": "https://feverup.com/m/555765",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "time": "19:45",
+     "price": "Desde 14,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Queen vs. ABBA",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 11/12/2026 at 19:45 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-11."
+    },
+    "candlelight tribute michael jackson thyssen 12 dic": {
+     "url": "https://feverup.com/m/753379",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "20:30",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Michael Jackson",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 12/12/2026 at 20:30 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-12."
+    },
     "tussiwarriors": {
      "url": "https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248",
      "prefer": "map",
