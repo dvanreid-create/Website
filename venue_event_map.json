@@ -1620,6 +1620,12 @@
      "price": "22 EUR",
      "venue_name": "Teatro Auditorio Felipe VI",
      "why": "ADDED 2026-10-07. Giglon page read in browser: Tributo a Mecano, Teatro Auditorio Felipe VI, Estepona, 17/10/2026 21:00, desde 22,00 EUR, Comprar live. Not the 28 Nov ESAD Malaga show (that one is ECI)."
+    },
+    "aidalai tributo mecano": {
+     "date": "28/11/2026",
+     "time": "20:30",
+     "venue_name": "Aidalai — Tributo a Mecano",
+     "why": "TIME-ONLY ENTRY, ADDED 2026-10-14 (Sofia). Aidalai, Tributo a Mecano, Sat 28 Nov 2026, Teatro ESAD, Málaga (ECI). The calendar row had no start time (ECI page says check calendar); 20:30 is the time on the show poster (Sofia 2026-10). This block is complete:false and not backfill-eligible, so it cannot inject a card; build_site's venue_time_override only stamps the time on the existing row with the exact date 2026-11-28. Retire after 2026-11-28."
     }
    }
   },
@@ -2432,7 +2438,8 @@
      "prefer": "map",
      "date": "31/10/2026",
      "venue": "Auditorio Municipal Cortijo de Torres",
-     "venue_name": "Vetusta Morla",
+     "venue_name": "Vetusta Morla — Gira de Vuelta, Canciones de Ida",
+     "time": "21:00",
      "genre": "Rock & Indie",
      "why": "VERIFIED 2026-09-15. Two independent sources agree: the VENUE's own page (malagadeporteyeventos.com/vetusta-morla/) states 'VETUSTA MORLA, 31 octubre 2026, Auditorio Municipal Cortijo de Torres, Organiza Riff Music' and points ticket sales at vetustamorla.com; the BAND's official tour page then lists 'Málaga, 31 octubre 2026' with an 'Entradas' link to my.weezevent.com/vetusta-morla-2026-malaga-auditorio-cortijo-de-torres. ON SALE, NOT SOLD OUT — the same page marks A Coruña 7 Nov and Madrid 20-21 Nov as 'Entradas agotadas' and Málaga is not among them, so the distinction is the band's own. WHY sweeplost AND NOT the 'cortijo de torres' block: that block is complete:false and is NOT in backfill_calendar's WHITELIST, so it can only UPGRADE a link the sweep already found — it injects nothing. This show is 31 Oct, i.e. outside the 30-day window until about 1 Oct, so the sweep has never had a chance at it and there is no way to know in advance whether it will catch it. For a band of this size that is the wrong thing to leave to chance. NO AFFILIATE: Weezevent is not one of our paying sellers and the band sells Málaga through it exclusively, so there is no commission to be had and no cheaper alternative to route to — stated here so nobody 'fixes' the link later. That also means it must NOT get a gutter tile under the 2026-09-15 no-affiliate rule; it is a calendar listing only."
     },
