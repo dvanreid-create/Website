@@ -1,6 +1,6 @@
 {
- "count": 16,
- "generated": "2026-10-13T04:02:42Z",
+ "count": 20,
+ "generated": "2026-10-14T04:02:39Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -14,6 +14,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcirco-quiros%2F",
    "url": "https://www.entradas.com/en/artist/circo-quiros/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-gran-circo-del-agua",
+   "n": "Gran Circo del Agua",
+   "c": "family",
+   "cat": "Family",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €15.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/grancircoagua_222x222_promoh30.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fgran-circo-del-agua%2F",
+   "url": "https://www.entradas.com/en/artist/gran-circo-del-agua/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -99,6 +115,22 @@
    "idx": 1
   },
   {
+   "sku": "entradas-navidades-magicas",
+   "n": "NAVIDADES MÁGICAS",
+   "c": "immersive",
+   "cat": "Show",
+   "v": "Sala Mirari · Málaga",
+   "area": "Málaga",
+   "p": "From €13.54",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/navidadesmagicasnew1_222x222.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fnavidades-magicas%2F",
+   "url": "https://www.entradas.com/en/artist/navidades-magicas/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
    "sku": "entradas-ritmo-a-caballo",
    "n": "Ritmo A Caballo",
    "c": "immersive",
@@ -163,6 +195,22 @@
    "idx": 1
   },
   {
+   "sku": "entradas-coco-una-fiesta-musical",
+   "n": "Coco, una fiesta musical",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €21.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/Coco_Riojaforum_222x222.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcoco-una-fiesta-musical%2F",
+   "url": "https://www.entradas.com/en/artist/coco-una-fiesta-musical/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
    "sku": "entradas-el-desembarco-la-traicion-de-viriato",
    "n": "El Bosque Encantado",
    "c": "theatre",
@@ -174,6 +222,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fel-desembarco-la-traicion-de-viriato%2F",
    "url": "https://www.entradas.com/en/artist/el-desembarco-la-traicion-de-viriato/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-el-gran-showman-el-musical",
+   "n": "El Gran Showman, el musical",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €29.20",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/Gran_Showman_Musical.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fel-gran-showman-el-musical%2F",
+   "url": "https://www.entradas.com/en/artist/el-gran-showman-el-musical/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -227,22 +291,6 @@
    "idx": 1
   },
   {
-   "sku": "entradas-splean",
-   "n": "SPLEAN",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Teatro Auditorio Felipe VI · Estepona",
-   "area": "Estepona",
-   "p": "From €59",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/splean_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsplean%2F",
-   "url": "https://www.entradas.com/en/artist/splean/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
    "sku": "entradas-la-bella-y-la-bestia-el-musical",
    "n": "The Beauty And The Beast",
    "c": "theatre",
@@ -254,6 +302,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fla-bella-y-la-bestia-el-musical%2F",
    "url": "https://www.entradas.com/en/artist/la-bella-y-la-bestia-el-musical/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-historia-viva-malaga",
+   "n": "Visita nocturna al Cementerio Inglés",
+   "c": "tours",
+   "cat": "Walking Tour",
+   "v": "Cementerio Inglés de Málaga · Málaga",
+   "area": "Málaga",
+   "p": "From €19.02",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2024-222x222/CementerioIngles_222x222.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fhistoria-viva-malaga%2F",
+   "url": "https://www.entradas.com/en/artist/historia-viva-malaga/",
    "rating": 0,
    "nrev": 0,
    "idx": 1

@@ -1019,46 +1019,6 @@
    "credit": null
   },
   {
-   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "— Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-11-22",
-   "sub": {
-    "en": "Sun 22 Nov · Gran Hotel Miramar GL · Málaga",
-    "es": "Dom 22 nov · Gran Hotel Miramar GL · Málaga",
-    "de": "So 22 Nov · Gran Hotel Miramar GL · Málaga",
-    "fr": "dim. 22 nov. · Gran Hotel Miramar GL · Málaga",
-    "sv": "sön 22 nov · Gran Hotel Miramar GL · Málaga",
-    "no": "søn 22 nov · Gran Hotel Miramar GL · Málaga",
-    "da": "søn 22 nov · Gran Hotel Miramar GL · Málaga",
-    "fi": "su 22 marrask. · Gran Hotel Miramar GL · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
-  },
-  {
    "photo": "/assets/tiles/ext-8b98fd83f2cf7258.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 10%",
@@ -1166,46 +1126,6 @@
     "fi": "su 29 marrask. · Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=466621&u=https%3A%2F%2Ffeverup.com%2Fm%2F466621&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-2cdeaa4bd1be6a45.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to La Ley Innata",
-   "headBottom": true,
-   "expires": "2026-11-29",
-   "sub": {
-    "en": "Sun 29 Nov · Gran Hotel Miramar GL · Málaga",
-    "es": "Dom 29 nov · Gran Hotel Miramar GL · Málaga",
-    "de": "So 29 Nov · Gran Hotel Miramar GL · Málaga",
-    "fr": "dim. 29 nov. · Gran Hotel Miramar GL · Málaga",
-    "sv": "sön 29 nov · Gran Hotel Miramar GL · Málaga",
-    "no": "søn 29 nov · Gran Hotel Miramar GL · Málaga",
-    "da": "søn 29 nov · Gran Hotel Miramar GL · Málaga",
-    "fi": "su 29 marrask. · Gran Hotel Miramar GL · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545643&u=https%3A%2F%2Ffeverup.com%2Fm%2F545643&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
