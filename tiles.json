@@ -1377,6 +1377,46 @@
     "fi": "Liput →"
    },
    "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-5ac58627f281af07.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Ennio Morricone",
+   "headBottom": true,
+   "expires": "2026-12-08",
+   "sub": {
+    "en": "Tue 8 Dec · Hotel Miramar · Málaga",
+    "es": "Mar 8 dic · Hotel Miramar · Málaga",
+    "de": "Di 8 Dez · Hotel Miramar · Málaga",
+    "fr": "mar. 8 déc. · Hotel Miramar · Málaga",
+    "sv": "tis 8 dec · Hotel Miramar · Málaga",
+    "no": "tir 8 des · Hotel Miramar · Málaga",
+    "da": "tir 8 dec · Hotel Miramar · Málaga",
+    "fi": "ti 8 jouluk. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=198778&u=https%3A%2F%2Ffeverup.com%2Fm%2F198778&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
   }
  ],
  "info": [
