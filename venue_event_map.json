@@ -1133,10 +1133,21 @@
      "date": "07/11/2026",
      "venue_name": "Hijos de la Ruina Tour"
     },
-    "melendi": {
-     "url": "https://www.malagadeporteyeventos.com/concierto-melendi-pop-rock-tour-2/",
+    "melendi 20/11/2026": {
+     "url": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2681926?hl=es-ES",
+     "prefer": "map",
      "date": "20/11/2026",
-     "venue_name": "Melendi – Pop Rock Tour"
+     "time": "21:00",
+     "venue_name": "Melendi – Pop Rock Tour",
+     "why": "REPOINTED 2026-10-14. The card was shipping a SONGKICK page (songkick.com/es/concerts/42951083, the 21 Nov listing, not a seller and the wrong night). Browser-read 2026-10-14: melendioficial.com/event/malaga-2/ = 20 Nov 2026 21:00 P. de Deportes Martín Carpena, COMPRAR -> tickets.oneboxtds.com/melendi_poprock_tour/select/2681926 (official Onebox/Sony tour seller; the Carpena page malagadeporteyeventos.com/concierto-melendi-pop-rock-tour-2 also sends buyers to melendioficial.com). NO PAYING SELLER: web search 2026-10-14 found no ECI, Ticketmaster or entradas.com page for the tour (only Onebox, resale and aggregators). Non-commissioned, kept for site quality."
+    },
+    "melendi 21/11/2026": {
+     "url": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?hl=es-ES",
+     "prefer": "map",
+     "date": "21/11/2026",
+     "time": "21:00",
+     "venue_name": "Melendi – Pop Rock Tour",
+     "why": "REPOINTED 2026-10-14 (night 2). Was a Songkick listing. melendioficial.com/event/malaga/ = 21 Nov 2026 21:00, COMPRAR -> tickets.oneboxtds.com/melendi_poprock_tour/select/2680307 (official Onebox). Our card is labelled Sold out; the official page was NOT opened for stock (Onebox is behind a Cloudflare wall), web search says some price categories are still listed, so re-check before relying on the label."
     }
    }
   },
