@@ -7,6 +7,12 @@
    "expires": "2027-01-07"
   },
   {
+   "label": "Melendi",
+   "program": "box office",
+   "host": "tickets.oneboxtds.com/melendi_poprock_tour",
+   "expires": "2026-11-21"
+  },
+  {
    "label": "Jay Wheeler",
    "program": "box office",
    "host": "ticketmaster.evyy.net/c/7440720/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fjay-wheeler-entradas%2F512986909",
