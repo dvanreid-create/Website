@@ -63,6 +63,12 @@
    "why": "CANCELLED - recorded 2026-10-02. ECI's page for 'Navidad en el Soho: Un Cuento Musical' (2 Dec 2026, Teatro del Soho CaixaBank) shows CANCELADO (found by the ECI refresh's cancellation scan). Date-scoped."
   },
   {
+   "match": "disorder",
+   "venue": "louie louie",
+   "date": "2026-10-17",
+   "why": "DUPLICATE REMOVED BY SOFIA 2026-10-15 (NOT a genre or cancellation ruling). 'Disorder - Tributo a System of a Down, Bombtruck - Tributo a Rage Against The Machine, Black Horsemen - Tributo a Metallica', Louie Louie Estepona, Sat 17 Oct 00:00, is the same night as 'American Rock Stars: tributes to System of a Down, Rage Against the Machine and Metallica' (23:59, kept). The removed card linked to conciertos.club/malaga/conciertos/125661, a listing site that also shows Candlelight events, so readers would be sent off to browse them. Date- and venue-scoped; other Disorder dates are untouched."
+  },
+  {
    "match": "nina pastori",
    "venue": "principe de asturias",
    "date": "2026-10-17",

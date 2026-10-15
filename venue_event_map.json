@@ -1807,6 +1807,17 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 08/12/2026 at 19:00 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-08."
     },
+    "candlelight tribute hans zimmer 22 nov": {
+     "url": "https://feverup.com/m/155745",
+     "prefer": "map",
+     "date": "22/11/2026",
+     "time": "19:00",
+     "price": "Desde 22,50€",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Tribute to Hans Zimmer",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-15 (found while checking the 8 Dec Zimmer night): Fever plan 155745's date selector, read in the built-in browser 2026-10-15, offers dom 18 oct, dom 22 nov and mar 08 dic. The 22 Nov chip shows 19:00, Zona D 22,50 / C 30,00 / B 43,00 / A 48,00 EUR, quantity stepper live, no Agotado. The site had no Zimmer card on 22 Nov (Vivaldi 21:00 is the only 22 Nov Candlelight). Venue assumed same as the 8 Dec night (plan is the Hotel Miramar one). Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose. Retire after 2026-11-22."
+    },
     "candlelight tribute joan manuel serrat 11 dic": {
      "url": "https://feverup.com/m/129317",
      "prefer": "map",

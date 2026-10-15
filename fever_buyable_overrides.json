@@ -21,8 +21,19 @@
   ],
   "611306": [
    "2026-10-03"
+  ],
+  "155745": [
+   "2026-11-22",
+   "2026-12-08"
+  ],
+  "129317": [
+   "2026-12-11"
+  ],
+  "555765": [
+   "2026-12-11"
   ]
  },
+ "_2026_10_15_why": "CANDLELIGHT NIGHTS MISSING FROM THE LIVE SITE: Hans Zimmer 22 Nov + 8 Dec (sku 155745), Joan Manuel Serrat 11 Dec (129317), Queen vs. ABBA 11 Dec (555765). BROWSER-CONFIRMED 2026-10-15 in the built-in browser on each plan's 'Selecciona fecha y sesion': 155745 offers dom 18 oct / dom 22 nov / mar 08 dic (22 Nov 19:00 from 22,50; 8 Dec 19:00 from 17,00, no Agotado); 129317 offers sab 21 nov / vie 11 dic (17:45, Entrada Zona D 19,50 shown); 555765 offers vie 13 nov / vie 11 dic / sab 26 dic (19:45, Zona D 18,50 shown). The sweeplost map entries (added 2026-10-14) were injected but the rows still did not reach the page, because these skus are in fever_availability.json with other dates only and fever_unbuyable() drops any date not listed (Michael Jackson 12 Dec, sku not date-gated, did appear). Paired with the sweeplost entries 'candlelight tribute hans zimmer 8 dic / 22 nov', 'joan manuel serrat 11 dic', 'queen abba 11 dic'. NOT confirmed: that this gate is the cause (box file not readable from here). Remove each date once past. NOTE: 155745 on 2026-10-18 is ALL AGOTADO (4 zones) on Fever as of 2026-10-15.",
  "_611306_why": "THE JAZZ ROOM MARBELLA: A JOURNEY TO THE HEART OF NEW ORLEANS, Volare Room Marbella, Sat 3 Oct 2026 18:00 (Fever sku 611306). ADDED 2026-09-29 by the daily browser commission audit - SILENT LEAK: on sale at Fever but absent from the live site. BROWSER-CONFIRMED 2026-09-29 on feverup.com/m/611306: date selector sab 03 oct, sessions 18:00 + 20:00, Entrada General 29,00 EUR (promo 23,20 EUR), live Comprar entradas. Paired with the sweeplost map entry that injects it. Remove after 2026-10-03.",
  "_405940_why": "CANDLELIGHT: TRIBUTE TO HANS ZIMMER, Anantara Villa Padierna (Benahavis/Marbella), Sun 11 Oct 2026 19:00 (Fever sku 405940). ADDED 2026-09-24 by the daily browser commission audit - SILENT DROP: on the live site 2026-09-23 (11 Fever cards incl. 405940), gone 2026-09-24 (10 cards) with no recorded removal. BROWSER-CONFIRMED 2026-09-24 on feverup.com/m/405940: the plan's own ticket-selector blob holds session 2026-10-11 19:00 with 3 of 3 zones has_available_tickets=true, from 28,00 EUR. Paired with the new 'hans zimmer' act in venue_event_map's 'anantara villa padierna' block (the complete:true phantom gate). Remove once the show is past or sold out.",
  "_643664_why": "LA K'ONGA, Sala Paris 15, Malaga, Thu 8 Oct 2026 21:00 (Fever sku 643664). ADDED 2026-09-21 by the daily browser audit — SILENT COMMISSION LOSS. The show is mapped (venue_event_map paris15 'la konga', 08/10/2026), it is in the verified baseline ('la konga|2026-10-08', the 09-15 false-drop correction), Fever is a PAYING seller (Impact, fever.pxf.io/c/7440720) — and the card is NOT on malagalivepulse.com at all. It never earns a click, so it can never appear in the clicks report: invisible. BROWSER-CONFIRMED 2026-09-21 on feverup.com/m/643664: title 'Entradas para la K'onga en Malaga | Fever', 'Lugar: Paris 15. C/ La Orotava, 25, 27, Cruz de Humilladero, 29006', the plan's OWN date selector holds exactly one session, aria-label '2026-10-08' / 'jue 08 oct', and opening it renders 'jue 08 oct 21:00 — Entrada general - Promo lanzamiento 14 % descuento 35,00 € 30,00 € AGOTADO' and 'Entrada general 35,00 €' WITH a live quantity stepper. So one tier is sold out and the general tier is on sale: buyable, not sold out. CAUSE: fever_unbuyable() only drops a sku that IS in the generated fever_availability.json, so 643664 must be in that box-owned map with a date set that does not contain 2026-10-08 — the same empty/short-date-set scraper failure recorded for 678230 above. This override makes the browser reading authoritative at the point of the drop. Remove once the show is past or the general tier goes Agotado too.",
