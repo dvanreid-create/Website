@@ -1,6 +1,6 @@
 {
- "count": 20,
- "generated": "2026-10-14T04:02:39Z",
+ "count": 18,
+ "generated": "2026-10-15T04:02:41Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -14,22 +14,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcirco-quiros%2F",
    "url": "https://www.entradas.com/en/artist/circo-quiros/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-gran-circo-del-agua",
-   "n": "Gran Circo del Agua",
-   "c": "family",
-   "cat": "Family",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €15.00",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/grancircoagua_222x222_promoh30.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fgran-circo-del-agua%2F",
-   "url": "https://www.entradas.com/en/artist/gran-circo-del-agua/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -190,22 +174,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fla-peste-en-malaga-visita-teatralizada%2F",
    "url": "https://www.entradas.com/en/artist/la-peste-en-malaga-visita-teatralizada/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-coco-una-fiesta-musical",
-   "n": "Coco, una fiesta musical",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €21.00",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/Coco_Riojaforum_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcoco-una-fiesta-musical%2F",
-   "url": "https://www.entradas.com/en/artist/coco-una-fiesta-musical/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
