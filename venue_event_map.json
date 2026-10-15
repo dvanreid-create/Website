@@ -1851,6 +1851,79 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 12/12/2026 at 20:30 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-12."
     },
+    "the johann strauss quartet": {
+     "url": "https://www.unientradas.es/es/espectaculo/the-johann-strauss-quartet/JSQ",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "19:00",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "The Johann Strauss Quartet",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-15 (Sofia: 'we need to have' it). unientradas.es listing, Sat 12 Dec 2026 19:00, Sala Fundación Unicaja Mª Cristina, Comprar live (read 2026-10-15). Price not read. NOT commissioned (unientradas). Retire after 2026-12-12."
+    },
+    "ainhoa arteta en recital": {
+     "url": "https://www.unientradas.es/es/espectaculo/ainhoa-arteta-en-recital/26-27ArtetaAinho",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Ainhoa Arteta en recital",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-15 (Sofia: 'on the site'). unientradas.es, XXXVIII Temporada Lírica, Sat 12 Dec 2026 20:00, Teatro Cervantes, Comprar live (read 2026-10-15). Price not read. NOT commissioned. Retire after 2026-12-12."
+    },
+    "revolver la 03010 tour": {
+     "url": "https://entradas.crashmusic.es/event/concierto-revolver-malaga-fycma-sabado-12-de-diciembre",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "21:00",
+     "venue": "FYCMA - Palacio de Ferias y Congresos",
+     "venue_name": "Revolver — La 03010 Tour",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-10-15 (Sofia). FYCMA's own page (fycma.com/evento/concierto-revolver-12-diciembre-2026/) and Crash Music's page (read 2026-10-15): Sat 12 Dec 2026, doors 20:00, start 21:00, FYCMA Málaga, organiser Crash Music, buy widget venta.enterticket.es id 54048. Price not read. NOT commissioned. Retire after 2026-12-12."
+    },
+    "camellos 10 aniversario": {
+     "url": "https://www.taquilla.com/entradas/camellos?t10cityorder=M%C3%A1laga",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "20:00",
+     "price": "15.00 EUR",
+     "venue": "Sala Marte",
+     "venue_name": "Camellos — 10 aniversario",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-10-15 (Sofia). Taquilla.com (read 2026-10-15) lists Camellos '10 aniversario', Sat 12 Dec 2026, Sala Marte (now 'Sala Classic Malagueta'), TWO sessions: 20:00 (DICE FM) and 22:00 (Enterticket), desde 15,00 EUR. LINK IS THE TAQUILLA AGGREGATOR PAGE, NOT A DIRECT SELLER PAGE: replace with the DICE / Enterticket event URL when Sofia has it. NOT commissioned. Retire after 2026-12-12."
+    },
+    "camellos 10 aniversario segunda sesion": {
+     "url": "https://www.taquilla.com/entradas/camellos?t10cityorder=M%C3%A1laga",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "22:00",
+     "price": "15.00 EUR",
+     "venue": "Sala Marte",
+     "venue_name": "Camellos — 10 aniversario (2ª sesión)",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-10-15: second session (22:00, Enterticket) of the same night as 'camellos 10 aniversario'. Distinct venue_name so backfill's (act, date) dedup does not drop it. Same link caveat. Retire after 2026-12-12."
+    },
+    "space surimi": {
+     "url": "https://dice.fm/event/q2dedp-space-surimi-en-mlaga-31st-oct-sala-marte-mlaga-tickets",
+     "prefer": "map",
+     "date": "31/10/2026",
+     "time": "22:00",
+     "price": "14.74 EUR",
+     "venue": "Sala Marte",
+     "venue_name": "Space Surimi — Papela Funk",
+     "genre": "Pop",
+     "why": "ADDED 2026-10-15 from Sofia's screenshot of the DICE page: 'Space Surimi en Málaga', Sala Marte, Sat 31 Oct 22:00 GMT+1 (doors 21:00), 16+, from 14,74 EUR, GET TICKETS live, presents the new album 'Papela Funk'. NOT commissioned. Retire after 2026-10-31."
+    },
+    "modelo de respuesta polar": {
+     "url": "https://www.enterticket.es/eventos/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre-838",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "22:00",
+     "venue": "Sala Marte",
+     "venue_name": "Modelo de Respuesta Polar",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-10-15 from Sofia's screenshot of the Enterticket page: 'Concierto Modelo de Respuesta Polar - Málaga - Sala Marte - Sábado 14 de noviembre', 22:00, doors 21:30, poster says 'Cambio de fecha 14/11'. Taquilla lists desde 26,00 EUR (price not read on the seller page). NOT commissioned. Retire after 2026-11-14."
+    },
     "tussiwarriors": {
      "url": "https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248",
      "prefer": "map",

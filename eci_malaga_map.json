@@ -1,9 +1,17 @@
 {
  "_comment": "EL CORTE INGLES — MALAGA PROVINCE MUSIC INVENTORY. Built 2026-09-21 by reading ECI's own recinto directory (elcorteingles.es/entradas/recintos/malaga/) and every venue page under it, in Sofia's browser session — the box and the Claude sandbox are both IP-blocked by ECI. PURPOSE: eci_resolve() in build_site.py only ever runs for STARLITE rows (its first line returns unchanged unless the venue contains 'starlite'), so ECI was invisible for every other Malaga room. Leoni Torres (18 Oct, Sala Paris 15) was live on a promoter page paying NOTHING while ECI sold the same night at 48,50 EUR. Sofia: 'we need to make sure ECI is always covered, not only linked to Starlite'. This file is that coverage. REFRESH IT from the same directory whenever the window rolls.",
- "generated": "2026-10-01",
+ "generated": "2026-10-15",
  "source": "https://www.elcorteingles.es/entradas/recintos/malaga/",
- "venues_scanned": 18,
+ "venues_scanned": 24,
  "events": [
+  {
+   "act": "Niña Pastori",
+   "ymd": "2026-10-17",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
+   "eci_from": 44.0,
+   "venue": "Auditorio Municipal Príncipe de Asturias",
+   "city": "Torremolinos"
+  },
   {
    "act": "Holi Not Holi",
    "ymd": "2026-10-24",
@@ -17,6 +25,14 @@
    "ymd": "2027-03-07",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/",
    "eci_from": 49.5,
+   "venue": "Auditorio Municipal Príncipe de Asturias",
+   "city": "Torremolinos"
+  },
+  {
+   "act": "Paco Montalvo - Obras Maestras",
+   "ymd": "2027-04-24",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-paco-montalvo-obras-maestras-torremolinos/",
+   "eci_from": 38.5,
    "venue": "Auditorio Municipal Príncipe de Asturias",
    "city": "Torremolinos"
   },
@@ -37,6 +53,14 @@
    "city": "Málaga"
   },
   {
+   "act": "Queenmanía Fest",
+   "ymd": "2026-11-13",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
+   "eci_from": 22.0,
+   "venue": "Hard Rock Hotel Marbella",
+   "city": "Marbella"
+  },
+  {
    "act": "Take That - Dreamers Tour",
    "ymd": "2027-07-11",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-take-that-fuengirola/",
@@ -53,6 +77,14 @@
    "city": "Fuengirola"
   },
   {
+   "act": "Bryan Adams: Roll With the Punches - Marenostrum Fuengirola",
+   "ymd": "2027-08-22",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-bryan-adams-fuengirola-BRYANADAMS2027BRYANADAMS2027MARE/",
+   "eci_from": 71.5,
+   "venue": "Marenostrum Fuengirola",
+   "city": "Fuengirola"
+  },
+  {
    "act": "Raphael - Raphaelísimo",
    "ymd": "2026-11-28",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-raphael-malaga/",
@@ -61,11 +93,11 @@
    "city": "Málaga"
   },
   {
-   "act": "Festival Vallenato - Binomio de Oro de América",
-   "ymd": "2026-10-11",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-festival-vallenato-binomio-de-oro-de-america-malaga/",
-   "eci_from": 51.75,
-   "venue": "Sala París 15",
+   "act": "Alejandro Astola",
+   "ymd": "2027-07-03",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alejandro-astola-malaga/",
+   "eci_from": 38.5,
+   "venue": "Plaza de Toros de La Malagueta",
    "city": "Málaga"
   },
   {
@@ -101,18 +133,18 @@
    "city": "Málaga"
   },
   {
-   "act": "Tributo a Radio Futura, El Último de la Fila y Héroes del Silencio",
-   "ymd": "2027-05-07",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-radio-ultimo-de-la-fila-y-heroes-silencio-malaga/",
-   "eci_from": 19.25,
-   "venue": "Sala París 15",
-   "city": "Málaga"
-  },
-  {
    "act": "La Gran Fiesta de los 80 y 90",
    "ymd": "2027-04-10",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-gran-fiesta-de-los-80-y-90-malaga-57393573934690/",
    "eci_from": 26.85,
+   "venue": "Sala París 15",
+   "city": "Málaga"
+  },
+  {
+   "act": "Tributo a Radio Futura, El Último de la Fila y Héroes del Silencio",
+   "ymd": "2027-05-07",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-radio-ultimo-de-la-fila-y-heroes-silencio-malaga/",
+   "eci_from": 19.25,
    "venue": "Sala París 15",
    "city": "Málaga"
   },
@@ -131,6 +163,14 @@
    "eci_from": 19.25,
    "venue": "Sala Trinchera",
    "city": "Málaga"
+  },
+  {
+   "act": "La Oreja de Van Gogh - Starlite Occident 2027",
+   "ymd": "2027-08-13",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-oreja-de-van-gogh-starlite-occident-2027-marbella/",
+   "eci_from": 55.0,
+   "venue": "Starlite Festival",
+   "city": "Marbella"
   },
   {
    "act": "Vivaldianno",
@@ -157,6 +197,14 @@
    "city": "Málaga"
   },
   {
+   "act": "Capullo de Jerez",
+   "ymd": "2026-10-24",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/",
+   "eci_from": 24.26,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
+  },
+  {
    "act": "Falete",
    "ymd": "2026-10-31",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-43582435821796/",
@@ -179,6 +227,22 @@
    "eci_from": 25.36,
    "venue": "Teatro ESAD",
    "city": "Málaga"
+  },
+  {
+   "act": "Pitingo - Navidades del Mundo",
+   "ymd": "2026-12-04",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pitingo-navidades-del-mundo-velez-malaga/",
+   "eci_from": 33.0,
+   "venue": "Teatro Lope de Vega",
+   "city": "Vélez-Málaga"
+  },
+  {
+   "act": "Zambomba Manuel Periquín",
+   "ymd": "2026-12-12",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-zambomba-manuel-periquin-velez-malaga/",
+   "eci_from": 17.5,
+   "venue": "Teatro Lope de Vega",
+   "city": "Vélez-Málaga"
   }
-]
+ ]
 }
