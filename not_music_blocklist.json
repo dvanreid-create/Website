@@ -63,6 +63,12 @@
    "why": "CANCELLED - recorded 2026-10-02. ECI's page for 'Navidad en el Soho: Un Cuento Musical' (2 Dec 2026, Teatro del Soho CaixaBank) shows CANCELADO (found by the ECI refresh's cancellation scan). Date-scoped."
   },
   {
+   "match": "hans zimmer",
+   "venue": "miramar gl",
+   "date": "2026-11-22",
+   "why": "DUPLICATE REMOVED 2026-10-16 (Sofia saw it live). Fever plan 155745, Sun 22 Nov 19:00, appeared twice: 'Candlelight — Tribute to Hans Zimmer' at 'Gran Hotel Miramar GL' (this row, blocked) and 'Candlelight: Tribute to Hans Zimmer' at 'Salón Real del Gran Hotel Miramar' (kept). Cause NOT confirmed: removing the sweeplost entry 'candlelight tribute hans zimmer 22 nov' (map file saved 09:18) did not remove either card from the live page, where Servando's 20:30 and the Queen & Beatles Marbella card from the same map file are already live. A plausible reason is that backfill had already written the injected row into the box calendar, which is unverified. Date- and venue-scoped: the 18 Oct and 8 Dec Zimmer nights and any other Miramar row are untouched. Retire after 2026-11-22. NOT a genre or cancellation ruling."
+  },
+  {
    "match": "disorder",
    "venue": "louie louie",
    "date": "2026-10-17",
