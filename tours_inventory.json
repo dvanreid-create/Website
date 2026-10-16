@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-15",
-  "count": 104,
+  "generated": "2026-10-16",
+  "count": 103,
   "items": [
     {
       "sku": "194665",
@@ -424,20 +424,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "708013",
-      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €435",
-      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
-      "url": "https://feverup.com/m/708013/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
-    },
-    {
       "sku": "632234",
       "n": "Funzo in Málaga",
       "c": "tours",
@@ -696,7 +682,7 @@
       "cat": "Boat Tour",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €79",
+      "p": "From €112",
       "img": "fbc3b43a-1833-11eb-bf03-06551cb39bc6.jpg",
       "url": "https://feverup.com/m/92888/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=92888&u=https%3A%2F%2Ffeverup.com%2Fm%2F92888&intsrc=CATF_15532",
@@ -864,7 +850,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €16",
+      "p": "From €14",
       "img": "8d1b4eac-677d-11ee-8265-e20a9e45a024",
       "url": "https://feverup.com/m/141828/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141828&u=https%3A%2F%2Ffeverup.com%2Fm%2F141828&intsrc=CATF_15532",
