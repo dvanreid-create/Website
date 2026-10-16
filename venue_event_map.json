@@ -1156,6 +1156,12 @@
    "complete": false,
    "note": "Sala París 15, ~3,000-cap venue at C. La Orotava 27, 29006 Málaga. Primary ticket seller: tomaticket.es. Also listed on Songkick (17 upcoming) and paris15.es. Open since 2010. No events in current 30-day window; next show El Kuelgue 10 Sep. Events read 2026-07-27. complete:false = NOT a phantom gate.",
    "acts": {
+    "servando florentino": {
+     "date": "10/11/2026",
+     "time": "20:30",
+     "venue_name": "Servando & Florentino",
+     "why": "TIME-ONLY ENTRY, ADDED 2026-10-16. Servando & Florentino, Tue 10 Nov 2026, Sala Paris 15. The live card says 21:00; the seller says 20:30: entradas.com event 22147341 page (reached through our own Awin link, read in Chrome 2026-10-16) shows 'martes, 10/11/2026 | 20:30 MALAGA | Sala Paris 15', and the entradas.com artist page lists 'mar 10 nov 2026 20:30'. No url here on purpose, so it cannot change the link; build_site venue_time_override only stamps the time on the row with the exact date 2026-11-10. Retire after 2026-11-10."
+    },
     "valeria lynch": {
      "url": "https://conciertosya.com/Valeria-Lynch-en-Malaga/",
      "prefer": "map",
