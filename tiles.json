@@ -779,6 +779,46 @@
    "credit": null
   },
   {
+   "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Queen and The Beatles",
+   "headBottom": true,
+   "expires": "2026-11-13",
+   "sub": {
+    "en": "Fri 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Vie 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Fr 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "ven. 13 nov. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "pe 13 marrask. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=800523&u=https%3A%2F%2Ffeverup.com%2Fm%2F800523&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
    "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 18%",

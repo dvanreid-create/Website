@@ -58,8 +58,8 @@
   },
   "anantara villa padierna": {
    "venue": "Anantara Villa Padierna Palace Benahavís Marbella Resort",
-   "mapped_in_window": 2,
-   "matched": 2,
+   "mapped_in_window": 3,
+   "matched": 3,
    "calendar_in_window": 2,
    "latest_mapped": "2026-11-13",
    "always_on": false,
@@ -220,9 +220,9 @@
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 30,
-   "matched": 30,
-   "calendar_in_window": 75,
+   "mapped_in_window": 31,
+   "matched": 31,
+   "calendar_in_window": 76,
    "latest_mapped": "2026-12-12",
    "always_on": false,
    "verdict": "ok"
