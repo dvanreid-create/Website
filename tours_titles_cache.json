@@ -15834,16 +15834,16 @@
     }
   },
   "viator:189050P1": {
-    "h": "450a05c4e9ce2f0f2840981bc811df5a",
+    "h": "0ca5f3c592efe8ee4a9280ef98c35bce",
     "names": {
-      "en": "Marbella 2 - hour Catamaran Group Excursion with Dolphin Watching",
-      "es": "Marbella: excursión en catamarán en grupo de 2 horas con avistamiento de delfines",
-      "de": "Marbella: 2-stündige Katamaran-Gruppentour mit Delfinbeobachtung",
-      "fr": "Marbella : excursion en catamaran de 2 heures en groupe avec observation des dauphins",
-      "sv": "Marbella: 2-timmars katamaranutflykt i grupp med delfinskådning",
-      "no": "Marbella: 2-timers katamarantur i gruppe med delfinsafari",
-      "da": "Marbella: 2-timers katamaranudflugt i gruppe med delfinkiggeri",
-      "fi": "Marbellan 2 tunnin katamaraaniryhmäretki delfiininkatselulla"
+      "en": "Marbella Catamaran Tour with Possible Dolphin Sighting",
+      "es": "Tour en catamarán por Marbella con posible avistamiento de delfines",
+      "de": "Marbella Katamaran-Tour mit möglicher Delfinbeobachtung",
+      "fr": "Visite en catamaran à Marbella avec possibilité d'observer les dauphins",
+      "sv": "Katamarantur i Marbella med möjlig delfinskådning",
+      "no": "Marbella Katamarantur med mulighet for å se delfiner",
+      "da": "Katamarantur i Marbella med mulighed for at se delfiner",
+      "fi": "Marbellan katamaraaniristeily, mahdollisuus nähdä delfiinejä"
     }
   },
   "viator:301762P11": {
@@ -22448,6 +22448,84 @@
       "no": "E-mountainbike-tur i naturparken Montes de Malaga",
       "da": "Montes de Malaga Naturpark: eltur på mountainbike",
       "fi": "Montes de Malagan luonnonpuisto: sähkömaastopyöräretki"
+    }
+  },
+  "viator:5607081P13": {
+    "h": "b2715a942561deb921d0e1d5cf580f58",
+    "names": {
+      "en": "All Inclusive Tangier Private Guided Day Trip from Malaga",
+      "es": "Excursión privada de un día a Tánger con todo incluido desde Malaga",
+      "de": "All-Inclusive Tagesausflug nach Tanger mit privater Führung ab Malaga",
+      "fr": "Excursion privée tout compris d'une journée à Tanger depuis Malaga",
+      "sv": "Allt inkluderat privat guidad dagstur till Tangier från Malaga",
+      "no": "All Inclusive privat dagstur til Tanger fra Malaga",
+      "da": "All Inclusive privat guidet dagstur til Tangier fra Malaga",
+      "fi": "Kaiken sisältävä yksityinen opastettu päiväretki Tangeriin Malagasta"
+    }
+  },
+  "viator:460190P2": {
+    "h": "337011b653fb5a27d5ebd96a35a3304a",
+    "names": {
+      "en": "Wine and Cheese Tasting of Andalusia in Malaga",
+      "es": "Cata de vinos y quesos de Andalucía en Malaga",
+      "de": "Wein- und Käseverkostung aus Andalusien in Malaga",
+      "fr": "Dégustation de vins et fromages d'Andalousie à Malaga",
+      "sv": "Vin- och ostprovning från Andalusien i Malaga",
+      "no": "Vin- og osteprøving fra Andalusia i Malaga",
+      "da": "Vin- og ostesmagning fra Andalusien i Malaga",
+      "fi": "Andalusian viini- ja juustomaistiainen Malagassa"
+    }
+  },
+  "viator:414614P109": {
+    "h": "655297fce471f48cb242f01df4f7578a",
+    "names": {
+      "en": "Excursion for cruisers from the Port of Malaga to Malaga",
+      "es": "Excursión para cruceristas desde el Puerto de Malaga a Malaga",
+      "de": "Ausflug für Kreuzfahrtgäste vom Hafen von Malaga nach Malaga",
+      "fr": "Excursion pour croisiéristes du port de Malaga à Malaga",
+      "sv": "Utflykt för kryssningspassagerare från hamnen i Malaga till Malaga",
+      "no": "Utflukt for cruisepassasjerer fra havnen i Malaga til Malaga",
+      "da": "Udflugt for krydstogtgæster fra Malaga havn til Malaga",
+      "fi": "Risteilymatkustajien retki Malagan satamasta Malagaan"
+    }
+  },
+  "viator:374880P18": {
+    "h": "52aaf5bf4be896b952f37d894409925f",
+    "names": {
+      "en": "Benalmádena 1 Hour Boat Tour on the Costa del Sol",
+      "es": "Paseo en barco de 1 hora por Benalmádena en la Costa del Sol",
+      "de": "Benalmádena 1-stündige Bootstour an der Costa del Sol",
+      "fr": "Balade en bateau d'1 heure à Benalmádena sur la Costa del Sol",
+      "sv": "1 timmes båttur i Benalmádena på Costa del Sol",
+      "no": "1 times båttur i Benalmádena på Costa del Sol",
+      "da": "1 times bådtur i Benalmádena på Costa del Sol",
+      "fi": "Benalmádenan 1 tunnin venematka Costa del Solilla"
+    }
+  },
+  "viator:5651819P18": {
+    "h": "144017e451b2cee965b2ceed2890d86d",
+    "names": {
+      "en": "Luxury All-Inclusive Tangier Day Trip from Marbella",
+      "es": "Excursión de un día de lujo con todo incluido a Tánger desde Marbella",
+      "de": "Luxus All-Inclusive Tagesausflug nach Tanger ab Marbella",
+      "fr": "Excursion de luxe tout compris d'une journée à Tanger depuis Marbella",
+      "sv": "Lyxig allt-inkluderat dagstur till Tangier från Marbella",
+      "no": "Luksus All Inclusive dagstur til Tanger fra Marbella",
+      "da": "Luksus all-inclusive dagstur til Tangier fra Marbella",
+      "fi": "Ylellinen kaiken sisältävä päiväretki Tangeriin Marbellasta"
+    }
+  },
+  "viator:5607081P14": {
+    "h": "bda14d7264b5c65e996cb1e93283557b",
+    "names": {
+      "en": "Luxury Private Tangier Day Trip from Marbella",
+      "es": "Excursión privada de lujo de un día a Tánger desde Marbella",
+      "de": "Luxus privater Tagesausflug nach Tanger ab Marbella",
+      "fr": "Excursion privée de luxe d'une journée à Tanger depuis Marbella",
+      "sv": "Lyxig privat dagstur till Tangier från Marbella",
+      "no": "Luksus privat dagstur til Tanger fra Marbella",
+      "da": "Luksus privat dagstur til Tangier fra Marbella",
+      "fi": "Ylellinen yksityinen päiväretki Tangeriin Marbellasta"
     }
   }
 }
