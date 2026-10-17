@@ -1,11 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-16",
- "drops": {
-  "Orquesta Filarmónica de Málaga — Il Verismo: L'Italia e Opera": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets 2am (Europe/Madrid)))",
-  "Ébano Jazz Quartet": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets 2am (Europe/Madrid)))",
-  "De Cádiz a Buenos Aires — Marina Morles & Alfonso Guerrero": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets 2am (Europe/Madrid)))",
-  "Orquesta Filarmónica de Málaga — Concierto de Jazz: The Music of Ivan Lins": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets 2am (Europe/Madrid)))",
-  "Málaga Popfest 2026 — The School, The Sweetest Ache, La Monja Enana, Paco Te Quiero, Milano Flash, Las Margaritas": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets 2am (Europe/Madrid)))"
- }
+ "generated": "2026-10-17",
+ "drops": {}
 }

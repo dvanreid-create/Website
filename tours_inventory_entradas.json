@@ -1,6 +1,6 @@
 {
- "count": 19,
- "generated": "2026-10-17T01:33:54Z",
+ "count": 18,
+ "generated": "2026-10-17T04:02:42Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -30,22 +30,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fleyendas-y-misterios%2F",
    "url": "https://www.entradas.com/en/artist/leyendas-y-misterios/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-andalusian-night",
-   "n": "Andalusian Night",
-   "c": "immersive",
-   "cat": "Show",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €75.00",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2023/andalusiannightv1_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fandalusian-night%2F",
-   "url": "https://www.entradas.com/en/artist/andalusian-night/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
