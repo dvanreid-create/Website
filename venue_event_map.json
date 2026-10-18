@@ -1066,6 +1066,18 @@
    "complete": false,
    "note": "Auditorio Municipal Cortijo de Torres, ~12,000-cap outdoor venue managed by Málaga Deporte y Eventos SA (malagadeporteyeventos.com). Ticket seller varies by promoter — Kream Ice Land = Ticketmaster; others TBC. complete:false = NOT a phantom gate (multiple independent promoters use this venue). Events read 2026-07-27 from the venue's own events page. venue_resolve: sweep typically lands on /proximos-eventos/ homepage; these entries upgrade to per-event pages.",
    "acts": {
+    "miranda": {
+     "url": "https://entradas.crashmusic.es/event/concierto-miranda-malaga-sala-circus-sabado-14-de-noviembre",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. Crash Music/Enterticket page read 18 Oct: 14 Nov 2026 doors 20:00 show 21:00 Sala Circus, 33,00 EUR fees included, selector live. Not commissioned. RETIRE after 2026-11-14."
+    },
+    "haze": {
+     "url": "https://entradas.crashmusic.es/event/concierto-haze-malaga-sala-circus-sabado-21-de-noviembre",
+     "prefer": "map",
+     "date": "21/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. Crash Music/Enterticket page read 18 Oct: 21 Nov 2026 doors 20:00 show 21:00 Sala Circus, 27,50 EUR fees included, selector live. Not commissioned. RETIRE after 2026-11-21."
+    },
     "kream ice land": {
      "url": "https://www.ticketmaster.es/event/kream-by-alvama-ice-entradas/1231184919",
      "date": "29/08/2026",
@@ -2848,11 +2860,31 @@
     }
    }
   },
+  "teatro lope de vega": {
+   "source": "https://www.elcorteingles.es/entradas/conciertos/entradas-pitingo-navidades-del-mundo-velez-malaga/",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false and gate:false: it can only upgrade a link, never delete or inject. Teatro Lope de Velez-Malaga. Pitingo 4 Dec calendar row carried https://www.malagaentradas.com (generic homepage); the live ECI page was read in the browser 18 Oct (4 Dec 2026 21:00, Desde 33,00 EUR, COMPRAR live) and ECI pays via Awin 13034.",
+   "acts": {
+    "pitingo": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pitingo-navidades-del-mundo-velez-malaga/",
+     "prefer": "map",
+     "date": "04/12/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. ECI page read 18 Oct: 4 Dec 2026 21:00 Teatro Lope de Vega, Desde 33,00 EUR, COMPRAR live. Earns (ECI/Awin 13034). RETIRE after 2026-12-04."
+    }
+   }
+  },
   "teatro cervantes": {
    "source": "https://www.teatrocervantes.com/es/programacion/",
    "complete": false,
    "note": "Teatro Cervantes, main public theatre in Málaga city (Procultura Málaga). Also hosts the Terral outdoor summer festival (typically June). Same organisation manages Teatro Echegaray (see that entry). Website is JS-rendered — refresh_venue_map.py needs browser tools to scrape. Added 2026-07-27 as stub for link upgrading; no in-window ticketed events confirmed. | LINK-OVERRIDE ACTS ADDED 2026-09-01 by the daily click-test. THE TRAP THIS FIXES: the theatre publishes each show at BOTH /es/espectaculo/<slug>-<id> and /es/genero/<genre>/<season>/<slug>-<id>, and ONLY the second path resolves — the /es/espectaculo/ form 302s to the theatre HOMEPAGE, so a card carrying it looks fine to a link checker (HTTP 200, real title) while sending the reader to a season index. Both acts below therefore carry prefer:'map' so the map URL wins over the calendar's own deep link. The URLs are the theatre's OWN ticketer, unientradas.es (janto family), which is where the site's 'Comprar entradas' buttons go — one hop closer to the basket than the venue page and it renders the date + seat map + 'Ver precios' directly. NO PAYING SELLER EXISTS for either show: entradas.com's malaga-490 / benalmadena-9255 / estepona-2322 listings carry neither, El Corte Inglés lists neither, and Ticketmaster has no Málaga date — so routing to a non-earning box office is forced, not chosen. Keep 'source' on the STABLE season index, never a dated page.",
    "acts": {
+    "tomatito": {
+     "url": "https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas",
+     "prefer": "map",
+     "date": "09/12/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. unientradas page rendered 18 Oct: TOMATITO (Un paseo), Teatro Cervantes, Miercoles 09/12/2026 20:00, Ver precios + sector picker live, not Agotado. Not commissioned. RETIRE after 2026-12-09."
+    },
     "antonio sanchez birdman live": {
      "url": "https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma",
      "prefer": "map",
@@ -3713,6 +3745,18 @@
    "source": "https://feverup.com/en/malaga/venue/sala-unicaja-de-conciertos-maria-cristina",
    "note": "Added 2026-07-29 (Sofia). Sala Fundación Unicaja Mª Cristina, Calle Marqués de Valdecañas 2, Málaga — 1871 hall built on a 15th-c Franciscan monastery, listed as a monument since 2010 and rated among Spain's best natural acoustics; classical, chamber, choral and acoustic sets, plus its own Oct-May season from Fundación Unicaja. Málaga's SECOND Candlelight venue after Gran Hotel Miramar: Coldplay & Imagine Dragons (532802), Queen vs ABBA (182969), Michael Jackson (701012), Adele (701011), Serrat (129317), Christmas Soundtracks — all Fever-ticketed, so tracked affiliate links already. Several are in fever_scrape's 'verified but beyond the 30-day window' list and will land from ~2026-08-20 onward; added BEFORE they arrive so the rows resolve to a known venue. TWO KEYS, AND THE BARE WORD 'unicaja' IS DELIBERATELY NOT ONE OF THEM. Fever writes 'Sala Fundación Unicaja Mª Cristina' while its own listing pages use 'Sala Unicaja de Conciertos María Cristina', so one key cannot cover both — and a bare 'unicaja' key WOULD ALSO MATCH 'Castillo Sohail - Escenario Unicaja (Marenostrum)', the Fuengirola festival ground. _venue_lookup returns the FIRST key that matches, so a bare 'unicaja' key only resolved Castillo Sohail correctly by accident of dict ordering; re-sorting this file would have silently stolen Castillo Sohail from the 'marenostrum' entry and broken its prefer=eci routing (23 acts, a live revenue path). Hence 'fundacion unicaja' + 'unicaja de conciertos', neither of which appears in the Castillo Sohail string. 'maria cristina' alone is not usable either: it misses Fever's 'Mª' abbreviation. complete:false => NO phantom gate and NOT backfill-eligible. Deliberate: we do not hold this venue's full programme (it runs a long classical season we do not track), so a complete:true entry would DROP any real concert missing from the acts list. Its own season programme (PDF, Oct 2025-May 2026) is at fundacionunicaja.com if we ever want to carry the classical bill too.",
    "acts": {
+    "coral promusica": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-v-aniversario-coral-promusica/PROMOC26",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. unientradas page rendered 18 Oct: Sabado 24/10/2026 19:00 Sala Fundacion Unicaja Maria Cristina, live seat map. Price not read. Not commissioned. RETIRE after 2026-10-24."
+    },
+    "del pop al jazz pasando por queen": {
+     "url": "https://www.unientradas.es/es/espectaculo/del-pop-al-jazz-pasando-por-queen/PROMNOV26",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. unientradas page rendered 18 Oct: Sabado 14/11/2026 19:00 Sala Fundacion Unicaja Maria Cristina, live seat map. Price not read. Not commissioned. RETIRE after 2026-11-14."
+    },
     "concierto de halloween": {
      "url": "https://www.fundacionunicaja.com/event/concierto-de-halloween-de-la-joven-orquesta-y-orquesta-escuela-promusica/",
      "prefer": "map",
@@ -3896,6 +3940,30 @@
    "gate": false,
    "note": "LINK-OVERRIDE BLOCK, added 2026-08-31 — do NOT reorder, do NOT rename. WHY IT EXISTS: Sofía Ellar (25/09/2026, Sala La Trinchera) was dropped overnight as 'link goes to a different event'. She is REAL and ON SALE, but she does NOT sell through mutick, and the 'trinchera' block directly below is rewritten WHOLESALE from mutick.com/l/malaga every Monday by refresh_venue_map.py (it replaces blk['acts'] entirely), so an act typed into it by hand survives at most until the next refresh — that is the same trap documented in the 'cartel malaga' note. The key 'la trinchera' is NOT in refresh_venue_map.VENUES (which uses bare 'trinchera'), so nothing rewrites this block. ORDER MATTERS: it must stay ABOVE 'trinchera' — _venue_lookup returns the FIRST block whose key is a substring of the normalised venue, and 'trinchera' also matches 'sala la trinchera'. KNOWN AND ACCEPTED COST OF THAT: while this block sits first, a Trinchera row whose act is not listed here resolves to (key, None) and no longer picks up the mutick-derived url from the block below — harmless today (China Crisis already ships its own deep mutick link, and Damian Cordoba is captured earlier by the 'cartel malaga' block), and it cannot delete anything because complete:false and gate:false. TO RETIRE: delete this whole block once 25/09/2026 has passed, which restores the plain 'trinchera' behaviour. SELLER CHOICE, affiliates first (checked in Chrome 2026-08-31): entradas.com search for 'sofia ellar' returns no Málaga date; El Corte Inglés lists her only for Fuengirola and Sevilla, not this night; mutick.com/l/malaga carries only China Crisis, The Silencers and Clearwater Creedence Revival. No paying seller sells this night, so it routes to the box-office ticketer, which earns nothing and is the right destination anyway. DESTINATION BROWSER-CONFIRMED 2026-08-31: tomaticket.es shows 'Sofia Ellar en Málaga, 25/09/2026, Sala Trinchera, C. Parauta 25, 29006 Málaga', 'Viernes 25 de Septiembre de 2026', with a live 'COMPRAR ENTRADAS - DESDE: 27,50 €' control. tomaticket.es is already in trusted_hosts. prefer:'map' because the calendar's own link is deep and rule 2 would otherwise leave the wrong page in place.",
    "acts": {
+    "migue de antilopez": {
+     "url": "https://www.taquilla.com/entradas/antilopez?t10cityorder=M%C3%A1laga",
+     "prefer": "map",
+     "date": "07/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). Taquilla artist page read in the browser 18 Oct: 'Malaga: Sala La Trinchera - 7 de Noviembre de 2026', Sabado 07 Nov, from 20,00 EUR, 'Ver' button. Multi-city page (Taquilla has no per-date URL). Not commissioned. RETIRE after 2026-11-07."
+    },
+    "homenaje especial": {
+     "url": "https://www.taquilla.com/entradas/hombres-b-tribut-a-hombres-g?t10cityorder=M%C3%A1laga",
+     "prefer": "map",
+     "date": "30/10/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). Taquilla artist page read in the browser 18 Oct: 'HOMENAJE ESPECIAL: EL CANTO DEL LOCO & HOMBRES G - MALAGA', Sala La Trinchera, Viernes 30 Oct, from 15,00 EUR, 'Ver' button (same event also listed under the Recuerdos Locos page from 13,00). Multi-city page. Not commissioned. RETIRE after 2026-10-30."
+    },
+    "catupecu machu": {
+     "url": "https://www.entradas.com/event/catupecu-machu-sala-la-trinchera-21957902/",
+     "prefer": "map",
+     "date": "05/12/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. entradas.com event 21957902, Sat 5 Dec 2026 21:00, Entrada General 38,99 EUR, selector live (Sofia screenshots 6 and 18 Oct). Commissioned via Awin 24761. Yellow \"Hubo cambios\" notice not read. RETIRE after 2026-12-05."
+    },
+    "santero y los muchachos 28/11/2026": {
+     "url": "https://www.enterticket.es/eventos/santero-y-los-muchachos-en-la-trinchera-de-malaga-2026-250069",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. Enterticket event 250069, 28 Nov 2026, doors 20:30 show 21:30, ENTRADA GENERAL 25,00 EUR (Sofia screenshots 18 Oct). DATE-KEYED so the 21 Nov calendar row (no Malaga date on Taquilla, probably wrong) is NOT pinned. Not commissioned. RETIRE after 2026-11-28."
+    },
     "plastic woods": {
      "url": "https://ticketandroll.com/evento/plastic-woods-presentacion-oficial-de-mirrors-groal-16-Oct",
      "prefer": "map",
@@ -4175,6 +4243,12 @@
    "gate": false,
    "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-08-28 (browser): ANDRES KOI, SAB 19 SEP 21:00, 25 EUR - searched for a buyable page after the event was dropped for 'link goes to a different event'. CAUSE CONFIRMED: conciertos.club's own Andres Koi page carries NO buy control of its own; the two 'Comprar entradas' buttons ON that page belong to OTHER events (Fauces at Sala Core, and Apartamentos Acapulco at this same venue), which is exactly how a neighbouring event's link got attached. On the venue's listing every other night has a COMPRAR ENTRADAS button and Andres Koi alone has none. NO SELLER FOUND, affiliates first: El Corte Ingles search 'andres koi' = 0 results; Ticketmaster.es finds the artist but 'There are no upcoming events in Spain' (only an international 25 Oct date); Fever's own Sala Marte venue page lists no Sala Marte concerts at all; tomaticket's Andres Koi artist page lists Madrid only; taquilla.com/malaga/sala-marte-malaga does not list him; wegow.com/es/conciertos/andres-koi 404s; entradas.conciertos.club has no such event; the venue's own salamartemalaga.com is an empty placeholder. The ONLY offers are RESALE - ticketle/StubHub from 130 EUR against a 25 EUR face - which is not a seller to route a reader to. DELIBERATELY NOT BLOCKLISTED: the gig is real and dated, so it must return the moment the promoter opens sales; leaving it un-blocklisted keeps it in the daily re-check. | 2026-08-31 SELLER FOUND, and the live link was WORSE than none: the site had been routing this gig to ticketle.es/…/event/718150, which is a RESALE aggregator — its own page reads 'Tickets are sold by our partner sellers', 'BUY TICKETS StubHub · from 130 EUR' against a 25 EUR face. That is a 5x markup on a site whose headline is 'Tickets, No Fees or Markups', so it had to go whatever the verifier said (the nightly run flags it HOST_REFUSED_US, which is in NEVER_DROP, so the resale link was staying live indefinitely). THE PRIMARY SELLER IS THE PROMOTER'S OWN SHOP: the gig poster credits 'ENTRADAS EN dOit!' / 'ORGANIZA Fiesta Roja', and dOit! Production sells it directly. CONFIRMED IN CHROME 2026-08-31: doitproduction.es/etn/andres-koi-malaga/ — 'Andrés Koi Málaga, 19 de septiembre de 2026, Sala Marte, Calle San Nicolás, Málaga', countdown running, GENERAL 25,00 EUR and Golden Ticket 50,00 EUR with quantity steppers and a 'Conseguir entradas' button, and it states 'Precios con gastos de gestión ya incluidos' (fees included). AFFILIATES CHECKED FIRST AND STILL EMPTY on 2026-08-31: El Corte Inglés has no Málaga date; entradas.com's own Sala Marte venue page (city/malaga-490/venue/sala-marte-91699) lists only VOLAVENT 06/02/2027 and LEVITANTS 12/02/2027; wegow 404s; tomaticket has no Málaga date; conciertos.club's venue page now errors. So this is a non-paying route chosen because no paying seller sells it — face value to the reader beats commission. prefer:'map' because the calendar's own link is deep (the resale page) and rule 2 would otherwise leave it alone.",
    "acts": {
+    "modelo de respuesta polar": {
+     "url": "https://entradas.crashmusic.es/event/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. Crash Music/Enterticket page read in the browser 18 Oct: 14 Nov 2026 doors 21:30 show 22:00, 28,60 EUR fees included, quantity selector live. Not commissioned. RETIRE after 2026-11-14."
+    },
     "malaga popfest": {
      "url": "https://entradium.com/es/events/malaga-popfest-2026-6-7-noviembre",
      "prefer": "map",
