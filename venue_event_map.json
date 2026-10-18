@@ -2932,6 +2932,12 @@
    "gate": false,
    "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false, gate:false: only upgrades a link. Palacio de Ferias y Congresos de Marbella. Its event pages link to the real ticketer (Kino Symphony -> ticketbest.eu; Dancing Machine -> aporentradas.com; Una Noche en la Habana -> entradasya.es, but that show was THU 8 OCT 2026 and online sales have ended, so the calendar row 7 Nov is WRONG and should stay dropped).",
    "acts": {
+    "dancing machine": {
+     "url": "https://www.servientradas.com/espectaculo/APORENTRADAS/40/dancing-machine-michael-jackson-tribute-marbella.html",
+     "prefer": "map",
+     "date": "08/11/2026",
+     "why": "PINNED 2026-10-18. Sofia found the working page in Edge: servientradas.com/espectaculo/APORENTRADAS/40/... (the organiser's own seller, APORENTRADAS): 'DANCING MACHINE MICHAEL JACKSON TRIBUTE - MARBELLA', Precio 36 EUR, COMPRAR, domingo 08 noviembre, Palacio de Congresos de Marbella 19:00, seat map live (most seats red = taken, a few green free, so it may sell out - recheck before promoting). The card used to carry /entradas/APORENTRADAS/58/dancing-machine-michael-jackson-tribute.html, which 403s/does not work. Taquilla (taquilla.com/entradas/dancing-machine-michael-jackson-tribute?event=33139532, 36 EUR) lists the same show as a fallback. Neither seller is commissioned."
+    },
     "kino symphony tribute": {
      "url": "https://www.ticketbest.eu/performances/una-estrella-llamada-sol-zvezda-po-imeni-solntse-marbella?event_id=1126",
      "prefer": "map",
