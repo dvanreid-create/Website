@@ -132,8 +132,8 @@
 "mles": 49.5
 },
 "miss-caffeina": {
-"name": "MISS CAFFEINA",
-"mles": 48.5
+"name": "Miss Caffeina",
+"mles": 72.6
 },
 "kream-ice-land-by-alvama-ice": {
 "name": "Kream Ice Land by Alvama Ice",
@@ -985,7 +985,7 @@
 },
 "raphael": {
 "name": "Raphael",
-"mles": 60.2
+"mles": 63.2
 },
 "the-jazz-room-marbella-new-orleans-tribute": {
 "name": "The Jazz Room Marbella: New Orleans Tribute",
@@ -1137,7 +1137,7 @@
 },
 "orquesta-filarmonica-de-malaga": {
 "name": "Orquesta Filarmónica de Málaga",
-"mles": 56.0
+"mles": 52.9
 },
 "el-saguaro": {
 "name": "El Saguaro",
@@ -1269,7 +1269,7 @@
 },
 "migue-de-antilopez": {
 "name": "Migue de Antílopez",
-"mles": 49.4
+"mles": 58.7
 },
 "aleron": {
 "name": "ALERON",
@@ -1321,7 +1321,7 @@
 },
 "miranda": {
 "name": "Miranda!",
-"mles": 66.9
+"mles": 52.9
 },
 "victor-manuel": {
 "name": "Víctor Manuel",
@@ -1349,7 +1349,7 @@
 },
 "haze": {
 "name": "Haze",
-"mles": 58.7
+"mles": 52.9
 },
 "melendi": {
 "name": "Melendi",
@@ -1397,7 +1397,7 @@
 },
 "santero-y-los-muchachos": {
 "name": "Santero y Los Muchachos",
-"mles": 49.4
+"mles": 58.7
 },
 "neverland-bari": {
 "name": "Neverland Bari",
@@ -1432,7 +1432,7 @@
 "mles": 49.4
 },
 "homer-el-mero-mero": {
-"name": "Homer el Mero Mero",
+"name": "Homer El Mero Mero",
 "mles": 61.0
 },
 "concierto-el-nido": {
@@ -1445,7 +1445,7 @@
 },
 "catupecu-machu": {
 "name": "Catupecu Machu",
-"mles": 48.5
+"mles": 66.0
 },
 "concierto-de-jazz-the-music-of-ivan-lins": {
 "name": "Concierto de Jazz: The Music of Ivan Lins",
@@ -1758,5 +1758,81 @@
 "sunset-cruise-in-malaga-and-dinner-at-the-port": {
 "name": "Sunset cruise in Malaga and dinner at the port",
 "mles": 0.0
+},
+"the-silverbeats": {
+"name": "The Silverbeats",
+"mles": 58.1
+},
+"coral-promusica": {
+"name": "Coral Promúsica",
+"mles": 0.0
+},
+"gala-a-beneficio-de-la-asociacion-tdah": {
+"name": "Gala a beneficio de la Asociación TDAH",
+"mles": 0.0
+},
+"con-cierto-gusto-iv": {
+"name": "Con-Cierto Gusto IV",
+"mles": 58.9
+},
+"orquesta-neso": {
+"name": "Orquesta NESO",
+"mles": 71.3
+},
+"con-fuoco-string-quartet": {
+"name": "Con Fuoco String Quartet",
+"mles": 0.0
+},
+"bernaldez-latin-jazz-orchestra": {
+"name": "Bernáldez Latin Jazz Orchestra",
+"mles": 59.1
+},
+"homenaje-especial-el-canto-del-loco-hombres-g": {
+"name": "Homenaje Especial: El Canto del Loco & Hombres G",
+"mles": 52.3
+},
+"encuentro-de-coros-rocieros": {
+"name": "Encuentro de Coros Rocieros",
+"mles": 69.4
+},
+"una-noche-en-la-habana": {
+"name": "Una Noche en la Habana",
+"mles": 49.4
+},
+"del-pop-al-jazz-pasando-por-queen": {
+"name": "Del Pop al Jazz pasando por Queen",
+"mles": 0.0
+},
+"kino-symphony-tribute": {
+"name": "Kino Symphony Tribute",
+"mles": 49.4
+},
+"trio-dmitrienco-natsvlishvili-y-kuchaeva": {
+"name": "Trío Dmitrienco, Natsvlishvili y Kuchaeva",
+"mles": 0.0
+},
+"hide-tyson-y-sokez": {
+"name": "Hide Tyson y Sokez",
+"mles": 59.5
+},
+"pitingo": {
+"name": "Pitingo",
+"mles": 65.2
+},
+"nu-metal-dance-revolution": {
+"name": "Nu_Metal/Dance_Revolution",
+"mles": 57.9
+},
+"tomatito": {
+"name": "Tomatito",
+"mles": 76.1
+},
+"concierto-ofm-programa-4": {
+"name": "Concierto OFM · Programa 4",
+"mles": 0.0
+},
+"la-navidad-de-manuel-periquin": {
+"name": "La Navidad de Manuel Periquín",
+"mles": 65.2
 }
 }

@@ -299,46 +299,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "The Best of the 80s",
-   "headBottom": true,
-   "expires": "2026-10-18",
-   "sub": {
-    "en": "Sun 18 Oct · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 18 oct · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 18 Okt · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 18 oct. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 18 okt · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 18 okt · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 18 okt · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 18 lokak. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
    "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -939,6 +899,46 @@
    "credit": "Photo: Kristopher Harris · CC BY 2.0"
   },
   {
+   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Hans Zimmer",
+   "headBottom": true,
+   "expires": "2026-11-22",
+   "sub": {
+    "en": "Sun 22 Nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Dom 22 nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "So 22 Nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "dim. 22 nov. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "sön 22 nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "søn 22 nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "søn 22 nov · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "su 22 marrask. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: Raph_PH · CC BY 2.0"
+  },
+  {
    "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -1206,6 +1206,86 @@
     "fi": "su 6 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Hans Zimmer",
+   "headBottom": true,
+   "expires": "2026-12-08",
+   "sub": {
+    "en": "Tue 8 Dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Mar 8 dic · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Di 8 Dez · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "mar. 8 déc. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "tis 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "tir 8 des · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "tir 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "ti 8 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: Raph_PH · CC BY 2.0"
+  },
+  {
+   "photo": "/assets/tiles/ext-5ac58627f281af07.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Ennio Morricone",
+   "headBottom": true,
+   "expires": "2026-12-08",
+   "sub": {
+    "en": "Tue 8 Dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Mar 8 dic · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Di 8 Dez · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "mar. 8 déc. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "tis 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "tir 8 des · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "tir 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "ti 8 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=198778&u=https%3A%2F%2Ffeverup.com%2Fm%2F198778&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
