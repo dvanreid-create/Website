@@ -2857,6 +2857,86 @@
      "venue_name": "Santero y Los Muchachos",
      "genre": "Rock & Indie",
      "why": "ADDED 2026-10-18 (Sofia sent her Edge screenshot of the Enterticket page; dropped by the 18 Oct link check, CANNOT_FIX, session limit). Page: 'Santero y Los Muchachos en La Trinchera de Malaga 2026', 28 NOV 2026, doors 20:30h, show 21:30h, C. Parauta 25. Ticket widget seen in Sofia's second screenshot 2026-10-18: ENTRADA GENERAL 25,00 EUR (+18), quantity selector live. The calendar also holds a 21 Nov Santero row: Taquilla lists no 21 Nov Malaga date, so that row is probably wrong (NOT stamped). NOT commissioned. RETIRE after 2026-11-28."
+    },
+    "duo ballix 12 nov": {
+     "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
+     "prefer": "map",
+     "date": "12/11/2026",
+     "time": "20:00",
+     "price": "10.00 EUR",
+     "city": "Nerja",
+     "venue": "Centro Cultural Villa de Nerja",
+     "venue_name": "Dúo Ballix — Música española para violonchelo y piano",
+     "genre": "Classical",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: Duo Ballix - Musica espanola para violonchelo y piano, 12/11/2026 20:00, 10,00 EUR, buy control present. THE CALENDAR ROW SAYS 10 DEC (dropped WRONG_EVENT): Giglon says 12 Nov, so this adds the real night; the 10 Dec row stays dropped. RETIRE after 2026-11-12."
+    },
+    "nu metal dance revolution 6 dic": {
+     "url": "https://www.taquilla.com/entradas/nu_metal-dance_revolution",
+     "prefer": "map",
+     "date": "06/12/2026",
+     "price": "Desde 15,00 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Nu_Metal/Dance_Revolution",
+     "genre": "Rock",
+     "why": "ADDED 2026-10-18 (Sofia: check yourself). Taquilla artist page nu_metal-dance_revolution, read in the built-in browser: Sala La Trinchera, Malaga, DOMINGO 06 DIC, from 15,00 EUR, Ver button. THE CALENDAR ROW SAYS SAT 5 DEC (dropped CANNOT_FIX): Taquilla says Sunday 6 Dec, so this adds the 6 Dec night; the 5 Dec row stays dropped. If the show is really 5 Dec, delete this entry. Not commissioned. RETIRE after 2026-12-06."
+    }
+   }
+  },
+  "congresos de marbella": {
+   "source": "https://www.marbellacongresos.com/eventos",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false, gate:false: only upgrades a link. Palacio de Ferias y Congresos de Marbella. Its event pages link to the real ticketer (Kino Symphony -> ticketbest.eu; Dancing Machine -> aporentradas.com; Una Noche en la Habana -> entradasya.es, but that show was THU 8 OCT 2026 and online sales have ended, so the calendar row 7 Nov is WRONG and should stay dropped).",
+   "acts": {
+    "kino symphony tribute": {
+     "url": "https://www.ticketbest.eu/performances/una-estrella-llamada-sol-zvezda-po-imeni-solntse-marbella?event_id=1126",
+     "prefer": "map",
+     "date": "15/11/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). The Palacio de Ferias y Congresos de Marbella's own event page (marbellacongresos.com/eventos/kino-symphony-tribute) links WEB to this Ticket Best Europe page; read in the built-in browser 18 Oct: '15 nov 2026, 20:00, Palacio de Congresos Marbella (AUDITORIUM B)', Estonian-language 'Osta pilet' (buy ticket) page, no price shown. The calendar row carried only marbellacongresos.com/eventos (generic). Not commissioned. RETIRE after 2026-11-15."
+    }
+   }
+  },
+  "villa de nerja": {
+   "source": "https://www.giglon.com/sala/CCVilladeNerja",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false and gate:false: it can only upgrade a link, never delete or inject. Centro Cultural Villa de Nerja ticketing = Giglon (giglon.com/sala/CCVilladeNerja lists its events). The sweep captured only the season poster PDF (cultura.nerja.es/.../cartel-oct-dic-2026-ccvn-1.pdf) as every Nerja row's ticket link, so every one was dropped (WRONG_EVENT / CANNOT_FIX). Giglon had these on 18 Oct: Silverbeats, TDAH gala, NESO 25 Oct, Bernaldez, Coros Pena Nerjena, A puro tango, Duo Ballix (12 Nov, NOT the 10 Dec in the calendar), plus Vicky King Band, Madama Butterfly, Ignacio Andreu, Las nanas segun Lorca, Los guardianes del verso. NOT on Giglon 18 Oct: Santa Cecilia 23 Nov, El pianista de la mano izquierda 26 Nov, ADN Protegidas 27 Nov, Dia Mundial del Tango 11 Dec, NESO Navidad 13 Dec, Coros de Navidad 13 Dec.",
+   "acts": {
+    "silverbeats": {
+     "url": "https://www.giglon.com/evento/the-silverbeats-beatles-tribute",
+     "prefer": "map",
+     "date": "23/10/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: The Silverbeats - Beatles Tribute, 23/10/2026 20:00, 15,00 EUR, buy control present. RETIRE after 2026-10-23."
+    },
+    "tdah": {
+     "url": "https://www.giglon.com/evento/gala-a-beneficio-de-la-asociacion-tdah",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: Gala a beneficio de la Asociacion TDAH, 24/10/2026 20:00, price 'Consultar'. RETIRE after 2026-10-24."
+    },
+    "neso concierto de musica espanola": {
+     "url": "https://www.giglon.com/evento/neso-orchestra-spanish-music-concert",
+     "prefer": "map",
+     "date": "25/10/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: NESO Orchestra - Spanish Music Concert, 25/10/2026 (page shows 12:00), 15,00 EUR. KEY IS DELIBERATELY LONG so the 13 Dec NESO Christmas row is NOT linked to this page. RETIRE after 2026-10-25."
+    },
+    "bernaldez latin jazz orchestra": {
+     "url": "https://www.giglon.com/evento/bernaldez-latin-jazz-orchestra-noche-habanera",
+     "prefer": "map",
+     "date": "29/10/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: Bernaldez Latin Jazz Orchestra - Noche Habanera, 29/10/2026 20:00, 18,00 EUR. RETIRE after 2026-10-29."
+    },
+    "coros rocieros": {
+     "url": "https://www.giglon.com/evento/encuentro-de-coros-de-la-pena-nerjena",
+     "prefer": "map",
+     "date": "31/10/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: Encuentro de Coros de la Pena Nerjena, 31/10/2026 20:00, price 'Consultar' (calendar calls it Coros Rocieros). RETIRE after 2026-10-31."
+    },
+    "a puro tango": {
+     "url": "https://www.giglon.com/evento/a-puro-tango",
+     "prefer": "map",
+     "date": "19/11/2026",
+     "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: A puro tango, 19/11/2026 20:00, 20,00 EUR. RETIRE after 2026-11-19."
     }
    }
   },
@@ -2884,6 +2964,20 @@
      "prefer": "map",
      "date": "09/12/2026",
      "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). WHY HERE and not only in sweeplost: the calendar row exists but carries a generic listing link; _venue_lookup never matches the sweeplost block, so a sweeplost pin neither changes that link nor protects the row from the link-check drop (proof: El Nido ships taquilla.com/malaga/sala-marte-malaga although sweeplost holds its Enterticket page). A pin in the venue's own block does both. unientradas page rendered 18 Oct: TOMATITO (Un paseo), Teatro Cervantes, Miercoles 09/12/2026 20:00, Ver precios + sector picker live, not Agotado. Not commissioned. RETIRE after 2026-12-09."
+    },
+    "part britten y elgar 10/12/2026": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-5/26-27OFM05",
+     "prefer": "map",
+     "date": "10/12/2026",
+     "time": "20:00",
+     "why": "BROWSER-CONFIRMED 2026-10-18 on orquestafilarmonicademalaga.com/concierto/programa-05-a2027: Programa 05 = Arvo Part Cantus in memoriam Benjamin Britten, Britten Concierto para violin (Leia Zhu), Elgar Enigma; dir. Jose Luis Gomez; Teatro Cervantes Thu 10 + Fri 11 Dec 2026 20:00. The calendar labels it 'Programa 4' - WRONG (Programa 4 is Shostakovich/Beethoven, 12-13 Nov). Date-keyed so the Nov Programa 4 rows are not linked here."
+    },
+    "part britten y elgar 11/12/2026": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-5/26-27OFM05",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "time": "20:00",
+     "why": "BROWSER-CONFIRMED 2026-10-18 on orquestafilarmonicademalaga.com/concierto/programa-05-a2027: Programa 05 = Arvo Part Cantus in memoriam Benjamin Britten, Britten Concierto para violin (Leia Zhu), Elgar Enigma; dir. Jose Luis Gomez; Teatro Cervantes Thu 10 + Fri 11 Dec 2026 20:00. The calendar labels it 'Programa 4' - WRONG (Programa 4 is Shostakovich/Beethoven, 12-13 Nov). Date-keyed so the Nov Programa 4 rows are not linked here."
     },
     "antonio sanchez birdman live": {
      "url": "https://www.unientradas.es/es/espectaculo/antonio-sanchez-birdman-live/26-27AntonBirdma",
@@ -3940,6 +4034,12 @@
    "gate": false,
    "note": "LINK-OVERRIDE BLOCK, added 2026-08-31 — do NOT reorder, do NOT rename. WHY IT EXISTS: Sofía Ellar (25/09/2026, Sala La Trinchera) was dropped overnight as 'link goes to a different event'. She is REAL and ON SALE, but she does NOT sell through mutick, and the 'trinchera' block directly below is rewritten WHOLESALE from mutick.com/l/malaga every Monday by refresh_venue_map.py (it replaces blk['acts'] entirely), so an act typed into it by hand survives at most until the next refresh — that is the same trap documented in the 'cartel malaga' note. The key 'la trinchera' is NOT in refresh_venue_map.VENUES (which uses bare 'trinchera'), so nothing rewrites this block. ORDER MATTERS: it must stay ABOVE 'trinchera' — _venue_lookup returns the FIRST block whose key is a substring of the normalised venue, and 'trinchera' also matches 'sala la trinchera'. KNOWN AND ACCEPTED COST OF THAT: while this block sits first, a Trinchera row whose act is not listed here resolves to (key, None) and no longer picks up the mutick-derived url from the block below — harmless today (China Crisis already ships its own deep mutick link, and Damian Cordoba is captured earlier by the 'cartel malaga' block), and it cannot delete anything because complete:false and gate:false. TO RETIRE: delete this whole block once 25/09/2026 has passed, which restores the plain 'trinchera' behaviour. SELLER CHOICE, affiliates first (checked in Chrome 2026-08-31): entradas.com search for 'sofia ellar' returns no Málaga date; El Corte Inglés lists her only for Fuengirola and Sevilla, not this night; mutick.com/l/malaga carries only China Crisis, The Silencers and Clearwater Creedence Revival. No paying seller sells this night, so it routes to the box-office ticketer, which earns nothing and is the right destination anyway. DESTINATION BROWSER-CONFIRMED 2026-08-31: tomaticket.es shows 'Sofia Ellar en Málaga, 25/09/2026, Sala Trinchera, C. Parauta 25, 29006 Málaga', 'Viernes 25 de Septiembre de 2026', with a live 'COMPRAR ENTRADAS - DESDE: 27,50 €' control. tomaticket.es is already in trusted_hosts. prefer:'map' because the calendar's own link is deep and rule 2 would otherwise leave the wrong page in place.",
    "acts": {
+    "hide tyson": {
+     "url": "https://www.taquilla.com/entradas/hide-tyson",
+     "prefer": "map",
+     "date": "27/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia: 'check all of the above yourself'). Taquilla artist page read in the built-in browser 18 Oct: 'Concierto Hide Tyson y Sokez en Malaga', Sala La Trinchera, Viernes 27 Nov, from 15,00 EUR, Ver button (the page also lists Madrid; Sokez has its own page /entradas/sokez). Multi-city page. Not commissioned. RETIRE after 2026-11-27."
+    },
     "migue de antilopez": {
      "url": "https://www.taquilla.com/entradas/antilopez?t10cityorder=M%C3%A1laga",
      "prefer": "map",
@@ -4243,6 +4343,12 @@
    "gate": false,
    "note": "Sala Marte, C. San Nicolas 2, Malaga city. Independent room, indie / hip-hop / rock / electronic, roughly 350 cap (capacity NOT independently verified). The strongest gap in the old map: 10 dated shows confirmed on 2026-08-21 running 17 Sep 2026 to 12 Feb 2027 - Sara Hebe + F.R.A.C., Apartamentos Acapulco, Andres Koi, Querido, Jota Carajota, Carmen Ferre, Mala Gestion, Rata, Rebe, Levitants. NOTE: a search snippet claimed a 'Malaga Popfest 27-29 Aug 2026' here; the venue page shows NOTHING before 17 Sep, so that claim is UNCONFIRMED and was not relied on. Source is the venue's page on conciertos.club, a server-rendered aggregator that lists date, time, act, genre, price and a ticket link. VERIFIED readable 2026-08-21 (the venue's own site was NOT checked). complete:false and gate:false are DELIBERATE and must stay: an aggregator never carries a venue's whole programme, so arming the phantom gate here would DELETE real gigs it simply has not indexed - the same reasoning as the trinchera block. acts is empty on purpose: backfill_calendar only injects from its own WHITELIST, so an empty block adds nothing and simply lets the sweep's finds be recognised. | 2026-08-28 (browser): ANDRES KOI, SAB 19 SEP 21:00, 25 EUR - searched for a buyable page after the event was dropped for 'link goes to a different event'. CAUSE CONFIRMED: conciertos.club's own Andres Koi page carries NO buy control of its own; the two 'Comprar entradas' buttons ON that page belong to OTHER events (Fauces at Sala Core, and Apartamentos Acapulco at this same venue), which is exactly how a neighbouring event's link got attached. On the venue's listing every other night has a COMPRAR ENTRADAS button and Andres Koi alone has none. NO SELLER FOUND, affiliates first: El Corte Ingles search 'andres koi' = 0 results; Ticketmaster.es finds the artist but 'There are no upcoming events in Spain' (only an international 25 Oct date); Fever's own Sala Marte venue page lists no Sala Marte concerts at all; tomaticket's Andres Koi artist page lists Madrid only; taquilla.com/malaga/sala-marte-malaga does not list him; wegow.com/es/conciertos/andres-koi 404s; entradas.conciertos.club has no such event; the venue's own salamartemalaga.com is an empty placeholder. The ONLY offers are RESALE - ticketle/StubHub from 130 EUR against a 25 EUR face - which is not a seller to route a reader to. DELIBERATELY NOT BLOCKLISTED: the gig is real and dated, so it must return the moment the promoter opens sales; leaving it un-blocklisted keeps it in the daily re-check. | 2026-08-31 SELLER FOUND, and the live link was WORSE than none: the site had been routing this gig to ticketle.es/…/event/718150, which is a RESALE aggregator — its own page reads 'Tickets are sold by our partner sellers', 'BUY TICKETS StubHub · from 130 EUR' against a 25 EUR face. That is a 5x markup on a site whose headline is 'Tickets, No Fees or Markups', so it had to go whatever the verifier said (the nightly run flags it HOST_REFUSED_US, which is in NEVER_DROP, so the resale link was staying live indefinitely). THE PRIMARY SELLER IS THE PROMOTER'S OWN SHOP: the gig poster credits 'ENTRADAS EN dOit!' / 'ORGANIZA Fiesta Roja', and dOit! Production sells it directly. CONFIRMED IN CHROME 2026-08-31: doitproduction.es/etn/andres-koi-malaga/ — 'Andrés Koi Málaga, 19 de septiembre de 2026, Sala Marte, Calle San Nicolás, Málaga', countdown running, GENERAL 25,00 EUR and Golden Ticket 50,00 EUR with quantity steppers and a 'Conseguir entradas' button, and it states 'Precios con gastos de gestión ya incluidos' (fees included). AFFILIATES CHECKED FIRST AND STILL EMPTY on 2026-08-31: El Corte Inglés has no Málaga date; entradas.com's own Sala Marte venue page (city/malaga-490/venue/sala-marte-91699) lists only VOLAVENT 06/02/2027 and LEVITANTS 12/02/2027; wegow 404s; tomaticket has no Málaga date; conciertos.club's venue page now errors. So this is a non-paying route chosen because no paying seller sells it — face value to the reader beats commission. prefer:'map' because the calendar's own link is deep (the resale page) and rule 2 would otherwise leave it alone.",
    "acts": {
+    "space surimi": {
+     "url": "https://www.taquilla.com/entradas/space-surimi",
+     "prefer": "map",
+     "date": "31/10/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia: 'check all of the above yourself'). Taquilla artist page read in the built-in browser 18 Oct: 'Space Surimi en Malaga', Sala Classic Malagueta (C. San Nicolas 2 = the Sala Marte building), Sabado 31 Oct 22:00, from 12,00 EUR, Ver button. Multi-city page (also Sevilla). Not commissioned. RETIRE after 2026-10-31."
+    },
     "modelo de respuesta polar": {
      "url": "https://entradas.crashmusic.es/event/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre",
      "prefer": "map",
