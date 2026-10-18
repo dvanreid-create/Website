@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "count": 104,
   "items": [
     {
@@ -508,20 +508,6 @@
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
     },
     {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
-    },
-    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -822,7 +808,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €18",
+      "p": "From €17",
       "img": "e4d0cb1e-677c-11ee-95ff-d6a9f1426772",
       "url": "https://feverup.com/m/141791/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141791&u=https%3A%2F%2Ffeverup.com%2Fm%2F141791&intsrc=CATF_15532",
@@ -1136,6 +1122,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=590899&u=https%3A%2F%2Ffeverup.com%2Fm%2F590899&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy 4 wines and 4 tapas in front of the sea in Malaga. Get your tickets today! Get your tickets today!"
+    },
+    {
+      "sku": "503719",
+      "n": "🎨✨ Neon Art&Wine: Fluorescent Painting Workshop with Unlimited Wine for 2 Hours",
+      "c": "food",
+      "cat": "Food & Drink",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €27",
+      "img": "534658f0-a05c-11f1-b4ba-96207a84cde6.jpeg",
+      "url": "https://feverup.com/m/503719/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=503719&u=https%3A%2F%2Ffeverup.com%2Fm%2F503719&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Enjoy an immersive artistic experience with wine and fluorescent paint at Neón Art&Wine at Bspark Málaga. Get your tickets now!"
     },
     {
       "sku": "545188",

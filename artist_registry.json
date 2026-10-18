@@ -1072,7 +1072,7 @@
 "mles": 74.7
 },
 "concierto-ofm-programa-2": {
-"name": "Concierto OFM Programa 2",
+"name": "Concierto OFM · Programa 2",
 "mles": 52.5
 },
 "concierto-v-aniversario-coral-promusica": {
@@ -1080,7 +1080,7 @@
 "mles": 61.6
 },
 "concierto-ofm-programa-3": {
-"name": "Concierto OFM Programa 3",
+"name": "Concierto OFM · Programa 3",
 "mles": 52.5
 },
 "lady-punk": {
@@ -1288,7 +1288,7 @@
 "mles": 61.3
 },
 "grupo-liberacion": {
-"name": "Grupo Liberación",
+"name": "GRUPO LIBERACIÓN",
 "mles": 48.0
 },
 "milongas-extremas": {
@@ -1376,7 +1376,7 @@
 "mles": 50.7
 },
 "salistre": {
-"name": "Salistre",
+"name": "SALISTRE",
 "mles": 61.7
 },
 "hide-tyson": {
@@ -1564,7 +1564,7 @@
 "mles": 56.4
 },
 "un-paseo-por-tu-vida": {
-"name": "Un Paseo Por Tu Vida",
+"name": "Un Paseo por tu Vida",
 "mles": 49.7
 },
 "salma": {
@@ -1624,11 +1624,11 @@
 "mles": 0.0
 },
 "cyril-kamer": {
-"name": "CYRIL KAMER",
+"name": "Cyril Kamer",
 "mles": 48.5
 },
 "la-banda-sabinera": {
-"name": "LA BANDA SABINERA",
+"name": "La Banda Sabinera",
 "mles": 48.5
 },
 "blues-brothers-tribute-soul-mission": {
@@ -1662,5 +1662,93 @@
 "space-surimi": {
 "name": "Space Surimi",
 "mles": 61.6
+},
+"dualiszt": {
+"name": "DuaLiszt",
+"mles": 0.0
+},
+"mad-dogs": {
+"name": "Mad Dogs",
+"mles": 0.0
+},
+"duo-ambience": {
+"name": "Duo Ambience",
+"mles": 0.0
+},
+"los-sabineros-regresan-a-malaga": {
+"name": "Los Sabineros regresan a Málaga",
+"mles": 0.0
+},
+"antonio-ortiz": {
+"name": "Antonio Ortiz",
+"mles": 0.0
+},
+"dancing-machine": {
+"name": "Dancing Machine",
+"mles": 0.0
+},
+"the-80s-show-by-neon-collective": {
+"name": "The 80s Show by Neon Collective",
+"mles": 0.0
+},
+"mr-proper": {
+"name": "Mr. Proper",
+"mles": 0.0
+},
+"mito-sonoro": {
+"name": "Mito Sonoro",
+"mles": 0.0
+},
+"michael-s-legacy": {
+"name": "Michael's Legacy",
+"mles": 0.0
+},
+"tributo-a-the-doors": {
+"name": "Tributo a The Doors",
+"mles": 0.0
+},
+"mestizaje-redescubriendo-el-mundo-del-flamenco": {
+"name": "Mestizaje: Redescubriendo el Mundo del Flamenco",
+"mles": 0.0
+},
+"tomasito-garcia-y-sus-desensamblados": {
+"name": "Tomasito García y sus Desensamblados",
+"mles": 0.0
+},
+"clearwater-creedence-revival": {
+"name": "Clearwater Creedence Revival",
+"mles": 0.0
+},
+"chanwei": {
+"name": "Chanwei",
+"mles": 0.0
+},
+"gonzalo-alhambra": {
+"name": "Gonzalo Alhambra",
+"mles": 0.0
+},
+"so-perfect-en-concierto": {
+"name": "SO PERFECT en Concierto",
+"mles": 0.0
+},
+"xiv-aniversario-de-la-sociedad-del-blues": {
+"name": "XIV Aniversario de la Sociedad del Blues",
+"mles": 0.0
+},
+"red-zeppelin": {
+"name": "Red Zeppelin",
+"mles": 0.0
+},
+"asi-canta-jerez-en-navidad": {
+"name": "Así Canta Jerez en Navidad",
+"mles": 0.0
+},
+"jalezz": {
+"name": "Jalezz",
+"mles": 0.0
+},
+"martin-sanchez-y-los-corazones-salvajes": {
+"name": "Martín Sánchez y Los Corazones Salvajes",
+"mles": 0.0
 }
 }
