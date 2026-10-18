@@ -1,26 +1,6 @@
 {
   "clips": [
     {
-      "act": "Niña Pastori",
-      "yt": "nSkUCCSv1YQ",
-      "where": "17 Oct · Auditorio Municipal Príncipe de Asturias, Torremolinos"
-    },
-    {
-      "act": "Sôber",
-      "yt": "Qj8nM5WWYD8",
-      "where": "17 Oct · Sala París 15, Málaga"
-    },
-    {
-      "act": "Mundo Chillón",
-      "yt": "EjN1FnFEr_c",
-      "where": "17 Oct · La Garrapata, Málaga"
-    },
-    {
-      "act": "Benzú",
-      "yt": "JzuF9vsjIuY",
-      "where": "17 Oct · La Cochera Cabaret, Málaga"
-    },
-    {
       "act": "Cristian de Moret",
       "yt": "nD18t58iZPg",
       "where": "18 Oct · Teatro Cervantes, Málaga"
@@ -39,6 +19,26 @@
       "act": "Patax",
       "yt": "R5mMRiiCwak",
       "where": "22 Oct · ELCAMM, Málaga"
+    },
+    {
+      "act": "No Te Va A Gustar",
+      "yt": "30oa0b2mdUo",
+      "where": "23 Oct · Sala París 15, Málaga"
+    },
+    {
+      "act": "Pedro Pastor",
+      "yt": "8WXW5PhuP1s",
+      "where": "23 Oct · La Cochera Cabaret, Málaga"
+    },
+    {
+      "act": "Malas Compañías",
+      "yt": "9qeujaCOYG8",
+      "where": "24 Oct · La Cochera Cabaret, Málaga"
+    },
+    {
+      "act": "Ojete Calor",
+      "yt": "HsZ6f-4zH-w",
+      "where": "24 Oct · Auditorio Municipal Príncipe de Asturias, Torremolinos"
     }
   ],
   "thumbs": {
