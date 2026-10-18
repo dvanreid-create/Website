@@ -1920,14 +1920,15 @@
      "why": "ADDED 2026-10-16 (Sofia: 'I want a 6 Nov row too, the link says 6 and 7 Nov'). Same festival and same page as the 7 Nov row: entradium.com 'MÁLAGA POPFEST 2026 (6-7 NOVIEMBRE)', Sala Marte, organiser Colectivo Boliparty, Abono General 50,00 EUR on sale (Early Bird 45,00 sold out), ONE abono covers both days. Start time NOT given on the page ('Fecha: ver info en tipo de entrada'), so none is shown. The calendar carries only the 7 Nov row; this injects 6 Nov. NOT commissioned. Retire after 2026-11-06."
     },
     "modelo de respuesta polar": {
-     "url": "https://www.enterticket.es/eventos/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre-838",
+     "url": "https://entradas.crashmusic.es/event/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre",
      "prefer": "map",
      "date": "14/11/2026",
      "time": "22:00",
+     "price": "28.60 EUR",
      "venue": "Sala Marte",
      "venue_name": "Modelo de Respuesta Polar",
      "genre": "Rock & Indie",
-     "why": "ADDED 2026-10-15 from Sofia's screenshot of the Enterticket page: 'Concierto Modelo de Respuesta Polar - Málaga - Sala Marte - Sábado 14 de noviembre', 22:00, doors 21:30, poster says 'Cambio de fecha 14/11'. Taquilla lists desde 26,00 EUR (price not read on the seller page). NOT commissioned. Retire after 2026-11-14."
+     "why": "PINNED 2026-10-18 (Sofia: keep pinning what you can prove): dropped by the 18 Oct link check (CANNOT_FIX: claude -p hit the session limit, not a dead link); absent from the live site. Crash Music page read in the browser 2026-10-18: 14 Nov 2026, apertura 21:30 inicio 22:00, Sala Marte, 28,60 EUR (GG incluidos). Entradas via Enterticket widget, quantity selector live, not Agotado. NOT commissioned (Crash Music/Enterticket pays nothing). RETIRE after 14/11/2026."
     },
     "tussiwarriors": {
      "url": "https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248",
@@ -2800,6 +2801,28 @@
      "venue_name": "Raphael — Raphaelísimo Tour 2026",
      "genre": "Pop",
      "why": "PINNED 2026-10-18 (Sofia: pin the ones we know are good): the 18 Oct link check listed it as dropped (CANNOT_FIX: claude -p hit the session limit, not a dead link). ECI page read live 2026-10-18: Raphael - Raphaelisimo, 28 Nov 2026 21:00, Palacio de Deportes Jose Maria Martin Carpena, Desde 49,50 EUR, COMPRAR live. Earns (ECI/Awin 13034). RETIRE after 2026-11-28."
+    },
+    "miranda": {
+     "url": "https://entradas.crashmusic.es/event/concierto-miranda-malaga-sala-circus-sabado-14-de-noviembre",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "21:00",
+     "price": "33.00 EUR",
+     "venue": "Sala Circus",
+     "venue_name": "Miranda!",
+     "genre": "Pop",
+     "why": "PINNED 2026-10-18 (Sofia: keep pinning what you can prove): dropped by the 18 Oct link check (CANNOT_FIX: claude -p hit the session limit, not a dead link); absent from the live site. Crash Music page read in the browser 2026-10-18: 14 Nov 2026, apertura 20:00 inicio 21:00, Sala Circus, 33,00 EUR (GG incluidos). Entradas via Enterticket widget, quantity selector live, not Agotado. NOT commissioned (Crash Music/Enterticket pays nothing). RETIRE after 14/11/2026."
+    },
+    "haze": {
+     "url": "https://entradas.crashmusic.es/event/concierto-haze-malaga-sala-circus-sabado-21-de-noviembre",
+     "prefer": "map",
+     "date": "21/11/2026",
+     "time": "21:00",
+     "price": "27.50 EUR",
+     "venue": "Sala Circus",
+     "venue_name": "Haze",
+     "genre": "Urban",
+     "why": "PINNED 2026-10-18 (Sofia: keep pinning what you can prove): dropped by the 18 Oct link check (CANNOT_FIX: claude -p hit the session limit, not a dead link); absent from the live site. Crash Music page read in the browser 2026-10-18: 21 Nov 2026, apertura 20:00 inicio 21:00, Sala Circus, 27,50 EUR (GG incluidos). Entradas via Enterticket widget, quantity selector live, not Agotado. NOT commissioned (Crash Music/Enterticket pays nothing). RETIRE after 21/11/2026."
     }
    }
   },
