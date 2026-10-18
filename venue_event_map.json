@@ -2823,6 +2823,28 @@
      "venue_name": "Haze",
      "genre": "Urban",
      "why": "PINNED 2026-10-18 (Sofia: keep pinning what you can prove): dropped by the 18 Oct link check (CANNOT_FIX: claude -p hit the session limit, not a dead link); absent from the live site. Crash Music page read in the browser 2026-10-18: 21 Nov 2026, apertura 20:00 inicio 21:00, Sala Circus, 27,50 EUR (GG incluidos). Entradas via Enterticket widget, quantity selector live, not Agotado. NOT commissioned (Crash Music/Enterticket pays nothing). RETIRE after 21/11/2026."
+    },
+    "miss caffeina": {
+     "url": "https://www.baila.fm/es/evento/miss-caffeina-gira-aniversario-detroit-malaga-2026",
+     "prefer": "map",
+     "date": "05/12/2026",
+     "time": "21:00",
+     "price": "Desde 29,70 EUR",
+     "venue": "Sala París 15",
+     "venue_name": "Miss Caffeina — Gira Aniversario Detroit",
+     "genre": "Pop",
+     "why": "ADDED 2026-10-18 (Sofia sent her Edge screenshot of the Baila.fm page; dropped by the 18 Oct link check, CANNOT_FIX, session limit). Page: 'MALAGA 05/12 MISS CAFFEINA GIRA ANIVERSARIO DETROIT', sab 05 dic 2026 21:00, Sala Paris 15 Malaga, DESDE 29,70 EUR, COMPRAR ENTRADAS button. NOT commissioned (Baila.fm). RETIRE after 2026-12-05."
+    },
+    "santero y los muchachos": {
+     "url": "https://www.enterticket.es/eventos/santero-y-los-muchachos-en-la-trinchera-de-malaga-2026-250069",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "21:30",
+     "price": "25.00 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Santero y Los Muchachos",
+     "genre": "Rock & Indie",
+     "why": "ADDED 2026-10-18 (Sofia sent her Edge screenshot of the Enterticket page; dropped by the 18 Oct link check, CANNOT_FIX, session limit). Page: 'Santero y Los Muchachos en La Trinchera de Malaga 2026', 28 NOV 2026, doors 20:30h, show 21:30h, C. Parauta 25. Ticket widget seen in Sofia's second screenshot 2026-10-18: ENTRADA GENERAL 25,00 EUR (+18), quantity selector live. The calendar also holds a 21 Nov Santero row: Taquilla lists no 21 Nov Malaga date, so that row is probably wrong (NOT stamped). NOT commissioned. RETIRE after 2026-11-28."
     }
    }
   },
