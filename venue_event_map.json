@@ -2858,6 +2858,50 @@
      "genre": "Rock & Indie",
      "why": "ADDED 2026-10-18 (Sofia sent her Edge screenshot of the Enterticket page; dropped by the 18 Oct link check, CANNOT_FIX, session limit). Page: 'Santero y Los Muchachos en La Trinchera de Malaga 2026', 28 NOV 2026, doors 20:30h, show 21:30h, C. Parauta 25. Ticket widget seen in Sofia's second screenshot 2026-10-18: ENTRADA GENERAL 25,00 EUR (+18), quantity selector live. The calendar also holds a 21 Nov Santero row: Taquilla lists no 21 Nov Malaga date, so that row is probably wrong (NOT stamped). NOT commissioned. RETIRE after 2026-11-28."
     },
+    "concierto ofm programa 4 12 nov": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-4/26-27OFM04",
+     "prefer": "map",
+     "date": "12/11/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto OFM Programa 4",
+     "price": "10,00 EUR",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-18. BROWSER-CONFIRMED: unientradas 26-27OFM04 renders 'CONCIERTO OFM PROGRAMA 4, 12 - 13 noviembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00'. OFM site: Programa 04 = Shostakovich Obertura festiva + Concierto n.1 piano/trompeta (Thomas Enhco), Beethoven Eroica, dir. Alondra de la Parra. The calendar had NO row for these nights. Name = the unientradas feed's own so the Monday feed does not duplicate it."
+    },
+    "concierto ofm programa 4 13 nov": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-4/26-27OFM04",
+     "prefer": "map",
+     "date": "13/11/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto OFM Programa 4",
+     "price": "10,00 EUR",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-18. BROWSER-CONFIRMED: unientradas 26-27OFM04 renders 'CONCIERTO OFM PROGRAMA 4, 12 - 13 noviembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00'. OFM site: Programa 04 = Shostakovich Obertura festiva + Concierto n.1 piano/trompeta (Thomas Enhco), Beethoven Eroica, dir. Alondra de la Parra. The calendar had NO row for these nights. Name = the unientradas feed's own so the Monday feed does not duplicate it."
+    },
+    "concierto ofm programa 5 10 dic": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-5/26-27OFM05",
+     "prefer": "map",
+     "date": "10/12/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto OFM Programa 5",
+     "price": "10,00 EUR",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-18. BROWSER-CONFIRMED: unientradas 26-27OFM05 renders 'CONCIERTO OFM PROGRAMA 5, 10 - 11 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00'. OFM site programa-05: Part Cantus in memoriam Britten, Britten violin concerto (Leia Zhu), Elgar Enigma, dir. Jose Luis Gomez. The calendar called it 'Programa 4 (Part, Britten y Elgar)' - WRONG; those two rows are blocked in not_music_blocklist.json."
+    },
+    "concierto ofm programa 5 11 dic": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-5/26-27OFM05",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto OFM Programa 5",
+     "price": "10,00 EUR",
+     "genre": "Classical",
+     "why": "ADDED 2026-10-18. BROWSER-CONFIRMED: unientradas 26-27OFM05 renders 'CONCIERTO OFM PROGRAMA 5, 10 - 11 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00'. OFM site programa-05: Part Cantus in memoriam Britten, Britten violin concerto (Leia Zhu), Elgar Enigma, dir. Jose Luis Gomez. The calendar called it 'Programa 4 (Part, Britten y Elgar)' - WRONG; those two rows are blocked in not_music_blocklist.json."
+    },
     "duo ballix 12 nov": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
@@ -2893,6 +2937,20 @@
      "prefer": "map",
      "date": "15/11/2026",
      "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). The Palacio de Ferias y Congresos de Marbella's own event page (marbellacongresos.com/eventos/kino-symphony-tribute) links WEB to this Ticket Best Europe page; read in the built-in browser 18 Oct: '15 nov 2026, 20:00, Palacio de Congresos Marbella (AUDITORIUM B)', Estonian-language 'Osta pilet' (buy ticket) page, no price shown. The calendar row carried only marbellacongresos.com/eventos (generic). Not commissioned. RETIRE after 2026-11-15."
+    }
+   }
+  },
+  "hard rock hotel marbella": {
+   "source": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false, gate:false: it can only upgrade a link. WHY: the Queenmania Fest card shipped the ECI CHECKOUT url (checkoutentradas.elcorteingles.es/#/open/checkout/product...) instead of the event page, because the earlier pin sat only in the sweeplost block, which never relinks existing rows.",
+   "acts": {
+    "queenmania fest": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
+     "prefer": "map",
+     "date": "13/11/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18. ECI event page read in the built-in browser 2026-10-18: 13 Nov 2026 20:00, Hard Rock Hotel Marbella, Desde 22,00 EUR, COMPRAR live. The live card had the ECI checkout url."
     }
    }
   },
@@ -4348,6 +4406,12 @@
      "prefer": "map",
      "date": "31/10/2026",
      "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia: 'check all of the above yourself'). Taquilla artist page read in the built-in browser 18 Oct: 'Space Surimi en Malaga', Sala Classic Malagueta (C. San Nicolas 2 = the Sala Marte building), Sabado 31 Oct 22:00, from 12,00 EUR, Ver button. Multi-city page (also Sevilla). Not commissioned. RETIRE after 2026-10-31."
+    },
+    "el nido": {
+     "url": "https://www.enterticket.es/eventos/concierto-el-nido-malaga-sala-marte-sabado-24-de-octubre-823069",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18. The live card shipped the Taquilla Sala Marte venue listing (taquilla.com/malaga/sala-marte-malaga), not the event, so the 18 Oct link check could not verify it (CANNOT_FIX). Enterticket event 823069 read in the built-in browser 2026-10-18: CONCIERTO EL NIDO, Sala Marte, 24 OCT 2026, 22:00h, doors 21:30h."
     },
     "modelo de respuesta polar": {
      "url": "https://entradas.crashmusic.es/event/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre",
