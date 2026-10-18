@@ -2960,6 +2960,34 @@
     }
    }
   },
+  "adolfo suarez": {
+   "source": "https://www.entradas.com/event/blues-brothers-tribute-soul-mission-palacio-de-congresos-y-exposiciones-adolfo-suarez-22225456/",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false, gate:false: it can only upgrade a link. Palacio de Congresos y Exposiciones Adolfo Suarez, Marbella.",
+   "acts": {
+    "blues brothers tribute soul mission marbella": {
+     "url": "https://www.entradas.com/event/blues-brothers-tribute-soul-mission-palacio-de-congresos-y-exposiciones-adolfo-suarez-22225456/",
+     "prefer": "map",
+     "date": "09/12/2026",
+     "why": "PINNED IN A REAL VENUE BLOCK 2026-10-18 (Sofia sent her Edge screenshots of both entradas.com pages). The live cards shipped the entradas.com MALAGA CITY page (entradas.com/city/malaga-490/) because the earlier entry sat only in the sweeplost block, which never relinks existing rows. Page: entradas.com event 22225456, miercoles 09/12/2026 20:00, MARBELLA, Palacio de Congresos y Exposiciones Adolfo Suarez, seat selection live (AUDITORIUM B 75,96 EUR shown)."
+    }
+   }
+  },
+  "fycma": {
+   "source": "https://www.entradas.com/event/blues-brothers-tribute-soul-mission-fycma-palacio-de-ferias-y-congresos-de-malaga-22225453/",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-18 (Sofia). complete:false, gate:false: it can only upgrade a link. FYCMA - Palacio de Ferias y Congresos de Malaga. Matches any venue string containing fycma; only the acts listed below are touched.",
+   "acts": {
+    "blues brothers tribute soul mission malaga": {
+     "url": "https://www.entradas.com/event/blues-brothers-tribute-soul-mission-fycma-palacio-de-ferias-y-congresos-de-malaga-22225453/",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "why": "PINNED IN A REAL VENUE BLOCK 2026-10-18 (Sofia sent her Edge screenshots of both entradas.com pages). The live cards shipped the entradas.com MALAGA CITY page (entradas.com/city/malaga-490/) because the earlier entry sat only in the sweeplost block, which never relinks existing rows. Page: entradas.com event 22225453, viernes 11/12/2026 20:00, MALAGA, Palacio de Ferias y Congresos de Malaga, banner 'Muy popular, alta demanda', Zona A Central 75,96 EUR shown."
+    }
+   }
+  },
   "villa de nerja": {
    "source": "https://www.giglon.com/sala/CCVilladeNerja",
    "complete": false,

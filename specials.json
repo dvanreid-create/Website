@@ -25,6 +25,24 @@
    "expires": "2027-08-13"
   },
   {
+   "label": "Falete",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-falete-malaga-43582435821796%2F",
+   "expires": "2026-10-31"
+  },
+  {
+   "label": "Servando & Florentino",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fservando-florentino-tour-espana-2026-se-buscan-vivos-o-inmortales-sala-paris-15-22147341%2F",
+   "expires": "2026-11-10"
+  },
+  {
+   "label": "Melón Diesel",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fmelon-diesel-la-gira-de-mr-bond-sala-paris-15-21491835%2F",
+   "expires": "2026-11-13"
+  },
+  {
    "label": "Pitingo — Navidades del Mundo",
    "program": "box office",
    "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-pitingo-navidades-del-mundo-velez-malaga%2F",
