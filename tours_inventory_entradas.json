@@ -1,6 +1,6 @@
 {
- "count": 14,
- "generated": "2026-10-18T04:02:43Z",
+ "count": 17,
+ "generated": "2026-10-19T05:32:51Z",
  "items": [
   {
    "sku": "entradas-circo-quiros",
@@ -14,6 +14,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fcirco-quiros%2F",
    "url": "https://www.entradas.com/en/artist/circo-quiros/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-gran-circo-del-agua",
+   "n": "Gran Circo del Agua",
+   "c": "family",
+   "cat": "Family",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €15.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/grancircoagua_222x222_promoh30.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fgran-circo-del-agua%2F",
+   "url": "https://www.entradas.com/en/artist/gran-circo-del-agua/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -106,7 +122,7 @@
    "v": "Torremolinos",
    "area": "Torremolinos",
    "p": "From €34",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/evo/2x2/2022/ritmoacaballo_316x400.jpg",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2023/RitmosCaballo2_222x222.jpg",
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fritmo-a-caballo%2F",
    "url": "https://www.entradas.com/en/artist/ritmo-a-caballo/",
@@ -179,6 +195,22 @@
    "idx": 1
   },
   {
+   "sku": "entradas-el-gran-showman-el-musical",
+   "n": "El Gran Showman, el musical",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €29.20",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/Gran_Showman_Musical.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fel-gran-showman-el-musical%2F",
+   "url": "https://www.entradas.com/en/artist/el-gran-showman-el-musical/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
    "sku": "entradas-music-circus-show-on-ice",
    "n": "Ice Show with Highlights of FROZEN 1&2",
    "c": "theatre",
@@ -222,6 +254,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsun-line%2F",
    "url": "https://www.entradas.com/en/artist/sun-line/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-la-bella-y-la-bestia-el-musical",
+   "n": "The Beauty And The Beast",
+   "c": "theatre",
+   "cat": "Musicals & Theatre",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €27.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/labellaylabestia_valladolid_222x222.png",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fla-bella-y-la-bestia-el-musical%2F",
+   "url": "https://www.entradas.com/en/artist/la-bella-y-la-bestia-el-musical/",
    "rating": 0,
    "nrev": 0,
    "idx": 1

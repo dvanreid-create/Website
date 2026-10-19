@@ -2509,16 +2509,16 @@
     }
   },
   "viator:5487366P1": {
-    "h": "eef4e0a4092bb585bee80ca02a71cac7",
+    "h": "33b43ed86bdcf07a3f225d4826b9f8d4",
     "names": {
-      "en": "Tour from Malaga: private excursion with transport and guide",
-      "es": "Tour desde Malaga: excursión privada con transporte y guía",
-      "de": "Tour ab Malaga: private Ausflug mit Transport und Reiseleiter",
-      "fr": "Circuit depuis Malaga : excursion privée avec transport et guide",
-      "sv": "Tur från Malaga: privat utflykt med transport och guide",
-      "no": "Tur fra Malaga: privat utflukt med transport og guide",
-      "da": "Tur fra Malaga: privat udflugt med transport og guide",
-      "fi": "Kierros Malagasta: yksityinen retki kuljetuksella ja oppaalla"
+      "en": "Tour from Malaga: private excursion with transport",
+      "es": "Tour desde Málaga: excursión privada con transporte",
+      "de": "Tour ab Malaga: private Ausflug mit Transport",
+      "fr": "Circuit depuis Malaga : excursion privée avec transport",
+      "sv": "Tur från Malaga: privat utflykt med transport",
+      "no": "Tur fra Malaga: privat utflukt med transport",
+      "da": "Tur fra Malaga: privat udflugt med transport",
+      "fi": "Kierros Malagasta: yksityinen retki kuljetuksella"
     }
   },
   "viator:356190P3": {
@@ -22451,16 +22451,16 @@
     }
   },
   "viator:5607081P13": {
-    "h": "b2715a942561deb921d0e1d5cf580f58",
+    "h": "5c68c4b050908eced6e3c8514d4b0f8b",
     "names": {
-      "en": "All Inclusive Tangier Private Guided Day Trip from Malaga",
-      "es": "Excursión privada de un día a Tánger con todo incluido desde Malaga",
-      "de": "All-Inclusive Tagesausflug nach Tanger mit privater Führung ab Malaga",
-      "fr": "Excursion privée tout compris d'une journée à Tanger depuis Malaga",
-      "sv": "Allt inkluderat privat guidad dagstur till Tangier från Malaga",
-      "no": "All Inclusive privat dagstur til Tanger fra Malaga",
-      "da": "All Inclusive privat guidet dagstur til Tangier fra Malaga",
-      "fi": "Kaiken sisältävä yksityinen opastettu päiväretki Tangeriin Malagasta"
+      "en": "Luxury All-Inclusive Private Day Trip from Malaga to Tangier",
+      "es": "Excursión privada de lujo todo incluido de un día desde Málaga a Tánger",
+      "de": "Luxuriöser All-Inclusive Private Tagesausflug von Malaga nach Tanger",
+      "fr": "Excursion privée tout compris de luxe à la journée de Malaga à Tanger",
+      "sv": "Lyxig allt-inkluderad privat dagsutflykt från Malaga till Tangier",
+      "no": "Luksuriøs heldekkende privat dagstur fra Malaga til Tangier",
+      "da": "Luksus all-inclusive privat dagstur fra Malaga til Tanger",
+      "fi": "Luksusluokan all-inclusive yksityinen päiväretki Malagasta Tangeriin"
     }
   },
   "viator:460190P2": {
@@ -22516,16 +22516,42 @@
     }
   },
   "viator:5607081P14": {
-    "h": "bda14d7264b5c65e996cb1e93283557b",
+    "h": "20a49fea66e92dc51c5791da0673b5c6",
     "names": {
-      "en": "Luxury Private Tangier Day Trip from Marbella",
-      "es": "Excursión privada de lujo de un día a Tánger desde Marbella",
-      "de": "Luxus privater Tagesausflug nach Tanger ab Marbella",
-      "fr": "Excursion privée de luxe d'une journée à Tanger depuis Marbella",
-      "sv": "Lyxig privat dagstur till Tangier från Marbella",
-      "no": "Luksus privat dagstur til Tanger fra Marbella",
-      "da": "Luksus privat dagstur til Tangier fra Marbella",
-      "fi": "Ylellinen yksityinen päiväretki Tangeriin Marbellasta"
+      "en": "Luxury Tangier Day Trip from Marbella Private Guided Tour",
+      "es": "Excursión de un día de lujo a Tánger desde Marbella, tour privado guiado",
+      "de": "Luxuriöser Tangier Tagesausflug ab Marbella, private geführte Tour",
+      "fr": "Excursion privée guidée de luxe à la journée à Tanger depuis Marbella",
+      "sv": "Lyxig dagsutflykt till Tangier från Marbella med privat guidad tur",
+      "no": "Luksuriøs dagstur til Tangier fra Marbella med privat guide",
+      "da": "Luksus dagstur til Tanger fra Marbella – privat guidet tur",
+      "fi": "Luksusluokan päiväretki Tangeriin Marbellasta, yksityinen opastettu kierros"
+    }
+  },
+  "viator:17739P127": {
+    "h": "99be02558d955c95fa64dec82ce4afcd",
+    "names": {
+      "en": "Marbella and Mijas Pueblo Private Tour from Malaga Port",
+      "es": "Tour privado por Marbella y Mijas Pueblo desde el Puerto de Málaga",
+      "de": "Private Tour durch Marbella und Mijas Pueblo ab Malaga Hafen",
+      "fr": "Visite privée de Marbella et Mijas Pueblo depuis le port de Malaga",
+      "sv": "Privat tur till Marbella och Mijas Pueblo från Malaga Port",
+      "no": "Privat tur til Marbella og Mijas Pueblo fra Malaga havn",
+      "da": "Privat tur til Marbella og Mijas Pueblo fra Malaga havn",
+      "fi": "Marbellan ja Mijas Pueblon yksityiskierros Malagan satamasta"
+    }
+  },
+  "viator:5677318P41": {
+    "h": "9fb2ba54d9918ace29a860159244550b",
+    "names": {
+      "en": "Marbella to Malaga Airport AGP Private Transfer",
+      "es": "Traslado privado de Marbella al Aeropuerto de Málaga AGP",
+      "de": "Privater Transfer von Marbella zum Flughafen Malaga AGP",
+      "fr": "Transfert privé de Marbella à l'aéroport de Malaga AGP",
+      "sv": "Privat transfer från Marbella till Malaga flygplats AGP",
+      "no": "Privat transfer fra Marbella til Malaga flyplass AGP",
+      "da": "Privat transfer fra Marbella til Malaga Lufthavn AGP",
+      "fi": "Yksityinen kuljetus Marbellasta Malagan AGP-lentokentälle"
     }
   }
 }

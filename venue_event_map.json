@@ -1160,6 +1160,12 @@
      "time": "21:00",
      "venue_name": "Melendi – Pop Rock Tour",
      "why": "REPOINTED 2026-10-14 (night 2). Was a Songkick listing. melendioficial.com/event/malaga/ = 21 Nov 2026 21:00, COMPRAR -> tickets.oneboxtds.com/melendi_poprock_tour/select/2680307 (official Onebox). Our card is labelled Sold out; the official page was NOT opened for stock (Onebox is behind a Cloudflare wall), web search says some price categories are still listed, so re-check before relying on the label."
+    },
+    "raphael raphaelisimo tour 2026": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-raphael-malaga/",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-19 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
   },
@@ -4015,6 +4021,12 @@
      "prefer": "map",
      "date": "16/11/2026",
      "why": "AUTO-REPAIRED 2026-10-04 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    },
+    "trio dmitrienco natsvlishvili y kuchaeva sociedad filarmonica de malaga": {
+     "url": "https://www.fundacionunicaja.com/event/concierto-del-trio-dmitrienco-natsvlishvili-y-kuchaeva/",
+     "prefer": "map",
+     "date": "27/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-19 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
   },
@@ -4238,6 +4250,24 @@
      "venue_name": "La Kermesse Redonda",
      "genre": "Rock & Indie",
      "why": "DESTINATION LOCK, added 2026-10-02. The 2026-09-28 re-route to Fever 713776 lives in the 'sweeplost' block, which by design can NEVER match in _venue_lookup (its key is a substring of no venue or URL), so it only injects; the live homepage on 2026-10-02 still carried the sweep's own row for this night pointing at entradas.com 21755651 (via Awin) next to the Fever-scrape row on Fever 713776 - two cards, two sellers. This block is reached FIRST for 'sala la trinchera' (key is a substring), so the Fever link now wins for every Kermesse row. Browser-confirmed 2026-10-02 on feverup.com/m/713776: 'LA KERMESSE REDONDA en MALAGA (LA TRINCHERA)', 9 de octubre de 2026, Sala La Trinchera, start 21:00, tiers 30,00/32,50 AGOTADO, Desde 35,00 EUR still on sale. entradas.com 21755651 was 38,50 EUR on 2026-09-28, so Fever stays the cheaper paying seller. Time left at 20:30 per the sweeplost note. RETIRE with the rest of this block once 09/10/2026 has passed."
+    },
+    "homer el mero mero resurreccion tour 2026": {
+     "url": "https://www.laganzua.net/conciertos/homer-el-mero-mero-malaga-1015829",
+     "prefer": "map",
+     "date": "12/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-19 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    },
+    "chiquita movida": {
+     "url": "https://www.laganzua.net/conciertos/chiquita-movida-malaga-1016278",
+     "prefer": "map",
+     "date": "20/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-19 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    },
+    "santero y los muchachos": {
+     "url": "https://www.tomaticket.es/es-es/entradas-santero-y-los-muchachos-en-malaga",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-19 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
   },
