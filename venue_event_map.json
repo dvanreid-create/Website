@@ -1629,6 +1629,34 @@
    "complete": false,
    "gate": false,
    "acts": {
+    "esperanza soria fernando soto": {
+     "url": "https://www.giglon.com/todos?idEvent=homenaje-a-maria-jimenez-y-bambino---esperanza-soria--fernando-soto",
+     "prefer": "map",
+     "date": "23/10/2026",
+     "time": "21:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date. (Estepona sells through Giglon via teatroestepona.com; Giglon refuses our checker, so it needs the pin.)"
+    },
+    "madama butterfly": {
+     "url": "https://www.giglon.com/todos?idEvent=madama-butterfly-estepona",
+     "prefer": "map",
+     "date": "28/10/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date. (Estepona sells through Giglon via teatroestepona.com; Giglon refuses our checker, so it needs the pin.)"
+    },
+    "sinfonia del terror": {
+     "url": "https://www.giglon.com/todos?idEvent=sinfonia-del-terror-estepona",
+     "prefer": "map",
+     "date": "30/10/2026",
+     "time": "20:30",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date. (Estepona sells through Giglon via teatroestepona.com; Giglon refuses our checker, so it needs the pin.)"
+    },
+    "zarzuela la revoltosa": {
+     "url": "https://www.giglon.com/todos?idEvent=la-revoltosa---estepona",
+     "prefer": "map",
+     "date": "22/11/2026",
+     "time": "18:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date. (Estepona sells through Giglon via teatroestepona.com; Giglon refuses our checker, so it needs the pin.)"
+    },
     "queen forever": {
      "url": "https://www.giglon.com/evento/queen-forever-tribute-estepona",
      "prefer": "map",
@@ -1650,6 +1678,37 @@
      "time": "20:30",
      "venue_name": "Aidalai — Tributo a Mecano",
      "why": "TIME-ONLY ENTRY, ADDED 2026-10-14 (Sofia). Aidalai, Tributo a Mecano, Sat 28 Nov 2026, Teatro ESAD, Málaga (ECI). The calendar row had no start time (ECI page says check calendar); 20:30 is the time on the show poster (Sofia 2026-10). This block is complete:false and not backfill-eligible, so it cannot inject a card; build_site's venue_time_override only stamps the time on the existing row with the exact date 2026-11-28. Retire after 2026-11-28."
+    }
+   }
+  },
+  "cine albeniz": {
+   "source": "https://www.teatrocervantes.com/es/genero/musica/temporada-2026-27/gala-benefica-la-flor-de-oro-zambomba-de-encarni-navarro-2380",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-19 (Sofia). Cine Albéniz (Procultura Málaga cinema) hosts the 3 Dec La Flor de Oro charity gala; ticketing = unientradas via teatrocervantes.com. complete:false and gate:false: can only upgrade a link, never delete or inject.",
+   "acts": {
+    "gala benefica la flor de oro zambomba de encarni navarro": {
+     "url": "https://www.unientradas.es/espectaculo/zambomba-de-encarni-navarro/26-27EncarniZamb",
+     "prefer": "map",
+     "date": "03/12/2026",
+     "time": "21:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    }
+   }
+  },
+  "teatro esad": {
+   "source": "https://www.elcorteingles.es/entradas/conciertos/malaga/",
+   "complete": false,
+   "gate": false,
+   "note": "LINK-OVERRIDE BLOCK created 2026-10-19 (Sofia). Teatro ESAD sells through El Corte Inglés (Awin 13034 = COMMISSIONABLE). complete:false and gate:false: can only upgrade/protect a link, never delete or inject. Capullo de Jerez 24 Oct: ECI page read in the built-in browser 19 Oct (21:00, desde 24,26 EUR, COMPRAR live). Bare ECI URL on purpose: eci_aff() wraps it in our Awin link. Falete (31 Oct) is protected separately by TICKET_OVERRIDES + a stamp.",
+   "acts": {
+    "capullo de jerez": {
+     "prefer": "eci",
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/",
+     "date": "24/10/2026",
+     "time": "21:00",
+     "venue_name": "Teatro ESAD",
+     "why": "PINNED 2026-10-19 (Sofia: if he is commissioned he needs a pin so the link check cannot drop him). ECI = Awin 13034. Retire after 24 Oct."
     }
    }
   },
@@ -3057,6 +3116,69 @@
    "complete": false,
    "note": "Teatro Cervantes, main public theatre in Málaga city (Procultura Málaga). Also hosts the Terral outdoor summer festival (typically June). Same organisation manages Teatro Echegaray (see that entry). Website is JS-rendered — refresh_venue_map.py needs browser tools to scrape. Added 2026-07-27 as stub for link upgrading; no in-window ticketed events confirmed. | LINK-OVERRIDE ACTS ADDED 2026-09-01 by the daily click-test. THE TRAP THIS FIXES: the theatre publishes each show at BOTH /es/espectaculo/<slug>-<id> and /es/genero/<genre>/<season>/<slug>-<id>, and ONLY the second path resolves — the /es/espectaculo/ form 302s to the theatre HOMEPAGE, so a card carrying it looks fine to a link checker (HTTP 200, real title) while sending the reader to a season index. Both acts below therefore carry prefer:'map' so the map URL wins over the calendar's own deep link. The URLs are the theatre's OWN ticketer, unientradas.es (janto family), which is where the site's 'Comprar entradas' buttons go — one hop closer to the basket than the venue page and it renders the date + seat map + 'Ver precios' directly. NO PAYING SELLER EXISTS for either show: entradas.com's malaga-490 / benalmadena-9255 / estepona-2322 listings carry neither, El Corte Inglés lists neither, and Ticketmaster has no Málaga date — so routing to a non-earning box office is forced, not chosen. Keep 'source' on the STABLE season index, never a dated page.",
    "acts": {
+    "mario biondi": {
+     "url": "https://www.unientradas.es/es/espectaculo/mario-biondi/26-27BiondiMa",
+     "prefer": "map",
+     "date": "03/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "nate smith": {
+     "url": "https://www.unientradas.es/es/espectaculo/nate-smith/26-27SmithNa",
+     "prefer": "map",
+     "date": "04/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "alfa mist": {
+     "url": "https://www.unientradas.es/es/espectaculo/alfa-mist/26-27MistAl",
+     "prefer": "map",
+     "date": "05/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "kurt rosenwinkel": {
+     "url": "https://www.unientradas.es/es/espectaculo/kurt-rosenwinkel/26-27Rosenwinkel",
+     "prefer": "map",
+     "date": "06/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "james carter organ trio": {
+     "url": "https://www.unientradas.es/es/espectaculo/the-james-carter-organ-trio/26-27CarterJaTri",
+     "prefer": "map",
+     "date": "07/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "kenny barron songbook": {
+     "url": "https://www.unientradas.es/es/espectaculo/kenny-barron-songbook-featuring-ekep-nkwelle/26-27BarronKe",
+     "prefer": "map",
+     "date": "08/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "kurt elling yellowjackets": {
+     "url": "https://www.unientradas.es/es/espectaculo/kurt-elling-yeellowjackets/26-27EllingKu",
+     "prefer": "map",
+     "date": "09/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "michel camilo trio": {
+     "url": "https://www.unientradas.es/es/espectaculo/michel-camilo-trio/26-27CamiloMiTr",
+     "prefer": "map",
+     "date": "10/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "antonio jose luces compartidas": {
+     "url": "https://www.unientradas.es/es/espectaculo/antonio-jose/26-27JoseAntoni",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
     "tomatito": {
      "url": "https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas",
      "prefer": "map",
@@ -3252,6 +3374,27 @@
    "complete": false,
    "note": "Teatro Echegaray, sister venue to Teatro Cervantes, managed by Procultura Málaga (same website). Hosts flamenco, jazz cycles, contemporary dance. JS-rendered site. No in-window ticketed events confirmed. Added 2026-07-27 as stub.",
    "acts": {
+    "transdisciplina t 25": {
+     "url": "https://www.unientradas.es/es/espectaculo/transdisciplina-t-25-10-aniversario-2016-2026/26-27DisciplinaT",
+     "prefer": "map",
+     "date": "24/10/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "muerdo": {
+     "url": "https://www.unientradas.es/es/espectaculo/muerdo/26-27MuerdoCanci",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "time": "20:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
+    "lucia rey nomadas": {
+     "url": "https://www.unientradas.es/es/espectaculo/lucia-rey/26-27ReyLuciaNom",
+     "prefer": "map",
+     "date": "13/12/2026",
+     "time": "19:00",
+     "why": "PINNED 2026-10-19 (Sofia: stop these being dropped by the link check). Event page read in her Edge 2026-10-19; Comprar entradas goes to this unientradas page. Pins in the REAL venue block protect the row from the drop list and relink it; a stamp alone only lasts 30 days. Retire after the date."
+    },
     "transdisciplina t 26": {
      "url": "https://www.unientradas.es/espectaculo/transdisciplina-t26-10-aniversario-2016-2026/26-27TDisciplina",
      "prefer": "map",

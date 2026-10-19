@@ -10,7 +10,7 @@
  "thomas-helmig": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Thomas_Helmig_%28Musician%29.jpg/320px-Thomas_Helmig_%28Musician%29.jpg",
  "raimundo-amador": "https://upload.wikimedia.org/wikipedia/commons/9/93/Raimundo_Amador.jpg",
  "macaco-in-malaga": "https://upload.wikimedia.org/wikipedia/commons/8/84/MacacoBadajoz.JPG",
- "abstract": "https://upload.wikimedia.org/wikipedia/commons/f/f8/FEQ_July_2018_Brockhampton_%2843017650620%29_%28cropped%29.jpg",
+ "abstract-halloween": "https://upload.wikimedia.org/wikipedia/commons/f/f8/FEQ_July_2018_Brockhampton_%2843017650620%29_%28cropped%29.jpg",
  "alejandro-astola": "https://upload.wikimedia.org/wikipedia/commons/6/69/Astola2015.jpg",
  "andres-suarez": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Andr%C3%A9s_Su%C3%A1rez.jpg",
  "antonio-jose": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Burgos_-_Monumento_al_m%C3%BAsico_y_folclorista_Antonio_Jos%C3%A9_Mart%C3%ADnez_Palacios_1.jpg",
@@ -52,6 +52,7 @@
  "los-sirex": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Los_Sirex.jpg",
  "lyapis-trubetskoy": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Lyapis-2008.jpg",
  "macaco": "https://upload.wikimedia.org/wikipedia/commons/8/84/MacacoBadajoz.JPG",
+ "madama-butterfly": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Hohenstein_Madama_Butterfly.jpg",
  "malu": "https://upload.wikimedia.org/wikipedia/commons/0/0b/VJMVvPNo.jpeg",
  "marta-sanchez": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Marta_Sanchez_during_the_promotion_of_her_last_album_in_April_2007.jpg",
  "melendi": "https://upload.wikimedia.org/wikipedia/commons/1/16/Melendi_Guayaquil_2017.jpg",
@@ -61,6 +62,7 @@
  "mocedades": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mocedades_%281973%29.jpg",
  "mocedades-y-los-panchos": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mocedades_%281973%29.jpg",
  "morgenshtern": "https://upload.wikimedia.org/wikipedia/commons/3/30/%D0%90%D0%BB%D0%B8%D1%88%D0%B5%D1%80_%D0%9C%D0%BE%D1%80%D0%B3%D0%B5%D0%BD%D1%88%D1%82%D0%B5%D1%80%D0%BD_%28cropped%29.jpg",
+ "muerdo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Detmold_-_2015-08-01_-_Muerdo_%2806%29.jpg",
  "nebulossa": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Nebulossa_03_%28cropped%29.jpg",
  "nina-pastori": "https://upload.wikimedia.org/wikipedia/commons/2/2f/2023-11-16_Gala_de_los_Latin_Grammy%2C_19_%28cropped%29_%28cropped%29.jpg",
  "pastora-soler": "https://upload.wikimedia.org/wikipedia/commons/9/96/2019_02_28_Medallas28F_%2840274173553%29_%28cropped%29.jpg",
@@ -75,7 +77,7 @@
  "salma": "https://upload.wikimedia.org/wikipedia/commons/8/83/SalmaAgha.jpg",
  "sasha": "https://upload.wikimedia.org/wikipedia/commons/8/86/Sasha_Grey-December_2013.jpg",
  "sergio-dalma": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sergio_Dalma.jpg",
- "servando-florentino": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Servando_G%C3%B3mez_Mart%C3%ADnez.jpg",
+ "servando-florentino": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Servando_florentino.png",
  "sidecars": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sidecars_1.jpg",
  "sober": "https://upload.wikimedia.org/wikipedia/commons/0/07/S%C3%B4ber_-_Asaco_Metal_Fest_2013_-_01.jpg",
  "sofia-ellar": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sof%C3%ADa_Ellar_Barcelona_2023.jpg",
@@ -91,5 +93,6 @@
  "vicente-amigo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Aliment%C3%A1is_nuestra_vida_-_VICENTE_AMIGO.png",
  "victor-manuel": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Marina_San_Jos%C3%A9_and_V%C3%ADctor_Manuel_at_Premios_Goya_2017_%28cropped%29.jpg",
  "villano-antillano": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Villano_antillano.jpg",
- "walls": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Walls_of_Jericho.jpg"
+ "walls": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Walls_of_Jericho.jpg",
+ "zarzuela-la-revoltosa": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Dona_Francisquita.jpg"
 }
