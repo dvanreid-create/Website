@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Cristian de Moret",
-      "yt": "nD18t58iZPg",
-      "where": "18 Oct · Teatro Cervantes, Málaga"
-    },
-    {
-      "act": "Leoni Torres",
-      "yt": "Zao7B-DtUPs",
-      "where": "18 Oct · Sala París 15, Málaga"
-    },
-    {
       "act": "Las Pelotas",
       "yt": "zlzIsdyFgXw",
       "where": "21 Oct · Sala París 15, Málaga"
@@ -39,26 +29,33 @@
       "act": "Ojete Calor",
       "yt": "HsZ6f-4zH-w",
       "where": "24 Oct · Auditorio Municipal Príncipe de Asturias, Torremolinos"
+    },
+    {
+      "act": "Melendi",
+      "yt": "D9W4DLjmoOM",
+      "where": "20 Nov · Martín Carpena, Málaga"
     }
   ],
   "thumbs": {
-    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "The Jazz Room Málaga: Tribute to Sinatra & Armstrong": "sE3uRRFVsmc",
     "Candlelight: Coldplay vs. Ed Sheeran": "yKNxeF4KMsY",
     "Candlelight: Tribute to Queen": "5fJnbpt_0e4",
-    "Candlelight: Michael Jackson": "sOnqjkJTMaA",
     "Candlelight: Tribute to Ludovico Einaudi": "Cxpe8VpeVmU",
     "Candlelight: Tribute to Adele": "uK3MLlTL5Ko",
-    "Candlelight: Tribute to Ludovico Einaudi at Gran Hotel Miramar": "BI8N2569jSg",
+    "Dromedaries Mágicos in Malaga": "UEd_6XIz44k",
     "Candlelight: The Best of Hans Zimmer": "5fS_XkPLRzo",
     "Candlelight: Tribute to Michael Jackson": "Zi_XLOBDo_Y",
     "Candlelight: Coldplay and Imagine Dragons": "WooCR9zMylg",
     "Candlelight: Queen vs. ABBA": "HgzGwKwLmgM",
-    "Candlelight: Tribute to La Oreja de Van Gogh": "nYnLVWXmRm8",
+    "Candlelight: Tribute to Queen and The Beatles": "A_MjCqQoLLA",
     "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
     "Candlelight: Tribute to La Ley Innata": "WUIuGSARrzI",
+    "Chiquita Movida in Malaga": "ITn21sHOFxU",
     "Candlelight: Tribute to Joan Manuel Serrat": "pWcQ1ATWtQw",
-    "Candlelight: Tribute to Phil Collins": "YkADj0TPrJA",
+    "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
+    "Candlelight: Tribute to Leiva": "5f5eiLOLIpg",
+    "Candlelight: Tribute to Ennio Morricone": "HVBwcsInM68",
+    "Candlelight: Tributo a Bad Bunny": "_PJvpq8uOZM",
     "Candlelight Open Air: The Best of Hans Zimmer in Marbella": "c56t7upa8Bk",
     "Candlelight Open Air: The Best of Hans Zimmer": "c56t7upa8Bk",
     "Miguel Ríos": "Rm-yZGvcf2U",

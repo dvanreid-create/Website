@@ -1457,6 +1457,86 @@
     "fi": "Liput →"
    },
    "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-b9a5415efa6ee595.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Christmas: Christmas Classics",
+   "headBottom": true,
+   "expires": "2026-12-18",
+   "sub": {
+    "en": "Fri 18 Dec · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Vie 18 dic · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Fr 18 Dez · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "ven. 18 déc. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "fre 18 des · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "pe 18 jouluk. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=364214&u=https%3A%2F%2Ffeverup.com%2Fm%2F364214&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-b40772079b373dd0.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Christmas: Christmas Soundtracks",
+   "headBottom": true,
+   "expires": "2026-12-18",
+   "sub": {
+    "en": "Fri 18 Dec · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Vie 18 dic · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Fr 18 Dez · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "ven. 18 déc. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "fre 18 des · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "pe 18 jouluk. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=364215&u=https%3A%2F%2Ffeverup.com%2Fm%2F364215&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
   }
  ],
  "info": [

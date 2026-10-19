@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 14,
-   "matched": 14,
-   "calendar_in_window": 14,
+   "mapped_in_window": 13,
+   "matched": 13,
+   "calendar_in_window": 13,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -202,9 +202,9 @@
   },
   "paris15": {
    "venue": "Sala París 15",
-   "mapped_in_window": 9,
-   "matched": 9,
-   "calendar_in_window": 11,
+   "mapped_in_window": 8,
+   "matched": 8,
+   "calendar_in_window": 10,
    "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "ok"
@@ -220,9 +220,9 @@
   },
   "sweeplost": {
    "venue": "Málaga",
-   "mapped_in_window": 22,
-   "matched": 22,
-   "calendar_in_window": 72,
+   "mapped_in_window": 20,
+   "matched": 20,
+   "calendar_in_window": 70,
    "latest_mapped": "2026-12-12",
    "always_on": false,
    "verdict": "ok"
