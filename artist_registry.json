@@ -133,7 +133,7 @@
 },
 "miss-caffeina": {
 "name": "Miss Caffeina",
-"mles": 88.5
+"mles": 72.6
 },
 "kream-ice-land-by-alvama-ice": {
 "name": "Kream Ice Land by Alvama Ice",
@@ -969,11 +969,11 @@
 },
 "abhir": {
 "name": "Abhir",
-"mles": 78.6
+"mles": 61.6
 },
 "gonzalo-hermida": {
 "name": "Gonzalo Hermida",
-"mles": 80.2
+"mles": 59.1
 },
 "la-insostenible-big-band": {
 "name": "La Insostenible Big Band",
@@ -985,7 +985,7 @@
 },
 "raphael": {
 "name": "Raphael",
-"mles": 73.5
+"mles": 63.2
 },
 "the-jazz-room-marbella-new-orleans-tribute": {
 "name": "The Jazz Room Marbella: New Orleans Tribute",
@@ -1089,7 +1089,7 @@
 },
 "vetusta-morla": {
 "name": "Vetusta Morla",
-"mles": 85.7
+"mles": 58.3
 },
 "javi-ruibal-trio": {
 "name": "Javi Ruibal Trío",
@@ -1145,7 +1145,7 @@
 },
 "cotton-pickers": {
 "name": "Cotton Pickers",
-"mles": 48.3
+"mles": 62.6
 },
 "maggie-cullen": {
 "name": "Maggie Cullen",
@@ -1161,7 +1161,7 @@
 },
 "gata-brass-band": {
 "name": "Gata Brass Band",
-"mles": 58.6
+"mles": 55.8
 },
 "los-sabineros": {
 "name": "Los Sabineros",
@@ -1169,7 +1169,7 @@
 },
 "pedro-pastor": {
 "name": "Pedro Pastor",
-"mles": 58.9
+"mles": 49.6
 },
 "malas-companias": {
 "name": "Malas Compañías",
@@ -1213,7 +1213,7 @@
 },
 "fiebre-club-halloween": {
 "name": "FIEBRE CLUB: HALLOWEEN",
-"mles": 59.3
+"mles": 52.3
 },
 "bendecida": {
 "name": "Bendecida",
@@ -1245,7 +1245,7 @@
 },
 "carmen-ferre": {
 "name": "Carmen Ferre",
-"mles": 72.2
+"mles": 58.7
 },
 "arde-bogota": {
 "name": "Arde Bogotá",
@@ -1253,7 +1253,7 @@
 },
 "hijos-de-la-ruina-tour": {
 "name": "Hijos de la Ruina Tour",
-"mles": 75.2
+"mles": 74.2
 },
 "yosh": {
 "name": "Yosh",
@@ -1285,7 +1285,7 @@
 },
 "servando-florentino": {
 "name": "Servando & Florentino",
-"mles": 65.4
+"mles": 84.6
 },
 "grupo-liberacion": {
 "name": "GRUPO LIBERACIÓN",
@@ -1297,7 +1297,7 @@
 },
 "las-pastillas-del-abuelo": {
 "name": "Las Pastillas del Abuelo",
-"mles": 62.2
+"mles": 57.3
 },
 "tennessee": {
 "name": "Tennessee",
@@ -1321,7 +1321,7 @@
 },
 "miranda": {
 "name": "Miranda!",
-"mles": 63.4
+"mles": 52.9
 },
 "victor-manuel": {
 "name": "Víctor Manuel",
@@ -1341,7 +1341,7 @@
 },
 "rata": {
 "name": "Rata",
-"mles": 80.7
+"mles": 58.7
 },
 "chiquita-movida": {
 "name": "Chiquita Movida",
@@ -1353,11 +1353,11 @@
 },
 "melendi": {
 "name": "Melendi",
-"mles": 94.4
+"mles": 73.5
 },
 "carlos-ares": {
 "name": "Carlos Ares",
-"mles": 78.9
+"mles": 58.7
 },
 "kinky-bwoy": {
 "name": "Kinky Bwoy",
@@ -1369,7 +1369,7 @@
 },
 "los-fabulosos-cadillacs": {
 "name": "Los Fabulosos Cadillacs",
-"mles": 74.5
+"mles": 72.8
 },
 "gauchito-club": {
 "name": "Gauchito Club",
@@ -1393,7 +1393,7 @@
 },
 "ruslana": {
 "name": "Ruslana",
-"mles": 72.8
+"mles": 58.7
 },
 "santero-y-los-muchachos": {
 "name": "Santero y Los Muchachos",
@@ -1413,7 +1413,7 @@
 },
 "concierto-tussiwarriors": {
 "name": "Concierto Tussiwarriors",
-"mles": 51.9
+"mles": 50.7
 },
 "concierto-la-cabra-mecanica": {
 "name": "Concierto La Cabra Mecánica",
@@ -1433,7 +1433,7 @@
 },
 "homer-el-mero-mero": {
 "name": "Homer El Mero Mero",
-"mles": 67.3
+"mles": 61.0
 },
 "concierto-el-nido": {
 "name": "Concierto El Nido",
@@ -1445,7 +1445,7 @@
 },
 "catupecu-machu": {
 "name": "Catupecu Machu",
-"mles": 62.1
+"mles": 66.0
 },
 "concierto-de-jazz-the-music-of-ivan-lins": {
 "name": "Concierto de Jazz: The Music of Ivan Lins",
@@ -1609,7 +1609,7 @@
 },
 "jay-wheeler": {
 "name": "Jay Wheeler",
-"mles": 79.7
+"mles": 76.6
 },
 "queen-forever-tribute": {
 "name": "Queen Forever Tribute",
@@ -1649,7 +1649,7 @@
 },
 "revolver": {
 "name": "Revolver",
-"mles": 71.3
+"mles": 54.7
 },
 "the-johann-strauss-quartet": {
 "name": "The Johann Strauss Quartet",
@@ -1745,7 +1745,7 @@
 },
 "jalezz": {
 "name": "Jalezz",
-"mles": 61.2
+"mles": 52.0
 },
 "martin-sanchez-y-los-corazones-salvajes": {
 "name": "Martín Sánchez y Los Corazones Salvajes",
@@ -1789,7 +1789,7 @@
 },
 "homenaje-especial-el-canto-del-loco-hombres-g": {
 "name": "Homenaje Especial: El Canto del Loco & Hombres G",
-"mles": 76.4
+"mles": 52.3
 },
 "encuentro-de-coros-rocieros": {
 "name": "Encuentro de Coros Rocieros",
@@ -1817,7 +1817,7 @@
 },
 "pitingo": {
 "name": "Pitingo",
-"mles": 70.9
+"mles": 65.2
 },
 "nu-metal-dance-revolution": {
 "name": "Nu_Metal/Dance_Revolution",
@@ -1825,7 +1825,7 @@
 },
 "tomatito": {
 "name": "Tomatito",
-"mles": 74.7
+"mles": 76.1
 },
 "concierto-ofm-programa-4": {
 "name": "Concierto OFM Programa 4",
@@ -1845,6 +1845,6 @@
 },
 "abstract-halloween": {
 "name": "ABSTRACT: HALLOWEEN",
-"mles": 0.0
+"mles": 52.3
 }
 }
