@@ -4821,6 +4821,14 @@
    "gate": false,
    "note": "Sala Roka, Málaga city. ADDED 2026-09-21 by the daily browser audit — routing only (complete:false, gate:false, not in backfill_calendar's WHITELIST). Its one in-window night was shipping the seller's city landing instead of the show.",
    "acts": {
+    "her own summer": {
+     "url": "https://www.entradas.com/event/her-own-summer-malaga-sala-roka-22279742/",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "22:00",
+     "venue_name": "Sala Roka",
+     "why": "PINNED 2026-10-19 (Sofia: add as a plain calendar listing). entradas.com event page read live in the built-in browser: Sat 14 Nov 2026 22:00, Sala Roka, General 16,83 EUR. Commissionable (Awin 24761). Retire after 14 Nov."
+    },
     "rienda suelta": {
      "url": "https://entradas.conciertos.club/es/events/noche-de-rock-con-sr-blanco-y-rienda-suelta",
      "prefer": "map",
