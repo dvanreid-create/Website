@@ -93,7 +93,10 @@
 },
 "antonio-jose": {
 "name": "Antonio José",
-"mles": 64.7
+"mles": 64.7,
+"links": [
+"https://www.unientradas.es/es/espectaculo/antonio-jose/26-27JoseAntoni"
+]
 },
 "nina-pastori": {
 "name": "Niña Pastori",
@@ -133,7 +136,10 @@
 },
 "miss-caffeina": {
 "name": "Miss Caffeina",
-"mles": 72.6
+"mles": 72.6,
+"links": [
+"https://www.baila.fm/es/evento/miss-caffeina-gira-aniversario-detroit-malaga-2026"
+]
 },
 "kream-ice-land-by-alvama-ice": {
 "name": "Kream Ice Land by Alvama Ice",
@@ -165,7 +171,11 @@
 },
 "soul-on-fire": {
 "name": "Soul on Fire",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fsoul-on-fire-opera-benalmadena-21859763%2F",
+"https://tickets.oneboxtds.com/operabenalmadena/events/51226"
+]
 },
 "sun-thunder-26": {
 "name": "Sun & Thunder 26",
@@ -449,7 +459,10 @@
 },
 "the-children-of-queen": {
 "name": "The Children of Queen",
-"mles": 62.6
+"mles": 62.6,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "the-killer-rockets": {
 "name": "The Killer Rockets",
@@ -457,7 +470,10 @@
 },
 "el-trio-del-saco": {
 "name": "El Trío del Saco",
-"mles": 56.3
+"mles": 56.3,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "80ers": {
 "name": "80ERS",
@@ -469,7 +485,10 @@
 },
 "mystery-machine": {
 "name": "Mystery Machine",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "tyler-faraday-band": {
 "name": "Tyler Faraday Band",
@@ -489,7 +508,10 @@
 },
 "maika-lavera": {
 "name": "Maika Lavera",
-"mles": 56.3
+"mles": 56.3,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "the-hairbreakers": {
 "name": "The Hairbreakers",
@@ -521,7 +543,10 @@
 },
 "funkonauts": {
 "name": "Funkonauts",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "jose-merce": {
 "name": "José Mercé",
@@ -893,7 +918,10 @@
 },
 "aidalai": {
 "name": "Aidalai",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fcheckoutentradas2.elcorteingles.es%2Felcorteingles%2Fevents%2F43364%3Fhl%3Des-ES"
+]
 },
 "queen-of-magic": {
 "name": "Queen Of Magic",
@@ -909,7 +937,10 @@
 },
 "las-pelotas": {
 "name": "Las Pelotas",
-"mles": 59.1
+"mles": 59.1,
+"links": [
+"https://conciertosya.com/Las-Pelotas-y-Cruzando-el-Charco-en-Malaga/"
+]
 },
 "35o-aniversario": {
 "name": "35º Aniversario",
@@ -929,7 +960,10 @@
 },
 "divas-del-soul": {
 "name": "Divas del Soul",
-"mles": 52.2
+"mles": 52.2,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "children-of-queen": {
 "name": "Children of Queen",
@@ -957,23 +991,38 @@
 },
 "ghost-riders": {
 "name": "Ghost Riders",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "no-te-va-a-gustar": {
 "name": "No Te Va a Gustar",
-"mles": 61.6
+"mles": 61.6,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-no-te-va-gustar-malaga-sala-paris-15-viernes-23-de-octubre"
+]
 },
 "art-club-band": {
 "name": "Art Club Band",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "abhir": {
 "name": "Abhir",
-"mles": 61.6
+"mles": 61.6,
+"links": [
+"https://ticketmaster.evyy.net/c/7440720/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fabhir-entradas%2F1218088577"
+]
 },
 "gonzalo-hermida": {
 "name": "Gonzalo Hermida",
-"mles": 59.1
+"mles": 59.1,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-gonzalo-hermida-malaga%2F"
+]
 },
 "la-insostenible-big-band": {
 "name": "La Insostenible Big Band",
@@ -985,7 +1034,10 @@
 },
 "raphael": {
 "name": "Raphael",
-"mles": 63.2
+"mles": 63.2,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-raphael-malaga%2F"
+]
 },
 "the-jazz-room-marbella-new-orleans-tribute": {
 "name": "The Jazz Room Marbella: New Orleans Tribute",
@@ -993,7 +1045,10 @@
 },
 "the-jazz-room-malaga-tribute-to-sinatra-armstrong": {
 "name": "The Jazz Room Málaga: Tribute to Sinatra & Armstrong",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=631372&u=https%3A%2F%2Ffeverup.com%2Fm%2F631372&intsrc=CATF_15532"
+]
 },
 "la-k-onga-in-malaga": {
 "name": "La K'onga in Malaga",
@@ -1013,7 +1068,10 @@
 },
 "howlin-ramblers": {
 "name": "Howlin' Ramblers",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "havard-ersland-trio": {
 "name": "Håvard Ersland Trio",
@@ -1041,15 +1099,24 @@
 },
 "erly-thornton-sextet": {
 "name": "Erly Thornton Sextet",
-"mles": 59.0
+"mles": 59.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/erly-thornton-sextet/"
+]
 },
 "vladimir-torres-quintet": {
 "name": "Vladimir Torres Quintet",
-"mles": 53.1
+"mles": 53.1,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/vladimir-torres-quintet/"
+]
 },
 "paul-dunlea-quintet": {
 "name": "Paul Dunlea Quintet",
-"mles": 59.0
+"mles": 59.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/paul-dunlea-quintet/"
+]
 },
 "diego-amador-amp-amp-jose-maria-bandera": {
 "name": "Diego Amador &amp;amp; José María Bandera",
@@ -1073,23 +1140,38 @@
 },
 "concierto-ofm-programa-2": {
 "name": "Concierto OFM · Programa 2",
-"mles": 52.5
+"mles": 52.5,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-2/26-27OFM02"
+]
 },
 "concierto-v-aniversario-coral-promusica": {
 "name": "Concierto V Aniversario Coral Promúsica",
-"mles": 69.5
+"mles": 69.5,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-v-aniversario-coral-promusica/PROMOC26"
+]
 },
 "concierto-ofm-programa-3": {
 "name": "Concierto OFM · Programa 3",
-"mles": 52.5
+"mles": 52.5,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-3/26-27OFM03"
+]
 },
 "lady-punk": {
 "name": "Lady Punk",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "vetusta-morla": {
 "name": "Vetusta Morla",
-"mles": 58.3
+"mles": 58.3,
+"links": [
+"https://www.malagadeporteyeventos.com/vetusta-morla/"
+]
 },
 "javi-ruibal-trio": {
 "name": "Javi Ruibal Trío",
@@ -1097,7 +1179,10 @@
 },
 "falete": {
 "name": "Falete",
-"mles": 62.4
+"mles": 62.4,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-falete-malaga-43582435821796%2F"
+]
 },
 "el-nino-delta": {
 "name": "El Niño Delta",
@@ -1137,7 +1222,10 @@
 },
 "orquesta-filarmonica-de-malaga": {
 "name": "Orquesta Filarmónica de Málaga",
-"mles": 52.9
+"mles": 52.9,
+"links": [
+"https://www.mientrada.net/evento/ofm-jazz-music-ivan-lins/"
+]
 },
 "el-saguaro": {
 "name": "El Saguaro",
@@ -1145,23 +1233,38 @@
 },
 "cotton-pickers": {
 "name": "Cotton Pickers",
-"mles": 62.6
+"mles": 62.6,
+"links": [
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+]
 },
 "maggie-cullen": {
 "name": "Maggie Cullen",
-"mles": 47.0
+"mles": 47.0,
+"links": [
+"https://lacocheraentradas.com/shows/details/2477/maggie-cullen"
+]
 },
 "patax": {
 "name": "Patax",
-"mles": 49.7
+"mles": 49.7,
+"links": [
+"https://www.enterticket.es/eventos/concierto-patax-malaga-sala-elcamm-jueves-22-de-octubre-628867"
+]
 },
 "ebano-jazz-quartet": {
 "name": "Ébano Jazz Quartet",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://entradas.fuengirola.es/selection/event/date?productId=10229964485888"
+]
 },
 "gata-brass-band": {
 "name": "Gata Brass Band",
-"mles": 55.8
+"mles": 55.8,
+"links": [
+"https://conciertos.club/malaga/conciertos/126657-gata-brass-band"
+]
 },
 "los-sabineros": {
 "name": "Los Sabineros",
@@ -1169,11 +1272,17 @@
 },
 "pedro-pastor": {
 "name": "Pedro Pastor",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://lacocheraentradas.com/shows/details/2355/pedro-pastor-10-anos-locos-descalzos"
+]
 },
 "malas-companias": {
 "name": "Malas Compañías",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://lacocheraentradas.com/shows/details/2513/malas-companias"
+]
 },
 "margarita-dominguez": {
 "name": "Margarita Domínguez",
@@ -1181,11 +1290,17 @@
 },
 "puro-indie": {
 "name": "Puro Indie",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://lacocheraentradas.com/shows/details/2233/puro-indie"
+]
 },
 "el-chojin": {
 "name": "El Chojín",
-"mles": 62.4
+"mles": 62.4,
+"links": [
+"https://www.notikumi.com/2026/10/24/concierto-de-el-chojin-en-malaga-gira-balance"
+]
 },
 "remember-house": {
 "name": "Remember House",
@@ -1193,19 +1308,31 @@
 },
 "blue-angel": {
 "name": "Blue Angel",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://lacocheraentradas.com/shows/details/2607/blue-angel-tributo-a-elvis"
+]
 },
 "stivijoes": {
 "name": "Stivijoes",
-"mles": 59.5
+"mles": 59.5,
+"links": [
+"https://lacocheraentradas.com/shows/details/2579/stivijoes"
+]
 },
 "los-palmeras": {
 "name": "Los Palmeras",
-"mles": 57.9
+"mles": 57.9,
+"links": [
+"https://conciertosya.com/Los-Palmeras-en-Malaga/"
+]
 },
 "de-cadiz-a-buenos-aires": {
 "name": "De Cádiz a Buenos Aires",
-"mles": 58.1
+"mles": 58.1,
+"links": [
+"https://entradas.fuengirola.es/selection/event/date?productId=10229945919564"
+]
 },
 "recuerdos-locos": {
 "name": "Recuerdos Locos",
@@ -1213,15 +1340,24 @@
 },
 "fiebre-club-halloween": {
 "name": "FIEBRE CLUB: HALLOWEEN",
-"mles": 52.3
+"mles": 52.3,
+"links": [
+"https://paris15.es/event/fiebre-club-halloween/"
+]
 },
 "bendecida": {
 "name": "Bendecida",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://lacocheraentradas.com/shows/details/2466/bendecida"
+]
 },
 "airbag": {
 "name": "Airbag",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://lacocheraentradas.com/shows/details/2575/airbag"
+]
 },
 "abstract": {
 "name": "Abstract",
@@ -1233,51 +1369,87 @@
 },
 "sobredosis-de-soda": {
 "name": "Sobredosis de Soda",
-"mles": 50.7
+"mles": 50.7,
+"links": [
+"https://conciertosya.com/Sobredosis-de-Soda-en-Malaga/"
+]
 },
 "malaga-popfest-2026": {
 "name": "Málaga Popfest 2026",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://entradium.com/es/events/malaga-popfest-2026-6-7-noviembre"
+]
 },
 "cupido": {
 "name": "Cupido",
-"mles": 52.9
+"mles": 52.9,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-cupido-malaga-sala-circus-sabado-7-de-noviembre"
+]
 },
 "carmen-ferre": {
 "name": "Carmen Ferre",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://conciertos.club/malaga/conciertos/120111-carmen-ferre"
+]
 },
 "arde-bogota": {
 "name": "Arde Bogotá",
-"mles": 61.7
+"mles": 61.7,
+"links": [
+"https://paris15.es/event/arde-bogota/"
+]
 },
 "hijos-de-la-ruina-tour": {
 "name": "Hijos de la Ruina Tour",
-"mles": 74.2
+"mles": 74.2,
+"links": [
+"https://www.entradas.com/event/hijos-de-la-ruina-tour-palacio-de-los-deportes-jose-maria-martin-carpena-20263730/"
+]
 },
 "yosh": {
 "name": "Yosh",
-"mles": 56.7
+"mles": 56.7,
+"links": [
+"https://www.enterticket.es/eventos/yosh-en-malaga-137940"
+]
 },
 "los-caracoles": {
 "name": "Los Caracoles",
-"mles": 46.7
+"mles": 46.7,
+"links": [
+"https://lacocheraentradas.com/shows/details/2621/los-caracoles"
+]
 },
 "nadie-patin": {
 "name": "Nadie Patín",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://conciertos.club/malaga/conciertos/126701-nadie-patin"
+]
 },
 "migue-de-antilopez": {
 "name": "Migue de Antílopez",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://www.taquilla.com/entradas/antilopez?t10cityorder=M%C3%A1laga"
+]
 },
 "aleron": {
 "name": "ALERON",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://paris15.es/event/aleron/"
+]
 },
 "los-canos": {
 "name": "Los Caños",
-"mles": 56.0
+"mles": 56.0,
+"links": [
+"https://lacocheraentradas.com/shows/details/2637/los-canos"
+]
 },
 "ciclo-de-lirica": {
 "name": "Ciclo de Lírica",
@@ -1285,19 +1457,31 @@
 },
 "servando-florentino": {
 "name": "Servando & Florentino",
-"mles": 84.6
+"mles": 84.6,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fservando-florentino-tour-espana-2026-se-buscan-vivos-o-inmortales-sala-paris-15-22147341%2F"
+]
 },
 "grupo-liberacion": {
 "name": "GRUPO LIBERACIÓN",
-"mles": 50.7
+"mles": 50.7,
+"links": [
+"https://conciertosmalaga.com/agenda/grupo-liberacion-paris15-malaga"
+]
 },
 "milongas-extremas": {
 "name": "Milongas Extremas",
-"mles": 50.7
+"mles": 50.7,
+"links": [
+"https://conciertos.club/malaga/conciertos/127146-milongas-extremas"
+]
 },
 "las-pastillas-del-abuelo": {
 "name": "Las Pastillas del Abuelo",
-"mles": 57.3
+"mles": 57.3,
+"links": [
+"https://conciertosya.com/Las-Pastillas-del-Abuelo-en-Malaga/"
+]
 },
 "tennessee": {
 "name": "Tennessee",
@@ -1305,15 +1489,24 @@
 },
 "melon-diesel": {
 "name": "Melón Diesel",
-"mles": 61.7
+"mles": 61.7,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fmelon-diesel-la-gira-de-mr-bond-sala-paris-15-21491835%2F"
+]
 },
 "mala-gestion": {
 "name": "Mala Gestión",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://conciertos.club/malaga/conciertos/120107-mala-gestion"
+]
 },
 "20-aniversario-drunk-o-rama": {
 "name": "20 Aniversario Drunk-o-rama",
-"mles": 61.6
+"mles": 61.6,
+"links": [
+"https://conciertos.club/malaga/conciertos/128105-20-aniversario-drunk-o-rama-los-polipos-waldo-faldo"
+]
 },
 "neon-collective-the-80s-show": {
 "name": "Neon Collective: The 80s Show",
@@ -1321,11 +1514,17 @@
 },
 "miranda": {
 "name": "Miranda!",
-"mles": 52.9
+"mles": 52.9,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-miranda-malaga-sala-circus-sabado-14-de-noviembre"
+]
 },
 "victor-manuel": {
 "name": "Víctor Manuel",
-"mles": 61.5
+"mles": 61.5,
+"links": [
+"https://www.teatrocervantes.com/es/genero/musica/temporada-2026-27/victor-manuel-2088"
+]
 },
 "brujeria": {
 "name": "Brujería",
@@ -1337,11 +1536,17 @@
 },
 "xv-la-filarmonica-frente-al-mar": {
 "name": "XV La Filarmónica Frente al Mar",
-"mles": 53.1
+"mles": 53.1,
+"links": [
+"https://www.mientrada.net/evento/15-filarmonica-frente-al-mar-1/"
+]
 },
 "rata": {
 "name": "Rata",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://conciertos.club/malaga/conciertos/116697-rata"
+]
 },
 "chiquita-movida": {
 "name": "Chiquita Movida",
@@ -1349,19 +1554,32 @@
 },
 "haze": {
 "name": "Haze",
-"mles": 52.9
+"mles": 52.9,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-haze-malaga-sala-circus-sabado-21-de-noviembre"
+]
 },
 "melendi": {
 "name": "Melendi",
-"mles": 73.5
+"mles": 73.5,
+"links": [
+"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2681926?viewCode=V_blockmap2d_view",
+"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?viewCode=V_blockmap2d_view"
+]
 },
 "carlos-ares": {
 "name": "Carlos Ares",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fcarlos-ares-sala-paris-15-21699135%2F"
+]
 },
 "kinky-bwoy": {
 "name": "Kinky Bwoy",
-"mles": 59.5
+"mles": 59.5,
+"links": [
+"https://conciertos.club/malaga/conciertos/127861-kinky-bwoy"
+]
 },
 "heat-remember-fantasy": {
 "name": "Heat: Remember Fantasy",
@@ -1369,7 +1587,10 @@
 },
 "los-fabulosos-cadillacs": {
 "name": "Los Fabulosos Cadillacs",
-"mles": 72.8
+"mles": 72.8,
+"links": [
+"https://conciertosya.com/Los-Fabulosos-Cadillacs-en-Malaga/"
+]
 },
 "gauchito-club": {
 "name": "Gauchito Club",
@@ -1377,7 +1598,10 @@
 },
 "salistre": {
 "name": "SALISTRE",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://shopes.vivaticket.com/es/sell/?cmd=prices&pcode=85303&tcode=vt0004443&evento=salistre-gira-vaiven#/sell/events/15014/sessions/22316"
+]
 },
 "hide-tyson": {
 "name": "Hide Tyson",
@@ -1385,7 +1609,10 @@
 },
 "vicky-gastelo": {
 "name": "Vicky Gastelo",
-"mles": 46.7
+"mles": 46.7,
+"links": [
+"https://entradas.conciertos.club/es/events/vicky-gastelo-en-malaga"
+]
 },
 "la-cabra-mecanica": {
 "name": "La Cabra Mecánica",
@@ -1393,15 +1620,24 @@
 },
 "ruslana": {
 "name": "Ruslana",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-ruslana-malaga-sala-paris-15-sabado-28-de-noviembre"
+]
 },
 "santero-y-los-muchachos": {
 "name": "Santero y Los Muchachos",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://www.tomaticket.es/es-es/entradas-santero-y-los-muchachos-en-malaga"
+]
 },
 "neverland-bari": {
 "name": "Neverland Bari",
-"mles": 46.7
+"mles": 46.7,
+"links": [
+"https://lacocheraentradas.com/shows/details/2519/neverland-bari"
+]
 },
 "tributo-a-creedence-clearwater-revival": {
 "name": "Tributo a Creedence Clearwater Revival",
@@ -1413,11 +1649,17 @@
 },
 "concierto-tussiwarriors": {
 "name": "Concierto Tussiwarriors",
-"mles": 50.7
+"mles": 50.7,
+"links": [
+"https://www.enterticket.es/eventos/concierto-tussiwarriors-malaga-sala-marte-jueves-5-de-noviembre-412248"
+]
 },
 "concierto-la-cabra-mecanica": {
 "name": "Concierto La Cabra Mecánica",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.tomaticket.es/es-es/entradas-la-cabra-mecanica-en-malaga"
+]
 },
 "il-verismo": {
 "name": "Il Verismo",
@@ -1425,19 +1667,31 @@
 },
 "zalamerias": {
 "name": "Zalamerías",
-"mles": 56.8
+"mles": 56.8,
+"links": [
+"https://lacocheraentradas.com/shows/details/2181/zalamerias"
+]
 },
 "iberia-sumergida": {
 "name": "Iberia Sumergida",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://mutick.com/e/entradas-iberia-sumergida-malaga-2026"
+]
 },
 "homer-el-mero-mero": {
 "name": "Homer El Mero Mero",
-"mles": 61.0
+"mles": 61.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fhomer-el-mero-mero-sala-la-trinchera-21594474%2F"
+]
 },
 "concierto-el-nido": {
 "name": "Concierto El Nido",
-"mles": 52.3
+"mles": 52.3,
+"links": [
+"https://www.enterticket.es/eventos/concierto-el-nido-malaga-sala-marte-sabado-24-de-octubre-823069"
+]
 },
 "american-rock-stars-tributes-to-system-of-a-down-rage-against-the-machine-and-metallica": {
 "name": "American Rock Stars: tributes to System of a Down, Rage Against the Machine and Metallica",
@@ -1445,7 +1699,10 @@
 },
 "catupecu-machu": {
 "name": "Catupecu Machu",
-"mles": 66.0
+"mles": 66.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fcatupecu-machu-sala-la-trinchera-21957902%2F"
+]
 },
 "concierto-de-jazz-the-music-of-ivan-lins": {
 "name": "Concierto de Jazz: The Music of Ivan Lins",
@@ -1457,11 +1714,17 @@
 },
 "malafe": {
 "name": "Malafé",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.vivaticket.com/es/ticket/malafe-volver-en-caso-de-emergencia-tour-malaga/14311"
+]
 },
 "clarent": {
 "name": "Clarent",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.vivaticket.com/es/ticket/clarent-malaga/17890"
+]
 },
 "let-s-vits-again": {
 "name": "Let's Vits Again",
@@ -1469,11 +1732,17 @@
 },
 "dj-symphonic": {
 "name": "DJ Symphonic",
-"mles": 47.0
+"mles": 47.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fcheckoutentradas2.elcorteingles.es%2Felcorteingles%2Fevents%2F54973%3Fhl%3Des-ES"
+]
 },
 "dj-symphonic-royal-film-concert-orchestra": {
 "name": "DJ Symphonic & Royal Film Concert Orchestra",
-"mles": 47.0
+"mles": 47.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Ffestivales%2Fentradas-dj-symphonic-royal-film-concert-orchestra-malaga-55052550523113%2F"
+]
 },
 "love-to-sing-choir": {
 "name": "Love to Sing Choir",
@@ -1497,7 +1766,10 @@
 },
 "the-jazz-room": {
 "name": "The Jazz Room",
-"mles": 56.0
+"mles": 56.0,
+"links": [
+"https://www.taquilla.com/entradas/the-jazz-room?t10cityorder=Marbella"
+]
 },
 "diego-catena": {
 "name": "Diego Catena",
@@ -1521,7 +1793,10 @@
 },
 "la-dama-de-hierro": {
 "name": "La Dama de Hierro",
-"mles": 54.9
+"mles": 54.9,
+"links": [
+"https://www.taquilla.com/entradas/la-dama-de-hierro-tributo-iron-maiden?t10cityorder=Estepona"
+]
 },
 "quererte-a-medias": {
 "name": "Quererte a Medias",
@@ -1561,11 +1836,17 @@
 },
 "transdisciplina-t-26": {
 "name": "Transdisciplina T#26",
-"mles": 56.4
+"mles": 56.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/transdisciplina-t26-10-aniversario-2016-2026/26-27TDisciplina"
+]
 },
 "un-paseo-por-tu-vida": {
 "name": "Un Paseo por tu Vida",
-"mles": 49.7
+"mles": 49.7,
+"links": [
+"https://lacocheraentradas.com/shows/details/2677/un-paseo-por-tu-vida"
+]
 },
 "salma": {
 "name": "Salma",
@@ -1577,7 +1858,10 @@
 },
 "el-cebri": {
 "name": "El Cebri",
-"mles": 61.9
+"mles": 61.9,
+"links": [
+"https://conciertos.club/malaga/conciertos/126652-el-cebri"
+]
 },
 "the-plague-in-malaga": {
 "name": "The Plague in Malaga",
@@ -1589,7 +1873,10 @@
 },
 "chiquita-movida-in-malaga": {
 "name": "Chiquita Movida in Malaga",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://www.laganzua.net/conciertos/chiquita-movida-malaga-1016278"
+]
 },
 "catupecu-machu-in-malaga": {
 "name": "CATUPECU MACHU in MÁLAGA",
@@ -1601,159 +1888,278 @@
 },
 "dromedarios-magicos-en-malaga": {
 "name": "Dromedarios Mágicos en Málaga",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=742552&u=https%3A%2F%2Ffeverup.com%2Fm%2F742552&intsrc=CATF_15532"
+]
 },
 "solo-k-os-en-malaga": {
 "name": "SOLO K.OS en Málaga",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=791278&u=https%3A%2F%2Ffeverup.com%2Fm%2F791278&intsrc=CATF_15532"
+]
 },
 "jay-wheeler": {
 "name": "Jay Wheeler",
-"mles": 76.6
+"mles": 76.6,
+"links": [
+"https://ticketmaster.evyy.net/c/7440720/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fjay-wheeler-entradas%2F512986909"
+]
 },
 "queen-forever-tribute": {
 "name": "Queen Forever Tribute",
-"mles": 57.6
+"mles": 57.6,
+"links": [
+"https://www.giglon.com/evento/queen-forever-tribute-estepona"
+]
 },
 "sasha": {
 "name": "Sasha",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://ingresse.com/true-club-x-vicious-lab-i-sasha/"
+]
 },
 "el-nuki-band": {
 "name": "El Ñuki & Band",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://entradas1.tomaticket.es/es/events/el-nuki-band-4-shows-exclusivos"
+]
 },
 "cyril-kamer": {
 "name": "Cyril Kamer",
-"mles": 48.5
+"mles": 48.5,
+"links": [
+"https://www.enterticket.es/eventos/cyril-kamer-malaga-945448"
+]
 },
 "la-banda-sabinera": {
 "name": "La Banda Sabinera",
-"mles": 48.5
+"mles": 48.5,
+"links": [
+"https://uff.janto.es/espectaculo/la-banda-sabinera-en-malaga/SABINERA121226"
+]
 },
 "blues-brothers-tribute-soul-mission": {
 "name": "Blues Brothers Tribute «Soul Mission»",
-"mles": 50.1
+"mles": 50.1,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fblues-brothers-tribute-soul-mission-palacio-de-congresos-y-exposiciones-adolfo-suarez-22225456%2F",
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fblues-brothers-tribute-soul-mission-fycma-palacio-de-ferias-y-congresos-de-malaga-22225453%2F"
+]
 },
 "diego-amador-jose-maria-bandera": {
 "name": "Diego Amador & José María Bandera",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/diego-amador-jose-maria-bandera/"
+]
 },
 "ainhoa-arteta-en-recital": {
 "name": "Ainhoa Arteta en recital",
-"mles": 55.0
+"mles": 55.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/ainhoa-arteta-en-recital/26-27ArtetaAinho"
+]
 },
 "camellos": {
 "name": "Camellos",
-"mles": 72.6
+"mles": 72.6,
+"links": [
+"https://conciertos.club/malaga/conciertos/126700-camellos",
+"https://www.taquilla.com/entradas/camellos?t10cityorder=M%C3%A1laga"
+]
 },
 "revolver": {
 "name": "Revolver",
-"mles": 54.7
+"mles": 54.7,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-revolver-malaga-fycma-sabado-12-de-diciembre"
+]
 },
 "the-johann-strauss-quartet": {
 "name": "The Johann Strauss Quartet",
-"mles": 51.3
+"mles": 51.3,
+"links": [
+"https://www.unientradas.es/es/espectaculo/the-johann-strauss-quartet/JSQ"
+]
 },
 "modelo-de-respuesta-polar": {
 "name": "Modelo de Respuesta Polar",
-"mles": 58.7
+"mles": 58.7,
+"links": [
+"https://entradas.crashmusic.es/event/concierto-modelo-de-respuesta-polar-malaga-sala-marte-sabado-14-de-noviembre"
+]
 },
 "space-surimi": {
 "name": "Space Surimi",
-"mles": 61.6
+"mles": 61.6,
+"links": [
+"https://www.taquilla.com/entradas/space-surimi"
+]
 },
 "dualiszt": {
 "name": "DuaLiszt",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.marbella.es/agenda/cultura-y-ensenanza/ix-edicion-festival-internacional-de-musica-clasica.html"
+]
 },
 "mad-dogs": {
 "name": "Mad Dogs",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.taquilla.com/entradas/mad-dogs?t10cityorder=Estepona"
+]
 },
 "duo-ambience": {
 "name": "Duo Ambience",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.marbella.es/agenda/cultura-y-ensenanza/ix-edicion-festival-internacional-de-musica-clasica.html"
+]
 },
 "los-sabineros-regresan-a-malaga": {
 "name": "Los Sabineros regresan a Málaga",
-"mles": 49.6
+"mles": 49.6,
+"links": [
+"https://entradas.conciertos.club/es/events/los-sabineros-regresan-a-malaga-sala-the-hall-malaga-the-hall"
+]
 },
 "antonio-ortiz": {
 "name": "Antonio Ortiz",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.marbella.es/agenda/cultura-y-ensenanza/ix-edicion-festival-internacional-de-musica-clasica.html"
+]
 },
 "dancing-machine": {
 "name": "Dancing Machine",
-"mles": 57.6
+"mles": 57.6,
+"links": [
+"https://www.servientradas.com/espectaculo/APORENTRADAS/40/dancing-machine-michael-jackson-tribute-marbella.html"
+]
 },
 "the-80s-show-by-neon-collective": {
 "name": "The 80s Show by Neon Collective",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://entradas.27ladridos.com/es/gira/evento/the-80s-show-by-neon-collective-en-malaga-j66r"
+]
 },
 "mr-proper": {
 "name": "Mr. Proper",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://entradium.com/events/mr-proper-523c799b-42c7-4199-96a9-a4ad54662674"
+]
 },
 "mito-sonoro": {
 "name": "Mito Sonoro",
-"mles": 46.7
+"mles": 46.7,
+"links": [
+"https://lacocheraentradas.com/shows/details/2593/mito-sonoro"
+]
 },
 "michael-s-legacy": {
 "name": "Michael's Legacy",
-"mles": 52.2
+"mles": 52.2,
+"links": [
+"https://www.giglon.com/todos?idEvent=michaels-legacy-estepona"
+]
 },
 "tributo-a-the-doors": {
 "name": "Tributo a The Doors",
-"mles": 60.8
+"mles": 60.8,
+"links": [
+"https://www.taquilla.com/entradas/tributo-a-the-doors-rey-lagarto?t10cityorder=Estepona"
+]
 },
 "mestizaje-redescubriendo-el-mundo-del-flamenco": {
 "name": "Mestizaje: Redescubriendo el Mundo del Flamenco",
-"mles": 56.8
+"mles": 56.8,
+"links": [
+"https://lacocheraentradas.com/shows/details/2692/mestizaje-redescubriendo-el-mundo-flamenco"
+]
 },
 "tomasito-garcia-y-sus-desensamblados": {
 "name": "Tomasito García y sus Desensamblados",
-"mles": 55.6
+"mles": 55.6,
+"links": [
+"https://www.unientradas.es/es/espectaculo/tomasito-garcia-y-sus-desensamblados/tomasito"
+]
 },
 "clearwater-creedence-revival": {
 "name": "Clearwater Creedence Revival",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://mutick.com/e/entradas-clearwater-creedence-revival-malaga"
+]
 },
 "chanwei": {
 "name": "Chanwei",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://lacocheraentradas.com/shows/details/2704/chanwei-el-gremio-balkan-fun-live-session"
+]
 },
 "gonzalo-alhambra": {
 "name": "Gonzalo Alhambra",
-"mles": 45.8
+"mles": 45.8,
+"links": [
+"https://lacocheraentradas.com/shows/details/2459/gonzalo-alhambra"
+]
 },
 "so-perfect-en-concierto": {
 "name": "SO PERFECT en Concierto",
-"mles": 51.2
+"mles": 51.2,
+"links": [
+"https://mientrada.janto.es/espectaculo/evento/SOPERFUSIONCULT"
+]
 },
 "xiv-aniversario-de-la-sociedad-del-blues": {
 "name": "XIV Aniversario de la Sociedad del Blues",
-"mles": 53.1
+"mles": 53.1,
+"links": [
+"https://lacocheraentradas.com/shows/details/2663/xiv-aniversario-de-la-sociedad-del-blues"
+]
 },
 "red-zeppelin": {
 "name": "Red Zeppelin",
-"mles": 44.8
+"mles": 44.8,
+"links": [
+"https://lacocheraentradas.com/shows/details/2688/red-zeppelin"
+]
 },
 "asi-canta-jerez-en-navidad": {
 "name": "Así Canta Jerez en Navidad",
-"mles": 64.5
+"mles": 64.5,
+"links": [
+"https://www.enterticket.es/eventos/asi-canta-jerez-malaga-363459"
+]
 },
 "jalezz": {
 "name": "Jalezz",
-"mles": 52.0
+"mles": 52.0,
+"links": [
+"https://conciertos.club/malaga/conciertos/126705-jalezz"
+]
 },
 "martin-sanchez-y-los-corazones-salvajes": {
 "name": "Martín Sánchez y Los Corazones Salvajes",
-"mles": 57.9
+"mles": 57.9,
+"links": [
+"https://entradas.conciertos.club/events/martin-sanchez-concierto-en-malaga"
+]
 },
 "duo-ballix": {
 "name": "Dúo Ballix",
-"mles": 57.4
+"mles": 57.4,
+"links": [
+"https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano"
+]
 },
 "sunset-cruise-in-malaga-and-dinner-at-the-port": {
 "name": "Sunset cruise in Malaga and dinner at the port",
@@ -1761,39 +2167,66 @@
 },
 "the-silverbeats": {
 "name": "The Silverbeats",
-"mles": 58.1
+"mles": 58.1,
+"links": [
+"https://www.giglon.com/evento/the-silverbeats-beatles-tribute"
+]
 },
 "coral-promusica": {
 "name": "Coral Promúsica",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-v-aniversario-coral-promusica/PROMOC26"
+]
 },
 "gala-a-beneficio-de-la-asociacion-tdah": {
 "name": "Gala a beneficio de la Asociación TDAH",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/evento/gala-a-beneficio-de-la-asociacion-tdah"
+]
 },
 "con-cierto-gusto-iv": {
 "name": "Con-Cierto Gusto IV",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://www.taquilla.com/entradas/gusto-iv?t10cityorder=Benalmádena"
+]
 },
 "orquesta-neso": {
 "name": "Orquesta NESO",
-"mles": 71.3
+"mles": 71.3,
+"links": [
+"https://www.giglon.com/evento/neso-orchestra-spanish-music-concert"
+]
 },
 "con-fuoco-string-quartet": {
 "name": "Con Fuoco String Quartet",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.marbella.es/agenda/cultura-y-ensenanza/ix-edicion-festival-internacional-de-musica-clasica.html"
+]
 },
 "bernaldez-latin-jazz-orchestra": {
 "name": "Bernáldez Latin Jazz Orchestra",
-"mles": 59.1
+"mles": 59.1,
+"links": [
+"https://www.giglon.com/evento/bernaldez-latin-jazz-orchestra-noche-habanera"
+]
 },
 "homenaje-especial-el-canto-del-loco-hombres-g": {
 "name": "Homenaje Especial: El Canto del Loco & Hombres G",
-"mles": 52.3
+"mles": 52.3,
+"links": [
+"https://www.taquilla.com/entradas/hombres-b-tribut-a-hombres-g?t10cityorder=M%C3%A1laga"
+]
 },
 "encuentro-de-coros-rocieros": {
 "name": "Encuentro de Coros Rocieros",
-"mles": 69.4
+"mles": 69.4,
+"links": [
+"https://www.giglon.com/evento/encuentro-de-coros-de-la-pena-nerjena"
+]
 },
 "una-noche-en-la-habana": {
 "name": "Una Noche en la Habana",
@@ -1801,102 +2234,177 @@
 },
 "del-pop-al-jazz-pasando-por-queen": {
 "name": "Del Pop al Jazz pasando por Queen",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/del-pop-al-jazz-pasando-por-queen/PROMNOV26"
+]
 },
 "kino-symphony-tribute": {
 "name": "Kino Symphony Tribute",
-"mles": 49.4
+"mles": 49.4,
+"links": [
+"https://www.ticketbest.eu/performances/una-estrella-llamada-sol-zvezda-po-imeni-solntse-marbella?event_id=1126"
+]
 },
 "trio-dmitrienco-natsvlishvili-y-kuchaeva": {
 "name": "Trío Dmitrienco, Natsvlishvili y Kuchaeva",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.fundacionunicaja.com/event/concierto-del-trio-dmitrienco-natsvlishvili-y-kuchaeva/"
+]
 },
 "hide-tyson-y-sokez": {
 "name": "Hide Tyson y Sokez",
-"mles": 59.5
+"mles": 59.5,
+"links": [
+"https://www.taquilla.com/entradas/hide-tyson"
+]
 },
 "pitingo": {
 "name": "Pitingo",
-"mles": 65.2
+"mles": 65.2,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-pitingo-navidades-del-mundo-velez-malaga%2F"
+]
 },
 "nu-metal-dance-revolution": {
 "name": "Nu_Metal/Dance_Revolution",
-"mles": 57.9
+"mles": 57.9,
+"links": [
+"https://www.taquilla.com/entradas/nu_metal-dance_revolution"
+]
 },
 "tomatito": {
 "name": "Tomatito",
-"mles": 76.1
+"mles": 76.1,
+"links": [
+"https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas"
+]
 },
 "concierto-ofm-programa-4": {
 "name": "Concierto OFM Programa 4",
-"mles": 55.8
+"mles": 55.8,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-4/26-27OFM04"
+]
 },
 "la-navidad-de-manuel-periquin": {
 "name": "La Navidad de Manuel Periquín",
-"mles": 65.2
+"mles": 65.2,
+"links": [
+"https://www.malagaentradas.com/?entradas=la-navidad-de-manuel-periquin&provincia=m%C3%A1laga&cpro=29&eid=3817"
+]
 },
 "concierto-ofm-programa-5": {
 "name": "Concierto OFM Programa 5",
-"mles": 56.9
+"mles": 56.9,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-5/26-27OFM05"
+]
 },
 "walls": {
 "name": "WALLS",
-"mles": 48.5
+"mles": 48.5,
+"links": [
+"https://paris15.es/event/walls/"
+]
 },
 "abstract-halloween": {
 "name": "ABSTRACT: HALLOWEEN",
-"mles": 52.3
+"mles": 52.3,
+"links": [
+"https://paris15.es/event/blackworks-halloween/"
+]
 },
 "capullo-de-jerez": {
 "name": "Capullo de Jerez",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-capullo-de-jerez-malaga-60927609271796%2F"
+]
 },
 "josue-rarujo-obed-hernandez-y-los-nando-de-badajoz": {
 "name": "Josué Rarujo, Obed Hernández y Los Nando de Badajoz",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/josue-rarujo-obed-hernandez-y-los-nando-de-badajoz-x-mal-103671"
+]
 },
 "de-acero": {
 "name": "De Acero",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/de-acero-antologia-de-robe-extremoduro-en-malaga-996948"
+]
 },
 "esperanza-soria-fernando-soto": {
 "name": "Esperanza Soria & Fernando Soto",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/todos?idEvent=homenaje-a-maria-jimenez-y-bambino---esperanza-soria--fernando-soto"
+]
 },
 "madama-butterfly": {
 "name": "Madama Butterfly",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/todos?idEvent=madama-butterfly-estepona"
+]
 },
 "sinfonia-del-terror": {
 "name": "Sinfonía del Terror",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/todos?idEvent=sinfonia-del-terror-estepona"
+]
 },
 "zarzuela-la-revoltosa": {
 "name": "Zarzuela: La Revoltosa",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/todos?idEvent=la-revoltosa---estepona"
+]
 },
 "transdisciplina-t-25": {
 "name": "Transdisciplina T#25",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/transdisciplina-t-25-10-aniversario-2016-2026/26-27DisciplinaT"
+]
 },
 "muerdo": {
 "name": "Muerdo",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/muerdo/26-27MuerdoCanci"
+]
 },
 "lucia-rey": {
 "name": "Lucía Rey",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/lucia-rey/26-27ReyLuciaNom"
+]
 },
 "gala-benefica-la-flor-de-oro": {
 "name": "Gala benéfica La Flor de Oro",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/zambomba-de-encarni-navarro/26-27EncarniZamb"
+]
 },
 "her-own-summer": {
 "name": "Her Own Summer",
-"mles": 0.0
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fher-own-summer-malaga-sala-roka-22279742%2F"
+]
 },
 "serko": {
 "name": "SERKO",
-"mles": 53.9
+"mles": 53.9,
+"links": [
+"https://paris15.es/event/serko/"
+]
 }
 }

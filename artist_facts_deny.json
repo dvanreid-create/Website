@@ -2,15 +2,12 @@
  "_comment": "Slugs whose Wikipedia fact match is the WRONG entity (a name collision with a film, a stage musical, or a foreign band that is not the local act playing here). BOTH fetch_artist_facts.py (never fetches a fact for these) and build_site.py artist_fact_html (renders NO DYK card for these) honour this file, so a misattributed card can never resurface on the next fetch or build. Add a slug here whenever a DYK fact clearly describes something other than the act actually playing on the coast. (DLR 2026-09-12)",
  "deny": {
   "sasha": "Fact matched 'Sasha Grey', an American actress and former adult-film performer; the ML act is 'Sasha' at True Club x Vicious Lab, Torremolinos (6 Nov 2026), a DJ night, not her. (Sofia 2026-10-20)",
-  "walls": "Fact is Walls of Jericho (US metalcore); the ML act is Murcian singer Walls, 'El d\u00eda que me olvides Tour', Sala Par\u00eds 15, 18 Dec 2026. (DYK audit 2026-10-20)",
+  "walls": "Fact is Walls of Jericho (US metalcore); the ML act is Murcian singer Walls, 'El día que me olvides Tour', Sala París 15, 18 Dec 2026. (DYK audit 2026-10-20)",
   "heat-remember-fantasy": "Fact is Canned Heat; event name only, no upcoming dates. (DYK audit 2026-10-20)",
   "abstract": "Fact is Kevin Abstract (Brockhampton); the ML act is a club night. (DYK audit 2026-10-20)",
   "abstract-halloween": "Fact is Kevin Abstract; the ML act is a Halloween club night. (DYK audit 2026-10-20)",
-  "abhir": "Fact is a context-less fragment ('It was produced by himself...'); person likely right but card unusable. (DYK audit 2026-10-20)",
-  "born-this-way": "Fact is the Lady Gaga album; the ML act is a Benalm\u00e1dena show. (DYK audit 2026-10-20)",
-  "madman": "Fact is an Italian rapper; unverified match. (DYK audit 2026-10-20)",
+  "born-this-way": "Fact is the Lady Gaga album; the ML act is a Benalmádena show. (DYK audit 2026-10-20)",
   "brujeria": "Fact is generic witchcraft article. (DYK audit 2026-10-20)",
-  "la-konga": "Fact is an Argentine cuarteto group; unverified match. (DYK audit 2026-10-20)",
   "antonio-ortiz": "Fact is a painter (1883-1942); the ML act is a living musician. (DYK audit 2026-10-20)",
   "mad-dogs": "Fact is the Joe Cocker live album, not the act. (DYK audit 2026-10-20)",
   "martin-sanchez-y-los-corazones-salvajes": "Fact is about a footballer, not the band. (Sofia-approved DYK audit 2026-10-20)",
@@ -56,5 +53,136 @@
   "hechizo": "Fact matched 'Hechizos, pocimas y brujeria', a Mago de Oz album; the ML act is HECHIZO, a Heroes del Silencio tribute band from Madrid. (2026-09-19)",
   "rock-pop-legends": "Fact matched 'Rock music', the generic genre article, not an act; the ML billing is a tribute gala at Auditorio de Benalmadena. (2026-09-19)",
   "benzu": "Fact matched 'Benzu', a settlement in the Spanish autonomous city of Ceuta; the ML act is the artist Benzu, playing La Cochera Cabaret with Desorden (17 Oct 2026). (2026-09-19)"
+ },
+ "bad_src": {
+  "walls": [
+   "https://es.wikipedia.org/wiki/Walls_of_Jericho"
+  ],
+  "heat-remember-fantasy": [
+   "https://es.wikipedia.org/wiki/Canned_Heat_(banda)"
+  ],
+  "abstract": [
+   "https://en.wikipedia.org/wiki/Kevin_Abstract"
+  ],
+  "abstract-halloween": [
+   "https://en.wikipedia.org/wiki/Kevin_Abstract"
+  ],
+  "born-this-way": [
+   "https://en.wikipedia.org/wiki/Born_This_Way_(album)"
+  ],
+  "brujeria": [
+   "https://es.wikipedia.org/wiki/Brujer%C3%ADa"
+  ],
+  "antonio-ortiz": [
+   "https://en.wikipedia.org/wiki/Antonio_Ortiz_Echag%C3%BCe"
+  ],
+  "mad-dogs": [
+   "https://en.wikipedia.org/wiki/Mad_Dogs_%26_Englishmen_(album)"
+  ],
+  "martin-sanchez-y-los-corazones-salvajes": [
+   "https://es.wikipedia.org/wiki/Enrique_Mart%C3%ADn_S%C3%A1nchez"
+  ],
+  "servando-florentino": [
+   "https://en.wikipedia.org/wiki/Servando_G%C3%B3mez_Mart%C3%ADnez"
+  ],
+  "aleron": [
+   "https://es.wikipedia.org/wiki/Aler%C3%B3n_(n%C3%A1utica)"
+  ],
+  "tennessee": [
+   "https://en.wikipedia.org/wiki/Tennessee"
+  ],
+  "cupido": [
+   "https://es.wikipedia.org/wiki/Cupido_(serie_de_televisi%C3%B3n)"
+  ],
+  "blue-angel": [
+   "https://en.wikipedia.org/wiki/The_Blue_Angel"
+  ],
+  "blue-angel-the-devils-in-disguise": [
+   "https://en.wikipedia.org/wiki/The_Blue_Angel"
+  ],
+  "revolver": [
+   "https://en.wikipedia.org/wiki/Revolver_(Beatles_album)"
+  ],
+  "haze": [
+   "https://es.wikipedia.org/wiki/Purple_Haze"
+  ],
+  "querido": [
+   "https://es.wikipedia.org/wiki/M%C3%A9xico_lindo_y_querido"
+  ],
+  "masterplan": [
+   "https://en.wikipedia.org/wiki/The_Masterplan_(album)"
+  ],
+  "so-perfect-en-concierto": [
+   "https://en.wikipedia.org/wiki/She_Looks_So_Perfect"
+  ],
+  "the-80s-show-by-neon-collective": [
+   "https://es.wikipedia.org/wiki/Guitar_Hero_Encore%3A_Rocks_the_80s"
+  ],
+  "mestizaje-redescubriendo-el-mundo-del-flamenco": [
+   "https://en.wikipedia.org/wiki/Mestizo"
+  ],
+  "american-rock-stars-tributes-to-system-of-a-down-rage-against-the-machine-and-metallica": [
+   "https://en.wikipedia.org/wiki/Last_American_Rock_Stars"
+  ],
+  "malas-companias": [
+   "https://en.wikipedia.org/wiki/Malas_Compa%C3%B1%C3%ADas"
+  ],
+  "nu-metal-dance-revolution": [
+   "https://en.wikipedia.org/wiki/Nu_metal"
+  ],
+  "zarzuela-la-revoltosa": [
+   "https://en.wikipedia.org/wiki/Zarzuela"
+  ],
+  "gigantes-y-cabezudos": [
+   "https://es.wikipedia.org/wiki/Gigantes_y_cabezudos"
+  ],
+  "jota-carajota": [
+   "https://es.wikipedia.org/wiki/Jota_Carajota"
+  ],
+  "aidalai": [
+   "https://en.wikipedia.org/wiki/Aidalai"
+  ],
+  "rata": [
+   "https://en.wikipedia.org/wiki/Pro_rata"
+  ],
+  "dancing-machine": [
+   "https://en.wikipedia.org/wiki/Dancing_Machine"
+  ],
+  "disorder": [
+   "https://en.wikipedia.org/wiki/Bipolar_disorder"
+  ],
+  "porn": [
+   "https://es.wikipedia.org/wiki/Porno_alternativo"
+  ],
+  "los-herrera": [
+   "https://en.wikipedia.org/wiki/Los_Herreras"
+  ],
+  "the-plague-in-malaga": [
+   "https://en.wikipedia.org/wiki/Black_Death"
+  ],
+  "gemelos-tour-2k26": [
+   "https://en.wikipedia.org/wiki/Ferrari_(Los_Gemelos_de_Sinaloa%2C_Clave_Especial_and_Fuerza_Regida_song)"
+  ],
+  "los-caracoles": [
+   "https://en.wikipedia.org/wiki/Los_Caracoles_Dam"
+  ],
+  "camellos": [
+   "https://es.wikipedia.org/wiki/Camelus"
+  ],
+  "salma": [
+   "https://es.wikipedia.org/wiki/Salma"
+  ],
+  "iberia-sumergida": [
+   "https://es.wikipedia.org/wiki/Iberia_sumergida"
+  ],
+  "bendecida": [
+   "https://es.wikipedia.org/wiki/Bendecida"
+  ],
+  "ghost-riders": [
+   "https://en.wikipedia.org/wiki/Ghost_Riders_in_the_Sky"
+  ],
+  "valeria-lynch": [
+   "https://es.wikipedia.org/wiki/Cada_d%C3%ADa_m%C3%A1s_(%C3%A1lbum_de_Valeria_Lynch)"
+  ]
  }
 }
