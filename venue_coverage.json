@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-20",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 13,
-   "matched": 13,
-   "calendar_in_window": 13,
+   "mapped_in_window": 12,
+   "matched": 12,
+   "calendar_in_window": 12,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -222,7 +222,7 @@
    "venue": "Málaga",
    "mapped_in_window": 20,
    "matched": 20,
-   "calendar_in_window": 70,
+   "calendar_in_window": 71,
    "latest_mapped": "2026-12-12",
    "always_on": false,
    "verdict": "ok"
