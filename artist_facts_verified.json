@@ -1,0 +1,4 @@
+{
+ "_about": "Slugs whose Did-you-know card a human confirmed is about the right artist. Shown even if the automatic gate (facts_gate.py) would hold it back. Optional \"src\" pins the exact source URL: if the stored fact is re-fetched from a different page, it is hidden again. artist_facts_deny.json still wins.",
+ "verified": {}
+}
