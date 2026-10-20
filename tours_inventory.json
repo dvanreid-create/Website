@@ -1,6 +1,6 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "count": 105,
   "items": [
     {
@@ -424,34 +424,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "708013",
-      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €435",
-      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
-      "url": "https://feverup.com/m/708013/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
-    },
-    {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €26",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
-    },
-    {
       "sku": "92887",
       "n": "Guided tour of Antequera with transportation from Malaga",
       "c": "tours",
@@ -520,6 +492,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -730,6 +716,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793055&u=https%3A%2F%2Ffeverup.com%2Fm%2F793055&intsrc=CATF_15532",
       "feat": 0,
       "d": "A Funny Monologue by Patxi Zubeldia. Get Your Tickets Now!"
+    },
+    {
+      "sku": "808404",
+      "n": "The Alhambra and the Nasrid Palaces: Skip-the-line admission",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €27",
+      "img": "2b6c5d3c-629a-435b-8a20-63d12869858e.jpeg",
+      "url": "https://feverup.com/m/808404/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=808404&u=https%3A%2F%2Ffeverup.com%2Fm%2F808404&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "The Alhambra and the Nasrid Palaces: Skip-the-line admission in Málaga. Get your tickets on Fever now!"
     },
     {
       "sku": "545294",
@@ -1037,7 +1037,7 @@
       "url": "https://feverup.com/m/765350/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Enjoy “An Idiot’s Guide to Wine” at the Hotel ILUNION Málaga! A fun stand-up comedy show paired with a tasting of six wines. Get your tickets today!"
+      "d": "Enjoy \"An Idiot’s Guide to Wine\" at Hotel ILUNION Málaga! A Fun Stand-Up Comedy Show with Wine Tasting. Get Your Tickets Today!"
     },
     {
       "sku": "534149",
