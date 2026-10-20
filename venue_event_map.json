@@ -3094,6 +3094,18 @@
      "prefer": "map",
      "date": "19/11/2026",
      "why": "PINNED 2026-10-18 (Sofia: 'check all of the above yourself'). Centro Cultural Villa de Nerja sells through GIGLON (box office + giglon.com, per its own brochure; the calendar row carried only the cartel PDF). Giglon page read in the built-in browser 18 Oct: A puro tango, 19/11/2026 20:00, 20,00 EUR. RETIRE after 2026-11-19."
+    },
+    "pianista de la mano izquierda": {
+     "url": "https://www.giglon.com/evento/pianista-de-la-mano-izquierda",
+     "prefer": "map",
+     "date": "26/11/2026",
+     "why": "PINNED 2026-10-20 (Claude, Sofia's built-in browser). The 20 Oct link check dropped this row (no buy page found). Giglon page read: El pianista de la mano izquierda (Manuel Lopez), 26/11/2026 20:00 on the page (brochure says 19:00), desde 10,00 EUR, Centro Cultural Villa de Nerja, 26/11, Comprar present. Not commissioned. RETIRE after 2026-11-26."
+    },
+    "adn protegidas": {
+     "url": "https://www.giglon.com/evento/adn-protegidas",
+     "prefer": "map",
+     "date": "27/11/2026",
+     "why": "PINNED 2026-10-20 (Claude, Sofia's built-in browser). The 20 Oct link check dropped this row (no buy page found). Giglon page read: ADN Protegidas (Pastoral de las Protegidas, ADN Nerja), 27/11/2026 20:00, desde 5,00 EUR, Centro Cultural Villa de Nerja, 27/11, Comprar present. Not commissioned. RETIRE after 2026-11-27."
     }
    }
   },
