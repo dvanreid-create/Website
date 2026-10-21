@@ -1,0 +1,417 @@
+{
+"W|es|Airbag (banda española)": {
+"q": "Q5661296",
+"_t": 1792587007.0345063
+},
+"L|Q215380": [
+"grupo musical",
+"musical group"
+],
+"L|Q837837": [
+"power pop",
+"power pop"
+],
+"E|Q5661296": {
+"qid": "Q5661296",
+"label": "Airbag",
+"desc": "Spanish band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"power pop",
+"power pop"
+],
+"image": "",
+"_t": 1792587007.8973825
+},
+"_seen|airbag": [
+"Q408015",
+"Q5661296",
+"Q408027"
+],
+"L|Q105543609": [
+"obra de composición musical",
+"musical work/composition"
+],
+"L|Q11366": [
+"alternative rock",
+"rock alternativo"
+],
+"E|Q4385414": {
+"qid": "Q4385414",
+"label": "Airbag",
+"desc": "song by Radiohead",
+"instance": [
+"obra de composición musical",
+"musical work/composition"
+],
+"occupation": [],
+"genre": [
+"alternative rock",
+"rock alternativo"
+],
+"image": "",
+"_t": 1792587008.991084
+},
+"L|Q60673395": [
+"vehicle component",
+"repuesto de vehículo"
+],
+"E|Q99905": {
+"qid": "Q99905",
+"label": "airbag",
+"desc": "vehicle safety device",
+"instance": [
+"vehicle component",
+"repuesto de vehículo"
+],
+"occupation": [],
+"genre": [],
+"image": "Airbag SEAT Ibiza.jpg",
+"_t": 1792587009.595667
+},
+"L|Q83270": [
+"hard rock",
+"hard rock"
+],
+"E|Q408015": {
+"qid": "Q408015",
+"label": "Airbag",
+"desc": "Argentine musical group; hard rock band formed in 2004",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"hard rock",
+"hard rock"
+],
+"image": "Airbag en luna park.png",
+"_t": 1792587010.1299312
+},
+"L|Q49451": [
+"progressive rock",
+"rock progresivo"
+],
+"E|Q408027": {
+"qid": "Q408027",
+"label": "Airbag",
+"desc": "Norwegian band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"progressive rock",
+"rock progresivo"
+],
+"image": "Airbag, Stary Maneż, 17.10.2024 40.jpg",
+"_t": 1792587010.6429033
+},
+"L|Q482994": [
+"álbum",
+"album"
+],
+"E|Q5661298": {
+"qid": "Q5661298",
+"label": "Airbag",
+"desc": "2004 self-titled debut studio album by Airbag",
+"instance": [
+"álbum",
+"album"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792587011.2082534
+},
+"L|Q11424": [
+"film",
+"película"
+],
+"L|Q188473": [
+"cine de acción",
+"action film"
+],
+"L|Q2484376": [
+"cine de suspenso",
+"thriller film"
+],
+"L|Q5778924": [
+"cine de humor negro",
+"black comedy film"
+],
+"L|Q628165": [
+"película de carretera",
+"road movie"
+],
+"L|Q157443": [
+"cine de comedia",
+"comedy film"
+],
+"L|Q959790": [
+"crime film",
+"cine de crímenes"
+],
+"E|Q2828262": {
+"qid": "Q2828262",
+"label": "Airbag",
+"desc": "1997 film by Juanma Bajo Ulloa",
+"instance": [
+"film",
+"película"
+],
+"occupation": [],
+"genre": [
+"cine de acción",
+"action film",
+"cine de suspenso",
+"thriller film",
+"cine de humor negro",
+"black comedy film",
+"película de carretera",
+"road movie",
+"cine de comedia",
+"comedy film",
+"crime film",
+"cine de crímenes"
+],
+"image": "",
+"_t": 1792587012.2943125
+},
+"L|Q134556": [
+"sencillo",
+"single"
+],
+"E|Q12580734": {
+"qid": "Q12580734",
+"label": "Airbag",
+"desc": "single by Tablo",
+"instance": [
+"sencillo",
+"single"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792587012.7619963
+},
+"L|Q43305660": [
+"united states patent",
+"patente estadounidense"
+],
+"E|Q136701848": {
+"qid": "Q136701848",
+"label": "Airbag",
+"desc": "US patent 11254281",
+"instance": [
+"united states patent",
+"patente estadounidense"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792587013.2370958
+},
+"E|Q125542085": {
+"qid": "Q125542085",
+"label": "Airbag",
+"desc": "US patent 11427151",
+"instance": [
+"united states patent",
+"patente estadounidense"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792587013.4645238
+},
+"S|airbag": {
+"n": 3,
+"_t": 1792587013.779622
+},
+"W|es|Alejandro Astola": {
+"q": "Q21682649",
+"_t": 1792587016.6424873
+},
+"L|Q5": [
+"human",
+"ser humano"
+],
+"L|Q36834": [
+"compositor",
+"composer"
+],
+"L|Q177220": [
+"cantante",
+"singer"
+],
+"L|Q10800557": [
+"actor de cine",
+"film actor"
+],
+"E|Q21682649": {
+"qid": "Q21682649",
+"label": "Alejandro Astola",
+"desc": "Spanish musician, composer and producer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"compositor",
+"composer",
+"cantante",
+"singer",
+"actor de cine",
+"film actor"
+],
+"genre": [],
+"image": "Astola2015.jpg",
+"_t": 1792587017.5164492
+},
+"W|en|Andrés Suárez": {
+"q": "Q5676134",
+"_t": 1792587056.8500051
+},
+"L|Q488205": [
+"cantautor",
+"singer-songwriter"
+],
+"L|Q639669": [
+"musician",
+"músico"
+],
+"L|Q182659": [
+"balada",
+"ballad"
+],
+"L|Q8341": [
+"jazz",
+"jazz"
+],
+"E|Q5676134": {
+"qid": "Q5676134",
+"label": "Andrés Suárez",
+"desc": "Spanish singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantautor",
+"singer-songwriter",
+"musician",
+"músico"
+],
+"genre": [
+"balada",
+"ballad",
+"jazz",
+"jazz"
+],
+"image": "Andrés Suárez.jpg",
+"_t": 1792587057.594339
+},
+"W|en|Antonio Orozco": {
+"q": "Q2857384",
+"_t": 1792587062.898113
+},
+"L|Q43845": [
+"empresario",
+"businessperson"
+],
+"L|Q753110": [
+"compositor de canciones",
+"songwriter"
+],
+"L|Q37073": [
+"pop",
+"pop music"
+],
+"E|Q2857384": {
+"qid": "Q2857384",
+"label": "Antonio Orozco",
+"desc": "Spanish singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer",
+"empresario",
+"businessperson",
+"compositor de canciones",
+"songwriter",
+"compositor",
+"composer"
+],
+"genre": [
+"pop",
+"pop music"
+],
+"image": "Malaga Film Festival 2025 - Antonio Orozco 02 (cropped) (cropped).jpg",
+"_t": 1792587063.781097
+},
+"W|en|Antonio Sánchez (drummer)": {
+"q": "Q605011",
+"_t": 1792587067.3015165
+},
+"L|Q61946839": [
+"jazz drummer",
+"baterista de jazz"
+],
+"L|Q15981151": [
+"jazz musician",
+"músico de jazz"
+],
+"L|Q386854": [
+"drummer",
+"baterista"
+],
+"L|Q462390": [
+"docent",
+"docente"
+],
+"L|Q9764": [
+"flamenco",
+"flamenco"
+],
+"E|Q605011": {
+"qid": "Q605011",
+"label": "Antonio Sánchez",
+"desc": "Mexican jazz drummer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"jazz drummer",
+"baterista de jazz",
+"compositor",
+"composer",
+"jazz musician",
+"músico de jazz",
+"drummer",
+"baterista",
+"docent",
+"docente",
+"musician",
+"músico"
+],
+"genre": [
+"jazz",
+"jazz",
+"flamenco",
+"flamenco"
+],
+"image": "Antonio Sánchez & Migration, LantarenVenster Rotterdam 11 januari 2019 - Antonio Sánchez (51437432070).jpg",
+"_t": 1792587068.3072057
+}
+}
