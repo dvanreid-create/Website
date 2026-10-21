@@ -1,0 +1,15 @@
+{
+ "generated": "2026-10-21",
+ "checked": 2,
+ "flagged": [
+  {
+   "slug": "haze",
+   "name": "Haze",
+   "article": "https://es.wikipedia.org/wiki/Purple_Haze",
+   "reason": "wikidata: not a musical entity (obra de composición musical, musical work/composition | )",
+   "wikidata": "Q1241630",
+   "desc": "original song written and composed by Jimi Hendrix",
+   "act_genre": ""
+  }
+ ]
+}

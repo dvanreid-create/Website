@@ -413,5 +413,265 @@
 ],
 "image": "Antonio Sánchez & Migration, LantarenVenster Rotterdam 11 januari 2019 - Antonio Sánchez (51437432070).jpg",
 "_t": 1792587068.3072057
+},
+"W|en|Arcadi Volodos": {
+"q": "Q631344",
+"_t": 1792587968.4474602
+},
+"L|Q486748": [
+"pianist",
+"pianista"
+],
+"L|Q9730": [
+"classical music",
+"música clásica"
+],
+"E|Q631344": {
+"qid": "Q631344",
+"label": "Arcadi Volodos",
+"desc": "Russian pianist",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"pianist",
+"pianista"
+],
+"genre": [
+"classical music",
+"música clásica"
+],
+"image": "Arcadi Arcadievich Volodos Fotoman.jpg",
+"_t": 1792587969.424891
+},
+"W|en|Arde Bogotá": {
+"q": "Q117440368",
+"_t": 1792587970.6643887
+},
+"L|Q183504": [
+"indie rock",
+"indie rock"
+],
+"E|Q117440368": {
+"qid": "Q117440368",
+"label": "Arde Bogotá",
+"desc": "Spanish musical group",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"indie rock",
+"indie rock",
+"alternative rock",
+"rock alternativo"
+],
+"image": "Arde Bogotá Toro1.jpg",
+"_t": 1792587971.269073
+},
+"W|en|OBK": {
+"q": "Q1516585",
+"_t": 1792588134.0383444
+},
+"L|Q9212979": [
+"dúo musical",
+"musical duo"
+],
+"L|Q1298934": [
+"synth-pop",
+"synth pop"
+],
+"E|Q1516585": {
+"qid": "Q1516585",
+"label": "OBK",
+"desc": "Spanish electro-pop duo",
+"instance": [
+"dúo musical",
+"musical duo"
+],
+"occupation": [],
+"genre": [
+"synth-pop",
+"synth pop"
+],
+"image": "Madrid - San Isidro 2026 - OBK - 260514 224144.jpg",
+"_t": 1792588134.8652143
+},
+"_seen|obk": [
+"Q1516585"
+],
+"L|Q7187": [
+"gene",
+"gen"
+],
+"E|Q29721530": {
+"qid": "Q29721530",
+"label": "obk",
+"desc": "genetic element in the species Drosophila melanogaster",
+"instance": [
+"gene",
+"gen"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792588135.6267395
+},
+"S|obk": {
+"n": 1,
+"_t": 1792588135.9370124
+},
+"W|es|Purple Haze": {
+"q": "Q1241630",
+"_t": 1792588136.1713006
+},
+"L|Q206159": [
+"rock psicodélico",
+"psychedelic rock"
+],
+"E|Q1241630": {
+"qid": "Q1241630",
+"label": "Purple Haze",
+"desc": "original song written and composed by Jimi Hendrix",
+"instance": [
+"obra de composición musical",
+"musical work/composition"
+],
+"occupation": [],
+"genre": [
+"rock psicodélico",
+"psychedelic rock"
+],
+"image": "",
+"_t": 1792588136.7674124
+},
+"_seen|purple haze": [
+"Q7261413"
+],
+"L|Q55850593": [
+"music track with vocals",
+"pista musical con voz"
+],
+"E|Q66092210": {
+"qid": "Q66092210",
+"label": "Purple Haze",
+"desc": "vocal track by The Jimi Hendrix Experience; 1967 studio recording",
+"instance": [
+"music track with vocals",
+"pista musical con voz"
+],
+"occupation": [],
+"genre": [
+"rock psicodélico",
+"psychedelic rock"
+],
+"image": "",
+"_t": 1792588137.7258184
+},
+"L|Q11401": [
+"hiphop",
+"hip-hop"
+],
+"E|Q4349286": {
+"qid": "Q4349286",
+"label": "Purple Haze",
+"desc": "2004 studio album by Cam’ron",
+"instance": [
+"álbum",
+"album"
+],
+"occupation": [],
+"genre": [
+"hiphop",
+"hip-hop"
+],
+"image": "",
+"_t": 1792588138.3663864
+},
+"E|Q7261413": {
+"qid": "Q7261413",
+"label": "Purple Haze",
+"desc": "a cappella group",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792588138.6234362
+},
+"L|Q55448359": [
+"strain of cannabis",
+"variedades e híbridos de cannabis sativa"
+],
+"E|Q3410970": {
+"qid": "Q3410970",
+"label": "Purple Haze",
+"desc": "type of cannabis strain",
+"instance": [
+"strain of cannabis",
+"variedades e híbridos de cannabis sativa"
+],
+"occupation": [],
+"genre": [],
+"image": "Fleurs coupées de Purple Haze.JPG",
+"_t": 1792588139.098315
+},
+"E|Q30887822": {
+"qid": "Q30887822",
+"label": "Purple Haze",
+"desc": "album by Entics",
+"instance": [
+"álbum",
+"album"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792588139.351405
+},
+"L|Q21191270": [
+"television series episode",
+"episodio de serie de televisión"
+],
+"E|Q52668866": {
+"qid": "Q52668866",
+"label": "Purple Haze",
+"desc": "episode of Eureka (S1 E10)",
+"instance": [
+"television series episode",
+"episodio de serie de televisión"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792588139.8242857
+},
+"L|Q817138": [
+"electronica",
+"electrónica"
+],
+"E|Q20712658": {
+"qid": "Q20712658",
+"label": "Purple Haze",
+"desc": "2002 song performed by Groove Armada",
+"instance": [
+"obra de composición musical",
+"musical work/composition"
+],
+"occupation": [],
+"genre": [
+"electronica",
+"electrónica"
+],
+"image": "",
+"_t": 1792588140.613569
+},
+"S|purple haze": {
+"n": 1,
+"_t": 1792588140.614641
 }
 }
