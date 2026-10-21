@@ -1923,6 +1923,61 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-10-14 (Sofia: add everything missing up to 12 Dec). Fever's own Málaga Candlelight listing (feverup.com/es/malaga/candlelight) shows this programme on 11/12/2026 at 19:45 with a live 'Desde' price and no 'Agotado' tag; fever_scrape had not put the night in the calendar. Fever (Impact, 6%) is commissioned; raw feverup.com/m/ link on purpose so build_site wraps it in the affiliate template. Seen on the listing, NOT yet opened on the plan's own date selector. Retire after 2026-12-11."
     },
+    "candlelight premium hans zimmer thyssen 7 nov": {
+     "url": "https://feverup.com/m/126888",
+     "prefer": "map",
+     "date": "07/11/2026",
+     "time": "20:30",
+     "price": "Desde 29,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight Premium: Tribute to Hans Zimmer",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 126888, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sat 7 Nov 20:30, Zona C 31,50, range from 29). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-11-07."
+    },
+    "candlelight premium hans zimmer thyssen 20 dic": {
+     "url": "https://feverup.com/m/126888",
+     "prefer": "map",
+     "date": "20/12/2026",
+     "time": "20:30",
+     "price": "Desde 29,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight Premium: Tribute to Hans Zimmer",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 126888, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sun 20 Dec 20:30). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-12-20."
+    },
+    "candlelight tribute phil collins thyssen 28 nov": {
+     "url": "https://feverup.com/m/771783",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "20:30",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Phil Collins",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 771783, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sat 28 Nov 20:30, Balcon 28). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-11-28."
+    },
+    "candlelight tribute mecano thyssen 28 nov": {
+     "url": "https://feverup.com/m/771782",
+     "prefer": "map",
+     "date": "28/11/2026",
+     "time": "22:15",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Mecano",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 771782, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sat 28 Nov 22:15, Balcon 28). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-11-28."
+    },
+    "candlelight tribute bad bunny thyssen 12 dic": {
+     "url": "https://feverup.com/m/806339",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "22:15",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Bad Bunny",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 806339, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sat 12 Dec 22:15, Balcon 28). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-12-12."
+    },
     "candlelight tribute michael jackson thyssen 12 dic": {
      "url": "https://feverup.com/m/753379",
      "prefer": "map",
