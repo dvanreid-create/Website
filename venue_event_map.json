@@ -3536,6 +3536,12 @@
      "prefer": "map",
      "date": "29/10/2026",
      "why": "AUTO-REPAIRED 2026-10-21 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    },
+    "blues jam session": {
+     "url": "https://www.clarencejazzclub.com/wp/events/blues-jam-session-83/",
+     "prefer": "map",
+     "date": "25/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-21 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    },
    "_nights_2026_09": {
