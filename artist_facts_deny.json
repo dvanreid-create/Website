@@ -1,7 +1,6 @@
 {
  "_comment": "Slugs whose Wikipedia fact match is the WRONG entity (a name collision with a film, a stage musical, or a foreign band that is not the local act playing here). BOTH fetch_artist_facts.py (never fetches a fact for these) and build_site.py artist_fact_html (renders NO DYK card for these) honour this file, so a misattributed card can never resurface on the next fetch or build. Add a slug here whenever a DYK fact clearly describes something other than the act actually playing on the coast. (DLR 2026-09-12)",
  "deny": {
-  "sasha": "Fact matched 'Sasha Grey', an American actress and former adult-film performer; the ML act is 'Sasha' at True Club x Vicious Lab, Torremolinos (6 Nov 2026), a DJ night, not her. (Sofia 2026-10-20)",
   "walls": "Fact is Walls of Jericho (US metalcore); the ML act is Murcian singer Walls, 'El día que me olvides Tour', Sala París 15, 18 Dec 2026. (DYK audit 2026-10-20)",
   "heat-remember-fantasy": "Fact is Canned Heat; event name only, no upcoming dates. (DYK audit 2026-10-20)",
   "abstract": "Fact is Kevin Abstract (Brockhampton); the ML act is a club night. (DYK audit 2026-10-20)",
@@ -55,6 +54,10 @@
   "benzu": "Fact matched 'Benzu', a settlement in the Spanish autonomous city of Ceuta; the ML act is the artist Benzu, playing La Cochera Cabaret with Desorden (17 Oct 2026). (2026-09-19)"
  },
  "bad_src": {
+  "sasha": [
+   "https://en.wikipedia.org/wiki/Sasha_Grey",
+   "https://es.wikipedia.org/wiki/Sasha_Grey"
+  ],
   "walls": [
    "https://es.wikipedia.org/wiki/Walls_of_Jericho"
   ],
