@@ -673,5 +673,32 @@
 "S|purple haze": {
 "n": 1,
 "_t": 1792588140.614641
+},
+"W|es|Ausiàs Parejo": {
+"q": "Q140738698",
+"_t": 1792595240.7593632
+},
+"L|Q24067349": [
+"classical guitarist",
+"guitarrista clásico"
+],
+"E|Q140738698": {
+"qid": "Q140738698",
+"label": "Ausiàs Parejo",
+"desc": "Spanish classical guitarist",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"classical guitarist",
+"guitarrista clásico"
+],
+"genre": [
+"classical music",
+"música clásica"
+],
+"image": "",
+"_t": 1792595241.2447662
 }
 }

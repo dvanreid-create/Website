@@ -1879,6 +1879,17 @@
      "genre": "Blues",
      "why": "ADDED 2026-10-14 (window slid past it; venue not on backfill WHITELIST). Browser-confirmed 2026-10-14: entradas.com event 22225453, 'Blues Brothers Tribute «Soul Mission» MÁLAGA 11/12/2026 20:00', FYCMA, JSON-LD EventScheduled, banner 'Muy popular / alta demanda'. Price 43,11 EUR = La Ganzua 'desde' (not read on the seller page). Commissioned (entradas.com via Awin 24761). Retire after 2026-12-11."
     },
+    "alabama gospel choir malaga": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-alabama-gospel-choir-todos191206072026/",
+     "prefer": "map",
+     "date": "19/12/2026",
+     "time": "20:00",
+     "price": "Desde 50.53 EUR",
+     "venue": "FYCMA - Palacio de Ferias y Congresos",
+     "venue_name": "Alabama Gospel Choir",
+     "genre": "Jazz & Soul",
+     "why": "ADDED 2026-10-21 (look-ahead review; window slid past it, missing from the live site although inside the window; FYCMA not on backfill WHITELIST). Browser-read 2026-10-21: elcorteingles.es page 'Alabama Gospel Choir en Malaga, 19 de Diciembre de 2026, A las 20:00 h, Palacio de Ferias y Congresos de Malaga, Desde 50,53 EUR, COMPRAR'. COMMISSIONED (El Corte Ingles via Awin 13034). A second ECI page (todos812027, 8 Jan 2027, from 37,63 EUR, city not read) is outside the window. Retire after 2026-12-19."
+    },
     "candlelight tribute hans zimmer 8 dic": {
      "url": "https://feverup.com/m/155745",
      "prefer": "map",
