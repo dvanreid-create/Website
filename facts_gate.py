@@ -64,7 +64,7 @@ def check(slug, base_key, fact, src, verified=None):
     return True, "auto"
 
 _ES_RESIDUE = re.compile(r"\b(todos|todas|obtuvo|despuntó|según|además|también|aunque|porque|durante|fueron|desde|hasta)\b"
-                         r"|\b[a-záéíóúñ]{3,}(?:ó|ción|ciones|ieron)\b", re.I)
+                         r"|(?-i:\b[a-záéíóúñ]{3,}(?:ó|ción|ciones|ieron)\b)", re.I)   # 2026-10-21: lower-case only, so proper nouns (La Asunción) are not "Spanish residue" (hid the DE Capullo card)
 def lang_ok(lang, fact):
     """Translated rows (de/fr/sv/no/da/fi) must not contain untranslated Spanish (e.g. 'Todos ovat imeneet...', 20 Oct 2026).
     'Any'/es rows are the Spanish source text and are not checked."""
