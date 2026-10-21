@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "window_days": 30,
  "venues": {
   "operabenalmadena": {
@@ -67,9 +67,9 @@
   },
   "zz pub": {
    "venue": "ZZ PUB",
-   "mapped_in_window": 12,
-   "matched": 12,
-   "calendar_in_window": 12,
+   "mapped_in_window": 11,
+   "matched": 11,
+   "calendar_in_window": 11,
    "latest_mapped": "2026-10-31",
    "always_on": true,
    "verdict": "ok"
@@ -159,7 +159,7 @@
    "venue": "Sala La Trinchera",
    "mapped_in_window": 0,
    "matched": 0,
-   "calendar_in_window": 7,
+   "calendar_in_window": 9,
    "latest_mapped": "2026-11-29",
    "always_on": true,
    "verdict": "ok"
@@ -193,10 +193,10 @@
   },
   "clarence jazz club": {
    "venue": "Clarence Jazz Club",
-   "mapped_in_window": 0,
-   "matched": 0,
+   "mapped_in_window": 2,
+   "matched": 2,
    "calendar_in_window": 8,
-   "latest_mapped": "2026-09-30",
+   "latest_mapped": "2026-10-29",
    "always_on": true,
    "verdict": "ok"
   },
@@ -204,7 +204,7 @@
    "venue": "Sala París 15",
    "mapped_in_window": 8,
    "matched": 8,
-   "calendar_in_window": 13,
+   "calendar_in_window": 14,
    "latest_mapped": "2027-05-14",
    "always_on": false,
    "verdict": "ok"
@@ -222,7 +222,7 @@
    "venue": "Málaga",
    "mapped_in_window": 20,
    "matched": 20,
-   "calendar_in_window": 71,
+   "calendar_in_window": 74,
    "latest_mapped": "2026-12-12",
    "always_on": false,
    "verdict": "ok"

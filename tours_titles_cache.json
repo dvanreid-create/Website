@@ -2509,16 +2509,16 @@
     }
   },
   "viator:5487366P1": {
-    "h": "33b43ed86bdcf07a3f225d4826b9f8d4",
+    "h": "cfd2528ce9bedc1619b7e6c2e1f08cfc",
     "names": {
-      "en": "Tour from Malaga: private excursion with transport",
-      "es": "Tour desde Málaga: excursión privada con transporte",
-      "de": "Tour ab Malaga: private Ausflug mit Transport",
-      "fr": "Circuit depuis Malaga : excursion privée avec transport",
-      "sv": "Tur från Malaga: privat utflykt med transport",
-      "no": "Tur fra Malaga: privat utflukt med transport",
-      "da": "Tur fra Malaga: privat udflugt med transport",
-      "fi": "Kierros Malagasta: yksityinen retki kuljetuksella"
+      "en": "Ronda from Málaga: Private Excursion with Transport",
+      "es": "Ronda desde Málaga: excursión privada con transporte",
+      "de": "Ronda ab Málaga: Private Ausflug mit Transport",
+      "fr": "Ronda depuis Málaga : excursion privée avec transport",
+      "sv": "Ronda från Málaga: Privat utflykt med transport",
+      "no": "Ronda fra Málaga: Privat utflukt med transport",
+      "da": "Ronda fra Málaga: Privat udflugt med transport",
+      "fi": "Ronda Malagasta: yksityinen retki kuljetuksella"
     }
   },
   "viator:356190P3": {
@@ -22477,15 +22477,15 @@
     }
   },
   "viator:414614P109": {
-    "h": "655297fce471f48cb242f01df4f7578a",
+    "h": "392f63fc14354dd12a27c11286f5b3eb",
     "names": {
-      "en": "Excursion for cruisers from the Port of Malaga to Malaga",
-      "es": "Excursión para cruceristas desde el Puerto de Malaga a Malaga",
-      "de": "Ausflug für Kreuzfahrtgäste vom Hafen von Malaga nach Malaga",
+      "en": "Excursion for Cruisers from the Port of Malaga to Malaga",
+      "es": "Excursión para cruceristas desde el puerto de Málaga a Málaga",
+      "de": "Ausflug für Kreuzfahrtgäste vom Hafen Malaga nach Malaga",
       "fr": "Excursion pour croisiéristes du port de Malaga à Malaga",
-      "sv": "Utflykt för kryssningspassagerare från hamnen i Malaga till Malaga",
-      "no": "Utflukt for cruisepassasjerer fra havnen i Malaga til Malaga",
-      "da": "Udflugt for krydstogtgæster fra Malaga havn til Malaga",
+      "sv": "Utflykt för kryssningsresenärer från Malagas hamn till Malaga",
+      "no": "Utflukt for cruisepassasjerer fra Malaga havn til Malaga",
+      "da": "Udflugt for krydstogtsgæster fra Malagas havn til Malaga",
       "fi": "Risteilymatkustajien retki Malagan satamasta Malagaan"
     }
   },
@@ -22604,6 +22604,58 @@
       "no": "Privat yogatime i Marbella",
       "da": "Privat yogatime i Marbella",
       "fi": "Yksityinen joogatunti Marbellassa"
+    }
+  },
+  "viator:5703394P2": {
+    "h": "0dccfc806921c8b8bcad1b3147272db9",
+    "names": {
+      "en": "Cacao Tasting in Ronda Discover its Origins, Aromas, and Flavors",
+      "es": "Cata de cacao en Ronda: descubre sus orígenes, aromas y sabores",
+      "de": "Kakaoverkostung in Ronda: Entdecken Sie Ursprünge, Aromen und Geschmäcker",
+      "fr": "Dégustation de cacao à Ronda : découvrez ses origines, arômes et saveurs",
+      "sv": "Kakaoprovning i Ronda – upptäck dess ursprung, aromer och smaker",
+      "no": "Kakaosmaking i Ronda – oppdag opprinnelse, aromaer og smaker",
+      "da": "Kakaosmagning i Ronda – oplev dens oprindelse, aromaer og smag",
+      "fi": "Kaakaon maistelu Rondassa – tutustu sen alkuperään, aromeihin ja makuihin"
+    }
+  },
+  "viator:5703394P1": {
+    "h": "4b6dfa1ae3721d67be68ac23a8a9fc6a",
+    "names": {
+      "en": "Cacao Tasting in Ronda Discover the World of Cacao",
+      "es": "Cata de cacao en Ronda: descubre el mundo del cacao",
+      "de": "Kakaoverkostung in Ronda: Entdecken Sie die Welt des Kakaos",
+      "fr": "Dégustation de cacao à Ronda : découvrez le monde du cacao",
+      "sv": "Kakaoprovning i Ronda – upptäck kakaons värld",
+      "no": "Kakaosmaking i Ronda – oppdag kakaoens verden",
+      "da": "Kakaosmagning i Ronda – oplev kakaoens verden",
+      "fi": "Kaakaon maistelu Rondassa – tutustu kaakaon maailmaan"
+    }
+  },
+  "viator:5686150P589": {
+    "h": "81bc13eb51d93ae122353a997e601cd8",
+    "names": {
+      "en": "Smoke Salt and Jasmine The Sensory Soul of Malaga Podcast Tour",
+      "es": "Sal de humo y jazmín: el alma sensorial de Málaga, tour con pódcast",
+      "de": "Rauch, Salz und Jasmin: Die sinnliche Seele von Malaga Podcast-Tour",
+      "fr": "Sel fumé et jasmin : l'âme sensorielle de Malaga, visite podcast",
+      "sv": "Rök, salt och jasmin – Malagas sinnliga själ, en podcast-rundtur",
+      "no": "Røyk, salt og sjasmin – Malagas sanselige sjel podkast-tur",
+      "da": "Røgsalt og jasmin – Malagas sanselige sjæl, podcasttur",
+      "fi": "Smoke Salt and Jasmine – Malagan aistillinen sielu -podcastkierros"
+    }
+  },
+  "viator:117866P1161": {
+    "h": "ee37652217d6fa7b15c009f7f1101373",
+    "names": {
+      "en": "Private Gibraltar Tour from Málaga",
+      "es": "Tour privado a Gibraltar desde Málaga",
+      "de": "Private Gibraltar-Tour ab Málaga",
+      "fr": "Excursion privée à Gibraltar depuis Málaga",
+      "sv": "Privat Gibraltar-tur från Málaga",
+      "no": "Privat Gibraltar-tur fra Málaga",
+      "da": "Privat Gibraltar-tur fra Málaga",
+      "fi": "Yksityinen Gibraltar-kierros Malagasta"
     }
   }
 }
