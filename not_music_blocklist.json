@@ -82,6 +82,12 @@
    "why": "CANCELLED / POSTPONED BY THE PROMOTER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Niña Pastori - Color Fania', Sat 17 Oct 2026, Auditorio Municipal Príncipe de Asturias, Torremolinos. Seen by Sofia in her own browser on our own Awin link: ECI's page elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/ shows the buy button replaced by 'CANCELADO' and the organiser's (Concert Tour) notice: the 17 Oct show is annulled and ALL tickets refunded because the concert is REPROGRAMMED to 7 March 2027, 20:00, same auditorium, now SEATED. The new date is on sale at ECI (elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/, from 49,50 EUR) and is outside the calendar window today. Date-scoped so the 7 Mar 2027 show is untouched; the manual injection in build_site.py is retired in the same change. Missed by the ECI map refresh of 2026-10-01 because the page text still rendered the date and a 'COMPRAR'-style scan did not read the banner - the refresh must also look for CANCELADO on every card page. Reverse with one edit if the promoter reinstates 17 Oct."
   },
   {
+   "match": "elton john",
+   "venue": "gran hotel miramar",
+   "date": "2026-11-01",
+   "why": "OFF SALE - Candlelight: Tribute to Elton John, Sun 1 Nov 2026 19:00, Gran Hotel Miramar. Fever plan 643697 (the seller conciertos.club names: 'Venta anticipada: Feverup.com') shows 'We love this experience, but no tickets are available at the moment' (built-in browser, 2026-10-22), and Fever's Malaga Candlelight listing (35 plans) has no Elton John programme. The card linked only to a conciertos.club INFO page, which earns nothing and sells nothing (Sofia 2026-10-22: must link to Fever, not conciertos.club). Date-scoped: remove this entry if Fever 643697 gets a 1 Nov session, and route it to feverup.com/m/643697 via TICKET_OVERRIDES."
+  },
+  {
    "match": "holi not holi",
    "venue": "principe de asturias",
    "date": "2026-10-24",

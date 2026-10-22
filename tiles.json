@@ -459,46 +459,6 @@
    "credit": "Photo: Kristopher Harris · CC BY 2.0"
   },
   {
-   "photo": "/assets/tiles/ext-cbc223ae4c4ac81e.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tributo a Elton John",
-   "headBottom": true,
-   "expires": "2026-11-01",
-   "sub": {
-    "en": "Sun 1 Nov · Gran Hotel Miramar · Málaga",
-    "es": "Dom 1 nov · Gran Hotel Miramar · Málaga",
-    "de": "So 1 Nov · Gran Hotel Miramar · Málaga",
-    "fr": "dim. 1 nov. · Gran Hotel Miramar · Málaga",
-    "sv": "sön 1 nov · Gran Hotel Miramar · Málaga",
-    "no": "søn 1 nov · Gran Hotel Miramar · Málaga",
-    "da": "søn 1 nov · Gran Hotel Miramar · Málaga",
-    "fi": "su 1 marrask. · Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://conciertos.club/malaga/conciertos/118125-tributo-a-elton-john-candlelight",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
    "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
