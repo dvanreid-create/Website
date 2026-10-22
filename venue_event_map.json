@@ -1465,7 +1465,8 @@
      "time": "21:00"
     },
     "miss caffeina": {
-     "url": "https://paris15.es/event/miss-caffeina-3/",
+     "url": "https://www.baila.fm/es/evento/miss-caffeina-gira-aniversario-detroit-malaga-2026",
+     "prefer": "map",
      "date": "05/12/2026",
      "venue_name": "MISS CAFFEINA",
      "time": "21:00"
