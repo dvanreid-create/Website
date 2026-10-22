@@ -3444,6 +3444,12 @@
      "venue_name": "Farruquito en Concierto",
      "genre": "Flamenco",
      "why": "COVERAGE GAP FOUND 2026-09-30, caught specifically because Sofia asked why the earlier Tue 13/Wed 14 Oct WebSearch-based sweep found nothing when this unientradas province listing turned up real gaps minutes later. BROWSER-CONFIRMED: unientradas 26-27ConcFarruqu renders 'FARRUQUITO EN CONCIERTO, Miercoles 14/10/2026 20:00, TEATRO CERVANTES', live seat map + 'Ver precios' control. Billed 'EN CONCIERTO' (not just a Danza Malaga dance slot) - Farruquito is a flamenco dancer whose shows are built around live cante/guitar, same category this site already carries other flamenco artists in (Cristian de Moret, Javier Ruibal), so IN SCOPE as live music, unlike the surrounding Danza Malaga programme (contemporary dance pieces like 'Blanco, Solido, Cristalino' 13 Oct, 'Tierras Raras', 'El Corsario' etc - checked, no 'en concierto' framing, no live-music angle found, correctly left out). ROOT CAUSE OF THE MISS: the earlier sweep for 13/14 Oct used WebSearch/press aggregators only and never checked Teatro Cervantes' own box office (unientradas.es) directly - the exact same blind spot the other 5 gaps found this session came from. Teatro Cervantes' programme is structurally under-covered by both the automated weekly sweep AND by ad hoc WebSearch verification; it needs to be checked directly on unientradas, not inferred from search results."
+    },
+    "festival internacional de jazz de malaga kenny barron": {
+     "url": "https://www.teatrocervantes.com/es/genero/musica/33-festival-internacional-de-jazz/kenny-barron",
+     "prefer": "map",
+     "date": "08/11/2026",
+     "why": "AUTO-REPAIRED 2026-10-22 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
   },

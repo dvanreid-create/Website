@@ -7891,16 +7891,16 @@
     }
   },
   "viator:280895P398": {
-    "h": "0a6ebf6c4f97496ff51b9d9f9be80564",
+    "h": "8bf20845eac1f7c8a07aba17c649679a",
     "names": {
-      "en": "5 Hour Private City Tour in Malaga",
-      "es": "Tour Privado de la Ciudad de Malaga de 5 Horas",
-      "de": "5-stündige private Stadttour in Malaga",
-      "fr": "Visite privée de la ville de Malaga de 5 heures",
-      "sv": "5 timmars privat stadsrundtur i Malaga",
-      "no": "5-timers privat byrundtur i Malaga",
-      "da": "5-timers privat byrundtur i Malaga",
-      "fi": "5 tunnin yksityinen kaupunkikierros Malagassa"
+      "en": "Half Day Private City Tour in Malaga",
+      "es": "Tour Privado de Medio Día por la Ciudad de Malaga",
+      "de": "Private Halbtags-Stadtführung in Malaga",
+      "fr": "Visite privée d'une demi-journée de Malaga",
+      "sv": "Privat halvdags stadsrundtur i Malaga",
+      "no": "Privat halvdags byrundtur i Malaga",
+      "da": "Privat byrundtur i Malaga på en halv dag",
+      "fi": "Puolen päivän yksityinen kaupunkikiertue Malagassa"
     }
   },
   "viator:8653P1490": {
@@ -8125,16 +8125,16 @@
     }
   },
   "viator:280895P397": {
-    "h": "3e7c01f0815c47373f14b17ec1feb60d",
+    "h": "a4b749b82941b9cf56df4c67630ac836",
     "names": {
-      "en": "10 Hour Private City Tour in Malaga with Free Photography",
-      "es": "Tour Privado de la Ciudad de Malaga de 10 Horas con Fotografía Gratis",
-      "de": "10-stündige private Stadttour in Malaga mit gratis Fotografie",
-      "fr": "Visite privée de la ville de Malaga de 10 heures avec photographie gratuite",
-      "sv": "10 timmars privat stadsrundtur i Malaga med gratis fotografering",
-      "no": "10-timers privat byrundtur i Malaga med gratis fotografering",
-      "da": "10-timers privat byrundtur i Malaga med gratis fotografering",
-      "fi": "10 tunnin yksityinen kaupunkikierros Malagassa ilmaisella valokuvauksella"
+      "en": "Private Full Day Tour in Malaga with Free Photoshoot",
+      "es": "Tour Privado de Día Completo en Malaga con Sesión de Fotos Gratis",
+      "de": "Private Ganztagestour in Malaga mit kostenlosem Fotoshooting",
+      "fr": "Visite privée d'une journée complète à Malaga avec séance photo offerte",
+      "sv": "Privat heldagstur i Malaga med gratis fotografering",
+      "no": "Privat heldagstur i Malaga med gratis fotografering",
+      "da": "Privat heldagstur i Malaga med gratis fotoshoot",
+      "fi": "Yksityinen koko päivän kiertue Malagassa ja ilmainen valokuvaus"
     }
   },
   "viator:5628215P7": {
@@ -10686,16 +10686,16 @@
     }
   },
   "viator:280895P396": {
-    "h": "08b1b22cd1fe2467ebe7b5f0ac7a6035",
+    "h": "189f1abff1500c08ed065942f6e6cef9",
     "names": {
-      "en": "Private Full Day Granada Tour from Malaga with Photography",
-      "es": "Tour Privado de Día Completo a Granada desde Malaga con Fotografía",
-      "de": "Private Ganztagestour nach Granada ab Malaga mit Fotografie",
-      "fr": "Excursion privée d'une journée à Granada depuis Malaga avec photographie",
-      "sv": "Privat heldagstur till Granada från Malaga med fotografering",
-      "no": "Privat heldagstur til Granada fra Malaga med fotografering",
-      "da": "Privat heldagstur til Granada fra Malaga med fotografering",
-      "fi": "Yksityinen koko päivän Granada-kierros Malagasta valokuvauksella"
+      "en": "Private Granada, Alhambra Tour from Malaga with Photography",
+      "es": "Tour Privado a Granada y la Alhambra desde Malaga con Fotografía",
+      "de": "Private Granada- und Alhambra-Tour ab Malaga mit Fotoshooting",
+      "fr": "Visite privée de Grenade et de l'Alhambra au départ de Malaga avec photographie",
+      "sv": "Privat tur till Granada och Alhambra från Malaga med fotografering",
+      "no": "Privat tur til Granada og Alhambra fra Malaga med fotografering",
+      "da": "Privat tur til Granada og Alhambra fra Malaga med fotografering",
+      "fi": "Yksityinen Granadan ja Alhambran kiertue Malagasta valokuvauksella"
     }
   },
   "viator:8653P1533": {
@@ -22656,6 +22656,32 @@
       "no": "Privat Gibraltar-tur fra Málaga",
       "da": "Privat Gibraltar-tur fra Málaga",
       "fi": "Yksityinen Gibraltar-kierros Malagasta"
+    }
+  },
+  "viator:5530694P344": {
+    "h": "01126cf30cd4cbef32e1327812bbc242",
+    "names": {
+      "en": "Málaga Self-Guided Cruise Port Walking Tour with Audio & Quiz",
+      "es": "Tour a Pie Autoguiado por el Puerto de Cruceros de Málaga con Audio y Quiz",
+      "de": "Málaga Selbstgeführte Walking-Tour am Kreuzfahrthafen mit Audio & Quiz",
+      "fr": "Visite à pied autoguidée du port de croisière de Málaga avec audio et quiz",
+      "sv": "Málaga självguidad promenad i kryssningshamnen med ljudguide och quiz",
+      "no": "Málaga selvguidet vandretur i cruisehavnen med lyd og quiz",
+      "da": "Málaga selvguidet vandretur i krydstogthavnen med lyd og quiz",
+      "fi": "Málagan omatoiminen risteilysataman kävelykierros äänioppaalla ja visalla"
+    }
+  },
+  "viator:5703332P1": {
+    "h": "14dd300b5e2953f66aac4df404024a39",
+    "names": {
+      "en": "Málaga Historic Center Walking Tour",
+      "es": "Tour a Pie por el Centro Histórico de Málaga",
+      "de": "Málaga Rundgang durch die Altstadt",
+      "fr": "Visite à pied du centre historique de Málaga",
+      "sv": "Promenadtur i Málagas historiska centrum",
+      "no": "Vandretur i Málagas historiske sentrum",
+      "da": "Vandretur i Málagas historiske centrum",
+      "fi": "Málagan historiallisen keskustan kävelykierros"
     }
   }
 }

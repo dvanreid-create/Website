@@ -700,5 +700,642 @@
 ],
 "image": "",
 "_t": 1792595241.2447662
+},
+"W|en|Binomio de Oro de América": {
+"q": "Q4914497",
+"_t": 1792637047.3631148
+},
+"L|Q1574985": [
+"vallenato",
+"vallenato"
+],
+"E|Q4914497": {
+"qid": "Q4914497",
+"label": "Binomio de Oro de América",
+"desc": "Colombian musical group; vallenato band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"vallenato",
+"vallenato"
+],
+"image": "",
+"_t": 1792637047.9634106
+},
+"W|en|Black Coffee (DJ)": {
+"q": "Q16215736",
+"_t": 1792637051.29196
+},
+"L|Q183945": [
+"productor discográfico",
+"record producer"
+],
+"L|Q130857": [
+"disc-jockey",
+"disc jockey"
+],
+"L|Q20502": [
+"house music",
+"música house"
+],
+"E|Q16215736": {
+"qid": "Q16215736",
+"label": "Black Coffee",
+"desc": "South African DJ and record producer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"productor discográfico",
+"record producer",
+"disc-jockey",
+"disc jockey"
+],
+"genre": [
+"house music",
+"música house"
+],
+"image": "Black Coffee perfoming at Hï Ibiza in June 2018.jpg",
+"_t": 1792637052.2459838
+},
+"W|es|Blue Angel (banda)": {
+"q": "Q2497276",
+"_t": 1792637065.2420547
+},
+"L|Q203720": [
+"rockabilly",
+"rockabilly"
+],
+"E|Q2497276": {
+"qid": "Q2497276",
+"label": "",
+"desc": "American rockabilly band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"rockabilly",
+"rockabilly"
+],
+"image": "",
+"_t": 1792637065.7314267
+},
+"W|en|Bresh": {
+"q": "Q111200133",
+"_t": 1792637075.365326
+},
+"L|Q2252262": [
+"rapper",
+"rapero"
+],
+"L|Q2572585": [
+"pop rap",
+"pop rap"
+],
+"E|Q111200133": {
+"qid": "Q111200133",
+"label": "Bresh",
+"desc": "Italian singer-songwriter and rapper",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer",
+"compositor de canciones",
+"songwriter",
+"rapper",
+"rapero",
+"cantautor",
+"singer-songwriter"
+],
+"genre": [
+"pop rap",
+"pop rap",
+"hiphop",
+"hip-hop"
+],
+"image": "Bresh a Sanremo 2026 (headshot).tif",
+"_t": 1792637076.1610765
+},
+"_seen|bresh": [
+"Q111200133"
+],
+"L|Q868557": [
+"festival de música",
+"music festival"
+],
+"E|Q133570469": {
+"qid": "Q133570469",
+"label": "BRESH",
+"desc": "festival de música internacional",
+"instance": [
+"festival de música",
+"music festival"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792637077.0216777
+},
+"S|bresh": {
+"n": 1,
+"_t": 1792637077.2893436
+},
+"W|en|Brujeria (band)": {
+"q": "Q795030",
+"_t": 1792637078.6074204
+},
+"L|Q483251": [
+"death metal",
+"death metal"
+],
+"L|Q188534": [
+"grindcore",
+"grindcore"
+],
+"L|Q241662": [
+"groove metal",
+"groove metal"
+],
+"E|Q795030": {
+"qid": "Q795030",
+"label": "Brujeria",
+"desc": "American extreme metal band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"death metal",
+"death metal",
+"grindcore",
+"grindcore",
+"groove metal",
+"groove metal"
+],
+"image": "Sziget festival 2009 - Brujeria.jpg",
+"_t": 1792637079.3564785
+},
+"_seen|brujeria": [
+"Q795030"
+],
+"S|brujeria": {
+"n": 1,
+"_t": 1792637079.9649649
+},
+"W|en|Camela": {
+"q": "Q2934725",
+"_t": 1792637093.2521522
+},
+"L|Q30902501": [
+"tecno-rumba",
+"tecnorumba"
+],
+"E|Q2934725": {
+"qid": "Q2934725",
+"label": "Camela",
+"desc": "Spanish musical group",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"tecno-rumba",
+"tecnorumba"
+],
+"image": "Camelaenelpalau.jpg",
+"_t": 1792637093.716029
+},
+"_seen|camela": [
+"Q2934725"
+],
+"L|Q3624938": [
+"municipality district of brazil",
+"distrito de brasil"
+],
+"E|Q30939054": {
+"qid": "Q30939054",
+"label": "Camela",
+"desc": "",
+"instance": [
+"municipality district of brazil",
+"distrito de brasil"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792637094.4924448
+},
+"L|Q11879590": [
+"nombre femenino",
+"female given name"
+],
+"E|Q140912482": {
+"qid": "Q140912482",
+"label": "Camela",
+"desc": "female given name",
+"instance": [
+"nombre femenino",
+"female given name"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792637094.956929
+},
+"L|Q8502": [
+"mountain",
+"montaña"
+],
+"E|Q21415381": {
+"qid": "Q21415381",
+"label": "",
+"desc": "mountain in Angola",
+"instance": [
+"mountain",
+"montaña"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792637095.7819626
+},
+"S|camela": {
+"n": 1,
+"_t": 1792637095.7837389
+},
+"W|es|Capullo de Jerez": {
+"q": "Q5748713",
+"_t": 1792637102.8734512
+},
+"L|Q51374880": [
+"cantaor",
+"cantaor"
+],
+"E|Q5748713": {
+"qid": "Q5748713",
+"label": "Capullo de Jerez",
+"desc": "Spanish flamenco singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantaor",
+"cantaor"
+],
+"genre": [],
+"image": "Navidad 2021 JerezFra -IMG 20211228 190127.jpg",
+"_t": 1792637103.3711114
+},
+"W|en|Carlos Sadness": {
+"q": "Q6127106",
+"_t": 1792639402.6729796
+},
+"E|Q6127106": {
+"qid": "Q6127106",
+"label": "Carlos Alberto Sánchez Uriol",
+"desc": "Spanish singer and composer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer",
+"compositor",
+"composer"
+],
+"genre": [],
+"image": "Carlos Sadness in concert at Monopol Music Festival 03 (cropped).jpg",
+"_t": 1792639403.0654912
+},
+"W|en|Carmen Linares": {
+"q": "Q447989",
+"_t": 1792639405.6723516
+},
+"E|Q447989": {
+"qid": "Q447989",
+"label": "Carmen Linares",
+"desc": "Spanish singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantaor",
+"cantaor",
+"compositor",
+"composer",
+"cantante",
+"singer",
+"musician",
+"músico"
+],
+"genre": [
+"flamenco",
+"flamenco"
+],
+"image": "Carmen Linares Retrato.jpg",
+"_t": 1792639406.1396015
+},
+"W|en|Catupecu Machu": {
+"q": "Q5054209",
+"_t": 1792639406.783692
+},
+"L|Q20378": [
+"alternative metal",
+"metal alternativo"
+],
+"E|Q5054209": {
+"qid": "Q5054209",
+"label": "Catupecu Machu",
+"desc": "Argentine rock band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"alternative metal",
+"metal alternativo"
+],
+"image": "Catupecu Machu.jpg",
+"_t": 1792639407.4019032
+},
+"W|en|Chambao": {
+"q": "Q1060648",
+"_t": 1792639409.4426622
+},
+"E|Q1060648": {
+"qid": "Q1060648",
+"label": "Chambao",
+"desc": "band",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"flamenco",
+"flamenco"
+],
+"image": "Chambao.jpg",
+"_t": 1792639409.8407648
+},
+"_seen|chambao": [
+"Q1060648"
+],
+"E|Q28517302": {
+"qid": "Q28517302",
+"label": "Chambao",
+"desc": "album by Chambao",
+"instance": [
+"álbum",
+"album"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792639410.3090594
+},
+"S|chambao": {
+"n": 1,
+"_t": 1792639410.5961874
+},
+"W|en|Clarent (singer)": {
+"q": "Q137999766",
+"_t": 1792639421.3808312
+},
+"E|Q137999766": {
+"qid": "Q137999766",
+"label": "Clarent",
+"desc": "Puerto Rican singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer",
+"compositor de canciones",
+"songwriter"
+],
+"genre": [],
+"image": "",
+"_t": 1792639421.6028707
+},
+"_seen|clarent": [
+"Q137999766",
+"Q136431155"
+],
+"L|Q11610935": [
+"mythological sword",
+"espada mitológica"
+],
+"E|Q56342770": {
+"qid": "Q56342770",
+"label": "Clarent",
+"desc": "legendary sword of King Arthur",
+"instance": [
+"mythological sword",
+"espada mitológica"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792639422.3911622
+},
+"E|Q136431155": {
+"qid": "Q136431155",
+"label": "",
+"desc": "",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer"
+],
+"genre": [],
+"image": "",
+"_t": 1792639422.925065
+},
+"S|clarent": {
+"n": 2,
+"_t": 1792639422.9267497
+},
+"W|en|Daniel Casares": {
+"q": "Q61754403",
+"_t": 1792647967.5128546
+},
+"L|Q855091": [
+"guitarist",
+"guitarrista"
+],
+"E|Q61754403": {
+"qid": "Q61754403",
+"label": "Daniel Casares",
+"desc": "Spanish flamenco guitarist and composer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"guitarist",
+"guitarrista"
+],
+"genre": [],
+"image": "",
+"_t": 1792647968.0477397
+},
+"W|en|David Bustamante": {
+"q": "Q953172",
+"_t": 1792647971.5429552
+},
+"L|Q547137": [
+"pop latino",
+"latin pop"
+],
+"E|Q953172": {
+"qid": "Q953172",
+"label": "David Bustamante",
+"desc": "Spanish singer",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer"
+],
+"genre": [
+"pop latino",
+"latin pop"
+],
+"image": "David Bustamante 2006.jpg",
+"_t": 1792647972.216053
+},
+"W|es|Delaossa": {
+"q": "Q109302210",
+"_t": 1792647983.3239396
+},
+"L|Q100493654": [
+"hip-hop musician",
+"músico de hip-hop"
+],
+"E|Q109302210": {
+"qid": "Q109302210",
+"label": "Delaossa",
+"desc": "Spanish hip hop musician",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"hip-hop musician",
+"músico de hip-hop",
+"cantante",
+"singer",
+"rapper",
+"rapero"
+],
+"genre": [],
+"image": "",
+"_t": 1792647983.8352475
+},
+"_seen|delaossa": [
+"Q109302210"
+],
+"L|Q101352": [
+"apellido",
+"family name"
+],
+"E|Q36973030": {
+"qid": "Q36973030",
+"label": "Delaossa",
+"desc": "family name",
+"instance": [
+"apellido",
+"family name"
+],
+"occupation": [],
+"genre": [],
+"image": "",
+"_t": 1792647984.5994751
+},
+"S|delaossa": {
+"n": 1,
+"_t": 1792647984.9024591
+},
+"W|en|Descemer Bueno": {
+"q": "Q3024274",
+"_t": 1792647989.59576
+},
+"E|Q3024274": {
+"qid": "Q3024274",
+"label": "Descemer Bueno",
+"desc": "Cuban musician",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"cantante",
+"singer",
+"jazz musician",
+"músico de jazz",
+"guitarist",
+"guitarrista",
+"compositor",
+"composer",
+"musician",
+"músico"
+],
+"genre": [
+"jazz",
+"jazz"
+],
+"image": "",
+"_t": 1792647989.8883843
+},
+"W|es|Diego Amador": {
+"q": "Q19998273",
+"_t": 1792647998.7268233
+},
+"L|Q1327329": [
+"multiinstrumentista",
+"multi-instrumentalist"
+],
+"E|Q19998273": {
+"qid": "Q19998273",
+"label": "Diego Amador",
+"desc": "Spanish musician and songwriter",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"multiinstrumentista",
+"multi-instrumentalist",
+"compositor de canciones",
+"songwriter",
+"musician",
+"músico"
+],
+"genre": [],
+"image": "Diego-amador.jpg",
+"_t": 1792647999.3291566
 }
 }

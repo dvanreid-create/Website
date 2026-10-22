@@ -1,16 +1,8 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-20",
+ "generated": "2026-10-22",
  "drops": {
-  "Con-Cierto Gusto IV": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Orquesta Filarmónica de Málaga — Jazz: The Music of Ivan Lins (José Carra Group, Arturo Serra)": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Concierto de Santa Cecilia": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "El pianista de la mano izquierda": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "ADN Protegidas": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Dúo Ballix — Piano y chelo": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Día Mundial del Tango — La Porteña": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "La Navidad de Manuel Periquín — Zambomba Flamenca": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Concierto de Navidad — Orquesta NESO": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
-  "Encuentro de Coros de Navidad": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
+  "Festival Internacional de Jazz de Málaga — Kurt Elling": "CANNOT_FIX — no verifiable buy page (no live buy page found)",
+  "Festival Internacional de Jazz de Málaga — Michel Camilo": "CANNOT_FIX — no verifiable buy page (no live buy page found)"
  }
 }
