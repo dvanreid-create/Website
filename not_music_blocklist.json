@@ -82,6 +82,12 @@
    "why": "CANCELLED / POSTPONED BY THE PROMOTER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Niña Pastori - Color Fania', Sat 17 Oct 2026, Auditorio Municipal Príncipe de Asturias, Torremolinos. Seen by Sofia in her own browser on our own Awin link: ECI's page elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/ shows the buy button replaced by 'CANCELADO' and the organiser's (Concert Tour) notice: the 17 Oct show is annulled and ALL tickets refunded because the concert is REPROGRAMMED to 7 March 2027, 20:00, same auditorium, now SEATED. The new date is on sale at ECI (elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/, from 49,50 EUR) and is outside the calendar window today. Date-scoped so the 7 Mar 2027 show is untouched; the manual injection in build_site.py is retired in the same change. Missed by the ECI map refresh of 2026-10-01 because the page text still rendered the date and a 'COMPRAR'-style scan did not read the banner - the refresh must also look for CANCELADO on every card page. Reverse with one edit if the promoter reinstates 17 Oct."
   },
   {
+   "match": "capullo de jerez",
+   "venue": "teatro esad",
+   "date": "2026-10-24",
+   "why": "POSTPONED - Capullo de Jerez, Sat 24 Oct 2026 21:00, Teatro ESAD, Malaga. The ECI event page (elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/), read in the built-in browser 2026-10-22, carries the organiser notice APLAZAMIENTO: the 24 Oct 2026 21:00 show is postponed to 26 FEBRUARY 2027 21:00; tickets already bought stay valid, refunds until 4 Nov 2026 (entradaseci@viajeseci.es). ECI now lists only 26 Feb 2027. Date-scoped so the 26 Feb 2027 date can be listed when it enters the calendar window. The two scheduled 24 Oct 13:00 Metricool reels (ES+EN) must be removed."
+  },
+  {
    "match": "elton john",
    "venue": "gran hotel miramar",
    "date": "2026-11-01",
