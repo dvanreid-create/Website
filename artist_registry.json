@@ -2718,5 +2718,30 @@
 "https://www.unientradas.es/es/espectaculo/michel-camilo-trio/26-27CamiloMiTr"
 ],
 "genre": "jazz"
+},
+"concierto-de-antonio-serrano-kaele-jimenez": {
+"name": "Concierto de Antonio Serrano & Kaele Jiménez",
+"mles": 0.0,
+"links": [
+"https://alhaurindelatorre.es/agenda/concierto-de-antonio-serrano-kaele-jimenez/"
+],
+"genre": "mixed"
+},
+"ii-ciclo-de-jazz-en-el-aleixandre": {
+"name": "II Ciclo de Jazz en el Aleixandre",
+"mles": 0.0,
+"links": [
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre/",
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-2/"
+],
+"genre": "jazz"
+},
+"zambomba-de-los-verdes": {
+"name": "Zambomba de los Verdes",
+"mles": 0.0,
+"links": [
+"https://alhaurindelatorre.es/agenda/navidad-2026-27-zambomba-de-los-verdes/"
+],
+"genre": "mixed"
 }
 }
