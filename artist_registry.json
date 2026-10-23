@@ -2743,5 +2743,21 @@
 "https://alhaurindelatorre.es/agenda/navidad-2026-27-zambomba-de-los-verdes/"
 ],
 "genre": "mixed"
+},
+"fran-doblas": {
+"name": "Fran Doblas",
+"mles": 0.0,
+"links": [
+"https://lacocheraentradas.com/shows/details/2702/fran-doblas-piano-y-voz"
+],
+"genre": "flamenco"
+},
+"raul-el-balilla": {
+"name": "Raúl el Balilla",
+"mles": 0.0,
+"links": [
+"https://lacocheraentradas.com/shows/details/2701/raul-el-balilla-zambomba-flamenca"
+],
+"genre": "flamenco"
 }
 }
