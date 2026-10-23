@@ -4437,6 +4437,14 @@
      "genre": "Rock & Indie",
      "why": "BROWSER-CONFIRMED 2026-09-08: taquilla.com renders 'FULLY ALIVE FEST, Sala La Trinchera, Málaga, Sábado 12 Sep, 20:00, desde 18,00€' with a Ver Oferta control. IN WINDOW and ON SALE but absent from the live site. Kept out of the auto-refreshed 'trinchera' block (rewritten every Monday from mutick, which does not sell this show) and put in the hand-maintained 'la trinchera' block instead."
     },
+    "clearwater creedence revival": {
+     "url": "https://mutick.com/e/entradas-clearwater-creedence-revival-malaga",
+     "prefer": "map",
+     "date": "29/11/2026",
+     "time": "20:00",
+     "venue_name": "Clearwater Creedence Revival (UK&USA)",
+     "why": "PINNED 2026-10-23 (Sofia: Google lists our artist page but the page had zero events). The 23 Oct link checks dropped the row (no pin for the shipped mutick URL). Mutick page read in the built-in browser 2026-10-23: 29 NOV 2026 20:00 Sala La Trinchera, desde 25,00 EUR, Comprar entradas. Not commissioned. RETIRE after 2026-11-29 (with this whole block, see its note)."
+    },
     "sofia ellar": {
      "url": "https://www.tomaticket.es/es-es/entradas-sofia-ellar-en-malaga",
      "prefer": "map",
