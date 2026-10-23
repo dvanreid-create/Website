@@ -19799,16 +19799,16 @@
     }
   },
   "gyg-t463117": {
-    "h": "65059f95e3eb05d2d6af01c02ea78baa",
+    "h": "f12de61cb31e905fb57e2f25525f9ff2",
     "names": {
-      "en": "Estepona Dolphins Searching Sea Cruise With Drink Snacks",
-      "es": "Estepona: Crucero en Busca de Delfines con Bebida y Snacks",
-      "de": "Estepona Delfinbeobachtung Bootsfahrt mit Getränk und Snacks",
-      "fr": "Estepona Croisière en Mer à la Recherche de Dauphins avec Boisson et Snacks",
-      "sv": "Estepona Delfinsafari Sjökryssning Med Dryck Och Snacks",
-      "no": "Estepona: Delfinsafari på sjøen med drikke og snacks",
-      "da": "Estepona Delfinsafari Bådtur Med Drink Og Snacks",
-      "fi": "Estepona: delfiinien tarkkailuristeily juomineen ja naposteltavineen"
+      "en": "Estepona Boat Trip: Dolphin Search, Swim, Drinks & Snacks",
+      "es": "Paseo en Barco por Estepona: Búsqueda de Delfines, Baño, Bebidas y Aperitivos",
+      "de": "Bootsausflug ab Estepona: Delfinbeobachtung, Schwimmen, Getränke & Snacks",
+      "fr": "Excursion en bateau à Estepona : observation des dauphins, baignade, boissons et collations",
+      "sv": "Båttur i Estepona: delfinspaning, bad, dryck och snacks",
+      "no": "Båttur fra Estepona: delfinsafari, bading, drikke og snacks",
+      "da": "Estepona-bådtur: Delfinjagt, svømning, drikkevarer og snacks",
+      "fi": "Esteponan veneretki: delfiinien etsintä, uinti, juomat & naposteltavat"
     }
   },
   "gyg-t1234551": {
@@ -22682,6 +22682,84 @@
       "no": "Vandretur i Málagas historiske sentrum",
       "da": "Vandretur i Málagas historiske centrum",
       "fi": "Málagan historiallisen keskustan kävelykierros"
+    }
+  },
+  "813144": {
+    "h": "046d7a403f57b8cdab00cccdeed0b8d7",
+    "names": {
+      "en": "The Jury Experience –  Travesía Mortal",
+      "es": "La Experiencia del Jurado – Travesía Mortal",
+      "de": "Das Jury-Erlebnis – Travesía Mortal",
+      "fr": "L'expérience du Jury – Travesía Mortal",
+      "sv": "The Jury Experience – Travesía Mortal",
+      "no": "The Jury Experience – Travesía Mortal",
+      "da": "The Jury Experience – Travesía Mortal",
+      "fi": "Tuomariston kokemus – Travesía Mortal"
+    }
+  },
+  "viator:5651819P14": {
+    "h": "3ebdb81d57d4efccbd02e78b48e48d7a",
+    "names": {
+      "en": "All-Inclusive Private Tangier Day Trip from Malaga",
+      "es": "Excursión Privada de un Día a Tánger Todo Incluido desde Malaga",
+      "de": "All-Inclusive Privater Tagesausflug nach Tanger ab Malaga",
+      "fr": "Excursion privée tout compris à Tanger depuis Malaga",
+      "sv": "Privat Tangier-dagstur från Malaga, all-inclusive",
+      "no": "Privat heldagstur til Tanger fra Malaga – alt inkludert",
+      "da": "All-inclusive privat dagstur til Tangier fra Malaga",
+      "fi": "All-Inclusive yksityinen päiväretki Tangeriin Malagasta"
+    }
+  },
+  "viator:9470P125": {
+    "h": "ad298f81347c93e095db8bb1cd863d1e",
+    "names": {
+      "en": "Salsa Dancing and Sangria Night in Málaga",
+      "es": "Noche de Salsa y Sangría en Málaga",
+      "de": "Salsa-Tanz und Sangria-Nacht in Málaga",
+      "fr": "Soirée salsa et sangria à Málaga",
+      "sv": "Salsadans och sangria-kväll i Málaga",
+      "no": "Salsadans og sangria-kveld i Málaga",
+      "da": "Salsadans og sangria-aften i Málaga",
+      "fi": "Salsatanssi- ja sangria-ilta Malagassa"
+    }
+  },
+  "viator:148384P223": {
+    "h": "2bb49572078773b50fed526eaaa670b1",
+    "names": {
+      "en": "Malaga Cathedral Entry Tickets With VR Experience",
+      "es": "Entradas a la Catedral de Malaga con Experiencia de Realidad Virtual",
+      "de": "Eintrittskarten für die Kathedrale von Malaga mit VR-Erlebnis",
+      "fr": "Billets d'entrée pour la cathédrale de Malaga avec expérience en réalité virtuelle",
+      "sv": "Inträdesbiljetter till Málagas katedral med VR-upplevelse",
+      "no": "Inngangsbilletter til Malaga-katedralen med VR-opplevelse",
+      "da": "Billetter til Malaga-katedralen med VR-oplevelse",
+      "fi": "Malagan katedraalin pääsyliput VR-elämyksellä"
+    }
+  },
+  "viator:117866P1165": {
+    "h": "ddb7c50b41d1cfc4ee380cda9a3263c1",
+    "names": {
+      "en": "Private Granada and Alhambra Day Trip from Malaga",
+      "es": "Excursión Privada de un Día a Granada y la Alhambra desde Malaga",
+      "de": "Privater Tagesausflug nach Granada und zur Alhambra ab Malaga",
+      "fr": "Excursion privée à Grenade et l'Alhambra depuis Malaga",
+      "sv": "Privat dagstur till Granada och Alhambra från Malaga",
+      "no": "Privat dagstur til Granada og Alhambra fra Malaga",
+      "da": "Privat dagstur til Granada og Alhambra fra Malaga",
+      "fi": "Yksityinen päiväretki Granadaan ja Alhambraan Malagasta"
+    }
+  },
+  "viator:5651819P16": {
+    "h": "5b5afbc3df43e0e29f152ab4b09ef848",
+    "names": {
+      "en": "Luxury All-Inclusive Tangier Day Trip from Estepona",
+      "es": "Excursión de Lujo de un Día a Tánger Todo Incluido desde Estepona",
+      "de": "Luxuriöser All-Inclusive-Tagesausflug nach Tanger ab Estepona",
+      "fr": "Excursion de luxe tout compris à Tanger depuis Estepona",
+      "sv": "Lyxig all-inclusive dagstur till Tangier från Estepona",
+      "no": "Luksuriøs heldagstur til Tanger fra Estepona – alt inkludert",
+      "da": "Luksus all-inclusive dagstur til Tangier fra Estepona",
+      "fi": "Luksus all-inclusive päiväretki Tangeriin Esteponasta"
     }
   }
 }
