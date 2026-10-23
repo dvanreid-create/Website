@@ -741,6 +741,13 @@ function sizeMltvChips(){var ch=document.querySelectorAll('#mltvChips .mltv-chip
 sizeMltvChips();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeMltvChips);
 window.addEventListener('resize',sizeMltvChips);
+/* PILL GUARD (Sofia 2026-10-23: pills that open a list with 0 events are terrible). On the homepage only: hide any 'zone' pill or 'Por Ayuntamiento' pill that has no event behind it; it reappears by itself the day an event exists. */
+try{if(document.getElementById('herocnt')){var _pe=[].slice.call(document.querySelectorAll('.ev'));if(_pe.length>20){
+var _hit=function(a,thOnly){var all=a.hasAttribute('data-fall')||a.getAttribute('data-fth')==='all';var m=(a.getAttribute(thOnly?'data-fth':'data-fmatch')||'').split(',');return _pe.some(function(e){if(thOnly&&(e.getAttribute('data-townhall')||'')!=='1')return false;if(all)return thOnly;var cs=slug(e.getAttribute('data-city')||'');return m.some(function(x){return x&&cs.indexOf(x)>=0;});});};
+[].forEach.call(document.querySelectorAll('.disco-chips a[data-fmatch]'),function(a){if(!_hit(a,false))a.style.display='none';});
+[].forEach.call(document.querySelectorAll('.disco-chips a[data-fth]'),function(a){if(!_hit(a,true))a.style.display='none';});
+[].forEach.call(document.querySelectorAll('.disco-h'),function(h){var w=h.nextElementSibling;if(!w||!w.classList.contains('disco-chips'))return;var ch=w.querySelectorAll('a');if(ch.length&&![].some.call(ch,function(a){return a.style.display!=='none';})){h.style.display='none';w.style.display='none';}});
+}}}catch(_e){}
 try{var _sp=new URLSearchParams(location.search),_qv=_sp.get('q');if(_qv&&searchf){searchf.value=_qv;}if(_qv||_sp.get('townhall')||_sp.get('genre')){
   /* Back-link landing (ZZ Pub / Clarence Jazz Club ?q=, Mijas Town Hall ?townhall=): put the "[N] MUSIC
      EVENTS" count line flush under the header via _mlLand (real measured header height). Re-assert after
