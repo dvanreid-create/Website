@@ -1579,6 +1579,46 @@
    "credit": "Photo: Raph_PH · CC BY 2.0"
   },
   {
+   "photo": "/assets/tiles/ext-93a8727ea1ccba47.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Queen",
+   "headBottom": true,
+   "expires": "2026-12-20",
+   "sub": {
+    "en": "Sun 20 Dec · Hotel Miramar · Málaga",
+    "es": "Dom 20 dic · Hotel Miramar · Málaga",
+    "de": "So 20 Dez · Hotel Miramar · Málaga",
+    "fr": "dim. 20 déc. · Hotel Miramar · Málaga",
+    "sv": "sön 20 dec · Hotel Miramar · Málaga",
+    "no": "søn 20 des · Hotel Miramar · Málaga",
+    "da": "søn 20 dec · Hotel Miramar · Málaga",
+    "fi": "su 20 jouluk. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=259530&u=https%3A%2F%2Ffeverup.com%2Fm%2F259530&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
    "photo": "/assets/tiles/ext-f8a96e4bdd82a58e.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -1606,6 +1646,46 @@
     "fi": "su 20 jouluk. · Museo Carmen Thyssen Málaga · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=126888&u=https%3A%2F%2Ffeverup.com%2Fm%2F126888&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay vs. Ed Sheeran",
+   "headBottom": true,
+   "expires": "2026-12-23",
+   "sub": {
+    "en": "Wed 23 Dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Mié 23 dic · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Mi 23 Dez · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "mer. 23 déc. · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "ons 23 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "ons 23 des · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "ons 23 dec · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "ke 23 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643700&u=https%3A%2F%2Ffeverup.com%2Fm%2F643700&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",

@@ -2648,7 +2648,7 @@
 },
 "m-clan": {
 "name": "M-Clan",
-"mles": 66.7,
+"mles": 63.4,
 "links": [
 "https://conciertos.club/malaga/conciertos/128629-m-clan"
 ],
@@ -2728,10 +2728,10 @@
 },
 "ii-ciclo-de-jazz-en-el-aleixandre": {
 "name": "II Ciclo de Jazz en el Aleixandre",
-"mles": 0.0,
+"mles": 57.2,
 "links": [
-"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre/",
-"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-2/"
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-2/",
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre/"
 ],
 "genre": "jazz"
 },
@@ -2758,5 +2758,13 @@
 "https://lacocheraentradas.com/shows/details/2701/raul-el-balilla-zambomba-flamenca"
 ],
 "genre": "flamenco"
+},
+"ruslana-concert": {
+"name": "Ruslana Concert",
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=819043&u=https%3A%2F%2Ffeverup.com%2Fm%2F819043&intsrc=CATF_15532"
+],
+"genre": "mixed"
 }
 }

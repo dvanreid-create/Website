@@ -1337,5 +1337,58 @@
 "genre": [],
 "image": "Diego-amador.jpg",
 "_t": 1792647999.3291566
+},
+"W|en|El Chojin": {
+"q": "Q3820716",
+"_t": 1792820521.3332648
+},
+"E|Q3820716": {
+"qid": "Q3820716",
+"label": "El Chojin",
+"desc": "Guinness record-breaking rapper",
+"instance": [
+"human",
+"ser humano"
+],
+"occupation": [
+"rapper",
+"rapero",
+"cantante",
+"singer",
+"compositor de canciones",
+"songwriter",
+"musician",
+"músico"
+],
+"genre": [
+"hiphop",
+"hip-hop"
+],
+"image": "Chojin (3521733976).jpg",
+"_t": 1792820521.7068427
+},
+"W|es|El Kuelgue": {
+"q": "Q86855545",
+"_t": 1792820524.3036292
+},
+"L|Q95469495": [
+"alternative pop",
+"pop alternativo"
+],
+"E|Q86855545": {
+"qid": "Q86855545",
+"label": "El Kuelgue",
+"desc": "musical group of Argentina",
+"instance": [
+"grupo musical",
+"musical group"
+],
+"occupation": [],
+"genre": [
+"alternative pop",
+"pop alternativo"
+],
+"image": "El Kuelgue.jpg",
+"_t": 1792820524.8465238
 }
 }

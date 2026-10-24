@@ -22761,5 +22761,70 @@
       "da": "Luksus all-inclusive dagstur til Tangier fra Estepona",
       "fi": "Luksus all-inclusive päiväretki Tangeriin Esteponasta"
     }
+  },
+  "viator:412164P170": {
+    "h": "f667799866d59ec8c63a40bba958f9bb",
+    "names": {
+      "en": "Private Beach and Coastal Photoshoot in Benalmádena",
+      "es": "Sesión fotográfica privada en la playa y la costa de Benalmádena",
+      "de": "Privates Strand- und Küsten-Fotoshooting in Benalmádena",
+      "fr": "Séance photo privée sur la plage et le littoral à Benalmádena",
+      "sv": "Privat strand- och kustfotografering i Benalmádena",
+      "no": "Privat strand- og kystfotoshoot i Benalmádena",
+      "da": "Privat strand- og kystfotosession i Benalmádena",
+      "fi": "Yksityinen ranta- ja rannikkokuvaus Benalmádenassa"
+    }
+  },
+  "viator:5530694P353": {
+    "h": "d97565fe57a5549f79f6262d31e51ef2",
+    "names": {
+      "en": "Ronda Self Guided Walking Tour",
+      "es": "Tour a pie autoguiado por Ronda",
+      "de": "Ronda Selbstgeführte Wandertour",
+      "fr": "Visite guidée en autonomie de Ronda",
+      "sv": "Egen guidad vandringstur i Ronda",
+      "no": "Selvguidet vandretur i Ronda",
+      "da": "Selvguidet gåtur i Ronda",
+      "fi": "Rondan itseopastettu kävelykierros"
+    }
+  },
+  "viator:148384P222": {
+    "h": "002dd04609c580c4147e81692119cc4c",
+    "names": {
+      "en": "Malaga Cathedral Skip The Line Entry Ticket",
+      "es": "Entrada sin colas a la Catedral de Málaga",
+      "de": "Kathedrale von Malaga Ticket ohne Warteschlange",
+      "fr": "Billet d'entrée coupe-file pour la cathédrale de Malaga",
+      "sv": "Hoppa över kön-biljett till Malagas katedral",
+      "no": "Inngangsbillett til Malaga-katedralen uten kø",
+      "da": "Malaga Katedral - adgangsbillet uden kø",
+      "fi": "Malagan katedraalin jonotonta pääsyä lippu"
+    }
+  },
+  "viator:5604460P4": {
+    "h": "de16c9876b1b65d7f72874b7211961f9",
+    "names": {
+      "en": "Marbella dolphin watching by boat in a small group",
+      "es": "Avistamiento de delfines en barco en grupo reducido en Marbella",
+      "de": "Delfinbeobachtung per Boot in Marbella in kleiner Gruppe",
+      "fr": "Observation des dauphins en bateau en petit groupe à Marbella",
+      "sv": "Delfinskådning med båt i liten grupp i Marbella",
+      "no": "Delfinsafari med båt i liten gruppe i Marbella",
+      "da": "Delfinsafari med båd i Marbella i mindre gruppe",
+      "fi": "Delfiinien katselu veneellä pienryhmässä Marbellassa"
+    }
+  },
+  "viator:5650119P16": {
+    "h": "4d85365609d0ce30695843264ac646e9",
+    "names": {
+      "en": "Estepona Private Fishing Trip of 3 or 4 Hours with License and Drinks",
+      "es": "Excursión de pesca privada en Estepona de 3 o 4 horas con licencia y bebidas",
+      "de": "Private Angeltour in Estepona, 3 oder 4 Stunden, mit Lizenz und Getränken",
+      "fr": "Sortie de pêche privée à Estepona de 3 ou 4 heures avec permis et boissons",
+      "sv": "Privat fisketur i Estepona, 3 eller 4 timmar med licens och dryck",
+      "no": "Privat fisketur i Estepona på 3 eller 4 timer med lisens og drikke",
+      "da": "Privat fisketur i Estepona på 3 eller 4 timer med licens og drikkevarer",
+      "fi": "Estepona yksityinen kalastusretki 3 tai 4 tunniksi, sisältää luvan ja juomat"
+    }
   }
 }
