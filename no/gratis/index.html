@@ -534,7 +534,7 @@ function matches(el){
   var c=(cityf&&cityf.value)||'';
   if(q){var _hay=_fold(el.getAttribute('data-search')||'');if(_hay.indexOf(q)<0&&!_fuzzyHit(q,_hay))return false;}
   if(g&&(el.getAttribute('data-genre')||'')!==g)return false;
-  if(fArea&&fArea.length){var _cs=slug(el.getAttribute('data-city')||'');if(!fArea.some(function(m){return m&&_cs.indexOf(m)>=0;}))return false;}
+  if(fArea&&fArea.length){var _cs=slug(el.getAttribute('data-city')||'');if(!fArea.some(function(m){return m&&_cs.indexOf(m)>=0&&!(m==='malaga'&&_cs.indexOf('velez')>=0);}))return false;}
   if(thOn&&(el.getAttribute('data-townhall')||'')!=='1')return false;
   if(freeOn&&(el.getAttribute('data-free')||'0')!=='1')return false;
   var dd=el.getAttribute('data-date')||'';
