@@ -2905,7 +2905,7 @@
      "why": "SECOND NIGHT of the same show, same ticket page. See 'la insostenible big band' above for the browser evidence (Sabado 17 oct 20:00 available)."
     },
     "soul on fire 27 nov": {
-     "url": "https://www.entradas.com/event/soul-on-fire-opera-benalmadena-21859764/",
+     "url": "https://tickets.oneboxtds.com/operabenalmadena/events/51226",
      "prefer": "map",
      "date": "27/11/2026",
      "time": "20:00",
@@ -2914,7 +2914,7 @@
      "venue": "Ópera Benalmádena",
      "venue_name": "Soul on Fire",
      "genre": "Jazz & Soul",
-     "why": "ADDED 2026-10-17 (NOTE: the live card ROUTES to Onebox 51226, not this url: the operabenalmadena pin for soul on fire is act-wide and DLR's 2026-08-29 rule puts the cheaper box office (desde 15,00 EUR, sessions 24 Oct AND 27 Nov) ahead of commission; this entry only supplies the 27 Nov row/time.)  (Sofia's order; the 16 Oct commission audit listed it as missing and un-auto-fixable because Onebox is Cloudflare-walled). Sofia opened it in Edge 2026-10-17: entradas.com event 21859764, 'Soul on fire, viernes 27/11/2026 | 20:00, BENALMADENA (MALAGA) | Opera Benalmadena'. Tiers read: Precio 1 General 27,50 EUR on sale (Promocion 22,00 agotado); Precio 2 General 22,00 agotado, Promocion 22,00 on sale; Precio 3 General 16,50 agotado; page not scrolled further, so 22,00 EUR is the cheapest AVAILABLE tier seen, not a verified minimum. Commissioned (entradas.com via Awin 24761); the 24 Oct show stays on its Onebox link (events/51226). Retire after 27/11/2026."
+     "why": "ADDED 2026-10-17 (NOTE: the live card ROUTES to Onebox 51226, not this url: the operabenalmadena pin for soul on fire is act-wide and DLR's 2026-08-29 rule puts the cheaper box office (desde 15,00 EUR, sessions 24 Oct AND 27 Nov) ahead of commission; this entry only supplies the 27 Nov row/time.)  (Sofia's order; the 16 Oct commission audit listed it as missing and un-auto-fixable because Onebox is Cloudflare-walled). Sofia opened it in Edge 2026-10-17: entradas.com event 21859764, 'Soul on fire, viernes 27/11/2026 | 20:00, BENALMADENA (MALAGA) | Opera Benalmadena'. Tiers read: Precio 1 General 27,50 EUR on sale (Promocion 22,00 agotado); Precio 2 General 22,00 agotado, Promocion 22,00 on sale; Precio 3 General 16,50 agotado; page not scrolled further, so 22,00 EUR is the cheapest AVAILABLE tier seen, not a verified minimum. Commissioned (entradas.com via Awin 24761); the 24 Oct show stays on its Onebox link (events/51226). 2026-10-24 (Sofia: change the 27th to the cheaper, as it is our rule): url now the Onebox box office 51226, re-read in the built-in browser the same day: Fri 27 Nov 20:00, Precio 3 15,00 / Precio 2 20,00 / Precio 1 25,00 / movilidad reducida 25,00; entradas.com 21859764 same night: only General 27,50 + Promocion 22,00 left, service fee may apply. Cheaper seller wins (DLR 2026-08-29); knowingly forgoes Awin on this night. Reverse by ruling. Retire after 27/11/2026."
     },
     "queenmania fest": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
