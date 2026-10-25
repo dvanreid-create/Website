@@ -760,6 +760,23 @@ apply();
 /* Mobile only (<=1000px): move the MLE Score + PRIME pills out of the header and place them
    directly under the Gigs Square. Desktop keeps them in the header, untouched. */
 (function(){var host=document.getElementById('hactMob');var act=document.querySelector('header .hactions');var hr=document.querySelector('header .hright');if(!host||!act||!hr||!window.matchMedia)return;var mq=window.matchMedia('(max-width:1000px)');function sync(){if(mq.matches){if(act.parentNode!==host)host.appendChild(act);}else{if(act.parentNode!==hr)hr.appendChild(act);}}sync();if(mq.addEventListener){mq.addEventListener('change',sync);}else if(mq.addListener){mq.addListener(sync);}})();
+</script><script>
+(function(){
+  var els=document.querySelectorAll('a.flank-slot[data-ad]');
+  if(!els.length)return;
+  var _sSeen={};
+  function view(el){var k=el.getAttribute('data-ad');if(!k||_sSeen[k])return;if(el.offsetParent===null)return;_sSeen[k]=1;try{window.plausible&&window.plausible('Ad view',{props:{ad:k}});}catch(e){}}
+  function sweep(){for(var i=0;i<els.length;i++)view(els[i]);}
+  for(var i=0;i<els.length;i++){(function(el){
+    el.addEventListener('click',function(){try{var k=el.getAttribute('data-ad');k&&window.plausible&&window.plausible('Ad click',{props:{ad:k}});}catch(e){}});
+  })(els[i]);}
+  // 2026-10-10: shelf rails hold ~40 cards; firing a view for each on render would be ~40 Plausible events per
+  // visit (10k/mo cap). Count a view only when a card is at least half on screen, once per label per visit.
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&e.intersectionRatio>=0.5){view(e.target);io.unobserve(e.target);}});},{threshold:[0.5]});
+    for(var j=0;j<els.length;j++)io.observe(els[j]);
+  }else{sweep();setTimeout(sweep,600);window.addEventListener('resize',sweep);}
+})();
 </script><script>window.MLWISH={title:"Tus favoritos",empty:"A\u00fan no has guardado eventos: toca el \u2665 en cualquier evento para guardarlo aqu\u00ed.",remove:"Quitar",saved:"Guardado en Favoritos",removed:"Eliminado de Favoritos",view:"Ver",where:"Encu\u00e9ntralo cuando quieras en \u2665 Favoritos, en la parte superior.",wheremob:"Encu\u00e9ntralo cuando quieras en \u2665 Favoritos, en la parte superior.",back:"\u2193 Volver a donde estabas"};</script><script>(function(){
 var KEY="mlwish";
 var _backY=0;
