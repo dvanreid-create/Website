@@ -2471,7 +2471,8 @@
 "mles": 76.1,
 "links": [
 "https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas"
-]
+],
+"genre": "flamenco"
 },
 "concierto-ofm-programa-4": {
 "name": "Concierto OFM Programa 4",
@@ -2796,7 +2797,7 @@
 },
 "abstract-aniversario-vii": {
 "name": "ABSTRACT: ANIVERSARIO VII",
-"mles": 0.0,
+"mles": 62.4,
 "links": [
 "https://paris15.es/event/abstract-xl/"
 ],
@@ -2804,10 +2805,34 @@
 },
 "alba-moreno": {
 "name": "ALBA MORENO",
-"mles": 0.0,
+"mles": 48.5,
 "links": [
 "https://paris15.es/event/alba-moreno/"
 ],
 "genre": "mixed"
+},
+"concierto-de-navidad-en-el-soho": {
+"name": "Concierto de Navidad en el Soho",
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-concierto-de-navidad-en-el-soho-malaga-60316603163087%2F"
+],
+"genre": "classical"
+},
+"zambomba-alejandro-estrada": {
+"name": "Zambomba Alejandro Estrada",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/zambomba-alejandro-estrada-en-navidad/26-27EstradaNavi"
+],
+"genre": "flamenco"
+},
+"homenaje-a-jimi-hendrix": {
+"name": "Homenaje a Jimi Hendrix",
+"mles": 0.0,
+"links": [
+"https://entradium.com/events/homenaje-a-jimi-hendrix-band-of-gypsys-malaga-malaga"
+],
+"genre": "tribute"
 }
 }
