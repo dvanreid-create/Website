@@ -2915,5 +2915,21 @@
 "https://www.unientradas.es/es/espectaculo/concierto-tradicional-de-navidad/PROMNAV26"
 ],
 "genre": "classical"
+},
+"great-straits": {
+"name": "Great Straits",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/great-straits-the-great-songs-of-dire-straits-en-malaga-900634"
+],
+"genre": "tribute"
+},
+"rebe": {
+"name": "Rebe",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/concierto-rebe-malaga-sala-marte-sabado-19-de-diciembre-683955"
+],
+"genre": "pop"
 }
 }
