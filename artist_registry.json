@@ -1395,7 +1395,8 @@
 "mles": 52.3,
 "links": [
 "https://paris15.es/event/fiebre-club-halloween/"
-]
+],
+"genre": "mixed"
 },
 "bendecida": {
 "name": "Bendecida",
@@ -1424,7 +1425,7 @@
 },
 "sobredosis-de-soda": {
 "name": "Sobredosis de Soda",
-"mles": 50.7,
+"mles": 48.0,
 "links": [
 "https://paris15.es/event/sobredosis-de-soda/"
 ],
@@ -1507,7 +1508,8 @@
 "mles": 49.4,
 "links": [
 "https://paris15.es/event/aleron/"
-]
+],
+"genre": "mixed"
 },
 "los-canos": {
 "name": "Los Caños",
@@ -2225,11 +2227,12 @@
 ]
 },
 "mr-proper": {
-"name": "Mr. Proper",
+"name": "MR. PROPER",
 "mles": 49.4,
 "links": [
-"https://entradium.com/events/mr-proper-523c799b-42c7-4199-96a9-a4ad54662674"
-]
+"https://paris15.es/event/mr-proper-2/"
+],
+"genre": "mixed"
 },
 "mito-sonoro": {
 "name": "Mito Sonoro",
@@ -2507,7 +2510,8 @@
 "mles": 52.3,
 "links": [
 "https://paris15.es/event/blackworks-halloween/"
-]
+],
+"genre": "mixed"
 },
 "capullo-de-jerez": {
 "name": "Capullo de Jerez",
@@ -2789,5 +2793,21 @@
 "https://www.giglon.com/web/guest/todos?idEvent=las-leyendas-del-gospel"
 ],
 "genre": "jazz"
+},
+"abstract-aniversario-vii": {
+"name": "ABSTRACT: ANIVERSARIO VII",
+"mles": 0.0,
+"links": [
+"https://paris15.es/event/abstract-xl/"
+],
+"genre": "mixed"
+},
+"alba-moreno": {
+"name": "ALBA MORENO",
+"mles": 0.0,
+"links": [
+"https://paris15.es/event/alba-moreno/"
+],
+"genre": "mixed"
 }
 }
