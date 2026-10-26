@@ -97,7 +97,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/antonio-jose/26-27JoseAntoni"
 ],
-"genre": "pop"
+"genre": "classical"
 },
 "nina-pastori": {
 "name": "Niña Pastori",
@@ -2265,11 +2265,12 @@
 ]
 },
 "tomasito-garcia-y-sus-desensamblados": {
-"name": "Tomasito García y sus Desensamblados",
+"name": "Tomasito García y Sus Desensamblados",
 "mles": 55.6,
 "links": [
 "https://www.unientradas.es/es/espectaculo/tomasito-garcia-y-sus-desensamblados/tomasito"
-]
+],
+"genre": "jazz"
 },
 "clearwater-creedence-revival": {
 "name": "Clearwater Creedence Revival",
@@ -2584,7 +2585,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/muerdo/26-27MuerdoCanci"
 ],
-"genre": "pop"
+"genre": "classical"
 },
 "lucia-rey": {
 "name": "Lucía Rey",
@@ -2592,7 +2593,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/lucia-rey/26-27ReyLuciaNom"
 ],
-"genre": "jazz"
+"genre": "classical"
 },
 "gala-benefica-la-flor-de-oro": {
 "name": "Gala benéfica La Flor de Oro",
@@ -2842,5 +2843,77 @@
 "https://www.unientradas.es/es/espectaculo/zambomba-alejandro-estrada-en-navidad/26-27EstradaNavi"
 ],
 "genre": "flamenco"
+},
+"don-procopio": {
+"name": "Don Procopio",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/don-procopio/26-27ProcopioDon"
+],
+"genre": "classical"
+},
+"belle-mcnulty-quartet": {
+"name": "Belle Mcnulty Quartet",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/belle-mcnulty-quartet/26-27BelleQuarte"
+],
+"genre": "jazz"
+},
+"ensemble-milman-gallardo": {
+"name": "Ensemble Milman-gallardo",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/ensemble-milman-gallardo/254784"
+],
+"genre": "classical"
+},
+"kenny-barron-songbook-featuring-ekep-nkwelle": {
+"name": "Kenny Barron Songbook, Featuring Ekep Nkwelle,",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/kenny-barron-songbook-featuring-ekep-nkwelle/26-27BarronKe"
+],
+"genre": "jazz"
+},
+"las-dos-caras-de-la-navidad": {
+"name": "Las Dos Caras de la Navidad",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/las-dos-caras-de-la-navidad/26-27NavidadDosC"
+],
+"genre": "classical"
+},
+"la-rosa-del-azafran": {
+"name": "La Rosa del Azafrán",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/la-rosa-del-azafran/26-27AzafranRosa"
+],
+"genre": "classical"
+},
+"concierto-navidad-ofm": {
+"name": "Concierto Navidad OFM",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-navidad-ofm/26-27OFM06"
+],
+"genre": "classical"
+},
+"javier-perianes": {
+"name": "Javier Perianes",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/javier-perianes/perianes26"
+],
+"genre": "classical"
+},
+"concierto-tradicional-de-navidad": {
+"name": "Concierto Tradicional de Navidad",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-tradicional-de-navidad/PROMNAV26"
+],
+"genre": "classical"
 }
 }
