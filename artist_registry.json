@@ -3064,5 +3064,46 @@
 "https://www.giglon.com/web/guest/todos?idEvent=musical-mamma-mia--la-boda"
 ],
 "genre": "tribute"
+},
+"pasion-vega": {
+"name": "Pasión Vega",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=pasion-vega-pasion-almodovar"
+],
+"genre": "pop"
+},
+"el-musical-de-los-80s-y-los-90s": {
+"name": "El Musical de los 80s y los 90s",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=el-musical-de-los-80s-y-los-90s-esad-malaga-8-nov"
+],
+"genre": "pop"
+},
+"anastasia-tributo-musical": {
+"name": "Anastasia, Tributo Musical",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=anastasia-tributo-musical-malaga-27-nov"
+],
+"genre": "tribute"
+},
+"concierto-de-navidad": {
+"name": "Concierto de Navidad",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-orquesta-neso",
+"https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-joven-orquesta-de-la-axarquia-jovax"
+],
+"genre": "classical"
+},
+"christmas-gala-concert": {
+"name": "Christmas Gala Concert",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=christmas-gala-concert-theodoro"
+],
+"genre": "classical"
 }
 }
