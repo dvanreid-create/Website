@@ -97,7 +97,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/antonio-jose/26-27JoseAntoni"
 ],
-"genre": "classical"
+"genre": "pop"
 },
 "nina-pastori": {
 "name": "Niña Pastori",
@@ -459,7 +459,7 @@
 "name": "Motown Band",
 "mles": 56.1,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+"https://zzpub.es/agenda/"
 ],
 "genre": "jazz"
 },
@@ -467,19 +467,25 @@
 "name": "The Children of Queen",
 "mles": 62.6,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/",
+"https://zzpub.es/agenda/"
 ],
 "genre": "rock"
 },
 "the-killer-rockets": {
 "name": "The Killer Rockets",
-"mles": 58.9
+"mles": 58.9,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "rock"
 },
 "el-trio-del-saco": {
 "name": "El Trío del Saco",
 "mles": 56.3,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/",
+"https://zzpub.es/agenda/"
 ],
 "genre": "rock"
 },
@@ -493,19 +499,27 @@
 },
 "mystery-machine": {
 "name": "Mystery Machine",
-"mles": 58.9,
+"mles": 62.2,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+"https://zzpub.es/agenda/"
 ],
 "genre": "rock"
 },
 "tyler-faraday-band": {
 "name": "Tyler Faraday Band",
-"mles": 53.3
+"mles": 53.3,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "jazz"
 },
 "magicos-cabrones-del-ruido": {
 "name": "Mágicos Cabrones del Ruido",
-"mles": 46.7
+"mles": 46.7,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "jazz"
 },
 "dan-shiva-da-machine": {
 "name": "Dan Shiva Da Machine",
@@ -525,7 +539,11 @@
 },
 "the-hairbreakers": {
 "name": "The Hairbreakers",
-"mles": 50.9
+"mles": 50.9,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "rock"
 },
 "the-outsiders": {
 "name": "The Outsiders",
@@ -555,7 +573,8 @@
 "name": "Funkonauts",
 "mles": 50.5,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/"
+"https://zzpub.es/conciertos-en-malaga-octubre-2026/",
+"https://zzpub.es/agenda/"
 ],
 "genre": "jazz"
 },
@@ -845,7 +864,7 @@
 "links": [
 "https://entradas.conciertos.club/es/events/sike-desvisteme-despacio-que-tengo-prisa"
 ],
-"genre": "mixed"
+"genre": "rock"
 },
 "rock-pop-legends": {
 "name": "ROCK & POP LEGENDS",
@@ -1075,7 +1094,8 @@
 "mles": 0.0,
 "links": [
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=631372&u=https%3A%2F%2Ffeverup.com%2Fm%2F631372&intsrc=CATF_15532"
-]
+],
+"genre": "jazz"
 },
 "la-k-onga-in-malaga": {
 "name": "La K'onga in Malaga",
@@ -1144,7 +1164,8 @@
 "mles": 59.0,
 "links": [
 "https://www.clarencejazzclub.com/wp/events/paul-dunlea-quintet/"
-]
+],
+"genre": "jazz"
 },
 "diego-amador-amp-amp-jose-maria-bandera": {
 "name": "Diego Amador &amp;amp; José María Bandera",
@@ -1188,7 +1209,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-3/26-27OFM03"
 ],
-"genre": "classical"
+"genre": "mixed"
 },
 "lady-punk": {
 "name": "Lady Punk",
@@ -1202,7 +1223,7 @@
 "name": "Vetusta Morla",
 "mles": 58.3,
 "links": [
-"https://conciertos.club/malaga/conciertos/116101-vetusta-morla"
+"https://my.weezevent.com/vetusta-morla-2026-malaga-auditorio-cortijo-de-torres"
 ],
 "genre": "rock"
 },
@@ -1386,7 +1407,7 @@
 "name": "Recuerdos Locos",
 "mles": 52.3,
 "links": [
-"https://entradas.conciertos.club/es/events/homenaje-especial-el-canto-del-loco-hombres-g-malaga"
+"https://www.taquilla.com/entradas/hombres-b-tribut-a-hombres-g?t10cityorder=M%C3%A1laga"
 ],
 "genre": "tribute"
 },
@@ -1483,7 +1504,7 @@
 "name": "Los Caracoles",
 "mles": 56.0,
 "links": [
-"https://conciertos.club/malaga/conciertos/126750-los-caracoles"
+"https://lacocheracabaret.com/evento/los-caracoles/"
 ],
 "genre": "pop"
 },
@@ -1501,7 +1522,7 @@
 "links": [
 "https://www.taquilla.com/entradas/antilopez?t10cityorder=M%C3%A1laga"
 ],
-"genre": "rock"
+"genre": "pop"
 },
 "aleron": {
 "name": "ALERON",
@@ -1515,9 +1536,9 @@
 "name": "Los Caños",
 "mles": 56.8,
 "links": [
-"https://conciertos.club/malaga/conciertos/126757-los-canos"
+"https://lacocheracabaret.com/evento/los-canos/"
 ],
-"genre": "flamenco"
+"genre": "pop"
 },
 "ciclo-de-lirica": {
 "name": "Ciclo de Lírica",
@@ -1537,7 +1558,7 @@
 "links": [
 "https://conciertosmalaga.com/agenda/grupo-liberacion-paris15-malaga"
 ],
-"genre": "mixed"
+"genre": "rock"
 },
 "milongas-extremas": {
 "name": "Milongas Extremas",
@@ -1624,7 +1645,7 @@
 "genre": "rock"
 },
 "xv-la-filarmonica-frente-al-mar": {
-"name": "XV La Filarmónica Frente al Mar",
+"name": "XV La Filarmónica frente al mar",
 "mles": 53.1,
 "links": [
 "https://www.mientrada.net/evento/15-filarmonica-frente-al-mar-1/"
@@ -1649,7 +1670,7 @@
 "links": [
 "https://conciertos.club/malaga/conciertos/125579-haze"
 ],
-"genre": "pop"
+"genre": "rock"
 },
 "melendi": {
 "name": "Melendi",
@@ -1660,12 +1681,12 @@
 "genre": "pop"
 },
 "carlos-ares": {
-"name": "Carlos Ares",
+"name": "CARLOS ARES",
 "mles": 58.7,
 "links": [
-"https://paris15.es/event/carlos-ares/"
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fcarlos-ares-sala-paris-15-21699135%2F"
 ],
-"genre": "pop"
+"genre": "mixed"
 },
 "kinky-bwoy": {
 "name": "Kinky Bwoy",
@@ -1693,7 +1714,7 @@
 "links": [
 "https://conciertos.club/malaga/conciertos/126776-gauchito-club"
 ],
-"genre": "mixed"
+"genre": "rock"
 },
 "salistre": {
 "name": "SALISTRE",
@@ -1709,13 +1730,13 @@
 "links": [
 "https://www.taquilla.com/entradas/hide-tyson"
 ],
-"genre": "urban"
+"genre": "rock"
 },
 "vicky-gastelo": {
 "name": "Vicky Gastelo",
 "mles": 56.0,
 "links": [
-"https://entradas.conciertos.club/es/events/vicky-gastelo-en-malaga"
+"https://conciertos.club/malaga/conciertos/126653-vicky-gastelo"
 ],
 "genre": "pop"
 },
@@ -1737,15 +1758,15 @@
 "links": [
 "https://www.tomaticket.es/es-es/entradas-santero-y-los-muchachos-en-malaga"
 ],
-"genre": "rock"
+"genre": "mixed"
 },
 "neverland-bari": {
 "name": "Neverland Bari",
 "mles": 56.0,
 "links": [
-"https://conciertos.club/malaga/conciertos/126756-neverland-bari"
+"https://lacocheracabaret.com/evento/neverland-bari-2/"
 ],
-"genre": "pop"
+"genre": "mixed"
 },
 "tributo-a-creedence-clearwater-revival": {
 "name": "Tributo a Creedence Clearwater Revival",
@@ -1767,9 +1788,9 @@
 "name": "Concierto La Cabra Mecánica",
 "mles": 0.0,
 "links": [
-"https://www.enterticket.es/eventos/concierto-la-cabra-mecanica-malaga-sala-circus-sabado-28-de-noviembre-717251"
+"https://conciertos.club/malaga/conciertos/125577-la-cabra-mecanica"
 ],
-"genre": "mixed"
+"genre": "pop"
 },
 "il-verismo": {
 "name": "Il Verismo",
@@ -1927,7 +1948,7 @@
 "name": "La Dama de Hierro",
 "mles": 54.9,
 "links": [
-"https://entradas.conciertos.club/es/events/la-dama-de-hierro-iron-maiden-en-estepona"
+"https://conciertos.club/malaga/conciertos/126678-la-dama-de-hierro-tributo-a-iron-maiden"
 ],
 "genre": "tribute"
 },
@@ -1977,7 +1998,7 @@
 "links": [
 "https://conciertos.club/malaga/conciertos/120099-blanca-la-almendrita"
 ],
-"genre": "flamenco"
+"genre": "mixed"
 },
 "delobos": {
 "name": "Delobos",
@@ -2004,13 +2025,13 @@
 "links": [
 "https://conciertos.club/malaga/conciertos/126698-salma"
 ],
-"genre": "mixed"
+"genre": "pop"
 },
 "porn": {
 "name": "Porn",
 "mles": 53.9,
 "links": [
-"https://entradas.conciertos.club/es/events/porn-tributo-a-korn-en-estepona"
+"https://conciertos.club/malaga/conciertos/126677-porn-tributo-a-korn"
 ],
 "genre": "tribute"
 },
@@ -2018,7 +2039,7 @@
 "name": "El Cebri",
 "mles": 53.9,
 "links": [
-"https://entradas.conciertos.club/es/events/el-cebri"
+"https://conciertos.club/malaga/conciertos/126652-el-cebri"
 ],
 "genre": "mixed"
 },
@@ -2103,15 +2124,15 @@
 "links": [
 "https://paris15.es/event/cyril-kamer/"
 ],
-"genre": "electronic"
+"genre": "urban"
 },
 "la-banda-sabinera": {
-"name": "La Banda Sabinera",
+"name": "LA BANDA SABINERA",
 "mles": 48.5,
 "links": [
 "https://tevienes.com/es/spain/malaga/events/la-banda-sabinera-experience-sabinas-magic-3law5d"
 ],
-"genre": "tribute"
+"genre": "mixed"
 },
 "blues-brothers-tribute-soul-mission": {
 "name": "Blues Brothers Tribute «Soul Mission»",
@@ -2127,7 +2148,8 @@
 "mles": 0.0,
 "links": [
 "https://www.clarencejazzclub.com/wp/events/diego-amador-jose-maria-bandera/"
-]
+],
+"genre": "jazz"
 },
 "ainhoa-arteta-en-recital": {
 "name": "Ainhoa Arteta en recital",
@@ -2238,9 +2260,9 @@
 "name": "Mito Sonoro",
 "mles": 46.7,
 "links": [
-"https://conciertos.club/malaga/conciertos/126752-mito-sonoro"
+"https://lacocheracabaret.com/evento/mito-sonoro/"
 ],
-"genre": "mixed"
+"genre": "rock"
 },
 "michael-s-legacy": {
 "name": "Michael's Legacy",
@@ -2296,7 +2318,7 @@
 "genre": "pop"
 },
 "so-perfect-en-concierto": {
-"name": "So Perfect en Concierto",
+"name": "So Perfect en concierto",
 "mles": 51.2,
 "links": [
 "https://www.mientrada.net/evento/fusion-cultural-en-concierto/"
@@ -2422,7 +2444,7 @@
 "mles": 49.4
 },
 "del-pop-al-jazz-pasando-por-queen": {
-"name": "Del Pop al Jazz pasando por Queen",
+"name": "Del pop al jazz pasando por Queen",
 "mles": 55.6,
 "links": [
 "https://www.unientradas.es/es/espectaculo/del-pop-al-jazz-pasando-por-queen/PROMNOV26"
@@ -2462,8 +2484,7 @@
 "name": "Nu_Metal/Dance_Revolution",
 "mles": 48.5,
 "links": [
-"https://www.taquilla.com/entradas/nu_metal-dance_revolution",
-"https://entradas.conciertos.club/de/events/nu_metal-dance_revolution/sessions/06-12-2026-20-30"
+"https://www.taquilla.com/entradas/nu_metal-dance_revolution"
 ],
 "genre": "rock"
 },
@@ -2481,7 +2502,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/concierto-ofm-programa-4/26-27OFM04"
 ],
-"genre": "classical"
+"genre": "mixed"
 },
 "la-navidad-de-manuel-periquin": {
 "name": "La Navidad de Manuel Periquín",
@@ -2505,7 +2526,7 @@
 "links": [
 "https://paris15.es/event/walls/"
 ],
-"genre": "pop"
+"genre": "urban"
 },
 "abstract-halloween": {
 "name": "ABSTRACT: HALLOWEEN",
@@ -2585,7 +2606,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/muerdo/26-27MuerdoCanci"
 ],
-"genre": "classical"
+"genre": "pop"
 },
 "lucia-rey": {
 "name": "Lucía Rey",
@@ -2593,7 +2614,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/lucia-rey/26-27ReyLuciaNom"
 ],
-"genre": "classical"
+"genre": "jazz"
 },
 "gala-benefica-la-flor-de-oro": {
 "name": "Gala benéfica La Flor de Oro",
@@ -2612,18 +2633,18 @@
 "genre": "tribute"
 },
 "serko": {
-"name": "SERKO",
+"name": "Serko",
 "mles": 51.2,
 "links": [
 "https://paris15.es/event/serko/"
 ],
-"genre": "mixed"
+"genre": "urban"
 },
 "concierto-de-jazz": {
 "name": "Concierto de Jazz",
 "mles": 59.0,
 "links": [
-"https://www.clarencejazzclub.com/wp/events/erly-thornton-sextet/"
+"https://www.mientrada.net/evento/ofm-jazz-music-ivan-lins/"
 ],
 "genre": "jazz"
 },
@@ -2735,8 +2756,8 @@
 "name": "II Ciclo de Jazz en el Aleixandre",
 "mles": 57.2,
 "links": [
-"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-2/",
-"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre/"
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre/",
+"https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-2/"
 ],
 "genre": "jazz"
 },
@@ -2928,8 +2949,112 @@
 "name": "Rebe",
 "mles": 0.0,
 "links": [
-"https://www.enterticket.es/eventos/concierto-rebe-malaga-sala-marte-sabado-19-de-diciembre-683955"
+"https://conciertos.club/malaga/conciertos/120104-rebe"
 ],
 "genre": "pop"
+},
+"breezy-rodio-blues-band": {
+"name": "Breezy Rodio Blues Band",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "jazz"
+},
+"la-vinilo-y-los-4-fantasticos": {
+"name": "La Vinilo y los 4 Fantásticos",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "rock"
+},
+"natos-y-waor": {
+"name": "Natos y Waor",
+"mles": 56.2,
+"links": [
+"https://www.entradas.com/event/hijos-de-la-ruina-tour-palacio-de-los-deportes-jose-maria-martin-carpena-20263730/"
+],
+"genre": "urban"
+},
+"eskobula": {
+"name": "Eskóbula",
+"mles": 0.0,
+"links": [
+"https://conciertos.club/malaga/conciertos/129135-eskobula-iron-dicks-tributo-a-iron-maiden"
+],
+"genre": "rock"
+},
+"baron-dandy": {
+"name": "Barón Dandy",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "mixed"
+},
+"20th-century-band": {
+"name": "20th Century Band",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "mixed"
+},
+"mansion-s-cellar": {
+"name": "Mansion's Cellar",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "rock"
+},
+"the-onions": {
+"name": "The Onions",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "tribute"
+},
+"ruben-bertrands-the-funky-nightcaps": {
+"name": "Rubén Bertrands / The Funky Nightcaps",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "rock"
+},
+"queen-rocks": {
+"name": "Queen Rocks",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "tribute"
+},
+"tremendoors": {
+"name": "Tremendoors",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "tribute"
+},
+"joe-the-jackpots": {
+"name": "Joe the Jackpots",
+"mles": 0.0,
+"links": [
+"https://zzpub.es/agenda/"
+],
+"genre": "jazz"
+},
+"raya-real": {
+"name": "Raya Real",
+"mles": 0.0,
+"links": [
+"https://conciertos.club/malaga/conciertos/128885-raya-real"
+],
+"genre": "mixed"
 }
 }
