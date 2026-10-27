@@ -4565,82 +4565,27 @@
    "source": "https://www.benalmadena.es/pags/agenda.php",
    "note": "Auto-refreshed weekly by refresh_townhalls.py — town-hall-owned live music only.",
    "acts": {
-    "poesia y flamenco (marina badia) 13/11/2026": {
-     "date": "13/11/2026",
-     "time": "20:00",
-     "venue": "Casa de la Cultura",
-     "venue_name": "Poesía y Flamenco (Marina Badía)",
-     "genre": "flamenco",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "url": "https://www.benalmadena.es/agenda/A8049/POESA-Y-FLAMENCO.html",
-     "why": "Espectáculo flamenco de la Semana Flamenca, organizado con la colaboración de la Delegación de Cultura del Ayuntamiento."
-    },
-    "jovenes flamencos 16/11/2026": {
-     "date": "16/11/2026",
-     "time": "20:00",
-     "venue": "Casa de la Cultura",
-     "venue_name": "Jóvenes Flamencos",
-     "genre": "flamenco",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "url": "https://www.benalmadena.es/agenda/A8052/JVENES-FLAMENCOS.html",
-     "why": "Actuación flamenca dentro de la Semana Flamenca con colaboración de la Delegación de Cultura municipal."
-    },
-    "ix guitar benalmadena fest (jesus guerrero) 17/11/2026": {
-     "date": "17/11/2026",
-     "time": "20:00",
-     "venue": "Casa de la Cultura",
-     "venue_name": "IX Guitar Benalmádena Fest (Jesús Guerrero)",
-     "genre": "flamenco",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "url": "https://www.benalmadena.es/agenda/A8055/IX-GUITAR-BENALMADENA-FEST.html",
-     "why": "Concierto de guitarra flamenca integrado en la Semana Flamenca apoyada por la Delegación de Cultura."
-    },
-    "gala de clausura semana flamenca (carmen camacho) 20/11/2026": {
-     "date": "20/11/2026",
-     "time": "20:00",
-     "venue": "Casa de la Cultura",
-     "venue_name": "Gala de Clausura Semana Flamenca (Carmen Camacho)",
-     "genre": "flamenco",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "url": "https://www.benalmadena.es/agenda/A8063/GALA-DE-CLAUSURA-SEMANA-FLAMENCA.html",
-     "why": "Gala de cierre de la Semana Flamenca municipal, con colaboración de la Delegación de Cultura."
-    },
-    "concierto del profesorado  festividad de santa cecilia 25/11/2026": {
+    "concierto festividad de santa cecilia (escuela municipal de musica y danza) 25/1": {
      "date": "25/11/2026",
      "time": "18:30",
      "venue": "Castillo de Bil-Bil",
-     "venue_name": "Concierto del profesorado – Festividad de Santa Cecilia",
+     "venue_name": "Concierto Festividad de Santa Cecilia (Escuela Municipal de Música y Danza)",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
      "url": "https://www.benalmadena.es/agenda/A8072/CELEBRACIN-FESTIVIDAD-DE-SANTA-CECILIA.html",
-     "why": "Concierto organizado directamente por la Escuela Municipal de Música y Danza del Ayuntamiento."
+     "why": "Concierto organizado directamente por la Escuela Municipal de Música y Danza del Ayuntamiento para celebrar a la patrona de la música."
     },
-    "xxv aniversario de la coral ciudad de benalmadena 28/11/2026": {
-     "date": "28/11/2026",
-     "time": "",
-     "venue": "Casa de la Cultura",
-     "venue_name": "XXV Aniversario de la Coral Ciudad de Benalmádena",
-     "genre": "classical",
-     "paid_free": "Paid",
-     "price": "Check link",
-     "url": "https://www.benalmadena.es/agenda/A8080/XXV-Aniversario-de-la-Coral-Ciudad-de-Benalmdena.html",
-     "why": "Concierto coral del 25º aniversario, recogido en la agenda cultural del Ayuntamiento en la Casa de la Cultura."
-    },
-    "festival de navidad: musica y movimiento de musica 02/12/2026": {
+    "festival de navidad: musica y movimiento de musica (escuela municipal de musica ": {
      "date": "02/12/2026",
      "time": "18:00",
      "venue": "Casa de la Cultura",
-     "venue_name": "Festival de Navidad: Música y Movimiento de Música",
+     "venue_name": "Festival de Navidad: Música y Movimiento de Música (Escuela Municipal de Música y Danza)",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
      "url": "https://www.benalmadena.es/agenda/A8085/Festival-de-Navidad-Msica-y-Movimiento-de-Msica.html",
-     "why": "Recital navideño organizado por la Escuela Municipal de Música y Danza del Ayuntamiento."
+     "why": "Recital navideño organizado por la propia escuela municipal de música, dentro de la programación cultural del Ayuntamiento."
     }
    }
   },
@@ -4810,7 +4755,7 @@
      "paid_free": "Paid",
      "price": "€34",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/folleto-oct-26.pdf",
-     "why": "Ópera con orquesta y coro programada por la Concejalía de Cultura en la temporada del Centro Cultural municipal."
+     "why": "Ópera con orquesta y coro programada dentro de la temporada oficial del Centro Cultural municipal."
     },
     "noche habanera - bernaldez latin jazz orchestra 29/10/2026": {
      "date": "29/10/2026",
@@ -4821,18 +4766,29 @@
      "paid_free": "Paid",
      "price": "€18",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/folleto-oct-26.pdf",
-     "why": "Concierto de jazz latino dentro de la XXIX Temporada del Centro Cultural de titularidad municipal."
+     "why": "Concierto de jazz latino programado por la Concejalía de Cultura en el Centro Cultural."
     },
-    "encuentro de coros rocieros - pena nerjena 31/10/2026": {
+    "encuentro de coros rocieros (pena nerjena) 31/10/2026": {
      "date": "31/10/2026",
      "time": "20:00",
      "venue": "Centro Cultural Villa de Nerja",
-     "venue_name": "Encuentro de Coros Rocieros - Peña Nerjeña",
+     "venue_name": "Encuentro de Coros Rocieros (Peña Nerjeña)",
      "genre": "flamenco",
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/folleto-oct-26.pdf",
-     "why": "Encuentro benéfico de coros rocieros incluido en la programación oficial del Centro Cultural municipal."
+     "why": "Encuentro benéfico de coros rocieros incluido en la agenda cultural municipal."
+    },
+    "las nanas segun lorca (conferencia cantada) 07/11/2026": {
+     "date": "07/11/2026",
+     "time": "20:00",
+     "venue": "Centro Cultural Villa de Nerja",
+     "venue_name": "Las nanas según Lorca (conferencia cantada)",
+     "genre": "classical",
+     "paid_free": "Free",
+     "price": "Free",
+     "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
+     "why": "Recital de nanas cantadas en torno a Lorca, entrada gratuita, dentro de la temporada municipal."
     },
     "duo ballix - piano y chelo 12/11/2026": {
      "date": "12/11/2026",
@@ -4843,18 +4799,18 @@
      "paid_free": "Paid",
      "price": "€10",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Recital de música clásica para piano y chelo programado por la Concejalía de Cultura."
+     "why": "Recital de música clásica de cámara programado por el Centro Cultural municipal."
     },
-    "noches de tango - a puro tango 19/11/2026": {
+    "noches de tango: a puro tango 19/11/2026": {
      "date": "19/11/2026",
      "time": "20:00",
      "venue": "Centro Cultural Villa de Nerja",
-     "venue_name": "Noches de Tango - A puro tango",
+     "venue_name": "Noches de Tango: A puro tango",
      "genre": "mixed",
      "paid_free": "Paid",
      "price": "€20",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Espectáculo de música y danza en directo dentro del programa municipal de otoño."
+     "why": "Espectáculo de música y baile de tango en vivo dentro de la temporada municipal."
     },
     "intrepida - rocio bazan 21/11/2026": {
      "date": "21/11/2026",
@@ -4865,18 +4821,18 @@
      "paid_free": "Paid",
      "price": "€20",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Espectáculo flamenco programado por el Centro Cultural municipal."
+     "why": "Espectáculo de flamenco programado por la Concejalía de Cultura."
     },
-    "concierto de santa cecilia - escuela municipal de musica 23/11/2026": {
+    "concierto de santa cecilia (escuela municipal de musica) 23/11/2026": {
      "date": "23/11/2026",
      "time": "18:00",
      "venue": "Centro Cultural Villa de Nerja",
-     "venue_name": "Concierto de Santa Cecilia - Escuela Municipal de Música",
-     "genre": "mixed",
+     "venue_name": "Concierto de Santa Cecilia (Escuela Municipal de Música)",
+     "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Concierto de los alumnos de la Escuela Municipal de Música y Danza, entidad propia del Ayuntamiento."
+     "why": "Concierto de la Escuela Municipal de Música por San Cecilia, actividad propia del ayuntamiento."
     },
     "el pianista de la mano izquierda 26/11/2026": {
      "date": "26/11/2026",
@@ -4887,7 +4843,7 @@
      "paid_free": "Paid",
      "price": "€10",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Recital de música clásica para piano programado por la Concejalía de Cultura."
+     "why": "Recital de piano clásico incluido en la programación del Centro Cultural municipal."
     },
     "adn protegidas 27/11/2026": {
      "date": "27/11/2026",
@@ -4898,7 +4854,7 @@
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Concierto en directo incluido en la temporada del Centro Cultural municipal."
+     "why": "Concierto incluido como 'Música' en la agenda municipal, género no especificado con detalle."
     },
     "clasicos del swing - bernaldez swing jazz quintet 04/12/2026": {
      "date": "04/12/2026",
@@ -4909,7 +4865,7 @@
      "paid_free": "Paid",
      "price": "€15",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Concierto de swing/jazz programado por la Concejalía de Cultura."
+     "why": "Concierto de swing jazz programado por la Concejalía de Cultura."
     },
     "encuentro de coros de navidad 08/12/2026": {
      "date": "08/12/2026",
@@ -4920,7 +4876,7 @@
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Encuentro coral navideño dentro del programa municipal de diciembre."
+     "why": "Encuentro coral navideño organizado dentro de la temporada cultural municipal."
     },
     "dia mundial del tango - la portena 11/12/2026": {
      "date": "11/12/2026",
@@ -4931,7 +4887,7 @@
      "paid_free": "Paid",
      "price": "€25",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Espectáculo de música y danza en directo organizado por el Centro Cultural municipal."
+     "why": "Espectáculo en vivo de música y danza de tango programado por el ayuntamiento."
     },
     "concierto de navidad - orquesta neso 13/12/2026": {
      "date": "13/12/2026",
@@ -4953,7 +4909,7 @@
      "paid_free": "Paid",
      "price": "€18",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Gala concierto navideño programada por la Concejalía de Cultura."
+     "why": "Gala de concierto navideño programada por la Concejalía de Cultura."
     },
     "gala navidena a beneficio del taller de la amistad 18/12/2026": {
      "date": "18/12/2026",
@@ -4964,7 +4920,7 @@
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Gala benéfica de música y baile en directo dentro de la programación municipal."
+     "why": "Gala benéfica de música y baile en vivo incluida en la agenda municipal."
     },
     "concierto de navidad de la banda de musica de nerja 19/12/2026": {
      "date": "19/12/2026",
@@ -4975,7 +4931,7 @@
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Concierto de la banda municipal de música de Nerja, entidad propia del Ayuntamiento."
+     "why": "Concierto de la banda municipal de música, agrupación propia del ayuntamiento."
     },
     "rondalla sierra almijara 26/12/2026": {
      "date": "26/12/2026",
@@ -4986,7 +4942,7 @@
      "paid_free": "Paid",
      "price": "€5",
      "url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
-     "why": "Concierto de rondalla tradicional dentro del programa municipal de diciembre."
+     "why": "Concierto de rondalla tradicional programado por el Centro Cultural municipal."
     }
    }
   },
@@ -5400,82 +5356,122 @@
    "source": "https://cultura.malaga.eu/es/actividades-culturales/actividades-musicales/",
    "note": "Auto-refreshed weekly by refresh_townhalls.py — town-hall-owned live music only.",
    "acts": {
-    "banda municipal de musica de malaga - concierto de temporada 08/11/2026": {
+    "concierto de la banda municipal de musica de malaga 08/11/2026": {
      "date": "08/11/2026",
      "time": "12:00",
      "venue": "Museo de Málaga",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de temporada 22/11/2026": {
+    "concierto de la banda municipal de musica de malaga 22/11/2026": {
      "date": "22/11/2026",
      "time": "12:00",
-     "venue": "Recinto Eduardo Ocón",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue": "Recinto Ocón",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de navidad 20/12/2026": {
+    "concierto de la banda municipal de musica de malaga 20/12/2026": {
      "date": "20/12/2026",
      "time": "19:30",
      "venue": "Catedral de Málaga",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de Navidad",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de temporada 24/01/2027": {
+    "concierto de la banda municipal de musica de malaga 24/01/2027": {
      "date": "24/01/2027",
      "time": "12:00",
-     "venue": "Jardín Botánico-Histórico La Concepción",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue": "Jardín Botánico (La Concepción)",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de temporada 07/02/2027": {
+    "concierto de la banda municipal de musica de malaga 07/02/2027": {
      "date": "07/02/2027",
      "time": "12:00",
      "venue": "Museo de Málaga",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de temporada 21/02/2027": {
+    "concierto de la banda municipal de musica de malaga 21/02/2027": {
      "date": "21/02/2027",
      "time": "12:00",
-     "venue": "Jardín Botánico-Histórico La Concepción",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue": "Jardín Botánico (La Concepción)",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
     },
-    "banda municipal de musica de malaga - concierto de temporada 07/03/2027": {
+    "concierto de la banda municipal de musica de malaga 07/03/2027": {
      "date": "07/03/2027",
      "time": "17:00",
-     "venue": "Iglesia del Sagrado Corazón",
-     "venue_name": "Banda Municipal de Música de Málaga - Concierto de temporada",
+     "venue": "Sagrado Corazón",
+     "venue_name": "Concierto de la Banda Municipal de Música de Málaga",
      "genre": "classical",
      "paid_free": "Free",
      "price": "Free",
-     "url": "https://cultura.malaga.eu/opencms/export/sites/cultura/.content/galerias/documentos/TEMPORADA-DE-CONCIERTOS-2026-2027.pdf",
-     "why": "Concierto gratuito de la banda municipal organizado por el Ayuntamiento de Málaga."
+     "url": "https://cultura.malaga.eu/es/banda-municipal-de-musica/programacion-general/programa-general/",
+     "why": "Concierto gratuito de la Banda Municipal de Música, programación oficial del Ayuntamiento de Málaga."
+    }
+   }
+  },
+  "fuengirolacultura": {
+   "complete": true,
+   "source": "https://www.fuengirola.es/agenda/",
+   "note": "Auto-refreshed weekly by refresh_townhalls.py — town-hall-owned live music only.",
+   "acts": {
+    "concierto: de cadiz a buenos aires 30/10/2026": {
+     "date": "30/10/2026",
+     "time": "20:00",
+     "venue": "Casa de la Cultura «Manuel Delgado Perea», Fuengirola",
+     "venue_name": "Concierto: De Cádiz a Buenos Aires",
+     "genre": "classical",
+     "paid_free": "Paid",
+     "price": "€5",
+     "url": "https://www.fuengirola.es/evento/conciertode-cadiz-a-buenos-aires/",
+     "why": "Concierto de guitarra y violín organizado por el Ayuntamiento, programación cultural municipal."
+    },
+    "concierto de halloween: banda municipal 31/10/2026": {
+     "date": "31/10/2026",
+     "time": "19:30",
+     "venue": "Palacio de la Paz, Recinto Ferial, Fuengirola",
+     "venue_name": "Concierto de Halloween: Banda Municipal",
+     "genre": "classical",
+     "paid_free": "Free",
+     "price": "Free",
+     "url": "https://www.fuengirola.es/evento/concierto-de-halloween-banda-municipal/",
+     "why": "Concierto gratuito de la Banda Municipal de Música organizado por el Ayuntamiento."
+    },
+    "zarzuela: la tabernera del puerto 07/11/2026": {
+     "date": "07/11/2026",
+     "time": "20:00",
+     "venue": "Palacio de la Paz, Recinto Ferial, Fuengirola",
+     "venue_name": "Zarzuela: La Tabernera del Puerto",
+     "genre": "classical",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.fuengirola.es/evento/zarzuela-la-tabernera-del-puerto/",
+     "why": "Zarzuela (teatro lírico musical) incluida en la programación cultural del Ayuntamiento."
     }
    }
   },
