@@ -3105,5 +3105,13 @@
 "https://www.giglon.com/web/guest/todos?idEvent=christmas-gala-concert-theodoro"
 ],
 "genre": "classical"
+},
+"el-fantasma-de-la-opera": {
+"name": "El Fantasma de la Ópera",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=el-fantasma-de-la-opera-concierto-a-piano-y-voz-esad-malaga"
+],
+"genre": "classical"
 }
 }
