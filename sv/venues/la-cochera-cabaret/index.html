@@ -744,6 +744,8 @@ try{var _gv=new URLSearchParams(location.search).get('genre');if(_gv&&genref){va
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
     var isAll=a.hasAttribute('data-fall'),isCity=a.hasAttribute('data-fmatch'),isGen=a.hasAttribute('data-fgenre'),isFree=a.hasAttribute('data-ffree'),isWhen=a.hasAttribute('data-fwhen'),isTH=a.hasAttribute('data-fth');
     if(!(isAll||isCity||isGen||isFree||isWhen||isTH)) return;
+    /* NARROW landing pages (artist): the pills must NAVIGATE to the matching landing page, not filter the artist's own 1 card (-> 0 events). Sofia 2026-10-27. */
+    if(window.__MLNAVPILLS){var _nh=a.getAttribute('href');if(_nh){e.preventDefault();location.href=_nh+(_nh.indexOf('#')<0?'#tickets':'');return;}}
     e.preventDefault();
     var was=a.classList.contains('sel');
     if(isAll){
@@ -779,6 +781,13 @@ try{var _gv=new URLSearchParams(location.search).get('genre');if(_gv&&genref){va
     apply();
     var sb=document.getElementById('tickets')||document.querySelector('.subbar')||document.querySelector('.filterbar'); if(sb)_mlLand(sb,true);
   });
+})();
+/* Artist pages: the hero area/genre selects and when-chips navigate to the matching landing page too (same reason as the footer pills). */
+(function(){if(!window.__MLNAVPILLS)return;var disco=document.querySelector('.wrap.discovery');if(!disco)return;
+  function go(sel){var a=disco.querySelector(sel);var h=a&&a.getAttribute('href');if(h){location.href=h+(h.indexOf('#')<0?'#tickets':'');return true;}return false;}
+  if(cityf)cityf.addEventListener('change',function(){if(cityf.value&&cityf.value!=='__townhall__')go('a[data-fmatch="'+cityf.value+'"]');});
+  if(genref)genref.addEventListener('change',function(){if(genref.value)go('a[data-fgenre="'+genref.value+'"]');});
+  document.querySelectorAll('.chip[data-mode]').forEach(function(ch){ch.addEventListener('click',function(){go('a[data-fwhen="'+ch.getAttribute('data-mode')+'"]');});});
 })();
 apply();
 })();

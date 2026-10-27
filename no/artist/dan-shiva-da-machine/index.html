@@ -400,7 +400,7 @@ footer{background:var(--navy);color:#fff;padding:26px 0;}
   <div class="glow"></div>
   <div class="wrap">
     <h1 class="disp">Dan Shiva Da Machine live i Málaga by &amp; Costa del Sol</h1><p class="pgsub" style="font-size:16px;line-height:1.5;max-width:880px;margin:10px 0 0;opacity:.9">Dan Shiva Da Machine har ingen kommende datoer i Málaga eller på Costa del Sol akkurat nå — utforsk all livemusikk langs kysten, oppdateres hver uke.</p><div style="margin:16px 0 0;padding:13px 15px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:12px;max-width:880px"><div style="font-weight:800;font-size:13.5px;margin-bottom:9px;opacity:.95">Gjør en tur av det? Planlegg overnatting og flyplasstransfer med vår søsternettside:</div><a href="https://malagatoursandmore.com/no/hotels/" target="_blank" rel="noopener" style="display:inline-block;margin:0 8px 6px 0;padding:8px 14px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.22);border-radius:8px;font-weight:800;text-decoration:none;font-size:12.5px">Hvor du bør bo &rarr;</a><a href="https://malagatoursandmore.com/no/transportation-malaga/#cat-transportation" target="_blank" rel="noopener" style="display:inline-block;margin:0 0 6px 0;padding:8px 14px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.22);border-radius:8px;font-weight:800;text-decoration:none;font-size:12.5px">Flyplasstransfer &amp; komme seg rundt &rarr;</a></div>
-    <p class="intro"><b>Málaga Live er den <span class="hi-live" style="color:#E8662A">pålitelige</span> 8‑språklige guiden til livemusikk i Málaga og på Costa del Sol.</b> Bla gjennom konserter, festivaler, flamenco, jazz, Candlelight og gratiskonserter etter artist, by, dato eller sjanger.</p><p class="herobuy" style="font-weight:700;color:#fff;margin:8px 0 0">Kjøp billettene dine til musikkarrangementer til de laveste verifiserte offisielle førstehåndsprisene – uten gebyrer eller påslag.</p>
+    <p class="intro"><b>Málaga Live er den <span class="hi-live" style="color:#E8662A">pålitelige</span> 8‑språklige guiden til livemusikk i Málaga og på Costa del Sol.</b> Bla gjennom konserter, festivaler, flamenco, jazz, Candlelight og gratiskonserter etter artist, by, dato eller sjanger.</p><p class="herobuy" style="font-weight:700;color:#fff;margin:8px 0 0">Kjøp billettene dine til musikkarrangementer til de laveste verifiserte offisielle førstehåndsprisene – uten gebyrer eller påslag.</p><script>window.__MLNAVPILLS=1;</script>
     <div class="hsearch">
       <label class="si"><i class="ti ti-search"></i><input id="searchf" type="text" placeholder="Søk artist eller sted…" aria-label="Søk artist eller sted" style="border:0;background:transparent;outline:0;flex:1;min-width:0;font:inherit;color:var(--ink);"></label>
       <div class="hchips">
@@ -732,6 +732,8 @@ try{var _gv=new URLSearchParams(location.search).get('genre');if(_gv&&genref){va
     var a=e.target.closest('a'); if(!a||!disco.contains(a)) return;
     var isAll=a.hasAttribute('data-fall'),isCity=a.hasAttribute('data-fmatch'),isGen=a.hasAttribute('data-fgenre'),isFree=a.hasAttribute('data-ffree'),isWhen=a.hasAttribute('data-fwhen'),isTH=a.hasAttribute('data-fth');
     if(!(isAll||isCity||isGen||isFree||isWhen||isTH)) return;
+    /* NARROW landing pages (artist): the pills must NAVIGATE to the matching landing page, not filter the artist's own 1 card (-> 0 events). Sofia 2026-10-27. */
+    if(window.__MLNAVPILLS){var _nh=a.getAttribute('href');if(_nh){e.preventDefault();location.href=_nh+(_nh.indexOf('#')<0?'#tickets':'');return;}}
     e.preventDefault();
     var was=a.classList.contains('sel');
     if(isAll){
@@ -767,6 +769,13 @@ try{var _gv=new URLSearchParams(location.search).get('genre');if(_gv&&genref){va
     apply();
     var sb=document.getElementById('tickets')||document.querySelector('.subbar')||document.querySelector('.filterbar'); if(sb)_mlLand(sb,true);
   });
+})();
+/* Artist pages: the hero area/genre selects and when-chips navigate to the matching landing page too (same reason as the footer pills). */
+(function(){if(!window.__MLNAVPILLS)return;var disco=document.querySelector('.wrap.discovery');if(!disco)return;
+  function go(sel){var a=disco.querySelector(sel);var h=a&&a.getAttribute('href');if(h){location.href=h+(h.indexOf('#')<0?'#tickets':'');return true;}return false;}
+  if(cityf)cityf.addEventListener('change',function(){if(cityf.value&&cityf.value!=='__townhall__')go('a[data-fmatch="'+cityf.value+'"]');});
+  if(genref)genref.addEventListener('change',function(){if(genref.value)go('a[data-fgenre="'+genref.value+'"]');});
+  document.querySelectorAll('.chip[data-mode]').forEach(function(ch){ch.addEventListener('click',function(){go('a[data-fwhen="'+ch.getAttribute('data-mode')+'"]');});});
 })();
 apply();
 })();
