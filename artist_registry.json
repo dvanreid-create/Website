@@ -97,7 +97,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/antonio-jose/26-27JoseAntoni"
 ],
-"genre": "pop"
+"genre": "classical"
 },
 "nina-pastori": {
 "name": "Niña Pastori",
@@ -2606,7 +2606,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/muerdo/26-27MuerdoCanci"
 ],
-"genre": "pop"
+"genre": "classical"
 },
 "lucia-rey": {
 "name": "Lucía Rey",
@@ -2614,7 +2614,7 @@
 "links": [
 "https://www.unientradas.es/es/espectaculo/lucia-rey/26-27ReyLuciaNom"
 ],
-"genre": "jazz"
+"genre": "classical"
 },
 "gala-benefica-la-flor-de-oro": {
 "name": "Gala benéfica La Flor de Oro",
@@ -2874,7 +2874,7 @@
 "genre": "classical"
 },
 "belle-mcnulty-quartet": {
-"name": "Belle Mcnulty Quartet",
+"name": "Belle McNulty Quartet",
 "mles": 0.0,
 "links": [
 "https://www.unientradas.es/es/espectaculo/belle-mcnulty-quartet/26-27BelleQuarte"
@@ -2882,7 +2882,7 @@
 "genre": "jazz"
 },
 "ensemble-milman-gallardo": {
-"name": "Ensemble Milman-gallardo",
+"name": "Ensemble Milman-Gallardo",
 "mles": 0.0,
 "links": [
 "https://www.unientradas.es/es/espectaculo/ensemble-milman-gallardo/254784"

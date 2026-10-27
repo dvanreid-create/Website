@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-26",
-  "count": 105,
+  "generated": "2026-10-27",
+  "count": 113,
   "items": [
     {
       "sku": "194665",
@@ -144,6 +144,20 @@
       "d": "Experience the passion of flamenco in the heart of Seville! Get your tickets now!"
     },
     {
+      "sku": "134541",
+      "n": "Alhambra and Nasrid Palaces: Tour with Audioguide + City Pass",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €99",
+      "img": "c44a0154-1695-11ee-8d0b-da03757d4de9",
+      "url": "https://feverup.com/m/134541/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=134541&u=https%3A%2F%2Ffeverup.com%2Fm%2F134541&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Access to more than 10 emblematic places in Granada, including the Alhambra with audio guide and transportation. Get your tickets now!"
+    },
+    {
       "sku": "793049",
       "n": "All Crazy! - Malaga",
       "c": "tours",
@@ -156,6 +170,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=793049&u=https%3A%2F%2Ffeverup.com%2Fm%2F793049&intsrc=CATF_15532",
       "feat": 0,
       "d": "All Crazy! in Malaga"
+    },
+    {
+      "sku": "141798",
+      "n": "Almodovar Castle",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €11",
+      "img": "effee0e8-677c-11ee-95ff-d6a9f1426772",
+      "url": "https://feverup.com/m/141798/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141798&u=https%3A%2F%2Ffeverup.com%2Fm%2F141798&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "🏰 Explore medieval history at Almodovar Castle like never before! Get your tickets now!"
     },
     {
       "sku": "676381",
@@ -424,6 +452,48 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "141696",
+      "n": "Free access to the Alhambra of Granada",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €16",
+      "img": "e6839a00-6776-11ee-9b00-e67ab24b2c49",
+      "url": "https://feverup.com/m/141696/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141696&u=https%3A%2F%2Ffeverup.com%2Fm%2F141696&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "🏯 Enjoy the beauty of the Alhambra of Granada at your own pace and for as long as you want with this free access. Get yours!"
+    },
+    {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+    },
+    {
+      "sku": "590844",
+      "n": "Geoparque de Granada: Tour guiado + Transporte",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €125",
+      "img": "04b574de-13c4-11f1-9c7e-0ed8c20a11cb.jpeg",
+      "url": "https://feverup.com/m/590844/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=590844&u=https%3A%2F%2Ffeverup.com%2Fm%2F590844&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Geoparque de Granada: Tour guiado + Transporte in Granada. Get your tickets on Fever now!"
+    },
+    {
       "sku": "92887",
       "n": "Guided tour of Antequera with transportation from Malaga",
       "c": "tours",
@@ -522,6 +592,20 @@
       "d": "La Malagueta Bullring: Admission + Audio Guide in Málaga. Get your tickets on Fever now!"
     },
     {
+      "sku": "141679",
+      "n": "La Mota Fortress: Quick access \"ticket\"",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €8",
+      "img": "9bebede4-6776-11ee-bfe3-c2d73af14a4c",
+      "url": "https://feverup.com/m/141679/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141679&u=https%3A%2F%2Ffeverup.com%2Fm%2F141679&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Fortaleza de la Mota: Time travel! Explore the majestic medieval fortress of Andalusia - get your tickets now!"
+    },
+    {
       "sku": "672309",
       "n": "La Odisea - Málaga",
       "c": "tours",
@@ -562,6 +646,34 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=553173&u=https%3A%2F%2Ffeverup.com%2Fm%2F553173&intsrc=CATF_15532",
       "feat": 0,
       "d": "Explore the city with a superhero adventure! Kid Quest combines puzzles, urban exploration and outdoor fun for 4-8 year olds - get your tickets now!"
+    },
+    {
+      "sku": "141678",
+      "n": "Mosque-Cathedral of Cordoba: Guided Tour",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €32",
+      "img": "9a36163c-6776-11ee-bfe3-c2d73af14a4c",
+      "url": "https://feverup.com/m/141678/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141678&u=https%3A%2F%2Ffeverup.com%2Fm%2F141678&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Discover the fascinating history of the Mosque-Cathedral of Cordoba with a guided tour and get your tickets now!"
+    },
+    {
+      "sku": "414022",
+      "n": "Mosque-Cathedral of Córdoba: Entrance with Audioguide",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €23",
+      "img": "919c34f2-720a-11f0-8518-4e4710743b69",
+      "url": "https://feverup.com/m/414022/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=414022&u=https%3A%2F%2Ffeverup.com%2Fm%2F414022&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Discover the Mosque-Cathedral of Cordoba, one of the great treasures of Andalusian art and a symbol of Muslim Spain. Get your tickets now!"
     },
     {
       "sku": "319426",
@@ -688,20 +800,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=92888&u=https%3A%2F%2Ffeverup.com%2Fm%2F92888&intsrc=CATF_15532",
       "feat": 0,
       "d": "Enjoy a sunset cruise and dinner in Malaga! Sail along the coast, watch the sunset and enjoy a delicious Mediterranean dinner - get your tickets now!"
-    },
-    {
-      "sku": "593470",
-      "n": "Tasting and Pairing in Cordoba: 4 Wines + 4 Tapas",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €45",
-      "img": "720c78a8-1724-11f1-9031-1641f266fa20.png",
-      "url": "https://feverup.com/m/593470/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=593470&u=https%3A%2F%2Ffeverup.com%2Fm%2F593470&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Enjoy a wine and food pairing tasting in Cordoba with 4 wines and 4 selected tapas. Buy your ticket now and live a unique experience at VinumPlay."
     },
     {
       "sku": "793055",
@@ -982,6 +1080,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=578708&u=https%3A%2F%2Ffeverup.com%2Fm%2F578708&intsrc=CATF_15532",
       "feat": 0,
       "d": "Museo Picasso Málaga: Entrada + Audioguía in Málaga. Get your tickets on Fever now!"
+    },
+    {
+      "sku": "141680",
+      "n": "Sacromonte Caves Museum",
+      "c": "museums",
+      "cat": "Museum",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €6",
+      "img": "9dd3940e-6776-11ee-bfe3-c2d73af14a4c",
+      "url": "https://feverup.com/m/141680/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141680&u=https%3A%2F%2Ffeverup.com%2Fm%2F141680&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Discover the history of the gypsies in the 18th century and explore the varied geography of Granada. Get your tickets now!"
     },
     {
       "sku": "92951",
@@ -1335,7 +1447,7 @@
     },
     {
       "sku": "813144",
-      "n": "The Jury Experience –  Travesía Mortal",
+      "n": "The Jury Experience – Deadly Crossing",
       "c": "games",
       "cat": "Games",
       "v": "Málaga",
@@ -1345,7 +1457,7 @@
       "url": "https://feverup.com/m/813144/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=813144&u=https%3A%2F%2Ffeverup.com%2Fm%2F813144&intsrc=CATF_15532",
       "feat": 0,
-      "d": "Cuatro amigos en un barco. Uno acaba muerto. ¿Fue un asesinato? Decide el veredicto en este teatro inmersivo en Málaga. ¡Consigue tus entradas!"
+      "d": "The Jury Experience – Deadly Crossing"
     },
     {
       "sku": "542296",
