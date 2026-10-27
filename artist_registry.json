@@ -3056,5 +3056,13 @@
 "https://conciertos.club/malaga/conciertos/128885-raya-real"
 ],
 "genre": "mixed"
+},
+"mamma-mia-la-boda": {
+"name": "Mamma Mia! La Boda",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/web/guest/todos?idEvent=musical-mamma-mia--la-boda"
+],
+"genre": "tribute"
 }
 }
