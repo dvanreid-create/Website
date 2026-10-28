@@ -1675,7 +1675,8 @@
 "name": "Melendi",
 "mles": 70.0,
 "links": [
-"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?viewCode=V_blockmap2d_view"
+"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?viewCode=V_blockmap2d_view",
+"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2681926?viewCode=V_blockmap2d_view"
 ],
 "genre": "pop"
 },
@@ -3210,5 +3211,13 @@
 "https://www.enterticket.es/eventos/concierto-merino-malaga-sala-marte-sabado-26-de-diciembre-574614"
 ],
 "genre": "pop"
+},
+"el-senor-de-los-anillos-en-concierto": {
+"name": "El Señor de los Anillos en concierto",
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fel-senor-de-los-anillos-en-concierto-malaga-fycma-palacio-de-ferias-y-congresos-de-malaga-22324777%2F"
+],
+"genre": "classical"
 }
 }
