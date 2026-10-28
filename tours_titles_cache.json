@@ -11921,16 +11921,16 @@
     }
   },
   "viator:5686544P5": {
-    "h": "2a934035e32b0eaae9d465b66b6b7b87",
+    "h": "1bbe52167c506ccc1a01b94e8ab7e983",
     "names": {
-      "en": "Granada Tropical Coast Almuñecar",
-      "es": "Granada y la costa tropical de Almuñécar",
-      "de": "Granada Tropische Küste Almuñécar",
-      "fr": "Grenade et la Costa Tropical Almuñécar",
-      "sv": "Granadas tropiska kust Almuñecar",
-      "no": "Granada, tropekysten Almuñecar",
-      "da": "Granada tropiske kyst Almuñecar",
-      "fi": "Granada, Tropical Coast, Almuñécar"
+      "en": "Live flamenco show in Almuñécar with drinks included",
+      "es": "Espectáculo de flamenco en vivo en Almuñécar con bebidas incluidas",
+      "de": "Live-Flamenco-Show in Almuñécar inklusive Getränke",
+      "fr": "Spectacle de flamenco en direct à Almuñécar avec boissons incluses",
+      "sv": "Live flamencoshow i Almuñécar med drinkar ingår",
+      "no": "Live flamenco-show i Almuñécar med drikke inkludert",
+      "da": "Flamencoshow med levende musik i Almuñécar inkl. drikkevarer",
+      "fi": "Live-flamenconäytös Almuñécarissa, juomat sisältyvät hintaan"
     }
   },
   "viator:409474P1": {
@@ -19773,16 +19773,16 @@
     }
   },
   "viator:5689628P1": {
-    "h": "b96aa50a225ec828147b3292abecab64",
+    "h": "03363390b67d35872695801a8f74d5a2",
     "names": {
-      "en": "Fuengirola Guided Can Am Ryker 900 Tours",
-      "es": "Tours guiados en Can Am Ryker 900 en Fuengirola",
-      "de": "Geführte Can Am Ryker 900 Touren in Fuengirola",
-      "fr": "Visites guidées en Can Am Ryker 900 à Fuengirola",
-      "sv": "Guidade Can Am Ryker 900-turer i Fuengirola",
-      "no": "Fuengirola guidede Can Am Ryker 900-turer",
-      "da": "Fuengirola guidede Can Am Ryker 900-ture",
-      "fi": "Fuengirolan opastetut Can Am Ryker 900 -kierrokset"
+      "en": "Fuengirola guided Can Am Ryker 900 laps 2h",
+      "es": "Tour guiado de 2h en Can Am Ryker 900 en Fuengirola",
+      "de": "Fuengirola geführte Can-Am-Ryker-900-Runden 2 Std.",
+      "fr": "Fuengirola : tour guidé Can Am Ryker 900, 2 tours 2h",
+      "sv": "Fuengirola guidad Can Am Ryker 900, varv 2 timmar",
+      "no": "Fuengirola guidet Can Am Ryker 900 runder 2t",
+      "da": "Fuengirola guidet Can Am Ryker 900 omgange 2 timer",
+      "fi": "Fuengirola: opastettu Can Am Ryker 900 -kierros 2h"
     }
   },
   "gyg-t987541": {
@@ -22126,16 +22126,16 @@
     }
   },
   "viator:5689628P7": {
-    "h": "e43db562a7026b217291640c3f75fe68",
+    "h": "03559b34c2b0df447dbf1b82a0b2d35b",
     "names": {
-      "en": "Fuengirola guided Can AM Ryker 900 Tour Quicky",
-      "es": "Tour Rapido Guiado en Can AM Ryker 900 por Fuengirola",
-      "de": "Geführte Can-AM-Ryker-900-Kurztour in Fuengirola",
-      "fr": "Tour rapide guidé en Can AM Ryker 900 à Fuengirola",
-      "sv": "Fuengirola Guidad Can AM Ryker 900 Snabbtur",
-      "no": "Fuengirola guidet Can AM Ryker 900 Tur Quicky",
-      "da": "Fuengirola guidet Can AM Ryker 900 Tour Quicky",
-      "fi": "Fuengirola opastettu Can AM Ryker 900 -pikaretki"
+      "en": "Fuengirola guided Can AM Ryker 900 Tour Quicky 1h",
+      "es": "Tour guiado rápido de 1h en Can Am Ryker 900 en Fuengirola",
+      "de": "Fuengirola geführte Can-Am-Ryker-900-Tour Quicky 1 Std.",
+      "fr": "Fuengirola : tour guidé Can Am Ryker 900 Quicky 1h",
+      "sv": "Fuengirola guidad Can AM Ryker 900-tur, snabbtur 1 timme",
+      "no": "Fuengirola guidet Can Am Ryker 900-tur Quicky 1t",
+      "da": "Fuengirola guidet Can Am Ryker 900-tur Quicky 1 time",
+      "fi": "Fuengirola: opastettu Can AM Ryker 900 -pikakierros 1h"
     }
   },
   "708013": {
@@ -23007,6 +23007,45 @@
       "no": "The Duchess privat fisketur på 3 eller 4 timer med lisens og drikke",
       "da": "The Duchess privat fisketur på 3 eller 4 timer med licens og drikkevarer",
       "fi": "The Duchess – yksityinen 3–4 tunnin kalastusretki luvalla ja juomilla"
+    }
+  },
+  "824903": {
+    "h": "304af6956b7a023984c0bab72ae26f87",
+    "names": {
+      "en": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Pa",
+      "es": "Hammam Al-Ándalus, Granada: Baño Árabe + Visita Guiada a la Alhambra y el Palacio Nazarí",
+      "de": "Hammam Al-Andalus, Granada: Arabisches Bad + Geführte Tour durch die Alhambra und den Nasridenpalast",
+      "fr": "Hammam Al-Andalus, Grenade : bain arabe + visite guidée de l'Alhambra et du Palais Nasride",
+      "sv": "Hammam Al-Andalus, Granada: Arabiskt bad + guidad tur av Alhambra och Nasrid-pa",
+      "no": "Hammam Al-Andalus, Granada: Arabisk bad + guidet tur i Alhambra og Nasrid-palassene",
+      "da": "Hammam Al-Andalus, Granada: Arabisk bad + guidet rundvisning i Alhambra og Nasrid-paladserne",
+      "fi": "Hammam Al-Andalus, Granada: arabialainen kylpy + opastettu kierros Alhambraan ja Nasridien pa"
+    }
+  },
+  "viator:5707971P1": {
+    "h": "4f60f3a6f32c37dbf848e6c284bb3551",
+    "names": {
+      "en": "Discover Viña Amaya 3 wines",
+      "es": "Descubre 3 vinos de Viña Amaya",
+      "de": "Entdecken Sie Viña Amaya 3 Weine",
+      "fr": "Découverte de 3 vins de Viña Amaya",
+      "sv": "Upptäck Viña Amaya 3 viner",
+      "no": "Opplev Viña Amaya 3 viner",
+      "da": "Oplev Viña Amaya 3 vine",
+      "fi": "Tutustu Viña Amayan 3 viiniin"
+    }
+  },
+  "viator:412164P171": {
+    "h": "efe9d667ac04689592a952f470810250",
+    "names": {
+      "en": "Private Town and Beach Photoshoot in Torremolinos",
+      "es": "Sesión de fotos privada en el pueblo y la playa de Torremolinos",
+      "de": "Privates Foto-Shooting in Stadt und Strand in Torremolinos",
+      "fr": "Séance photo privée en ville et à la plage à Torremolinos",
+      "sv": "Privat fotosession i staden och på stranden i Torremolinos",
+      "no": "Privat fotoshoot i byen og på stranden i Torremolinos",
+      "da": "Privat fotoshoot i byen og på stranden i Torremolinos",
+      "fi": "Yksityinen kaupunki- ja rantakuvaus Torremolinosissa"
     }
   }
 }

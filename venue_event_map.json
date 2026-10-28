@@ -913,6 +913,13 @@
    "source": "https://teatrodelsoho.com/programacion/?temporada=temporada-2025-2026 + ?temporada=temporada-2026-2027",
    "note": "READ BOTH SEASONS, 16 Jul 2026. The bare /programacion/ page is an ALL-SEASONS archive with no years on the dates ('18 - 19 Jul') - unusable. The ?temporada= filter fixes that: it returns ONE season, and the year is then derivable because a Soho season runs Sep->Jul, so Sep-Dec = the FIRST year of the label and Jan-Aug = the SECOND. Gershwin '18 - 19 Jul' in temporada-2025-2026 = 18-19 Jul 2026. Verified against the live calendar, which carries it on exactly those dates. Soho sells through ECI directly (its own 'Compra de entradas' points at elcorteingles.es/entradas/microsites/teatro-soho/), so eci_aff() wraps these and they earn 1% with no price gate needed - same seller, same price. Only the in/near-window entries are listed; the rest of both seasons is past or months out. IF SOHO ANNOUNCES A NEW SHOW, ADD IT HERE: this venue is 'complete', so an event absent from this list is DELETED as a phantom.",
    "acts": {
+    "concierto de navidad en el soho": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
+     "date": "25/12/2026",
+     "venue_name": "Concierto de Navidad en el Soho (25-27 Dec)",
+     "prefer": "eci",
+     "why": "ADDED 2026-10-28 (Sofia: Soho is one of our biggest Christmas concerts). Fri 25 / Sat 26 / Sun 27 Dec 2026 19:00, Teatro del Soho CaixaBank, ECI (Awin 13034) page elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/, desde 25 EUR. This block is complete:true and did not list it, so phantom_reason() dropped all three nights as 'not on teatro del soho's own programme' (tv_refresh log 2026-10-28). One undated key covers all three nights ('concierto de navidad en el soho' is a whole-word subset of the shipped act name)."
+    },
     "vivaldianno": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
      "date": "15/10/2026",
@@ -3179,6 +3186,18 @@
      "prefer": "map",
      "date": "27/11/2026",
      "why": "PINNED 2026-10-20 (Claude, Sofia's built-in browser). The 20 Oct link check dropped this row (no buy page found). Giglon page read: ADN Protegidas (Pastoral de las Protegidas, ADN Nerja), 27/11/2026 20:00, desde 5,00 EUR, Centro Cultural Villa de Nerja, 27/11, Comprar present. Not commissioned. RETIRE after 2026-11-27."
+    },
+    "clasicos del swing bernaldez swing jazz quintet": {
+     "url": "https://www.tomaticket.es/es-es/entradas-bernaldez-swing-jazz-quintet-100-anos-de-swing-en-malaga",
+     "prefer": "map",
+     "date": "04/12/2026",
+     "why": "AUTO-REPAIRED 2026-10-28 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
+    },
+    "rondalla sierra almijara": {
+     "url": "https://www.mientrada.net/evento/rondalla-sierra-almijara/",
+     "prefer": "map",
+     "date": "26/12/2026",
+     "why": "AUTO-REPAIRED 2026-10-28 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     }
    }
   },

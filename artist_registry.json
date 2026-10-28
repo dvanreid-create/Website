@@ -467,7 +467,6 @@
 "name": "The Children of Queen",
 "mles": 62.6,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/",
 "https://zzpub.es/agenda/"
 ],
 "genre": "rock"
@@ -2437,7 +2436,8 @@
 "mles": 69.4,
 "links": [
 "https://www.giglon.com/evento/encuentro-de-coros-de-la-pena-nerjena"
-]
+],
+"genre": "flamenco"
 },
 "una-noche-en-la-habana": {
 "name": "Una Noche en la Habana",
@@ -3093,7 +3093,7 @@
 "name": "Concierto de Navidad",
 "mles": 0.0,
 "links": [
-"https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-orquesta-neso",
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf",
 "https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-joven-orquesta-de-la-axarquia-jovax"
 ],
 "genre": "classical"
@@ -3102,7 +3102,7 @@
 "name": "Christmas Gala Concert",
 "mles": 0.0,
 "links": [
-"https://www.giglon.com/web/guest/todos?idEvent=christmas-gala-concert-theodoro"
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
 ],
 "genre": "classical"
 },
@@ -3113,5 +3113,93 @@
 "https://www.giglon.com/web/guest/todos?idEvent=el-fantasma-de-la-opera-concierto-a-piano-y-voz-esad-malaga"
 ],
 "genre": "classical"
+},
+"zarzuela-la-tabernera-del-puerto": {
+"name": "Zarzuela: La Tabernera del Puerto",
+"mles": 0.0,
+"links": [
+"https://www.fuengirola.es/evento/zarzuela-la-tabernera-del-puerto/"
+],
+"genre": "classical"
+},
+"clasicos-del-swing": {
+"name": "Clásicos del swing",
+"mles": 0.0,
+"links": [
+"https://www.tomaticket.es/es-es/entradas-bernaldez-swing-jazz-quintet-100-anos-de-swing-en-malaga"
+],
+"genre": "jazz"
+},
+"encuentro-de-coros-de-navidad": {
+"name": "Encuentro de Coros de Navidad",
+"mles": 0.0,
+"links": [
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+],
+"genre": "classical"
+},
+"dia-mundial-del-tango": {
+"name": "Día Mundial del Tango",
+"mles": 0.0,
+"links": [
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+],
+"genre": "mixed"
+},
+"gala-navidena-a-beneficio-del-taller-de-la-amistad": {
+"name": "Gala Navideña a beneficio del Taller de la Amistad",
+"mles": 0.0,
+"links": [
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+],
+"genre": "mixed"
+},
+"noches-de-tango-a-puro-tango": {
+"name": "Noches de Tango: A puro tango",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/evento/a-puro-tango"
+],
+"genre": "mixed"
+},
+"concierto-de-navidad-de-la-banda-de-musica-de-nerja": {
+"name": "Concierto de Navidad de la Banda de Música de Nerja",
+"mles": 0.0,
+"links": [
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+],
+"genre": "classical"
+},
+"intrepida": {
+"name": "Intrépida",
+"mles": 0.0,
+"links": [
+"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+],
+"genre": "flamenco"
+},
+"el-pianista-de-la-mano-izquierda": {
+"name": "El pianista de la mano izquierda",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/evento/pianista-de-la-mano-izquierda"
+],
+"genre": "classical"
+},
+"rondalla-sierra-almijara": {
+"name": "Rondalla Sierra Almijara",
+"mles": 0.0,
+"links": [
+"https://www.mientrada.net/evento/rondalla-sierra-almijara/"
+],
+"genre": "mixed"
+},
+"adn-protegidas": {
+"name": "ADN Protegidas",
+"mles": 0.0,
+"links": [
+"https://www.giglon.com/evento/adn-protegidas"
+],
+"genre": "mixed"
 }
 }

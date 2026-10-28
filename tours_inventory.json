@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-27",
-  "count": 113,
+  "generated": "2026-10-28",
+  "count": 111,
   "items": [
     {
       "sku": "194665",
@@ -522,6 +522,20 @@
       "d": "Individual tickets to visit the Alcazaba of Malaga with art historian guide. Duration: 1 hour approx. Get your tickets now!"
     },
     {
+      "sku": "824903",
+      "n": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Pa",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "81152668-b2bc-4820-af8f-ac7ed33a068e.jpeg",
+      "url": "https://feverup.com/m/824903/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=824903&u=https%3A%2F%2Ffeverup.com%2Fm%2F824903&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Palaces in Málaga. Get your tickets on Fever now!"
+    },
+    {
       "sku": "92941",
       "n": "I play in the streets of Malaga: Magic Portal",
       "c": "tours",
@@ -562,20 +576,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141765&u=https%3A%2F%2Ffeverup.com%2Fm%2F141765&intsrc=CATF_15532",
       "feat": 0,
       "d": "Flamenco Show Kelipé! Experience the passion of flamenco in an intimate show. Free drink, cozy place and unforgettable experience - get your tickets now!"
-    },
-    {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -646,20 +646,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=553173&u=https%3A%2F%2Ffeverup.com%2Fm%2F553173&intsrc=CATF_15532",
       "feat": 0,
       "d": "Explore the city with a superhero adventure! Kid Quest combines puzzles, urban exploration and outdoor fun for 4-8 year olds - get your tickets now!"
-    },
-    {
-      "sku": "141678",
-      "n": "Mosque-Cathedral of Cordoba: Guided Tour",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €32",
-      "img": "9a36163c-6776-11ee-bfe3-c2d73af14a4c",
-      "url": "https://feverup.com/m/141678/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141678&u=https%3A%2F%2Ffeverup.com%2Fm%2F141678&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Discover the fascinating history of the Mosque-Cathedral of Cordoba with a guided tour and get your tickets now!"
     },
     {
       "sku": "414022",
@@ -898,20 +884,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=326636&u=https%3A%2F%2Ffeverup.com%2Fm%2F326636&intsrc=CATF_15532",
       "feat": 0,
       "d": "Forget candlelight dinners and classic dates: this treasure hunt offers you a unique experience full of adventure and excitement. Get your tickets now!"
-    },
-    {
-      "sku": "141796",
-      "n": "Aqualand Torremolinos: Tickets",
-      "c": "family",
-      "cat": "Family",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €17",
-      "img": "eacd957e-677c-11ee-95ff-d6a9f1426772",
-      "url": "https://feverup.com/m/141796/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141796&u=https%3A%2F%2Ffeverup.com%2Fm%2F141796&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Dive into aquatic fun at Aqualand Torremolinos! Thrilling slides, calm pools and lots of adrenaline - get your tickets now!"
     },
     {
       "sku": "141791",
@@ -1438,7 +1410,7 @@
       "cat": "Games",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €20",
+      "p": "From €16",
       "img": "8d859624-90e0-11f1-a9d4-a233f6906938.jpg",
       "url": "https://feverup.com/m/459773/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=459773&u=https%3A%2F%2Ffeverup.com%2Fm%2F459773&intsrc=CATF_15532",
