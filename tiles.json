@@ -1,6 +1,44 @@
 {
  "ads": [
   {
+   "photo": "/assets/tiles/ext-fad70251cb0ed1b0.jpg",
+   "tint": "rgba(232,102,42,.42)",
+   "expires": "2026-12-09",
+   "credit": null,
+   "tag": {
+    "en": "★ Top pick this week",
+    "es": "★ Top de la semana",
+    "de": "★ Top-Tipp der Woche",
+    "fr": "★ Coup de cœur",
+    "sv": "★ Veckans tips",
+    "no": "★ Ukens tips",
+    "da": "★ Ugens tip",
+    "fi": "★ Viikon valinta"
+   },
+   "head": "Tomatito",
+   "sub": {
+    "en": "Wed 9 Dec · Teatro Cervantes",
+    "es": "Mié 9 dic · Teatro Cervantes",
+    "de": "Mi 9 Dez · Teatro Cervantes",
+    "fr": "mer. 9 déc. · Teatro Cervantes",
+    "sv": "ons 9 dec · Teatro Cervantes",
+    "no": "ons 9 des · Teatro Cervantes",
+    "da": "ons 9 dec · Teatro Cervantes",
+    "fi": "ke 9 jouluk. · Teatro Cervantes"
+   },
+   "url": "https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas",
+   "cta": {
+    "en": "Tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
    "logo": "/assets/tiles/ext-0b8921299b981691.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
