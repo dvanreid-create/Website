@@ -3219,5 +3219,69 @@
 "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fel-senor-de-los-anillos-en-concierto-malaga-fycma-palacio-de-ferias-y-congresos-de-malaga-22324777%2F"
 ],
 "genre": "classical"
+},
+"mario-biondi": {
+"name": "Mario Biondi",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/mario-biondi/26-27BiondiMa"
+],
+"genre": "jazz"
+},
+"nate-smith": {
+"name": "Nate Smith",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/nate-smith/26-27SmithNa"
+],
+"genre": "jazz"
+},
+"alfa-mist": {
+"name": "Alfa Mist",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/alfa-mist/26-27MistAl"
+],
+"genre": "jazz"
+},
+"kurt-rosenwinkel": {
+"name": "Kurt Rosenwinkel",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/kurt-rosenwinkel/26-27Rosenwinkel"
+],
+"genre": "jazz"
+},
+"james-carter-organ-trio": {
+"name": "James Carter Organ Trio",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/the-james-carter-organ-trio/26-27CarterJaTri"
+],
+"genre": "jazz"
+},
+"kenny-barron": {
+"name": "Kenny Barron",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/kenny-barron-songbook-featuring-ekep-nkwelle/26-27BarronKe"
+],
+"genre": "jazz"
+},
+"kurt-elling": {
+"name": "Kurt Elling",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/kurt-elling-yellowjackets/26-27EllingKu"
+],
+"genre": "jazz"
+},
+"michel-camilo": {
+"name": "Michel Camilo",
+"mles": 58.4,
+"links": [
+"https://www.unientradas.es/es/espectaculo/michel-camilo-trio/26-27CamiloMiTr"
+],
+"genre": "jazz"
 }
 }
