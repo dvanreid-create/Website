@@ -3193,6 +3193,12 @@
      "date": "21/11/2026",
      "why": "ADDED 2026-10-28 (Claude, built-in browser): Giglon page read - Sat 21/11/2026 20:00, Centro Cultural Villa de Nerja, desde 20 EUR, Comprar live. Replaces the poster-PDF link on the Nerja town-hall row."
     },
+    "las nanas segun lorca": {
+     "url": "https://www.giglon.com/evento/las-nanas-segun-lorca",
+     "prefer": "map",
+     "date": "07/11/2026",
+     "why": "ADDED 2026-10-28 (Claude, Giglon in the built-in browser): Sat 7 Nov 20:00, Centro Cultural Villa de Nerja, conferencia cantada (Cia. Ultramarinos de Lucas), Giglon price 0,00 = free entry/reservation. Replaces the poster-PDF link."
+    },
     "duo ballix": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
