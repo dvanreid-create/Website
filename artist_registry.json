@@ -1396,7 +1396,7 @@
 },
 "de-cadiz-a-buenos-aires": {
 "name": "De Cádiz a Buenos Aires",
-"mles": 58.1,
+"mles": 55.2,
 "links": [
 "https://entradas.fuengirola.es/selection/event/date?productId=10229945919564"
 ],
@@ -2364,7 +2364,7 @@
 },
 "duo-ballix": {
 "name": "Dúo Ballix",
-"mles": 53.3,
+"mles": 50.7,
 "links": [
 "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano"
 ],
@@ -3091,7 +3091,7 @@
 },
 "concierto-de-navidad": {
 "name": "Concierto de Navidad",
-"mles": 0.0,
+"mles": 58.1,
 "links": [
 "https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-orquesta-neso",
 "https://www.giglon.com/web/guest/todos?idEvent=concierto-de-navidad-joven-orquesta-de-la-axarquia-jovax"
@@ -3100,7 +3100,7 @@
 },
 "christmas-gala-concert": {
 "name": "Christmas Gala Concert",
-"mles": 0.0,
+"mles": 56.9,
 "links": [
 "https://www.giglon.com/web/guest/todos?idEvent=christmas-gala-concert-theodoro"
 ],
@@ -3116,7 +3116,7 @@
 },
 "zarzuela-la-tabernera-del-puerto": {
 "name": "Zarzuela: La Tabernera del Puerto",
-"mles": 0.0,
+"mles": 53.1,
 "links": [
 "https://www.fuengirola.es/evento/zarzuela-la-tabernera-del-puerto/"
 ],
@@ -3132,7 +3132,7 @@
 },
 "encuentro-de-coros-de-navidad": {
 "name": "Encuentro de Coros de Navidad",
-"mles": 0.0,
+"mles": 56.9,
 "links": [
 "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
 ],
@@ -3140,7 +3140,7 @@
 },
 "dia-mundial-del-tango": {
 "name": "Día Mundial del Tango",
-"mles": 0.0,
+"mles": 53.9,
 "links": [
 "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
 ],
@@ -3156,7 +3156,7 @@
 },
 "noches-de-tango-a-puro-tango": {
 "name": "Noches de Tango: A puro tango",
-"mles": 0.0,
+"mles": 53.3,
 "links": [
 "https://www.giglon.com/evento/a-puro-tango"
 ],
@@ -3172,15 +3172,15 @@
 },
 "intrepida": {
 "name": "Intrépida",
-"mles": 0.0,
+"mles": 66.1,
 "links": [
-"https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf"
+"https://www.giglon.com/evento/rocio-bazan-intrepida"
 ],
 "genre": "flamenco"
 },
 "el-pianista-de-la-mano-izquierda": {
 "name": "El pianista de la mano izquierda",
-"mles": 0.0,
+"mles": 57.4,
 "links": [
 "https://www.giglon.com/evento/pianista-de-la-mano-izquierda"
 ],
@@ -3188,7 +3188,7 @@
 },
 "rondalla-sierra-almijara": {
 "name": "Rondalla Sierra Almijara",
-"mles": 0.0,
+"mles": 53.9,
 "links": [
 "https://www.mientrada.net/evento/rondalla-sierra-almijara/"
 ],
@@ -3196,7 +3196,7 @@
 },
 "adn-protegidas": {
 "name": "ADN Protegidas",
-"mles": 0.0,
+"mles": 54.9,
 "links": [
 "https://www.giglon.com/evento/adn-protegidas"
 ],

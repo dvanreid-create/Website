@@ -3187,6 +3187,12 @@
      "date": "27/11/2026",
      "why": "PINNED 2026-10-20 (Claude, Sofia's built-in browser). The 20 Oct link check dropped this row (no buy page found). Giglon page read: ADN Protegidas (Pastoral de las Protegidas, ADN Nerja), 27/11/2026 20:00, desde 5,00 EUR, Centro Cultural Villa de Nerja, 27/11, Comprar present. Not commissioned. RETIRE after 2026-11-27."
     },
+    "rocio bazan intrepida": {
+     "url": "https://www.giglon.com/evento/rocio-bazan-intrepida",
+     "prefer": "map",
+     "date": "21/11/2026",
+     "why": "ADDED 2026-10-28 (Claude, built-in browser): Giglon page read - Sat 21/11/2026 20:00, Centro Cultural Villa de Nerja, desde 20 EUR, Comprar live. Replaces the poster-PDF link on the Nerja town-hall row."
+    },
     "duo ballix": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
