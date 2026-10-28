@@ -3201,5 +3201,13 @@
 "https://www.giglon.com/evento/adn-protegidas"
 ],
 "genre": "mixed"
+},
+"merino": {
+"name": "Merino",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/concierto-merino-malaga-sala-marte-sabado-26-de-diciembre-574614"
+],
+"genre": "pop"
 }
 }
