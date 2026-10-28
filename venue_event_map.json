@@ -3199,6 +3199,12 @@
      "date": "07/11/2026",
      "why": "ADDED 2026-10-28 (Claude, Giglon in the built-in browser): Sat 7 Nov 20:00, Centro Cultural Villa de Nerja, conferencia cantada (Cia. Ultramarinos de Lucas), Giglon price 0,00 = free entry/reservation. Replaces the poster-PDF link."
     },
+    "dia mundial del tango": {
+     "url": "https://www.giglon.com/evento/dia-mundial-del-tango-la-portena",
+     "prefer": "map",
+     "date": "11/12/2026",
+     "why": "ADDED 2026-10-28 (Sofia sent the Giglon page screenshot): Dia Mundial del Tango. La Porteña, Fri 11/12/2026 20:00, Centro Cultural Villa de Nerja, Entradas disponibles, Comprar live. Giglon shows desde 250,00 but the town-hall season PDF (Sofia, 2026-10-28) prints 25 EUR for this night (Viernes 11, 20:00 h, Musica y danza, 25 EUR), so 250 is almost certainly a typo for 25. NO price is stored here (sources disagree): link override only. Replaces the poster-PDF link."
+    },
     "duo ballix": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
