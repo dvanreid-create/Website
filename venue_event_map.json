@@ -3199,6 +3199,12 @@
      "date": "07/11/2026",
      "why": "ADDED 2026-10-28 (Claude, Giglon in the built-in browser): Sat 7 Nov 20:00, Centro Cultural Villa de Nerja, conferencia cantada (Cia. Ultramarinos de Lucas), Giglon price 0,00 = free entry/reservation. Replaces the poster-PDF link."
     },
+    "clasicos del swing": {
+     "url": "https://www.giglon.com/evento/clasicos-del-swing-bernaldez-swing-jazz-quintet",
+     "prefer": "map",
+     "date": "04/12/2026",
+     "why": "2026-10-29 browser-verified: Giglon page Centro Cultural Villa de Nerja, 04/12/2026 20:00, desde 15,00 EUR, Comprar live. The site previously linked tomaticket.es 100-anos-de-swing page, which is NOT buyable (Varias Fechas, no dates, Avisame primero)."
+    },
     "dia mundial del tango": {
      "url": "https://www.giglon.com/evento/dia-mundial-del-tango-la-portena",
      "prefer": "map",
