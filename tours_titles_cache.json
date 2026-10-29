@@ -234,16 +234,16 @@
     }
   },
   "viator:105902P18": {
-    "h": "54124ce6924b00f514535007f1b0544e",
+    "h": "8ef0a24f7f702bd06295f292c5dc6828",
     "names": {
-      "en": "Discover Granada : Alhambra Tour or Free Time from Malaga",
-      "es": "Descubre Granada: Tour de la Alhambra o Tiempo Libre desde Malaga",
-      "de": "Granada entdecken: Alhambra-Tour oder Freizeit ab Malaga",
-      "fr": "Découvrez Granada : visite de l'Alhambra ou temps libre depuis Malaga",
-      "sv": "Upptäck Granada: Alhambra-tur eller fri tid från Malaga",
-      "no": "Oppdag Granada: Alhambra-tur eller fritid fra Malaga",
-      "da": "Oplev Granada: Alhambra-tur eller fritid fra Malaga",
-      "fi": "Tutustu Granadaan: Alhambra-retki tai vapaa-aika Malagasta"
+      "en": "Discover Granada: Visit the Alhambra or Free Time from Málaga",
+      "es": "Descubre Granada: Visita a la Alhambra o Tiempo Libre desde Málaga",
+      "de": "Entdecke Granada: Besuch der Alhambra oder Freizeit ab Málaga",
+      "fr": "Découvrez Grenade : Visitez l'Alhambra ou temps libre depuis Málaga",
+      "sv": "Upptäck Granada: Besök Alhambra eller fri tid från Málaga",
+      "no": "Opplev Granada: Besøk Alhambra eller fri tid fra Málaga",
+      "da": "Oplev Granada: Besøg Alhambra eller fritid fra Málaga",
+      "fi": "Tutustu Granadaan: Vieraile Alhambrassa tai vapaa-aikaa Malagasta"
     }
   },
   "viator:111795P3": {
@@ -5954,16 +5954,16 @@
     }
   },
   "viator:472902P5": {
-    "h": "cf25096e1f13719edf216914cce96926",
+    "h": "07da1d31a5c3d1582fe300ea762d1ad8",
     "names": {
-      "en": "Malaga Highlights Guided Bike or E-Bike Tour with Local Guide",
-      "es": "Tour guiado en bicicleta o e-bike por lo más destacado de Malaga con guía local",
-      "de": "Geführte Fahrrad- oder E-Bike-Tour zu den Highlights von Malaga mit lokalem Guide",
-      "fr": "Visite guidée des incontournables de Malaga à vélo ou e-bike avec guide local",
-      "sv": "Guidad cykel- eller elcykeltur bland Malagas höjdpunkter med lokal guide",
-      "no": "Guidet sykkel- eller el-sykkeltur til Malagas høydepunkter med lokal guide",
-      "da": "Guidet cykel- eller el-cykeltur til Malagas højdepunkter med lokal guide",
-      "fi": "Malagan kohokohdat: opastettu pyörä- tai sähköpyöräkierros paikallisoppaan kanssa"
+      "en": "Malaga Bike or E-Bike Tour: Highlights & Coastal Views",
+      "es": "Tour en Bicicleta o E-Bike por Málaga: Lugares Destacados y Vistas Costeras",
+      "de": "Malaga Fahrrad- oder E-Bike-Tour: Highlights & Küstenblicke",
+      "fr": "Visite de Málaga à vélo ou vélo électrique : points forts et vues côtières",
+      "sv": "Cykel- eller elcykeltur i Malaga: Höjdpunkter och kustutsikt",
+      "no": "Malaga sykkel- eller el-sykkeltur: høydepunkter og kystutsikt",
+      "da": "Malaga cykel- eller el-cykeltur: Højdepunkter & kystudsigter",
+      "fi": "Malagan pyörä- tai sähköpyöräretki: Kohokohdat ja rannikkonäkymät"
     }
   },
   "viator:37094P78": {
@@ -19708,16 +19708,16 @@
     }
   },
   "viator:189147P32": {
-    "h": "4d6ec018d244fae524ede01c25869d66",
+    "h": "645f1094915baf8b872bd4aa3d175bd7",
     "names": {
-      "en": "Candles and Cocktails in Marbella",
-      "es": "Velas y cócteles en Marbella",
-      "de": "Kerzen und Cocktails in Marbella",
-      "fr": "Bougies et cocktails à Marbella",
-      "sv": "Ljus och cocktails i Marbella",
-      "no": "Lys og cocktailer i Marbella",
-      "da": "Stearinlys og cocktails i Marbella",
-      "fi": "Kynttilät ja cocktailit Marbellassa"
+      "en": "Candles and Cava in Marbella",
+      "es": "Velas y Cava en Marbella",
+      "de": "Kerzen und Cava in Marbella",
+      "fr": "Bougies et cava à Marbella",
+      "sv": "Ljus och cava i Marbella",
+      "no": "Lys og cava i Marbella",
+      "da": "Stearinlys og cava i Marbella",
+      "fi": "Kynttilät ja cava Marbellassa"
     }
   },
   "viator:5686150P238": {
@@ -23046,6 +23046,58 @@
       "no": "Privat fotoshoot i byen og på stranden i Torremolinos",
       "da": "Privat fotoshoot i byen og på stranden i Torremolinos",
       "fi": "Yksityinen kaupunki- ja rantakuvaus Torremolinosissa"
+    }
+  },
+  "819035": {
+    "h": "5b705edab92ad8af8761460544dc25dd",
+    "names": {
+      "en": "Bichota Halloween Tickets - Altare Teatinos in ALTARE TEATINOS, Málaga",
+      "es": "Entradas Bichota Halloween - Altare Teatinos en ALTARE TEATINOS, Málaga",
+      "de": "Bichota Halloween Tickets - Altare Teatinos in ALTARE TEATINOS, Málaga",
+      "fr": "Billets Bichota Halloween - Altare Teatinos à ALTARE TEATINOS, Málaga",
+      "sv": "Bichota Halloween-biljetter - Altare Teatinos i ALTARE TEATINOS, Málaga",
+      "no": "Bichota Halloween-billetter - Altare Teatinos i ALTARE TEATINOS, Málaga",
+      "da": "Bichota Halloween-billetter - Altare Teatinos i ALTARE TEATINOS, Málaga",
+      "fi": "Bichota Halloween -liput - Altare Teatinos, Malaga"
+    }
+  },
+  "826769": {
+    "h": "d9fe26e011a833c9791a870745abaef1",
+    "names": {
+      "en": "Automobile and Fashion Museum: Entrada (Málaga) Tickets",
+      "es": "Museo del Automóvil y la Moda: Entrada (Málaga) Tickets",
+      "de": "Automobil- und Modemuseum: Eintrittskarten (Málaga)",
+      "fr": "Musée de l'Automobile et de la Mode : Billets d'entrée (Málaga)",
+      "sv": "Bil- och modemuseum: Inträde (Málaga) Biljetter",
+      "no": "Automobil- og modemuseum: Inngangsbillett (Málaga)",
+      "da": "Automobil- og Modemuseum: Entrébillet (Málaga)",
+      "fi": "Automobile and Fashion -museo: Pääsylippu (Malaga)"
+    }
+  },
+  "826866": {
+    "h": "062290f16dbfa3d27ee814756a020dcd",
+    "names": {
+      "en": "Picasso",
+      "es": "Picasso",
+      "de": "Picasso",
+      "fr": "Picasso",
+      "sv": "Picasso",
+      "no": "Picasso",
+      "da": "Picasso",
+      "fi": "Picasso"
+    }
+  },
+  "826869": {
+    "h": "062290f16dbfa3d27ee814756a020dcd",
+    "names": {
+      "en": "Picasso",
+      "es": "Picasso",
+      "de": "Picasso",
+      "fr": "Picasso",
+      "sv": "Picasso",
+      "no": "Picasso",
+      "da": "Picasso",
+      "fi": "Picasso"
     }
   }
 }
