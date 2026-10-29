@@ -572,7 +572,6 @@
 "name": "Funkonauts",
 "mles": 54.2,
 "links": [
-"https://zzpub.es/conciertos-en-malaga-octubre-2026/",
 "https://zzpub.es/agenda/"
 ],
 "genre": "jazz"
@@ -2573,7 +2572,6 @@
 "name": "Madama Butterfly",
 "mles": 0.0,
 "links": [
-"https://www.giglon.com/todos?idEvent=madama-butterfly-estepona",
 "https://www.giglon.com/evento/madama-butterfly-opera-nacional-de-moldavia"
 ],
 "genre": "classical"
@@ -3281,6 +3279,97 @@
 "mles": 58.4,
 "links": [
 "https://www.unientradas.es/es/espectaculo/michel-camilo-trio/26-27CamiloMiTr"
+],
+"genre": "jazz"
+},
+"bichota-for-halloween": {
+"name": "Bichota for Halloween",
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=819035&u=https%3A%2F%2Ffeverup.com%2Fm%2F819035&intsrc=CATF_15532"
+],
+"genre": "mixed"
+},
+"richard-ray-farrell-trio": {
+"name": "Richard Ray Farrell Trío",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/richard-ray-farrell-trio-3/"
+],
+"genre": "jazz"
+},
+"armin-jambor-quartet": {
+"name": "Armin Jambor Quartet",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/armin-jambor-quartet/"
+],
+"genre": "jazz"
+},
+"live-nights-session": {
+"name": "Live Nights Session",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/live-nights-session/",
+"https://www.clarencejazzclub.com/wp/events/live-nights-session-2/",
+"https://www.clarencejazzclub.com/wp/events/live-nights-session-3/",
+"https://www.clarencejazzclub.com/wp/events/live-nights-session-4/"
+],
+"genre": "jazz"
+},
+"jumaane-smith-quartet": {
+"name": "Jumaane Smith Quartet",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/jumaane-smith-quartet/"
+],
+"genre": "jazz"
+},
+"lorenzo-bellini-quartet": {
+"name": "Lorenzo Bellini Quartet",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/lorenzo-bellini-quartet/"
+],
+"genre": "jazz"
+},
+"o-sister": {
+"name": "O Sister!",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/o-sister/"
+],
+"genre": "jazz"
+},
+"songah-chae-trio": {
+"name": "SongAh Chae Trio",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/songah-chae-trio-2/"
+],
+"genre": "jazz"
+},
+"carl-winther-trio-with-tommy-smith": {
+"name": "Carl Winther Trio with Tommy Smith",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/carl-winther-trio-with-tommy-smith/"
+],
+"genre": "jazz"
+},
+"victor-samsa-quintet": {
+"name": "Víctor Samsa Quintet",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/victor-samsa-quintet/"
+],
+"genre": "jazz"
+},
+"jose-carra-trio": {
+"name": "Jose Carra TrÍo",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/jose-carra-trio/"
 ],
 "genre": "jazz"
 }
