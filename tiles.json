@@ -1537,6 +1537,86 @@
    "credit": null
   },
   {
+   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay vs. Ed Sheeran",
+   "headBottom": true,
+   "expires": "2026-12-19",
+   "sub": {
+    "en": "Sat 19 Dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "es": "Sáb 19 dic · Salón Linares Anantara Villa Padierna · Marbella",
+    "de": "Sa 19 Dez · Salón Linares Anantara Villa Padierna · Marbella",
+    "fr": "sam. 19 déc. · Salón Linares Anantara Villa Padierna · Marbella",
+    "sv": "lör 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "no": "lør 19 des · Salón Linares Anantara Villa Padierna · Marbella",
+    "da": "lør 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "fi": "la 19 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677230&u=https%3A%2F%2Ffeverup.com%2Fm%2F677230&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 12%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Michael Jackson",
+   "headBottom": true,
+   "expires": "2026-12-19",
+   "sub": {
+    "en": "Sat 19 Dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "es": "Sáb 19 dic · Salón Linares Anantara Villa Padierna · Marbella",
+    "de": "Sa 19 Dez · Salón Linares Anantara Villa Padierna · Marbella",
+    "fr": "sam. 19 déc. · Salón Linares Anantara Villa Padierna · Marbella",
+    "sv": "lör 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "no": "lør 19 des · Salón Linares Anantara Villa Padierna · Marbella",
+    "da": "lør 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "fi": "la 19 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677233&u=https%3A%2F%2Ffeverup.com%2Fm%2F677233&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
+  },
+  {
    "photo": "/assets/tiles/ext-93a8727ea1ccba47.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -1615,6 +1695,46 @@
     "fi": "Liput →"
    },
    "credit": "Photo: Raph_PH · CC BY 2.0"
+  },
+  {
+   "photo": "/assets/tiles/ext-418985cb0f2a82b4.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Christmas: Christmas Classics",
+   "headBottom": true,
+   "expires": "2026-12-20",
+   "sub": {
+    "en": "Sun 20 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Dom 20 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "So 20 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "dim. 20 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "sön 20 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "søn 20 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "søn 20 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "su 20 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=249844&u=https%3A%2F%2Ffeverup.com%2Fm%2F249844&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
   },
   {
    "photo": "/assets/tiles/ext-1cc136c059dcc034.jpg",
@@ -1817,6 +1937,86 @@
    "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
   },
   {
+   "photo": "/assets/tiles/ext-9038e3d47275175b.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Christmas: Christmas Soundtracks/Zones",
+   "headBottom": true,
+   "expires": "2026-12-26",
+   "sub": {
+    "en": "Sat 26 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Sáb 26 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Sa 26 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "sam. 26 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "lör 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "lør 26 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "lør 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "la 26 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=142331&u=https%3A%2F%2Ffeverup.com%2Fm%2F142331&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 18%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Mecano",
+   "headBottom": true,
+   "expires": "2026-12-26",
+   "sub": {
+    "en": "Sat 26 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Sáb 26 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Sa 26 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "sam. 26 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "lör 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "lør 26 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "lør 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "la 26 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677231&u=https%3A%2F%2Ffeverup.com%2Fm%2F677231&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
    "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
@@ -1935,6 +2135,46 @@
     "fi": "Liput →"
    },
    "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 12%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Michael Jackson",
+   "headBottom": true,
+   "expires": "2026-12-27",
+   "sub": {
+    "en": "Sun 27 Dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "es": "Dom 27 dic · Salón Linares Anantara Villa Padierna · Marbella",
+    "de": "So 27 Dez · Salón Linares Anantara Villa Padierna · Marbella",
+    "fr": "dim. 27 déc. · Salón Linares Anantara Villa Padierna · Marbella",
+    "sv": "sön 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "no": "søn 27 des · Salón Linares Anantara Villa Padierna · Marbella",
+    "da": "søn 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
+    "fi": "su 27 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677233&u=https%3A%2F%2Ffeverup.com%2Fm%2F677233&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
   }
  ],
  "info": [

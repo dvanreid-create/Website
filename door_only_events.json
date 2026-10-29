@@ -1,0 +1,8 @@
+{
+ "_comment": "DOOR-ONLY SHOWS (DLR 2026-10-29). Paid events that sell ONLY at the venue's box office - no online seller exists, so the ticket-link check would drop them forever. Listed here they (1) stay on the site, (2) stay PAID (never 'free'), (3) read 'Check venue' and link to info_url (the venue's own programme page), (4) are skipped by verify_ticket_links.py and never removed by ticket_link_drops. Fields: match = act-name substring (accent/case-insensitive); venue = venue-name substring (REQUIRED in practice, so the same act name in another town is untouched); date = YYYY-MM-DD or empty for every date; info_url; why. REMOVE an entry the day a real online seller lists the show (then stamp it in verified_ticket_links.json). Entries are matched by name, so keep them specific.",
+ "events": [
+  {"match": "coros de navidad", "venue": "villa de nerja", "date": "2026-12-08", "info_url": "https://cultura.nerja.es/", "why": "Centro Cultural Villa de Nerja Oct-Dec poster: 8 Dec 12:00, 5 EUR at the box office. Not on Giglon (sala page checked 2026-10-29)."},
+  {"match": "gala navide", "venue": "villa de nerja", "date": "2026-12-18", "info_url": "https://cultura.nerja.es/", "why": "Poster: 18 Dec 20:00, 5 EUR. Not on Giglon 2026-10-29."},
+  {"match": "banda de musica", "venue": "villa de nerja", "date": "2026-12-19", "info_url": "https://cultura.nerja.es/", "why": "Poster: 19 Dec 20:00, 5 EUR. Not on Giglon 2026-10-29."}
+ ]
+}
