@@ -1,9 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-10-29",
- "drops": {
-  "Encuentro de Coros de Navidad": "CANNOT_FIX — no verifiable buy page (no live buy page found) [was WRONG_EVENT: page '' has none of ['encuentro', 'coros', 'navidad'] -> https://cultura.nerja.es",
-  "Gala Navideña a beneficio del Taller de la Amistad": "CANNOT_FIX — no verifiable buy page (no live buy page found) [was WRONG_EVENT: page '' has none of ['gala', 'navidena', 'beneficio'] -> https://cultura.nerja.es",
-  "Concierto de Navidad de la Banda de Música de Nerja": "CANNOT_FIX — no verifiable buy page (no live buy page found) [was WRONG_EVENT: page '' has none of ['concierto', 'navidad', 'banda'] -> https://cultura.nerja.es"
- }
+ "generated": "2026-10-30",
+ "drops": {}
 }
