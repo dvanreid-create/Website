@@ -3205,6 +3205,12 @@
      "date": "04/12/2026",
      "why": "2026-10-29 browser-verified: Giglon page Centro Cultural Villa de Nerja, 04/12/2026 20:00, desde 15,00 EUR, Comprar live. The site previously linked tomaticket.es 100-anos-de-swing page, which is NOT buyable (Varias Fechas, no dates, Avisame primero)."
     },
+    "clasicos del swing bernaldez swing jazz quintet": {
+     "url": "https://www.giglon.com/evento/clasicos-del-swing-bernaldez-swing-jazz-quintet",
+     "prefer": "map",
+     "date": "04/12/2026",
+     "why": "2026-10-30: EXACT normalised act name as the site spells it (the short key above lost: the box auto-repair pin is keyed by the full name, and _venue_lookup prefers the exact key, so tomaticket 100-anos-de-swing kept winning). The repo wins over any AUTO-REPAIRED pin on the same key (auto_repair_keep.py). Giglon page browser-verified 2026-10-29 by Claude and Sofia: 04/12/2026 20:00, desde 15,00 EUR, Comprar live."
+    },
     "dia mundial del tango": {
      "url": "https://www.giglon.com/evento/dia-mundial-del-tango-la-portena",
      "prefer": "map",
@@ -3228,12 +3234,6 @@
      "prefer": "map",
      "date": "17/12/2026",
      "why": "ADDED 2026-10-28: Giglon sells it (stamped 27 Oct). Stops the Nerja town-hall row shadowing the Giglon link."
-    },
-    "clasicos del swing bernaldez swing jazz quintet": {
-     "url": "https://www.tomaticket.es/es-es/entradas-bernaldez-swing-jazz-quintet-100-anos-de-swing-en-malaga",
-     "prefer": "map",
-     "date": "04/12/2026",
-     "why": "AUTO-REPAIRED 2026-10-28 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     },
     "rondalla sierra almijara": {
      "url": "https://www.mientrada.net/evento/rondalla-sierra-almijara/",
