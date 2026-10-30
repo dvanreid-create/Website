@@ -897,6 +897,86 @@
    "credit": null
   },
   {
+   "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Ludovico Einaudi",
+   "headBottom": true,
+   "expires": "2026-11-27",
+   "sub": {
+    "en": "Fri 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Vie 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Fr 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "ven. 27 nov. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "pe 27 marrask. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=139025&u=https%3A%2F%2Ffeverup.com%2Fm%2F139025&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 12%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Michael Jackson",
+   "headBottom": true,
+   "expires": "2026-11-27",
+   "sub": {
+    "en": "Fri 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
+    "es": "Vie 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "de": "Fr 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
+    "fr": "ven. 27 nov. · Unicaja Concert Hall María Cristina · Málaga",
+    "sv": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "no": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "da": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
+    "fi": "pe 27 marrask. · Unicaja Concert Hall María Cristina · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701012&u=https%3A%2F%2Ffeverup.com%2Fm%2F701012&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
+  },
+  {
    "photo": "/assets/tiles/ext-8b98fd83f2cf7258.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 10%",
