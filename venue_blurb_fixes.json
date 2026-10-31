@@ -81,7 +81,13 @@
     ["\\bkostenlos(e[srnm]?)?\\s+", ""],
     ["\\s+gratuite?s?\\b", ""],
     ["\\bilmai(nen|sta|sia|set|sen|s)\\w*\\s+", ""],
-    ["\\s+ilmai(nen|sta|sia|set|sen|s)\\w*\\b", ""]
+    ["\\s+ilmai(nen|sta|sia|set|sen|s)\\w*\\b", ""],
+
+    ["(?<=ZZ PUB),\\s*an? [^,.]*?(costs? nothing|is free|free to enjoy)[^,.]*", ""],
+    ["(?<=ZZ PUB),\\s*una noche de [^,.]*?que no cuesta nada[^,.]*", ""],
+    ["(?<=ZZ PUB),\\s*une soirée [^,.]*?qui ne coûte rien", ""],
+    ["(?<=ZZ PUB),\\s*en [^.]*?(utan kostnad|ikke koster noe|ikke koster noget)[^.]*?(?=\\.)", ""],
+    ["(?<=ZZ PUBissa),\\s*[^.]*?johon ei tarvita lippua", ""]
    ]
   }
  ]
