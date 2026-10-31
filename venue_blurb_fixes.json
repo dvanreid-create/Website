@@ -87,7 +87,8 @@
     ["(?<=ZZ PUB),\\s*una noche de [^,.]*?que no cuesta nada[^,.]*", ""],
     ["(?<=ZZ PUB),\\s*une soirée [^,.]*?qui ne coûte rien", ""],
     ["(?<=ZZ PUB),\\s*en [^.]*?(utan kostnad|ikke koster noe|ikke koster noget)[^.]*?(?=\\.)", ""],
-    ["(?<=ZZ PUBissa),\\s*[^.]*?johon ei tarvita lippua", ""]
+    ["(?<=ZZ PUBissa),\\s*[^.]*?johon ei tarvita lippua", ""],
+    ["(?<=ZZ PUB),\\s*ein[^,.]*,\\s*der nichts kostet", ""]
    ]
   }
  ]
