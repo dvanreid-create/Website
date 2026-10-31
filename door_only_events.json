@@ -3,6 +3,9 @@
  "events": [
   {"match": "coros de navidad", "venue": "villa de nerja", "date": "2026-12-08", "info_url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf", "why": "Centro Cultural Villa de Nerja Oct-Dec poster: 8 Dec 12:00, 5 EUR at the box office. Not on Giglon (sala page checked 2026-10-29)."},
   {"match": "gala navide", "venue": "villa de nerja", "date": "2026-12-18", "info_url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf", "why": "Poster: 18 Dec 20:00, 5 EUR. Not on Giglon 2026-10-29."},
-  {"match": "banda de musica", "venue": "villa de nerja", "date": "2026-12-19", "info_url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf", "why": "Poster: 19 Dec 20:00, 5 EUR. Not on Giglon 2026-10-29."}
+  {"match": "banda de musica", "venue": "villa de nerja", "date": "2026-12-19", "info_url": "https://cultura.nerja.es/wp-content/uploads/2026/10/cartel-oct-dic-2026-ccvn-3.pdf", "why": "Poster: 19 Dec 20:00, 5 EUR. Not on Giglon 2026-10-29."},
+  {"match": "soul brothers duo", "venue": "cazbah", "date": "", "info_url": "https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge", "why": "The Cazbah Live Lounge, La Cala de Mijas: 5 EUR entry at the door, cash only, doors 17:00, live 21:00 (venue's own text on VIRAL, read 2026-10-31). No online seller."},
+  {"match": "george & cher", "venue": "cazbah", "date": "", "info_url": "https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge", "why": "Same venue/series: 5 EUR entry, cash only; booking phone +34 602 535 710 (VIRAL 2026-10-31). No online seller."},
+  {"match": "ollie hughes", "venue": "cazbah", "date": "", "info_url": "https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge", "why": "Same venue/series: 5 EUR entry, cash only (VIRAL 2026-10-31). No online seller."}
  ]
 }

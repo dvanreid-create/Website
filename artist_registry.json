@@ -3387,5 +3387,29 @@
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=818890&u=https%3A%2F%2Ffeverup.com%2Fm%2F818890&intsrc=CATF_15532"
 ],
 "genre": "mixed"
+},
+"soul-brothers-duo": {
+"name": "Soul Brothers Duo",
+"mles": 0.0,
+"links": [
+"https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge"
+],
+"genre": "jazz"
+},
+"george-cher-tribute": {
+"name": "George & Cher Tribute",
+"mles": 0.0,
+"links": [
+"https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge"
+],
+"genre": "tribute"
+},
+"robbie-williams-tribute": {
+"name": "Robbie Williams Tribute",
+"mles": 0.0,
+"links": [
+"https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge"
+],
+"genre": "tribute"
 }
 }
