@@ -1,16 +1,6 @@
 {
   "clips": [
     {
-      "act": "Vetusta Morla",
-      "yt": "T8X2Hhy928Y",
-      "where": "31 Oct · Auditorio Municipal Cortijo de Torres, Málaga"
-    },
-    {
-      "act": "Airbag",
-      "yt": "WKxpASiaH40",
-      "where": "31 Oct · La Cochera Cabaret, Málaga"
-    },
-    {
       "act": "M-Clan",
       "yt": "tRzzz7dkojk",
       "where": "2 Nov · Teatro Cervantes, Málaga"
@@ -19,6 +9,11 @@
       "act": "Mario Biondi",
       "yt": "qWKq1dzfjxU",
       "where": "3 Nov · Teatro Cervantes, Málaga"
+    },
+    {
+      "act": "Nate Smith",
+      "yt": "5ZKpAPpHm2Q",
+      "where": "4 Nov · Teatro Cervantes, Málaga"
     },
     {
       "act": "Natos y Waor",
@@ -52,6 +47,7 @@
     }
   ],
   "thumbs": {
+    "Bichota for Halloween - Altare Teatinos": "txBJKnmlU0c",
     "Candlelight: Tribute to Ludovico Einaudi": "sR2W2scFS4Y",
     "Dromedaries Mágicos in Malaga": "bzaFCeuyLVw",
     "Candlelight Premium: Tribute to Hans Zimmer": "hMQ7VhcCpuY",
@@ -62,6 +58,7 @@
     "Chiquita Movida in Malaga": "klRaRIfxdsA",
     "Candlelight: Tribute to Joan Manuel Serrat": "BCBsCUxFP9k",
     "Candlelight: Tribute to Adele": "YQHsXMglC9A",
+    "Candlelight: Michael Jackson": "sOnqjkJTMaA",
     "Candlelight: Tribute to Phil Collins": "YkADj0TPrJA",
     "Candlelight: Tribute to Mecano": "OwGG5fX7bxY",
     "Ruslana Concert - Malaga - Paris 15th Ward - Saturday, November 28": "ee81vytrRzo",
