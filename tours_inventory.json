@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-30",
-  "count": 105,
+  "generated": "2026-10-31",
+  "count": 109,
   "items": [
     {
       "sku": "194665",
@@ -150,7 +150,7 @@
       "cat": "Experience",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €18",
+      "p": "From €24",
       "img": "60d9d142-73c3-11f1-b9bc-22d334599d9c.jpeg",
       "url": "https://feverup.com/m/676381/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=676381&u=https%3A%2F%2Ffeverup.com%2Fm%2F676381&intsrc=CATF_15532",
@@ -212,6 +212,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141809&u=https%3A%2F%2Ffeverup.com%2Fm%2F141809&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Benalmádena Golf Greenfee - Discover the golf paradise on the Costa del Sol! Tickets for Benalmádena Golf Greenfee 🎫 Adults (16+): 9 holes 🎫 Adults (16+): Unlimited holes 🎫 Children (0-15): Unlimited holes 🎫 Children (0-15): 9 holes Highlights ⛳️ Choose between 9 holes or unlimited holes at Be"
+    },
+    {
+      "sku": "819035",
+      "n": "Bichota Halloween Tickets - Altare Teatinos in ALTARE TEATINOS, Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "9adfdae1-5451-47b6-9105-fa9c6086698c.jpg",
+      "url": "https://feverup.com/m/819035/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=819035&u=https%3A%2F%2Ffeverup.com%2Fm%2F819035&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Enjoy Bichota for Halloween—Altare Teatinos at ALTARE TEATINOS in Málaga. Get your tickets now!"
     },
     {
       "sku": "693793",
@@ -410,6 +424,34 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+    },
+    {
+      "sku": "590844",
+      "n": "Geoparque de Granada: Tour guiado + Transporte",
+      "c": "tours",
+      "cat": "Day Trip",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €125",
+      "img": "04b574de-13c4-11f1-9c7e-0ed8c20a11cb.jpeg",
+      "url": "https://feverup.com/m/590844/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=590844&u=https%3A%2F%2Ffeverup.com%2Fm%2F590844&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Geoparque de Granada: Tour guiado + Transporte in Granada. Get your tickets on Fever now!"
+    },
+    {
       "sku": "92887",
       "n": "Guided tour of Antequera with transportation from Malaga",
       "c": "tours",
@@ -436,20 +478,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=89659&u=https%3A%2F%2Ffeverup.com%2Fm%2F89659&intsrc=CATF_15532",
       "feat": 0,
       "d": "Individual tickets to visit the Alcazaba of Malaga with art historian guide. Duration: 1 hour approx. Get your tickets now!"
-    },
-    {
-      "sku": "824903",
-      "n": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Pa",
-      "c": "tours",
-      "cat": "Day Trip",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "81152668-b2bc-4820-af8f-ac7ed33a068e.jpeg",
-      "url": "https://feverup.com/m/824903/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=824903&u=https%3A%2F%2Ffeverup.com%2Fm%2F824903&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Palaces in Málaga. Get your tickets on Fever now!"
     },
     {
       "sku": "92941",
@@ -506,6 +534,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752415&u=https%3A%2F%2Ffeverup.com%2Fm%2F752415&intsrc=CATF_15532",
       "feat": 0,
       "d": "<empty>"
+    },
+    {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €30",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -590,6 +632,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=323631&u=https%3A%2F%2Ffeverup.com%2Fm%2F323631&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Mysterious Nerja: An Outdoor Escape Room That Will Test Your Wits Highlights 🔍 An urban adventure in Nerja where you will solve enigmas in its most surprising corners. 📱 Interactive game guided by an app: explore the city at your own pace. 🕵️‍♂️ Discover local legends and hidden secrets of the"
+    },
+    {
+      "sku": "141843",
+      "n": "Olive grove farm from Seville: Guided tour",
+      "c": "tours",
+      "cat": "Walking Tour",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €89",
+      "img": "273a86f6-677e-11ee-a26e-ee441e875b0f",
+      "url": "https://feverup.com/m/141843/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141843&u=https%3A%2F%2Ffeverup.com%2Fm%2F141843&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Immerse yourself in the fascinating world of olive oil in the world capital of liquid gold! Get your tickets!"
     },
     {
       "sku": "788822",
