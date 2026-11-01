@@ -101,6 +101,18 @@
    "program": "box office",
    "host": "unientradas.es/es/espectaculo/victor-manuel/26-27ManuelVicto",
    "expires": "2026-11-15"
+  },
+  {
+   "label": "Camilo",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-camilo-starlite-occident-2027-marbella%2F",
+   "expires": "2027-07-01"
+  },
+  {
+   "label": "Los Delinqüentes",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-los-delincuentes-starlite-occident-2027-marbella%2F",
+   "expires": "2027-07-30"
   }
  ]
 }

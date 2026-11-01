@@ -1,25 +1,9 @@
 {
  "_comment": "EL CORTE INGLES — MALAGA PROVINCE MUSIC INVENTORY. Built 2026-09-21 by reading ECI's own recinto directory (elcorteingles.es/entradas/recintos/malaga/) and every venue page under it, in Sofia's browser session — the box and the Claude sandbox are both IP-blocked by ECI. PURPOSE: eci_resolve() in build_site.py only ever runs for STARLITE rows (its first line returns unchanged unless the venue contains 'starlite'), so ECI was invisible for every other Malaga room. Leoni Torres (18 Oct, Sala Paris 15) was live on a promoter page paying NOTHING while ECI sold the same night at 48,50 EUR. Sofia: 'we need to make sure ECI is always covered, not only linked to Starlite'. This file is that coverage. REFRESH IT from the same directory whenever the window rolls.",
- "generated": "2026-10-15",
+ "generated": "2026-11-01",
  "source": "https://www.elcorteingles.es/entradas/recintos/malaga/",
- "venues_scanned": 24,
+ "venues_scanned": 26,
  "events": [
-  {
-   "act": "Niña Pastori",
-   "ymd": "2026-10-17",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/",
-   "eci_from": 44.0,
-   "venue": "Auditorio Municipal Príncipe de Asturias",
-   "city": "Torremolinos"
-  },
-  {
-   "act": "Holi Not Holi",
-   "ymd": "2026-10-24",
-   "url": "https://www.elcorteingles.es/entradas/festivales/entradas-holi-not-holi-torremolinos/",
-   "eci_from": 38.5,
-   "venue": "Auditorio Municipal Príncipe de Asturias",
-   "city": "Torremolinos"
-  },
   {
    "act": "Niña Pastori - Color Fania",
    "ymd": "2027-03-07",
@@ -40,7 +24,7 @@
    "act": "DJ Symphonic - 80s & 90s Edition",
    "ymd": "2026-12-06",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-dj-symphonic-80s-90s-edition-malaga-54973549733113/",
-   "eci_from": 35.0,
+   "eci_from": 35,
    "venue": "FYCMA",
    "city": "Málaga"
   },
@@ -48,7 +32,7 @@
    "act": "Dj Symphonic & Royal Film Concert Orchestra",
    "ymd": "2026-12-06",
    "url": "https://www.elcorteingles.es/entradas/festivales/entradas-dj-symphonic-royal-film-concert-orchestra-malaga-55052550523113/",
-   "eci_from": 35.0,
+   "eci_from": 35,
    "venue": "FYCMA",
    "city": "Málaga"
   },
@@ -56,7 +40,7 @@
    "act": "Queenmanía Fest",
    "ymd": "2026-11-13",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
-   "eci_from": 22.0,
+   "eci_from": 22,
    "venue": "Hard Rock Hotel Marbella",
    "city": "Marbella"
   },
@@ -64,7 +48,7 @@
    "act": "Take That - Dreamers Tour",
    "ymd": "2027-07-11",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-take-that-fuengirola/",
-   "eci_from": 85.0,
+   "eci_from": 85,
    "venue": "Marenostrum Fuengirola",
    "city": "Fuengirola"
   },
@@ -101,14 +85,6 @@
    "city": "Málaga"
   },
   {
-   "act": "Leoni Torres - Gracias Por Tanto 2026",
-   "ymd": "2026-10-18",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-leoni-torres-malaga-2026-10-18/",
-   "eci_from": 48.5,
-   "venue": "Sala París 15",
-   "city": "Málaga"
-  },
-  {
    "act": "Rodrigo Cuevas - Moonlight Málaga",
    "ymd": "2027-02-06",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-rodrigo-cuevas-moonlight-malaga-2027-malaga/",
@@ -120,7 +96,7 @@
    "act": "Descemer Bueno",
    "ymd": "2027-03-07",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-descemer-bueno-malaga/",
-   "eci_from": 33.0,
+   "eci_from": 33,
    "venue": "Sala París 15",
    "city": "Málaga"
   },
@@ -128,7 +104,7 @@
    "act": "Sidecars - Gira Presentación EVEREST",
    "ymd": "2027-04-03",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/",
-   "eci_from": 33.0,
+   "eci_from": 33,
    "venue": "Sala París 15",
    "city": "Málaga"
   },
@@ -149,14 +125,6 @@
    "city": "Málaga"
   },
   {
-   "act": "Gonzalo Hermida",
-   "ymd": "2026-10-22",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gonzalo-hermida-malaga/",
-   "eci_from": 27.5,
-   "venue": "Sala Trinchera",
-   "city": "Málaga"
-  },
-  {
    "act": "Tributo a Los Rodríguez, Jarabe de Palo y Maná",
    "ymd": "2027-02-05",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-tributo-los-rodriguez-jarabe-de-palo-y-mana-malaga/",
@@ -165,26 +133,34 @@
    "city": "Málaga"
   },
   {
-   "act": "La Oreja de Van Gogh - Starlite Occident 2027",
-   "ymd": "2027-08-13",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-oreja-de-van-gogh-starlite-occident-2027-marbella/",
-   "eci_from": 55.0,
+   "act": "Camilo - Starlite Occident 2027",
+   "ymd": "2027-07-01",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-camilo-starlite-occident-2027-marbella/",
+   "eci_from": 55,
    "venue": "Starlite Festival",
    "city": "Marbella"
   },
   {
-   "act": "Vivaldianno",
-   "ymd": "2026-10-15",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-vivaldianno-malaga/",
-   "eci_from": 24.79,
-   "venue": "Teatro del Soho CaixaBank",
-   "city": "Málaga"
+   "act": "Los Delincuentes - Starlite Occident 2027",
+   "ymd": "2027-07-30",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-los-delincuentes-starlite-occident-2027-marbella/",
+   "eci_from": 29,
+   "venue": "Starlite Festival",
+   "city": "Marbella"
+  },
+  {
+   "act": "La Oreja de Van Gogh - Starlite Occident 2027",
+   "ymd": "2027-08-13",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-oreja-de-van-gogh-starlite-occident-2027-marbella/",
+   "eci_from": 55,
+   "venue": "Starlite Festival",
+   "city": "Marbella"
   },
   {
    "act": "Concierto de Navidad en el Soho",
    "ymd": "2026-12-25",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
-   "eci_from": 25.0,
+   "eci_from": 25,
    "venue": "Teatro del Soho CaixaBank",
    "city": "Málaga"
   },
@@ -192,32 +168,16 @@
    "act": "Les Ballets Trockadero de Monte Carlo - TIP TOE Soho International Dance Festival",
    "ymd": "2027-04-06",
    "url": "https://www.elcorteingles.es/entradas/festivales/entradas-les-ballets-trockadero-de-monte-caro-malaga/",
-   "eci_from": 25.0,
+   "eci_from": 25,
    "venue": "Teatro del Soho CaixaBank",
    "city": "Málaga"
   },
   {
-   "act": "Capullo de Jerez",
-   "ymd": "2026-10-24",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/",
-   "eci_from": 24.26,
-   "venue": "Teatro ESAD",
-   "city": "Málaga"
-  },
-  {
-   "act": "Falete",
-   "ymd": "2026-10-31",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-43582435821796/",
-   "eci_from": 22.05,
-   "venue": "Teatro ESAD",
-   "city": "Málaga"
-  },
-  {
-   "act": "Falete",
-   "ymd": "2026-10-31",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-59535595351796/",
-   "eci_from": 22.05,
-   "venue": "Teatro ESAD",
+   "act": "Pentagrama Español Larios Pop",
+   "ymd": "2027-05-20",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pentagrama-espanol-larios-pop-malaga-59017590173087/",
+   "eci_from": 25,
+   "venue": "Teatro del Soho CaixaBank",
    "city": "Málaga"
   },
   {
@@ -229,10 +189,26 @@
    "city": "Málaga"
   },
   {
+   "act": "Capullo de Jerez",
+   "ymd": "2027-02-26",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/",
+   "eci_from": 24.26,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
+  },
+  {
+   "act": "Falete",
+   "ymd": "2027-02-27",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-falete-malaga-59535595351796/",
+   "eci_from": 22.05,
+   "venue": "Teatro ESAD",
+   "city": "Málaga"
+  },
+  {
    "act": "Pitingo - Navidades del Mundo",
    "ymd": "2026-12-04",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-pitingo-navidades-del-mundo-velez-malaga/",
-   "eci_from": 33.0,
+   "eci_from": 33,
    "venue": "Teatro Lope de Vega",
    "city": "Vélez-Málaga"
   },
