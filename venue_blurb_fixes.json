@@ -88,7 +88,12 @@
     ["(?<=ZZ PUB),\\s*une soirée [^,.]*?qui ne coûte rien", ""],
     ["(?<=ZZ PUB),\\s*en [^.]*?(utan kostnad|ikke koster noe|ikke koster noget)[^.]*?(?=\\.)", ""],
     ["(?<=ZZ PUBissa),\\s*[^.]*?johon ei tarvita lippua", ""],
-    ["(?<=ZZ PUB),\\s*ein[^,.]*,\\s*der nichts kostet", ""]
+    ["(?<=ZZ PUB),\\s*ein[^,.]*,\\s*der nichts kostet", ""],
+
+    ["^live musikk\\b", "Livemusikk"],
+    ["^live musik\\b", "Livemusik"],
+    ["^live-musiikkia\\b", "Live-musiikkia"],
+    ["^du live music\\b", "De la musique live"]
    ]
   }
  ]
