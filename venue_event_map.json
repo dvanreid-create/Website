@@ -4985,16 +4985,16 @@
    "note": "LINK-OVERRIDE BLOCK, added 2026-08-31 — do NOT reorder, do NOT rename. WHY IT EXISTS: Sofía Ellar (25/09/2026, Sala La Trinchera) was dropped overnight as 'link goes to a different event'. She is REAL and ON SALE, but she does NOT sell through mutick, and the 'trinchera' block directly below is rewritten WHOLESALE from mutick.com/l/malaga every Monday by refresh_venue_map.py (it replaces blk['acts'] entirely), so an act typed into it by hand survives at most until the next refresh — that is the same trap documented in the 'cartel malaga' note. The key 'la trinchera' is NOT in refresh_venue_map.VENUES (which uses bare 'trinchera'), so nothing rewrites this block. ORDER MATTERS: it must stay ABOVE 'trinchera' — _venue_lookup returns the FIRST block whose key is a substring of the normalised venue, and 'trinchera' also matches 'sala la trinchera'. KNOWN AND ACCEPTED COST OF THAT: while this block sits first, a Trinchera row whose act is not listed here resolves to (key, None) and no longer picks up the mutick-derived url from the block below — harmless today (China Crisis already ships its own deep mutick link, and Damian Cordoba is captured earlier by the 'cartel malaga' block), and it cannot delete anything because complete:false and gate:false. TO RETIRE: delete this whole block once 25/09/2026 has passed, which restores the plain 'trinchera' behaviour. SELLER CHOICE, affiliates first (checked in Chrome 2026-08-31): entradas.com search for 'sofia ellar' returns no Málaga date; El Corte Inglés lists her only for Fuengirola and Sevilla, not this night; mutick.com/l/malaga carries only China Crisis, The Silencers and Clearwater Creedence Revival. No paying seller sells this night, so it routes to the box-office ticketer, which earns nothing and is the right destination anyway. DESTINATION BROWSER-CONFIRMED 2026-08-31: tomaticket.es shows 'Sofia Ellar en Málaga, 25/09/2026, Sala Trinchera, C. Parauta 25, 29006 Málaga', 'Viernes 25 de Septiembre de 2026', with a live 'COMPRAR ENTRADAS - DESDE: 27,50 €' control. tomaticket.es is already in trusted_hosts. prefer:'map' because the calendar's own link is deep and rule 2 would otherwise leave the wrong page in place.",
    "acts": {
     "hide tyson": {
-     "url": "https://www.taquilla.com/entradas/hide-tyson",
+     "url": "https://www.enterticket.es/eventos/concierto-hide-tyson-y-sokez-en-malaga-441477",
      "prefer": "map",
      "date": "27/11/2026",
-     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia: 'check all of the above yourself'). Taquilla artist page read in the built-in browser 18 Oct: 'Concierto Hide Tyson y Sokez en Malaga', Sala La Trinchera, Viernes 27 Nov, from 15,00 EUR, Ver button (the page also lists Madrid; Sokez has its own page /entradas/sokez). Multi-city page. Not commissioned. RETIRE after 2026-11-27."
+     "why": "AUTO-REPAIRED 2026-11-01 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     },
     "migue de antilopez": {
-     "url": "https://www.taquilla.com/entradas/antilopez?t10cityorder=M%C3%A1laga",
+     "url": "https://www.tomaticket.es/es-es/entradas-antilopez-en-malaga-en-malaga",
      "prefer": "map",
      "date": "07/11/2026",
-     "why": "PINNED IN THE REAL VENUE BLOCK 2026-10-18 (Sofia). Taquilla artist page read in the browser 18 Oct: 'Malaga: Sala La Trinchera - 7 de Noviembre de 2026', Sabado 07 Nov, from 20,00 EUR, 'Ver' button. Multi-city page (Taquilla has no per-date URL). Not commissioned. RETIRE after 2026-11-07."
+     "why": "AUTO-REPAIRED 2026-11-01 by verify_ticket_links: prior link failed; this buy page was web-searched and passed the same verification (event page, tokens, year, not a homepage)."
     },
     "homenaje especial": {
      "url": "https://www.taquilla.com/entradas/hombres-b-tribut-a-hombres-g?t10cityorder=M%C3%A1laga",

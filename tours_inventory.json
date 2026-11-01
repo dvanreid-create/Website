@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-10-31",
-  "count": 109,
+  "generated": "2026-11-01",
+  "count": 106,
   "items": [
     {
       "sku": "194665",
@@ -212,20 +212,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141809&u=https%3A%2F%2Ffeverup.com%2Fm%2F141809&intsrc=CATF_15532",
       "feat": 0,
       "d": "⭐ Benalmádena Golf Greenfee - Discover the golf paradise on the Costa del Sol! Tickets for Benalmádena Golf Greenfee 🎫 Adults (16+): 9 holes 🎫 Adults (16+): Unlimited holes 🎫 Children (0-15): Unlimited holes 🎫 Children (0-15): 9 holes Highlights ⛳️ Choose between 9 holes or unlimited holes at Be"
-    },
-    {
-      "sku": "819035",
-      "n": "Bichota Halloween Tickets - Altare Teatinos in ALTARE TEATINOS, Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "",
-      "area": "Málaga",
-      "p": "See price",
-      "img": "9adfdae1-5451-47b6-9105-fa9c6086698c.jpg",
-      "url": "https://feverup.com/m/819035/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=819035&u=https%3A%2F%2Ffeverup.com%2Fm%2F819035&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Enjoy Bichota for Halloween—Altare Teatinos at ALTARE TEATINOS in Málaga. Get your tickets now!"
     },
     {
       "sku": "693793",
@@ -534,20 +520,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752415&u=https%3A%2F%2Ffeverup.com%2Fm%2F752415&intsrc=CATF_15532",
       "feat": 0,
       "d": "<empty>"
-    },
-    {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
     },
     {
       "sku": "693799",
@@ -870,20 +842,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788819&u=https%3A%2F%2Ffeverup.com%2Fm%2F788819&intsrc=CATF_15532",
       "feat": 0,
       "d": "<empty>"
-    },
-    {
-      "sku": "141796",
-      "n": "Aqualand Torremolinos: Tickets",
-      "c": "family",
-      "cat": "Family",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €17",
-      "img": "eacd957e-677c-11ee-95ff-d6a9f1426772",
-      "url": "https://feverup.com/m/141796/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141796&u=https%3A%2F%2Ffeverup.com%2Fm%2F141796&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Dive into aquatic fun at Aqualand Torremolinos! Thrilling slides, calm pools and lots of adrenaline - get your tickets now!"
     },
     {
       "sku": "141791",
