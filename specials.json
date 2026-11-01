@@ -113,6 +113,12 @@
    "program": "box office",
    "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-los-delincuentes-starlite-occident-2027-marbella%2F",
    "expires": "2027-07-30"
+  },
+  {
+   "label": "David Bisbal",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-david-bisbal-fuengirola-DAVIDBISBAL2027DAVIDBISBAL2027MARE%2F",
+   "expires": "2027-07-22"
   }
  ]
 }
