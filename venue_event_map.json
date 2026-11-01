@@ -2055,6 +2055,17 @@
      "genre": "Rock & Indie",
      "why": "ADDED 2026-10-15: second session (22:00, Enterticket) of the same night as 'camellos 10 aniversario'. Distinct venue_name so backfill's (act, date) dedup does not drop it. Same link caveat. Retire after 2026-12-12."
     },
+    "candlelight tribute la ley innata 29 nov 17h": {
+     "url": "https://feverup.com/m/545643",
+     "prefer": "map",
+     "date": "29/11/2026",
+     "time": "17:00",
+     "price": "Desde 17,00€",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Tribute to La Ley Innata (17:00)",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-01 (Sofia): Fever plan 545643 sells TWO sessions on Sun 29 Nov, 17:00 and 19:00. The site carried only 19:00 (fever_buyable_overrides 2026-10-16 recorded 19:00 only, and the calendar keeps one row per sku+date). BROWSER-READ 2026-11-01 on feverup.com/m/545643, dom 29 nov, session 17:00: Zona D 17,00 / C 26,50 / B 32,50 / A 40,00, live, no Agotado (the 19:00 session reads Zona D 25,00 / C 40,50 / B 49,00 / A 53,50). Salón Real, Gran Hotel Miramar, cuarteto de cuerda, 60 min. Same pattern as the Camellos 2nd session: distinct venue_name so backfill's (act, date) dedup does not drop it. sku 545643 / 2026-11-29 is already in fever_buyable_overrides.json. Retire after 2026-11-29 or if Agotado."
+    },
     "space surimi": {
      "url": "https://dice.fm/event/q2dedp-space-surimi-en-mlaga-31st-oct-sala-marte-mlaga-tickets",
      "prefer": "map",
