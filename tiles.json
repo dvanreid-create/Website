@@ -1,10 +1,48 @@
 {
  "ads": [
   {
-   "photo": "/assets/tiles/ext-fad70251cb0ed1b0.jpg",
+   "photo": "https://i.ytimg.com/vi/AuMLpOhx6mY/maxresdefault.jpg",
+   "tint": "rgba(8,10,16,.26)",
+   "pos": "50% 20%",
+   "ribbon": {
+    "en": "Marquee event",
+    "es": "Evento estrella",
+    "de": "Top-Event",
+    "fr": "Événement phare",
+    "sv": "Stort evenemang",
+    "no": "Stort arrangement",
+    "da": "Stort event",
+    "fi": "Huipputapahtuma"
+   },
+   "head": "Malú",
+   "headBottom": true,
+   "expires": "2026-08-10",
+   "sub": {
+    "en": "Mon 10 Aug · Auditorio Starlite · Marbella",
+    "es": "Lun 10 ago · Auditorio Starlite · Marbella",
+    "de": "Mo 10 Aug · Auditorio Starlite · Marbella",
+    "fr": "lun. 10 août · Auditorio Starlite · Marbella",
+    "sv": "mån 10 aug · Auditorio Starlite · Marbella",
+    "no": "man 10 aug · Auditorio Starlite · Marbella",
+    "da": "man 10 aug · Auditorio Starlite · Marbella",
+    "fi": "ma 10 elok. · Auditorio Starlite · Marbella"
+   },
+   "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-malu-starlite-occident-2026-marbella%2F",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/8fHbkoXzysQ/hqdefault.jpg",
    "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-12-09",
-   "credit": null,
+   "expires": "2026-08-04",
    "tag": {
     "en": "★ Top pick this week",
     "es": "★ Top de la semana",
@@ -15,18 +53,18 @@
     "da": "★ Ugens tip",
     "fi": "★ Viikon valinta"
    },
-   "head": "Tomatito",
+   "head": "Sergio Dalma",
    "sub": {
-    "en": "Wed 9 Dec · Teatro Cervantes",
-    "es": "Mié 9 dic · Teatro Cervantes",
-    "de": "Mi 9 Dez · Teatro Cervantes",
-    "fr": "mer. 9 déc. · Teatro Cervantes",
-    "sv": "ons 9 dec · Teatro Cervantes",
-    "no": "ons 9 des · Teatro Cervantes",
-    "da": "ons 9 dec · Teatro Cervantes",
-    "fi": "ke 9 jouluk. · Teatro Cervantes"
+    "en": "Tue 4 Aug · Auditorio Starlite",
+    "es": "Mar 4 ago · Auditorio Starlite",
+    "de": "Di 4 Aug · Auditorio Starlite",
+    "fr": "mar. 4 août · Auditorio Starlite",
+    "sv": "tis 4 aug · Auditorio Starlite",
+    "no": "tir 4 aug · Auditorio Starlite",
+    "da": "tir 4 aug · Auditorio Starlite",
+    "fi": "ti 4 elok. · Auditorio Starlite"
    },
-   "url": "https://www.unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas",
+   "url": "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-sergio-dalma-starlite-occident-2026-marbella-0000089NK0000089MD000008546%2F",
    "cta": {
     "en": "Tickets →",
     "es": "Entradas →",
@@ -39,7 +77,7 @@
    }
   },
   {
-   "logo": "/assets/tiles/ext-0b8921299b981691.png",
+   "logo": "https://zzpub.es/wp-content/uploads/2023/12/logo-zzpub-malaga.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
    "name": "ZZ PUB",
@@ -337,727 +375,7 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Michael Jackson",
-   "headBottom": true,
-   "expires": "2026-11-07",
-   "sub": {
-    "en": "Sat 7 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 7 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 7 nov. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 7 marrask. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=753379&u=https%3A%2F%2Ffeverup.com%2Fm%2F753379&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-48f4991abc5a93ef.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 25%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Premium: Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-11-07",
-   "sub": {
-    "en": "Sat 7 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 7 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 7 nov. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 7 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 7 marrask. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=126888&u=https%3A%2F%2Ffeverup.com%2Fm%2F126888&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: kitmasterbloke · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Ludovico Einaudi",
-   "headBottom": true,
-   "expires": "2026-11-13",
-   "sub": {
-    "en": "Fri 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Vie 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Fr 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "ven. 13 nov. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "pe 13 marrask. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=138232&u=https%3A%2F%2Ffeverup.com%2Fm%2F138232&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-a787faed74ab4391.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Queen and The Beatles",
-   "headBottom": true,
-   "expires": "2026-11-13",
-   "sub": {
-    "en": "Fri 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Vie 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Fr 13 Nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "ven. 13 nov. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "fre 13 nov · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "pe 13 marrask. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=800523&u=https%3A%2F%2Ffeverup.com%2Fm%2F800523&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-511eb906b2b113f2.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Coldplay and Imagine Dragons",
-   "headBottom": true,
-   "expires": "2026-11-13",
-   "sub": {
-    "en": "Fri 13 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "es": "Vie 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "de": "Fr 13 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fr": "ven. 13 nov. · Sala Fundación Unicaja María Cristina · Málaga",
-    "sv": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "no": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "da": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fi": "pe 13 marrask. · Sala Fundación Unicaja María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=532802&u=https%3A%2F%2Ffeverup.com%2Fm%2F532802&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-0bc5de741556b2fb.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Queen vs. ABBA",
-   "headBottom": true,
-   "expires": "2026-11-13",
-   "sub": {
-    "en": "Fri 13 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "es": "Vie 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "de": "Fr 13 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fr": "ven. 13 nov. · Sala Fundación Unicaja María Cristina · Málaga",
-    "sv": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "no": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "da": "fre 13 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fi": "pe 13 marrask. · Sala Fundación Unicaja María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=555765&u=https%3A%2F%2Ffeverup.com%2Fm%2F555765&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-2cdeaa4bd1be6a45.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to La Ley Innata",
-   "headBottom": true,
-   "expires": "2026-11-15",
-   "sub": {
-    "en": "Sun 15 Nov · Hotel Miramar · Málaga",
-    "es": "Dom 15 nov · Hotel Miramar · Málaga",
-    "de": "So 15 Nov · Hotel Miramar · Málaga",
-    "fr": "dim. 15 nov. · Hotel Miramar · Málaga",
-    "sv": "sön 15 nov · Hotel Miramar · Málaga",
-    "no": "søn 15 nov · Hotel Miramar · Málaga",
-    "da": "søn 15 nov · Hotel Miramar · Málaga",
-    "fi": "su 15 marrask. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545643&u=https%3A%2F%2Ffeverup.com%2Fm%2F545643&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 18%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Mecano",
-   "headBottom": true,
-   "expires": "2026-11-15",
-   "sub": {
-    "en": "Sun 15 Nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 15 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 15 Nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 15 nov. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 15 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 15 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 15 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 15 marrask. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-2c891d7019fa2c2c.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 22%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Adele",
-   "headBottom": true,
-   "expires": "2026-11-21",
-   "sub": {
-    "en": "Sat 21 Nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "es": "Sáb 21 nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "de": "Sa 21 Nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fr": "sam. 21 nov. · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "sv": "lör 21 nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "no": "lør 21 nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "da": "lør 21 nov · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fi": "la 21 marrask. · Sala Fundación Unicaja Mª Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701011&u=https%3A%2F%2Ffeverup.com%2Fm%2F701011&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Kristopher Harris · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-18ead2011bb1ab60.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Joan Manuel Serrat",
-   "headBottom": true,
-   "expires": "2026-11-21",
-   "sub": {
-    "en": "Sat 21 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "es": "Sáb 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "de": "Sa 21 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fr": "sam. 21 nov. · Sala Fundación Unicaja María Cristina · Málaga",
-    "sv": "lör 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "no": "lør 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "da": "lør 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fi": "la 21 marrask. · Sala Fundación Unicaja María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=129317&u=https%3A%2F%2Ffeverup.com%2Fm%2F129317&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-11-22",
-   "sub": {
-    "en": "Sun 22 Nov · Hotel Miramar · Málaga",
-    "es": "Dom 22 nov · Hotel Miramar · Málaga",
-    "de": "So 22 Nov · Hotel Miramar · Málaga",
-    "fr": "dim. 22 nov. · Hotel Miramar · Málaga",
-    "sv": "sön 22 nov · Hotel Miramar · Málaga",
-    "no": "søn 22 nov · Hotel Miramar · Málaga",
-    "da": "søn 22 nov · Hotel Miramar · Málaga",
-    "fi": "su 22 marrask. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Vivaldi's Four Seasons",
-   "headBottom": true,
-   "expires": "2026-11-22",
-   "sub": {
-    "en": "Sun 22 Nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "es": "Dom 22 nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "de": "So 22 Nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "fr": "dim. 22 nov. · Salón Real, Gran Hotel Miramar · Málaga",
-    "sv": "sön 22 nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "no": "søn 22 nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "da": "søn 22 nov · Salón Real, Gran Hotel Miramar · Málaga",
-    "fi": "su 22 marrask. · Salón Real, Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-11762f3e4575482c.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Ludovico Einaudi",
-   "headBottom": true,
-   "expires": "2026-11-27",
-   "sub": {
-    "en": "Fri 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Vie 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Fr 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "ven. 27 nov. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "pe 27 marrask. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=139025&u=https%3A%2F%2Ffeverup.com%2Fm%2F139025&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Michael Jackson",
-   "headBottom": true,
-   "expires": "2026-11-27",
-   "sub": {
-    "en": "Fri 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Vie 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Fr 27 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "ven. 27 nov. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "fre 27 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "pe 27 marrask. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701012&u=https%3A%2F%2Ffeverup.com%2Fm%2F701012&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-8b98fd83f2cf7258.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 10%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Phil Collins",
-   "headBottom": true,
-   "expires": "2026-11-28",
-   "sub": {
-    "en": "Sat 28 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 28 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 28 nov. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 28 marrask. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=771783&u=https%3A%2F%2Ffeverup.com%2Fm%2F771783&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 18%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Mecano",
-   "headBottom": true,
-   "expires": "2026-11-28",
-   "sub": {
-    "en": "Sat 28 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 28 Nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 28 nov. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 28 nov · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 28 marrask. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=771782&u=https%3A%2F%2Ffeverup.com%2Fm%2F771782&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-bdb6b1d9189c637e.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Rock Classics",
-   "headBottom": true,
-   "expires": "2026-11-29",
-   "sub": {
-    "en": "Sun 29 Nov · Hotel Miramar · Málaga",
-    "es": "Dom 29 nov · Hotel Miramar · Málaga",
-    "de": "So 29 Nov · Hotel Miramar · Málaga",
-    "fr": "dim. 29 nov. · Hotel Miramar · Málaga",
-    "sv": "sön 29 nov · Hotel Miramar · Málaga",
-    "no": "søn 29 nov · Hotel Miramar · Málaga",
-    "da": "søn 29 nov · Hotel Miramar · Málaga",
-    "fi": "su 29 marrask. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=466621&u=https%3A%2F%2Ffeverup.com%2Fm%2F466621&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-2cdeaa4bd1be6a45.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to La Ley Innata (17:00)",
-   "headBottom": true,
-   "expires": "2026-11-29",
-   "sub": {
-    "en": "Sun 29 Nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 29 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 29 Nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 29 nov. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 29 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 29 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 29 nov · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 29 marrask. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=545643&u=https%3A%2F%2Ffeverup.com%2Fm%2F545643&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
+   "photo": "https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -1072,16 +390,16 @@
    },
    "head": "Coldplay vs. Ed Sheeran",
    "headBottom": true,
-   "expires": "2026-12-05",
+   "expires": "2026-08-08",
    "sub": {
-    "en": "Sat 5 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 5 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 5 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 5 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 5 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 5 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 5 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 5 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+    "en": "Sat 8 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 8 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 8 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 8 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 8 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 8 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 8 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 8 elok. · Salón Real del Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643700&u=https%3A%2F%2Ffeverup.com%2Fm%2F643700&intsrc=CATF_15532",
    "cta": {
@@ -1093,51 +411,10 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": null
+   }
   },
   {
-   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 18%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Mecano",
-   "headBottom": true,
-   "expires": "2026-12-05",
-   "sub": {
-    "en": "Sat 5 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 5 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 5 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 5 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 5 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 5 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 5 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 5 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656280&u=https%3A%2F%2Ffeverup.com%2Fm%2F656280&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
+   "photo": "https://images.pexels.com/photos/2296100/pexels-photo-2296100.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -1150,138 +427,18 @@
     "da": "Candlelight-koncert",
     "fi": "Candlelight-konsertti"
    },
-   "head": "The Best of the 80s",
+   "head": "Tributo a Hans Zimmer",
    "headBottom": true,
-   "expires": "2026-12-06",
+   "expires": "2026-08-08",
    "sub": {
-    "en": "Sun 6 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 6 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 6 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 6 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 6 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 6 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 6 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 6 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-4233d1414bb79aea.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Leiva",
-   "headBottom": true,
-   "expires": "2026-12-06",
-   "sub": {
-    "en": "Sun 6 Dec · Hotel Miramar · Málaga",
-    "es": "Dom 6 dic · Hotel Miramar · Málaga",
-    "de": "So 6 Dez · Hotel Miramar · Málaga",
-    "fr": "dim. 6 déc. · Hotel Miramar · Málaga",
-    "sv": "sön 6 dec · Hotel Miramar · Málaga",
-    "no": "søn 6 des · Hotel Miramar · Málaga",
-    "da": "søn 6 dec · Hotel Miramar · Málaga",
-    "fi": "su 6 jouluk. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=714520&u=https%3A%2F%2Ffeverup.com%2Fm%2F714520&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-5ac58627f281af07.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Ennio Morricone",
-   "headBottom": true,
-   "expires": "2026-12-08",
-   "sub": {
-    "en": "Tue 8 Dec · Hotel Miramar · Málaga",
-    "es": "Mar 8 dic · Hotel Miramar · Málaga",
-    "de": "Di 8 Dez · Hotel Miramar · Málaga",
-    "fr": "mar. 8 déc. · Hotel Miramar · Málaga",
-    "sv": "tis 8 dec · Hotel Miramar · Málaga",
-    "no": "tir 8 des · Hotel Miramar · Málaga",
-    "da": "tir 8 dec · Hotel Miramar · Málaga",
-    "fi": "ti 8 jouluk. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=198778&u=https%3A%2F%2Ffeverup.com%2Fm%2F198778&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-12-08",
-   "sub": {
-    "en": "Tue 8 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Mar 8 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Di 8 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "mar. 8 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "tis 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "tir 8 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "tir 8 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "ti 8 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+    "en": "Sat 8 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "es": "Sáb 8 ago · Salón Real, Gran Hotel Miramar · Málaga",
+    "de": "Sa 8 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fr": "sam. 8 août · Salón Real, Gran Hotel Miramar · Málaga",
+    "sv": "lör 8 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "no": "lør 8 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "da": "lør 8 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fi": "la 8 elok. · Salón Real, Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
    "cta": {
@@ -1293,11 +450,49 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
+   }
   },
   {
-   "photo": "/assets/tiles/ext-18ead2011bb1ab60.jpg",
+   "photo": "https://i.ytimg.com/vi/eUDVUZZyA0M/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Open Air: Tribute to Ludovico Einaudi in Marbell",
+   "headBottom": true,
+   "expires": "2026-08-14",
+   "sub": {
+    "en": "Fri 14 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Vie 14 ago · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Fr 14 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "ven. 14 août · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "fre 14 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "fre 14 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "fre 14 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "pe 14 elok. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=132355&u=https%3A%2F%2Ffeverup.com%2Fm%2F132355&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/7x4sShxhE38/hqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -1312,18 +507,18 @@
    },
    "head": "Tribute to Joan Manuel Serrat",
    "headBottom": true,
-   "expires": "2026-12-11",
+   "expires": "2026-08-15",
    "sub": {
-    "en": "Fri 11 Dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "es": "Vie 11 dic · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "de": "Fr 11 Dez · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fr": "ven. 11 déc. · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "sv": "fre 11 dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "no": "fre 11 des · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "da": "fre 11 dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fi": "pe 11 jouluk. · Sala Fundación Unicaja Mª Cristina · Málaga"
+    "en": "Sat 15 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 15 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 15 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 15 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 15 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 15 elok. · Salón Real del Gran Hotel Miramar · Málaga"
    },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=129317&u=https%3A%2F%2Ffeverup.com%2Fm%2F129317&intsrc=CATF_15532",
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=656279&u=https%3A%2F%2Ffeverup.com%2Fm%2F656279&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -1333,11 +528,10 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": null
+   }
   },
   {
-   "photo": "/assets/tiles/ext-0bc5de741556b2fb.jpg",
+   "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Fabs.JPG?width=800",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -1350,298 +544,18 @@
     "da": "Candlelight-koncert",
     "fi": "Candlelight-konsertti"
    },
-   "head": "Queen vs. ABBA",
+   "head": "Queen vs. The Beatles",
    "headBottom": true,
-   "expires": "2026-12-11",
+   "expires": "2026-08-15",
    "sub": {
-    "en": "Fri 11 Dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "es": "Vie 11 dic · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "de": "Fr 11 Dez · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fr": "ven. 11 déc. · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "sv": "fre 11 dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "no": "fre 11 des · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "da": "fre 11 dec · Sala Fundación Unicaja Mª Cristina · Málaga",
-    "fi": "pe 11 jouluk. · Sala Fundación Unicaja Mª Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=555765&u=https%3A%2F%2Ffeverup.com%2Fm%2F555765&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Michael Jackson",
-   "headBottom": true,
-   "expires": "2026-12-12",
-   "sub": {
-    "en": "Sat 12 Dec · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 12 dic · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 12 Dez · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 12 déc. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 12 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 12 des · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 12 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 12 jouluk. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=753379&u=https%3A%2F%2Ffeverup.com%2Fm%2F753379&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-8ab191215473d9aa.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Bad Bunny",
-   "headBottom": true,
-   "expires": "2026-12-12",
-   "sub": {
-    "en": "Sat 12 Dec · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Sáb 12 dic · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "Sa 12 Dez · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "sam. 12 déc. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "lör 12 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "lør 12 des · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "lør 12 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "la 12 jouluk. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=806339&u=https%3A%2F%2Ffeverup.com%2Fm%2F806339&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-b9a5415efa6ee595.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas: Christmas Classics",
-   "headBottom": true,
-   "expires": "2026-12-18",
-   "sub": {
-    "en": "Fri 18 Dec · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Vie 18 dic · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Fr 18 Dez · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "ven. 18 déc. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "fre 18 des · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "pe 18 jouluk. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=364214&u=https%3A%2F%2Ffeverup.com%2Fm%2F364214&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-b40772079b373dd0.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas: Christmas Soundtracks",
-   "headBottom": true,
-   "expires": "2026-12-18",
-   "sub": {
-    "en": "Fri 18 Dec · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Vie 18 dic · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Fr 18 Dez · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "ven. 18 déc. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "fre 18 des · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "fre 18 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "pe 18 jouluk. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=364215&u=https%3A%2F%2Ffeverup.com%2Fm%2F364215&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Coldplay vs. Ed Sheeran",
-   "headBottom": true,
-   "expires": "2026-12-19",
-   "sub": {
-    "en": "Sat 19 Dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "es": "Sáb 19 dic · Salón Linares Anantara Villa Padierna · Marbella",
-    "de": "Sa 19 Dez · Salón Linares Anantara Villa Padierna · Marbella",
-    "fr": "sam. 19 déc. · Salón Linares Anantara Villa Padierna · Marbella",
-    "sv": "lör 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "no": "lør 19 des · Salón Linares Anantara Villa Padierna · Marbella",
-    "da": "lør 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "fi": "la 19 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677230&u=https%3A%2F%2Ffeverup.com%2Fm%2F677230&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Michael Jackson",
-   "headBottom": true,
-   "expires": "2026-12-19",
-   "sub": {
-    "en": "Sat 19 Dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "es": "Sáb 19 dic · Salón Linares Anantara Villa Padierna · Marbella",
-    "de": "Sa 19 Dez · Salón Linares Anantara Villa Padierna · Marbella",
-    "fr": "sam. 19 déc. · Salón Linares Anantara Villa Padierna · Marbella",
-    "sv": "lör 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "no": "lør 19 des · Salón Linares Anantara Villa Padierna · Marbella",
-    "da": "lør 19 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "fi": "la 19 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677233&u=https%3A%2F%2Ffeverup.com%2Fm%2F677233&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-93a8727ea1ccba47.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Queen",
-   "headBottom": true,
-   "expires": "2026-12-20",
-   "sub": {
-    "en": "Sun 20 Dec · Hotel Miramar · Málaga",
-    "es": "Dom 20 dic · Hotel Miramar · Málaga",
-    "de": "So 20 Dez · Hotel Miramar · Málaga",
-    "fr": "dim. 20 déc. · Hotel Miramar · Málaga",
-    "sv": "sön 20 dec · Hotel Miramar · Málaga",
-    "no": "søn 20 des · Hotel Miramar · Málaga",
-    "da": "søn 20 dec · Hotel Miramar · Málaga",
-    "fi": "su 20 jouluk. · Hotel Miramar · Málaga"
+    "en": "Sat 15 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "es": "Sáb 15 ago · Salón Real, Gran Hotel Miramar · Málaga",
+    "de": "Sa 15 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fr": "sam. 15 août · Salón Real, Gran Hotel Miramar · Málaga",
+    "sv": "lör 15 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "no": "lør 15 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "da": "lør 15 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fi": "la 15 elok. · Salón Real, Gran Hotel Miramar · Málaga"
    },
    "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=259530&u=https%3A%2F%2Ffeverup.com%2Fm%2F259530&intsrc=CATF_15532",
    "cta": {
@@ -1653,13 +567,90 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": null
+   }
   },
   {
-   "photo": "/assets/tiles/ext-8b98fd83f2cf7258.jpg",
+   "photo": "https://i.ytimg.com/vi/dvgZkm1xWPE/hqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 10%",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Coldplay vs. Imagine Dragons",
+   "headBottom": true,
+   "expires": "2026-08-21",
+   "sub": {
+    "en": "Fri 21 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Vie 21 ago · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Fr 21 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "ven. 21 août · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "fre 21 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "pe 21 elok. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=587458&u=https%3A%2F%2Ffeverup.com%2Fm%2F587458&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/eUDVUZZyA0M/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Tribute to Ludovico Einaudi at Gran Hotel Mirama",
+   "headBottom": true,
+   "expires": "2026-08-22",
+   "sub": {
+    "en": "Sat 22 Aug · Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Hotel Miramar · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=145066&u=https%3A%2F%2Ffeverup.com%2Fm%2F145066&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   }
+  },
+  {
+   "photo": "https://i.ytimg.com/vi/wuvtoyVi7vY/hqdefault.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -1672,18 +663,18 @@
    },
    "head": "Tribute to Phil Collins",
    "headBottom": true,
-   "expires": "2026-12-20",
+   "expires": "2026-08-22",
    "sub": {
-    "en": "Sun 20 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 20 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 20 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 20 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 20 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 20 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 20 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 20 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
+    "en": "Sat 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "es": "Sáb 22 ago · Salón Real del Gran Hotel Miramar · Málaga",
+    "de": "Sa 22 Aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fr": "sam. 22 août · Salón Real del Gran Hotel Miramar · Málaga",
+    "sv": "lör 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "no": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "da": "lør 22 aug · Salón Real del Gran Hotel Miramar · Málaga",
+    "fi": "la 22 elok. · Salón Real del Gran Hotel Miramar · Málaga"
    },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=746181&u=https%3A%2F%2Ffeverup.com%2Fm%2F746181&intsrc=CATF_15532",
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643698&u=https%3A%2F%2Ffeverup.com%2Fm%2F643698&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -1693,411 +684,10 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
+   }
   },
   {
-   "photo": "/assets/tiles/ext-418985cb0f2a82b4.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas: Christmas Classics",
-   "headBottom": true,
-   "expires": "2026-12-20",
-   "sub": {
-    "en": "Sun 20 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Dom 20 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "So 20 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "dim. 20 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "sön 20 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "søn 20 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "søn 20 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "su 20 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=249844&u=https%3A%2F%2Ffeverup.com%2Fm%2F249844&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-1cc136c059dcc034.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Premium: Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-12-20",
-   "sub": {
-    "en": "Sun 20 Dec · Museo Carmen Thyssen Málaga · Málaga",
-    "es": "Dom 20 dic · Museo Carmen Thyssen Málaga · Málaga",
-    "de": "So 20 Dez · Museo Carmen Thyssen Málaga · Málaga",
-    "fr": "dim. 20 déc. · Museo Carmen Thyssen Málaga · Málaga",
-    "sv": "sön 20 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "no": "søn 20 des · Museo Carmen Thyssen Málaga · Málaga",
-    "da": "søn 20 dec · Museo Carmen Thyssen Málaga · Málaga",
-    "fi": "su 20 jouluk. · Museo Carmen Thyssen Málaga · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=126888&u=https%3A%2F%2Ffeverup.com%2Fm%2F126888&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Richard Yaussi · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-94dc684b65eecdef.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Coldplay vs. Ed Sheeran",
-   "headBottom": true,
-   "expires": "2026-12-23",
-   "sub": {
-    "en": "Wed 23 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Mié 23 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Mi 23 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "mer. 23 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "ons 23 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "ons 23 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "ons 23 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "ke 23 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643700&u=https%3A%2F%2Ffeverup.com%2Fm%2F643700&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-800d91ac55dde16e.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas Classics",
-   "headBottom": true,
-   "expires": "2026-12-26",
-   "sub": {
-    "en": "Sat 26 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 26 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 26 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 26 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 26 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 26 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 26 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 26 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=746179&u=https%3A%2F%2Ffeverup.com%2Fm%2F746179&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-85913a3870a9213b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas Movie Soundtracks",
-   "headBottom": true,
-   "expires": "2026-12-26",
-   "sub": {
-    "en": "Sat 26 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Sáb 26 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "Sa 26 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "sam. 26 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "lör 26 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "lør 26 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "lør 26 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "la 26 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=746180&u=https%3A%2F%2Ffeverup.com%2Fm%2F746180&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Michael Jackson",
-   "headBottom": true,
-   "expires": "2026-12-26",
-   "sub": {
-    "en": "Sat 26 Dec · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Sáb 26 dic · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Sa 26 Dez · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "sam. 26 déc. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "lör 26 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "lør 26 des · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "lør 26 dec · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "la 26 jouluk. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=792605&u=https%3A%2F%2Ffeverup.com%2Fm%2F792605&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-9038e3d47275175b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas: Christmas Soundtracks/Zones",
-   "headBottom": true,
-   "expires": "2026-12-26",
-   "sub": {
-    "en": "Sat 26 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Sáb 26 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Sa 26 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "sam. 26 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "lör 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "lør 26 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "lør 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "la 26 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=142331&u=https%3A%2F%2Ffeverup.com%2Fm%2F142331&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-6beb4838eaff9a67.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 18%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Mecano",
-   "headBottom": true,
-   "expires": "2026-12-26",
-   "sub": {
-    "en": "Sat 26 Dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "es": "Sáb 26 dic · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "de": "Sa 26 Dez · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fr": "sam. 26 déc. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "sv": "lör 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "no": "lør 26 des · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "da": "lør 26 dec · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
-    "fi": "la 26 jouluk. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677231&u=https%3A%2F%2Ffeverup.com%2Fm%2F677231&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-d0acac036fb1a27b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "The Best of the 80s",
-   "headBottom": true,
-   "expires": "2026-12-27",
-   "sub": {
-    "en": "Sun 27 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 27 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 27 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 27 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 27 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 27 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 27 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 27 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=643699&u=https%3A%2F%2Ffeverup.com%2Fm%2F643699&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-85913a3870a9213b.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Christmas Movie Soundtracks",
-   "headBottom": true,
-   "expires": "2026-12-27",
-   "sub": {
-    "en": "Sun 27 Dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "es": "Dom 27 dic · Salón Real del Gran Hotel Miramar · Málaga",
-    "de": "So 27 Dez · Salón Real del Gran Hotel Miramar · Málaga",
-    "fr": "dim. 27 déc. · Salón Real del Gran Hotel Miramar · Málaga",
-    "sv": "sön 27 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "no": "søn 27 des · Salón Real del Gran Hotel Miramar · Málaga",
-    "da": "søn 27 dec · Salón Real del Gran Hotel Miramar · Málaga",
-    "fi": "su 27 jouluk. · Salón Real del Gran Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=746180&u=https%3A%2F%2Ffeverup.com%2Fm%2F746180&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-aca282f1e6d7e831.jpg",
+   "photo": "https://i.ytimg.com/vi/HgzGwKwLmgM/hqdefault.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 30%",
    "ribbon": {
@@ -2112,18 +702,18 @@
    },
    "head": "Queen vs. ABBA",
    "headBottom": true,
-   "expires": "2026-12-27",
+   "expires": "2026-08-22",
    "sub": {
-    "en": "Sun 27 Dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "es": "Dom 27 dic · Salón Linares Anantara Villa Padierna · Marbella",
-    "de": "So 27 Dez · Salón Linares Anantara Villa Padierna · Marbella",
-    "fr": "dim. 27 déc. · Salón Linares Anantara Villa Padierna · Marbella",
-    "sv": "sön 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "no": "søn 27 des · Salón Linares Anantara Villa Padierna · Marbella",
-    "da": "søn 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "fi": "su 27 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
+    "en": "Sat 22 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "es": "Sáb 22 ago · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "de": "Sa 22 Aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fr": "sam. 22 août · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "sv": "lör 22 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "no": "lør 22 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "da": "lør 22 aug · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella",
+    "fi": "la 22 elok. · Anantara Villa Padierna Palace Benahavís Marbella Resort · Marbella"
    },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677232&u=https%3A%2F%2Ffeverup.com%2Fm%2F677232&intsrc=CATF_15532",
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=182969&u=https%3A%2F%2Ffeverup.com%2Fm%2F182969&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -2133,13 +723,12 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": null
+   }
   },
   {
-   "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
+   "photo": "https://images.pexels.com/photos/27874607/pexels-photo-27874607.jpeg?auto=compress&cs=tinysrgb&w=800",
    "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 12%",
+   "pos": "50% 30%",
    "ribbon": {
     "en": "Candlelight event",
     "es": "Concierto Candlelight",
@@ -2150,20 +739,20 @@
     "da": "Candlelight-koncert",
     "fi": "Candlelight-konsertti"
    },
-   "head": "Tribute to Michael Jackson",
+   "head": "Disney Love Songs",
    "headBottom": true,
-   "expires": "2026-12-27",
+   "expires": "2026-08-23",
    "sub": {
-    "en": "Sun 27 Dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "es": "Dom 27 dic · Salón Linares Anantara Villa Padierna · Marbella",
-    "de": "So 27 Dez · Salón Linares Anantara Villa Padierna · Marbella",
-    "fr": "dim. 27 déc. · Salón Linares Anantara Villa Padierna · Marbella",
-    "sv": "sön 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "no": "søn 27 des · Salón Linares Anantara Villa Padierna · Marbella",
-    "da": "søn 27 dec · Salón Linares Anantara Villa Padierna · Marbella",
-    "fi": "su 27 jouluk. · Salón Linares Anantara Villa Padierna · Marbella"
+    "en": "Sun 23 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "es": "Dom 23 ago · Salón Real, Gran Hotel Miramar · Málaga",
+    "de": "So 23 Aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fr": "dim. 23 août · Salón Real, Gran Hotel Miramar · Málaga",
+    "sv": "sön 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "no": "søn 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "da": "søn 23 aug · Salón Real, Gran Hotel Miramar · Málaga",
+    "fi": "su 23 elok. · Salón Real, Gran Hotel Miramar · Málaga"
    },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=677233&u=https%3A%2F%2Ffeverup.com%2Fm%2F677233&intsrc=CATF_15532",
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=646736&u=https%3A%2F%2Ffeverup.com%2Fm%2F646736&intsrc=CATF_15532",
    "cta": {
     "en": "Get tickets →",
     "es": "Entradas →",
@@ -2173,8 +762,7 @@
     "no": "Billetter →",
     "da": "Billetter →",
     "fi": "Liput →"
-   },
-   "credit": "Photo: Zoran Veselinovic · CC BY-SA 2.0"
+   }
   }
  ],
  "info": [
