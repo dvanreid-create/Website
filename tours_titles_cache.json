@@ -23010,16 +23010,16 @@
     }
   },
   "824903": {
-    "h": "304af6956b7a023984c0bab72ae26f87",
+    "h": "93b0144292948163c72f90450d87196d",
     "names": {
-      "en": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Pa",
-      "es": "Hammam Al-Ándalus, Granada: Baño Árabe + Visita Guiada a la Alhambra y el Palacio Nazarí",
-      "de": "Hammam Al-Andalus, Granada: Arabisches Bad + Geführte Tour durch die Alhambra und den Nasridenpalast",
-      "fr": "Hammam Al-Andalus, Grenade : bain arabe + visite guidée de l'Alhambra et du Palais Nasride",
-      "sv": "Hammam Al-Andalus, Granada: Arabiskt bad + guidad tur av Alhambra och Nasrid-pa",
-      "no": "Hammam Al-Andalus, Granada: Arabisk bad + guidet tur i Alhambra og Nasrid-palassene",
-      "da": "Hammam Al-Andalus, Granada: Arabisk bad + guidet rundvisning i Alhambra og Nasrid-paladserne",
-      "fi": "Hammam Al-Andalus, Granada: arabialainen kylpy + opastettu kierros Alhambraan ja Nasridien pa"
+      "en": "Hammam Al-Andalus, Granada: Arabic Bath + Guided Tour of the Alhambra and the Nasrid Palaces",
+      "es": "Hammam Al-Andalus, Granada: Baño Árabe + Visita Guiada a la Alhambra y los Palacios Nazaríes",
+      "de": "Hammam Al-Andalus, Granada: Arabisches Bad + Geführte Tour durch die Alhambra und die Nasridenpaläste",
+      "fr": "Hammam Al-Andalus, Grenade : Bain arabe + visite guidée de l'Alhambra et des palais Nasrides",
+      "sv": "Hammam Al-Andalus, Granada: Arabiskt bad + guidad tur av Alhambra och Nasridpalatsen",
+      "no": "Hammam Al-Andalus, Granada: Arabisk bad + guidet tur til Alhambra og Nasrid-palassene",
+      "da": "Hammam Al-Andalus, Granada: Arabisk Bad + Guidet Tur til Alhambra og Nasrid-Paladserne",
+      "fi": "Hammam Al-Andalus, Granada: Arabialainen kylpy + opastettu kierros Alhambrassa ja Nasridien palatseissa"
     }
   },
   "viator:5707971P1": {
@@ -23150,6 +23150,19 @@
       "no": "Malaga byrundtur med Segway og tapas",
       "da": "Malaga City Tour med Segway og tapas",
       "fi": "Malagan kaupunkikierros Segwaylla ja tapaksilla"
+    }
+  },
+  "viator:5711048P1": {
+    "h": "b18e397ae54d01a940542e1da12ec0fe",
+    "names": {
+      "en": "Beginner Painting Workshop in Mijas Pueblo",
+      "es": "Taller de Pintura para Principiantes en Mijas Pueblo",
+      "de": "Malkurs für Anfänger in Mijas Pueblo",
+      "fr": "Atelier de peinture pour débutants à Mijas Pueblo",
+      "sv": "Nybörjarkurs i målning i Mijas Pueblo",
+      "no": "Nybegynnerkurs i maling i Mijas Pueblo",
+      "da": "Begynder Maleworkshop i Mijas Pueblo",
+      "fi": "Aloittelijoiden maalauskurssi Mijas Pueblossa"
     }
   }
 }
