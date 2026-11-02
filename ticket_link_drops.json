@@ -1,7 +1,5 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
  "generated": "2026-11-02",
- "drops": {
-  "Camellos — 10 aniversario": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your session limit · resets 2pm (Europe/Madrid))) [was DATE_MISMATCH"
- }
+ "drops": {}
 }
