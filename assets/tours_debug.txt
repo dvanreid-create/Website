@@ -1,10 +1,7 @@
-=== tours_debug Mon Nov  2 06:41:12 AM UTC 2026 ===
-srchash=1f3b171c9261fd56efae51d789bf0422
+=== tours_debug Mon Nov  2 08:40:27 AM UTC 2026 ===
+srchash=e8169190dee087b902bcaa5be3a187d7
 --- rebuild procs ---
-1000263 bash -c exec 9>/root/ops-stack/.tours_rebuild.lock; flock -n 9 || { echo "[tours] a rebuild is already running -> skip this launch"; exit 0; }; cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh > /root/ops-stack/tours_rebuild.log 2>&1 && echo "$TOURS_THASH" > /root/ops-stack/.tours_srchash
-1000269 docker compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh
-1000299 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime -e HOME=/root -e SKIP_SCRAPE=1 -e HOME_ONLY=1 worker bash /app/orchestrator/tours_deploy.sh
-1000344 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
 HEAD is now at a99810619b1 Tours rebuild 2026-11-02T05:39:15Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
@@ -20,3 +17,6 @@ HEAD is now at a99810619b1 Tours rebuild 2026-11-02T05:39:15Z [vps]
 [bygo] gallery self-hosted images: 44 of 62
 Built 8 languages · 200 landing pages · 1391 tour pages · 28 guide pages · 2120 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1391 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   a99810619b1..a07dce9d8c5  main -> main
+[tours] push complete -> Netlify deploys any new commit (~1-2 min)
