@@ -2132,6 +2132,51 @@
      "city": "Torremolinos",
      "why": "ADDED 2026-10-04 (Sofia's Enterticket festivals screenshot; not on the live site). Browser-confirmed: Enterticket event 829149, Perita Fest, Auditorio Municipal Príncipe de Asturias, Torremolinos, organiser Eternidad Eventos; 2-day pass 15 EUR, listing 'From €11'. Sat 28 Nov 16:00-04:00: Aarón Sevilla / Alba Dreid / Al Liquindoi / Antonio Romero / Ariel Estrella / La Corredera / Los Est… (list truncated on page)."
     },
+    "tributo de alejandro sanz": {
+     "url": "https://www.enterticket.es/eventos/tributo-de-alejandro-sanz-207623",
+     "prefer": "map",
+     "date": "08/11/2026",
+     "price": "10 EUR",
+     "venue": "AWA Málaga",
+     "venue_name": "Tributo de Alejandro Sanz - Tardeo de Rumba",
+     "genre": "Tribute",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-03 (weekly vendor gap check). Browser-confirmed on Enterticket event 207623: Sun 8 Nov 2026, AWA Málaga (C. Cenit 2, Puerto de la Torre), first Tardeo de Rumba, tribute to Alejandro Sanz with David Manito, from 10 EUR, in stock. NO START TIME on the page (00:00 placeholder) - left blank."
+    },
+    "asi canta jerez": {
+     "url": "https://www.enterticket.es/eventos/asi-canta-jerez-estepona-578417",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "22:30",
+     "price": "33 EUR",
+     "venue": "Palacio de Congresos",
+     "venue_name": "Así Canta Jerez en Navidad - 15 aniversario",
+     "genre": "Flamenco",
+     "city": "Estepona",
+     "why": "ADDED 2026-11-03 (weekly vendor gap check). Browser-confirmed on Enterticket event 578417: Sat 14 Nov 2026, Palacio de Congresos, Estepona, show 22:30h, doors 19:00h, from 33 EUR, in stock. Flamenco/zambomba Christmas tour, 15th anniversary, direction Luis de Perikin."
+    },
+    "delto tributo a extremoduro": {
+     "url": "https://www.enterticket.es/eventos/delto-tributo-a-extremoduro-en-malaga-19-diciembre-2026-449183",
+     "prefer": "map",
+     "date": "19/12/2026",
+     "price": "13.20 EUR",
+     "venue": "Sala Leblón",
+     "venue_name": "Deltó - Tributo a Extremoduro",
+     "genre": "Tribute",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-03 (weekly vendor gap check). Browser-confirmed on Enterticket event 449183: Sat 19 Dec 2026, Sala Leblón, Málaga, from 13.20 EUR, in stock. NO START TIME on the page (00:00 placeholder) - left blank."
+    },
+    "mestiza presents sacro by kokun": {
+     "url": "https://www.enterticket.es/eventos/mestiza-presents-sacro-by-kokun-247056",
+     "prefer": "map",
+     "date": "25/12/2026",
+     "price": "22 EUR",
+     "venue": "Auditorio Municipal Príncipe de Asturias",
+     "venue_name": "Mestiza presents Sacro by Kokun",
+     "genre": "Mixed",
+     "city": "Torremolinos",
+     "why": "ADDED 2026-11-03 (weekly vendor gap check). Browser-confirmed on Enterticket event 247056: Fri 25 Dec 2026, Auditorio Príncipe de Asturias, Torremolinos, from 22 EUR, in stock. NO START TIME on the page (00:00 placeholder) - left blank."
+    },
     "el jabegote festival flamenco": {
      "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229858097744",
      "prefer": "map",
