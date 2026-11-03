@@ -3105,6 +3105,16 @@
      "genre": "Classical",
      "why": "ADDED 2026-10-18. BROWSER-CONFIRMED: unientradas 26-27OFM05 renders 'CONCIERTO OFM PROGRAMA 5, 10 - 11 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00'. OFM site programa-05: Part Cantus in memoriam Britten, Britten violin concerto (Leia Zhu), Elgar Enigma, dir. Jose Luis Gomez. The calendar called it 'Programa 4 (Part, Britten y Elgar)' - WRONG; those two rows are blocked in not_music_blocklist.json."
     },
+    "concierto navidad ofm 18 dic": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-navidad-ofm/26-27OFM06",
+     "prefer": "map",
+     "date": "18/12/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto Navidad OFM",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-03 (Sofia, from the Echegaray/Cervantes December check). BROWSER-CONFIRMED in Sofia's Edge: unientradas 26-27OFM06 renders 'CONCIERTO NAVIDAD OFM, 17 - 18 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00', BOTH nights on sale (check icons, not Agotado). Echegaray programme: Navidad, P.I. Tchaikovsky, R. Strauss, D. Forrest. The site carried only 17 Dec (feed row); this is the missing 18 Dec. Name = the feed's own ('Concierto Navidad OFM') so the feed row is not duplicated. NO price on the page, so none is set."
+    },
     "duo ballix 12 nov": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
