@@ -4815,6 +4815,61 @@
     }
    }
   },
+  "rincondelavictoria": {
+   "complete": true,
+   "source": "https://www.rincondelavictoria.es/eventos",
+   "note": "Manual seed 2026-11-03 (Sofia): Ciclo Noviembre Musical, event page read 2026-11-03. refresh_townhalls.py may replace this block weekly; if it does, check that all four Fridays survive.",
+   "acts": {
+    "ciclo noviembre musical 06/11/2026": {
+     "date": "06/11/2026",
+     "time": "20:00",
+     "venue": "Casa Fuerte de Bezmiliana",
+     "venue_name": "Ciclo Noviembre Musical",
+     "city": "Rincón de la Victoria",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
+     "why": "Ayuntamiento de Rincón de la Victoria, agenda oficial (página del evento leída 2026-11-03): ciclo los viernes 6, 13, 20 y 27 de noviembre en la Casa Fuerte Bezmiliana, formato íntimo y acústico con jazz; 20:00. Sin artistas ni precio publicados."
+    },
+    "ciclo noviembre musical 13/11/2026": {
+     "date": "13/11/2026",
+     "time": "20:00",
+     "venue": "Casa Fuerte de Bezmiliana",
+     "venue_name": "Ciclo Noviembre Musical",
+     "city": "Rincón de la Victoria",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
+     "why": "Ayuntamiento de Rincón de la Victoria, agenda oficial (página del evento leída 2026-11-03): ciclo los viernes 6, 13, 20 y 27 de noviembre en la Casa Fuerte Bezmiliana, formato íntimo y acústico con jazz; 20:00. Sin artistas ni precio publicados."
+    },
+    "ciclo noviembre musical 20/11/2026": {
+     "date": "20/11/2026",
+     "time": "20:00",
+     "venue": "Casa Fuerte de Bezmiliana",
+     "venue_name": "Ciclo Noviembre Musical",
+     "city": "Rincón de la Victoria",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
+     "why": "Ayuntamiento de Rincón de la Victoria, agenda oficial (página del evento leída 2026-11-03): ciclo los viernes 6, 13, 20 y 27 de noviembre en la Casa Fuerte Bezmiliana, formato íntimo y acústico con jazz; 20:00. Sin artistas ni precio publicados."
+    },
+    "ciclo noviembre musical 27/11/2026": {
+     "date": "27/11/2026",
+     "time": "20:00",
+     "venue": "Casa Fuerte de Bezmiliana",
+     "venue_name": "Ciclo Noviembre Musical",
+     "city": "Rincón de la Victoria",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Check link",
+     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
+     "why": "Ayuntamiento de Rincón de la Victoria, agenda oficial (página del evento leída 2026-11-03): ciclo los viernes 6, 13, 20 y 27 de noviembre en la Casa Fuerte Bezmiliana, formato íntimo y acústico con jazz; 20:00. Sin artistas ni precio publicados."
+    }
+   }
+  },
   "marbellacultura": {
    "complete": true,
    "source": "https://www.marbella.es/agenda.html",
@@ -5571,57 +5626,6 @@
      "price": "€10 patio / €15 anfiteatro",
      "url": "https://www.fuengirola.es/evento/zarzuela-la-tabernera-del-puerto/",
      "why": "Zarzuela de Sorozábal programada en la agenda municipal de Cultura, con entradas en entradas.fuengirola.es."
-    }
-   }
-  },
-  "rincondelavictoria": {
-   "complete": true,
-   "source": "https://www.rincondelavictoria.es/eventos",
-   "note": "Auto-refreshed weekly by refresh_townhalls.py — town-hall-owned live music only.",
-   "acts": {
-    "ciclo noviembre musical 06/11/2026": {
-     "date": "06/11/2026",
-     "time": "20:00",
-     "venue": "Casa Fuerte de Bezmiliana",
-     "venue_name": "Ciclo Noviembre Musical",
-     "genre": "mixed",
-     "paid_free": "Free",
-     "price": "Check link",
-     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
-     "why": "Ciclo municipal de conciertos acústicos e íntimos con jazz como novedad, en la Casa Fuerte de Bezmiliana."
-    },
-    "ciclo noviembre musical 13/11/2026": {
-     "date": "13/11/2026",
-     "time": "",
-     "venue": "Casa Fuerte de Bezmiliana",
-     "venue_name": "Ciclo Noviembre Musical",
-     "genre": "mixed",
-     "paid_free": "Free",
-     "price": "Check link",
-     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
-     "why": "Segunda jornada del ciclo municipal de música acústica y jazz en la Casa Fuerte de Bezmiliana."
-    },
-    "ciclo noviembre musical 20/11/2026": {
-     "date": "20/11/2026",
-     "time": "",
-     "venue": "Casa Fuerte de Bezmiliana",
-     "venue_name": "Ciclo Noviembre Musical",
-     "genre": "mixed",
-     "paid_free": "Free",
-     "price": "Check link",
-     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
-     "why": "Tercera jornada del ciclo municipal de música acústica y jazz en la Casa Fuerte de Bezmiliana."
-    },
-    "ciclo noviembre musical 27/11/2026": {
-     "date": "27/11/2026",
-     "time": "",
-     "venue": "Casa Fuerte de Bezmiliana",
-     "venue_name": "Ciclo Noviembre Musical",
-     "genre": "mixed",
-     "paid_free": "Free",
-     "price": "Check link",
-     "url": "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical",
-     "why": "Última jornada del ciclo municipal de música acústica y jazz en la Casa Fuerte de Bezmiliana."
     }
    }
   },
