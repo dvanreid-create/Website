@@ -913,6 +913,16 @@
    "source": "https://teatrodelsoho.com/programacion/?temporada=temporada-2025-2026 + ?temporada=temporada-2026-2027",
    "note": "READ BOTH SEASONS, 16 Jul 2026. The bare /programacion/ page is an ALL-SEASONS archive with no years on the dates ('18 - 19 Jul') - unusable. The ?temporada= filter fixes that: it returns ONE season, and the year is then derivable because a Soho season runs Sep->Jul, so Sep-Dec = the FIRST year of the label and Jan-Aug = the SECOND. Gershwin '18 - 19 Jul' in temporada-2025-2026 = 18-19 Jul 2026. Verified against the live calendar, which carries it on exactly those dates. Soho sells through ECI directly (its own 'Compra de entradas' points at elcorteingles.es/entradas/microsites/teatro-soho/), so eci_aff() wraps these and they earn 1% with no price gate needed - same seller, same price. Only the in/near-window entries are listed; the rest of both seasons is past or months out. IF SOHO ANNOUNCES A NEW SHOW, ADD IT HERE: this venue is 'complete', so an event absent from this list is DELETED as a phantom.",
    "acts": {
+    "hija de la luna": {
+     "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-57215572153087-soho_onebox-channel",
+     "prefer": "eci",
+     "date": "04/01/2027",
+     "time": "17:00",
+     "price": "Desde 25 EUR",
+     "venue_name": "Hija de la Luna - El mejor homenaje a Mecano",
+     "genre": "Tribute",
+     "why": "ADDED 2026-11-04 (Sofia: add all six, commissioned). ECI (Awin 13034) Soho channel page opened 2026-11-04: 'Hija de la Luna en Malaga', Teatro del Soho CaixaBank, 4 de Enero de 2027, A las 17:00h, Desde 25,00 EUR, COMPRAR live. Listed in the Soho block because the block is complete:true and would otherwise gate it out (same as the Christmas concert)."
+    },
     "concierto de navidad en el soho": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
      "date": "25/12/2026",
@@ -3124,6 +3134,61 @@
      "venue_name": "Concierto Extraordinario de Año Nuevo",
      "genre": "Classical",
      "why": "ADDED 2026-11-04 (Sofia yes). Orquesta Filarmonica de Malaga, Sun 3 Jan 2027 20:00, Teatro Cervantes. unientradas page /espectaculo/concierto-extraordinario-de-ano-nuevo/26-27NuevoConcie read in-browser earlier this autumn (buyable, 'Ver precios'); no price set. RE-CHECK the page opens and still sells before relying on it."
+    },
+    "ennio morricone y nino rota cine philharmonic orchestra": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-e-morricone-n-rota-todos-387387KBN35/",
+     "prefer": "eci",
+     "date": "08/01/2027",
+     "time": "20:00",
+     "price": "Desde 59,13 EUR",
+     "venue": "Palacio de Ferias y Congresos de Málaga",
+     "venue_name": "Ennio Morricone & Nino Rota - Cine Philharmonic Orchestra",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia: add all six, commissioned). ECI (Awin 13034) page opened 2026-11-04, title 'Concierto Ennio Morricone & Nino Rota - Cine Philharmonic Orchestra en Malaga'; Fri 8 Jan 2027 20:00 FYCMA, desde 59,13 EUR (read 2026-10-29, COMPRAR, not sold out)."
+    },
+    "johann strauss gran concierto de ano nuevo": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-gran-concierto-de-ano-nuevo-todos-389389KBN35/",
+     "prefer": "eci",
+     "date": "10/01/2027",
+     "time": "16:00",
+     "price": "Desde 61,28 EUR",
+     "venue": "Palacio de Ferias y Congresos de Málaga",
+     "venue_name": "Johann Strauss: Gran Concierto de Año Nuevo - Strauss Philharmonic Orchestra & Ballet",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia: add all six). ECI page opened 2026-11-04 (title 'Johann Strauss: Gran Concierto de Ano Nuevo - Strauss Philharmonic Orchestra & Ballet en Malaga'); Sun 10 Jan 2027 16:00 FYCMA, desde 61,28 EUR (read 2026-10-29)."
+    },
+    "la mejor musica de cine": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-la-mejor-musica-de-cine-todos-392392KBN35/",
+     "prefer": "eci",
+     "date": "17/01/2027",
+     "time": "20:00",
+     "price": "Desde 59,13 EUR",
+     "venue": "Palacio de Ferias y Congresos de Málaga",
+     "venue_name": "La Mejor Música de Cine - Cine Philharmonic Orchestra",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia: add all six). ECI page opened 2026-11-04 ('Concierto La Mejor Musica de Cine - Cine Philharmonic Orchestra en Malaga'); Sun 17 Jan 2027 20:00 FYCMA, desde 59,13 EUR (read 2026-10-29)."
+    },
+    "john williams y los grandes del cine": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-john-williams-y-los-grandes-del-cine-todos-394394KBN35/",
+     "prefer": "eci",
+     "date": "23/01/2027",
+     "time": "20:00",
+     "price": "Desde 59,13 EUR",
+     "venue": "Palacio de Ferias y Congresos de Málaga",
+     "venue_name": "John Williams y los grandes del cine",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia: add all six). ECI page opened 2026-11-04 ('Concierto JOHN WILLIAMS y los grandes del cine en Malaga'); Sat 23 Jan 2027 20:00 FYCMA (the 16:00 slot that day is the La Bella Durmiente ballet, not this), desde 59,13 EUR (read 2026-10-29)."
+    },
+    "hans zimmer y los grandes del cine": {
+     "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-hans-zimmer-y-los-grandes-del-cine-todos-396396KBN35/",
+     "prefer": "eci",
+     "date": "30/01/2027",
+     "time": "20:00",
+     "price": "Desde 59,13 EUR",
+     "venue": "Palacio de Ferias y Congresos de Málaga",
+     "venue_name": "Hans Zimmer y los grandes del cine",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia: add all six). ECI page opened 2026-11-04 ('Concierto Hans Zimmer y los grandes del cine en Malaga'); Sat 30 Jan 2027 20:00 FYCMA, desde 59,13 EUR (read 2026-10-29). Past the 60-day window until ~1 Dec."
     },
     "red zeppelin": {
      "url": "https://www.lacocheraentradas.com/shows/details/2688/red-zeppelin",
