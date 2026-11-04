@@ -3115,6 +3115,18 @@
      "genre": "Classical",
      "why": "ADDED 2026-11-03 (Sofia, from the Echegaray/Cervantes December check). BROWSER-CONFIRMED in Sofia's Edge: unientradas 26-27OFM06 renders 'CONCIERTO NAVIDAD OFM, 17 - 18 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00', BOTH nights on sale (check icons, not Agotado). Echegaray programme: Navidad, P.I. Tchaikovsky, R. Strauss, D. Forrest. The site carried only 17 Dec (feed row); this is the missing 18 Dec. Name = the feed's own ('Concierto Navidad OFM') so the feed row is not duplicated. NO price on the page, so none is set."
     },
+    "red zeppelin": {
+     "url": "https://www.lacocheraentradas.com/shows/details/2688/red-zeppelin",
+     "prefer": "map",
+     "date": "08/12/2026",
+     "time": "19:00",
+     "price": "18 EUR",
+     "venue": "La Cochera Cabaret",
+     "venue_name": "Red Zeppelin - Tributo a Led Zeppelin",
+     "genre": "Tribute",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-04 (press note from the band, 4 Nov; Sofia: add it). BROWSER-CONFIRMED on lacocheraentradas.com show 2688: Tue 8 Dec 2026 (national holiday) 19:00, La Cochera Cabaret (Av. de los Guindos 19, Malaga), Entrada general de pie 18 EUR (venta anticipada), COMPRAR ENTRADAS live. Two-hour tribute recreating Led Zeppelin's 1973 concerts. Not commissioned."
+    },
     "duo ballix 12 nov": {
      "url": "https://www.giglon.com/evento/duo-ballix-musica-espanola-para-violonchelo-y-piano",
      "prefer": "map",
