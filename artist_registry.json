@@ -2340,7 +2340,8 @@
 "name": "Así canta Jerez en Navidad",
 "mles": 58.7,
 "links": [
-"https://conciertos.club/malaga/conciertos/126709-asi-canta-jerez-en-navidad"
+"https://conciertos.club/malaga/conciertos/126709-asi-canta-jerez-en-navidad",
+"https://www.enterticket.es/eventos/asi-canta-jerez-estepona-578417"
 ],
 "genre": "flamenco"
 },
@@ -2695,10 +2696,10 @@
 "genre": "pop"
 },
 "delto": {
-"name": "Deltó!",
+"name": "Deltó",
 "mles": 53.9,
 "links": [
-"https://conciertos.club/malaga/conciertos/126715-delto-tributo-a-extremoduro"
+"https://www.enterticket.es/eventos/delto-tributo-a-extremoduro-en-malaga-19-diciembre-2026-449183"
 ],
 "genre": "tribute"
 },
@@ -3410,5 +3411,29 @@
 "https://www.viralagenda.com/es/p/v-TheCazbahLiveLounge"
 ],
 "genre": "tribute"
+},
+"concierto-extraordinario-de-ano-nuevo": {
+"name": "Concierto Extraordinario de Año Nuevo",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-extraordinario-de-ano-nuevo/26-27NuevoConcie"
+],
+"genre": "classical"
+},
+"tributo-de-alejandro-sanz": {
+"name": "Tributo de Alejandro Sanz",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/tributo-de-alejandro-sanz-207623"
+],
+"genre": "tribute"
+},
+"mestiza-presents-sacro-by-kokun": {
+"name": "Mestiza presents Sacro by Kokun",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/mestiza-presents-sacro-by-kokun-247056"
+],
+"genre": "mixed"
 }
 }
