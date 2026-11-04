@@ -3190,6 +3190,18 @@
      "genre": "Classical",
      "why": "ADDED 2026-11-04 (Sofia: add all six). ECI page opened 2026-11-04 ('Concierto Hans Zimmer y los grandes del cine en Malaga'); Sat 30 Jan 2027 20:00 FYCMA, desde 59,13 EUR (read 2026-10-29). Past the 60-day window until ~1 Dec."
     },
+    "lavanda un sueno cercano": {
+     "url": "https://www.bandsintown.com/es/e/108847621-lavanda-at-la-casa-invisible",
+     "prefer": "map",
+     "date": "14/11/2026",
+     "time": "20:00",
+     "price": "5 EUR",
+     "venue": "La Casa Invisible",
+     "city": "Málaga",
+     "venue_name": "Lavanda presenta Un sueño cercano + Siameses",
+     "genre": "Indie",
+     "why": "ADDED 2026-11-04 (Sofia, after the promoter press note + her own Bandsintown read in Edge). Press note (Silvia Cantero, cuestiondemedios.com): Sat 14 Nov 2026, La Casa Invisible (C/ Andres Perez 8, Malaga), doors 19:30, Siameses (Granada) 20:00, Lavanda 21:00, 5 EUR. Bandsintown event 108847621 shows Sat 14 nov 2026 20:00 'Lavanda Presenta Un Sueno Cercano - Malaga' (no ticket button). NO online seller found, so the card is door-only: see door_only_events.json (Paid, 'Check venue', links to the Bandsintown page). Time = 20:00 (first band); Lavanda herself 21:00. Non-commissioned."
+    },
     "red zeppelin": {
      "url": "https://www.lacocheraentradas.com/shows/details/2688/red-zeppelin",
      "prefer": "map",
