@@ -3435,5 +3435,13 @@
 "https://www.enterticket.es/eventos/mestiza-presents-sacro-by-kokun-247056"
 ],
 "genre": "mixed"
+},
+"ciclo-noviembre-musical": {
+"name": "Ciclo Noviembre Musical",
+"mles": 0.0,
+"links": [
+"https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical"
+],
+"genre": "mixed"
 }
 }
