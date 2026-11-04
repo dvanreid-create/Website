@@ -3115,6 +3115,16 @@
      "genre": "Classical",
      "why": "ADDED 2026-11-03 (Sofia, from the Echegaray/Cervantes December check). BROWSER-CONFIRMED in Sofia's Edge: unientradas 26-27OFM06 renders 'CONCIERTO NAVIDAD OFM, 17 - 18 diciembre 2026, TEATRO CERVANTES, Jueves/Viernes 20:00', BOTH nights on sale (check icons, not Agotado). Echegaray programme: Navidad, P.I. Tchaikovsky, R. Strauss, D. Forrest. The site carried only 17 Dec (feed row); this is the missing 18 Dec. Name = the feed's own ('Concierto Navidad OFM') so the feed row is not duplicated. NO price on the page, so none is set."
     },
+    "concierto extraordinario de ano nuevo": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-extraordinario-de-ano-nuevo/26-27NuevoConcie",
+     "prefer": "map",
+     "date": "03/01/2027",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto Extraordinario de Año Nuevo",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-04 (Sofia yes). Orquesta Filarmonica de Malaga, Sun 3 Jan 2027 20:00, Teatro Cervantes. unientradas page /espectaculo/concierto-extraordinario-de-ano-nuevo/26-27NuevoConcie read in-browser earlier this autumn (buyable, 'Ver precios'); no price set. RE-CHECK the page opens and still sells before relying on it."
+    },
     "red zeppelin": {
      "url": "https://www.lacocheraentradas.com/shows/details/2688/red-zeppelin",
      "prefer": "map",
