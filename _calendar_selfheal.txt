@@ -1,8 +1,8 @@
-checked 2026-11-05T03:36:59Z
+checked 2026-11-05T06:47:04Z
 newest_calendar 2026-10-26_malaga-concerts-festivals_next60days.xlsx age_days 10
-selfheal regen FAILED 2026-11-03T06:54:23Z (rc=0)
-===== selfheal regen START 2026-11-04T03:18:56Z =====
 selfheal regen FAILED 2026-11-04T03:28:39Z (rc=0)
 ===== selfheal regen START 2026-11-04T06:50:45Z =====
 selfheal regen FAILED 2026-11-04T06:50:49Z (rc=0)
 ===== selfheal regen START 2026-11-05T03:36:59Z =====
+selfheal regen FAILED 2026-11-05T03:42:18Z (rc=0)
+===== selfheal regen START 2026-11-05T06:47:04Z =====
