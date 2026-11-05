@@ -2303,16 +2303,17 @@
 "name": "Chanwei",
 "mles": 0.0,
 "links": [
-"https://lacocheraentradas.com/shows/details/2704/chanwei-el-gremio-balkan-fun-live-session"
-]
+"https://www.lacocheraentradas.com/shows/details/2704/chanwei-el-gremio-balkan-fun-live-session"
+],
+"genre": "mixed"
 },
 "gonzalo-alhambra": {
 "name": "Gonzalo Alhambra",
 "mles": 55.1,
 "links": [
-"https://conciertos.club/malaga/conciertos/120084-gonzalo-alhambra"
+"https://www.lacocheraentradas.com/shows/details/2459/gonzalo-alhambra"
 ],
-"genre": "pop"
+"genre": "mixed"
 },
 "so-perfect-en-concierto": {
 "name": "So Perfect en concierto",
@@ -2326,15 +2327,17 @@
 "name": "XIV Aniversario de la Sociedad del Blues",
 "mles": 53.1,
 "links": [
-"https://lacocheraentradas.com/shows/details/2663/xiv-aniversario-de-la-sociedad-del-blues"
-]
+"https://www.lacocheraentradas.com/shows/details/2663/xiv-aniversario-de-la-sociedad-del-blues"
+],
+"genre": "blues"
 },
 "red-zeppelin": {
 "name": "Red Zeppelin",
 "mles": 44.8,
 "links": [
-"https://lacocheraentradas.com/shows/details/2688/red-zeppelin"
-]
+"https://www.lacocheraentradas.com/shows/details/2688/red-zeppelin"
+],
+"genre": "tribute"
 },
 "asi-canta-jerez-en-navidad": {
 "name": "Así canta Jerez en Navidad",
@@ -3443,5 +3446,61 @@
 "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical"
 ],
 "genre": "mixed"
+},
+"lavanda-presenta-un-sueno-cercano": {
+"name": "Lavanda presenta Un sueño cercano",
+"mles": 0.0,
+"links": [
+"https://www.bandsintown.com/es/e/108847621-lavanda-at-la-casa-invisible"
+],
+"genre": "indie"
+},
+"los-hombres-rana": {
+"name": "Los Hombres Rana",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2699/los-hombres-rana-tributo-a-el-ultimo-de-la-fila"
+],
+"genre": "tribute"
+},
+"extremopuro": {
+"name": "Extremopuro",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2609/extremopuro"
+],
+"genre": "rock"
+},
+"verso-libre-gospel-band": {
+"name": "Verso Libre Gospel Band",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2653/verso-libre-gospel-band"
+],
+"genre": "jazz"
+},
+"sotano-sur": {
+"name": "Sótano Sur",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2713/sotano-sur"
+],
+"genre": "mixed"
+},
+"digo-lo-bien": {
+"name": "Digo Lo Bien",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2686/digo-lo-bien"
+],
+"genre": "mixed"
+},
+"free-soul-band": {
+"name": "Free Soul Band",
+"mles": 0.0,
+"links": [
+"https://www.lacocheraentradas.com/shows/details/2723/free-soul-band"
+],
+"genre": "jazz"
 }
 }

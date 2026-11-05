@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-29",
- "checked": 3,
+ "generated": "2026-11-05",
+ "checked": 5,
  "flagged": [
   {
    "slug": "haze",
@@ -10,6 +10,15 @@
    "wikidata": "Q1241630",
    "desc": "original song written and composed by Jimi Hendrix",
    "act_genre": "rock"
+  },
+  {
+   "slug": "porn",
+   "name": "Porn",
+   "article": "https://es.wikipedia.org/wiki/Porno_alternativo",
+   "reason": "wikidata: not a musical entity (pornography genre, género pornográfico | )",
+   "wikidata": "Q433245",
+   "desc": "pornography involving members of subcultures",
+   "act_genre": "tribute"
   }
  ]
 }
