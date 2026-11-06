@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-11-05",
-  "count": 110,
+  "generated": "2026-11-06",
+  "count": 111,
   "items": [
     {
       "sku": "194665",
@@ -158,6 +158,20 @@
       "d": "Alhambra: Skip-the-line Admission + Guided Tour in Málaga. Get your tickets on Fever now!"
     },
     {
+      "sku": "94749",
+      "n": "Atrapa al Elfo: ¡Sigue sus travesuras!",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €14",
+      "img": "1f2fb997-8fff-4b54-b2f5-1fdf87328be0.png",
+      "url": "https://feverup.com/m/94749/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=94749&u=https%3A%2F%2Ffeverup.com%2Fm%2F94749&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Tickets 🎫 Acceso a juego Atrapa al Elfo para 1 dispositivo móvil (una sesión de juego) Qué vas a disfrutar 🎄 Una aventura mágica al aire libre diseñada para niños de 4 a 8 años 💫 Un juego interactivo con retos, acertijos, puzles y minijuegos que harán volar la imaginación 🎉 Una experiencia navid"
+    },
+    {
       "sku": "676381",
       "n": "Authentic Flamenco at El Gallo Ronco",
       "c": "tours",
@@ -240,6 +254,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693793&u=https%3A%2F%2Ffeverup.com%2Fm%2F693793&intsrc=CATF_15532",
       "feat": 0,
       "d": "Boat Tour of Málaga in Málaga. Get your tickets on Fever now!"
+    },
+    {
+      "sku": "834640",
+      "n": "Búsqueda del Tesoro Navideña: Edición Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €25",
+      "img": "a858ceae-6639-40c3-b48a-20a097fb8e0f.jpeg",
+      "url": "https://feverup.com/m/834640/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=834640&u=https%3A%2F%2Ffeverup.com%2Fm%2F834640&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "¡Búsqueda del tesoro navideña guiada por una aplicación a través del casco antiguo de Málaga con pistas, acertijos y soporte de chat! ¡Consigue tus entradas ahora!"
     },
     {
       "sku": "693798",
@@ -438,20 +466,6 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
-      "sku": "708013",
-      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €435",
-      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
-      "url": "https://feverup.com/m/708013/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
-    },
-    {
       "sku": "590844",
       "n": "Geoparque de Granada: Tour guiado + Transporte",
       "c": "tours",
@@ -564,20 +578,6 @@
       "d": "<empty>"
     },
     {
-      "sku": "653967",
-      "n": "La La Love You Tour - Malaga - Paris 15",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €30",
-      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
-      "url": "https://feverup.com/m/653967/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
-    },
-    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -617,7 +617,7 @@
       "url": "https://feverup.com/m/785182/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=785182&u=https%3A%2F%2Ffeverup.com%2Fm%2F785182&intsrc=CATF_15532",
       "feat": 0,
-      "d": "⭐ Losing Judgment kicks off with Sergio Alamar in the dock. Strong opinions, audience cases and laughter decide the verdict. Highlights 🎭 Step into a courtroom-style monologue driven by the sharp humour of Sergio Alamar 😂 Watch as controversial opinions turn into laughter from the very first state"
+      "d": "Sergio Alamar laughs at everything that"
     },
     {
       "sku": "553173",
@@ -1052,6 +1052,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141088&u=https%3A%2F%2Ffeverup.com%2Fm%2F141088&intsrc=CATF_15532",
       "feat": 0,
       "d": "Explore the art of Picasso at the Centre Pompidou Málaga. Admire more than 80 works of art and discover avant-garde exhibitions - get your tickets now!"
+    },
+    {
+      "sku": "141830",
+      "n": "Malaga: Russian Museum Collection",
+      "c": "museums",
+      "cat": "Museum",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €8",
+      "img": "8fca1570-677d-11ee-8265-e20a9e45a024",
+      "url": "https://feverup.com/m/141830/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141830&u=https%3A%2F%2Ffeverup.com%2Fm%2F141830&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "⭐ Malaga: Russian Museum Collection. Immerse yourself in Russian art in a former tobacco paradise! Tickets 🎫 Ticket - Regular Highlights 🎭 Discover the charm of La Tabacalera"
     },
     {
       "sku": "141810",

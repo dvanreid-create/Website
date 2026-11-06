@@ -1,6 +1,6 @@
 {
- "count": 18,
- "generated": "2026-11-05T05:02:34Z",
+ "count": 17,
+ "generated": "2026-11-06T05:02:33Z",
  "items": [
   {
    "sku": "entradas-disney-on-ice",
@@ -222,22 +222,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmusic-circus-show-on-ice%2F",
    "url": "https://www.entradas.com/en/artist/music-circus-show-on-ice/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-six-el-musical",
-   "n": "SIX el Musical",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €29.00",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2025/TGV_six_el_musical_ventas_ecom_222x222_promo25.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsix-el-musical%2F",
-   "url": "https://www.entradas.com/en/artist/six-el-musical/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
