@@ -366,7 +366,7 @@
 },
 "holi-not-holi": {
 "url": "",
-"t": 1792593675.7100723,
+"t": 1793934425.7259567,
 "src": ""
 },
 "homenaje-especial-el-canto-del-loco-hombres-g": {
@@ -376,12 +376,12 @@
 },
 "homer-el-mero-mero": {
 "url": "",
-"t": 1792593691.7724109,
+"t": 1793934440.8924332,
 "src": ""
 },
 "iberia-sumergida": {
 "url": "",
-"t": 1792593692.6295378,
+"t": 1793934441.5870466,
 "src": ""
 },
 "jalezz": {
@@ -396,7 +396,7 @@
 },
 "josue-rarujo-obed-hernandez-y-los-nando-de-badajoz": {
 "url": "",
-"t": 1792593695.216596,
+"t": 1793934442.2675998,
 "src": ""
 },
 "k-os-only-in-malaga": {
@@ -411,32 +411,32 @@
 },
 "kino-symphony-tribute": {
 "url": "",
-"t": 1792593700.1735404,
+"t": 1793934444.878741,
 "src": ""
 },
 "kurt-elling-yellowjackets": {
 "url": "",
-"t": 1792593700.9430685,
+"t": 1793934445.7212853,
 "src": ""
 },
 "la-banda-sabinera": {
 "url": "",
-"t": 1792593702.3355956,
+"t": 1793934447.2827618,
 "src": ""
 },
 "la-dama-de-hierro": {
-"url": "",
-"t": 1792593703.0883322,
-"src": ""
+"url": "https://doc.conciertos.club/doc/c/2026/ladamadehi_20261106.jpg",
+"t": 1793934448.2584496,
+"src": "https://conciertos.club/malaga/conciertos/126678-la-dama-de-hierro-tributo-a-iron-maiden"
 },
 "las-pastillas-del-abuelo": {
 "url": "",
-"t": 1792595370.633436,
+"t": 1793934449.6388865,
 "src": ""
 },
 "las-pelotas": {
 "url": "",
-"t": 1792595372.0009499,
+"t": 1793934450.9970934,
 "src": ""
 },
 "los-canos": {
@@ -451,7 +451,7 @@
 },
 "los-fabulosos-cadillacs": {
 "url": "",
-"t": 1792595374.9870555,
+"t": 1793934452.8809144,
 "src": ""
 },
 "los-palmeras": {
@@ -461,17 +461,17 @@
 },
 "los-sabineros": {
 "url": "",
-"t": 1792595376.604264,
+"t": 1793934454.764463,
 "src": ""
 },
 "los-sabineros-regresan-a-malaga": {
 "url": "",
-"t": 1792595377.2989624,
+"t": 1793934455.4648662,
 "src": ""
 },
 "lucia-rey": {
 "url": "",
-"t": 1792595378.1145346,
+"t": 1793934456.1211727,
 "src": ""
 },
 "luli-pampin": {
@@ -490,43 +490,43 @@
 "src": "https://conciertos.club/malaga/conciertos/128629-m-clan"
 },
 "mad-dogs": {
-"url": "",
-"t": 1792595380.9270048,
-"src": ""
+"url": "https://cd1.taquilla.com/data/images/t/12/mad-dogs.webp",
+"t": 1793934457.172399,
+"src": "https://www.taquilla.com/entradas/mad-dogs?t10cityorder=Estepona"
 },
 "madama-butterfly": {
 "url": "",
-"t": 1792595381.086373,
+"t": 1793934457.3065364,
 "src": ""
 },
 "maggie-cullen": {
 "url": "",
-"t": 1792595382.352419,
+"t": 1793934458.792895,
 "src": ""
 },
 "mala-gestion": {
 "url": "",
-"t": 1792595383.187976,
+"t": 1793934459.7148073,
 "src": ""
 },
 "malafe": {
 "url": "",
-"t": 1792595384.6725974,
+"t": 1793934461.1163,
 "src": ""
 },
 "malaga-popfest-2026": {
 "url": "",
-"t": 1792595385.3416605,
+"t": 1793934461.777378,
 "src": ""
 },
 "malas-companias": {
 "url": "",
-"t": 1792595385.9719496,
+"t": 1793934462.2460015,
 "src": ""
 },
 "martin-sanchez-y-los-corazones-salvajes": {
 "url": "",
-"t": 1792595386.6711035,
+"t": 1793934462.949655,
 "src": ""
 },
 "masterplan": {
@@ -536,12 +536,12 @@
 },
 "melendi": {
 "url": "",
-"t": 1792595387.6055508,
+"t": 1793934463.047351,
 "src": ""
 },
 "melon-diesel": {
 "url": "",
-"t": 1792595402.760347,
+"t": 1793934478.1093833,
 "src": ""
 },
 "mestizaje-redescubriendo-el-mundo-del-flamenco": {
@@ -1262,6 +1262,16 @@
 "free-soul-band": {
 "url": "",
 "t": 1793860985.4900672,
+"src": ""
+},
+"lavanda-presenta-un-sueno-cercano": {
+"url": "",
+"t": 1793934451.0864391,
+"src": ""
+},
+"los-hombres-rana": {
+"url": "",
+"t": 1793934454.0680041,
 "src": ""
 }
 }
