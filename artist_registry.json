@@ -3502,5 +3502,13 @@
 "https://www.lacocheraentradas.com/shows/details/2723/free-soul-band"
 ],
 "genre": "jazz"
+},
+"duo-balta": {
+"name": "Dúo Balta",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/duo-balta/254885"
+],
+"genre": "classical"
 }
 }
