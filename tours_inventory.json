@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-11-06",
-  "count": 111,
+  "generated": "2026-11-07",
+  "count": 114,
   "items": [
     {
       "sku": "194665",
@@ -158,20 +158,6 @@
       "d": "Alhambra: Skip-the-line Admission + Guided Tour in Málaga. Get your tickets on Fever now!"
     },
     {
-      "sku": "94749",
-      "n": "Atrapa al Elfo: ¡Sigue sus travesuras!",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €14",
-      "img": "1f2fb997-8fff-4b54-b2f5-1fdf87328be0.png",
-      "url": "https://feverup.com/m/94749/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=94749&u=https%3A%2F%2Ffeverup.com%2Fm%2F94749&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Tickets 🎫 Acceso a juego Atrapa al Elfo para 1 dispositivo móvil (una sesión de juego) Qué vas a disfrutar 🎄 Una aventura mágica al aire libre diseñada para niños de 4 a 8 años 💫 Un juego interactivo con retos, acertijos, puzles y minijuegos que harán volar la imaginación 🎉 Una experiencia navid"
-    },
-    {
       "sku": "676381",
       "n": "Authentic Flamenco at El Gallo Ronco",
       "c": "tours",
@@ -256,20 +242,6 @@
       "d": "Boat Tour of Málaga in Málaga. Get your tickets on Fever now!"
     },
     {
-      "sku": "834640",
-      "n": "Búsqueda del Tesoro Navideña: Edición Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €25",
-      "img": "a858ceae-6639-40c3-b48a-20a097fb8e0f.jpeg",
-      "url": "https://feverup.com/m/834640/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=834640&u=https%3A%2F%2Ffeverup.com%2Fm%2F834640&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "¡Búsqueda del tesoro navideña guiada por una aplicación a través del casco antiguo de Málaga con pistas, acertijos y soporte de chat! ¡Consigue tus entradas ahora!"
-    },
-    {
       "sku": "693798",
       "n": "Caminito del Rey: Guided Day Trip from Málaga",
       "c": "tours",
@@ -338,6 +310,20 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=589867&u=https%3A%2F%2Ffeverup.com%2Fm%2F589867&intsrc=CATF_15532",
       "feat": 0,
       "d": "Caminito del Rey: Visita guiada en italiano + Autobús de ida desde El Chorro in Málaga. Get your tickets on Fever now!"
+    },
+    {
+      "sku": "94749",
+      "n": "Catch the Elf: Follow his antics!",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €14",
+      "img": "1f2fb997-8fff-4b54-b2f5-1fdf87328be0.png",
+      "url": "https://feverup.com/m/94749/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=94749&u=https%3A%2F%2Ffeverup.com%2Fm%2F94749&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Tickets 🎫 Access to Catch the Elf game for 1 mobile device (one game session) Highlights 🎄 A magical outdoor adventure designed for children aged 4 to 8 💫 An interactive game with challenges, riddles, puzzles, and mini-games that will spark imagination 🎉 A unique Christmas experience to explore"
     },
     {
       "sku": "475243",
@@ -466,6 +452,34 @@
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
     },
     {
+      "sku": "708013",
+      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €435",
+      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
+      "url": "https://feverup.com/m/708013/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
+    },
+    {
+      "sku": "632234",
+      "n": "Funzo in Málaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €26",
+      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
+      "url": "https://feverup.com/m/632234/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
+    },
+    {
       "sku": "590844",
       "n": "Geoparque de Granada: Tour guiado + Transporte",
       "c": "tours",
@@ -536,20 +550,6 @@
       "d": "Take on a team challenge! Close a magical portal and save the world from chaos. Get your tickets for the game on the streets of Malaga now: Magic Portal!"
     },
     {
-      "sku": "739248",
-      "n": "Insidious: Out Of The Further",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "5d9e1a8c-a14b-11f1-9d41-ae21bb8c6ce0.jpg",
-      "url": "https://feverup.com/m/739248/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=739248&u=https%3A%2F%2Ffeverup.com%2Fm%2F739248&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
       "sku": "141765",
       "n": "Kelipé Flamenco Show",
       "c": "tours",
@@ -590,20 +590,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693799&u=https%3A%2F%2Ffeverup.com%2Fm%2F693799&intsrc=CATF_15532",
       "feat": 0,
       "d": "La Malagueta Bullring: Admission + Audio Guide in Málaga. Get your tickets on Fever now!"
-    },
-    {
-      "sku": "672309",
-      "n": "La Odisea",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "1889c7f0-6e5d-11f1-8c51-1e14a74cedda.jpg",
-      "url": "https://feverup.com/m/672309/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=672309&u=https%3A%2F%2Ffeverup.com%2Fm%2F672309&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "🎬 Una epopeya mitológica que sigue la historia de Odiseo y su largo viaje a casa, de 10 años de duración, tras la guerra de Troya. 🕒 Fecha de estreno: 2026-07-15 🎥 Director: Christopher Nolan 🌟 Reparto: Matt Damon, Tom Holland, Anne Hathaway ⌛ Duración: 172 minutos 🎭 Género: Aventura 👤 Edad: R"
     },
     {
       "sku": "785182",
@@ -676,20 +662,6 @@
       "d": "⭐ Immerse yourself in the fascinating world of olive oil in the world capital of liquid gold! Get your tickets!"
     },
     {
-      "sku": "788822",
-      "n": "Other Mommy",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "b509b0a4-be58-11f1-a141-e200d4fefdaa.jpg",
-      "url": "https://feverup.com/m/788822/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788822&u=https%3A%2F%2Ffeverup.com%2Fm%2F788822&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
       "sku": "141797",
       "n": "Picasso Museum Malaga and Casa Museo Picasso: Guided tour",
       "c": "tours",
@@ -716,34 +688,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=578707&u=https%3A%2F%2Ffeverup.com%2Fm%2F578707&intsrc=CATF_15532",
       "feat": 0,
       "d": "Museo Picasso Málaga: Tour guiado in Málaga. Get your tickets on Fever now!"
-    },
-    {
-      "sku": "752417",
-      "n": "Practically magic 2",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "cb628a90-ac3a-11f1-9e7a-32b4fcd49bd8.jpg",
-      "url": "https://feverup.com/m/752417/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752417&u=https%3A%2F%2Ffeverup.com%2Fm%2F752417&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
-    },
-    {
-      "sku": "752414",
-      "n": "Resident Evil",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €7",
-      "img": "ba42cf22-ac3a-11f1-a3a5-8ed72896cf03.jpg",
-      "url": "https://feverup.com/m/752414/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=752414&u=https%3A%2F%2Ffeverup.com%2Fm%2F752414&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "<empty>"
     },
     {
       "sku": "693794",
@@ -1320,6 +1264,20 @@
       "d": "Discover your city with an interactive outdoor exploration game full of history, puzzles and landmarks - get your access now!"
     },
     {
+      "sku": "834640",
+      "n": "Christmas Treasure Hunt: Malaga Edition",
+      "c": "games",
+      "cat": "Games",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €25",
+      "img": "a858ceae-6639-40c3-b48a-20a097fb8e0f.jpeg",
+      "url": "https://feverup.com/m/834640/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=834640&u=https%3A%2F%2Ffeverup.com%2Fm%2F834640&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Christmas Treasure Hunt: Malaga Edition with Clues, Puzzles and Chat Support! Get Your Tickets Now!"
+    },
+    {
       "sku": "544678",
       "n": "Fuengirola Outdoor Exploration Game - Accesses",
       "c": "games",
@@ -1480,7 +1438,7 @@
       "cat": "Games",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €16",
+      "p": "From €22",
       "img": "8d859624-90e0-11f1-a9d4-a233f6906938.jpg",
       "url": "https://feverup.com/m/459773/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=459773&u=https%3A%2F%2Ffeverup.com%2Fm%2F459773&intsrc=CATF_15532",
@@ -1540,6 +1498,90 @@
       "img": "af8f828e-be58-11f1-bb24-fac54e61d555.jpg",
       "url": "https://feverup.com/m/788821/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=788821&u=https%3A%2F%2Ffeverup.com%2Fm%2F788821&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837633",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "0ca9d87a-c5d0-476f-a6d4-302f97a0760d.jpg",
+      "url": "https://feverup.com/m/837633/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837633&u=https%3A%2F%2Ffeverup.com%2Fm%2F837633&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837649",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "c9e6b661-b451-4169-9fdb-28b1f5edeab3.jpg",
+      "url": "https://feverup.com/m/837649/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837649&u=https%3A%2F%2Ffeverup.com%2Fm%2F837649&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837650",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "2079f1e8-7abe-472c-bea2-9c420ca8b47b.jpg",
+      "url": "https://feverup.com/m/837650/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837650&u=https%3A%2F%2Ffeverup.com%2Fm%2F837650&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837652",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "03c4212c-af13-4cab-8310-73a257728ac5.jpg",
+      "url": "https://feverup.com/m/837652/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837652&u=https%3A%2F%2Ffeverup.com%2Fm%2F837652&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837667",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "97afaced-d506-4575-93e2-7aba6c8010eb.jpg",
+      "url": "https://feverup.com/m/837667/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837667&u=https%3A%2F%2Ffeverup.com%2Fm%2F837667&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "<empty>"
+    },
+    {
+      "sku": "837670",
+      "n": "[MODEL] [MALAGA] CINEMA BASE PLAN - Malaga - Tickets",
+      "c": "cinema",
+      "cat": "Cinema",
+      "v": "",
+      "area": "Málaga",
+      "p": "See price",
+      "img": "0d0061c1-7aac-4670-8436-1d62b65dd023.jpg",
+      "url": "https://feverup.com/m/837670/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=837670&u=https%3A%2F%2Ffeverup.com%2Fm%2F837670&intsrc=CATF_15532",
       "feat": 0,
       "d": "<empty>"
     },
