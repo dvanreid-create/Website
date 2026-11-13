@@ -1,0 +1,418 @@
+{
+  "How many days do you need?": {
+    "h": "a8c49f00429699b2c77dec98f9be1261",
+    "aside": {
+      "en": "Three days is the taster; a week lets the coast unfold at its own slow pace.",
+      "es": "Tres días son el aperitivo; una semana deja que la costa se despliegue a su ritmo pausado.",
+      "de": "Drei Tage sind der Vorgeschmack; eine Woche lässt die Küste ihr eigenes, gemächliches Tempo entfalten.",
+      "fr": "Trois jours pour goûter ; une semaine laisse la côte se dérouler à son rythme tranquille.",
+      "sv": "Tre dagar är smakprovet; en vecka låter kusten veckla ut sig i sitt eget lugna tempo.",
+      "no": "Tre dager er smaksprøven; en uke lar kysten folde seg ut i sitt eget rolige tempo.",
+      "da": "Tre dage er forsmagen; en uge lader kysten folde sig ud i sit eget rolige tempo.",
+      "fi": "Kolme päivää on maistiainen; viikko antaa rannikon avautua omaan rauhalliseen tahtiinsa."
+    }
+  },
+  "Where to stay: choosing your base": {
+    "h": "8d41eaddae9cad53c71cedcc7a3a52f9",
+    "aside": {
+      "en": "City for the evenings, coast for the mornings — the little train settles the choice.",
+      "es": "Ciudad para las noches, costa para las mañanas: el trenecito resuelve la elección.",
+      "de": "Stadt für die Abende, Küste für die Morgen — der kleine Zug entscheidet die Wahl.",
+      "fr": "La ville pour les soirées, la côte pour les matins — le petit train tranche.",
+      "sv": "Stad för kvällarna, kust för morgnarna — det lilla tåget avgör valet.",
+      "no": "By for kveldene, kyst for morgenene — det lille toget avgjør valget.",
+      "da": "By til aftenerne, kyst til morgenerne — det lille tog afgør valget.",
+      "fi": "Kaupunki iltoihin, rannikko aamuihin — pikkujuna ratkaisee valinnan."
+    }
+  },
+  "Getting here: Málaga Airport & transfers": {
+    "h": "c258395de0007e1b1967f4f8b45b3ee9",
+    "aside": {
+      "en": "The Cercanías from the airport reaches the centre before a taxi has cleared the rank.",
+      "es": "El Cercanías desde el aeropuerto llega al centro antes de que un taxi salga de la parada.",
+      "de": "Der Cercanías vom Flughafen erreicht das Zentrum, bevor ein Taxi den Stand verlassen hat.",
+      "fr": "Le Cercanías depuis l'aéroport atteint le centre avant qu'un taxi ait quitté la station.",
+      "sv": "Cercanías-tåget från flygplatsen når centrum innan en taxi ens lämnat kön.",
+      "no": "Cercanías-toget fra flyplassen når sentrum før en taxi har forlatt holdeplassen.",
+      "da": "Cercanías-toget fra lufthavnen når centrum, før en taxa har forladt holdepladsen.",
+      "fi": "Cercanías-juna lentokentältä on keskustassa ennen kuin taksi on ehtinyt lähteä asemalta."
+    }
+  },
+  "Getting around Málaga & the coast": {
+    "h": "2c8cb79231c14876c8903ed93c1d37cb",
+    "aside": {
+      "en": "The C-1 runs the shoreline all day for less than a coffee, and spares you the parking.",
+      "es": "El C-1 recorre la costa todo el día por menos que un café, y te ahorra el aparcamiento.",
+      "de": "Der C-1 fährt den ganzen Tag die Küste entlang für weniger als einen Kaffee — und erspart die Parkplatzsuche.",
+      "fr": "Le C-1 longe la côte toute la journée pour moins qu'un café, et vous épargne le stationnement.",
+      "sv": "C-1 går längs kusten hela dagen för mindre än en kaffe, och besparar dig parkeringen.",
+      "no": "C-1 går langs kysten hele dagen for mindre enn en kaffe, og sparer deg for parkeringen.",
+      "da": "C-1 kører langs kysten hele dagen for mindre end en kaffe og sparer dig for parkeringen.",
+      "fi": "C-1 kulkee rannikkoa pitkin koko päivän kahvia halvemmalla ja säästää parkkihuolilta."
+    }
+  },
+  "Best time to visit: the weather month by month": {
+    "h": "0cbac6d58fea356e4af19d20aaabd572",
+    "aside": {
+      "en": "September keeps the warmth but hands the beaches back — the sea still soft, the crowds gone.",
+      "es": "Septiembre conserva el calor pero devuelve las playas: el mar aún templado, la multitud ya se fue.",
+      "de": "Der September behält die Wärme, gibt aber die Strände zurück — das Meer noch mild, die Massen weg.",
+      "fr": "Septembre garde la chaleur mais rend les plages — la mer encore douce, la foule partie.",
+      "sv": "September behåller värmen men lämnar tillbaka stränderna — havet fortfarande mjukt, folkmassorna borta.",
+      "no": "September beholder varmen, men gir strendene tilbake — sjøen fortsatt mild, folkemengden borte.",
+      "da": "September beholder varmen, men giver strandene tilbage — havet stadig blødt, folkemængden væk.",
+      "fi": "Syyskuu säilyttää lämmön mutta antaa rannat takaisin — meri yhä pehmeä, väkijoukot poissa."
+    }
+  },
+  "Best beaches on Costa del Sol": {
+    "h": "2797e110c662126d96c75f43540bd508",
+    "aside": {
+      "en": "An espeto off the driftwood fire tastes of the whole coast in one bite.",
+      "es": "Un espeto salido del fuego de leña sabe a toda la costa en un solo bocado.",
+      "de": "Ein Espeto vom Treibholzfeuer schmeckt in einem Bissen nach der ganzen Küste.",
+      "fr": "Un espeto sorti du feu de bois flotté a le goût de toute la côte en une bouchée.",
+      "sv": "En espeto från drivvedselden smakar hela kusten i en enda tugga.",
+      "no": "En espeto fra drivvedbålet smaker hele kysten i én munnfull.",
+      "da": "En espeto fra drivtømmerbålet smager af hele kysten i én mundfuld.",
+      "fi": "Ajopuunuotiolla paistettu espeto maistuu koko rannikolta yhdellä suupalalla."
+    }
+  },
+  "Best beaches in Málaga city": {
+    "h": "17f92c041419eaf5f6a1c1a9556dad29",
+    "aside": {
+      "en": "La Malagueta is the city's front garden — a swim before breakfast, the old town after.",
+      "es": "La Malagueta es el jardín delantero de la ciudad: un baño antes del desayuno, el casco antiguo después.",
+      "de": "La Malagueta ist der Vorgarten der Stadt — ein Bad vor dem Frühstück, danach die Altstadt.",
+      "fr": "La Malagueta est le jardin de devant de la ville — une baignade avant le petit-déjeuner, la vieille ville ensuite.",
+      "sv": "La Malagueta är stadens förträdgård — ett dopp före frukost, gamla stan efteråt.",
+      "no": "La Malagueta er byens forhage — en dukkert før frokost, gamlebyen etterpå.",
+      "da": "La Malagueta er byens forhave — en dukkert før morgenmaden, den gamle bydel bagefter.",
+      "fi": "La Malagueta on kaupungin etupiha — uinti ennen aamiaista, vanhakaupunki sen jälkeen."
+    }
+  },
+  "Best beaches in Torremolinos": {
+    "h": "7d199ffc76a35d2a6176dac325795838",
+    "aside": {
+      "en": "La Carihuela still smells of a fishing village at lunch, the grills the length of the front.",
+      "es": "La Carihuela aún huele a pueblo de pescadores a mediodía, las parrillas a lo largo del paseo.",
+      "de": "La Carihuela riecht mittags noch nach Fischerdorf, die Grills entlang der ganzen Promenade.",
+      "fr": "La Carihuela sent encore le village de pêcheurs à midi, les grills tout le long du front de mer.",
+      "sv": "La Carihuela doftar fortfarande fiskeby vid lunch, grillarna längs hela strandpromenaden.",
+      "no": "La Carihuela lukter fortsatt fiskelandsby til lunsj, grillene langs hele promenaden.",
+      "da": "La Carihuela dufter stadig af fiskerleje ved frokosttid, grillene langs hele promenaden.",
+      "fi": "La Carihuela tuoksuu lounasaikaan yhä kalastajakylältä, grillit koko rantakadun mitalta."
+    }
+  },
+  "Best beaches in Benalmádena": {
+    "h": "fb3d53c95150f914e3ab926969501282",
+    "aside": {
+      "en": "Puerto Marina glints with masts; the calm family beaches sit a short stroll either side.",
+      "es": "Puerto Marina reluce de mástiles; las playas familiares y tranquilas quedan a un paseo a cada lado.",
+      "de": "Puerto Marina glänzt vor Masten; die ruhigen Familienstrände liegen einen kurzen Spaziergang zu beiden Seiten.",
+      "fr": "Puerto Marina scintille de mâts ; les plages familiales tranquilles sont à une courte promenade de chaque côté.",
+      "sv": "Puerto Marina glittrar av master; de lugna familjestränderna ligger en kort promenad åt vardera hållet.",
+      "no": "Puerto Marina glitrer av master; de rolige familiestrendene ligger en kort spasertur til hver side.",
+      "da": "Puerto Marina glimter af master; de rolige familiestrande ligger en kort gåtur til hver side.",
+      "fi": "Puerto Marina kimmeltää mastoista; rauhalliset perherannat ovat lyhyen kävelyn päässä molemmin puolin."
+    }
+  },
+  "Best beaches in Fuengirola": {
+    "h": "604d0b7d39d482135cf09aa0cc487f3f",
+    "aside": {
+      "en": "Eight flat kilometres of promenade — the pram, the bike and the evening walk all belong here.",
+      "es": "Ocho kilómetros llanos de paseo: el cochecito, la bici y el paseo nocturno tienen aquí su sitio.",
+      "de": "Acht flache Kilometer Promenade — Kinderwagen, Fahrrad und Abendspaziergang gehören hierher.",
+      "fr": "Huit kilomètres plats de promenade — la poussette, le vélo et la balade du soir y trouvent leur place.",
+      "sv": "Åtta platta kilometer strandpromenad — barnvagnen, cykeln och kvällspromenaden hör alla hemma här.",
+      "no": "Åtte flate kilometer promenade — barnevognen, sykkelen og kveldsturen hører alle hjemme her.",
+      "da": "Otte flade kilometer promenade — barnevognen, cyklen og aftenturen hører alle til her.",
+      "fi": "Kahdeksan tasaista kilometriä rantakatua — vaunut, pyörä ja iltakävely kuuluvat kaikki tänne."
+    }
+  },
+  "Best beaches in Marbella": {
+    "h": "58b40896260a45cd6f8cf7af7bd634a6",
+    "aside": {
+      "en": "Beaches a short walk from the orange-tree squares — glamour and shade in one afternoon.",
+      "es": "Playas a un paso de las plazas de naranjos: glamour y sombra en una misma tarde.",
+      "de": "Strände nur einen kurzen Weg von den Orangenbaumplätzen — Glamour und Schatten an einem Nachmittag.",
+      "fr": "Des plages à deux pas des places aux orangers — glamour et ombre en un après-midi.",
+      "sv": "Stränder en kort promenad från apelsinträdstorgen — glamour och skugga på en eftermiddag.",
+      "no": "Strender en kort spasertur fra appelsintretorgene — glamour og skygge på én ettermiddag.",
+      "da": "Strande en kort gåtur fra appelsintræspladserne — glamour og skygge på én eftermiddag.",
+      "fi": "Rannat lyhyen kävelyn päässä appelsiinipuuaukioilta — glamouria ja varjoa yhtenä iltapäivänä."
+    }
+  },
+  "Best beaches in Nerja": {
+    "h": "d885a7326b22fa7ad4a5d097abe1a4f4",
+    "aside": {
+      "en": "Nerja keeps its treasures in coves — Burriana for the buzz, the small ones for a book.",
+      "es": "Nerja guarda sus tesoros en calas: Burriana para el bullicio, las pequeñas para un libro.",
+      "de": "Nerja bewahrt seine Schätze in Buchten — Burriana fürs Treiben, die kleinen für ein Buch.",
+      "fr": "Nerja garde ses trésors dans des criques — Burriana pour l'animation, les petites pour un livre.",
+      "sv": "Nerja gömmer sina skatter i vikar — Burriana för livet, de små för en bok.",
+      "no": "Nerja gjemmer skattene sine i viker — Burriana for livet, de små for en bok.",
+      "da": "Nerja gemmer sine skatte i bugter — Burriana for livet, de små til en bog.",
+      "fi": "Nerja kätkee aarteensa poukamiin — Burriana vilinään, pienet kirjan ääreen."
+    }
+  },
+  "Best beaches in Estepona": {
+    "h": "3bd9fa0f0cc7245f1dae4d6a6450f4fc",
+    "aside": {
+      "en": "Geraniums on one street, the sea on the next — the old town spills onto the sand.",
+      "es": "Geranios en una calle, el mar en la siguiente: el casco antiguo se derrama sobre la arena.",
+      "de": "Geranien in der einen Gasse, das Meer in der nächsten — die Altstadt ergießt sich auf den Sand.",
+      "fr": "Des géraniums dans une rue, la mer dans la suivante — la vieille ville se déverse sur le sable.",
+      "sv": "Pelargoner på en gata, havet på nästa — gamla stan flödar ut på sanden.",
+      "no": "Pelargonia i én gate, havet i den neste — gamlebyen renner ut på sanden.",
+      "da": "Pelargonier i én gade, havet i den næste — den gamle bydel flyder ud på sandet.",
+      "fi": "Pelargonioita yhdellä kadulla, meri seuraavalla — vanhakaupunki valuu hiekalle."
+    }
+  },
+  "Best beaches in Mijas": {
+    "h": "d45b898c5c1f13a2bb6151af873b133c",
+    "aside": {
+      "en": "La Cala keeps the pace slow; the white village above repays the climb with the whole coast.",
+      "es": "La Cala mantiene el ritmo lento; el pueblo blanco de arriba paga la subida con toda la costa.",
+      "de": "La Cala hält das Tempo gemächlich; das weiße Dorf oben belohnt den Aufstieg mit der ganzen Küste.",
+      "fr": "La Cala garde le rythme lent ; le village blanc au-dessus paie la montée de toute la côte.",
+      "sv": "La Cala håller tempot lugnt; den vita byn ovanför lönar klättringen med hela kusten.",
+      "no": "La Cala holder tempoet rolig; den hvite landsbyen over lønner klatringen med hele kysten.",
+      "da": "La Cala holder tempoet roligt; den hvide landsby ovenover belønner turen op med hele kysten.",
+      "fi": "La Cala pitää tahdin verkkaisena; ylhäällä oleva valkoinen kylä palkitsee nousun koko rannikolla."
+    }
+  },
+  "Top things to do in Málaga city": {
+    "h": "78d3d008b0248df02ce8637310728f48",
+    "aside": {
+      "en": "Gibralfaro at golden hour lays the port at your feet — climb before sunset, dine after.",
+      "es": "Gibralfaro a la hora dorada pone el puerto a tus pies: sube antes del ocaso, cena después.",
+      "de": "Gibralfaro zur goldenen Stunde legt den Hafen zu deinen Füßen — vor dem Sonnenuntergang hinauf, danach essen.",
+      "fr": "Gibralfaro à l'heure dorée met le port à vos pieds — montez avant le coucher, dînez après.",
+      "sv": "Gibralfaro i gyllene timma lägger hamnen för dina fötter — klättra före solnedgången, ät efteråt.",
+      "no": "Gibralfaro i den gylne timen legger havnen for føttene dine — klatre før solnedgang, spis etterpå.",
+      "da": "Gibralfaro i den gyldne time lægger havnen for dine fødder — gå op før solnedgang, spis bagefter.",
+      "fi": "Gibralfaro kultaisella hetkellä levittää sataman jalkojesi juureen — nouse ennen auringonlaskua, syö sen jälkeen."
+    }
+  },
+  "The best day trips": {
+    "h": "762faaa4fc305f11ba104879d13d43a7",
+    "aside": {
+      "en": "Ronda's bridge earns the mountain road — go early, before the coaches roll in.",
+      "es": "El puente de Ronda merece la carretera de montaña: ve temprano, antes de que lleguen los autobuses.",
+      "de": "Rondas Brücke ist die Bergstraße wert — früh hin, bevor die Busse eintreffen.",
+      "fr": "Le pont de Ronda vaut la route de montagne — partez tôt, avant l'arrivée des cars.",
+      "sv": "Rondas bro är bergsvägen värd — åk tidigt, innan bussarna rullar in.",
+      "no": "Rondas bro er fjellveien verdt — dra tidlig, før bussene ruller inn.",
+      "da": "Rondas bro er bjergvejen værd — tag afsted tidligt, før busserne ruller ind.",
+      "fi": "Rondan silta on vuoristotien arvoinen — lähde aikaisin, ennen kuin bussit saapuvat."
+    }
+  },
+  "What to eat & drink": {
+    "h": "3044753238f9217690f929704dda0ccf",
+    "aside": {
+      "en": "A caña and a plate of boquerones by the water is Málaga in a single order.",
+      "es": "Una caña y un plato de boquerones junto al agua son Málaga en un solo pedido.",
+      "de": "Eine Caña und ein Teller Boquerones am Wasser sind Málaga in einer einzigen Bestellung.",
+      "fr": "Une caña et une assiette de boquerones au bord de l'eau, c'est Málaga en une seule commande.",
+      "sv": "En caña och en tallrik boquerones vid vattnet är Málaga i en enda beställning.",
+      "no": "En caña og en tallerken boquerones ved vannet er Málaga i én bestilling.",
+      "da": "En caña og en tallerken boquerones ved vandet er Málaga i én bestilling.",
+      "fi": "Caña ja lautasellinen boquerones-anjoviksia veden äärellä on Málaga yhdellä tilauksella."
+    }
+  },
+  "Which Costa del Sol town is right for you?": {
+    "h": "5e78da62098797d1e0b56edc36df47c3",
+    "aside": {
+      "en": "Choose by your evenings, not the beach — the town that fits your nights fits the trip.",
+      "es": "Elige por tus noches, no por la playa: el pueblo que encaja con tus noches encaja con el viaje.",
+      "de": "Wähle nach deinen Abenden, nicht nach dem Strand — der Ort, der zu deinen Nächten passt, passt zur Reise.",
+      "fr": "Choisissez selon vos soirées, pas la plage — la ville qui convient à vos nuits convient au voyage.",
+      "sv": "Välj efter dina kvällar, inte stranden — orten som passar dina nätter passar resan.",
+      "no": "Velg etter kveldene dine, ikke stranden — byen som passer nettene dine, passer turen.",
+      "da": "Vælg efter dine aftener, ikke stranden — byen der passer til dine nætter, passer til rejsen.",
+      "fi": "Valitse iltojesi mukaan, älä rannan — kaupunki joka sopii öihisi, sopii matkaan."
+    }
+  },
+  "Money, costs & tipping": {
+    "h": "47698ce99e46935dc2c4ba8820dc3e1d",
+    "aside": {
+      "en": "Cards go everywhere, but a few coins keep the chiringuito and the market smiling.",
+      "es": "Las tarjetas valen en todas partes, pero unas monedas mantienen contentos al chiringuito y al mercado.",
+      "de": "Karten gehen überall, doch ein paar Münzen halten Chiringuito und Markt bei Laune.",
+      "fr": "Les cartes passent partout, mais quelques pièces gardent le chiringuito et le marché souriants.",
+      "sv": "Kort funkar överallt, men några mynt håller chiringuiton och marknaden nöjda.",
+      "no": "Kort funker overalt, men noen mynter holder chiringuitoen og markedet fornøyde.",
+      "da": "Kort virker overalt, men et par mønter holder chiringuitoen og markedet glade.",
+      "fi": "Kortti käy kaikkialla, mutta muutama kolikko pitää chiringuiton ja torin tyytyväisenä."
+    }
+  },
+  "Is Málaga safe?": {
+    "h": "1dd0dd0edf77f1035e856894fbee0653",
+    "aside": {
+      "en": "The only real caution is a crowded market pocket — bag zipped, and enjoy the throng.",
+      "es": "La única precaución real es un bolsillo en el mercado abarrotado: bolso cerrado, y disfruta del gentío.",
+      "de": "Die einzige echte Vorsicht gilt der Tasche im vollen Markt — Reißverschluss zu und das Gedränge genießen.",
+      "fr": "La seule vraie précaution, c'est la poche dans un marché bondé — sac fermé, et profitez de la foule.",
+      "sv": "Den enda riktiga försiktigheten är fickan på en full marknad — väskan stängd, och njut av vimlet.",
+      "no": "Den eneste virkelige forsiktigheten er lommen på et fullt marked — vesken lukket, og nyt vrimmelen.",
+      "da": "Den eneste rigtige forsigtighed er lommen på et fyldt marked — tasken lukket, og nyd mylderet.",
+      "fi": "Ainoa todellinen varovaisuus on tasku ruuhkaisella torilla — laukku kiinni, ja nauti tungoksesta."
+    }
+  },
+  "A few words of Spanish": {
+    "h": "d660d31fbba7ba333c1d953d2ee60188",
+    "aside": {
+      "en": "'Una caña, por favor' opens more doors than any guidebook — the smile after is free.",
+      "es": "«Una caña, por favor» abre más puertas que cualquier guía: la sonrisa que sigue es gratis.",
+      "de": "„Una caña, por favor“ öffnet mehr Türen als jeder Reiseführer — das Lächeln danach ist gratis.",
+      "fr": "« Una caña, por favor » ouvre plus de portes qu'aucun guide — le sourire qui suit est gratuit.",
+      "sv": "”Una caña, por favor” öppnar fler dörrar än någon guidebok — leendet efteråt är gratis.",
+      "no": "«Una caña, por favor» åpner flere dører enn noen guidebok — smilet etterpå er gratis.",
+      "da": "»Una caña, por favor« åbner flere døre end nogen guidebog — smilet bagefter er gratis.",
+      "fi": "”Una caña, por favor” avaa enemmän ovia kuin mikään opas — hymy sen jälkeen on ilmainen."
+    }
+  },
+  "Málaga with kids": {
+    "h": "1835c7b4eb213ccc2f832e5228c0615c",
+    "aside": {
+      "en": "Flat, walkable and full of ice-cream stops — small feet set the pace and the city keeps up.",
+      "es": "Llana, caminable y llena de paradas de helado: los pies pequeños marcan el ritmo y la ciudad los sigue.",
+      "de": "Flach, zu Fuß machbar und voller Eis-Stopps — kleine Füße geben das Tempo vor, die Stadt hält mit.",
+      "fr": "Plate, à pied et pleine d'arrêts glace — les petits pieds donnent le rythme et la ville suit.",
+      "sv": "Platt, gångvänlig och full av glasstopp — små fötter sätter takten och staden hänger med.",
+      "no": "Flat, gåvennlig og full av iskremstopp — små føtter setter tempoet og byen henger med.",
+      "da": "Flad, til fods og fuld af is-stop — små fødder sætter tempoet, og byen følger med.",
+      "fi": "Tasainen, kävelyystävällinen ja täynnä jäätelöpysäkkejä — pienet jalat määräävät tahdin ja kaupunki seuraa."
+    }
+  },
+  "Festivals & events worth planning around": {
+    "h": "a85bc1f10cb5284ae78a1011589d1ac5",
+    "aside": {
+      "en": "The Feria fills August with flamenco and horses — glorious to land in, so book beds early.",
+      "es": "La Feria llena agosto de flamenco y caballos: maravillosa para caer en ella, así que reserva cama pronto.",
+      "de": "Die Feria füllt den August mit Flamenco und Pferden — herrlich, hineinzugeraten, also früh Betten buchen.",
+      "fr": "La Feria emplit août de flamenco et de chevaux — magnifique d'y atterrir, alors réservez tôt.",
+      "sv": "Feria fyller augusti med flamenco och hästar — härligt att hamna i, så boka säng tidigt.",
+      "no": "Feria fyller august med flamenco og hester — herlig å havne i, så bestill seng tidlig.",
+      "da": "Feria fylder august med flamenco og heste — skønt at lande i, så book seng tidligt.",
+      "fi": "Feria täyttää elokuun flamencolla ja hevosilla — ihanaa osua kohdalle, joten varaa majoitus ajoissa."
+    }
+  },
+  "What to pack": {
+    "h": "6df22d0c7e563b69257c42843f043c52",
+    "aside": {
+      "en": "Sun cream year-round, a light layer for the breeze after dark — the evenings catch people out.",
+      "es": "Crema solar todo el año, una capa ligera para la brisa nocturna: las noches pillan desprevenidos.",
+      "de": "Sonnencreme das ganze Jahr, eine leichte Schicht für die Brise nach Einbruch der Dunkelheit — die Abende überraschen viele.",
+      "fr": "Crème solaire toute l'année, une couche légère pour la brise du soir — les soirées surprennent.",
+      "sv": "Solkräm året runt, ett tunt lager för kvällsbrisen — kvällarna överraskar många.",
+      "no": "Solkrem hele året, et tynt lag for kveldsbrisen — kveldene overrasker mange.",
+      "da": "Solcreme hele året, et tyndt lag til aftenbrisen — aftenerne overrasker mange.",
+      "fi": "Aurinkovoidetta ympäri vuoden, ohut kerros iltatuulta varten — illat yllättävät monet."
+    }
+  },
+  "Local tips: how Málaga really works": {
+    "h": "77cc2658f5f4e676815a2ee1e23ffb9e",
+    "aside": {
+      "en": "Dinner rarely before nine — fall into the rhythm and the long lunch makes sense.",
+      "es": "La cena rara vez antes de las nueve: entra en el ritmo y la larga comida cobra sentido.",
+      "de": "Abendessen selten vor neun — komm in den Rhythmus, dann ergibt das lange Mittagessen Sinn.",
+      "fr": "Le dîner rarement avant neuf heures — entrez dans le rythme et le long déjeuner prend son sens.",
+      "sv": "Middag sällan före nio — kom in i rytmen så blir den långa lunchen logisk.",
+      "no": "Middag sjelden før ni — kom inn i rytmen, så gir den lange lunsjen mening.",
+      "da": "Aftensmad sjældent før ni — kom ind i rytmen, så giver den lange frokost mening.",
+      "fi": "Illallinen harvoin ennen yhdeksää — pääse rytmiin, niin pitkä lounas käy järkeen."
+    }
+  },
+  "The coast's international communities": {
+    "h": "30d299f0e68158c279ff755538dfab28",
+    "aside": {
+      "en": "Each town wears its own accent — a Nordic café here, a British bakery there.",
+      "es": "Cada pueblo lleva su propio acento: un café nórdico aquí, una panadería británica allá.",
+      "de": "Jeder Ort trägt seinen eigenen Akzent — hier ein nordisches Café, dort eine britische Bäckerei.",
+      "fr": "Chaque ville porte son propre accent — un café nordique ici, une boulangerie britannique là.",
+      "sv": "Varje ort bär sin egen accent — ett nordiskt kafé här, ett brittiskt bageri där.",
+      "no": "Hver by bærer sin egen aksent — en nordisk kafé her, et britisk bakeri der.",
+      "da": "Hver by bærer sin egen accent — en nordisk café her, et britisk bageri der.",
+      "fi": "Jokaisella kaupungilla on oma korostuksensa — pohjoismainen kahvila tässä, brittiläinen leipomo tuolla."
+    }
+  },
+  "Chiringuitos: eating on the beach": {
+    "h": "52c267d74e3552713c200a2a8205ddc6",
+    "aside": {
+      "en": "Sardines off the cane, eaten with fingers, the fire still crackling in the old boat's hull.",
+      "es": "Sardinas de la caña, comidas con los dedos, el fuego aún crepitando en el casco de la vieja barca.",
+      "de": "Sardinen vom Rohr, mit den Fingern gegessen, das Feuer knistert noch im Rumpf des alten Boots.",
+      "fr": "Des sardines à la canne, mangées avec les doigts, le feu crépitant encore dans la coque du vieux bateau.",
+      "sv": "Sardiner från spröt, ätna med fingrarna, elden fortfarande sprakande i den gamla båtens skrov.",
+      "no": "Sardiner fra spydet, spist med fingrene, ilden fortsatt knitrende i skroget på den gamle båten.",
+      "da": "Sardiner fra spyddet, spist med fingrene, ilden stadig knitrende i den gamle båds skrog.",
+      "fi": "Sardiineja vartaasta, syötyinä sormin, tuli yhä rätisemässä vanhan veneen rungossa."
+    }
+  },
+  "Where to shop: Calle Larios, markets & the marinas": {
+    "h": "0cb8234a66c43ded33403a2b7d1d06a6",
+    "aside": {
+      "en": "Larios glows at Christmas, but any evening the marble street is the city's living room.",
+      "es": "Larios brilla en Navidad, pero cualquier noche la calle de mármol es el salón de la ciudad.",
+      "de": "Larios leuchtet zu Weihnachten, doch an jedem Abend ist die Marmorstraße das Wohnzimmer der Stadt.",
+      "fr": "Larios brille à Noël, mais chaque soir la rue de marbre est le salon de la ville.",
+      "sv": "Larios glöder till jul, men vilken kväll som helst är marmorgatan stadens vardagsrum.",
+      "no": "Larios gløder til jul, men hvilken som helst kveld er marmorgaten byens stue.",
+      "da": "Larios gløder til jul, men enhver aften er marmorgaden byens dagligstue.",
+      "fi": "Larios hehkuu jouluna, mutta minä iltana tahansa marmorikatu on kaupungin olohuone."
+    }
+  },
+  "The marinas & ports of the coast": {
+    "h": "149894254d67360e1aab07a7631b85b5",
+    "aside": {
+      "en": "Puerto Banús dazzles; the smaller marinas set the better-value table with the same masts.",
+      "es": "Puerto Banús deslumbra; los puertos más pequeños ponen mejor mesa por menos, con los mismos mástiles.",
+      "de": "Puerto Banús blendet; die kleineren Häfen decken den preiswerteren Tisch mit denselben Masten.",
+      "fr": "Puerto Banús éblouit ; les petits ports dressent une table plus abordable avec les mêmes mâts.",
+      "sv": "Puerto Banús bländar; de mindre hamnarna dukar det prisvärdare bordet med samma master.",
+      "no": "Puerto Banús blender; de mindre havnene dekker det rimeligere bordet med de samme mastene.",
+      "da": "Puerto Banús blænder; de mindre havne dækker det mere prisvenlige bord med de samme master.",
+      "fi": "Puerto Banús häikäisee; pienemmät satamat kattavat edullisemman pöydän samoin mastoin."
+    }
+  },
+  "Local life: the paseo, plazas & the ferias": {
+    "h": "a31d0bf86c7d210dad03c8d16af85faf",
+    "aside": {
+      "en": "Come evening the whole seafront walks slowly, ice cream in hand — join the paseo.",
+      "es": "Al caer la tarde todo el paseo marítimo camina despacio, helado en mano: únete al paseo.",
+      "de": "Am Abend flaniert die ganze Uferpromenade langsam, das Eis in der Hand — mach beim Paseo mit.",
+      "fr": "Le soir venu, tout le front de mer marche lentement, glace en main — joignez-vous au paseo.",
+      "sv": "När kvällen kommer promenerar hela strandpromenaden långsamt, glass i hand — häng med på paseo.",
+      "no": "Når kvelden kommer, går hele strandpromenaden sakte, iskrem i hånd — bli med på paseo.",
+      "da": "Når aftenen kommer, går hele strandpromenaden langsomt, is i hånden — vær med på paseo.",
+      "fi": "Illan tullen koko rantabulevardi kävelee verkkaan, jäätelö kädessä — liity paseoon."
+    }
+  },
+  "Walk the coastal boardwalk (senda litoral)": {
+    "h": "5d1eab921d879e777612c45f17f58218",
+    "aside": {
+      "en": "The senda litoral runs on with the sea at your shoulder — free, flat, best at first light.",
+      "es": "La senda litoral sigue y sigue con el mar al hombro: gratis, llana, mejor al amanecer.",
+      "de": "Die Senda Litoral zieht sich dahin, das Meer an der Schulter — kostenlos, flach, am schönsten im ersten Licht.",
+      "fr": "La senda litoral se poursuit, la mer à l'épaule — gratuite, plate, au mieux à l'aube.",
+      "sv": "Senda litoral löper vidare med havet vid axeln — gratis, platt, bäst i gryningen.",
+      "no": "Senda litoral fortsetter med havet ved skulderen — gratis, flat, best i grålysningen.",
+      "da": "Senda litoral fortsætter med havet ved skulderen — gratis, flad, bedst i det første lys.",
+      "fi": "Senda litoral jatkuu meri olkapään takana — ilmainen, tasainen, parhaimmillaan aamunkoitteessa."
+    }
+  },
+  "Places to work out: gyms & fitness": {
+    "h": "121695f032afdcee0e0115ab844896bc",
+    "aside": {
+      "en": "Even a holiday keeps its routine — the low-cost gyms open early, the promenade earlier.",
+      "es": "Hasta las vacaciones tienen su rutina: los gimnasios económicos abren temprano, el paseo aún antes.",
+      "de": "Selbst der Urlaub hat seine Routine — die günstigen Fitnessstudios öffnen früh, die Promenade noch früher.",
+      "fr": "Même les vacances gardent leur routine — les salles de sport économiques ouvrent tôt, la promenade plus tôt encore.",
+      "sv": "Även semestern har sin rutin — de billiga gymmen öppnar tidigt, strandpromenaden ännu tidigare.",
+      "no": "Selv ferien har sin rutine — de rimelige treningssentrene åpner tidlig, promenaden enda tidligere.",
+      "da": "Selv ferien har sin rutine — de billige fitnesscentre åbner tidligt, promenaden endnu tidligere.",
+      "fi": "Lomakin pitää rutiininsa — edulliset kuntosalit avaavat aikaisin, rantabulevardi vielä aikaisemmin."
+    }
+  }
+}

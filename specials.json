@@ -1,0 +1,118 @@
+{
+ "specials": [
+  {
+   "label": "Cine Philharmonic Orchestra",
+   "program": "box office",
+   "host": "unientradas.es/es/espectaculo/cinema-philharmonic-orchestra/26-27CinePhiOrch",
+   "expires": "2027-01-07"
+  },
+  {
+   "label": "Melendi",
+   "program": "box office",
+   "host": "tickets.oneboxtds.com/melendi_poprock_tour/events/51023",
+   "expires": "2026-11-21"
+  },
+  {
+   "label": "El Señor de los Anillos",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fel-senor-de-los-anillos-en-concierto-malaga-fycma-palacio-de-ferias-y-congresos-de-malaga-22324777%2F",
+   "expires": "2026-11-28"
+  },
+  {
+   "label": "Jay Wheeler",
+   "program": "box office",
+   "host": "ticketmaster.evyy.net/c/7440720/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.es%2Fevent%2Fjay-wheeler-entradas%2F512986909",
+   "expires": "2026-12-07"
+  },
+  {
+   "label": "La Oreja de Van Gogh",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-la-oreja-de-van-gogh-starlite-occident-2027-marbella%2F",
+   "expires": "2027-08-13"
+  },
+  {
+   "label": "Melón Diesel",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fmelon-diesel-la-gira-de-mr-bond-sala-paris-15-21491835%2F",
+   "expires": "2026-11-13"
+  },
+  {
+   "label": "Pitingo — Navidades del Mundo",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-pitingo-navidades-del-mundo-velez-malaga%2F",
+   "expires": "2026-12-04"
+  },
+  {
+   "label": "Catupecu Machu",
+   "program": "box office",
+   "host": "fever.pxf.io/c/7440720/1928078/16345?prodsku=768486&u=https%3A%2F%2Ffeverup.com%2Fm%2F768486&intsrc=CATF_15532",
+   "expires": "2026-12-05"
+  },
+  {
+   "label": "Alabama Gospel Choir",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-alabama-gospel-choir-todos191206072026%2F",
+   "expires": "2026-12-19"
+  },
+  {
+   "label": "Concierto de Navidad en el Soho",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-concierto-de-navidad-en-el-soho-malaga-60316603163087%2F",
+   "expires": "2026-12-28"
+  },
+  {
+   "label": "Rodrigo Cuevas - Moonlight Málaga",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-rodrigo-cuevas-moonlight-malaga-2027-malaga%2F",
+   "expires": "2027-02-06"
+  },
+  {
+   "label": "Los Fabulosos Cadillacs",
+   "program": "box office",
+   "host": "conciertosya.com/Los-Fabulosos-Cadillacs-en-Malaga",
+   "expires": "2026-11-24"
+  },
+  {
+   "label": "Ainhoa Arteta en recital",
+   "program": "box office",
+   "host": "unientradas.es/es/espectaculo/ainhoa-arteta-en-recital/26-27ArtetaAinho",
+   "expires": "2026-12-12"
+  },
+  {
+   "label": "The Jazz Room Málaga",
+   "program": "Fever",
+   "host": "fever.pxf.io/c/7440720/1928078/16345?prodsku=631372&u=https%3A%2F%2Ffeverup.com%2Fm%2F631372&intsrc=CATF_15532",
+   "expires": "2027-02-20"
+  },
+  {
+   "label": "The Jazz Room New Orleans",
+   "program": "Fever",
+   "host": "fever.pxf.io/c/7440720/1928078/16345?prodsku=611306&u=https%3A%2F%2Ffeverup.com%2Fm%2F611306&intsrc=CATF_15532",
+   "expires": "2027-01-23"
+  },
+  {
+   "label": "Víctor Manuel",
+   "program": "box office",
+   "host": "unientradas.es/es/espectaculo/victor-manuel/26-27ManuelVicto",
+   "expires": "2026-11-15"
+  },
+  {
+   "label": "Camilo",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-camilo-starlite-occident-2027-marbella%2F",
+   "expires": "2027-07-01"
+  },
+  {
+   "label": "Los Delinqüentes",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-los-delincuentes-starlite-occident-2027-marbella%2F",
+   "expires": "2027-07-30"
+  },
+  {
+   "label": "David Bisbal",
+   "program": "box office",
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-david-bisbal-fuengirola-DAVIDBISBAL2027DAVIDBISBAL2027MARE%2F",
+   "expires": "2027-07-22"
+  }
+ ]
+}

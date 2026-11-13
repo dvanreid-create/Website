@@ -1,0 +1,15 @@
+{
+  "name": "Málaga Live Prime",
+  "short_name": "ML Prime",
+  "description": "Your Málaga Live Prime membership card — number, live status, and pass.",
+  "start_url": "/prime/pass/",
+  "scope": "/prime/pass/",
+  "display": "standalone",
+  "background_color": "#0B5E8A",
+  "theme_color": "#0B5E8A",
+  "icons": [
+    { "src": "/prime/pass/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/prime/pass/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/prime/pass/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+ "_comment": "NOT-MUSIC GATE. Málaga Live is a LIVE MUSIC site, but several venues we track publish their WHOLE programme — Auditorio Municipal de Benalmádena (operabenalmadena / tickets.oneboxtds.com) and Marenostrum Castle Park (marenostrumfuengirola.com) list theatre, dance, comedy, magic and children's shows next to the concerts, and the weekly LLM sweep takes the lot. Deleting such a row from the calendar does NOT hold: the next sweep re-adds it from the same venue page. So exclusions live here and are applied by build_site.py on EVERY build, as a gate running BEFORE the phantom / Fever-unbuyable / receipt gates. Matching is on the normalised act name (lowercase, accents stripped) and is a SUBSTRING test. IMPORTANT: set 'venue' whenever the phrase could belong to a real act somewhere else — a personal name ('David Navarro', 'José Tejada') or a common phrase ('La Granja') must be scoped to the venue, or a genuine gig elsewhere would be silently dropped. Omit 'venue' only for names distinctive enough to be safe anywhere. NOT blocked, deliberately: CABARET 2.0 at the same Benalmádena venue IS live music (Sofia 2026-07-29). This gate's drops appear in the build log's [gate] block. NOTE (2026-08-04): this file is now shipped by the canonical deploy-site.bat (added to its Website scp list), so a normal deploy applies any edit here — no separate genre-fix bat needed. This gate also carries OWNER CONTENT-POLICY removals (e.g. 'love of lesbian', DLR 2026-08-04), not only not-music rows; the log prefix 'not live music' is cosmetic for those. STANDING INSTRUCTION (Sofia, 2026-08-24): do NOT wait for a non-music show to appear on the site or in a reel before acting. Whenever comedy, theatre, a clown/children's show, magic, dance or any other non-music event is spotted on a tracked venue's programme, TELL SOFIA IMMEDIATELY so it can be added here in advance - she cannot know about shows she has never seen. Pre-loading beats reacting: a reactive block only helps after the thing has already been published.",
+ "generated": "2026-09-14",
+ "blocked": [
+  {"match": "queen of magic", "venue": "cazbah", "date": "2026-12-10", "why": "HIDDEN 2026-11-09 (Sofia: 'hide it') until the venue confirms date + entry. conciertos.club info page 126796 lists Thu 10 Dec 2026 21:00 The Cazbah, Mijas, but with NO price and NO buy button, and entradas.conciertos.club has no open event for it. Not a seller-confirmed, buyable show. Date + venue scoped: the 26 Dec Bar de las Motos and 2 Jan Louie Louie Queen of Magic rows are untouched. TO RESTORE: delete this entry once The Cazbah confirms entry/price (or a seller appears)."},
+ {"match": "game and mushrooms", "why": "NOT MUSIC - removed 2026-10-31 (Sofia: 'remove it, it shouldn't be on the site'). 'Game and Mushrooms / Caza y setas' = Fever plan 818890 (feverup.com/m/818890), a game-and-mushroom TASTING MENU for two at Tragabuches Marbella Dani Garcia, 50 EUR, 4-15 Nov. A restaurant menu, not a concert. The link check held back 10 rows as WRONG_EVENT because the calendar had the English name and Fever's page title is Spanish. All dates; both names."},
+ {"match": "caza y setas", "why": "NOT MUSIC - removed 2026-10-31 (Sofia: 'remove it, it shouldn't be on the site'). 'Caza y setas / Game and Mushrooms' = Fever plan 818890 (feverup.com/m/818890), a game-and-mushroom TASTING MENU for two at Tragabuches Marbella Dani Garcia, 50 EUR, 4-15 Nov. A restaurant menu, not a concert. The link check held back 10 rows as WRONG_EVENT because the calendar had the English name and Fever's page title is Spanish. All dates; both names."},
+  {"match": "malas companias", "date": "2026-10-24", "why": "REMOVED 2026-10-21 (Sofia: hide if 24 Oct is not correct). Malas Compañías (Sabina tribute), La Cochera Cabaret, 24 Oct 2026 is NOT on the venue programme: lacocheracabaret.com/programacion/ lists 24 Oct 2026 as PURO INDIE; the only Malas Compañías page there is the 22 Feb 2025 show; the linked /evento/malas-companias-2/ is a 404; Taquilla lists no Málaga date. Date-scoped, so other dates are unaffected. Lift if the venue relists it."},
+  {
+   "match": "bustamante",
+   "date": "2026-10-09",
+   "why": "REMOVED FROM THE SITE 2026-10-09 (Sofia: 'remove bustamante from the site'). David Bustamante, Fri 9 Oct, Palacio de la Paz (Fuengirola): sold out (only a wheelchair-companion seat left, see SOLD_OUT), non-commissionable town-hall seller. Blocks every calendar row for that date, any spelling ('David Bustamante en Fuengirola', 'David Bustamante - Feria del Rosario'); the Featured tile is expired in build_site.py. This deliberately overrides the 2026-09-13 'list sold-out shows' rule at Sofia's explicit request. The show is tonight, so it would have dropped by itself tomorrow."
+  },
+  {
+   "match": "dromedaries magicos",
+   "date": "2026-11-06",
+   "why": "DUPLICATE - removed 2026-10-08 (Sofia). The Fever scraper added 'Dromedaries Mágicos in Malaga' (6 Nov, The Club) with the blurb 'en directo en The Club, entradas a través de Fever', which names the seller and could send buyers away. The curated row 'Dromedarios Mágicos en Málaga' (build_site.py _viva_rows, same Fever sku 742552) stays. Date-scoped; different spelling (ies vs ios) so it does not touch the curated row."
+  },
+  {
+   "match": "bustamante feria del rosario",
+   "venue": "palacio de la paz",
+   "date": "2026-10-09",
+   "why": "DUPLICATE WITH A WRONG LINK - removed 2026-10-08 (Sofia). The sweep row 'David Bustamante - Feria del Rosario' (9 Oct, Palacio de la Paz, Fuengirola) shows Agotado / 'Consultar sala' with a bad link. The real show is the curated Featured tile 'David Bustamante' (SecuTix, from 10 EUR). Date-scoped; the curated tile is not a calendar row and is untouched."
+  },
+  {
+   "match": "peste en malaga",
+   "why": "THEATRE, NOT MUSIC - removed 2026-10-08 (Sofia: 'this is teatro, not supposed to be on Featured'). 'La Peste en Málaga - Visita teatralizada' (Historia Viva Málaga, Fever, a theatrical walking tour). All dates."
+  },
+  {
+   "match": "plague in malaga",
+   "why": "THEATRE, NOT MUSIC - removed 2026-10-08. English Fever title of 'La Peste en Málaga - Visita teatralizada' (Historia Viva Málaga). All dates."
+  },
+  {
+   "match": "margarita dominguez",
+   "venue": "maria cristina",
+   "date": "2026-10-24",
+   "why": "STALE 2024 EVENT, NOT A 2026 SHOW (Claude 2026-10-06, fundacionunicaja.com page read in the browser). The page 'Concierto Dialogos para piano de Margarita Dominguez' says 'jueves 24 de octubre' 19:30, Sala Fundacion Unicaja Maria Cristina, 15,10 EUR, tickets idEvento=251450 on unientradas; 24 Oct 2024 was a THURSDAY, 24 Oct 2026 is a SATURDAY, so the date on the site was the sweep re-reading an old page. CONTEXT.md already recorded it as a 2024 event ('never add'). The nightly link check also failed it (CANNOT_FIX). Date- and venue-scoped, so a genuine later Margarita Dominguez concert is unaffected. Reverse by deleting this entry if a 2026 page appears."
+  },
+  {
+   "match": "tete leal",
+   "venue": "virgen de las canas",
+   "date": "2026-10-16",
+   "why": "REMOVED AT SOFIA'S REQUEST 2026-10-05 (NOT a genre judgement and NOT a cancellation; this IS live music). 'Tete Leal - Cinematronic. Musica para peliculas imaginarias', Fri 16 Oct 2026 19:00, Parque Virgen de las Canas (Puerto de la Torre), free. The show is REAL: it is on the Ayuntamiento de Malaga cycle 'Musica... en tu Zona' programme (mmalaga.es/agenda/programa-musica-en-tu-zona-malaga/). Sofia could not find ANY event page, poster or press photo for it and asked for it to come off the site. Date- and venue-scoped, so his Metalirica show at Teatro Echegaray and any later date are untouched. Reverse by deleting this entry (and re-adding the 16 Oct TICKET_OVERRIDES line for 'tete-leal' if wanted) if a proper page turns up."
+  },
+  {
+   "match": "la konga",
+   "venue": "paris 15",
+   "date": "2026-10-08",
+   "why": "DUPLICATE, NON-COMMISSIONED SELLER - removed 2026-10-04 (Sofia). The sweep row 'La Konga - Cuartetour' (Sala Paris 15, 8 Oct) links to paris15.es/event/la-konga/ and pays nothing; the same show is on the site as 'La K'onga in Malaga' via Fever (sku 643664, commissioned). Normalised, the Fever title is 'la k onga ...' so this substring does NOT match it. Date-scoped so later La Konga dates are untouched."
+  },
+  {
+   "match": "benalsound",
+   "venue": "nadales",
+   "date": "2026-10-17",
+   "why": "CANCELLED BY THE ORGANISER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Benalsound' (091, La Casa Azul, Elefantes, Tabletom, Sara Rais), Sat 17 Oct 2026, Recinto Ferial Los Nadales, Benalmádena. ECI's own page (Sofia's browser screenshot 2026-10-02, on our Awin link) shows the buy button replaced by 'CANCELADO' and the organiser's 'COMUNICADO OFICIAL | SUSPENSIÓN DE BENALSOUND': the festival 'no podrá celebrarse' for logistical and technical reasons, first edition suspended, tickets refunded automatically. Nothing to reroute to - ECI was the only seller. Missed on the 2026-10-01 ECI refresh (removed from the map but never blocked, so the sweep row stayed live); date-scoped so a future edition is untouched. Reel for this show was already pulled by Sofia."
+  },
+  {
+   "match": "sidecars",
+   "venue": "paris",
+   "date": "2026-10-02",
+   "why": "POSTPONED BY THE ORGANISER - recorded 2026-10-02. 'Sidecars - Gira Presentación EVEREST', Fri 2 Oct 2026, Sala París 15. ECI's own page (browser-read 2026-10-02) now dates the show 3 April 2027, 21:00, Sala París 15, from 33,00 EUR, and carries the organiser's notice that the concert is POSTPONED because of Juancho's knee injury. The 2 Oct card had already left the homepage; this entry stops the sweep re-adding it. Date-scoped so the 3 Apr 2027 show is untouched."
+  },
+  {
+   "match": "navidad en el soho",
+   "venue": "soho",
+   "date": "2026-12-02",
+   "why": "CANCELLED - recorded 2026-10-02. ECI's page for 'Navidad en el Soho: Un Cuento Musical' (2 Dec 2026, Teatro del Soho CaixaBank) shows CANCELADO (found by the ECI refresh's cancellation scan). Date-scoped."
+  },
+  {
+   "match": "hans zimmer",
+   "venue": "miramar gl",
+   "date": "2026-11-22",
+   "why": "DUPLICATE REMOVED 2026-10-16 (Sofia saw it live). Fever plan 155745, Sun 22 Nov 19:00, appeared twice: 'Candlelight — Tribute to Hans Zimmer' at 'Gran Hotel Miramar GL' (this row, blocked) and 'Candlelight: Tribute to Hans Zimmer' at 'Salón Real del Gran Hotel Miramar' (kept). Cause NOT confirmed: removing the sweeplost entry 'candlelight tribute hans zimmer 22 nov' (map file saved 09:18) did not remove either card from the live page, where Servando's 20:30 and the Queen & Beatles Marbella card from the same map file are already live. A plausible reason is that backfill had already written the injected row into the box calendar, which is unverified. Date- and venue-scoped: the 18 Oct and 8 Dec Zimmer nights and any other Miramar row are untouched. Retire after 2026-11-22. NOT a genre or cancellation ruling."
+  },
+  {
+   "match": "disorder",
+   "venue": "louie louie",
+   "date": "2026-10-17",
+   "why": "DUPLICATE REMOVED BY SOFIA 2026-10-15 (NOT a genre or cancellation ruling). 'Disorder - Tributo a System of a Down, Bombtruck - Tributo a Rage Against The Machine, Black Horsemen - Tributo a Metallica', Louie Louie Estepona, Sat 17 Oct 00:00, is the same night as 'American Rock Stars: tributes to System of a Down, Rage Against the Machine and Metallica' (23:59, kept). The removed card linked to conciertos.club/malaga/conciertos/125661, a listing site that also shows Candlelight events, so readers would be sent off to browse them. Date- and venue-scoped; other Disorder dates are untouched."
+  },
+  {
+   "match": "nina pastori",
+   "venue": "principe de asturias",
+   "date": "2026-10-17",
+   "why": "CANCELLED / POSTPONED BY THE PROMOTER - removed 2026-10-02 (NOT a genre judgement; this IS live music). 'Niña Pastori - Color Fania', Sat 17 Oct 2026, Auditorio Municipal Príncipe de Asturias, Torremolinos. Seen by Sofia in her own browser on our own Awin link: ECI's page elcorteingles.es/entradas/conciertos/entradas-nina-pastori-torremolinos-2026-10-17/ shows the buy button replaced by 'CANCELADO' and the organiser's (Concert Tour) notice: the 17 Oct show is annulled and ALL tickets refunded because the concert is REPROGRAMMED to 7 March 2027, 20:00, same auditorium, now SEATED. The new date is on sale at ECI (elcorteingles.es/entradas/conciertos/entradas-nina-pastori-color-fania-torremolinos/, from 49,50 EUR) and is outside the calendar window today. Date-scoped so the 7 Mar 2027 show is untouched; the manual injection in build_site.py is retired in the same change. Missed by the ECI map refresh of 2026-10-01 because the page text still rendered the date and a 'COMPRAR'-style scan did not read the banner - the refresh must also look for CANCELADO on every card page. Reverse with one edit if the promoter reinstates 17 Oct."
+  },
+  {
+   "match": "capullo de jerez",
+   "venue": "teatro esad",
+   "date": "2026-10-24",
+   "why": "POSTPONED - Capullo de Jerez, Sat 24 Oct 2026 21:00, Teatro ESAD, Malaga. The ECI event page (elcorteingles.es/entradas/conciertos/entradas-capullo-de-jerez-malaga-60927609271796/), read in the built-in browser 2026-10-22, carries the organiser notice APLAZAMIENTO: the 24 Oct 2026 21:00 show is postponed to 26 FEBRUARY 2027 21:00; tickets already bought stay valid, refunds until 4 Nov 2026 (entradaseci@viajeseci.es). ECI now lists only 26 Feb 2027. Date-scoped so the 26 Feb 2027 date can be listed when it enters the calendar window. The two scheduled 24 Oct 13:00 Metricool reels (ES+EN) must be removed."
+  },
+  {
+   "match": "elton john",
+   "venue": "gran hotel miramar",
+   "date": "2026-11-01",
+   "why": "OFF SALE - Candlelight: Tribute to Elton John, Sun 1 Nov 2026 19:00, Gran Hotel Miramar. Fever plan 643697 (the seller conciertos.club names: 'Venta anticipada: Feverup.com') shows 'We love this experience, but no tickets are available at the moment' (built-in browser, 2026-10-22), and Fever's Malaga Candlelight listing (35 plans) has no Elton John programme. The card linked only to a conciertos.club INFO page, which earns nothing and sells nothing (Sofia 2026-10-22: must link to Fever, not conciertos.club). Date-scoped: remove this entry if Fever 643697 gets a 1 Nov session, and route it to feverup.com/m/643697 via TICKET_OVERRIDES."
+  },
+  {
+   "match": "holi not holi",
+   "venue": "principe de asturias",
+   "date": "2026-10-24",
+   "why": "CANCELLED / MOVED — Holi Not Holi, Sat 24 Oct 2026, Auditorio Municipal Príncipe de Asturias, Torremolinos. The ECI event page (elcorteingles.es/entradas/festivales/entradas-holi-not-holi-torremolinos/), read in the browser 2026-10-22, shows the ticket button as CANCELADO and the organiser's notice: the festival cannot be held on 24 Oct 2026 at Torremolinos and is POSTPONED to 2 April 2027 at Sala París 15, Málaga (new line-up/prices/ticket sale to be announced). Surfaced by the daily ticket-link check mail of 2026-10-22 (seller blocks our checker, link shipped on a 19-day-old browser check). Date-scoped so the 2 Apr 2027 date can be listed once it is on sale. The scheduled 24 Oct Holi reel must be cancelled in Metricool."
+  },
+  {
+   "match": "selwo marina",
+   "why": "NOT MUSIC — Selwo Marina is a marine/animal park in Benalmadena (dolphins, penguins, sea lions). 'Selwo Marina Tickets' on Fever is park ADMISSION, not a concert, and it surfaced in the Featured Events rail. Malaga Live is a live-music site; a theme-park admission never belongs on it. Substring block on 'selwo marina' (specific park name, not a real act, so no venue scoping needed). Ruling DLR 2026-09-19 after it appeared in Featured Events."
+  },
+  {
+   "match": "espectaculo flamenco",
+   "venue": "alegria",
+   "why": "PERMANENT DAILY TABLAO, NOT AN EVENT — and NOT a genre judgement: this IS live flamenco. 'Alegria. Flamenco y Gastronomia', Malaga, 28 EUR, listed by conciertos.club as '4 sesiones diarias' on EVERY SINGLE DAY of its agenda from 15 Sep 2026 to 10 Nov 2026 without a break. Sofia's ruling 2026-09-15 when shown it: block it permanently. REASONING: Malaga Live tells a reader what is on TONIGHT that is not on every other night. A standing tourist attraction running four sittings a day, forever, would add roughly 120 rows a month from one address and would outnumber the real concerts two to one on a quiet midweek night — 16 Sep 2026 has exactly two gigs (Maika Lavera at ZZ Pub, the Clarence blues jam) and this would have been a third of the page. ACKNOWLEDGED COST: a visitor specifically wanting flamenco in Malaga will not find this one through us. VENUE-SCOPED ON PURPOSE, and it must stay that way: 'espectaculo flamenco' is a generic phrase, and conciertos.club uses the IDENTICAL wording for the Pena Flamenca Nino de Velez nights (18 and 25 Sep, 20 EUR) which are genuine one-off peña shows — an unscoped block would silently delete those too, exactly what this file's own header warns about. Found by checking whether 16 Sep really held only two events; it did.",
+   "_see_also": "The header of this file says CABARET 2.0 is deliberately NOT blocked (Sofia 2026-07-29), but the 'la kermesse redonda' note in venue_event_map.json claims it 'stays excluded' over a menu tier. Those contradict, and CABARET 2.0 does ship with WHY_FILL copy, so the header is right and the Kermesse note is wrong. Flagged 2026-09-15; the dinner-show precedent it appeals to does not exist, which is why this entry rests on 'permanent daily fixture' and not on 'has a menu'."
+  },
+  {
+   "match": "nebulossa",
+   "venue": "paris",
+   "date": "2026-10-16",
+   "why": "CANCELLED BY THE PROMOTER - removed 2026-09-23 by the daily browser click-test (NOT a genre judgement; this IS live music). 'Nebulossa - Virtuzorrismo Tour', 16 Oct 2026, Sala Paris 15, Malaga. The live site's own Tickets link entradas.conciertos.club/events/virtuzorrismo-tour-malaga was opened in Chrome: the page titles itself 'CONCIERTO NEBULOSSA - MALAGA - VIRTUZORRISMO TOUR', shows 'VARIAS FECHAS' and replaces the ticket selector with 'El evento ha sido cancelado. Este evento ha sido cancelado'. EVERY SELLER WAS SEARCHED BEFORE THE DROP, paying ones first: El Corte Ingles' Malaga province listing (rendered in the browser, not fetched) has no Nebulossa row; entradas.com city ids malaga-490, benalmadena-9255 and estepona-2322 have none; Ticketmaster.es search 'nebulossa' returns '0 Results / No Upcoming Events'; Fever Malaga search returns no match; and the VENUE'S OWN programme at paris15.es/eventos/ jumps 11 Oct (Binomio de Oro) straight to 17 Oct (Sober) with NO 16 Oct date at all - a second, independent signal that the night is off. conciertos.club IS the promoter's own ticketer (entradium white-label) for this date, so there is no third party to route to. The drop therefore costs no commission. Blocked act+venue+date-scoped so the weekly sweep cannot re-add it and so a genuine Nebulossa date elsewhere is untouched; reverse with one edit if the promoter reinstates the show."
+  },
+  {
+   "match": "sara hebe",
+   "venue": "marte",
+   "date": "2026-09-17",
+   "why": "CANCELLED BY THE PROMOTER - removed 2026-09-14 by the daily browser click-test (NOT a genre judgement; this IS live music). 'Sara Hebe + F.R.A.C.', 17 Sep 2026, Sala Marte, Malaga. The live site's own Tickets link entradas.conciertos.club/es/events/sara-hebe-frac-en-malaga was opened in Chrome and the page title itself now reads 'CANCELADO Sara Hebe + FRAC en Malaga.'; the ticket selector is replaced by 'El evento ha sido cancelado. Este evento ha sido cancelado por el promotor por el siguiente motivo: Problemas tecnicos'. It was live and buyable at 20,00 EUR on 2026-09-11 and 2026-09-12, so this is a fresh cancellation, not a stale row. No seller can sell a cancelled show: conciertos.club IS the promoter's own ticketer for this date, and neither a paying seller (entradas.com Malaga/Benalmadena/Estepona listings opened this run carry no Sara Hebe row, Fever Malaga has no match, Ticketmaster.es none) nor any other outlet has a buyable page. Blocked date+venue-scoped, same shape as the Villano Antillano 18/09 drop; the baseline entry 'sara hebe f r a c|2026-09-17' is annotated rather than deleted so a reversal is one edit away if the promoter reinstates it."
+  },
+  {
+   "match": "callejero fino",
+   "venue": "paris",
+   "date": "2026-09-20",
+   "why": "CANCELLED BY THE PROMOTER - removed 2026-09-07 by the daily browser click-test (NOT a genre judgement; this IS live music). 'BM & Callejero Fino', 20 Sep 2026, Sala Paris 15, Malaga. The card's own Tickets link paris15.es/event/bm-callejero-fino/ now renders the title as 'BM & CALLEJERO FINO (CANCELADO)' with an official statement that the whole September tour is cancelled ('la gira de BM + Callejero Fino, prevista para este mes de septiembre, queda cancelada en su totalidad'). The venue's own programme page paris15.es/ lists the 20 Sep row as '(CANCELADO)' too. No paying alternative exists: entradas.com site search for 'Callejero Fino' returns no such event, and the show is absent from every other seller we carry - the tour itself is off, so no seller can sell it. Baseline entry 'bm callejero fino|2026-09-20' removed the same day (it had been browser-confirmed buyable on 2026-09-02, before the cancellation)."
+  },
+  {
+   "match": "disney",
+   "venue": "miramar",
+   "date": "2026-09-10",
+   "why": "SOLD OUT - removed 2026-09-07 by the daily browser click-test (NOT a genre judgement). 'Candlelight: Disney Love Songs', 10 Sep 2026, Salon Real del Gran Hotel Miramar. The card's own Fever link feverup.com/m/646736 ('Candlelight: Disney Canciones de Amor') still offers the 'jue 10 sept' chip, but selecting it greys BOTH sessions (19:00 and 21:00) and marks every zone Agotado - Zona D 21,50 EUR, Zona C 35,00 EUR, Zona B 43,00 EUR, Zona A 47,00 EUR - and the widget's own footer reads 'Entradas agotadas'. The add-ons (Foto Candlelight, Pack de 3 velas) are AGOTADO too, so there is nothing left to buy on that night. Candlelight is a Fever-exclusive product, so there is no alternative seller to route to; the plan's other date (20 sept) is a different night and is NOT a substitute for this card. Same treatment as the 2026-08-23 entry for this very plan. On 2026-09-02 the 10 Sep 19:00 session still sold Zona A at 47,00 EUR, so this sold out between 02 and 07 Sep. Baseline entry 'candlelight disney love songs|2026-09-10' removed the same day."
+  },
+  {
+   "match": "legends and mysteries",
+   "why": "Fever DRAMATIZED TOUR (theatrical night walking-tour, 'Legends and Mysteries - Dramatized Tour', 11 Sep 2026, meeting at Estatua Cardenal Herrera Oria), not a live-music gig — it was surfacing in Featured Events on a generic stock concert photo. DLR 2026-08-31. Unscoped: distinctive Fever product name, safe to block anywhere."
+  },
+  {
+   "match": "hipnosis de comedia",
+   "why": "Comedy hypnosis show, not live music. Sofia 2026-07-28. Auditorio Municipal de Benalmádena publishes its full programme; the sweep took it."
+  },
+  {
+   "match": "rea danza",
+   "why": "Dance performance, not live music. Sofia 2026-07-28. Same venue programme as above."
+  },
+  {
+   "match": "mago orbit",
+   "why": "Magic show ('MAGO ORBIT PRESENTA ACERO 2.0 – SOHAIL MÁGICO', 16 Aug 2026, Marenostrum Castle Park, Fuengirola). Not live music. Sofia 2026-07-29. Unscoped: 'mago orbit' is a distinctive stage name, safe to block anywhere."
+  },
+  {
+   "match": "cantajuego",
+   "why": "Children's show ('CANTAJUEGO – EL PAYASO TALLARIN', 23 Aug 2026, Marenostrum Castle Park, Fuengirola). It does contain music, but it is a kids' entertainment brand rather than a live-music gig — Sofia ruled it out 2026-07-29. Unscoped: 'cantajuego' is a registered brand name, safe anywhere."
+  },
+  {
+   "match": "la granja",
+   "venue": "benalmadena",
+   "why": "Not live music (23 Aug 2026, Auditorio Municipal de Benalmádena). Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: 'la granja' is a common Spanish phrase and could plausibly be a band name elsewhere — unscoped this would risk dropping a real gig."
+  },
+  {
+   "match": "david navarro",
+   "venue": "benalmadena",
+   "why": "Not live music (6 Aug 2026, Auditorio Municipal de Benalmádena) — a Spanish comedian of this name tours the venue circuit. Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: it is a personal name and a musician could share it; unscoped this would risk dropping a real gig."
+  },
+  {
+   "match": "jose tejada",
+   "venue": "benalmadena",
+   "why": "Not live music (16 Aug 2026, Auditorio Municipal de Benalmádena). Sofia 2026-07-29. SCOPED TO THE VENUE ON PURPOSE: personal name, same reasoning as David Navarro. Note the matcher strips accents, so this also matches 'José Tejada'."
+  },
+  {
+   "match": "love of lesbian",
+   "why": "OWNER CONTENT-POLICY REMOVAL at DLR's direction 2026-08-04 (NOT a genre judgment). DLR ruled this act's name inappropriate for the ML calendar and wants it excluded — originally the 29 Aug 2026 show at Auditorio Starlite, Marbella. Removing the calendar row does not hold (the weekly sweep re-adds a real event), so it is gated here on every build. Unscoped: 'love of lesbian' is a distinctive band name, safe to block anywhere. NOTE: this reuses the not-music gate, so the build log's [gate] line will read 'not live music' — that prefix is cosmetic; the real reason is the owner content-policy exclusion recorded here."
+  },
+  {
+   "match": "kream",
+   "venue": "cortijo de torres",
+   "date": "2026-08-29",
+   "why": "CANCELLED BY THE SELLER — removed at DLR's direction 2026-08-17 (NOT a genre judgment). 'KREAM feat. Alvama Ice', 29 Aug 2026, Auditorio Municipal Cortijo de Torres, Málaga. Ticketmaster.es event 1231184919 shows 'This event has been cancelled. Ticket sales have stopped.' — browser-confirmed 08-15 and again 08-17. No alternative seller exists, so the card had a Tickets button that could never sell. Ticketmaster.es is a TRUSTED HOST (shipped unfetched), so the daily verifier can never auto-drop it; this gate is the only durable removal. DATE-SCOPED + VENUE-SCOPED so a future KREAM date anywhere else still publishes normally."
+  },
+  {
+   "match": "bresh",
+   "venue": "torremolinos",
+   "date": "2026-09-12",
+   "why": "NO SELLER LEFT — removed at DLR's direction 2026-08-17 (NOT a genre judgment). 'Bresh, la fiesta más linda del mundo', 12 Sep 2026, Plaza de Toros de Torremolinos. Browser-confirmed 08-17: the Torremolinos council page carries no buy control at all; the promoter's own Plaza Paraíso programme now advertises a DIFFERENT event in that 12 Sep slot ('Tardeo Argentinos ATR'); the Fourvenues Bresh event page 404s; and Atrápalo lists it 'NO DISPONIBLE'. Every reachable route says it is off sale or replaced, so no correct link exists to ship. DATE-SCOPED + VENUE-SCOPED: Bresh tours constantly, so a future Bresh date must still publish."
+  },
+  {
+   "match": "noche flamenca del compas",
+   "venue": "benalmadena",
+   "date": "2026-08-23",
+   "why": "WRONG-DATE DUPLICATE — removed at DLR's direction 2026-08-17 (NOT a genre judgment). The site was showing this show TWICE: 22 Aug (as 'I Noche Flamenca del Compás', onebox select/2697427) and 23 Aug (as 'NOCHE FLAMENCA DEL COMPÁS', onebox events/51613). Browser-confirmed 08-17 on the seller's own SESIONES tab: event 51613 has exactly ONE session, SÁB 22 AGO 22:00, €30, 'Disponibilidad media'. There is no 23 Aug show — the venue's blurb reads 'Del 22 al 23 de agosto' (a festival window) and that range was read as a second night. The 08-15 re-date fixed the map entry but the stale calendar row survived. THE DATE SCOPE IS THE WHOLE POINT: an act-only block would also have deleted the REAL, on-sale 22 Aug gig. Keep the 22 Aug card; this removes only the phantom 23 Aug one."
+  },
+  {
+   "match": "zarzuela agua azucarillos y aguardiente",
+   "venue": "navajas",
+   "date": "2026-08-25",
+   "why": "NO ONLINE TICKETING — removed at DLR's direction 2026-08-17 (NOT a genre judgment; this IS live music). Zarzuela 'Agua, azucarillos y aguardiente', Teatro Lírico Andaluz, 25 Aug 2026, Casa de los Navajas, Torremolinos — III Festival Lírico. Re-confirmed in the browser 08-17: the council event page states the date, the €10 single unnumbered price and the two shows (21:00 / 22:30), but carries NO buy control and NO ticket-seller link; seats are sold IN PERSON ONLY at Viajes Pinsapo (Plaza de la Nogalera). It was the one remaining card of 36 whose Tickets button offered a visitor no purchase path at all, which is exactly what the daily ticket audit exists to eliminate. REVERSIBLE: delete this entry to list it again if the owner would rather show it as an information-only card. DATE-SCOPED + VENUE-SCOPED so a future zarzuela of the same title elsewhere (it is a standard repertory piece) still publishes."
+  },
+  {
+   "match": "candlelight queen vs abba",
+   "venue": "anantara",
+   "date": "2026-08-22",
+   "why": "DEAD SELLER PAGE - removed 2026-08-19 by the daily click-test (NOT a genre judgement). The card's own Fever link (feverup.com/m/182969) REDIRECTS to plan 405944 'Candlelight: Long Live the Rock Legends', which shows 'We love this experience, but no tickets are available at the moment' - wrong event AND unbuyable. The real plan, feverup.com/m/677232 'Candlelight: Queen vs. ABBA' at Salon Linares Anantara Villa Padierna, offers only two sessions in its date selector - dom 11 oct 2026 and sab 09 ene 2027 - so NO 22 Aug session exists at any seller. Browser-verified 2026-08-19. Scoped to venue+date so the October/January runs are unaffected."
+  },
+  {
+   "match": "antonio cortes",
+   "venue": "nerja",
+   "date": "2026-09-14",
+   "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-19 by the daily click-test (NOT a genre judgement). The card's Tickets link opens the Ayuntamiento de Nerja press release 'Antonio Cortes inaugura la nueva temporada del Centro Cultural con un concierto inedito', DATED 10 SEPTIEMBRE 2024, with no ticket page and no buy control (browser-verified 2026-08-19). DLR already ruled this entry off the site on 2026-08-15 as a 2024 press release read as a 2026 event; the weekly sweep has re-created it. Scoped to venue+date so a genuine Antonio Cortes gig elsewhere is unaffected."
+  },
+  {
+   "match": "ludovico einaudi",
+   "venue": "miramar",
+   "date": "2026-08-22",
+   "why": "NO BUYABLE SESSION - removed 2026-08-22 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/145066 'Candlelight: Tributo a Ludovico Einaudi en el Gran Hotel Miramar' renders its 'sab 22 ago' date chip with class level-item--disabled, and CLICKING IT DOES NOT SELECT — the selection stays on 'dom 01 nov', the only bookable session the plan offers. Proven from the seller's own date selector, not from page-body dates (browser-verified 2026-08-22). Candlelight is Fever-exclusive ('Exclusivo Fever' badge on the plan), so no alternative seller exists for the 22 Aug date. Scoped to venue+date so the 01 Nov run at the same venue, and the Marbella Candlelight Open Air Einaudi, are unaffected."
+  },
+  {
+   "match": "disney",
+   "venue": "miramar",
+   "date": "2026-08-23",
+   "why": "NO BUYABLE SESSION - removed 2026-08-22 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/646736 'Candlelight: Disney Canciones de Amor' renders its 'dom 23 ago' date chip with class level-item--disabled while 'jue 10 sept' and 'dom 20 sept' are selectable — so the selector works and 23 Aug specifically is not sellable (browser-verified 2026-08-22). Candlelight is Fever-exclusive, so no alternative seller exists for that date. Scoped to venue+date ON PURPOSE: the site's own 10 Sep Disney Love Songs card runs off the SAME plan m/646736 and is confirmed on sale, so it must keep publishing. 'disney' is a deliberately broad match made safe by the venue+date scope."
+  },
+  {
+   "match": "kevin kaarl",
+   "venue": "paris",
+   "date": "2026-09-15",
+   "why": "NOT A 2026 EVENT and no way to buy - removed 2026-08-24 by the daily click-test (NOT a genre judgement). The card's Tickets link is the BARE HOMEPAGE www.entradas.com/, and entradas.com's own site search returns no Kevin Kaarl at all. Chased to the source in the browser 2026-08-24: (a) the venue's own page paris15.es/event/kevin-kaarl/ dates the show 'septiembre 15, 2025' and its entradas.com deep link /event/kevin-kaarl-sala-paris-15-19892866/ returns 'La pagina que buscas no esta disponible'; (b) Songkick's page for that exact gig, /concerts/42459298-kevin-kaarl-at-sala-paris-15, is headed PAST CONCERT - Monday 15 September 2025; (c) Songkick's Sala Paris 15 venue page lists 22 upcoming shows including El Kuelgue 10 Sep, Emanero 12 Sep, Villano Antillano 18 Sep, Callejero Fino 20 Sep and Ciro y los Persas 24 Sep 2026 - and NO Kevin Kaarl; (d) tomaticket's Kevin Kaarl artist page shows only Monterrey dates upcoming. Same failure mode as Antonio Cortes 14 Sep: a past show read one year forward. Scoped to venue+date so a genuine future Kevin Kaarl gig still publishes."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-27",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-24 by the daily click-test (NOT a genre judgement; the festival itself IS live music and stays on the site). 27 Aug carried the SAME festival TWICE: the three-night series 'Canela Party 2026 - Dia 1/2/3' (27/28/29 Aug, venue 'Recinto Ferial de Torremolinos', full line-ups) AND a second standalone card 'Canela Party 2026' on 27 Aug whose venue reads 'Plaza de Toros de Torremolinos'. Browser-confirmed 2026-08-24 on the seller's own page, ingresse.com/canela-party-2026/: the festival is at the RECINTO FERIAL de Torremolinos on 27, 28 and 29 August - so the standalone card is both a duplicate of Dia 1 and wrong about the venue. Keeps the Dia 1/2/3 series, which names the right venue and the bill. THE VENUE SCOPE IS THE WHOLE POINT: the gate is a SUBSTRING test, so 'canela party 2026' also appears inside 'Canela Party 2026 - Dia 1 (Unknown Mortal Orchestra...)'; only the venue clause keeps Dia 1 alive. If a future build ever labels the Dia 1 row 'Plaza de Toros', this entry would remove it too - re-check if Dia 1 disappears from 27 Aug. REVERSIBLE: delete to show both cards again."
+  },
+  {
+   "match": "bioparc",
+   "why": "NOT LIVE MUSIC — a ZOO. Removed at DLR's direction 2026-08-24. 'Bioparc Fuengirola: a varguandist zoo!' is the Bioparc Fuengirola animal park, a Fever attraction the weekly sweep ingested; the Featured (Fever/Candlelight) rail then surfaced it with a generic stock image and a garbled blurb. Deleting the calendar row does not hold (the sweep re-adds it from Fever), so it is gated here on every build. Unscoped: 'bioparc' is a distinctive brand name (the Bioparc zoos), safe to block anywhere."
+  },
+  {
+   "match": "comandante lara",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Stand-up comedian, opened the 2026 season on 12 Jun. Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere."
+  },
+  {
+   "match": "el brujo",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Rafael Alvarez 'El Brujo' - one-man theatre, 2 Sep 2026, 18 EUR. Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. 'brujo' is a common Spanish word and could easily form part of a band name."
+  },
+  {
+   "match": "monologos",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. The 'gran noche de monologos' stand-up night in the Festival de la Comedia strand (22-25 Jul). Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. Matches the accent-stripped form, which is how this gate normalises."
+  },
+  {
+   "match": "mago de oz",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. 'El Mago de Oz' - the Wizard of Oz stage show at Rincon in Aug 2026. Not live music. *** VENUE SCOPING IS CRITICAL HERE, NOT OPTIONAL: Mago de Oz (Mago de Oz / Magodeoz) is a well-known Spanish folk-metal BAND that genuinely tours. An unscoped rule would silently delete a real gig by them anywhere on the coast. Never remove the venue scope from this entry."
+  },
+  {
+   "match": "antonia san juan",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. Actress, appearing in the Festival de la Comedia strand (22-25 Jul). Not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere. A personal name, which this file's comment specifically says must be scoped."
+  },
+  {
+   "match": "festival de la comedia",
+   "venue": "rincon",
+   "why": "Pre-loaded 2026-08-24 when Rincon de la Victoria joined the covered towns. Its Auditorio Municipal runs a MIXED bill - 17 shows Jun-Sep 2026 - with comedy and theatre alongside the music. Blocked BEFORE it could appear rather than after, because the reactive approach means a non-music show reaches the site and the reels first. The comedy festival strand inside 'Noches de Verano', 22-25 Jul 2026. Comedy, not live music. Scoped to venue 'rincon' per this file's own rule: the phrase could belong to a real act elsewhere."
+  },
+  {
+   "match": "un secreto a voces",
+   "venue": "rincon",
+   "why": "Comedy play by Alvaro Carrero (with Pablo Puyol), 3 Sep 2026, Auditorio Municipal de Rincon de la Victoria. Not live music. Pre-loaded 2026-08-24 alongside the rest of Rincon's comedy strand. Scoped to venue per this file's own rule: 'un secreto a voces' is an ordinary Spanish phrase (it is the standard translation of the play 'Noises Off') and could plausibly appear in a song or album title elsewhere."
+  },
+  {
+   "match": "cochera comedy",
+   "venue": "marenostrum",
+   "why": "LA COCHERA COMEDY SOHAIL - stand-up comedy nights at Marenostrum Castle Park, a four-date residency (7, 14, 21, 28 Jun 2026). Comedy, not live music. PRE-LOADED 2026-08-24 at Sofia's instruction while the 2026 dates are already past: comedy residencies come back, and a four-date run is exactly the shape that would repeat in the reels. Marenostrum publishes its WHOLE programme and is one of the two venues this file was created for. Scoped to venue: 'La Cochera' is also a real Malaga venue (La Cochera Cabaret) that hosts genuine music, so an unscoped rule could delete real gigs. IF La Cochera Comedy turns up at another venue it needs its own entry."
+  },
+  {
+   "match": "benalmadena rie",
+   "why": "'Benalmadena Rie' - the town's COMEDY festival (rie = laughs). Comedy, not live music. Spotted 2026-08-24 on mmalaga.es while looking for a readable Benalmadena source, and pre-loaded under Sofia's standing instruction rather than waiting for it to reach the site. UNSCOPED deliberately, which is safe here because the town name is part of the title - the phrase cannot collide with an act anywhere else. Matches the accent-stripped form (Benalmadena Rie), which is how this gate normalises."
+  },
+  {
+   "match": "reyes de luna",
+   "venue": "benalmadena",
+   "why": "PHANTOM EVENT, removed 2026-08-27 - NOT a genre judgement. The site listed 'Reyes de Luna' at the Auditorio Municipal de Benalmadena on 27/08/2026 and 'Reyes de Luna (2a noche)' on 28/08/2026, both linking to tickets.oneboxtds.com/operabenalmadena/events/59179. NEITHER IS REAL. Checked in a browser on 27/08/2026: event 59179 does not resolve at all - the ticketer redirects it to the bare events catalogue - and 'Reyes de Luna' appears NOWHERE in the venue's forward programme, which the ticketer lists continuously from 28 Aug to 3 Oct 2026. The real booking for 28/08/2026 at that venue, 22:00, is 'JOSE TEJADA HIPNOMAGIA' (confirmed on the event's own poster art), which this file already blocks as non-music via 'hipnomagia' and 'jose tejada'. So the correct state for both nights is EMPTY. HOW IT GOT THROUGH, recorded honestly: 'reyes de luna' is not in operabenalmadena's acts in venue_event_map.json, and that venue is complete:true with the gate armed, so phantom_reason() WOULD have dropped it - until 2026-08-25, when Claude made phantom_reason() honour the venue's 'verify_only' flag. That change was made for a real reason (the same gate had deleted a genuine Starlite headliner, Solea Morente, on 15 Jul) but it removed the only thing catching this. The proper fix is for verify_only to REPORT an unverified event into the audit instead of silently passing it; until that exists, this entry is the stopgap. Scoped to venue: 'Reyes de Luna' is a plausible name for a real touring act, so an unscoped rule could delete genuine gigs elsewhere. LIFT THIS ENTRY if the venue ever genuinely books them - check the ticketer first. Kept in THIS file because it is the only removal lever that reaches the box: ticket_link_drops.json is box-owned and excluded from the ops_sync rsync."
+  },
+  {
+   "match": "baul de los 70",
+   "why": "STALE-DATE PHANTOM, removed 2026-08-25 - NOT a genre judgement. 'Banda Municipal: El Baul de los 70 con Serafin Zubiri', Plaza del Ajedrez, Estepona, was listed for 25/08/2026 and went out as that day's reel. IT IS NOT HAPPENING. The concert was real but took place on SUNDAY 25 AUGUST 2024: cultura.estepona.es/zubiri-banda-musica-el-baul-de-los-70/ is a 2024 article (published_time 2024-08-21, body says 'este domingo, 25 de agosto de 2024', poster file 240825_Concierto-Serafin-Zubiri.jpg) and 25 Aug 2024 was a Sunday while 25 Aug 2026 is a Tuesday. The sweep read a two-year-old archive page, took the day and month, and stamped the CURRENT year on it. Confirmed absent from the council's live agenda (ayuntamiento.estepona.es/agenda) on 25/08/2026, which is why Sofia found the link led to no such band. Blocked on the TITLE with no date or venue scope ON PURPOSE: the calendar row's venue reads 'Plaza del Ajedrez' rather than anything containing 'estepona', so a venue scope would have silently failed to match and left the phantom live - and leaving a non-existent concert on the site is far worse than over-blocking a show title that is not currently programmed. LIFT THIS ENTRY if the Banda Municipal genuinely revives the programme, after checking the YEAR on the source page."
+  },
+  {
+   "match": "karaoke",
+   "why": "STANDING RULE, not a one-off show. Sofia 2026-08-24: 'karaoke never counts'. Karaoke is the audience singing to backing tracks, not a live-music booking, so it is never a listing and never a reel. Deliberately UNSCOPED and deliberately a single common word so it catches the whole category wherever it appears - the trigger case was 'Ciao Mare - Italia Karaoke Show' at La Cochera Cabaret (3 Nov 2026), which the venue itself tags MUSICA. Substring matching means this also catches live-band karaoke billed as 'rockaraoke', which is still karaoke. This is the ONLY broad category rule in the file: every other entry names a specific show, because a broad rule can delete real gigs. It is safe here only because no touring act is billed with 'karaoke' in its name."
+  },
+  {
+   "match": "venciendo a monstruo miedo",
+   "why": "Pre-loaded 2026-08-24 under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Children's show at La Cochera Cabaret, 24 Jan 2027. Caught because the venue MIS-TAGS it as MUSICA on its own taxonomy feed (lacocheracabaret.com/tipo-evento/musica), which is the only source we sweep for that room - so the category filter alone would NOT have stopped it. Unscoped: the title is specific enough to be safe anywhere, and it is a children's show wherever it tours. NOTE for whoever reviews the same feed later: 'Malas Companias' and 'Bendecida' also sit on it and also look like theatre titles, but BOTH were checked on their own event pages and are genuine music (Sabina tribute and Heroes del Silencio tribute respectively) - do not block them."
+  },
+  {
+   "match": "hipnomagia",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Jose Tejada's magic + hypnosis + comedy show, 28 Aug 2026. TITLE-LEVEL block added because the two sources bill it differently: the ticketer says 'JOSE TEJADA HIPNOMAGIA' (which the existing 'jose tejada' rule catches) but the venue's own cartelera says just 'Hipnomagia' (which it did NOT catch). LESSON: block the SHOW TITLE as well as the performer. Unscoped: 'hipnomagia' is a coined word and the show is non-music wherever it tours."
+  },
+  {
+   "match": "imagilusion",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Family show of Disney songs with dance and visual magic (Frozen, Toy Story, El Rey Leon, Mary Poppins), 19 Sep 2026. It DOES contain music, but it is a children's theatrical show, not a gig - Sofia ruled it out 2026-08-24. Unscoped: coined word, safe anywhere."
+  },
+  {
+   "match": "el raro de los 90",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stand-up monologue about growing up in the 90s, 4 Sep 2026. Comedy, not music."
+  },
+  {
+   "match": "dreaming bubbles",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Giant-bubble family show, 6-7 Sep 2026. Visual/sensory, not a gig."
+  },
+  {
+   "match": "de cuentos el musical",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Children's musical theatre, 11 Sep 2026."
+  },
+  {
+   "match": "perdido en los 80",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Billed as an 80s nostalgia night but the ticketer description is explicit: 'un MONOLOGO' by Diego Sanchez, 19 Sep 2026. Stand-up, not music. Scoped because the phrase would make a perfectly ordinary song or album title."
+  },
+  {
+   "match": "the magic experience",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Magic/illusion show, 26 Sep 2026. Scoped: a generic English phrase that could easily name a music show elsewhere."
+  },
+  {
+   "match": "la cena de los idiotas",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stage comedy (the Spanish 'Le Diner de Cons'), 22 Oct 2026. Theatre, not music."
+  },
+  {
+   "match": "la ratonera",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Agatha Christie's 'The Mousetrap', 23 Oct 2026. Theatre. Scoped: 'la ratonera' is an ordinary Spanish word and is also used as a venue/bar name."
+  },
+  {
+   "match": "un cura en apuros",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. Stage comedy, 24 Oct 2026. Theatre, not music."
+  },
+  {
+   "match": "miercoles addams",
+   "venue": "benalmadena",
+   "why": "Pre-loaded 2026-08-24 from the venue's own cartelera (operabenalmadena.com/cartelera) and its ticketer, under Sofia's standing instruction to block non-music BEFORE it reaches the site or a reel. 'Miercoles Addams: El Secreto de la Mansion', family theatre, 30 Oct-1 Nov 2026. Scoped: a themed music night of the same name is imaginable elsewhere."
+  },
+  {
+   "match": "abba voyage",
+   "venue": "marbella arena",
+   "date": "2026-08-29",
+   "why": "CANCELLED BY THE SELLER - removed 2026-08-28 by the daily click-test (NOT a genre judgement; this IS live music). 'The Tribute - Inspired by ABBA Voyage London', 29 Aug 2026, Marbella Arena. The card's own Tickets link opens ticketmaster.es/event/.../1628507111, which renders the right act, the right venue and 'Sat, 29 Aug 2026, 21:30' and then states 'This event has been cancelled. Ticket sales have stopped, but there may be tickets available for other dates.' Checked for a second seller before removing: tomaticket.es still publishes a page for the date, but its COMPRAR ENTRADAS button is an Impact redirect (ticketmaster.evyy.net) back to that SAME cancelled Ticketmaster event - a stale shell, not an alternative. DATE+VENUE SCOPED: other ABBA Voyage tribute dates are unaffected."
+  },
+  {
+   "match": "mecano",
+   "venue": "miramar",
+   "date": "2026-09-13",
+   "why": "NO BUYABLE SESSION - removed 2026-08-28 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/656280 'Candlelight: Tributo a Mecano' renders its date selector with 'dom 13 sept' carrying level-item--disabled (it will not select); the first sellable date on the plan is 'dom 04 oct'. Candlelight is Fever-exclusive, so no rival seller can hold this date. DATE+VENUE SCOPED so the 4 Oct occurrence stays live."
+  },
+  {
+   "match": "candlelight queen vs abba",
+   "venue": "unicaja",
+   "date": "2026-09-18",
+   "why": "NO BUYABLE SESSION - removed 2026-08-28 by the daily click-test (NOT a genre judgement). The card's own Fever link feverup.com/m/555765 'Candlelight: Queen vs. ABBA' at Sala Fundacion Unicaja Ma Cristina offers only 'sab 10 oct' and 'vie 13 nov' in its own date selector - 18 Sep is gone from the plan. Fever's Malaga venue page for Sala Unicaja confirms the run as 10 Oct - 13 Nov. Candlelight is Fever-exclusive, so no rival seller can hold it. DATE+VENUE SCOPED: the Oct and Nov dates stay live, as does the separate Marbella plan."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-28",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-28 by the daily click-test (NOT a genre judgement; the festival itself IS live music and stays on the site). Twin of the 27 Aug entry added 2026-08-24: the same festival is listed a second time at 'Plaza de Toros de Torremolinos' while the real venue, confirmed on the seller's own page (ingresse.com/canela-party-2026, 'Recinto Ferial de Torremolinos - Malaga'), is the Recinto Ferial. The Dia 1/2/3 rows are the correct ones and survive."
+  },
+  {
+   "match": "canela party 2026",
+   "venue": "plaza de toros",
+   "date": "2026-08-29",
+   "why": "DUPLICATE ROW WITH THE WRONG VENUE - removed 2026-08-28 by the daily click-test. Same case as the 27 and 28 Aug entries: the wrong-venue duplicate re-renders with each new day of the festival, so the final night is scoped too. The seller's own page (ingresse.com/canela-party-2026) gives the venue as Recinto Ferial de Torremolinos and sells 'Sat 29 Aug 06:30 PM'; the Dia 3 row carries that correctly and stays live."
+  },
+  {
+   "match": "villano antillano",
+   "venue": "sala paris 15",
+   "date": "2026-09-18",
+   "why": "CANCELLED - removed 2026-08-29 by the browser click-test (NOT a genre judgment). 'Villano Antillano', 18 Sep 2026, Sala Paris 15, Malaga. Proved unsellable on five independent checks: the taquilla.com listing's own Malaga buy button lands on entradas.com/event/villano-antillano-sala-paris-15-21485879/ which renders 'Unfortunately, this page is no longer available'; entradas.com/artist/villano-antillano/ now offers only a TicketAlarm signup with 0 events; ticketmaster.es search returns '0 Results'; wegow and dice.fm list no Malaga date; the venue's own programme at paris15.es jumps 15 Sep -> 19 Sep with no 18 Sep show; and laganzua.net's page for this exact date and venue is stamped 'Cancelado'. No paying seller (ECI/awin, Fever/pxf, Ticketmaster/Impact) and no non-paying seller has a buyable page for this date, so the drop costs no commission. Date+venue scoped so any future Villano Antillano show ships."
+  },
+  {
+   "match": "south funk",
+   "venue": "benalmadena",
+   "date": "2026-09-26",
+   "why": "DUPLICATE ROW ON THE WRONG DATE - removed 2026-09-20 (NOT a genre judgement; this IS live music and it ships correctly on 27 Sep). The site carried the same show TWICE: 'South Funk' @ 'Auditorio de Benalmadena' on 26 Sep 21:00, and 'SOUTH FUNK' @ 'Auditorio Municipal de Benalmadena' on 27 Sep 21:00. BOTH CARDS LINKED TO THE SAME SELLER EVENT, tickets.oneboxtds.com/operabenalmadena/events/58687, and that page carries EXACTLY ONE DATE: '27 de septiembre de 2026'. So the 26th is the phantom and the 27th is real - a reader clicking the 26 Sep card was sent to a page selling a different night. Date+venue scoped, so the 27 Sep show is untouched and any future South Funk date anywhere still publishes. FOUND while comparing our week against Ticketmaster's Malaga inventory (Sofia, 2026-09-20). ROOT CAUSE IS THE DE-DUPLICATOR, NOT THIS ROW: it keys on the act string, so two spellings of one act defeat it. Three more pairs were live the same day - 'Andres Suarez' / 'Andres Suarez. Lua' (Cervantes, 20 Sep, both 19:00), 'La Juan Roman' / 'La Juan Roman - Cumbia en Malaga' (Sala Marte, 25 Sep, both 21:00) and 'Mocedades + Los Panchos' / 'Mocedades y Los Panchos' (Cervantes, 26 Sep, both 20:00, the second even captioned 'Una segunda fecha' as though it were a real extra night). Those three share a date so they are visibly duplicates; THIS one was harder to see because the duplicate sat on a different day. Blocking each by hand does not scale - see task #27."
+  },
+  {
+   "match": "wasabi cru",
+   "venue": "rincon",
+   "date": "2026-09-26",
+   "why": "CANCELLED BY THE ORGANISER, AND THE SITE'S DATE WAS WRONG TOO - removed 2026-09-01 by the daily click-test (NOT a genre judgement; this IS live music). The card read 'Wasabi Cru, 26 Sep 2026, Auditorio Municipal de Rincon de la Victoria', but its own Tickets link (El Corte Ingles /entradas/conciertos/entradas-alba-dreid-wasabi-cru-rincon-de-la-victoria/, wrapped in the ECI Awin merchant 13034) renders 'Concierto Alba Dreid + Wasabi Cru en Malaga, Fechas: 4 de Septiembre de 2026, 22:00, Auditorio Municipal del Rincon de la Victoria, Desde 12,50 EUR' stamped CANCELADO twice, above the promoter's own notice: the show 'queda cancelado' for logistical production reasons within the Noches de Verano de Rincon de la Victoria programme, with refunds by the original payment method. So the real date was 4 Sep, not 26 Sep, and that one date is dead. Checked every other seller before removing, 2026-09-01: the ECI VENUE page (recintos/malaga/auditorio-municipal-del-rincon-de-la-victoria-0000085KT) lists exactly 2 events, ALBA DREID + WASABI CRU 04/09/2026 and Antonia San Juan 06/09/2026 - no 26 Sep anything; tomaticket's Wasabi Cru artist page has no upcoming dates; malagaentradas.com (the other seller the town hall named) does not carry it at all; and entradas.com's malaga-490 city listing has no Wasabi Cru. No buyable page exists on ANY date, so the drop costs no commission. DATE+VENUE SCOPED ('rincon' scopes it to that auditorium) so a genuine future Wasabi Cru show anywhere still publishes."
+  },
+  {
+   "match": "david dominguez",
+   "venue": "benalmadena",
+   "why": "NOT LIVE MUSIC - stand-up comedy. Same show as the 'el raro de los 90' entry above, which already covers it and was pre-loaded 2026-08-24 from operabenalmadena.com/cartelera. THIS ENTRY IS A DELIBERATE SECOND NET, NOT A DUPLICATE: that one matches the SHOW TITLE, this one the PERFORMER'S NAME. The tourism agenda bills it as 'El raro de los 90. David Dominguez' (thisisbenalmadena.travel/event/el-raro-de-los-90-david-dominguez/31916102/, 4 Sep 2026, Auditorio de Benalmadena), but ticketers commonly list the performer alone, and a bare 'David Dominguez' row would slip straight past a title-only match. Genre is settled by the venue's own copy: 'un viaje comico a una epoca sin redes sociales... quienes disfrutan del stand-up sincero y sin artificios. Un monologo agil, honesto y muy reconocible'. Added 2026-09-01 with Sofia's approval ('we don't want comedy on Malaga Live'). SCOPED TO THE VENUE ON PURPOSE: exactly the David Navarro / Jose Tejada reasoning above - it is a personal name and a musician could share it, so unscoped this would risk dropping a real gig. The matcher strips accents, so this also matches 'David Dominguez'."
+  },
+  {
+   "match": "descemer bueno",
+   "venue": "sala paris 15",
+   "date": "2026-09-11",
+   "why": "RESCHEDULED OUT OF WINDOW - removed 2026-09-04 by the daily browser click-test (NOT a genre judgement; this IS live music). El Corte Ingles, our own paying seller for this show, now renders the page as 'DESCEMER BUENO, Descemer Bueno en Malaga, Fechas: 7 de Marzo de 2027, Horario: A las 21:00 h., Recinto: Sala Paris 15, Desde 33,00 EUR, COMPRAR' and carries an explicit promoter notice: 'El concierto de DESCEMER BUENO que iba a tener lugar el dia 11 de septiembre de 2026 en la Sala Paris 15 en Malaga ... el evento ha cambiado de fecha. NUEVA FECHA: 7 DE MARZO DE 2027. LAS ENTRADAS PREVIAMENTE ADQUIRIDAS SERAN VALIDAS PARA LA NUEVA FECHA', with refunds available until 30 September 2026. So there is NO 11 Sep 2026 show to sell any more and the card was sending readers to a page selling a March 2027 date - the exact 'link shows a different date' failure. THIS IS NOT A DROPPED EVENT: the show still exists and still sells through a paying seller, it has simply left the 30-day window; nothing was moved off El Corte Ingles and no commission is lost. CAUGHT BY THE DAILY CHECK, NOT BY DRIFT: the same URL browser-verified clean on 2026-09-02 showing 'Fechas: 11 de Septiembre de 2026' with a live COMPRAR, so the promoter changed it between 09-02 and 09-04 - which is precisely why the baseline is re-click-tested every run rather than trusted. DATE-SCOPED ON PURPOSE: the date field removes ONLY the 2026-09-11 row, so when 7 March 2027 comes into the window the act ships normally with the same El Corte Ingles link and this entry needs no edit. RETIRE this entry any time after 2026-09-11 has passed."
+  },
+  {
+   "match": "candlelight babies",
+   "why": "OWNER REMOVAL (DLR 2026-09-06: \"I specifically had another Claude chat delete the Candlelight Babies\"). Candlelight Babies is Fever's baby sensory session (SKU 592280, 'Sonidos Clasicos para Estimular Pequenas Mentes', Gran Hotel Miramar, 11:00/12:45), not a live-music concert. WHY THIS ENTRY EXISTS AT ALL: the earlier removal was made as _HIDE_EVENTS = ('classic sounds to stimulate little minds',) in build_site.py, which only hides the show from the Featured rail and the MLTV candidate rail - it does NOT touch the calendar, so the card was still live on malagalivepulse.com/en on 2026-09-06 (4 Oct, ticketed) AND it was silently costing a Featured slot (7 eligible Fever dates, 6 tiles rendered). This gate runs on EVERY build before the phantom/Fever/receipt gates and removes the row itself, which is what 'delete' meant. _HIDE_EVENTS is left in place as a second net. Unscoped: 'candlelight babies' is a distinctive Fever product name, safe to block anywhere, and it blocks future dates of the same programme too. NOT a link fault - feverup.com/m/592280 was browser-confirmed on sale for 4 Oct the same day; this is an owner editorial removal and per the standing rule it outranks any 'but it is buyable' finding."
+  },
+  {
+   "match": "s o p h i e festival chapter 7",
+   "venue": "ogus park",
+   "date": "2026-09-19",
+   "why": "DUPLICATE CARD, NOT a genre judgement - removed 2026-09-08. Self-inflicted: the sweep-lost recovery block injected this show on 2026-09-08 as 'S.O.P.H.I.E Festival CH#7 - Ricardo Villalobos, Seth Troxler & more', then the map's venue_name was edited to the shorter 'S.O.P.H.I.E Festival Chapter 7' in the same session. backfill_calendar dedups on the ACT NAME (covered_acts), so the renamed entry no longer matched the row already in the calendar and a SECOND card shipped for the same night - 19 Sep showed both. The map name has been reverted to the CH#7 string so no further duplicate can be injected; this entry removes the orphan that the rename already created (backfill only ADDS, it never withdraws a row). The CH#7 spelling is the one kept because it is exactly how sophie.es bills the night, which also settles the name-mismatch flag. Scoped to this act name + venue + date so it can never touch the real card."
+  },
+  {
+   "match": "querido",
+   "venue": "Sala Marte",
+   "date": "2026-10-02",
+   "why": "Removed at owner's request 2026-09-22: the Ticketmaster ticket link is dead (TM shows 0 upcoming concerts for Querido) and no working replacement seller was confirmed. Scoped to the 2 Oct 2026 Sala Marte row only."
+  },
+  {
+   "match": "sidecars",
+   "venue": "sala paris 15",
+   "date": "2026-10-02",
+   "why": "RESCHEDULED OUT OF WINDOW - removed 2026-09-29 by the daily browser commission audit (NOT a genre judgement; this IS live music). El Corte Ingles, our own paying seller for this show (Awin 13034), now renders elcorteingles.es/entradas/conciertos/entradas-sidecars-malaga-2026-05-23/ as 'Sidecars - Gira Presentacion EVEREST en Malaga, 3 de Abril de 2027, A las 21:00h, Sala Paris 15, Desde 33,00 EUR, COMPRAR' with the organiser's notice: the Friday 2 October show at Sala Paris 15 is POSTPONED (aplazado) because of a knee injury to Juancho; it will take place on Saturday 3 April 2027 at the same venue, tickets stay valid, refunds until 15 October 2026. So there is NO 2 Oct 2026 show and the card was selling a different date. THIS IS NOT A DROPPED EVENT: the show still exists and still sells through the paying seller; the venue_event_map sidecars entries now carry 03/04/2027 with the same ECI link, so it ships again when April 2027 enters the window and no commission is lost. Same pattern as Descemer Bueno 2026-09-04. DATE-SCOPED: removes ONLY the 2026-10-02 row. RETIRE after 2026-10-02."
+  },
+  {"match": "edgar allan poe", "why": "NOT LIVE MUSIC - DLR ruling 2026-09-29 (main chat): Fever's 'Edgar Allan Poe Speakeasy Malaga' is an immersive cocktail-theatre experience (Fever page read 2026-09-30: '90-minute journey through dark literature paired with four signature cocktails'). DLR's fix only reached fever_scrape NON_MUSIC (future scrapes) and _HIDE_EVENTS (home shelves); the calendar row already scraped was still shipping on the live 17/10 card as of 2026-09-30. Knowingly forgoes Fever commission by owner ruling."},
+  {"match": "guide to wine", "why": "NOT LIVE MUSIC - DLR ruling 2026-09-29: Fever's 'An Idiot's Guide to Wine' is a wine-tasting comedy ('Comedia entre copas', Fever 677296). Same gap as edgar allan poe: still on the live 24/10 card on 2026-09-30. Knowingly forgoes Fever commission by owner ruling."},
+  {"match": "farruquito", "venue": "teatro cervantes", "date": "2026-10-14", "why": "NOT A CONCERT - Sofia ruling 2026-10-11. Teatro Cervantes' own page (teatrocervantes.com/es/genero/danza/danza-malaga-2026/farruquito-en-concierto-2180, read by Sofia 2026-10-11) files it as 'Danza flamenca', 1.00 h, DANZA MALAGA 2026 season: Baile Farruquito, guitarra Manuel Valencia, percusion Paco Vega, cante Ismael de la Rosa / Manuel de la Nina / Mari Vizarraga. It was listed only because of 'en concierto' in the title (scrape_janto override, 2026-10-01), never verified. Dance shows stay out like the rest of Danza Malaga. Seller unientradas.es is not commissioned. Also removed: manual build_site row, scrape_janto override, MLTV clip + pin, reel + Metricool posts. RETIRE after 2026-10-14."},
+  {"match": "soul on fire", "venue": "benalm", "date": "2026-10-24", "why": "NOT TONIGHT. Sofia phoned Opera Benalmadena 2026-10-24: Soul on Fire is NOT on tonight (24 Oct). The Onebox event 51226 lists only Fri 27 Nov 20:00; the Opera's own 24 Oct slot is Un cura en apuros; entradas.com still shows a stale 24 Oct event (21859763). The 27 Nov show is real and stays. RETIRE after 2026-10-25."},
+  {"match": "soul on fire", "venue": "benalm", "date": "2026-11-27", "why": "CANCELLED - Sofia opened OneBox event 51226 on 2026-11-04 (Cloudflare blocks our browsers): the card reads CANCELADO, 'Este espectaculo ha sido cancelado.' Row blocked. REMOVE this entry only if the Opera re-lists a new date; then re-add the show and stamp it in verified_ticket_links.json."},
+  {"match": "salistre", "venue": "paris", "date": "2026-11-27", "why": "CANCELLED - Sala Paris 15's own event page (paris15.es/event/salistre/, opened in Sofia's Edge 2026-11-10) is titled 'SALISTRE (CANCELADO)': the band cancelled the rest of the tour and the 27 Nov show; tickets refunded automatically. Vivaticket's page also reads 'Evento no disponible'. Row blocked, date-scoped (the 3 Oct Velez-Malaga Feria row is a different show and is past). REMOVE only if Sala Paris 15 re-lists the date."},
+  {"match": "intrepida", "venue": "nerja", "date": "2026-11-21","why": "CANCELLED - Giglon's own event page (read 2026-11-10 in the built-in browser) for 'Rocio Bazan. Intrepida', Centro Cultural Villa de Nerja, Sat 21 Nov 2026 20:00 reads '(Cancelado)' and 'Evento cancelado.' with no buy button; the card still sold it via the Nerja town-hall block. Row blocked, date-scoped. REMOVE this entry only if Giglon/Nerja re-list the date."},
+  {"match": "resonancia", "venue": "mirari", "date": "2026-10-24", "why": "NOT MUSIC - MAGIC SHOW. Sofia read the entradas.com page 2026-10-17: Categoria = Magia, Ignacio Lopez (campeon Fism Latinoamerica) illusionism show, Sala Mirari (a magic venue; Taquilla lists it as Sala de Magia), Sat 24 Oct 2026 21:00, desde 19,02 EUR. The 16 Oct commission audit flagged it as a missing live-music event; it is not one. Do not add. RETIRE after 2026-10-24."},
+  {"match": "sunset cruise in malaga and dinner at the port", "venue": "muelle uno", "why": "NOT MUSIC - BOAT TRIP/DINNER (Fever sku 92888, Paseo del Muelle Uno). It appeared as a Featured card 2026-10-18 (Sofia: take it off). Every date blocked, no RETIRE date. Do not add."},
+  {"match": "santero y los muchachos", "venue": "trinchera", "date": "2026-11-21", "why": "WRONG DATE (not a genre call). Santero y Los Muchachos plays Sala La Trinchera on 28 NOV 2026 21:30 only: Enterticket event 250069 (page read 2026-10-18) and Taquilla's Trinchera page lists ONE Santero show, desde 25 EUR. The 21 Nov row (22:00, generic Taquilla venue link) is a sweep error. Removed 2026-10-18 (Sofia asked to fix). Date-scoped: the real 28 Nov row stays."},
+  {"match": "part britten y elgar", "venue": "cervantes", "date": "2026-12-10", "why": "WRONG LABEL (not a genre call). The OFM concert on 10 Dec 2026 at Teatro Cervantes is PROGRAMA 5 (Part, Britten, Elgar), not 'Programa 4'; Programa 4 is Shostakovich/Beethoven on 12-13 Nov. Row blocked 2026-10-18 and re-injected under the correct name 'Concierto OFM Programa 5' from the sweeplost block. Date-scoped."},
+  {"match": "part britten y elgar", "venue": "cervantes", "date": "2026-12-11", "why": "WRONG LABEL - same as the 10 Dec entry above (11 Dec 2026 is the second night of OFM Programa 5). Blocked 2026-10-18, re-injected correctly from sweeplost."},
+  {"match": "una noche en la habana", "venue": "congresos", "date": "2026-11-07", "why": "WRONG DATE (not a genre call). Una Noche en la Habana was THU 8 OCT 2026 at the Palacio de Ferias y Congresos de Marbella (entradasya.es, online sales ended); the calendar's 7 Nov row is a sweep error and links only to marbellacongresos.com/eventos. Blocked 2026-10-18 (Sofia asked for the wrong-row cleanup)."},
+  {"match": "nu metal", "venue": "trinchera", "date": "2026-12-05", "why": "WRONG DATE (not a genre call). Nu_Metal/Dance_Revolution at Sala La Trinchera is 6 DEC 2026 (Taquilla event 31910416, desde 15 EUR, read 2026-10-18). The 5 Dec row carries the generic Taquilla venue listing; the correct 6 Dec row is injected from the sweeplost block. Blocked 2026-10-18."},
+  {"match": "all crazy", "date": "2026-10-30", "why": "NOT MUSIC, 2026-10-25: Fever sku 793049 is \u00a1Todos Locos! (shown as All Crazy!), a stand-up monologue by Jorge Santos at Noma Backstage Club, Fri 30 Oct 20:15, 14 EUR, 18+ (Fever page read in the built-in browser 2026-10-25). Not a concert, so the site correctly omits it; blocked so the commission audit stops reporting it as a missing earning event. Date-scoped."},
+  {"match": "modelo de respuesta polar", "date": "2026-11-14", "why": "NO LIVE SELLER, 2026-10-28 (Sofia: could not find the show anywhere). crashmusic link redirects to the Crash Music home (event page gone), Enterticket artist page says no upcoming events, old poster said Cambio de fecha 14/11; only a Viagogo resale listing remains (not a primary seller, not a confirmation). Sala Marte, Sat 14 Nov 22:00. Date-scoped; remove this entry if a primary seller or the venue confirms the show."},
+  {"match": "de cadiz a buenos aires", "date": "2026-10-30", "why": "NO LIVE SELLER, 2026-10-29 (Sofia could not find one). entradas.fuengirola.es product 10229945919564 no longer sells it; no other seller. Date-scoped; remove if a seller appears."},
+  {"match": "solo k.os", "date": "2026-11-13", "why": "CANCELLED, 2026-11-12 (Sofia, Edge): Dice FM event page 2wnrao-solo-kos-en-mlaga-13th-nov-sala-marte shows 'Cancelled' (tab title 'CANCELLED | Nov 13 | Sala Marte'); promoter SUDOR. Taquilla still listed it (stale) and Fever has no listing. Date-scoped; remove only if the venue or promoter reschedules."}
+ ]
+}

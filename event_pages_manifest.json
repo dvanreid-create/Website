@@ -1,0 +1,14 @@
+{
+ "_why": "Event landing pages that MUST exist until their expiry date. Tools/agent/check_event_pages.py fails (and the box emails Sofia) if a slug listed here is missing from EVENT_PAGES in build_site.py or from the live site. Add a line when a page is added. 2026-11-01: the Lord of the Rings page was lost from build_site.py and nobody noticed until Sofia found a 404.",
+ "pages": {
+  "bryan-adams-fuengirola-2027": "2027-08-22",
+  "take-that-fuengirola-2027": "2027-07-11",
+  "la-oreja-de-van-gogh-marbella-2027": "2027-08-13",
+  "lord-of-the-rings-in-concert-malaga-2026": "2026-11-28",
+  "camilo-marbella-2027": "2027-07-01",
+  "los-delinquentes-marbella-2027": "2027-07-30",
+  "david-bisbal-fuengirola-2027": "2027-07-22",
+  "craig-david-ts5-marbella-2027": "2027-06-26",
+  "rodrigo-cuevas-malaga-2027": "2027-02-06"
+ }
+}

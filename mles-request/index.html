@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MLES Request · Málaga Live</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root{--sea:#0B5E8A;--coral:#E8662A;--navy:#143A4E;--bg:#f3f5f7;--line:#e2e6ea;--muted:#5f6b78;}
+  *{box-sizing:border-box}
+  body{font-family:Inter,system-ui,sans-serif;margin:0;background:var(--bg);color:var(--navy);}
+  .wrap{max-width:640px;margin:0 auto;padding:28px 18px 60px;}
+  .logo{display:block;height:72px;margin:6px auto 0;}
+  /* ---- gate ---- */
+  #gate{position:fixed;inset:0;background:linear-gradient(160deg,#0B5E8A,#0c2c3e);display:flex;align-items:center;justify-content:center;padding:24px;z-index:50;}
+  .gatecard{background:#fff;border-radius:18px;max-width:380px;width:100%;padding:34px 30px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+  .gatecard img{height:42px;margin-bottom:18px}
+  .gatecard h1{font-size:19px;margin:0 0 6px}
+  .gatecard p{font-size:14px;color:var(--muted);margin:0 0 20px}
+  #pw{width:100%;font-size:18px;text-align:center;letter-spacing:2px;padding:13px;border:1.5px solid var(--line);border-radius:10px;outline:none}
+  #pw:focus{border-color:var(--sea)}
+  .gbtn{margin-top:14px;width:100%;font-size:16px;font-weight:600;color:#fff;background:var(--coral);border:0;border-radius:10px;padding:13px;cursor:pointer}
+  .gerr{color:#c0392b;font-size:13px;margin-top:10px;min-height:16px}
+  /* ---- form ---- */
+  #app{display:block}
+  .head{text-align:center;margin:8px 0 18px}
+  .head h2{font-family:Anton,sans-serif;font-weight:400;letter-spacing:.5px;font-size:24px;line-height:1.15;color:var(--navy);margin:14px 0 4px}
+  .head .sub{color:var(--muted);font-size:14px}
+  .promo{background:#fff;border:1px solid var(--line);border-left:4px solid var(--coral);border-radius:12px;padding:16px 18px;margin:0 0 22px;font-size:14.5px}
+  .promo b{color:var(--sea)}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;}
+  label{display:block;font-weight:600;font-size:14px;margin:16px 0 6px}
+  label .en{font-weight:400;color:var(--muted)}
+  label.req::after{content:" *";color:var(--coral)}
+  input,textarea{width:100%;font-family:inherit;font-size:15px;padding:11px 12px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--navy);outline:none}
+  input:focus,textarea:focus{border-color:var(--sea)}
+  textarea{min-height:76px;resize:vertical}
+  .row{display:flex;gap:12px}.row>div{flex:1}
+  .hint{font-size:12.5px;color:var(--muted);margin-top:5px}
+  .segwrap{display:flex;gap:8px;margin-top:6px}
+  .seg{flex:1;cursor:pointer;margin:0}
+  .seg input{position:absolute;opacity:0;pointer-events:none}
+  .seg span{display:block;text-align:center;padding:11px 10px;border:1px solid var(--line);border-radius:9px;font-size:14px;font-weight:600;color:var(--muted);background:#fff}
+  .seg input:checked + span{border-color:var(--sea);color:#fff;background:var(--sea)}
+  .submit{margin-top:24px;width:100%;font-size:17px;font-weight:700;color:#fff;background:var(--sea);border:0;border-radius:11px;padding:15px;cursor:pointer}
+  .submit:hover{background:#0a527a}
+  .foot{text-align:center;font-size:12px;color:var(--muted);margin-top:18px;line-height:1.5}
+</style>
+</head>
+<body>
+
+<!-- FORM -->
+<div id="app">
+ <div class="wrap">
+  <div class="head">
+    <img class="logo" src="https://malagalivepulse.com/assets/malaga-live-logo.png" alt="Málaga Live">
+    <h2 data-i18n="form_h">ORDER AN MLE SCORE</h2>
+    <div style="margin-top:9px;font-size:13.5px;font-weight:600">
+      <a id="aboutLink" href="about/?lang=en" style="color:var(--sea);text-decoration:none" data-i18n="about_link">What's an MLE Score? →</a>
+    </div>
+  </div>
+
+  <div class="promo">
+    <p style="margin:0 0 14px" data-i18n-html="promo_1">Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within 24h.</p>
+    <p style="margin:0" data-i18n-html="promo_price"><b style="font-size:17px">€49</b> per report.</p>
+    <p style="margin:14px 0 0"><a id="sampleLink" href="/mles-request/sample/" target="_blank" rel="noopener" style="color:var(--sea);font-weight:700;text-decoration:none" data-i18n="sample_btn">See a sample report →</a></p>
+  </div>
+
+  <form class="card" id="mlesForm" onsubmit="return go(event)">
+    <label class="req" data-i18n="l_name">Your name</label>
+    <input name="name" required>
+
+    <label class="req" data-i18n="l_venue">Venue</label>
+    <input name="venue" required>
+
+    <label class="req" data-i18n="l_capacity">Capacity</label>
+    <input name="capacity" inputmode="numeric" required>
+
+    <label data-i18n="l_venuetype">Indoor or open-air?</label>
+    <div class="segwrap">
+      <label class="seg"><input type="radio" name="venuetype" value="indoor" checked><span data-i18n="vt_indoor">Indoor</span></label>
+      <label class="seg"><input type="radio" name="venuetype" value="openair"><span data-i18n="vt_openair">Open-air</span></label>
+    </div>
+
+    <label class="req" data-i18n="l_act">Act you're considering</label>
+    <input name="act" required>
+
+    <label class="req" data-i18n="l_date1">Date — option 1</label>
+    <input name="date1" type="date" required>
+    <div class="row">
+      <div>
+        <label data-i18n="l_date2">Option 2</label>
+        <input name="date2" type="date">
+      </div>
+      <div>
+        <label data-i18n="l_date3">Option 3</label>
+        <input name="date3" type="date">
+      </div>
+    </div>
+    <div class="hint" data-i18n="l_hint">Add 2–3 dates and we'll compare which draws best.</div>
+
+    <label class="req" data-i18n="l_price">Ticket price (or "free")</label>
+    <input name="price" required>
+
+    <label data-i18n="l_onsale">On-sale date (when tickets go live)</label>
+    <input name="onsale" type="date">
+    <div class="hint" data-i18n="l_onsale_h">Roughly when you'd put tickets on sale — leave blank if unsure.</div>
+
+    <label data-i18n="l_sold">Tickets sold so far (if already on sale)</label>
+    <div class="row">
+      <div><input name="sold" inputmode="numeric" data-i18n-ph="ph_sold" placeholder="e.g. 180"></div>
+      <div><input name="soldasof" type="date" aria-label="as of date"></div>
+    </div>
+    <div class="hint" data-i18n="l_sold_h">Optional — if tickets are already on sale, how many sold and the date that count is as of. Sharpens the forecast.</div>
+
+    <label data-i18n="l_notes">Notes — exclusivity, support acts, expected audience</label>
+    <textarea name="notes" data-i18n-ph="ph_notes" placeholder="e.g. only Spanish date, anniversary, mostly British-resident crowd…"></textarea>
+
+    <label class="req" data-i18n="l_email">Contact email (report delivery)</label>
+    <input name="email" type="email" required>
+
+    <button class="submit" type="submit" data-i18n="submit_btn">Continue to payment — €49 →</button>
+    <div class="foot" data-i18n="foot">
+      Secure payment via Stripe. The MLE Score is a decision-making tool and not a guarantee of outcome.
+    </div>
+  </form>
+ </div>
+</div>
+
+<script>
+  // submit -> create request in Airtable + open Stripe Checkout (€49)
+  async function go(e){
+    e.preventDefault();
+    var f=e.target, btn=f.querySelector('.submit'), old=btn.textContent;
+    btn.disabled=true; btn.textContent=(window.MLT&&window.MLT.moment)||'One moment…';
+    var data={};
+    ['name','venue','capacity','venuetype','act','date1','date2','date3','price','onsale','sold','soldasof','notes','email']
+      .forEach(function(k){ var el=f.elements[k]; if(el) data[k]=el.value; });
+    try{
+      var r=await fetch('/.netlify/functions/create-precheck',{
+        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)
+      });
+      var j=await r.json();
+      if(j && j.url){ window.location.href=j.url; return false; }
+      throw new Error((j && j.error) || 'error');
+    }catch(err){
+      alert((window.MLT&&window.MLT.checkout_err)||'Could not start checkout, please try again.');
+      btn.disabled=false; btn.textContent=old;
+    }
+    return false;
+  }
+
+  // ---- Localization (single language via ?lang=) ----
+  const I18N = {
+    en:{
+      gate_h:"Access", gate_p:"Enter the access code we shared with you.", gate_ph:"Code", gate_btn:"Unlock",
+      gerr:"Incorrect code", moment:"One moment…", checkout_err:"Could not start checkout, please try again.",
+      form_h:"ORDER AN MLE SCORE", about_link:"What's an MLE Score? →",
+      promo_1:"Send us a show you're <b>considering</b> and we return its <b>MLE Score</b> — the 0–100 score with the reasons, emailed within <b>24h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per report.",
+      l_name:"Your name", l_venue:"Venue", l_capacity:"Capacity", l_act:"Act you're considering",
+      l_date1:"Date — option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Add 2–3 dates and we'll compare which draws best.",
+      l_venuetype:"Indoor or open-air?", vt_indoor:"Indoor", vt_openair:"Open-air", l_onsale:"On-sale date (when tickets go live)", l_onsale_h:"Roughly when you'd put tickets on sale — leave blank if unsure.",
+      l_sold:"Tickets sold so far (if already on sale)", l_sold_h:"Optional — if tickets are already on sale, how many sold and the date that count is as of. Sharpens the forecast.", ph_sold:"e.g. 180",
+      l_price:"Ticket price (or \"free\")", l_notes:"Notes — exclusivity, support acts, expected audience",
+      ph_notes:"e.g. only Spanish date, anniversary, mostly British-resident crowd…",
+      l_email:"Contact email (report delivery)", submit_btn:"Continue to payment — €49 →", sample_btn:"See a sample report →",
+      foot:"Secure payment via Stripe. The MLE Score is a decision-making tool, not a guarantee of outcome."
+    },
+    es:{
+      gate_h:"Acceso", gate_p:"Introduce el código que te hemos facilitado.", gate_ph:"Código", gate_btn:"Entrar",
+      gerr:"Código incorrecto", moment:"Un momento…", checkout_err:"No se pudo iniciar el pago, inténtalo de nuevo.",
+      form_h:"PIDE UN MLE SCORE", about_link:"¿Qué es un MLE Score? →",
+      promo_1:"Envíanos un evento que estés <b>considerando</b> y te devolvemos su <b>MLE Score</b> — la puntuación (0–100) con el porqué, por email en <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> por informe.",
+      l_name:"Tu nombre", l_venue:"Sala", l_capacity:"Aforo", l_act:"Artista que consideras",
+      l_date1:"Fecha — opción 1", l_date2:"Opción 2", l_date3:"Opción 3",
+      l_hint:"Añade 2–3 fechas y comparamos cuál rinde mejor.",
+      l_venuetype:"¿Interior o al aire libre?", vt_indoor:"Interior", vt_openair:"Al aire libre", l_onsale:"Fecha de salida a la venta", l_onsale_h:"Cuándo pondrías las entradas a la venta — déjalo en blanco si no lo sabes.",
+      l_sold:"Entradas vendidas hasta ahora (si ya están a la venta)", l_sold_h:"Opcional — si ya están a la venta, cuántas vendidas y la fecha de ese recuento. Afina la previsión.", ph_sold:"p. ej. 180",
+      l_price:"Precio de entrada (o \"gratis\")", l_notes:"Notas — exclusividad, teloneros, público esperado",
+      ph_notes:"p. ej. única fecha en España, aniversario, público mayoritariamente británico…",
+      l_email:"Email de contacto (entrega del informe)", submit_btn:"Continuar al pago — €49 →", sample_btn:"Ver un informe de muestra →",
+      foot:"Pago seguro con Stripe. El MLE Score es una herramienta para tomar decisiones, no una garantía de resultado."
+    },
+    de:{
+      gate_h:"Zugang", gate_p:"Gib den Zugangscode ein, den wir dir mitgeteilt haben.", gate_ph:"Code", gate_btn:"Entsperren",
+      gerr:"Falscher Code", moment:"Einen Moment…", checkout_err:"Die Zahlung konnte nicht gestartet werden. Bitte versuche es erneut.",
+      form_h:"MLE SCORE BESTELLEN", about_link:"Was ist ein MLE Score? →",
+      promo_1:"Schick uns einen Act, den du <b>in Erwägung ziehst</b>, und wir liefern dir seinen <b>MLE Score</b> — die Bewertung (0–100) samt Begründung, per E-Mail innerhalb von <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> pro Bericht.",
+      l_name:"Dein Name", l_venue:"Veranstaltungsort", l_capacity:"Kapazität", l_act:"Act, den du in Erwägung ziehst",
+      l_date1:"Datum — Option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Gib 2–3 Termine an und wir vergleichen, welcher am besten zieht.",
+      l_venuetype:"Drinnen oder im Freien?", vt_indoor:"Drinnen", vt_openair:"Im Freien", l_onsale:"Verkaufsstart der Tickets", l_onsale_h:"Ungefähr wann du die Tickets verkaufen würdest — leer lassen, wenn unklar.",
+      l_sold:"Bisher verkaufte Tickets (falls bereits im Verkauf)", l_sold_h:"Optional — falls bereits im Verkauf, wie viele verkauft und Stand welches Datums. Schärft die Prognose.", ph_sold:"z. B. 180",
+      l_price:"Ticketpreis (oder \"gratis\")", l_notes:"Hinweise — Exklusivität, Vorbands, erwartetes Publikum",
+      ph_notes:"z. B. einziges Spanien-Date, Jubiläum, überwiegend britisches Publikum…",
+      l_email:"Kontakt-E-Mail (Berichtszustellung)", submit_btn:"Weiter zur Zahlung — €49 →", sample_btn:"Beispielbericht ansehen →",
+      foot:"Sichere Zahlung über Stripe. Der MLE Score ist ein Werkzeug zur Entscheidungsfindung, keine Erfolgsgarantie."
+    },
+    fr:{
+      gate_h:"Accès", gate_p:"Saisis le code d'accès que nous t'avons communiqué.", gate_ph:"Code", gate_btn:"Déverrouiller",
+      gerr:"Code incorrect", moment:"Un instant…", checkout_err:"Impossible de lancer le paiement, réessaie.",
+      form_h:"COMMANDER UN MLE SCORE", about_link:"Qu'est-ce qu'un MLE Score ? →",
+      promo_1:"Envoie-nous un événement que tu <b>envisages</b> et nous te renvoyons son <b>MLE Score</b> — le score (0–100) avec les raisons, par e-mail sous <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> par rapport.",
+      l_name:"Ton nom", l_venue:"Salle", l_capacity:"Capacité", l_act:"Artiste que tu envisages",
+      l_date1:"Date — option 1", l_date2:"Option 2", l_date3:"Option 3",
+      l_hint:"Ajoute 2–3 dates et nous comparons celle qui attire le mieux.",
+      l_venuetype:"En salle ou en plein air ?", vt_indoor:"En salle", vt_openair:"Plein air", l_onsale:"Date de mise en vente", l_onsale_h:"Quand tu mettrais les billets en vente — laisse vide si tu n'es pas sûr.",
+      l_sold:"Billets déjà vendus (si déjà en vente)", l_sold_h:"Facultatif — si déjà en vente, combien vendus et à quelle date ce chiffre est arrêté. Affine la prévision.", ph_sold:"ex. 180",
+      l_price:"Prix du billet (ou \"gratuit\")", l_notes:"Notes — exclusivité, premières parties, public attendu",
+      ph_notes:"ex. seule date en Espagne, anniversaire, public majoritairement britannique…",
+      l_email:"E-mail de contact (envoi du rapport)", submit_btn:"Continuer vers le paiement — €49 →", sample_btn:"Voir un exemple de rapport →",
+      foot:"Paiement sécurisé via Stripe. Le MLE Score est un outil d'aide à la décision, pas une garantie de résultat."
+    },
+    sv:{
+      gate_h:"Åtkomst", gate_p:"Ange åtkomstkoden vi delade med dig.", gate_ph:"Kod", gate_btn:"Lås upp",
+      gerr:"Fel kod", moment:"Ett ögonblick…", checkout_err:"Det gick inte att starta betalningen, försök igen.",
+      form_h:"BESTÄLL ETT MLE SCORE", about_link:"Vad är ett MLE Score? →",
+      promo_1:"Skicka oss ett evenemang du <b>överväger</b> så återkommer vi med dess <b>MLE Score</b> — poängen (0–100) med motiveringen, via mejl inom <b>24 h</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per rapport.",
+      l_name:"Ditt namn", l_venue:"Lokal", l_capacity:"Kapacitet", l_act:"Artist du överväger",
+      l_date1:"Datum — alternativ 1", l_date2:"Alternativ 2", l_date3:"Alternativ 3",
+      l_hint:"Lägg till 2–3 datum så jämför vi vilket som drar bäst.",
+      l_venuetype:"Inomhus eller utomhus?", vt_indoor:"Inomhus", vt_openair:"Utomhus", l_onsale:"Releasedatum för biljetter", l_onsale_h:"Ungefär när du skulle släppa biljetterna — lämna tomt om du är osäker.",
+      l_sold:"Sålda biljetter hittills (om redan till salu)", l_sold_h:"Valfritt — om biljetterna redan säljs, hur många sålda och per vilket datum. Skärper prognosen.", ph_sold:"t.ex. 180",
+      l_price:"Biljettpris (eller \"gratis\")", l_notes:"Anteckningar — exklusivitet, förband, förväntad publik",
+      ph_notes:"t.ex. enda datum i Spanien, jubileum, mest brittisk publik…",
+      l_email:"Kontaktmejl (leverans av rapport)", submit_btn:"Fortsätt till betalning — €49 →", sample_btn:"Se en exempelrapport →",
+      foot:"Säker betalning via Stripe. MLE Score är ett verktyg för beslutsfattande, inte en garanti för utfall."
+    },
+    no:{
+      gate_h:"Tilgang", gate_p:"Skriv inn tilgangskoden vi delte med deg.", gate_ph:"Kode", gate_btn:"Lås opp",
+      gerr:"Feil kode", moment:"Et øyeblikk…", checkout_err:"Kunne ikke starte betalingen, prøv igjen.",
+      form_h:"BESTILL ET MLE SCORE", about_link:"Hva er et MLE Score? →",
+      promo_1:"Send oss et arrangement du <b>vurderer</b>, så returnerer vi dets <b>MLE Score</b> — poengsummen (0–100) med begrunnelsen, på e-post innen <b>24 t</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per rapport.",
+      l_name:"Ditt navn", l_venue:"Lokale", l_capacity:"Kapasitet", l_act:"Artist du vurderer",
+      l_date1:"Dato — alternativ 1", l_date2:"Alternativ 2", l_date3:"Alternativ 3",
+      l_hint:"Legg til 2–3 datoer, så sammenligner vi hvilken som trekker best.",
+      l_venuetype:"Innendørs eller utendørs?", vt_indoor:"Innendørs", vt_openair:"Utendørs", l_onsale:"Salgsstart for billetter", l_onsale_h:"Omtrent når du ville lagt billettene ut for salg — la stå tomt om du er usikker.",
+      l_sold:"Solgte billetter så langt (hvis allerede i salg)", l_sold_h:"Valgfritt — hvis billettene allerede selges, hvor mange solgt og per hvilken dato. Skjerper prognosen.", ph_sold:"f.eks. 180",
+      l_price:"Billettpris (eller \"gratis\")", l_notes:"Notater — eksklusivitet, oppvarmingsartister, forventet publikum",
+      ph_notes:"f.eks. eneste dato i Spania, jubileum, mest britisk publikum…",
+      l_email:"Kontakt-e-post (levering av rapport)", submit_btn:"Fortsett til betaling — €49 →", sample_btn:"Se en eksempelrapport →",
+      foot:"Sikker betaling via Stripe. MLE Score er et verktøy for beslutninger, ikke en garanti for utfall."
+    },
+    da:{
+      gate_h:"Adgang", gate_p:"Indtast den adgangskode, vi har delt med dig.", gate_ph:"Kode", gate_btn:"Lås op",
+      gerr:"Forkert kode", moment:"Et øjeblik…", checkout_err:"Betalingen kunne ikke startes, prøv igen.",
+      form_h:"BESTIL ET MLE SCORE", about_link:"Hvad er et MLE Score? →",
+      promo_1:"Send os et arrangement, du <b>overvejer</b>, så returnerer vi dets <b>MLE Score</b> — scoren (0–100) med begrundelsen, på e-mail inden for <b>24 t</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> pr. rapport.",
+      l_name:"Dit navn", l_venue:"Spillested", l_capacity:"Kapacitet", l_act:"Artist du overvejer",
+      l_date1:"Dato — mulighed 1", l_date2:"Mulighed 2", l_date3:"Mulighed 3",
+      l_hint:"Tilføj 2–3 datoer, så sammenligner vi, hvilken der trækker bedst.",
+      l_venuetype:"Indendørs eller udendørs?", vt_indoor:"Indendørs", vt_openair:"Udendørs", l_onsale:"Salgsstart for billetter", l_onsale_h:"Cirka hvornår du ville sætte billetterne til salg — lad stå tomt, hvis du er i tvivl.",
+      l_sold:"Solgte billetter indtil videre (hvis allerede i salg)", l_sold_h:"Valgfrit — hvis billetterne allerede sælges, hvor mange solgt og pr. hvilken dato. Skærper prognosen.", ph_sold:"f.eks. 180",
+      l_price:"Billetpris (eller \"gratis\")", l_notes:"Noter — eksklusivitet, opvarmningsnavne, forventet publikum",
+      ph_notes:"f.eks. eneste dato i Spanien, jubilæum, mest britisk publikum…",
+      l_email:"Kontakt-e-mail (levering af rapport)", submit_btn:"Fortsæt til betaling — €49 →", sample_btn:"Se en eksempelrapport →",
+      foot:"Sikker betaling via Stripe. MLE Score er et værktøj til beslutninger, ikke en garanti for resultatet."
+    },
+    fi:{
+      gate_h:"Pääsy", gate_p:"Syötä jakamamme pääsykoodi.", gate_ph:"Koodi", gate_btn:"Avaa",
+      gerr:"Virheellinen koodi", moment:"Hetki…", checkout_err:"Maksua ei voitu aloittaa, yritä uudelleen.",
+      form_h:"TILAA MLE SCORE", about_link:"Mikä on MLE Score? →",
+      promo_1:"Lähetä meille tapahtuma, jota <b>harkitset</b>, niin palautamme sen <b>MLE Scoren</b> — pisteet (0–100) perusteluineen, sähköpostitse <b>24 tunnissa</b>.",
+      promo_price:"<b style=\"font-size:17px\">€49</b> per raportti.",
+      l_name:"Nimesi", l_venue:"Tapahtumapaikka", l_capacity:"Kapasiteetti", l_act:"Artisti, jota harkitset",
+      l_date1:"Päivä — vaihtoehto 1", l_date2:"Vaihtoehto 2", l_date3:"Vaihtoehto 3",
+      l_hint:"Lisää 2–3 päivää, niin vertaamme, mikä vetää parhaiten.",
+      l_venuetype:"Sisä- vai ulkotila?", vt_indoor:"Sisätila", vt_openair:"Ulkotila", l_onsale:"Lippujen myyntiin tulopäivä", l_onsale_h:"Suunnilleen milloin laittaisit liput myyntiin — jätä tyhjäksi jos et ole varma.",
+      l_sold:"Myydyt liput tähän mennessä (jos jo myynnissä)", l_sold_h:"Valinnainen — jos liput ovat jo myynnissä, montako myyty ja mihin päivään mennessä. Tarkentaa ennustetta.", ph_sold:"esim. 180",
+      l_price:"Lipun hinta (tai \"ilmainen\")", l_notes:"Huomiot — yksinoikeus, lämmittelijät, odotettu yleisö",
+      ph_notes:"esim. ainoa Espanjan-keikka, juhlavuosi, enimmäkseen brittiyleisö…",
+      l_email:"Yhteyssähköposti (raportin toimitus)", submit_btn:"Jatka maksamaan — €49 →", sample_btn:"Katso esimerkkiraportti →",
+      foot:"Turvallinen maksu Stripen kautta. MLE Score on päätöksenteon työkalu, ei takuu lopputuloksesta."
+    }
+  };
+  (function(){
+    var sp=new URLSearchParams(location.search), lang=(sp.get('lang')||'').toLowerCase();
+    if(!I18N[lang]) lang='en';
+    var t=I18N[lang]; window.MLT=t;
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k=el.getAttribute('data-i18n'); if(t[k]!=null) el.textContent=t[k];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el){
+      var k=el.getAttribute('data-i18n-html'); if(t[k]!=null) el.innerHTML=t[k];
+    });
+    document.querySelectorAll('[data-i18n-ph]').forEach(function(el){
+      var k=el.getAttribute('data-i18n-ph'); if(t[k]!=null) el.setAttribute('placeholder',t[k]);
+    });
+    var al=document.getElementById('aboutLink'); if(al) al.setAttribute('href','about/?lang='+lang);
+  })();
+</script>
+</body>
+</html>

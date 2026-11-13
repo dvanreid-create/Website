@@ -1,0 +1,98 @@
+{
+ "_comment": "OWNER FORCE-BUYABLE OVERRIDES (DLR). fever_scrape.py's plan_status() live-reads a Fever plan's session-selector blob to decide buyability, but Fever sometimes serves NO selector for a real, on-sale session (the same removal that made Candlelight vanish 2026-08-17). The auto check then reports 'off sale' and the unbuyable-drop pass DELETES a genuine bookable show, losing the commission. List a (sku, date) here ONLY when the owner has BROWSER-CONFIRMED it is on sale: fever_scrape then never drops it AND writes the date into fever_availability.json so build_site's own fever_unbuyable() gate keeps it on every deploy too. Remove an entry the moment the show is genuinely past or sold out. Format: {sku: [ISO dates]}.",
+ "buyable": {
+  "145066": [
+   "2026-08-22"
+  ],
+  "646736": [
+   "2026-08-23"
+  ],
+  "652051": [
+   "2026-10-03"
+  ],
+  "678230": [
+   "2026-09-20"
+  ],
+  "643664": [
+   "2026-10-08"
+  ],
+  "405940": [
+   "2026-10-11"
+  ],
+  "611306": [
+   "2026-10-03"
+  ],
+  "155745": [
+   "2026-11-22",
+   "2026-12-08"
+  ],
+  "129317": [
+   "2026-12-11"
+  ],
+  "555765": [
+   "2026-12-11"
+  ],
+  "545643": [
+   "2026-11-29"
+  ],
+  "800523": [
+   "2026-11-13"
+  ],
+  "198778": [
+   "2026-12-08"
+  ],
+  "841457": ["2026-11-28"],
+    "545294": [
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
+   "2026-11-21",
+   "2026-11-22",
+   "2026-11-23",
+   "2026-11-24",
+   "2026-11-25",
+   "2026-11-26",
+   "2026-11-27",
+   "2026-11-28",
+   "2026-11-29",
+   "2026-11-30",
+   "2026-12-01",
+   "2026-12-02",
+   "2026-12-03",
+   "2026-12-04",
+   "2026-12-05",
+   "2026-12-06",
+   "2026-12-07",
+   "2026-12-08",
+   "2026-12-09",
+   "2026-12-10",
+   "2026-12-11",
+   "2026-12-12",
+   "2026-12-13",
+   "2026-12-14",
+   "2026-12-15",
+   "2026-12-16",
+   "2026-12-17",
+   "2026-12-18",
+   "2026-12-19",
+   "2026-12-20"
+  ]
+ },
+ "_841457_why": "LA CABRA MECANICA 28 Nov Sala Circus (Fever 841457). BROWSER-CONFIRMED 2026-11-12: on sale, 21:00, 25,00 EUR. Ticket verifier dropped it as WRONG_EVENT (Spanish title). Remove after 2026-11-28.",
+    "_545294_why": "TEATRO FLAMENCO MALAGA (Fever 545294, daily). ADDED 2026-11-11: the live site had ZERO Teatro Flamenco cards (landing page empty, footer chip gone). Sofia confirmed it on sale on 7 Nov (Sat 21:30 General 32 EUR) and Claude read the Fever picker 10 Nov for 17 Nov-20 Dec (weekdays 17:00/18:30/20:00, Fri+Sat +21:30). Nights 12 Nov-20 Dec listed so neither fever_scrape unbuyable-drop nor build_site fever_unbuyable() can delete them when Fever serves no selector. EXTEND weekly with fever_sessions.json; remove past dates.",
+ "_198778_why": "CANDLELIGHT: HOMENAJE A ENNIO MORRICONE, Salon Real del Gran Hotel Miramar, Tue 8 Dec 2026 21:00 (Fever sku 198778). ADDED 2026-10-18 (Sofia: audit said 'missing'). The 18 Oct ticket-link check dropped it as CANNOT_FIX only because claude -p hit the session limit ('resets 9am'), not because the page is dead. BROWSER-CONFIRMED 2026-10-18 on feverup.com/m/198778: title 'Candlelight: Homenaje a Ennio Morricone - Malaga | Fever', selector 'Selecciona fecha y sesion' offers mar 08 dic (aria 2026-12-08) and dom 28 feb 2027; first session 21:00, Zona D 16,50 / C 26,00 / B 32,00 / A 39,00, flagged 'Tickets volando', no Agotado, live ticket stepper. Matches the audit's 16,50-39 EUR. NOT verified: that this override alone brings the row back (no sweeplost entry was needed because the calendar already holds the row) - check the live site after deploy. Remove after 2026-12-08 or if Agotado.",
+ "_2026_10_16_why": "LA LEY INNATA 29 Nov (sku 545643) and QUEEN Y THE BEATLES Marbella 13 Nov (sku 800523): BROWSER-CONFIRMED 2026-10-16. 545643 (Salón Real del Gran Hotel Miramar) offers dom 15 nov 21:00 (Zona D 16,50 / C 26 / B 32), dom 29 nov 19:00 (Zona D 19,00 / C 31 / B 37 / A 40,50) and dom 31 ene 2027 21:00 (D 17 / C 27 / B 33 / A 40,50), none Agotado (Sofia's three screenshots). The site had only 15 Nov. 800523 (Salón Linares, Anantara Villa Padierna) offers only vie 13 nov 21:00 (Zona C 28 / B 34,50 / A 40). Whether fever_unbuyable() is what hid 29 Nov is NOT confirmed (same caveat as the 15 Oct entry). Remove each date once past.",
+ "_2026_10_15_why": "CANDLELIGHT NIGHTS MISSING FROM THE LIVE SITE: Hans Zimmer 22 Nov + 8 Dec (sku 155745), Joan Manuel Serrat 11 Dec (129317), Queen vs. ABBA 11 Dec (555765). BROWSER-CONFIRMED 2026-10-15 in the built-in browser on each plan's 'Selecciona fecha y sesion': 155745 offers dom 18 oct / dom 22 nov / mar 08 dic (22 Nov 19:00 from 22,50; 8 Dec 19:00 from 17,00, no Agotado); 129317 offers sab 21 nov / vie 11 dic (17:45, Entrada Zona D 19,50 shown); 555765 offers vie 13 nov / vie 11 dic / sab 26 dic (19:45, Zona D 18,50 shown). The sweeplost map entries (added 2026-10-14) were injected but the rows still did not reach the page, because these skus are in fever_availability.json with other dates only and fever_unbuyable() drops any date not listed (Michael Jackson 12 Dec, sku not date-gated, did appear). Paired with the sweeplost entries 'candlelight tribute hans zimmer 8 dic / 22 nov', 'joan manuel serrat 11 dic', 'queen abba 11 dic'. NOT confirmed: that this gate is the cause (box file not readable from here). Remove each date once past. NOTE: 155745 on 2026-10-18 is ALL AGOTADO (4 zones) on Fever as of 2026-10-15.",
+ "_611306_why": "THE JAZZ ROOM MARBELLA: A JOURNEY TO THE HEART OF NEW ORLEANS, Volare Room Marbella, Sat 3 Oct 2026 18:00 (Fever sku 611306). ADDED 2026-09-29 by the daily browser commission audit - SILENT LEAK: on sale at Fever but absent from the live site. BROWSER-CONFIRMED 2026-09-29 on feverup.com/m/611306: date selector sab 03 oct, sessions 18:00 + 20:00, Entrada General 29,00 EUR (promo 23,20 EUR), live Comprar entradas. Paired with the sweeplost map entry that injects it. Remove after 2026-10-03.",
+ "_405940_why": "CANDLELIGHT: TRIBUTE TO HANS ZIMMER, Anantara Villa Padierna (Benahavis/Marbella), Sun 11 Oct 2026 19:00 (Fever sku 405940). ADDED 2026-09-24 by the daily browser commission audit - SILENT DROP: on the live site 2026-09-23 (11 Fever cards incl. 405940), gone 2026-09-24 (10 cards) with no recorded removal. BROWSER-CONFIRMED 2026-09-24 on feverup.com/m/405940: the plan's own ticket-selector blob holds session 2026-10-11 19:00 with 3 of 3 zones has_available_tickets=true, from 28,00 EUR. Paired with the new 'hans zimmer' act in venue_event_map's 'anantara villa padierna' block (the complete:true phantom gate). Remove once the show is past or sold out.",
+ "_643664_why": "LA K'ONGA, Sala Paris 15, Malaga, Thu 8 Oct 2026 21:00 (Fever sku 643664). ADDED 2026-09-21 by the daily browser audit — SILENT COMMISSION LOSS. The show is mapped (venue_event_map paris15 'la konga', 08/10/2026), it is in the verified baseline ('la konga|2026-10-08', the 09-15 false-drop correction), Fever is a PAYING seller (Impact, fever.pxf.io/c/7440720) — and the card is NOT on malagalivepulse.com at all. It never earns a click, so it can never appear in the clicks report: invisible. BROWSER-CONFIRMED 2026-09-21 on feverup.com/m/643664: title 'Entradas para la K'onga en Malaga | Fever', 'Lugar: Paris 15. C/ La Orotava, 25, 27, Cruz de Humilladero, 29006', the plan's OWN date selector holds exactly one session, aria-label '2026-10-08' / 'jue 08 oct', and opening it renders 'jue 08 oct 21:00 — Entrada general - Promo lanzamiento 14 % descuento 35,00 € 30,00 € AGOTADO' and 'Entrada general 35,00 €' WITH a live quantity stepper. So one tier is sold out and the general tier is on sale: buyable, not sold out. CAUSE: fever_unbuyable() only drops a sku that IS in the generated fever_availability.json, so 643664 must be in that box-owned map with a date set that does not contain 2026-10-08 — the same empty/short-date-set scraper failure recorded for 678230 above. This override makes the browser reading authoritative at the point of the drop. Remove once the show is past or the general tier goes Agotado too.",
+ "_678230_why": "GRUPO FIRME, Malaga Forum, Sun 20 Sep 2026. BROWSER-CONFIRMED on feverup.com/m/678230 on 2026-09-16: the session 'dom 20 sept 20:00' offers FIVE tiers and only ONE is sold out - Super VIP 90,00 EUR, Terraza VIP 40,00 EUR AGOTADO, Preferencial 85,00 EUR, Platino 65,00 EUR, General 45,00 EUR, each of the four with a live quantity stepper. General 45,00 EUR matches the calendar's 'Desde 45 EUR'. WHY IT WAS DROPPED: FEVER_BUYABLE holds sku 678230 with an EMPTY set of dates, so fever_unbuyable() returned True for every date and the card never shipped - the same shape as Candlelight Disney Love Songs (sku 646736, two entries above). Found by Sofia, 2026-09-16: 'I don't see Grupo Firme in the event list, only in the Marquee.' THE MARQUEE TILE WAS STILL PROMOTING IT, so the site was advertising a show its own gate had hidden from the calendar. Remove this entry when the show is past or genuinely sold out. SEPARATE, STILL OPEN: an EMPTY date set means the availability scraper found the plan and extracted zero sessions - that is a scraper failure, not a Fever state, and it will recur on other SKUs.",
+ "_646736_2026_09_20_removed": "REMOVED 2026-09-19 by the daily browser click-test. Candlelight: Disney Love Songs, Gran Hotel Miramar, Sun 20 Sep 2026 (Fever sku 646736) is NO LONGER ON SALE. Evidence, all read in Chrome on 2026-09-19: (1) feverup.com/m/646736 loads fine and the plan page renders, but its 'Selecciona fecha y sesion' ticket selector is EMPTY — the FV-PLAN-TICKET-SELECTOR-CONTAINER has no session children at all — on two separate full loads with 10-12s waits; (2) the CONTROL test rules out a rendering fault: the same probe on the other four Candlelight SKUs this site carries returns their real sessions and prices in the same selector (466621 'dom 04 oct 19:00 Zona D 21,50 EUR', 555765 'sab 10 oct 19:45', 656280 'dom 04 oct 21:00', 532802 'sab 10 oct 17:45', 677232 'dom 11 oct 21:00'); (3) 646736 is ABSENT from feverup.com/es/malaga/candlelight, which lists 27 Malaga Candlelight plans, and Fever's Malaga search for 'candlelight disney' returns no Disney plan at all. Candlelight sells exclusively through Fever, so there is no alternative seller to route to. Keeping the override was force-shipping a card whose Tickets button landed on a page with nothing to buy — and it was the site's top Hot Seller tile and first Featured Event. The matching baseline key 'candlelight disney love songs|2026-09-20' was retired in verified_ticket_links.json the same run. The 2026-08-23 entry above is left untouched (past date, harmless). RESTORE THIS DATE ONLY IF Fever re-lists the plan with a bookable 20 Sep session.",
+ "generated": "2026-09-19"
+}

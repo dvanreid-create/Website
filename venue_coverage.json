@@ -1,0 +1,217 @@
+{
+ "generated": "2026-09-01",
+ "window_days": 30,
+ "venues": {
+  "operabenalmadena": {
+   "venue": "Auditorio Municipal de Benalmádena",
+   "mapped_in_window": 1,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-18",
+   "always_on": true,
+   "verdict": "DARK"
+  },
+  "starlite": {
+   "venue": "Starlite Occident",
+   "mapped_in_window": 1,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-03",
+   "always_on": false,
+   "verdict": "DARK"
+  },
+  "marenostrum": {
+   "venue": "Marenostrum Castle Park",
+   "mapped_in_window": 2,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-12",
+   "always_on": false,
+   "verdict": "DARK"
+  },
+  "purolatino": {
+   "venue": "Puro Latino Torremolinos",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-07-18",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "moonlight": {
+   "venue": "Málaga Forum",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2027-02-06",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "101musicfestival": {
+   "venue": "Plaza de Toros La Malagueta",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-07-31",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "anantara villa padierna": {
+   "venue": "Anantara Villa Padierna Palace Benahavís Marbella Resort",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-22",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "zz pub": {
+   "venue": "ZZ PUB",
+   "mapped_in_window": 30,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-30",
+   "always_on": true,
+   "verdict": "DARK"
+  },
+  "torremolinoscultura": {
+   "venue": "Plaza de Toros de Torremolinos",
+   "mapped_in_window": 1,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-12",
+   "always_on": false,
+   "verdict": "DARK"
+  },
+  "benalmadenacultura": {
+   "venue": "Ayuntamiento de Benalmádena",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-11",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "mijascultura": {
+   "venue": "Ayuntamiento de Mijas",
+   "mapped_in_window": 1,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-02",
+   "always_on": false,
+   "verdict": "DARK"
+  },
+  "malagacultura": {
+   "venue": "Ayuntamiento de Málaga — Cultura",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": null,
+   "always_on": false,
+   "verdict": "unmapped"
+  },
+  "marbellacultura": {
+   "venue": "Ayuntamiento de Marbella — Cultura",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-20",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "fuengirolacultura": {
+   "venue": "Ayuntamiento de Fuengirola — Cultura",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": null,
+   "always_on": false,
+   "verdict": "unmapped"
+  },
+  "esteponacultura": {
+   "venue": "Ayuntamiento de Estepona — Cultura",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": null,
+   "always_on": false,
+   "verdict": "unmapped"
+  },
+  "nerjacultura": {
+   "venue": "Ayuntamiento de Nerja — Cultura",
+   "mapped_in_window": 1,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-14",
+   "always_on": false,
+   "verdict": "DARK"
+  },
+  "alhaurincultura": {
+   "venue": "Ayuntamiento de Alhaurín de la Torre — Cultura",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-25",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "trinchera": {
+   "venue": "Sala La Trinchera",
+   "mapped_in_window": 2,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-11-29",
+   "always_on": true,
+   "verdict": "DARK"
+  },
+  "me marbella": {
+   "venue": "ME Marbella",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-27",
+   "always_on": false,
+   "verdict": "quiet"
+  },
+  "miramar": {
+   "venue": "Salón Real del Gran Hotel Miramar",
+   "mapped_in_window": 0,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-08-23",
+   "always_on": true,
+   "verdict": "STALE"
+  },
+  "marbella arena": {
+   "venue": "Marbella Arena",
+   "mapped_in_window": 2,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-05",
+   "always_on": true,
+   "verdict": "DARK"
+  },
+  "clarence jazz club": {
+   "venue": "Clarence Jazz Club",
+   "mapped_in_window": 9,
+   "matched": 0,
+   "calendar_in_window": 0,
+   "latest_mapped": "2026-09-30",
+   "always_on": true,
+   "verdict": "DARK"
+  }
+ },
+ "problems": [
+  "clarence jazz club",
+  "marbella arena",
+  "marenostrum",
+  "mijascultura",
+  "miramar",
+  "nerjacultura",
+  "operabenalmadena",
+  "starlite",
+  "torremolinoscultura",
+  "trinchera",
+  "zz pub"
+ ]
+}

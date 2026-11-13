@@ -1,0 +1,824 @@
+{
+ "_why": "PRICES / FREE ENTRY READ ON THE SELLER'S OR VENUE'S OWN PAGE (never guessed). Applied by build_site.price_fact() ONLY to a row that has no price, so a real price is never overwritten. Purpose: Search Console 'Missing offers' (schema.org offers need a price or free). Entry: {act (contained in the row's act), venue (optional substring), date YYYY-MM-DD, price 'Desde N EUR' OR free:true, source}. Clarence JAM sessions are deliberately NOT here: their only price pages are 2024/2025 pages and the club says jams are bought at the club.",
+ "facts": [
+  {
+   "act": "Lorenzo Bellini Quartet",
+   "venue": "clarence",
+   "date": "2026-11-13",
+   "price": "Desde 12 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 20 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility/General 12 EUR; cheapest zone shown."
+  },
+  {
+   "act": "O Sister!",
+   "venue": "clarence",
+   "date": "2026-11-14",
+   "price": "Desde 30 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 40 EUR, Zona B (row 4 back) 35 EUR, reduced-visibility/General 30 EUR; cheapest zone shown."
+  },
+  {
+   "act": "SongAh Chae Trio",
+   "venue": "clarence",
+   "date": "2026-11-20",
+   "price": "Desde 12 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 20 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility/General 12 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Carl Winther Trio with Tommy Smith",
+   "venue": "clarence",
+   "date": "2026-11-21",
+   "price": "Desde 20 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 30 EUR, Zona B (row 4 back) 25 EUR, reduced-visibility/General 20 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Víctor Samsa Quintet",
+   "venue": "clarence",
+   "date": "2026-11-27",
+   "price": "Desde 12 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 18 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility/General 12 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Jose Carra Trío",
+   "venue": "clarence",
+   "date": "2026-11-28",
+   "price": "Desde 15 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 25 EUR, Zona B (row 4 back) 20 EUR, reduced-visibility/General 15 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Miguelo Delgado Quartet",
+   "venue": "clarence",
+   "date": "2026-12-04",
+   "price": "Desde 12 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 18 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility/General 12 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Antonio Grande Quintet",
+   "venue": "clarence",
+   "date": "2026-12-05",
+   "price": "Desde 12 EUR",
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: Zona A (rows 1-3) 20 EUR, Zona B (row 4 back) 15 EUR, reduced-visibility/General 12 EUR; cheapest zone shown."
+  },
+  {
+   "act": "Live Nights Session",
+   "venue": "clarence",
+   "date": "2026-11-14",
+   "free": true,
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: 'Entrada Libre' (live-nights-session pages 2/3/4)."
+  },
+  {
+   "act": "Live Nights Session",
+   "venue": "clarence",
+   "date": "2026-11-21",
+   "free": true,
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: 'Entrada Libre' (live-nights-session pages 2/3/4)."
+  },
+  {
+   "act": "Live Nights Session",
+   "venue": "clarence",
+   "date": "2026-11-28",
+   "free": true,
+   "source": "clarencejazzclub.com event page opened in Sofia's Edge 2026-11-09: 'Entrada Libre' (live-nights-session pages 2/3/4)."
+  },
+  {
+   "act": "Live Nights Session",
+   "venue": "clarence",
+   "date": "2026-12-05",
+   "free": true,
+   "source": "clarencejazzclub.com live-nights-session-5 opened in Sofia's Edge 2026-11-11: Sat 5 Dec 23:30, Hot Nasho, 'Entrada Libre'."
+  },
+  {
+   "act": "Candlelight: Coldplay and Imagine Dragons",
+   "venue": "unicaja",
+   "date": "2026-11-13",
+   "price": "Desde 29,50 EUR",
+   "source": "feverup.com/m/532802 date selector read in the built-in browser 2026-11-10 (17:45; Zona D 18,50 sold out): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Queen vs. The Beatles",
+   "venue": "anantara",
+   "date": "2026-11-13",
+   "price": "Desde 33,50 EUR",
+   "source": "feverup.com/m/800523 date selector read in the built-in browser 2026-11-10 (21:00; Zonas A/B sold out): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to La Ley Innata",
+   "venue": "miramar",
+   "date": "2026-11-15",
+   "price": "Desde 26 EUR",
+   "source": "feverup.com/m/545643 date selector read in the built-in browser 2026-11-10 (21:00; 19,00 sold out): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to La Ley Innata",
+   "venue": "miramar",
+   "date": "2026-11-29",
+   "price": "Desde 17 EUR",
+   "source": "feverup.com/m/545643 date selector read in the built-in browser 2026-11-10 (17:00 and 19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Mecano",
+   "venue": "miramar",
+   "date": "2026-11-15",
+   "price": "Desde 39,50 EUR",
+   "source": "feverup.com/m/656280 date selector read in the built-in browser 2026-11-10 (19:00; 23,00 and 36,50 sold out): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Mecano",
+   "venue": "miramar",
+   "date": "2026-12-05",
+   "price": "Desde 17,50 EUR",
+   "source": "feverup.com/m/656280 date selector read in the built-in browser 2026-11-10 (17:00 and 19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Adele",
+   "venue": "unicaja",
+   "date": "2026-11-21",
+   "price": "Desde 17 EUR",
+   "source": "feverup.com/m/701011 date selector read in the built-in browser 2026-11-10 (19:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Joan Manuel Serrat",
+   "venue": "unicaja",
+   "date": "2026-11-21",
+   "price": "Desde 19,50 EUR",
+   "source": "feverup.com/m/129317 date selector read in the built-in browser 2026-11-10 (17:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Joan Manuel Serrat",
+   "venue": "unicaja",
+   "date": "2026-12-11",
+   "price": "Desde 14,50 EUR",
+   "source": "feverup.com/m/129317 date selector read in the built-in browser 2026-11-10 (17:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Hans Zimmer",
+   "venue": "miramar",
+   "date": "2026-11-22",
+   "price": "Desde 36,50 EUR",
+   "source": "feverup.com/m/155745 date selector read in the built-in browser 2026-11-10 (19:00; 22,50 sold out): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Hans Zimmer",
+   "venue": "miramar",
+   "date": "2026-12-08",
+   "price": "Desde 20 EUR",
+   "source": "feverup.com/m/155745 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Vivaldi's Four Seasons",
+   "venue": "miramar",
+   "date": "2026-11-22",
+   "price": "Desde 21,50 EUR",
+   "source": "feverup.com/m/88307 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Ludovico Einaudi",
+   "venue": "unicaja",
+   "date": "2026-11-27",
+   "price": "Desde 16,50 EUR",
+   "source": "feverup.com/m/139025 date selector read in the built-in browser 2026-11-10 (19:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Michael Jackson",
+   "venue": "unicaja",
+   "date": "2026-11-27",
+   "price": "Desde 18,50 EUR",
+   "source": "feverup.com/m/701012 date selector read in the built-in browser 2026-11-10 (17:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Rock Classics",
+   "venue": "miramar",
+   "date": "2026-11-29",
+   "price": "Desde 20 EUR",
+   "source": "feverup.com/m/466621 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Coldplay vs. Ed Sheeran",
+   "venue": "miramar",
+   "date": "2026-12-05",
+   "price": "Desde 21,50 EUR",
+   "source": "feverup.com/m/643700 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Coldplay vs. Ed Sheeran",
+   "venue": "miramar",
+   "date": "2026-12-23",
+   "price": "Desde 19 EUR",
+   "source": "feverup.com/m/643700 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: The Best of the 80s",
+   "venue": "miramar",
+   "date": "2026-12-06",
+   "price": "Desde 21 EUR",
+   "source": "feverup.com/m/643699 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: The Best of the 80s",
+   "venue": "miramar",
+   "date": "2026-12-27",
+   "price": "Desde 17 EUR",
+   "source": "feverup.com/m/643699 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Leiva",
+   "venue": "miramar",
+   "date": "2026-12-06",
+   "price": "Desde 18,50 EUR",
+   "source": "feverup.com/m/714520 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Ennio Morricone",
+   "venue": "miramar",
+   "date": "2026-12-08",
+   "price": "Desde 16,50 EUR",
+   "source": "feverup.com/m/198778 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Queen vs. ABBA",
+   "venue": "unicaja",
+   "date": "2026-12-11",
+   "price": "Desde 18,50 EUR",
+   "source": "feverup.com/m/555765 date selector read in the built-in browser 2026-11-10 (19:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Michael Jackson",
+   "venue": "thyssen",
+   "date": "2026-12-12",
+   "price": "Desde 37 EUR",
+   "source": "feverup.com/m/753379 date selector read in the built-in browser 2026-11-10 (20:30): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Bad Bunny",
+   "venue": "thyssen",
+   "date": "2026-12-12",
+   "price": "Desde 36 EUR",
+   "source": "feverup.com/m/806339 date selector read in the built-in browser 2026-11-10 (22:15): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight Christmas: Christmas Soundtracks",
+   "venue": "unicaja",
+   "date": "2026-12-18",
+   "price": "Desde 18,50 EUR",
+   "source": "feverup.com/m/364215 date selector read in the built-in browser 2026-11-10 (17:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight Christmas: Christmas Classics",
+   "venue": "unicaja",
+   "date": "2026-12-18",
+   "price": "Desde 18,50 EUR",
+   "source": "feverup.com/m/364214 date selector read in the built-in browser 2026-11-10 (19:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Michael Jackson",
+   "venue": "anantara",
+   "date": "2026-12-19",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/677233 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Michael Jackson",
+   "venue": "anantara",
+   "date": "2026-12-27",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/677233 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Coldplay vs. Ed Sheeran",
+   "venue": "anantara",
+   "date": "2026-12-19",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/677230 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight Premium: Tribute to Hans Zimmer",
+   "venue": "thyssen",
+   "date": "2026-12-20",
+   "price": "Desde 29 EUR",
+   "source": "feverup.com/m/126888 date selector read in the built-in browser 2026-11-10 (20:30): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight Christmas: Christmas Classics",
+   "venue": "anantara",
+   "date": "2026-12-20",
+   "price": "Desde 28,50 EUR",
+   "source": "feverup.com/m/249844 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Queen vs. The Beatles",
+   "venue": "miramar",
+   "date": "2026-12-20",
+   "price": "Desde 23 EUR",
+   "source": "feverup.com/m/259530 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Phil Collins",
+   "venue": "miramar",
+   "date": "2026-12-20",
+   "price": "Desde 17 EUR",
+   "source": "feverup.com/m/746181 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Mecano",
+   "venue": "anantara",
+   "date": "2026-12-26",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/677231 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Michael Jackson",
+   "venue": "unicaja",
+   "date": "2026-12-26",
+   "price": "Desde 16,50 EUR",
+   "source": "feverup.com/m/792605 date selector read in the built-in browser 2026-11-10 (19:45): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight Christmas: Christmas Soundtracks",
+   "venue": "anantara",
+   "date": "2026-12-26",
+   "price": "Desde 25 EUR",
+   "source": "feverup.com/m/142331 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Christmas Classics",
+   "venue": "miramar",
+   "date": "2026-12-26",
+   "price": "Desde 20 EUR",
+   "source": "feverup.com/m/746179 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Christmas Movie Soundtracks",
+   "venue": "miramar",
+   "date": "2026-12-26",
+   "price": "Desde 20 EUR",
+   "source": "feverup.com/m/746180 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Christmas Movie Soundtracks",
+   "venue": "miramar",
+   "date": "2026-12-27",
+   "price": "Desde 17,50 EUR",
+   "source": "feverup.com/m/746180 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Queen vs. ABBA",
+   "venue": "anantara",
+   "date": "2026-12-27",
+   "price": "Desde 30 EUR",
+   "source": "feverup.com/m/677232 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Vivaldi's Four Seasons",
+   "venue": "anantara",
+   "date": "2027-01-08",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/405933 date selector read in the built-in browser 2026-11-10 (19:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Candlelight: Tribute to Hans Zimmer",
+   "venue": "anantara",
+   "date": "2027-01-08",
+   "price": "Desde 28 EUR",
+   "source": "feverup.com/m/405940 date selector read in the built-in browser 2026-11-10 (21:00): cheapest zone ON SALE for that date (sold-out zones skipped). Fees were not checked."
+  },
+  {
+   "act": "Dúo Ballix",
+   "venue": "nerja",
+   "date": "2026-11-12",
+   "price": "Desde 10 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 10,00 €'."
+  },
+  {
+   "act": "La Historia del Soul",
+   "venue": "caja blanca",
+   "date": "2026-11-13",
+   "price": "Desde 12 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 12,00 € (3 left)'."
+  },
+  {
+   "act": "Madama Butterfly",
+   "venue": "nerja",
+   "date": "2026-11-17",
+   "price": "Desde 34 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 34,00 €'."
+  },
+  {
+   "act": "A puro tango",
+   "venue": "nerja",
+   "date": "2026-11-19",
+   "price": "Desde 20 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 20,00 €'."
+  },
+  {
+   "act": "La Revoltosa",
+   "venue": "felipe",
+   "date": "2026-11-22",
+   "price": "Desde 37,40 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 37,40 €'."
+  },
+  {
+   "act": "Las Leyendas del Gospel",
+   "venue": "unicaja",
+   "date": "2026-11-25",
+   "price": "Desde 10 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 10,00 €'."
+  },
+  {
+   "act": "El pianista de la mano izquierda",
+   "venue": "nerja",
+   "date": "2026-11-26",
+   "price": "Desde 10 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 10,00 €'."
+  },
+  {
+   "act": "Anastasia",
+   "venue": "esad",
+   "date": "2026-11-27",
+   "price": "Desde 15 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 15,00 €'."
+  },
+  {
+   "act": "Queen Forever Tribute",
+   "venue": "estepona",
+   "date": "2026-11-28",
+   "price": "Desde 38,50 EUR",
+   "source": "giglon.com event page read in the built-in browser 2026-11-10: 'desde 38,50 €'."
+  },
+  {
+   "act": "Perianes",
+   "venue": "unicaja",
+   "date": "2026-11-19",
+   "price": "Desde 21 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: per-seat tooltips, all 267 available seats 21,00 EUR. Fees not checked."
+  },
+  {
+   "act": "Del Pop al Jazz",
+   "venue": "unicaja",
+   "date": "2026-11-14",
+   "price": "Desde 19 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: per-seat tooltips, all 158 available seats 19,00 EUR. Fees not checked."
+  },
+  {
+   "act": "Tomasito",
+   "venue": "unicaja",
+   "date": "2026-11-28",
+   "price": "Desde 19 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: per-seat tooltips, all 249 available seats 19,00 EUR. Fees not checked."
+  },
+  {
+   "act": "Dúo Balta",
+   "venue": "unicaja",
+   "date": "2026-12-03",
+   "price": "Desde 24,10 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: NO NUMERADO 24,10 EUR (+1,00 EUR fee shown separately)."
+  },
+  {
+   "act": "Transdisciplina",
+   "venue": "echegaray",
+   "date": "2026-11-28",
+   "price": "Desde 10,24 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: zones 30,72 / 18,43 / 10,24 EUR."
+  },
+  {
+   "act": "OFM Programa 4",
+   "venue": "cervantes",
+   "date": "2026-11-12",
+   "price": "Desde 12 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: Paraiso 12,00 EUR (zones to 36,00 EUR)."
+  },
+  {
+   "act": "OFM Programa 4",
+   "venue": "cervantes",
+   "date": "2026-11-13",
+   "price": "Desde 12 EUR",
+   "source": "unientradas.es event page read in the built-in browser 2026-11-10: Paraiso 12,00 EUR (patio/plateas/palcos sold out; 2nd/3rd tier 27/20 EUR)."
+  },
+  {
+   "act": "Masterplan",
+   "venue": "estepona",
+   "date": "2026-11-13",
+   "price": "Desde 13,20 EUR",
+   "source": "conciertos.club event page read in the built-in browser 2026-11-10: 'Precio: 13,20€.' Page's own price text, not checked at the seller."
+  },
+  {
+   "act": "Drunk-o-rama",
+   "venue": "core",
+   "date": "2026-11-14",
+   "price": "Desde 20 EUR",
+   "source": "conciertos.club event page read in the built-in browser 2026-11-10: 'Precio: 20€ Anticipada/25€ Taquilla.' Page's own price text, not checked at the seller."
+  },
+  {
+   "act": "Michael's Legacy",
+   "venue": "estepona",
+   "date": "2026-11-21",
+   "price": "Desde 30 EUR",
+   "source": "conciertos.club event page read in the built-in browser 2026-11-10: 'Precio: 30€.' Page's own price text, not checked at the seller."
+  },
+  {
+   "act": "Los Hombres Rana",
+   "venue": "cochera",
+   "date": "2026-11-14",
+   "price": "Desde 15 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 15€'."
+  },
+  {
+   "act": "Mito Sonoro",
+   "venue": "cochera",
+   "date": "2026-11-21",
+   "price": "Desde 9 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 9€'."
+  },
+  {
+   "act": "Los Caños",
+   "venue": "cochera",
+   "date": "2026-11-21",
+   "price": "Desde 20 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 20€'."
+  },
+  {
+   "act": "Mestizaje",
+   "venue": "cochera",
+   "date": "2026-11-28",
+   "price": "Desde 9 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 9€'."
+  },
+  {
+   "act": "Neverland Bari",
+   "venue": "cochera",
+   "date": "2026-11-28",
+   "price": "Desde 16 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 16€'."
+  },
+  {
+   "act": "Un Paseo por Tu Vida",
+   "venue": "cochera",
+   "date": "2026-12-02",
+   "price": "Desde 15 EUR",
+   "source": "lacocheraentradas.com show page read in the built-in browser 2026-11-10: 'Desde: 15€'."
+  },
+  {
+   "act": "Pastillas del Abuelo",
+   "venue": "paris",
+   "date": "2026-11-12",
+   "price": "Desde 30 EUR",
+   "source": "conciertosya.com event page read in the built-in browser 2026-11-10: 'Entradas Online Desde: 30.00 EUR (+3.00 fee)' (ticket price shown without the booking fee)."
+  },
+  {
+   "act": "Fabulosos Cadillacs",
+   "venue": "paris",
+   "date": "2026-11-24",
+   "price": "Desde 45 EUR",
+   "source": "conciertosya.com event page read in the built-in browser 2026-11-10: 'Entradas Online Desde: 45.00 EUR (+4.50 fee)' (ticket price shown without the booking fee)."
+  },
+  {
+   "act": "Gauchito Club",
+   "venue": "trinchera",
+   "date": "2026-11-26",
+   "price": "Desde 22 EUR",
+   "source": "conciertosya.com event page read in the built-in browser 2026-11-10: 'Entradas Online Desde: 22.00 EUR (+2.20 fee)' (ticket price shown without the booking fee)."
+  },
+  {
+   "act": "Homer el Mero Mero",
+   "venue": "garrapata",
+   "date": "2026-11-12",
+   "price": "Desde 30,80 EUR",
+   "source": "entradas.com event page opened in Sofia's Edge 2026-11-10: 30,80 EUR (listed ticket price; service fee 1 EUR/ticket extra)."
+  },
+  {
+   "act": "Melón Diesel",
+   "venue": "paris",
+   "date": "2026-11-13",
+   "price": "Desde 29,70 EUR",
+   "source": "entradas.com event page opened in Sofia's Edge 2026-11-10: zones 55,00 / 29,70 EUR (listed ticket price; service fee 1 EUR/ticket extra)."
+  },
+  {
+   "act": "Her Own Summer",
+   "venue": "roka",
+   "date": "2026-11-14",
+   "price": "Desde 16,83 EUR",
+   "source": "entradas.com event page opened in Sofia's Edge 2026-11-10: 16,83 EUR (listed ticket price; service fee 1 EUR/ticket extra)."
+  },
+  {
+   "act": "Señor de los Anillos",
+   "venue": "fycma",
+   "date": "2026-11-28",
+   "price": "Desde 32,16 EUR",
+   "source": "entradas.com event page opened in Sofia's Edge 2026-11-10: tiers 65,01 / 54,06 / 43,11 / 32,16 EUR (listed ticket price; service fee 1 EUR/ticket extra)."
+  },
+  {
+   "act": "Blanca la Almendrita",
+   "venue": "garrapata",
+   "date": "2026-11-21",
+   "price": "Desde 20 EUR",
+   "source": "entradas.conciertos.club event page opened in Sofia's Edge 2026-11-10: 20,00 EUR."
+  },
+  {
+   "act": "Queenmania",
+   "venue": "hard rock",
+   "date": "2026-11-13",
+   "price": "Desde 22 EUR",
+   "source": "elcorteingles.es event page opened in Sofia's Edge 2026-11-10: 22,00 EUR first price listed (conciertos.club also lists 22 EUR for this show)."
+  },
+  {
+   "act": "Aidalai",
+   "venue": "esad",
+   "date": "2026-11-28",
+   "price": "Desde 25,36 EUR",
+   "source": "elcorteingles.es event page opened in Sofia's Edge 2026-11-10: 25,36 EUR."
+  },
+  {
+   "act": "Así Canta Jerez",
+   "venue": "estepona",
+   "date": "2026-11-14",
+   "price": "Desde 30 EUR",
+   "source": "enterticket.es event page opened in Sofia's Edge 2026-11-10: ENTRADA GENERAL 30,00 EUR (also seen in Sofia's screenshot)."
+  },
+  {
+   "act": "Los Chichos",
+   "venue": "awa",
+   "date": "2026-11-15",
+   "price": "Desde 10 EUR",
+   "source": "enterticket.es event page opened in Sofia's Edge 2026-11-10: FIESTA TARDEO 10,00 EUR incl. 1 copa o 2 consumiciones (poster: desde 10 EUR)."
+  },
+  {
+   "act": "Manuel Carrasco",
+   "venue": "awa",
+   "date": "2026-11-22",
+   "price": "Desde 10 EUR",
+   "source": "enterticket.es event page opened in Sofia's Edge 2026-11-10: TARDEO FIESTA 10,00 EUR incl. 1 copa o 2 consumiciones (poster: desde 10 EUR)."
+  },
+  {
+   "act": "Tennessee",
+   "venue": "trinchera",
+   "date": "2026-11-13",
+   "price": "Desde 27,50 EUR",
+   "source": "tickets.aramusicgroup.com event page opened in Sofia's Edge 2026-11-10: 27,50 EUR."
+  },
+  {
+   "act": "Mala Gestión",
+   "venue": "marte",
+   "date": "2026-11-13",
+   "price": "Desde 17,60 EUR",
+   "source": "entrees.es event page opened in Sofia's Edge 2026-11-10: 17.60 EUR."
+  },
+  {
+   "act": "Iberia Sumergida",
+   "venue": "trinchera",
+   "date": "2026-11-14",
+   "price": "Desde 17,41 EUR",
+   "source": "entradium.com event page opened in Sofia's Edge 2026-11-10: 17,41 EUR."
+  },
+  {
+   "act": "Brujer",
+   "venue": "trinchera",
+   "date": "2026-11-15",
+   "price": "Desde 25 EUR",
+   "source": "madnesslive.es event page opened in Sofia's Edge 2026-11-10: 25,00 EUR + 2,50 EUR management fee."
+  },
+  {
+   "act": "Lyapis",
+   "venue": "trinchera",
+   "date": "2026-11-19",
+   "price": "Desde 45 EUR",
+   "source": "somewhere.show event page opened in Sofia's Edge 2026-11-10: 'from 45 EUR'."
+  },
+  {
+   "act": "Vicky Gastelo",
+   "venue": "hall",
+   "date": "2026-11-27",
+   "price": "Desde 20 EUR",
+   "source": "tickety.es event page opened in Sofia's Edge 2026-11-10: Entrada anticipada 20 EUR (box office 24 EUR)."
+  },
+  {
+   "act": "Hide Tyson",
+   "venue": "trinchera",
+   "date": "2026-11-27",
+   "price": "Desde 15 EUR",
+   "source": "taquilla.com event page opened in Sofia's Edge 2026-11-10: 'desde 15,00€'."
+  },
+  {
+   "act": "Clearwater",
+   "venue": "trinchera",
+   "date": "2026-11-29",
+   "price": "Desde 25 EUR",
+   "source": "mutick.com event page opened in Sofia's Edge 2026-11-10: 'Desde 25,00 €'."
+  },
+  {
+   "act": "Remember Fantasy",
+   "venue": "paris",
+   "date": "2026-11-21",
+   "price": "Desde 21 EUR",
+   "source": "monsterticket.com event page opened in Sofia's Edge 2026-11-10: 21.00 EUR (+2.10 fee); 26.00 EUR tier."
+  },
+  {
+   "act": "Filarmónica Frente al Mar",
+   "venue": "neville",
+   "date": "2026-11-20",
+   "price": "Desde 15 EUR",
+   "source": "mientrada.net event page opened in Sofia's Edge 2026-11-10: entrada general 15 EUR + fee (reducida 10 EUR for 65+/young, not used)."
+  },
+  {
+   "act": "Sierra Blanca",
+   "venue": "marbella",
+   "date": "2026-11-21",
+   "price": "Desde 20 EUR",
+   "source": "mientrada.janto.es event page opened in Sofia's Edge 2026-11-10: 20,00 EUR."
+  },
+  {
+   "act": "Zambomba",
+   "venue": "altare",
+   "date": "2026-11-29",
+   "price": "Desde 15 EUR",
+   "source": "mientrada.net event page opened in Sofia's Edge 2026-11-10: anticipada 15 EUR (18 EUR at the door)."
+  },
+  {
+   "act": "Karelia",
+   "venue": "fuengirola",
+   "date": "2026-11-20",
+   "price": "Desde 5 EUR",
+   "source": "fuengirola.es event page opened in Sofia's Edge 2026-11-10: price '5€'; tickets at entradas.fuengirola.es."
+  },
+  {
+   "act": "Melendi",
+   "venue": "carpena",
+   "date": "2026-11-20",
+   "price": "Desde 44 EUR",
+   "source": "tickets.oneboxtds.com Melendi 20/11 page opened in Sofia's Edge 2026-11-10: zone prices 44,00 to 56,10 EUR; cheapest shown. Fees not checked."
+  },
+  {
+   "act": "Melendi",
+   "venue": "carpena",
+   "date": "2026-11-21",
+   "price": "Desde 44 EUR",
+   "source": "tickets.oneboxtds.com Melendi 21/11 page opened in Sofia's Edge 2026-11-10: zone prices 44,00 to 56,10 EUR; cheapest shown. Fees not checked."
+  },
+  {
+   "act": "Raphael",
+   "venue": "carpena",
+   "date": "2026-11-28",
+   "price": "Desde 49,50 EUR",
+   "source": "checkoutentradas.elcorteingles.es seat map for Raphael 28 Nov, screenshot from Sofia's Edge 2026-11-10: only GRADA ALTA 49,50 EUR still on sale (other zones greyed out). Fees not checked."
+  },
+  {
+   "act": "Rata",
+   "venue": "paris",
+   "date": "2026-11-20",
+   "price": "Desde 16,50 EUR",
+   "source": "malagaentradas.com purchase step 1 opened in Sofia's Edge 2026-11-10 (nothing added to basket): General 16,50 EUR."
+  },
+  {
+   "act": "Perita Fest",
+   "venue": "torremolinos",
+   "date": "2026-11-27",
+   "price": "Desde 20 EUR",
+   "source": "enterticket.es day selector opened in Sofia's Edge 2026-11-10: LA FLAMENCA - ENTRADA GENERAL VIERNES 27 20,00 EUR (2-day pass 30 EUR)."
+  },
+  {
+   "act": "Perita Fest",
+   "venue": "torremolinos",
+   "date": "2026-11-28",
+   "price": "Desde 20 EUR",
+   "source": "enterticket.es day selector opened in Sofia's Edge 2026-11-10: ENTRADA GENERAL SABADO 28 20,00 EUR (2-day pass 30 EUR)."
+  },
+  {
+   "act": "Grunge",
+   "venue": "trinchera",
+   "date": "2026-11-21",
+   "price": "Desde 17,60 EUR",
+   "source": "jfpromotickets.es event page, Sofia's Edge screenshot 2026-11-10: OFERTA DE LANZAMIENTO 14,30 EUR sold out (Agotadas); ENTRADA GENERAL 17,60 EUR (was 20,00) on sale. Management fee extra."
+  },
+  {
+   "act": "El Ñuki",
+   "venue": "hall",
+   "date": "2026-11-20",
+   "price": "Desde 8 EUR",
+   "source": "entradas.tickety.es event page, Sofia's Edge screenshot 2026-11-10: GENERAL 8,00 EUR, Sala The Hall 20.11.2026 21:00. Management fee extra."
+  },
+  {
+   "act": "Film Symphony",
+   "venue": "torremolinos",
+   "date": "2026-11-22",
+   "price": "Desde 42 EUR",
+   "source": "site.fourvenues.com (FSO TOUR 2018 AIE) seat map opened in Sofia's Edge 2026-11-10, seat tooltips: Palcos 42 EUR, Anfiteatro laterales 47 EUR, Butacas laterales 57 EUR; 22 Nov 18:30. Cheapest zone with free seats shown. Fees not checked."
+  },
+  {
+   "act": "Concierto de Navidad - Joven Orquesta",
+   "venue": "carmen",
+   "date": "2026-12-23",
+   "price": "Desde 8 EUR",
+   "source": "giglon.com page read in Claude built-in browser 2026-11-11 (comision no incluida)"
+  },
+  {
+   "act": "Christmas Gala Concert",
+   "venue": "nerja",
+   "date": "2026-12-17",
+   "price": "Desde 17 EUR",
+   "source": "giglon.com page read in Claude built-in browser 2026-11-11 (comision no incluida)"
+  },
+  {
+   "act": "El Fantasma de la Ópera",
+   "venue": "esad",
+   "date": "2026-12-26",
+   "price": "Desde 18 EUR",
+   "source": "giglon.com page read in Claude built-in browser 2026-11-11 (comision no incluida)"
+  }
+ ]
+}

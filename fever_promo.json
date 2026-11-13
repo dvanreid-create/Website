@@ -1,0 +1,9 @@
+{
+  "_README": "FEVER BLACK FRIDAY BADGE (Sofia 2026-11-10). SWITCHED OFF: enabled is false and plans is empty, so no badge can appear. To arm it, ALL of: (1) paste Isla Vilches's definitive list into plans (one entry per Fever plan, sku = the number in feverup.com/m/<sku>); (2) check campaign_start/campaign_end; (3) set enabled to true (the JSON value true, not the text \"true\"); (4) push. To switch off again: set enabled to false and push, or set env FEVER_PROMO_OFF=1 on the box. It switches itself off after campaign_end. A badge shows only for a listed sku, only inside the campaign window (and the plan's own from/to if given); if a plan has \"dates\" it shows only on those dates (main calendar cards; shelf tiles have no date so a plan with \"dates\" gets no shelf badge). The badge text is 'Up to 30% off on Fever' in 8 languages (override per plan with \"label\": {\"en\": \"...\"}). Never print a discounted price: only Fever's own page knows it.",
+  "enabled": false,
+  "campaign_start": "2026-11-20",
+  "campaign_end": "2026-11-30",
+  "label": {},
+  "plans": [],
+  "_plan_example_NOT_ACTIVE": {"sku": "126888", "from": "2026-11-20", "to": "2026-11-30", "dates": ["2026-12-20"], "label": {"en": "Up to 30% off on Fever"}, "note": "example only; the real entries come from Isla's list"}
+}

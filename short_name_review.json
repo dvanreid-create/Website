@@ -1,0 +1,33 @@
+{
+ "generated": "2026-11-12",
+ "checked": 7,
+ "flagged": [
+  {
+   "slug": "haze",
+   "name": "Haze",
+   "article": "https://es.wikipedia.org/wiki/Purple_Haze",
+   "reason": "wikidata: not a musical entity (obra de composición musical, musical work/composition | )",
+   "wikidata": "Q1241630",
+   "desc": "original song written and composed by Jimi Hendrix",
+   "act_genre": "urban"
+  },
+  {
+   "slug": "porn",
+   "name": "Porn",
+   "article": "https://es.wikipedia.org/wiki/Porno_alternativo",
+   "reason": "wikidata: not a musical entity (pornography genre, género pornográfico | )",
+   "wikidata": "Q433245",
+   "desc": "pornography involving members of subcultures",
+   "act_genre": "tribute"
+  },
+  {
+   "slug": "rata",
+   "name": "Rata",
+   "article": "https://en.wikipedia.org/wiki/Pro_rata",
+   "reason": "wikidata: not a musical entity (latin phrase, locución latina | )",
+   "wikidata": "Q3386209",
+   "desc": "adverb or adjective, meaning \"in proportion\"",
+   "act_genre": "rock"
+  }
+ ]
+}

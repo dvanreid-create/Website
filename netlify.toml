@@ -1,0 +1,123 @@
+# Netlify config — static site, files served from the repo root.
+[build]
+  publish = "."
+  command = ""
+
+[build.environment]
+  # These keys are read by the functions at runtime; their values are never written into the repo
+  # or build output. Tell Netlify's secret scanner not to flag them (verified: no values committed).
+  SECRETS_SCAN_OMIT_KEYS = "AIRTABLE_TOKEN,STRIPE_SECRET_KEY,STRIPE_WEBHOOK_SECRET,MAILERLITE_TOKEN"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/talent.json"
+  to = "/.netlify/functions/talent-feed"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/tiles-live.json"
+  to = "/.netlify/functions/sponsors-feed"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ad-portal"
+  to = "/.netlify/functions/ad-portal"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/stats.json"
+  to = "/.netlify/functions/stats-feed"
+  status = 200
+  force = true
+
+# Newsletter unsubscribe for the WEB / home-screen-badge copy (the emailed copy uses MailerLite's
+# {$unsubscribe} tag; on the site that tag is literal and 404s, so the web copy links to /unsubscribe).
+[[redirects]]
+  from = "/unsubscribe"
+  to = "/.netlify/functions/unsubscribe"
+  status = 200
+  force = true
+
+# --- Cache-Control for static assets (CWV / repeat-visit LCP). HTML is deliberately NOT
+#     long-cached: pages rebuild daily with the rolling calendar, so Netlify's default
+#     (max-age=0, must-revalidate) must stand for HTML or readers would see stale events.
+#     Assets use a 1-day base + stale-while-revalidate so a replaced same-name sponsor tile
+#     refreshes within a day rather than being pinned for a year. --------------------------------
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=2592000"
+
+[[headers]]
+  for = "/favicon.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/favicon-32.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# --- Preview/mockup pages: NEVER cache (DLR 2026-08-11). Town-hall pitch previews are opened,
+#     re-opened and edited repeatedly during outreach; a stale browser copy showed the wrong town.
+#     no-store forces a fresh fetch every time so a recipient always sees THEIR preview. -----------
+[[headers]]
+  for = "/torremolinos-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/benalmadena-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/mijas-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/malaga-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/marbella-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/fuengirola-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/estepona-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/nerja-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/alhaurin-de-la-torre-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/clarence-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
+[[headers]]
+  for = "/zz-pub-preview/*"
+  [headers.values]
+    Cache-Control = "no-store, max-age=0"
