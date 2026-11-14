@@ -1,9 +1,34 @@
-=== tours_debug Sat Nov 14 03:18:42 AM UTC 2026 ===
-srchash=46de086bf39e7a45ed90a91ec85a2f3a
+=== tours_debug Sat Nov 14 05:57:57 AM UTC 2026 ===
+srchash=dd4cb15056578c7ce4ddad4fe709efe7
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 80aa9291 Tours rebuild 2026-11-14T01:10:36Z [vps]
+HEAD is now at 3bbfd0820 Tours rebuild 2026-11-14T03:20:20Z [vps]
+Removing _vdata/rev/29895P26.json
+Removing alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing da/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing da/malaga-guided-can-am-ryker-900-tour-1h/
+Removing da/prisionia-malaga/
+Removing de/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing de/malaga-guided-can-am-ryker-900-tour-1h/
+Removing de/prisionia-malaga/
+Removing es/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing es/malaga-guided-can-am-ryker-900-tour-1h/
+Removing es/prisionia-malaga/
+Removing fi/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing fi/malaga-guided-can-am-ryker-900-tour-1h/
+Removing fi/prisionia-malaga/
+Removing fr/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing fr/malaga-guided-can-am-ryker-900-tour-1h/
+Removing fr/prisionia-malaga/
+Removing malaga-guided-can-am-ryker-900-tour-1h/
+Removing no/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing no/malaga-guided-can-am-ryker-900-tour-1h/
+Removing no/prisionia-malaga/
+Removing prisionia-malaga/
+Removing sv/alcazaba-and-roman-theatre-tour-small-groups-15/
+Removing sv/malaga-guided-can-am-ryker-900-tour-1h/
+Removing sv/prisionia-malaga/
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [press] malaga: /press/ + 7 translated pages + assets emitted
@@ -15,9 +40,9 @@ HEAD is now at 80aa9291 Tours rebuild 2026-11-14T01:10:36Z [vps]
 [guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
 [guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
 [bygo] gallery self-hosted images: 44 of 62
-[viator] wrote reviews for 771 products -> /_vdata/ (robots-blocked)
-Built 8 languages · 200 landing pages · 1410 tour pages · 28 guide pages · 2128 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1410 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
+[viator] wrote reviews for 772 products -> /_vdata/ (robots-blocked)
+Built 8 languages · 200 landing pages · 1409 tour pages · 28 guide pages · 2136 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1409 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   80aa9291..5a3ccf21  main -> main
+   3bbfd0820..2dbed7191  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)

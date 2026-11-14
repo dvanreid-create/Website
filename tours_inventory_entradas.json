@@ -1,6 +1,6 @@
 {
- "count": 12,
- "generated": "2026-11-13T05:01:53Z",
+ "count": 14,
+ "generated": "2026-11-14T05:19:29Z",
  "items": [
   {
    "sku": "entradas-leyendas-y-misterios",
@@ -14,6 +14,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fleyendas-y-misterios%2F",
    "url": "https://www.entradas.com/en/artist/leyendas-y-misterios/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-prisionia",
+   "n": "PRISIONIA - MÁLAGA",
+   "c": "games",
+   "cat": "Mystery",
+   "v": "Recinto Ferial de Málaga · Málaga",
+   "area": "Málaga",
+   "p": "From €26",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/222x222Prisioniageneral_promo40.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fprisionia%2F",
+   "url": "https://www.entradas.com/en/artist/prisionia/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -62,6 +78,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fdalma-contreras%2F",
    "url": "https://www.entradas.com/en/artist/dalma-contreras/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-magicas-navidades",
+   "n": "Mágicas Navidades",
+   "c": "immersive",
+   "cat": "Show",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €14.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/222x222Navidadesmagicas.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmagicas-navidades%2F",
+   "url": "https://www.entradas.com/en/artist/magicas-navidades/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -179,17 +211,17 @@
    "idx": 1
   },
   {
-   "sku": "entradas-splean",
-   "n": "SPLEAN",
+   "sku": "entradas-hora-y-media-del-club-de-la-comedia",
+   "n": "La Hora y Media de El Club de la Comedia",
    "c": "theatre",
    "cat": "Musicals & Theatre",
-   "v": "Teatro Auditorio Felipe VI · Estepona",
-   "area": "Estepona",
-   "p": "From €59",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/evo/artwork/2026/splean_1240x480.jpg",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €25.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2022/LHYMCLlub2022_222x222.jpg",
    "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fsplean%2F",
-   "url": "https://www.entradas.com/en/artist/splean/",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fhora-y-media-del-club-de-la-comedia%2F",
+   "url": "https://www.entradas.com/en/artist/hora-y-media-del-club-de-la-comedia/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
