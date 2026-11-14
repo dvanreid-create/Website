@@ -1,11 +1,6 @@
 {
   "clips": [
     {
-      "act": "Tennessee",
-      "yt": "42hgYBVynMU",
-      "where": "13 Nov · Sala La Trinchera, Málaga"
-    },
-    {
       "act": "Antonio José",
       "yt": "QqH3kx_LNS4",
       "where": "14 Nov · Teatro Cervantes, Málaga"
@@ -14,6 +9,11 @@
       "act": "Miranda!",
       "yt": "sc2yB2OC4Vw",
       "where": "14 Nov · Pop & Roll Circus, Málaga"
+    },
+    {
+      "act": "Víctor Manuel",
+      "yt": "GZ6kP-lJy14",
+      "where": "15 Nov · Teatro Cervantes, Málaga"
     },
     {
       "act": "Melendi",
@@ -42,8 +42,6 @@
     }
   ],
   "thumbs": {
-    "Candlelight: Queen vs. ABBA": "5fJnbpt_0e4",
-    "Candlelight: Tribute to Queen and The Beatles": "cChdC4TgE-U",
     "Candlelight: Tribute to La Ley Innata": "_vmFgtKf4D4",
     "Chiquita Movida in Malaga": "ITn21sHOFxU",
     "Candlelight: Tribute to Adele": "YQHsXMglC9A",
@@ -53,11 +51,13 @@
     "Ruslana Concert - Malaga - Paris 15th Ward - Saturday, November 28": "QYqB1eyN8B4",
     "The Mechanical Goat Concert - Malaga - Circus Hall - Saturday, November 28": "eryeL2eNCdc",
     "Candlelight: Rock Classics": "wKLMfUra9mk",
+    "The Flamenco Theater in Malaga: Live the Flamenco Experience": "p1KGdWrrwNE",
     "Candlelight: The Best of the 80s": "uAqW9uJi2-g",
     "Candlelight: Tribute to Leiva": "5f5eiLOLIpg",
     "Candlelight: Tribute to Hans Zimmer": "c56t7upa8Bk",
     "Candlelight: Tribute to Ennio Morricone": "-PvyBKSmQ_g",
     "Candlelight: Tribute to Joan Manuel Serrat": "gtn6u1DiVQ4",
+    "Candlelight: Queen vs. ABBA": "5fJnbpt_0e4",
     "Candlelight: Tribute to Michael Jackson": "Zi_XLOBDo_Y",
     "Candlelight: Tribute to Bad Bunny": "WIMWwK7zp3I",
     "Candlelight Christmas: Christmas Soundtracks": "o2xUDEcPBJ4",
