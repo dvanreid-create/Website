@@ -2140,6 +2140,95 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-10-21 (Sofia: these must be on the site). Fever plan 806339, session read on the Fever plan page 2026-10-21 (Museo Carmen Thyssen Malaga, Sat 12 Dec 22:15, Balcon 28). The sweep had only picked up the Michael Jackson night at this venue. Commissioned (Fever/Impact). Retire after 2026-12-12."
     },
+    "candlelight vivaldi miramar 23 dic": {
+     "url": "https://feverup.com/m/88307",
+     "prefer": "map",
+     "date": "23/12/2026",
+     "time": "19:00",
+     "price": "Desde 18,00€",
+     "venue": "Salón Real del Gran Hotel Miramar",
+     "venue_name": "Candlelight: Vivaldi's Four Seasons",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 88307 read in the built-in browser 2026-11-15: the ticket-selector offers Wed 23 Dec 2026 19:00 (Zona D 18, C 26.50, B 33.50, A 39.50), from 18,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-23."
+    },
+    "candlelight queen abba unicaja 26 dic": {
+     "url": "https://feverup.com/m/555765",
+     "prefer": "map",
+     "date": "26/12/2026",
+     "time": "17:45",
+     "price": "Desde 14,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Queen vs. ABBA",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 555765 read in the built-in browser 2026-11-15: the ticket-selector offers Sat 26 Dec 2026 17:45 (Zona D 14, C 22.50, B 28, A 33), from 14,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-26."
+    },
+    "candlelight tribute michael jackson thyssen 20 dic": {
+     "url": "https://feverup.com/m/753379",
+     "prefer": "map",
+     "date": "20/12/2026",
+     "time": "22:15",
+     "price": "Desde 32,50€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Michael Jackson",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 753379 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 20 Dec 2026 22:15 (Balcón 32.50, C 34.50, B 40, A 48.50), from 32,50 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-20."
+    },
+    "candlelight lord of the rings thyssen 27 dic": {
+     "url": "https://feverup.com/m/826451",
+     "prefer": "map",
+     "date": "27/12/2026",
+     "time": "20:30",
+     "price": "Desde 37,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: The Lord of the Rings",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 20:30 (Balcón 37, C 39.50, B 44, A 53); a second session is 22:15 (separate row), from 37,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
+    },
+    "candlelight lord of the rings thyssen 27 dic 2a sesion": {
+     "url": "https://feverup.com/m/826451",
+     "prefer": "map",
+     "date": "27/12/2026",
+     "time": "22:15",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: The Lord of the Rings (2ª sesión)",
+     "genre": "Classical & Candlelight",
+     "why": "Second session of the same night as 'candlelight lord of the rings thyssen 27 dic'; distinct venue_name so backfill's (act,date) dedupe keeps both (same device as 'camellos 10 aniversario 2a sesion'). ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 22:15 (Balcón 28, C 38, B 44, A 53), from 28,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
+    },
+    "candlelight premium hans zimmer thyssen 9 ene": {
+     "url": "https://feverup.com/m/126888",
+     "prefer": "map",
+     "date": "09/01/2027",
+     "time": "22:15",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight Premium: Tribute to Hans Zimmer",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 126888 read in the built-in browser 2026-11-15: the ticket-selector offers Sat 9 Jan 2027 22:15 (Zona C 28, Balcón 31, B 44, A 53), from 28,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2027-01-09."
+    },
+    "candlelight tribute mecano thyssen 9 ene": {
+     "url": "https://feverup.com/m/771782",
+     "prefer": "map",
+     "date": "09/01/2027",
+     "time": "20:30",
+     "price": "Desde 28,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: Tribute to Mecano",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 771782 read in the built-in browser 2026-11-15: the ticket-selector offers Sat 9 Jan 2027 20:30 (Balcón 28, C 38, B 44, A 53) = the plan's only session, from 28,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2027-01-09."
+    },
+    "candlelight disney journeys marbella 10 ene": {
+     "url": "https://feverup.com/m/826479",
+     "prefer": "map",
+     "date": "10/01/2027",
+     "time": "19:00",
+     "price": "Desde 32,00€",
+     "venue": "Anantara Villa Padierna Palace Benahavís Marbella Resort",
+     "city": "Marbella",
+     "venue_name": "Candlelight: Disney Journeys",
+     "genre": "Classical & Candlelight",
+     "why": "MARBELLA row: city set explicitly (sweeplost defaults to Málaga). ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826479 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 10 Jan 2027 19:00 (Zona C 32, B 43, A 46), from 32,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2027-01-10."
+    },
     "candlelight tribute michael jackson thyssen 12 dic": {
      "url": "https://feverup.com/m/753379",
      "prefer": "map",
