@@ -1,23 +1,6 @@
-=== tours_debug Sat Nov 14 09:58:19 PM UTC 2026 ===
-srchash=32273324b904e256b2acb1d0f5f694e1
+=== tours_debug Sun Nov 15 05:48:20 AM UTC 2026 ===
+srchash=49e19d53df5cf819360e8c5863971ee3
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at bc092cb30 Tours rebuild 2026-11-14T21:29:34Z [vps]
-[tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
-[tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
-[press] malaga: /press/ + 7 translated pages + assets emitted
-[paco] seasonal couple image -> fall
-[paco] loader media shipped: pp-costa.mp4
-[paco] loader media shipped: pp-costa-poster.jpeg
-[paco] loader media shipped: pp-flamenco.mp4
-[guides] resized malaga-kids-tivoli.jpg 1200x600 -> 1120x720
-[guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
-[guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
-[bygo] gallery self-hosted images: 44 of 62
-[viator] wrote reviews for 772 products -> /_vdata/ (robots-blocked)
-Built 8 languages · 200 landing pages · 1409 tour pages · 28 guide pages · 2136 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1409 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
-[tours] no changes to publish
-Everything up-to-date
-[tours] push complete -> Netlify deploys any new commit (~1-2 min)
+[tours] another deploy is already running -> exiting (no overlap)
