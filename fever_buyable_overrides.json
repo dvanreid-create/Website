@@ -30,8 +30,15 @@
    "2026-12-11"
   ],
   "555765": [
-   "2026-12-11"
+   "2026-12-11",
+   "2026-12-26"
   ],
+  "88307": ["2026-12-23"],
+  "753379": ["2026-12-20"],
+  "826451": ["2026-12-27"],
+  "126888": ["2027-01-09"],
+  "771782": ["2027-01-09"],
+  "826479": ["2027-01-10"],
   "545643": [
    "2026-11-29"
   ],
@@ -84,6 +91,7 @@
    "2026-12-20"
   ]
  },
+ "_2026_11_15_why": "8 CANDLELIGHT SESSIONS HAND-ADDED TO sweeplost, NOT LIVE FOR DAYS. BROWSER-CONFIRMED on Fever 2026-11-15: Vivaldi Miramar 23 Dec 19:00 (88307); Queen vs ABBA Unicaja 26 Dec 17:45 (555765); Michael Jackson Thyssen 20 Dec 22:15 (753379); Lord of the Rings Thyssen 27 Dec 20:30 + 22:15 (826451, second session url ?session=2215); Hans Zimmer Premium Thyssen 9 Jan 22:15 (126888); Mecano Thyssen 9 Jan 20:30 (771782); Disney Journeys Marbella 10 Jan 19:00 (826479). DIAGNOSIS (box, 2026-11-15): backfill_calendar.py run by hand injects all 8; the calendar file build reads (2026-11-08) held none, so the later fever_scrape unbuyable-drop deleted them (not in its scrape, plan page serves no session blob). Remove each date once past or sold out.",
  "_841457_why": "LA CABRA MECANICA 28 Nov Sala Circus (Fever 841457). BROWSER-CONFIRMED 2026-11-12: on sale, 21:00, 25,00 EUR. Ticket verifier dropped it as WRONG_EVENT (Spanish title). Remove after 2026-11-28.",
     "_545294_why": "TEATRO FLAMENCO MALAGA (Fever 545294, daily). ADDED 2026-11-11: the live site had ZERO Teatro Flamenco cards (landing page empty, footer chip gone). Sofia confirmed it on sale on 7 Nov (Sat 21:30 General 32 EUR) and Claude read the Fever picker 10 Nov for 17 Nov-20 Dec (weekdays 17:00/18:30/20:00, Fri+Sat +21:30). Nights 12 Nov-20 Dec listed so neither fever_scrape unbuyable-drop nor build_site fever_unbuyable() can delete them when Fever serves no selector. EXTEND weekly with fever_sessions.json; remove past dates.",
  "_198778_why": "CANDLELIGHT: HOMENAJE A ENNIO MORRICONE, Salon Real del Gran Hotel Miramar, Tue 8 Dec 2026 21:00 (Fever sku 198778). ADDED 2026-10-18 (Sofia: audit said 'missing'). The 18 Oct ticket-link check dropped it as CANNOT_FIX only because claude -p hit the session limit ('resets 9am'), not because the page is dead. BROWSER-CONFIRMED 2026-10-18 on feverup.com/m/198778: title 'Candlelight: Homenaje a Ennio Morricone - Malaga | Fever', selector 'Selecciona fecha y sesion' offers mar 08 dic (aria 2026-12-08) and dom 28 feb 2027; first session 21:00, Zona D 16,50 / C 26,00 / B 32,00 / A 39,00, flagged 'Tickets volando', no Agotado, live ticket stepper. Matches the audit's 16,50-39 EUR. NOT verified: that this override alone brings the row back (no sweeplost entry was needed because the calendar already holds the row) - check the live site after deploy. Remove after 2026-12-08 or if Agotado.",
