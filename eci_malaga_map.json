@@ -1,6 +1,6 @@
 {
  "_comment": "EL CORTE INGLES — MALAGA PROVINCE MUSIC INVENTORY. Built 2026-09-21 by reading ECI's own recinto directory (elcorteingles.es/entradas/recintos/malaga/) and every venue page under it, in Sofia's browser session — the box and the Claude sandbox are both IP-blocked by ECI. PURPOSE: eci_resolve() in build_site.py only ever runs for STARLITE rows (its first line returns unchanged unless the venue contains 'starlite'), so ECI was invisible for every other Malaga room. Leoni Torres (18 Oct, Sala Paris 15) was live on a promoter page paying NOTHING while ECI sold the same night at 48,50 EUR. Sofia: 'we need to make sure ECI is always covered, not only linked to Starlite'. This file is that coverage. REFRESH IT from the same directory whenever the window rolls.",
- "generated": "2026-11-01",
+ "generated": "2026-11-15",
  "source": "https://www.elcorteingles.es/entradas/recintos/malaga/",
  "venues_scanned": 26,
  "events": [
@@ -37,12 +37,12 @@
    "city": "Málaga"
   },
   {
-   "act": "Queenmanía Fest",
-   "ymd": "2026-11-13",
-   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-queenmania-fest-marbella/",
-   "eci_from": 22,
-   "venue": "Hard Rock Hotel Marbella",
-   "city": "Marbella"
+   "act": "Dani Martín - Las últimas 14 noches de la Gira 25 p*t*s años",
+   "ymd": "2027-06-19",
+   "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-dani-martin-malaga/",
+   "eci_from": 60,
+   "venue": "Málaga Forum",
+   "city": "Málaga"
   },
   {
    "act": "Take That - Dreamers Tour",
@@ -160,7 +160,7 @@
    "act": "Concierto de Navidad en el Soho",
    "ymd": "2026-12-25",
    "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
-   "eci_from": 25,
+   "eci_from": 30,
    "venue": "Teatro del Soho CaixaBank",
    "city": "Málaga"
   },
