@@ -1,9 +1,9 @@
-=== tours_debug Sat Nov 14 07:56:37 PM UTC 2026 ===
-srchash=17fccb790575d24610f6b31513839986
+=== tours_debug Sat Nov 14 09:58:19 PM UTC 2026 ===
+srchash=32273324b904e256b2acb1d0f5f694e1
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at cbb0ab8bf Tours rebuild 2026-11-14T19:25:16Z [vps]
+HEAD is now at bc092cb30 Tours rebuild 2026-11-14T21:29:34Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [press] malaga: /press/ + 7 translated pages + assets emitted
