@@ -1018,14 +1018,14 @@
     "concierto de navidad en el soho": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
      "date": "25/12/2026",
-     "venue_name": "Concierto de Navidad en el Soho (25-27 Dec)",
+     "venue_name": "Concierto de Navidad en el Soho (25-28 Dec)",
      "prefer": "eci",
      "why": "ADDED 2026-10-28 (Sofia: Soho is one of our biggest Christmas concerts). Fri 25 / Sat 26 / Sun 27 Dec 2026 19:00, Teatro del Soho CaixaBank, ECI (Awin 13034) page elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/, desde 25 EUR. This block is complete:true and did not list it, so phantom_reason() dropped all three nights as 'not on teatro del soho's own programme' (tv_refresh log 2026-10-28). One undated key covers all three nights ('concierto de navidad en el soho' is a whole-word subset of the shipped act name)."
     },
     "navidad en el soho": {
      "url": "https://www.elcorteingles.es/entradas/conciertos/entradas-concierto-de-navidad-en-el-soho-malaga-60316603163087/",
      "date": "25/12/2026",
-     "venue_name": "Navidad en el Soho - Un Cuento Musical (25-27 Dec)",
+     "venue_name": "Navidad en el Soho - Un Cuento Musical (25-28 Dec)",
      "prefer": "eci",
      "why": "ADDED 2026-11-09 (commission audit '3 missing'). NOT a false alarm: the 8 Nov calendar names the rows 'Navidad en el Soho - Un Cuento Musical (noche 1/3..3/3)', which does not contain 'concierto de', so the 28 Oct key 'concierto de navidad en el soho' no longer matched and phantom_reason() dropped all three nights. The show is real: Soho's own 2026/27 programme (opened 2026-11-09) lists 'Concierto de Navidad en el Soho, Orquesta Larios Pop del Soho', 25-27 Dic, slug navidad-en-el-soho-un-cuento-musical-larios-pop-del-soho, same ECI performance 60316603163087. Both keys kept so either calendar name matches."
     },
