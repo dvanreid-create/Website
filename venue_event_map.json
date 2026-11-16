@@ -1864,6 +1864,39 @@
    "gate": false,
    "note": "SWEEP-LOST RECOVERY BLOCK (created 2026-09-08, browser click-test). WHAT IT IS: a narrow, hand-verified list of in-window shows that are ON SALE but that the weekly LLM sweep dropped, at venues backfill_calendar.py's WHITELIST does not cover. Every act here was opened in Chrome on 2026-09-08 and confirmed act + date + venue + a working buy control; the per-act 'why' records exactly what the page said. WHY A NEW BLOCK INSTEAD OF WHITELISTING THE REAL VENUES: backfill only injects from a block that is BOTH in the WHITELIST and complete:true, and flipping complete:true on the real venue blocks has two costs this block avoids entirely. (1) COLLATERAL INJECTION - 'teatro del soho' would also inject 'Chungo - Luis Zahera' (05/10/2026), a comedy show, onto a live-music site, and 'cortijo de torres' would inject 'Superstars 90' (12/09/2026), whose mapped URL malagadeporteyeventos.com/superstars-90-malaga-2/ was opened on 2026-09-08 and is a promoter INFO page with no buy control at all. (2) DELETION RISK - complete:true arms build_site's phantom gate against every other show at that venue, which is exactly what deleted Damian Cordoba. This block carries no real venue name, so _venue_lookup can never match it (its key must be a substring of the normalised venue or URL, and 'sweeplost' is a substring of neither), which means it can only ever ADD. gate:false is set as well, belt and braces. Each act carries its own 'venue' override, so one block serves several buildings - all of these are Malaga city. HOW TO RETIRE AN ENTRY: delete the act once its date has passed, or move it into its real venue block if that venue is ever properly whitelisted. If the sweep starts finding a show again, backfill's act-level dedup (covered_acts) suppresses this copy automatically - duplicates are not possible.",
    "acts": {
+    "25 aniversario martin carpena": {
+     "url": "https://www.enterticket.es/eventos/25-aniversario-martin-carpena-276858",
+     "prefer": "map",
+     "date": "12/12/2026",
+     "time": "21:00",
+     "price": "Desde 52.55 EUR",
+     "venue": "Palacio de Deportes José María Martín Carpena",
+     "venue_name": "25 Aniversario Martín Carpena — Pablo López, Antonio Orozco, Pastora Soler, Antoñito Molina, María Peláe",
+     "genre": "Pop",
+     "why": "ADDED 2026-11-16 (weekly vendor gap report). Browser-confirmed on Enterticket event 276858: Sat 12 Dec 2026, 21:00h, doors 19:30h, JSON-LD offer 52.55 EUR, InStock. Host Rocío Madrid; bill also María José Llergo, Antonio José, Efecto Mariposa, Javier Ojeda and others. Not commissioned. Retire after 12 Dec."
+    },
+    "tributo a nina pastori": {
+     "url": "https://www.enterticket.es/eventos/tributo-a-nina-pastori-846805",
+     "prefer": "map",
+     "date": "29/11/2026",
+     "time": "",
+     "price": "10 EUR",
+     "venue": "AWA Málaga",
+     "venue_name": "Tributo a Niña Pastori — Natalia Moraló (tardeo de rumba)",
+     "genre": "Flamenco",
+     "why": "ADDED 2026-11-16 (weekly vendor gap report). Browser-confirmed on Enterticket event 846805: Sun 29 Nov 2026, AWA Málaga (C. Cenit 2, Puerto de la Torre), 10 EUR incl. 1 drink or 2 consumiciones, InStock. No start time on the page (afternoon 'tardeo'). This is NOT the cancelled 17 Oct Niña Pastori show (that blocklist entry is scoped to Príncipe de Asturias + 17 Oct). Not commissioned. Retire after 29 Nov."
+    },
+    "el nino lordcah": {
+     "url": "https://www.enterticket.es/eventos/el-nino-lordcah-en-malaga-882238",
+     "prefer": "map",
+     "date": "15/01/2027",
+     "time": "21:00",
+     "price": "16.50 EUR",
+     "venue": "Sala Marte",
+     "venue_name": "El Niño Lord.Cah en Málaga — presenta el EP BANG BANG DRAMA",
+     "genre": "Urban & Reggaeton",
+     "why": "ADDED 2026-11-16 (weekly vendor gap report). Browser-confirmed on Enterticket event 882238: Fri 15 Jan 2027, 21:00h, Sala Marte, JSON-LD offer 16.50 EUR, InStock. Not commissioned. Retire after 15 Jan."
+    },
     "hija de la luna": {
      "url": "https://www.elcorteingles.es/entradas/channels/teatro-soho/performance/performance-57215572153087-soho_onebox-channel",
      "prefer": "eci",
