@@ -3828,5 +3828,13 @@
 "https://entradas1.tomaticket.es/es/events/zintia-renacer"
 ],
 "genre": "pop"
+},
+"kabrones": {
+"name": "KABRÖNES",
+"mles": 0.0,
+"links": [
+"https://paris15.es/event/kabrones/"
+],
+"genre": "mixed"
 }
 }
