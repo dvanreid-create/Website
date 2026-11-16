@@ -3494,7 +3494,7 @@
 },
 "sotano-sur": {
 "name": "Sótano Sur",
-"mles": 57.1,
+"mles": 54.1,
 "links": [
 "https://lacocheraentradas.com/shows/details/2713/sotano-sur"
 ],
@@ -3670,7 +3670,7 @@
 },
 "karelia-trio": {
 "name": "Karelia Trío",
-"mles": 59.0,
+"mles": 56.1,
 "links": [
 "https://www.fuengirola.es/evento/concierto-karelia-trio/"
 ],
@@ -3799,7 +3799,7 @@
 },
 "funzo-in-malaga": {
 "name": "Funzo in Málaga",
-"mles": 53.7,
+"mles": 48.3,
 "links": [
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532"
 ],
@@ -3831,10 +3831,18 @@
 },
 "kabrones": {
 "name": "KABRÖNES",
-"mles": 0.0,
+"mles": 53.7,
 "links": [
 "https://paris15.es/event/kabrones/"
 ],
 "genre": "mixed"
+},
+"concierto-de-cadiz-a-buenos-aires": {
+"name": "Concierto: De Cádiz a Buenos Aires",
+"mles": 55.2,
+"links": [
+"https://www.fuengirola.es/evento/conciertode-cadiz-a-buenos-aires-2/"
+],
+"genre": "classical"
 }
 }

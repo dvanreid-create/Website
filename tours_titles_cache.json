@@ -22503,16 +22503,15 @@
     }
   },
   "viator:5651819P18": {
-    "h": "46d31491e660c4f2d1c6ad30490c1ece",
+    "h": "e5ed199331f7f58c59823fcf94b1926c",
     "names": {
-      "en": "All-Inclusive Private Tangier Day Trip from Marbella",
-      "es": "Excursion Privada de Dia Todo Incluido a Tanger desde Marbella",
-      "de": "All-Inclusive Private Tagestour nach Tanger ab Marbella",
-      "fr": "Excursion Privée d'une Journée Tout Compris à Tanger depuis Marbella",
-      "sv": "Privat heldagsutflykt till Tangier med allt inkluderat från Marbella",
-      "no": "Privat heldagstur til Tanger fra Marbella, alt inkludert",
-      "da": "All-inclusive privat dagstur til Tangier fra Marbella",
-      "fi": "Kaiken sisältävä yksityinen päiväretki Tangeriin Marbellasta"
+      "en": "Luxury Private Tangier Day Trip from Marbella - All-Inclusive",
+      "es": "Excursión de Lujo Privada de un Día a Tánger desde Marbella - Todo Incluido",
+      "de": "Luxus-Privat-Tagesausflug nach Tanger ab Marbella - All-Inclusive",
+      "fr": "Excursion privée de luxe à Tanger à la journée depuis Marbella - Tout compris",
+      "no": "Luksuriøs privat dagstur til Tanger fra Marbella - Alt inkludert",
+      "da": "Luksus privat dagstur til Tangier fra Marbella - Alt inklusive",
+      "fi": "Luxusmainen yksityinen päiväretki Tangeriin Marbellasta - Kaikki sisältyy hintaan"
     }
   },
   "viator:5607081P14": {
@@ -23527,6 +23526,18 @@
       "no": "2-timers privat båttur med delfinsafari",
       "da": "2-timers privat bådtur med delfinobservation",
       "fi": "2 tunnin yksityinen venematka delfiinien katselulla"
+    }
+  },
+  "viator:9470P130": {
+    "h": "b6e74ba3c160603b18d7c1887e1cac7f",
+    "names": {
+      "en": "Salsa Dance Class with Sangria Tasting in Marbella",
+      "es": "Clase de Salsa con Degustación de Sangría en Marbella",
+      "de": "Salsa-Tanzkurs mit Sangria-Verkostung in Marbella",
+      "fr": "Cours de salsa avec dégustation de sangria à Marbella",
+      "no": "Salsadanskurs med sangria-smaking i Marbella",
+      "da": "Salsadanseklasse med sangriasmagning i Marbella",
+      "fi": "Salsatanssikurssi ja sangrian maistelu Marbellassa"
     }
   }
 }

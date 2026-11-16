@@ -1,6 +1,9 @@
-=== tours_debug Sun Nov 15 09:48:31 PM UTC 2026 ===
+=== tours_debug Mon Nov 16 05:50:52 AM UTC 2026 ===
 srchash=49e19d53df5cf819360e8c5863971ee3
 --- rebuild procs ---
-none
+432348 /bin/sh -c cd /root/ops-stack && docker compose exec -T -e ML_ROOT=/app/runtime worker bash /app/orchestrator/tours_deploy.sh >> /root/ops-stack/tours-cron.log 2>&1
+432349 docker compose exec -T -e ML_ROOT=/app/runtime worker bash /app/orchestrator/tours_deploy.sh
+432364 /usr/libexec/docker/cli-plugins/docker-compose compose exec -T -e ML_ROOT=/app/runtime worker bash /app/orchestrator/tours_deploy.sh
+432386 bash /app/orchestrator/tours_deploy.sh
 --- tours_rebuild.log (tail 80) ---
 [tours] another deploy is already running -> exiting (no overlap)
