@@ -3844,5 +3844,21 @@
 "https://www.fuengirola.es/evento/conciertode-cadiz-a-buenos-aires-2/"
 ],
 "genre": "classical"
+},
+"concierto-de-santa-cecilia-2026": {
+"name": "Concierto de Santa Cecilia 2026",
+"mles": 0.0,
+"links": [
+"https://alhaurindelatorre.es/agenda/concierto-de-santa-cecilia-2026/"
+],
+"genre": "classical"
+},
+"certamen-de-pastorales-gabriel-munoz": {
+"name": "Certamen de Pastorales Gabriel Muñoz",
+"mles": 0.0,
+"links": [
+"https://alhaurindelatorre.es/agenda/navidad-2026-27-xxxii-certamen-de-pastorales-gabriel-munoz/"
+],
+"genre": "classical"
 }
 }
