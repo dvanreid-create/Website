@@ -3860,5 +3860,37 @@
 "https://alhaurindelatorre.es/agenda/navidad-2026-27-xxxii-certamen-de-pastorales-gabriel-munoz/"
 ],
 "genre": "classical"
+},
+"25-aniversario-martin-carpena": {
+"name": "25 Aniversario Martín Carpena",
+"mles": 61.4,
+"links": [
+"https://www.enterticket.es/eventos/25-aniversario-martin-carpena-276858"
+],
+"genre": "pop"
+},
+"el-nino-lord-cah-en-malaga": {
+"name": "El Niño Lord.Cah en Málaga",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/el-nino-lordcah-en-malaga-882238"
+],
+"genre": "urban"
+},
+"tributo-a-nina-pastori": {
+"name": "Tributo a Niña Pastori",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/tributo-a-nina-pastori-846805"
+],
+"genre": "flamenco"
+},
+"the-jazz-room-tribute-to-frank-sinatra-and-louis-armstrong": {
+"name": "The Jazz Room: Tribute to Frank Sinatra and Louis Armstrong",
+"mles": 0.0,
+"links": [
+"https://fever.pxf.io/c/7440720/1928078/16345?prodsku=631372&u=https%3A%2F%2Ffeverup.com%2Fm%2F631372&intsrc=CATF_15532"
+],
+"genre": "jazz"
 }
 }

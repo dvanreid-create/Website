@@ -1,5 +1,5 @@
-=== tours_debug Mon Nov 16 07:26:40 PM UTC 2026 ===
-srchash=729cfd3e82e17a906f1b853674eed1e0
+=== tours_debug Mon Nov 16 09:45:40 PM UTC 2026 ===
+srchash=fe65fafd824a265112abc5cdf1ed9a56
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
