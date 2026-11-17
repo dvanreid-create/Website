@@ -1,6 +1,6 @@
 {
- "count": 16,
- "generated": "2026-11-16T05:18:08Z",
+ "count": 15,
+ "generated": "2026-11-17T05:10:32Z",
  "items": [
   {
    "sku": "entradas-circo-rebelde-de-navidad",
@@ -62,6 +62,22 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fprisionia%2F",
    "url": "https://www.entradas.com/en/artist/prisionia/",
+   "rating": 0,
+   "nrev": 0,
+   "idx": 1
+  },
+  {
+   "sku": "entradas-mago-pop",
+   "n": "El Mago Pop",
+   "c": "immersive",
+   "cat": "Show",
+   "v": "Málaga",
+   "area": "Málaga",
+   "p": "From €42.00",
+   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/magopop2627_222x22.jpg",
+   "src": "entradas",
+   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmago-pop%2F",
+   "url": "https://www.entradas.com/en/artist/mago-pop/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
@@ -195,22 +211,6 @@
    "idx": 1
   },
   {
-   "sku": "entradas-el-monologo-de-los-80-y-90s-rie-y-canta",
-   "n": "El Monólogo de los 80 y 90s. RIE Y CANTA",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €16.83",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2026/elmonologo8090s_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fel-monologo-de-los-80-y-90s-rie-y-canta%2F",
-   "url": "https://www.entradas.com/en/artist/el-monologo-de-los-80-y-90s-rie-y-canta/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
    "sku": "entradas-music-circus-show-on-ice",
    "n": "Ice Show with Highlights of FROZEN 1&2",
    "c": "theatre",
@@ -222,22 +222,6 @@
    "src": "entradas",
    "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fmusic-circus-show-on-ice%2F",
    "url": "https://www.entradas.com/en/artist/music-circus-show-on-ice/",
-   "rating": 0,
-   "nrev": 0,
-   "idx": 1
-  },
-  {
-   "sku": "entradas-hora-y-media-del-club-de-la-comedia",
-   "n": "La Hora y Media de El Club de la Comedia",
-   "c": "theatre",
-   "cat": "Musicals & Theatre",
-   "v": "Málaga",
-   "area": "Málaga",
-   "p": "From €25.00",
-   "img": "https://www.entradas.com/obj/media/ES-eventim/teaser/222x222/2022/LHYMCLlub2022_222x222.jpg",
-   "src": "entradas",
-   "ticket": "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fen%2Fartist%2Fhora-y-media-del-club-de-la-comedia%2F",
-   "url": "https://www.entradas.com/en/artist/hora-y-media-del-club-de-la-comedia/",
    "rating": 0,
    "nrev": 0,
    "idx": 1
