@@ -1897,6 +1897,18 @@
      "genre": "Pop",
      "why": "ADDED 2026-11-16 (weekly vendor gap report). Browser-confirmed on Enterticket event 276858: Sat 12 Dec 2026, 21:00h, doors 19:30h, JSON-LD offer 52.55 EUR, InStock. Host Rocío Madrid; bill also María José Llergo, Antonio José, Efecto Mariposa, Javier Ojeda and others. Not commissioned. Retire after 12 Dec."
     },
+    "luli pampin": {
+     "url": "https://www.elcorteingles.es/entradas/en-familia/entradas-luli-pampin-malaga/",
+     "prefer": "map",
+     "date": "18/12/2026",
+     "time": "18:00",
+     "price": "Desde 33 EUR",
+     "venue": "Palacio de Deportes José María Martín Carpena",
+     "venue_name": "Luli Pampín — Millones de Gracias World Tour",
+     "genre": "Pop",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-17 (Sofia: 'should have been added months ago'). ECI (Awin 13034) page opened in the built-in browser 2026-11-17: 'Luli Pampin en Málaga', 18 de Diciembre de 2026, 18:00h, doors 16:00h, Palacio de Deportes José María Martín Carpena, Desde 33,00 EUR, COMPRAR live; organiser Conciertos del Mundo A.I.E. ECI files it under 'En familia / Teatro infantil' (URL /entradas/en-familia/), NOT /entradas/conciertos/, which is why concert-list scans never showed it. Arena tour show ('Millones de Gracias'), not a small kids' show. Commissioned (ECI). Delete after 18 Dec."
+    },
     "tributo a nina pastori": {
      "url": "https://www.enterticket.es/eventos/tributo-a-nina-pastori-846805",
      "prefer": "map",
