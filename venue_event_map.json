@@ -2446,17 +2446,6 @@
      "city": "Málaga",
      "why": "ADDED 2026-11-09 (weekly vendor gap check). Browser-confirmed on Enterticket event 766050: Sun 15 Nov 2026, AWA Málaga (C. Cenit 2, Puerto de la Torre), Tardeo de Rumba, tribute to Los Chichos with Dani Gallego. Schema.org offer 10 EUR, InStock. NO START TIME on the page - left blank."
     },
-    "tributo a manuel carrasco": {
-     "url": "https://www.enterticket.es/eventos/tributo-a-manuel-carrasco-984666",
-     "prefer": "map",
-     "date": "22/11/2026",
-     "price": "10 EUR",
-     "venue": "AWA Málaga",
-     "venue_name": "Tributo a Manuel Carrasco - Tardeo de Rumba",
-     "genre": "Tribute",
-     "city": "Málaga",
-     "why": "ADDED 2026-11-09 (weekly vendor gap check). Browser-confirmed on Enterticket event 984666: Sun 22 Nov 2026, AWA Málaga (C. Cenit 2, Puerto de la Torre), Tardeo de Rumba, tribute to Manuel Carrasco with Samuel Tosso. Schema.org offer 10 EUR, InStock. NO START TIME on the page - left blank."
-    },
     "javi crespo": {
      "url": "https://www.enterticket.es/eventos/javi-crespo-en-malaga-712583",
      "prefer": "map",
