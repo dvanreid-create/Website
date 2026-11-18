@@ -3892,5 +3892,37 @@
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=631372&u=https%3A%2F%2Ffeverup.com%2Fm%2F631372&intsrc=CATF_15532"
 ],
 "genre": "jazz"
+},
+"rancapino": {
+"name": "Rancapino",
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-rancapino-recital-flamenco-malaga-62095620953087%2F"
+],
+"genre": "flamenco"
+},
+"farru": {
+"name": "Farru",
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-farru-fiesta-flamenca-malaga-62058620583087%2F"
+],
+"genre": "flamenco"
+},
+"la-mejor-musica-de-cine": {
+"name": "La Mejor Música de Cine",
+"mles": 0.0,
+"links": [
+"https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-la-mejor-musica-de-cine-todos-392392KBN35%2F"
+],
+"genre": "classical"
+},
+"carlos-sarduy-trio": {
+"name": "Carlos Sarduy Trío",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/carlos-sarduy-trio-2/"
+],
+"genre": "jazz"
 }
 }
