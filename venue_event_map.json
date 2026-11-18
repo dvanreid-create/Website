@@ -1906,6 +1906,17 @@
      "genre": "Tribute",
      "why": "ADDED 2026-11-16 (weekly vendor gap report, JF Promotickets read in Sofia's Edge). Browser-confirmed on jfpromotickets.es: Sat 16 Jan 2027, Sala La Trinchera (C. Parauta 25), 21:30h (doors), 16+. Promo/anticipada tier (14,30 EUR) shows Agotadas; General 17,60 EUR on sale (taquilla 20). Not commissioned. Retire after 16 Jan."
     },
+    "cervatana": {
+     "url": "https://feverup.com/m/677139",
+     "prefer": "map",
+     "date": "06/02/2027",
+     "time": "21:00",
+     "price": "Desde 20 EUR",
+     "venue": "Sala La Trinchera",
+     "venue_name": "Cervatana",
+     "genre": "Electronic",
+     "why": "ADDED 2026-11-18 (weekly look-ahead, Fever read in Sofia's Edge). Fever /m/677139 (title 'Candlelight Cervatana at La Trinchera', but it is a normal Cervatana concert, NOT a Candlelight): Sat 6 Feb 2027, doors 20:30, concert 21:00, La Trinchera Malaga, from 20 EUR, 16+. Outside the 61-day window until ~7 Dec, so it will not show before then. Retire after 6 Feb."
+    },
     "25 aniversario martin carpena": {
      "url": "https://www.enterticket.es/eventos/25-aniversario-martin-carpena-276858",
      "prefer": "map",
