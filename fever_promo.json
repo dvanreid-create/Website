@@ -385,5 +385,8 @@
       "en": "Up to 30% off on Fever"
     },
     "note": "example only; the real entries come from Isla's list"
-  }
+  },
+  "bf_hero": true,
+  "bf_hero_until": "2026-11-26",
+  "_bf_hero_note": "Black Friday homepage hero (Sofia 2026-11-18). Shown only while bf_hero is JSON true AND today <= bf_hero_until; after that the ORIGINAL hero (eyebrow pill, trusted-guide H1, acts line, green buy pill) AND the red Christmas pill return by themselves. Hero image: assets/hero-candles-bf.jpg. To switch off early: set bf_hero to false and push."
 }
