@@ -3328,7 +3328,8 @@
 "name": "Live Nights Session",
 "mles": 52.1,
 "links": [
-"https://www.clarencejazzclub.com/wp/events/live-nights-session-6/"
+"https://www.clarencejazzclub.com/wp/events/live-nights-session-6/",
+"https://www.clarencejazzclub.com/wp/events/live-nights-session-7/"
 ],
 "genre": "jazz"
 },
@@ -3932,5 +3933,13 @@
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=404641&u=https%3A%2F%2Ffeverup.com%2Fm%2F404641&intsrc=CATF_15532"
 ],
 "genre": "mixed"
+},
+"jose-bevia-sergio-albacete-spanish-jazz-quartet": {
+"name": "José Beviá & Sergio Albacete Spanish Jazz Quartet",
+"mles": 0.0,
+"links": [
+"https://www.clarencejazzclub.com/wp/events/jose-bevia-sergio-albacete-spanish-jazz-quartet/"
+],
+"genre": "jazz"
 }
 }
