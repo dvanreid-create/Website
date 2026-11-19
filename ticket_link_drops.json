@@ -1,5 +1,7 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-11-18",
- "drops": {}
+ "generated": "2026-11-19",
+ "drops": {
+  "Tributo a Manuel Carrasco - Tardeo de Rumba": "CANNOT_FIX — no verifiable buy page (search failed (`claude -p` failed (exit 1): You've hit your weekly limit · resets Nov 21, 1am (Europe/Madrid))) [was GENERI"
+ }
 }
