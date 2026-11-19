@@ -1917,6 +1917,17 @@
      "genre": "Electronic",
      "why": "ADDED 2026-11-18 (weekly look-ahead, Fever read in Sofia's Edge). Fever /m/677139 (title 'Candlelight Cervatana at La Trinchera', but it is a normal Cervatana concert, NOT a Candlelight): Sat 6 Feb 2027, doors 20:30, concert 21:00, La Trinchera Malaga, from 20 EUR, 16+. Outside the 61-day window until ~7 Dec, so it will not show before then. Retire after 6 Feb."
     },
+    "pianista mano izquierda fundacion hispania": {
+     "url": "https://www.entradas.com/event/el-pianista-de-la-mano-izquierda-fundacion-hispania-musica-22368809/",
+     "prefer": "map",
+     "date": "26/12/2026",
+     "time": "19:30",
+     "price": "Desde 17 EUR",
+     "venue": "Fundación Hispania Música",
+     "venue_name": "Manuel López — El pianista de la mano izquierda",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-19 (Sofia found it on entradas.com artist page /artist/manuel-lopez/ in her Edge; link read in Claude's Edge). Sat 26 Dec 2026 19:30, Fundación Hispania Música, Málaga, desde 17,00 EUR, Comprar live. entradas.com = Awin 24761 (COMMISSIONED). SEPARATE from the Nerja show (26 Nov, Giglon, pinned under the Nerja block; entradas.com does not list Nerja). Distinct act key on purpose so act-level dedup does not merge it with the Nerja row. Retire after 26 Dec."
+    },
     "25 aniversario martin carpena": {
      "url": "https://www.enterticket.es/eventos/25-aniversario-martin-carpena-276858",
      "prefer": "map",
