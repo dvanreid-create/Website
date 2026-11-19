@@ -3949,5 +3949,21 @@
 "https://www.awin1.com/cread.php?awinmid=24761&awinaffid=2958081&ued=https%3A%2F%2Fwww.entradas.com%2Fevent%2Fel-pianista-de-la-mano-izquierda-fundacion-hispania-musica-22368809%2F"
 ],
 "genre": "classical"
+},
+"los-humanos-y-su-antologia": {
+"name": "Los Humanos y su Antología",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/los-humanos-y-su-antologia-en-malaga-338016"
+],
+"genre": "mixed"
+},
+"joseph-capriati": {
+"name": "Joseph Capriati",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/joseph-capriati-day-zero-661443"
+],
+"genre": "electronic"
 }
 }

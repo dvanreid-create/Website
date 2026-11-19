@@ -1917,6 +1917,27 @@
      "genre": "Electronic",
      "why": "ADDED 2026-11-18 (weekly look-ahead, Fever read in Sofia's Edge). Fever /m/677139 (title 'Candlelight Cervatana at La Trinchera', but it is a normal Cervatana concert, NOT a Candlelight): Sat 6 Feb 2027, doors 20:30, concert 21:00, La Trinchera Malaga, from 20 EUR, 16+. Outside the 61-day window until ~7 Dec, so it will not show before then. Retire after 6 Feb."
     },
+    "los humanos y su antologia": {
+     "url": "https://www.enterticket.es/eventos/los-humanos-y-su-antologia-en-malaga-338016",
+     "prefer": "map",
+     "date": "21/11/2026",
+     "time": "21:00",
+     "price": "Desde 26.50 EUR",
+     "venue": "Auditorio AM",
+     "venue_name": "Los Humanos y su Antología",
+     "genre": "Other",
+     "why": "ADDED 2026-11-19 (Sofia: 'add Los Humanos'; found by the Monday vendor-gap run, page read in Sofia's Edge). Enterticket event 338016: Sat 21 Nov 2026 21:00 (doors 20:30), Auditorio AM, Av Sor Teresa Prat 51, Malaga, from 26,50 EUR. Cadiz carnival comparsa of Antonio Martinez Ares (COAC prize): new repertoire plus an anthology of coplas. Not commissioned. Retire after 21 Nov."
+    },
+    "joseph capriati day zero": {
+     "url": "https://www.enterticket.es/eventos/joseph-capriati-day-zero-661443",
+     "prefer": "map",
+     "date": "01/01/2027",
+     "price": "Desde 27.50 EUR",
+     "venue": "Silencio Beach",
+     "venue_name": "Joseph Capriati — Day Zero",
+     "genre": "Electronic",
+     "why": "ADDED 2026-11-19 (Sofia: 'add Capriati'; found by the Monday vendor-gap run, page read in Sofia's Edge). Enterticket 661443: Fri 1 Jan 2027, Silencio Beach, Paseo Maritimo 20, Torremolinos (Kokun / Gitane, Day Zero). Tickets 18+: Early Entry (before 18:00) 27,50; Primer tramo 33,00 AGOTADAS; Segundo 38,50; Tercero 44,00; Cuarto 49,50. NO start time on the page (left blank). Not commissioned. Retire after 1 Jan."
+    },
     "pianista mano izquierda fundacion hispania": {
      "url": "https://www.entradas.com/event/el-pianista-de-la-mano-izquierda-fundacion-hispania-musica-22368809/",
      "prefer": "map",
