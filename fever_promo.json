@@ -6,22 +6,6 @@
   "label": {},
   "plans": [
     {
-      "sku": "88307",
-      "from": "2026-11-18",
-      "to": "2026-11-26",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
-      },
-      "note": "Vivaldi Four Seasons: 20% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
-    },
-    {
       "sku": "701011",
       "from": "2026-11-18",
       "to": "2026-11-26",
@@ -35,7 +19,10 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "Adele: 20% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Adele 21 Nov 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-11-21"
+      ]
     },
     {
       "sku": "129317",
@@ -51,7 +38,10 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "Serrat: 20% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Serrat 21 Nov 20% (Zona D agotado); 11 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-11-21"
+      ]
     },
     {
       "sku": "701012",
@@ -67,7 +57,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Michael Jackson (Unicaja): 10% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "MJ Unicaja 27 Nov 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-11-27"
+      ]
     },
     {
       "sku": "643700",
@@ -83,13 +76,18 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Coldplay vs Ed Sheeran: 10% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Coldplay vs Ed Sheeran 23 Dec 10%; 5 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-23"
+      ]
     },
     {
       "sku": "545643",
       "from": "2026-11-18",
       "to": "2026-11-26",
-      "dates": ["2026-11-29"],
+      "dates": [
+        "2026-11-29"
+      ],
       "label": {
         "en": "10–20% off · Black Friday",
         "es": "10–20 % dto. · Black Friday",
@@ -107,16 +105,19 @@
       "from": "2026-11-18",
       "to": "2026-11-26",
       "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+        "en": "Up to 10% off · Black Friday",
+        "es": "Hasta 10 % dto. · Black Friday",
+        "de": "Bis zu 10 % Rabatt · Black Friday",
+        "fr": "Jusqu'à -10 % · Black Friday",
+        "sv": "Upp till 10 % rabatt · Black Friday",
+        "no": "Opptil 10 % rabatt · Black Friday",
+        "da": "Op til 10 % rabat · Black Friday",
+        "fi": "Jopa 10 % alennus · Black Friday"
       },
-      "note": "Mecano (Miramar): 10% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Mecano 5 Dec: 17:00 10%, 19:00 no discount (zone agotado), so label is up-to. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-05"
+      ]
     },
     {
       "sku": "466621",
@@ -132,7 +133,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Clasicos del Rock: 10% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Rock Classics 29 Nov 21:00 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-11-29"
+      ]
     },
     {
       "sku": "753379",
@@ -148,23 +152,29 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Michael Jackson (Thyssen): 10% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "MJ Thyssen 8 Jan 10%; 12 Dec and 20 Dec have NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2027-01-08"
+      ]
     },
     {
       "sku": "643699",
       "from": "2026-11-18",
       "to": "2026-11-26",
       "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
       },
-      "note": "Lo Mejor de los 80: 20% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "Best of the 80s 27 Dec is 10% (not 20%); 6 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-27"
+      ]
     },
     {
       "sku": "126888",
@@ -180,55 +190,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Hans Zimmer Premium (Thyssen): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
-    },
-    {
-      "sku": "771782",
-      "from": "2026-11-18",
-      "to": "2026-11-26",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
-      },
-      "note": "Mecano (Thyssen): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
-    },
-    {
-      "sku": "806339",
-      "from": "2026-11-18",
-      "to": "2026-11-26",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
-      },
-      "note": "Bad Bunny (Thyssen): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
-    },
-    {
-      "sku": "826451",
-      "from": "2026-11-18",
-      "to": "2026-11-26",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
-      },
-      "note": "Lord of the Rings (Thyssen): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "Zimmer Premium 8 Jan 10%; 20 Dec NO discount. Fever lists no 9 Jan 2027 session (site row 9 Jan 22:15 not on Fever). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2027-01-08"
+      ]
     },
     {
       "sku": "714520",
@@ -244,7 +209,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Miramar 6 Dec: up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "Leiva 6 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-06"
+      ]
     },
     {
       "sku": "198778",
@@ -260,23 +228,29 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "Ennio Morricone (Miramar): up to 20% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "Morricone 8 Dec 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-08"
+      ]
     },
     {
       "sku": "746181",
       "from": "2026-11-18",
       "to": "2026-11-26",
       "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
       },
-      "note": "Christmas Classics (Miramar): up to 20% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "Phil Collins 20 Dec is 10% (not 20%). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-20"
+      ]
     },
     {
       "sku": "746180",
@@ -292,7 +266,11 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Christmas Soundtracks (Miramar): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "Christmas Movie Soundtracks 26+27 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-26",
+        "2026-12-27"
+      ]
     },
     {
       "sku": "792605",
@@ -308,7 +286,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Mecano (Unicaja): up to 10% off, read in Isla Vilches's Black Friday sheet (Candlelight Concerts tab, Malaga, 18 Nov 07:00 - 26 Nov 07:00) 2026-11-18."
+      "note": "MJ Unicaja 26 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-26"
+      ]
     },
     {
       "sku": "404641",
@@ -324,7 +305,10 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "Ballet of Lights (Fever Original, Malaga): -20% per Fever Originals banner library linked in Isla's sheet (Assets tab); window = Isla's email for other experiences (early sales 20-26 Nov + Black Friday 27-30 Nov). Listed in Fever Exclusive tab, no % column there."
+      "note": "Ballet of Lights 17 Jan 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2027-01-17"
+      ]
     },
     {
       "sku": "631372",
@@ -340,7 +324,10 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "The Jazz Room - Sinatra & Armstrong (Fever Original, Malaga): listed in Isla's sheet Fever Exclusive tab; Fever Originals = -20% per banner library; window per Isla's email (20-30 Nov). Page showed no discount on 18 Nov, before early sales open."
+      "note": "Jazz Room Sinatra 26 Dec 18:00+20:00 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2026-12-26"
+      ]
     },
     {
       "sku": "632234",
@@ -356,7 +343,10 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "Funzo en Malaga: Main tab row 447 of Isla's sheet, early sales 20% / Black Friday 20%, promo 20-30 Nov."
+      "note": "Funzo 9 Jan 20:30 20% (read on the plan page). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "dates": [
+        "2027-01-09"
+      ]
     },
     {
       "sku": "611306",
@@ -372,7 +362,125 @@
         "da": "20 % rabat · Black Friday",
         "fi": "20 % alennus · Black Friday"
       },
-      "note": "The Jazz Room - New Orleans (our tile's plan): Fever Exclusive tab (listed under Marbella), Fever Originals = -20% per banner library; window per Isla's email 20-30 Nov."
+      "note": "The Jazz Room - New Orleans (our tile's plan): Fever Exclusive tab (listed under Marbella), Fever Originals = -20% per banner library; window per Isla's email 20-30 Nov. PER-DATE audit 2026-11-20: Jazz Room NO 23 Jan 2027 = 20% (only date on the plan page).",
+      "dates": [
+        "2027-01-23"
+      ]
+    },
+    {
+      "sku": "145066",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2027-01-10"
+      ],
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Einaudi Hotel Miramar 10 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "405933",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2027-01-08"
+      ],
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Vivaldi Anantara 8 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "405940",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2026-12-26",
+        "2027-01-08"
+      ],
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Zimmer Anantara 26 Dec + 8 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "437202",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2027-01-10"
+      ],
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Coldplay vs Imagine Dragons Anantara 10 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "677232",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2027-01-09"
+      ],
+      "label": {
+        "en": "20% off · Black Friday",
+        "es": "20 % dto. · Black Friday",
+        "de": "20 % Rabatt · Black Friday",
+        "fr": "-20 % · Black Friday",
+        "sv": "20 % rabatt · Black Friday",
+        "no": "20 % rabatt · Black Friday",
+        "da": "20 % rabat · Black Friday",
+        "fi": "20 % alennus · Black Friday"
+      },
+      "note": "Queen vs ABBA Anantara 9 Jan 20% (27 Dec none). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "738716",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "dates": [
+        "2027-01-09"
+      ],
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "La Ley Innata Marbella 9 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
