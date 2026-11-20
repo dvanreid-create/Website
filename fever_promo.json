@@ -89,17 +89,18 @@
       "sku": "545643",
       "from": "2026-11-18",
       "to": "2026-11-26",
+      "dates": ["2026-11-29"],
       "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+        "en": "10–20% off · Black Friday",
+        "es": "10–20 % dto. · Black Friday",
+        "de": "10–20 % Rabatt · Black Friday",
+        "fr": "-10 à -20 % · Black Friday",
+        "sv": "10–20 % rabatt · Black Friday",
+        "no": "10–20 % rabatt · Black Friday",
+        "da": "10–20 % rabat · Black Friday",
+        "fi": "10–20 % alennus · Black Friday"
       },
-      "note": "La ley innata: 20% off, read on feverup.com/es/malaga/black-friday 2026-11-18 (Candlelight window 18-26 Nov per Isla Vilches). Isla's sheet not readable from our browser account, so the Fever Malaga BF page is the source."
+      "note": "La ley innata, Sun 29 Nov: Fever discounts PER SESSION (read in the date picker 2026-11-20): 17:00 = 20% off, 19:00 = 10% off, so the one card shows 10-20%. Badge restricted to 29 Nov (the only date verified); other dates of this SKU show no badge until checked."
     },
     {
       "sku": "656280",
