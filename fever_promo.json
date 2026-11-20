@@ -481,6 +481,25 @@
         "fi": "10 % alennus · Black Friday"
       },
       "note": "La Ley Innata Marbella 9 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+    },
+    {
+      "sku": "806339",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Bad Bunny Thyssen: 23 Jan 2027 20:30 10% (Fever 'Promocion' underline + 10 % descuento on Balcon/C/B, read in Sofia's Edge 2026-11-20). 12 Dec 22:15 and 20 Feb have NO promo. Outside the site window until ~22 Nov.",
+      "dates": [
+        "2027-01-23"
+      ]
     }
   ],
   "_plan_example_NOT_ACTIVE": {
