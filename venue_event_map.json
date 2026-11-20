@@ -2312,7 +2312,7 @@
      "venue": "Museo Carmen Thyssen Málaga",
      "venue_name": "Candlelight: The Lord of the Rings",
      "genre": "Classical & Candlelight",
-     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 20:30 (Balcón 37, C 39.50, B 44, A 53); a second session is 22:15 (separate row), from 37,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
+     "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 20:30 (Balcón 37, C 39.50, B 44, A 53); a second session is 22:15 (2026-11-20: shown on THIS card as 20:30 / 22:15 via the fever_sessions.json key lord of the rings|2026-12-27; the separate 2a-sesion row was removed), from 37,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
     },
     "candlelight disney journeys marbella 10 ene": {
      "url": "https://feverup.com/m/826479",
