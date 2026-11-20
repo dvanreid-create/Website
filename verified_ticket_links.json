@@ -1574,6 +1574,18 @@
    "verified": "2026-08-28",
    "via": "browser"
   },
+  "candlelight the lord of the rings|2026-12-27": {
+   "act": "Candlelight: The Lord of the Rings",
+   "date": "2026-12-27",
+   "url": "https://feverup.com/m/826451",
+   "expect": [
+    "candlelight",
+    "rings",
+    "anillos"
+   ],
+   "verified": "2026-11-20",
+   "via": "Claude, Sofia's Edge 2026-11-20 (Fever picker: Sun 27 Dec 20:30 + 22:15, Balcon 28)"
+  },
   "candlelight the lord of the rings|2026-09-05": {
    "act": "Candlelight: The Lord of the Rings",
    "date": "2026-09-05",

@@ -500,6 +500,26 @@
       "dates": [
         "2027-01-23"
       ]
+    },
+    {
+      "sku": "826451",
+      "from": "2026-11-18",
+      "to": "2026-11-26",
+      "label": {
+        "en": "10% off · Black Friday",
+        "es": "10 % dto. · Black Friday",
+        "de": "10 % Rabatt · Black Friday",
+        "fr": "-10 % · Black Friday",
+        "sv": "10 % rabatt · Black Friday",
+        "no": "10 % rabatt · Black Friday",
+        "da": "10 % rabat · Black Friday",
+        "fi": "10 % alennus · Black Friday"
+      },
+      "note": "Candlelight LOTR Thyssen: 16 Jan + 6 Feb 2027 10% (Fever Promocion underline + 10% discount on all zones, read in Sofia's Edge 2026-11-20). 27 Dec (20:30 and 22:15) has NO discount.",
+      "dates": [
+        "2027-01-16",
+        "2027-02-06"
+      ]
     }
   ],
   "_plan_example_NOT_ACTIVE": {

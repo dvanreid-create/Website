@@ -1,5 +1,9 @@
 {
  "_readme": "All sessions per day for multi-session Fever events. Key = 'act words|YYYY-MM-DD' (act-word containment + exact date, same guard as the venue_event_map time override). Value = HH:MM list. Read from the Fever session picker / embedded starts_at_iso 2026-11-07. build_site tdisp() shows them all on cards; ev time stays the first session. Fever embeds only ~9 days for daily shows, so Teatro Flamenco refreshed 2026-11-10 from the Fever picker (feverup.com/m/545294, chips clicked one by one) for 17 Nov-20 Dec: weekdays 17:00/18:30/20:00, Fri+Sat add 21:30. Beyond 20 Dec NOT here yet - refresh weekly.",
+ "lord of the rings|2026-12-27": [
+  "20:30",
+  "22:15"
+ ],
  "flamenco theater|2026-11-08": [
   "17:00",
   "18:30",

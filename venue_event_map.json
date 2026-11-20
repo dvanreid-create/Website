@@ -2314,17 +2314,6 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 20:30 (Balcón 37, C 39.50, B 44, A 53); a second session is 22:15 (separate row), from 37,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
     },
-    "candlelight lord of the rings thyssen 27 dic 2a sesion": {
-     "url": "https://feverup.com/m/826451?session=2215",
-     "prefer": "map",
-     "date": "27/12/2026",
-     "time": "22:15",
-     "price": "Desde 28,00€",
-     "venue": "Museo Carmen Thyssen Málaga",
-     "venue_name": "Candlelight: The Lord of the Rings (2ª sesión)",
-     "genre": "Classical & Candlelight",
-     "why": "Second session of the same night as 'candlelight lord of the rings thyssen 27 dic'; distinct venue_name so backfill's (act,date) dedupe keeps both (same device as 'camellos 10 aniversario 2a sesion'). ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 22:15 (Balcón 28, C 38, B 44, A 53), from 28,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
-    },
     "candlelight disney journeys marbella 10 ene": {
      "url": "https://feverup.com/m/826479",
      "prefer": "map",
