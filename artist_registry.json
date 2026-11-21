@@ -1281,7 +1281,6 @@
 "name": "Orquesta Filarmónica de Málaga",
 "mles": 57.8,
 "links": [
-"https://www.mientrada.net/evento/15-filarmonica-frente-al-mar-1/",
 "https://www.teatrocervantes.com/es/genero/ofm/temporada-2026-27/navidad-p-i-tchaikovsky-r-strauss-d-forrest-2338",
 "https://www.unientradas.es/es/espectaculo/concierto-navidad-ofm/26-27OFM06",
 "https://www.unientradas.es/es/espectaculo/concierto-extraordinario-de-ano-nuevo/26-27NuevoConcie"
@@ -1681,7 +1680,6 @@
 "name": "Melendi",
 "mles": 73.5,
 "links": [
-"https://tickets.oneboxtds.com/melendi_poprock_tour/select/2681926?viewCode=V_blockmap2d_view",
 "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?viewCode=V_blockmap2d_view"
 ],
 "genre": "pop"
@@ -3459,7 +3457,7 @@
 "links": [
 "https://www.rincondelavictoria.es/eventos/ciclo-noviembre-musical"
 ],
-"genre": "mixed"
+"genre": "electronic"
 },
 "lavanda-presenta-un-sueno-cercano": {
 "name": "Lavanda presenta Un sueño cercano",
