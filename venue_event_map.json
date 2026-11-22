@@ -2363,6 +2363,26 @@
      "genre": "Classical",
      "why": "ADDED 2026-10-15 (Sofia: 'on the site'). unientradas.es, XXXVIII Temporada Lírica, Sat 12 Dec 2026 20:00, Teatro Cervantes, Comprar live (read 2026-10-15). Price not read. NOT commissioned. Retire after 2026-12-12."
     },
+    "concierto navidad solidaria siempre asi": {
+     "url": "https://www.unientradas.es/es/espectaculo/concierto-navidad-solidaria/26-27FundMalaga",
+     "prefer": "map",
+     "date": "15/12/2026",
+     "time": "20:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "Concierto Navidad Solidaria — Siempre Así",
+     "genre": "Pop",
+     "why": "ADDED 2026-11-22 (Sofia: 'add both'). Official unientradas page (Teatro Cervantes, Tue 15 Dec 2026 20:00, seat map live) read in Edge 2026-11-22; also on teatrocervantes.com programme. Performers not named on the page. Price not read. NOT commissioned. Retire after 2026-12-15."
+    },
+    "50 aniversario banda gibraljaire": {
+     "url": "https://www.unientradas.es/espectaculo/50-aniversario-banda-gibraljaire/26-27Gibraljaire",
+     "prefer": "map",
+     "date": "19/12/2026",
+     "time": "11:00",
+     "venue": "Teatro Cervantes",
+     "venue_name": "50 Aniversario Banda Gibraljaire",
+     "genre": "Classical",
+     "why": "ADDED 2026-11-22 (Sofia: 'add both'). Official unientradas listing (Teatro Cervantes, Sat 19 Dec 2026 11:00) seen in Edge 2026-11-22. Price not read. NOT commissioned. Retire after 2026-12-19."
+    },
     "revolver la 03010 tour": {
      "url": "https://entradas.crashmusic.es/event/concierto-revolver-malaga-fycma-sabado-12-de-diciembre",
      "prefer": "map",
