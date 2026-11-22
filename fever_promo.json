@@ -152,9 +152,11 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "MJ Thyssen 8 Jan 10%; 12 Dec and 20 Dec have NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "note": "ADDED 2026-11-22 (Fever date picker, per-date labels): 23 Jan + 29 Jan 2027 are ALSO 10% (they enter the 61-day window before BF ends). MJ Thyssen 8 Jan 10%; 12 Dec and 20 Dec have NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
       "dates": [
-        "2027-01-08"
+        "2027-01-08",
+        "2027-01-23",
+        "2027-01-29"
       ]
     },
     {
@@ -247,9 +249,10 @@
         "da": "10 % rabat · Black Friday",
         "fi": "10 % alennus · Black Friday"
       },
-      "note": "Phil Collins 20 Dec is 10% (not 20%). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
+      "note": "ADDED 2026-11-22 (Fever date picker): 24 Jan 2027 is 10% too (21 Mar is 20%, beyond window). Phil Collins 20 Dec is 10% (not 20%). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
       "dates": [
-        "2026-12-20"
+        "2026-12-20",
+        "2027-01-24"
       ]
     },
     {
