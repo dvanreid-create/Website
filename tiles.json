@@ -1,44 +1,6 @@
 {
  "ads": [
   {
-   "photo": "/assets/tiles/ext-2c891d7019fa2c2c.jpg",
-   "tint": "rgba(232,102,42,.42)",
-   "expires": "2026-11-21",
-   "credit": "Photo: Kristopher Harris · CC BY 2.0",
-   "tag": {
-    "en": "★ Top pick this week",
-    "es": "★ Top de la semana",
-    "de": "★ Top-Tipp der Woche",
-    "fr": "★ Coup de cœur",
-    "sv": "★ Veckans tips",
-    "no": "★ Ukens tips",
-    "da": "★ Ugens tip",
-    "fi": "★ Viikon valinta"
-   },
-   "head": "Candlelight: Tribute to Adele",
-   "sub": {
-    "en": "Sat 21 Nov · Sala Fundación Unicaja María Crist",
-    "es": "Sáb 21 nov · Sala Fundación Unicaja María Crist",
-    "de": "Sa 21 Nov · Sala Fundación Unicaja María Crist",
-    "fr": "sam. 21 nov. · Sala Fundación Unicaja María Crist",
-    "sv": "lör 21 nov · Sala Fundación Unicaja María Crist",
-    "no": "lør 21 nov · Sala Fundación Unicaja María Crist",
-    "da": "lør 21 nov · Sala Fundación Unicaja María Crist",
-    "fi": "la 21 marrask. · Sala Fundación Unicaja María Crist"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701011&u=https%3A%2F%2Ffeverup.com%2Fm%2F701011&intsrc=CATF_15532",
-   "cta": {
-    "en": "Tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   }
-  },
-  {
    "logo": "/assets/tiles/ext-0b8921299b981691.png",
    "bg": "radial-gradient(120% 90% at 50% 30%,#241a12,#0c0907)",
    "ghost": true,
@@ -335,86 +297,6 @@
     "da": "Besøg →",
     "fi": "Käy →"
    }
-  },
-  {
-   "photo": "/assets/tiles/ext-18ead2011bb1ab60.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Joan Manuel Serrat",
-   "headBottom": true,
-   "expires": "2026-11-21",
-   "sub": {
-    "en": "Sat 21 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "es": "Sáb 21 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "de": "Sa 21 Nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fr": "sam. 21 nov. · Unicaja Concert Hall María Cristina · Málaga",
-    "sv": "lör 21 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "no": "lør 21 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "da": "lør 21 nov · Unicaja Concert Hall María Cristina · Málaga",
-    "fi": "la 21 marrask. · Unicaja Concert Hall María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=129317&u=https%3A%2F%2Ffeverup.com%2Fm%2F129317&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
-   "photo": "/assets/tiles/ext-2c891d7019fa2c2c.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 22%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Adele",
-   "headBottom": true,
-   "expires": "2026-11-21",
-   "sub": {
-    "en": "Sat 21 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "es": "Sáb 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "de": "Sa 21 Nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fr": "sam. 21 nov. · Sala Fundación Unicaja María Cristina · Málaga",
-    "sv": "lör 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "no": "lør 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "da": "lør 21 nov · Sala Fundación Unicaja María Cristina · Málaga",
-    "fi": "la 21 marrask. · Sala Fundación Unicaja María Cristina · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=701011&u=https%3A%2F%2Ffeverup.com%2Fm%2F701011&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Kristopher Harris · CC BY 2.0"
   },
   {
    "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",

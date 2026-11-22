@@ -10,13 +10,6 @@
    "expires": "2027-01-07"
   },
   {
-   "label": "Melendi",
-   "program": "box office",
-   "aliases": [],
-   "host": "tickets.oneboxtds.com/melendi_poprock_tour/events/51023",
-   "expires": "2026-11-21"
-  },
-  {
    "label": "El Señor de los Anillos",
    "program": "Entradas.com",
    "aliases": [
