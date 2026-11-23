@@ -4002,5 +4002,13 @@
 "https://www.unientradas.es/es/espectaculo/50-aniversario-banda-gibraljaire/26-27Gibraljaire"
 ],
 "genre": "classical"
+},
+"razz": {
+"name": "Razz",
+"mles": 0.0,
+"links": [
+"https://www.enterticket.es/eventos/concierto-razz-malaga-sala-marte-viernes-22-de-enero-704522"
+],
+"genre": "flamenco"
 }
 }
