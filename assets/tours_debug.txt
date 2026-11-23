@@ -1,26 +1,6 @@
-=== tours_debug Mon Nov 23 05:17:13 AM UTC 2026 ===
-srchash=369b0985e5f79cfcdf60f90ff0f6d448
+=== tours_debug Mon Nov 23 05:49:57 AM UTC 2026 ===
+srchash=21141ce998da68f5332d87e6acd9d7ba
 --- rebuild procs ---
-1032168 /bin/bash -c cd /app/runtime && ML_ROOT=/app/runtime HOME=/root python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh >> /app/logs/cron_tours_deploy.log 2>&1
-1032172 python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh
-1032176 bash /app/orchestrator/tours_deploy.sh
+none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at ef1cb03d9 Tours rebuild 2026-11-23T01:19:20Z [vps]
-[tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
-[tours] area override: 'Off-Road Guided Quad Tour in Costa del Sol from Mijas' 'Marbella' -> 'Mijas'
-[tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
-[press] malaga: /press/ + 7 translated pages + assets emitted
-[paco] seasonal couple image -> fall
-[paco] loader media shipped: pp-costa.mp4
-[paco] loader media shipped: pp-costa-poster.jpeg
-[paco] loader media shipped: pp-flamenco.mp4
-[guides] resized malaga-kids-tivoli.jpg 1200x600 -> 1120x720
-[guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
-[guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
-[bygo] gallery self-hosted images: 44 of 62
-[viator] wrote reviews for 774 products -> /_vdata/ (robots-blocked)
-Built 8 languages · 200 landing pages · 1410 tour pages · 28 guide pages · 2152 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1410 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
-To github.com:dvanreid-create/malagatoursandmore.git
-   ef1cb03d9..7c0178ac6  main -> main
-[tours] push complete -> Netlify deploys any new commit (~1-2 min)
+[tours] another deploy is already running -> exiting (no overlap)
