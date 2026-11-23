@@ -819,6 +819,13 @@
    "date": "2026-12-26",
    "price": "Desde 18 EUR",
    "source": "giglon.com page read in Claude built-in browser 2026-11-11 (comision no incluida)"
+  },
+  {
+   "act": "Concierto de Navidad",
+   "venue": "cervantes",
+   "date": "2026-12-18",
+   "price": "Desde 12 EUR",
+   "source": "teatrocervantes.com note read 2026-11-15 (desde 12 EUR); 17 Dec row 12,00 EUR; unientradas 26-27OFM06 shows 17+18 Dec 20:00"
   }
  ]
 }
