@@ -1306,17 +1306,17 @@
 },
 "alejandro-estrada": {
 "url": "",
-"t": 1794208459.3669462,
+"t": 1795418611.4508336,
 "src": ""
 },
 "band-of-gypsys": {
 "url": "",
-"t": 1794208460.0295787,
+"t": 1795418612.123395,
 "src": ""
 },
 "bauer": {
 "url": "",
-"t": 1794208460.8038673,
+"t": 1795418612.9194002,
 "src": ""
 },
 "continental-lovers": {
@@ -1326,12 +1326,12 @@
 },
 "ennio-morricone-nino-rota": {
 "url": "",
-"t": 1794208462.3475673,
+"t": 1795418613.8495805,
 "src": ""
 },
 "film-symphony-orchestra": {
 "url": "",
-"t": 1794208464.7911992,
+"t": 1795418613.9051406,
 "src": ""
 },
 "karelia-trio": {
@@ -1341,17 +1341,17 @@
 },
 "kurt-elling-yellowjackets-celebrate-weather-report": {
 "url": "",
-"t": 1794208466.7877843,
+"t": 1795418614.5690966,
 "src": ""
 },
 "maria-pelae": {
 "url": "",
-"t": 1794208466.9252675,
+"t": 1795418617.3324296,
 "src": ""
 },
 "mestizaje": {
 "url": "",
-"t": 1794208468.173024,
+"t": 1795418618.6498015,
 "src": ""
 },
 "miguel-company": {
@@ -1371,13 +1371,13 @@
 },
 "robin-torres": {
 "url": "",
-"t": 1794208471.6728544,
+"t": 1795418618.8063164,
 "src": ""
 },
 "zambomba": {
-"url": "",
-"t": 1794208472.5335999,
-"src": ""
+"url": "https://www.mientrada.net/wp-content/uploads/2023/03/Cartel-Zambomba-Sabastro-2026.jpg",
+"t": 1795418621.0594096,
+"src": "https://www.mientrada.net/evento/zambomba-jose-carlos-sabastro-2026/"
 },
 "heat-remember-fantasy": {
 "url": "https://www.monsterticket.es/images/carteles/remember-fantasy-2026-fluor-edition.jpg",
@@ -1558,5 +1558,20 @@
 "url": "https://applications-media.feverup.com/image/upload/f_auto,ar_15:8,c_fill/fever2/plan/photo/4191b6ba-677d-11ee-b225-565e2e982434",
 "t": 1795231008.9722414,
 "src": "https://feverup.com/m/141812"
+},
+"50-aniversario-banda-gibraljaire": {
+"url": "",
+"t": 1795418611.351619,
+"src": ""
+},
+"concierto-navidad-solidaria": {
+"url": "",
+"t": 1795418613.627555,
+"src": ""
+},
+"los-zigarros": {
+"url": "",
+"t": 1795418617.2007537,
+"src": ""
 }
 }
