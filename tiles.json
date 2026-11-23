@@ -337,86 +337,6 @@
    }
   },
   {
-   "photo": "/assets/tiles/ext-cf00a847151239ff.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Tribute to Hans Zimmer",
-   "headBottom": true,
-   "expires": "2026-11-22",
-   "sub": {
-    "en": "Sun 22 Nov · Hotel Miramar · Málaga",
-    "es": "Dom 22 nov · Hotel Miramar · Málaga",
-    "de": "So 22 Nov · Hotel Miramar · Málaga",
-    "fr": "dim. 22 nov. · Hotel Miramar · Málaga",
-    "sv": "sön 22 nov · Hotel Miramar · Málaga",
-    "no": "søn 22 nov · Hotel Miramar · Málaga",
-    "da": "søn 22 nov · Hotel Miramar · Málaga",
-    "fi": "su 22 marrask. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=155745&u=https%3A%2F%2Ffeverup.com%2Fm%2F155745&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": "Photo: Raph_PH · CC BY 2.0"
-  },
-  {
-   "photo": "/assets/tiles/ext-08fd74879285eff3.jpg",
-   "tint": "rgba(8,10,16,.34)",
-   "pos": "50% 30%",
-   "ribbon": {
-    "en": "Candlelight event",
-    "es": "Concierto Candlelight",
-    "de": "Candlelight-Konzert",
-    "fr": "Concert Candlelight",
-    "sv": "Candlelight-konsert",
-    "no": "Candlelight-konsert",
-    "da": "Candlelight-koncert",
-    "fi": "Candlelight-konsertti"
-   },
-   "head": "Vivaldi's Four Seasons",
-   "headBottom": true,
-   "expires": "2026-11-22",
-   "sub": {
-    "en": "Sun 22 Nov · Hotel Miramar · Málaga",
-    "es": "Dom 22 nov · Hotel Miramar · Málaga",
-    "de": "So 22 Nov · Hotel Miramar · Málaga",
-    "fr": "dim. 22 nov. · Hotel Miramar · Málaga",
-    "sv": "sön 22 nov · Hotel Miramar · Málaga",
-    "no": "søn 22 nov · Hotel Miramar · Málaga",
-    "da": "søn 22 nov · Hotel Miramar · Málaga",
-    "fi": "su 22 marrask. · Hotel Miramar · Málaga"
-   },
-   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=88307&u=https%3A%2F%2Ffeverup.com%2Fm%2F88307&intsrc=CATF_15532",
-   "cta": {
-    "en": "Get tickets →",
-    "es": "Entradas →",
-    "de": "Tickets →",
-    "fr": "Billets →",
-    "sv": "Biljetter →",
-    "no": "Billetter →",
-    "da": "Billetter →",
-    "fi": "Liput →"
-   },
-   "credit": null
-  },
-  {
    "photo": "/assets/tiles/ext-cf71d0a6a2607c8b.jpg",
    "tint": "rgba(8,10,16,.34)",
    "pos": "50% 12%",
@@ -2295,6 +2215,86 @@
     "fi": "Liput →"
    },
    "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-0bc5de741556b2fb.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 30%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "Queen vs. ABBA",
+   "headBottom": true,
+   "expires": "2027-01-22",
+   "sub": {
+    "en": "Fri 22 Jan · Iglesia del Sagrado Corazón · Málaga",
+    "es": "Vie 22 ene · Iglesia del Sagrado Corazón · Málaga",
+    "de": "Fr 22 Jan · Iglesia del Sagrado Corazón · Málaga",
+    "fr": "ven. 22 janv. · Iglesia del Sagrado Corazón · Málaga",
+    "sv": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "no": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "da": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "fi": "pe 22 tammik. · Iglesia del Sagrado Corazón · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=809212&u=https%3A%2F%2Ffeverup.com%2Fm%2F809212&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": null
+  },
+  {
+   "photo": "/assets/tiles/ext-ffbf6be8c7141127.jpg",
+   "tint": "rgba(8,10,16,.34)",
+   "pos": "50% 25%",
+   "ribbon": {
+    "en": "Candlelight event",
+    "es": "Concierto Candlelight",
+    "de": "Candlelight-Konzert",
+    "fr": "Concert Candlelight",
+    "sv": "Candlelight-konsert",
+    "no": "Candlelight-konsert",
+    "da": "Candlelight-koncert",
+    "fi": "Candlelight-konsertti"
+   },
+   "head": "The Best of Hans Zimmer",
+   "headBottom": true,
+   "expires": "2027-01-22",
+   "sub": {
+    "en": "Fri 22 Jan · Iglesia del Sagrado Corazón · Málaga",
+    "es": "Vie 22 ene · Iglesia del Sagrado Corazón · Málaga",
+    "de": "Fr 22 Jan · Iglesia del Sagrado Corazón · Málaga",
+    "fr": "ven. 22 janv. · Iglesia del Sagrado Corazón · Málaga",
+    "sv": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "no": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "da": "fre 22 jan · Iglesia del Sagrado Corazón · Málaga",
+    "fi": "pe 22 tammik. · Iglesia del Sagrado Corazón · Málaga"
+   },
+   "url": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=809213&u=https%3A%2F%2Ffeverup.com%2Fm%2F809213&intsrc=CATF_15532",
+   "cta": {
+    "en": "Get tickets →",
+    "es": "Entradas →",
+    "de": "Tickets →",
+    "fr": "Billets →",
+    "sv": "Biljetter →",
+    "no": "Billetter →",
+    "da": "Billetter →",
+    "fi": "Liput →"
+   },
+   "credit": "Photo: kitmasterbloke · CC BY 2.0"
   }
  ],
  "info": [

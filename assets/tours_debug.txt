@@ -1,10 +1,11 @@
-=== tours_debug Sun Nov 22 01:19:39 PM UTC 2026 ===
-srchash=2dcfa8ed10a8e6a990313c53cccd4f40
+=== tours_debug Mon Nov 23 01:34:59 AM UTC 2026 ===
+srchash=a7e21ddccadd04fc3a3a526fe152c9fd
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at ddfb8e300 Tours rebuild 2026-11-16T11:16:20Z [vps]
+HEAD is now at b2efbc9d1 Tours rebuild 2026-11-23T01:10:38Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
+[tours] area override: 'Off-Road Guided Quad Tour in Costa del Sol from Mijas' 'Marbella' -> 'Mijas'
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
 [press] malaga: /press/ + 7 translated pages + assets emitted
 [paco] seasonal couple image -> fall
@@ -15,9 +16,9 @@ HEAD is now at ddfb8e300 Tours rebuild 2026-11-16T11:16:20Z [vps]
 [guides] resized boardwalk-senda-litoral.jpg 1200x900 -> 1120x720
 [guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
 [bygo] gallery self-hosted images: 44 of 62
-[viator] wrote reviews for 773 products -> /_vdata/ (robots-blocked)
-Built 8 languages · 200 landing pages · 1405 tour pages · 28 guide pages · 2144 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1405 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
-[tours] no changes to publish
-Everything up-to-date
+[viator] wrote reviews for 774 products -> /_vdata/ (robots-blocked)
+Built 8 languages · 200 landing pages · 1410 tour pages · 28 guide pages · 2152 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1410 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
+To github.com:dvanreid-create/malagatoursandmore.git
+   b2efbc9d1..ef1cb03d9  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)

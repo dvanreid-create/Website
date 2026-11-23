@@ -3979,5 +3979,29 @@
 "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141812&u=https%3A%2F%2Ffeverup.com%2Fm%2F141812&intsrc=CATF_15532"
 ],
 "genre": "flamenco"
+},
+"los-zigarros": {
+"name": "LOS ZIGARROS",
+"mles": 0.0,
+"links": [
+"https://paris15.es/event/los-zigarros/"
+],
+"genre": "mixed"
+},
+"concierto-navidad-solidaria": {
+"name": "Concierto Navidad Solidaria",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/concierto-navidad-solidaria/26-27FundMalaga"
+],
+"genre": "pop"
+},
+"50-aniversario-banda-gibraljaire": {
+"name": "50 Aniversario Banda Gibraljaire",
+"mles": 0.0,
+"links": [
+"https://www.unientradas.es/es/espectaculo/50-aniversario-banda-gibraljaire/26-27Gibraljaire"
+],
+"genre": "classical"
 }
 }
