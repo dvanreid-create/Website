@@ -84,6 +84,13 @@
    "expires": "2026-12-12"
   },
   {
+   "label": "Tomatito",
+   "program": "box office",
+   "aliases": [],
+   "host": "unientradas.es/es/espectaculo/tomatito/26-27TomatitoPas",
+   "expires": "2026-12-09"
+  },
+  {
    "label": "The Jazz Room Málaga",
    "program": "Fever",
    "aliases": [
