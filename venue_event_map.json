@@ -2620,6 +2620,18 @@
      "venue_name": "De Cádiz a Buenos Aires — Marina Morles y Alfonso Guerrero (Fuengirola)",
      "why": "ADDED 2026-10-04 from Sofia's screenshot of entradas.fuengirola.es (Fuengirola town hall ticket portal, SecuTix). Browser-confirmed event page: Fri 30 Oct 2026 20:00, numbered seats 5 EUR. Guitar and violin concert: Marina Morles & Alfonso Guerrero. Was dropped by the link verifier (no buy page found) before this seller was known."
     },
+    "de cadiz a buenos aires fuengirola 18 dic": {
+     "date": "18/12/2026",
+     "time": "20:00",
+     "venue": "Casa de Cultura",
+     "venue_name": "De Cádiz a Buenos Aires (Marina Morles y Alfonso Guerrero)",
+     "city": "Fuengirola",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "5 EUR",
+     "url": "https://entradas.fuengirola.es/selection/event/date?productId=10229945919564",
+     "why": "ADDED 2026-11-23 (weekly town hall check): entradas.fuengirola.es event page lists Fri 18 Dec 2026 20:00, Casa de Cultura, numbered 5 EUR. Same concert as the 30 Oct date; genre Mixed (guitar and violin) - change if Sofia prefers Flamenco."
+    },
     "daddy the party halloween": {
      "url": "https://www.enterticket.es/eventos/daddy-the-party-halloween-5o-edicion-647776",
      "prefer": "map",
@@ -5994,6 +6006,78 @@
      "price": "Free",
      "url": "https://alhaurindelatorre.es/agenda/ciclo-de-conciertos-al-aire-libre-de-plaza-en-plaza-2026-4/",
      "why": "Ciclo municipal de conciertos al aire libre."
+    },
+    "amor y sangre veronica ruth frias  27/11": {
+     "date": "27/11/2026",
+     "time": "20:00",
+     "venue": "Centro Cultural Vicente Aleixandre",
+     "venue_name": "Amor y sangre (Verónica Ruth Frías y La Boterita)",
+     "city": "Alhaurín de la Torre",
+     "genre": "Flamenco",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/espectaculo-amor-y-sangre-con-veronica-ruth-frias-y-rocio-lopez-la-boterita/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 27/11/2026 20:00, Centro Cultural Vicente Aleixandre. free; invitation to collect at the centre."
+    },
+    "zambomba de la pollinica navidad 2 05/12": {
+     "date": "05/12/2026",
+     "time": "14:00",
+     "venue": "Plaza Paco Lara",
+     "venue_name": "Zambomba de la Pollinica (Navidad 2026/27)",
+     "city": "Alhaurín de la Torre",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/navidad-2026-27-zambomba-de-la-pollinica/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 05/12/2026 14:00, Plaza Paco Lara. free."
+    },
+    "ruta de la zambomba navidad 202627 12/12": {
+     "date": "12/12/2026",
+     "time": "12:00",
+     "venue": "Recinto Ferial de Alhaurín de la Torre (Avenida de España)",
+     "venue_name": "Ruta de la Zambomba (Navidad 2026/27)",
+     "city": "Alhaurín de la Torre",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/navidad-2026-27-ruta-de-la-zambomba/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 12/12/2026 12:00, Recinto Ferial de Alhaurín de la Torre (Avenida de España). free."
+    },
+    "concierto de la banda municipal de 13/12": {
+     "date": "13/12/2026",
+     "time": "12:00",
+     "venue": "Teatro Metropolitano",
+     "venue_name": "Concierto de la Banda Municipal de Música",
+     "city": "Alhaurín de la Torre",
+     "genre": "Classical",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/navidad-2026-27-concierto-de-la-banda-municipal-de-musica/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 13/12/2026 12:00, Teatro Metropolitano. free."
+    },
+    "zambomba de maria jose santiago na 19/12": {
+     "date": "19/12/2026",
+     "time": "18:00",
+     "venue": "Recinto Ferial de Alhaurín de la Torre",
+     "venue_name": "Zambomba de María José Santiago (Navidad 2026/27)",
+     "city": "Alhaurín de la Torre",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/navidad-2026-27-zambomba-de-maria-jose-santiago/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 19/12/2026 18:00, Recinto Ferial de Alhaurín de la Torre. free."
+    },
+    "ii ciclo de jazz en el aleixandre 16/01": {
+     "date": "16/01/2027",
+     "time": "20:00",
+     "venue": "Centro Cultural Vicente Aleixandre",
+     "venue_name": "II Ciclo de Jazz en el Aleixandre",
+     "city": "Alhaurín de la Torre",
+     "genre": "Jazz & Soul",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://alhaurindelatorre.es/agenda/ii-ciclo-de-jazz-en-el-aleixandre-3/",
+     "why": "Ayuntamiento de Alhaurín de la Torre, agenda oficial (weekly town hall check 2026-11-23): 16/01/2027 20:00, Centro Cultural Vicente Aleixandre. free; act not named on the agenda."
     }
    }
   },
