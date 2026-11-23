@@ -1,9 +1,11 @@
-=== tours_debug Mon Nov 23 01:34:59 AM UTC 2026 ===
-srchash=a7e21ddccadd04fc3a3a526fe152c9fd
+=== tours_debug Mon Nov 23 05:17:13 AM UTC 2026 ===
+srchash=369b0985e5f79cfcdf60f90ff0f6d448
 --- rebuild procs ---
-none
+1032168 /bin/bash -c cd /app/runtime && ML_ROOT=/app/runtime HOME=/root python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh >> /app/logs/cron_tours_deploy.log 2>&1
+1032172 python /app/orchestrator/run.py tours_deploy -- bash /app/orchestrator/tours_deploy.sh
+1032176 bash /app/orchestrator/tours_deploy.sh
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at b2efbc9d1 Tours rebuild 2026-11-23T01:10:38Z [vps]
+HEAD is now at ef1cb03d9 Tours rebuild 2026-11-23T01:19:20Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] area override: 'Off-Road Guided Quad Tour in Costa del Sol from Mijas' 'Marbella' -> 'Mijas'
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
@@ -20,5 +22,5 @@ HEAD is now at b2efbc9d1 Tours rebuild 2026-11-23T01:10:38Z [vps]
 Built 8 languages · 200 landing pages · 1410 tour pages · 28 guide pages · 2152 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1410 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
 To github.com:dvanreid-create/malagatoursandmore.git
-   b2efbc9d1..ef1cb03d9  main -> main
+   ef1cb03d9..7c0178ac6  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
