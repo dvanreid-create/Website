@@ -1590,6 +1590,62 @@
    "verified": "2026-11-20",
    "via": "Claude, Sofia's Edge 2026-11-20 (Fever picker: Sun 27 Dec 20:30 + 22:15, Balcon 28)"
   },
+  "candlelight tribute to joan manuel serrat|2027-01-15": {
+   "act": "Candlelight: Tribute to Joan Manuel Serrat",
+   "date": "2027-01-15",
+   "url": "https://feverup.com/m/129317",
+   "expect": ["candlelight", "serrat"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Fri 15 Jan 17:45, Zone D 13,50)"
+  },
+  "candlelight tribute to michael jackson|2027-01-15": {
+   "act": "Candlelight: Tribute to Michael Jackson",
+   "date": "2027-01-15",
+   "url": "https://feverup.com/m/792605",
+   "expect": ["candlelight", "michael", "jackson"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Fri 15 Jan 19:45, Zone D 15)"
+  },
+  "candlelight queen vs abba|2027-01-09": {
+   "act": "Candlelight: Queen vs. ABBA",
+   "date": "2027-01-09",
+   "url": "https://feverup.com/m/555765",
+   "expect": ["candlelight", "queen", "abba"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Sat 9 Jan 19:45, Zone D 15,50)"
+  },
+  "candlelight queen vs abba|2027-01-16": {
+   "act": "Candlelight: Queen vs. ABBA",
+   "date": "2027-01-16",
+   "url": "https://feverup.com/m/555765",
+   "expect": ["candlelight", "queen", "abba"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Sat 16 Jan 17:45, Zone D 14)"
+  },
+  "candlelight coldplay vs imagine dragons|2027-01-09": {
+   "act": "Candlelight: Coldplay vs. Imagine Dragons",
+   "date": "2027-01-09",
+   "url": "https://feverup.com/m/532802",
+   "expect": ["candlelight", "coldplay", "imagine"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Sat 9 Jan 17:45, Zone D 14)"
+  },
+  "candlelight coldplay vs imagine dragons|2027-01-16": {
+   "act": "Candlelight: Coldplay vs. Imagine Dragons",
+   "date": "2027-01-16",
+   "url": "https://feverup.com/m/532802",
+   "expect": ["candlelight", "coldplay", "imagine"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Sat 16 Jan 19:45, Zone D 15)"
+  },
+  "candlelight the lord of the rings|2027-01-16": {
+   "act": "Candlelight: The Lord of the Rings",
+   "date": "2027-01-16",
+   "url": "https://feverup.com/m/826451",
+   "expect": ["candlelight", "rings", "anillos"],
+   "verified": "2026-11-24",
+   "via": "Claude, Sofia's Edge 2026-11-24 (Fever picker: Sat 16 Jan 20:30 Balcony 36 + 22:15 Balcony 32, 10% promo)"
+  },
   "candlelight the lord of the rings|2026-09-05": {
    "act": "Candlelight: The Lord of the Rings",
    "date": "2026-09-05",

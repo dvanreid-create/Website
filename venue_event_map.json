@@ -2321,6 +2321,83 @@
      "genre": "Classical & Candlelight",
      "why": "ADDED 2026-11-15 (Sofia: all missing Fever events must be on the site). Fever plan 826451 read in the built-in browser 2026-11-15: the ticket-selector offers Sun 27 Dec 2026 20:30 (Balcón 37, C 39.50, B 44, A 53); a second session is 22:15 (2026-11-20: shown on THIS card as 20:30 / 22:15 via the fever_sessions.json key lord of the rings|2026-12-27; the separate 2a-sesion row was removed), from 37,00 EUR. NOT on the live site: fever_scrape reads only the JSON-LD startDate (the FIRST session) of a plan that has JSON-LD, so later sessions of multi-date Candlelight plans are never written (same gap as the 14 Oct and 9 Nov manual adds). Commissioned (Fever/Impact). Retire after 2026-12-27."
     },
+    "candlelight tribute joan manuel serrat unicaja 15 ene": {
+     "url": "https://feverup.com/m/129317",
+     "prefer": "map",
+     "date": "15/01/2027",
+     "time": "17:45",
+     "price": "Desde 13,50€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Tribute to Joan Manuel Serrat",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP; title+date comparison Fever vs live site). Fever plan 129317 date picker (Sofia's Edge, real click) lists Fri 11 Dec, Fri 15 Jan 2027, Fri 19 Feb 2027; Fri 15 Jan 17:45, Entrance Zone D 13,50 / C 22 / B 27. Not on the site: fever_scrape reads only the first session of a multi-date plan. Commissioned (Fever/Impact). Retire after 2027-01-15."
+    },
+    "candlelight tribute michael jackson unicaja 15 ene": {
+     "url": "https://feverup.com/m/792605",
+     "prefer": "map",
+     "date": "15/01/2027",
+     "time": "19:45",
+     "price": "Desde 15,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Tribute to Michael Jackson",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 792605 picker lists Sat 26 Dec, Fri 15 Jan 2027, Fri 19 Feb, Fri 2 Apr; Fri 15 Jan 19:45, Zone D 15 / C 24 / B 29, NO Black Friday promotion on this date (26 Dec only). Commissioned (Fever/Impact). Retire after 2027-01-15."
+    },
+    "candlelight queen abba unicaja 9 ene": {
+     "url": "https://feverup.com/m/555765",
+     "prefer": "map",
+     "date": "09/01/2027",
+     "time": "19:45",
+     "price": "Desde 15,50€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Queen vs. ABBA",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 555765 (Unicaja, NOT the Marbella plan 677232) picker lists Fri 11 Dec, Sat 26 Dec, Sat 9 Jan 2027, Sat 16 Jan 2027, more later; Sat 9 Jan 19:45, Zone D 15,50 / C 25 / B 30,50. Commissioned (Fever/Impact). Retire after 2027-01-09."
+    },
+    "candlelight queen abba unicaja 16 ene": {
+     "url": "https://feverup.com/m/555765",
+     "prefer": "map",
+     "date": "16/01/2027",
+     "time": "17:45",
+     "price": "Desde 14,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Queen vs. ABBA",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 555765 picker: Sat 16 Jan 2027 17:45, Zone D 14 / C 23 / B 28 / A 32,50. Commissioned (Fever/Impact). Retire after 2027-01-16."
+    },
+    "candlelight coldplay imagine dragons unicaja 9 ene": {
+     "url": "https://feverup.com/m/532802",
+     "prefer": "map",
+     "date": "09/01/2027",
+     "time": "17:45",
+     "price": "Desde 14,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Coldplay vs. Imagine Dragons",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 532802 (billed 'Coldplay and Imagine Dragons') picker: Sat 9 Jan 2027 17:45, Zone D 14 / C 23 / B 28 / A 32,50; later dates 16 Jan, 12 Mar, 16 Apr, more. The site had no row for this plan since 10 Oct. Commissioned (Fever/Impact). Retire after 2027-01-09."
+    },
+    "candlelight coldplay imagine dragons unicaja 16 ene": {
+     "url": "https://feverup.com/m/532802",
+     "prefer": "map",
+     "date": "16/01/2027",
+     "time": "19:45",
+     "price": "Desde 15,00€",
+     "venue": "Sala Fundación Unicaja Mª Cristina",
+     "venue_name": "Candlelight: Coldplay vs. Imagine Dragons",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 532802 picker: Sat 16 Jan 2027 19:45, Zone D 15 / C 24,50 / B 30. Commissioned (Fever/Impact). Retire after 2027-01-16."
+    },
+    "candlelight lord of the rings thyssen 16 ene": {
+     "url": "https://feverup.com/m/826451",
+     "prefer": "map",
+     "date": "16/01/2027",
+     "time": "20:30",
+     "price": "Desde 32,00€",
+     "venue": "Museo Carmen Thyssen Málaga",
+     "venue_name": "Candlelight: The Lord of the Rings",
+     "genre": "Classical & Candlelight",
+     "why": "ADDED 2026-11-24 (Sofia: missing Fever sessions ASAP). Fever plan 826451 picker: Sun 27 Dec, Sat 16 Jan 2027, Sat 6 Feb 2027; Sat 16 Jan has TWO sessions, 20:30 (Balcony 36, C 47, B 52) and 22:15 (Balcony 32, C 39, B 52), both with the 10% Black Friday promotion (fever_promo.json already has 2027-01-16). Second session shown on this card via fever_sessions.json key lord of the rings|2027-01-16. Commissioned (Fever/Impact). Retire after 2027-01-16."
+    },
     "candlelight disney journeys marbella 10 ene": {
      "url": "https://feverup.com/m/826479",
      "prefer": "map",
