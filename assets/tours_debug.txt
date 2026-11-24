@@ -1,9 +1,9 @@
-=== tours_debug Tue Nov 24 06:41:23 AM UTC 2026 ===
-srchash=aed2ee5b8b53bec2b82a791cb05b102b
+=== tours_debug Tue Nov 24 01:50:20 PM UTC 2026 ===
+srchash=bf88c77fdd9e7dff23747af93b9ade4d
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 6afa07537 Tours rebuild 2026-11-24T05:47:26Z [vps]
+HEAD is now at 5feb2abbd Tours rebuild 2026-11-24T10:18:48Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] area override: 'Off-Road Guided Quad Tour in Costa del Sol from Mijas' 'Marbella' -> 'Mijas'
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
