@@ -4022,5 +4022,21 @@
 "https://www.awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Fentradas-john-williams-y-los-grandes-del-cine-todos-394394KBN35%2F"
 ],
 "genre": "classical"
+},
+"la-verbena-de-la-paloma": {
+"name": "La Verbena de la Paloma",
+"mles": 0.0,
+"links": [
+"https://culturalh.cliqueo.es/es/?space=2"
+],
+"genre": "classical"
+},
+"credo": {
+"name": "Credo",
+"mles": 0.0,
+"links": [
+"https://culturalh.cliqueo.es/es/?space=2"
+],
+"genre": "mixed"
 }
 }

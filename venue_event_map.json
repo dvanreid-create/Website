@@ -6144,6 +6144,54 @@
      "url": "https://www.alhaurindelatorre.com/el-teatro-metropolitano-de-alhaurin-de-la-torre-da-a-conocer-su-primera-programacion/",
      "why": "Programa oficial del Teatro Metropolitano (PDF Ayuntamiento, leído 2026-11-24): 03/01/2027 12:00, concierto sinfónico de música de cine y TV, 70 min, dir. José Luis López Antón. Gratis con invitación, recogida desde el 14 dic en el Centro Cultural Vicente Aleixandre (C/ Jabalcuza 9; L-V 10-13:30, V 17-20:30). Sin página de evento propia: url = nota de prensa municipal."
     },
+    "los moraos el sonido de una devocion 16/01": {
+     "date": "16/01/2027",
+     "time": "19:00",
+     "venue": "Teatro Metropolitano",
+     "venue_name": "El sonido de una devoción – Agrupación Musical Nuestro Padre Jesús Nazareno (Los Moraos)",
+     "city": "Alhaurín de la Torre",
+     "genre": "Mixed",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://www.alhaurindelatorre.com/el-teatro-metropolitano-de-alhaurin-de-la-torre-da-a-conocer-su-primera-programacion/",
+     "why": "Programa oficial del Teatro Metropolitano (PDF Ayuntamiento, leído 2026-11-24): 16/01/2027 19:00, concierto de banda de Semana Santa (talento local), 90 min. Gratis con invitación, recogida desde el 21 dic en el Centro Cultural Vicente Aleixandre. Sin página de evento propia: url = nota de prensa municipal."
+    },
+    "la verbena de la paloma teatro lirico andaluz 05/02": {
+     "date": "05/02/2027",
+     "time": "19:00",
+     "venue": "Teatro Metropolitano",
+     "venue_name": "La Verbena de la Paloma – Teatro Lírico Andaluz",
+     "city": "Alhaurín de la Torre",
+     "genre": "Classical",
+     "paid_free": "Paid",
+     "price": "7€",
+     "url": "https://culturalh.cliqueo.es/es/?space=2",
+     "why": "Programa oficial del Teatro Metropolitano (PDF Ayuntamiento, leído 2026-11-24): 05/02/2027 19:00, zarzuela, 70 min, entradas 7 €. Aún no listada en culturalh.cliqueo.es (24 nov): url = página del espacio Teatro Metropolitano; sustituir por la ficha del evento cuando salga a la venta."
+    },
+    "credo cantores de hispalis 26/02": {
+     "date": "26/02/2027",
+     "time": "20:00",
+     "venue": "Teatro Metropolitano",
+     "venue_name": "Credo – Cantores de Híspalis / Grupo Mundo",
+     "city": "Alhaurín de la Torre",
+     "genre": "Mixed",
+     "paid_free": "Paid",
+     "price": "Desde 30€",
+     "url": "https://culturalh.cliqueo.es/es/?space=2",
+     "why": "Programa oficial del Teatro Metropolitano (PDF Ayuntamiento, leído 2026-11-24): 26/02/2027 20:00, espectáculo de música cofrade, 120 min, desde 30 €. Aún no listada en culturalh.cliqueo.es (24 nov): url = página del espacio Teatro Metropolitano; sustituir por la ficha del evento cuando salga a la venta."
+    },
+    "requiem de mozart jopma 13/03": {
+     "date": "13/03/2027",
+     "time": "19:00",
+     "venue": "Teatro Metropolitano",
+     "venue_name": "Réquiem de Mozart – JOPMA y corales",
+     "city": "Alhaurín de la Torre",
+     "genre": "Classical",
+     "paid_free": "Free",
+     "price": "Gratis",
+     "url": "https://www.alhaurindelatorre.com/el-teatro-metropolitano-de-alhaurin-de-la-torre-da-a-conocer-su-primera-programacion/",
+     "why": "Programa oficial del Teatro Metropolitano (PDF Ayuntamiento, leído 2026-11-24): 13/03/2027 19:00, Joven Orquesta Provincial de Málaga + Coral Alminares, Coral Santa María de la Victoria y Coral Santa Cecilia, 50 min. Gratis con invitación, recogida desde el 15 feb en el Centro Cultural Vicente Aleixandre. Sin página de evento propia: url = nota de prensa municipal."
+    },
     "zambomba de maria jose santiago na 19/12": {
      "date": "19/12/2026",
      "time": "18:00",
