@@ -22503,16 +22503,16 @@
     }
   },
   "viator:5651819P18": {
-    "h": "e5ed199331f7f58c59823fcf94b1926c",
+    "h": "05f84de4c2aa0a6c22f8b12539120f8e",
     "names": {
-      "en": "Luxury Private Tangier Day Trip from Marbella - All-Inclusive",
-      "es": "Excursión de Lujo Privada de un Día a Tánger desde Marbella - Todo Incluido",
-      "de": "Luxus-Privat-Tagesausflug nach Tanger ab Marbella - All-Inclusive",
-      "fr": "Excursion privée de luxe à Tanger à la journée depuis Marbella - Tout compris",
-      "no": "Luksuriøs privat dagstur til Tanger fra Marbella - Alt inkludert",
-      "da": "Luksus privat dagstur til Tangier fra Marbella - Alt inklusive",
-      "fi": "Luxusmainen yksityinen päiväretki Tangeriin Marbellasta - Kaikki sisältyy hintaan",
-      "sv": "Lyxig privat dagsutflykt till Tanger från Marbella – allt inkluderat"
+      "en": "Marbella to Tangier: VIP Private Morocco Day Trip",
+      "es": "Marbella a Tánger: Excursión VIP privada de un día a Marruecos",
+      "de": "Marbella nach Tanger: VIP-Privat-Tagesausflug nach Marokko",
+      "fr": "Marbella à Tanger : excursion VIP privée d'une journée au Maroc",
+      "sv": "Marbella till Tanger: Privat VIP-dagstur till Marocko",
+      "no": "Marbella til Tanger: VIP privat dagstur til Marokko",
+      "da": "Marbella til Tanger: VIP Privat Dagstur til Marokko",
+      "fi": "Marbellasta Tangeriin: VIP yksityinen päiväretki Marokkoon"
     }
   },
   "viator:5607081P14": {
@@ -23631,6 +23631,45 @@
       "no": "Delt båttur ved solnedgang i La Duquesa med cava",
       "da": "Delt bådtur ved solnedgang i La Duquesa med cava",
       "fi": "Jaettu venekierros auringonlaskussa La Duquesassa cavan kera"
+    }
+  },
+  "viator:5623706P3": {
+    "h": "2796baed869e6ba27929c42c7d618987",
+    "names": {
+      "en": "Málaga Horse Riding Activity in the Guadalhorce Valley",
+      "es": "Actividad de equitación en Málaga en el Valle del Guadalhorce",
+      "de": "Pferdereiten-Aktivität in Málaga im Guadalhorce-Tal",
+      "fr": "Activité équitation à Malaga dans la vallée du Guadalhorce",
+      "sv": "Hästridning i Guadalhorcedalen, Málaga",
+      "no": "Málaga Hesteridning i Guadalhorce-dalen",
+      "da": "Málaga Hesteridning i Guadalhorce-dalen",
+      "fi": "Málaga Hevosratsastusaktiviteetti Guadalhorce-laaksossa"
+    }
+  },
+  "viator:5609229P26": {
+    "h": "342984f446ae292b658edcdb5c2a0b4a",
+    "names": {
+      "en": "Málaga: 6-Day Tour of Córdoba, Seville, and Granada",
+      "es": "Málaga: Tour de 6 días por Córdoba, Sevilla y Granada",
+      "de": "Málaga: 6-tägige Rundreise durch Córdoba, Sevilla und Granada",
+      "fr": "Malaga : circuit de 6 jours à Cordoue, Séville et Grenade",
+      "sv": "Málaga: 6-dagarstur till Córdoba, Sevilla och Granada",
+      "no": "Málaga: 6-dagers tur til Córdoba, Sevilla og Granada",
+      "da": "Málaga: 6-dages Tur til Córdoba, Sevilla og Granada",
+      "fi": "Málaga: 6 päivän kiertomatka Córdobaan, Sevillaan ja Granadaan"
+    }
+  },
+  "viator:5672327P2": {
+    "h": "a0909d3b9edf19846e0e481cb4041cb9",
+    "names": {
+      "en": "1755 Herritage Mill Tour and Olive Oil Tasting Finca Soleá",
+      "es": "Tour del molino histórico de 1755 y cata de aceite de oliva en Finca Soleá",
+      "de": "1755 Herritage Mühlentour und Olivenöl-Verkostung Finca Soleá",
+      "fr": "Visite du moulin historique de 1755 et dégustation d'huile d'olive à la Finca Soleá",
+      "sv": "1755 Herritage kvarntur och olivoljeprovning på Finca Soleá",
+      "no": "1755 Arvemølletur og olivenoljesmaking på Finca Soleá",
+      "da": "1755 Herritage Møllerundvisning og Olivenolie-smagning på Finca Soleá",
+      "fi": "1755 Herritage-myllykierros ja oliiviöljymaistiainen, Finca Soleá"
     }
   }
 }

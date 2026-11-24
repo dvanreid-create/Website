@@ -1,9 +1,9 @@
-=== tours_debug Tue Nov 24 01:26:14 AM UTC 2026 ===
-srchash=017474eba88aa96c26bbb668d77237e9
+=== tours_debug Tue Nov 24 06:41:23 AM UTC 2026 ===
+srchash=aed2ee5b8b53bec2b82a791cb05b102b
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
-HEAD is now at 0d49e8b5a Tours rebuild 2026-11-24T01:06:58Z [vps]
+HEAD is now at 6afa07537 Tours rebuild 2026-11-24T05:47:26Z [vps]
 [tours] HOME_ONLY=1 -> rebuild home pages + Top 10 only (no scrape, no copy/i18n, no per-offering pages)
 [tours] area override: 'Off-Road Guided Quad Tour in Costa del Sol from Mijas' 'Marbella' -> 'Mijas'
 [tours] hotel_scores.json overlaid 100 live Booking.com scores (/app/runtime/Website/hotel_scores.json, generated 2026-09-04T05:38:47)
@@ -17,8 +17,8 @@ HEAD is now at 0d49e8b5a Tours rebuild 2026-11-24T01:06:58Z [vps]
 [guides] resized butibamba-lomo-la-cala-de-mijas.jpg 4624x2084 -> 1120x720
 [bygo] gallery self-hosted images: 44 of 62
 [viator] wrote reviews for 774 products -> /_vdata/ (robots-blocked)
-Built 8 languages · 200 landing pages · 1408 tour pages · 28 guide pages · 2144 URLs in sitemap → /app/runtime/tours_repo
-Experiences: 1408 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
-To github.com:dvanreid-create/malagatoursandmore.git
-   0d49e8b5a..50a70d287  main -> main
+Built 8 languages · 200 landing pages · 1411 tour pages · 28 guide pages · 2144 URLs in sitemap → /app/runtime/tours_repo
+Experiences: 1411 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
+[tours] no changes to publish
+Everything up-to-date
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)
