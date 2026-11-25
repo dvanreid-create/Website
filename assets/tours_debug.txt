@@ -1,5 +1,5 @@
-=== tours_debug Tue Nov 24 08:53:52 PM UTC 2026 ===
-srchash=bf88c77fdd9e7dff23747af93b9ade4d
+=== tours_debug Wed Nov 25 05:47:05 AM UTC 2026 ===
+srchash=d41b106bbf0a88e7e933f5293516975f
 --- rebuild procs ---
 none
 --- tours_rebuild.log (tail 80) ---
@@ -19,6 +19,6 @@ HEAD is now at 5feb2abbd Tours rebuild 2026-11-24T10:18:48Z [vps]
 [viator] wrote reviews for 774 products -> /_vdata/ (robots-blocked)
 Built 8 languages · 200 landing pages · 1411 tour pages · 28 guide pages · 2144 URLs in sitemap → /app/runtime/tours_repo
 Experiences: 1411 (featured: 10) · landings: ronda, marbella, benalmadena, fuengirola, torremolinos, malaga-tours, day-trips-from-malaga, walking-tours-malaga, city-tours-malaga, malaga-museums, boat-trips-costa-del-sol, experiences-malaga, family-attractions-malaga, immersive-shows-malaga, food-drink-malaga, games-mystery-malaga, cinema-malaga, sports-adventure-malaga, wellness-spa-malaga, workshops-malaga, water-sports-malaga, transportation-malaga, musicals-theatre-malaga, nerja-tours, flamenco-shows-malaga
-[tours] no changes to publish
-Everything up-to-date
+To github.com:dvanreid-create/malagatoursandmore.git
+   5feb2abbd..2b8558fb3  main -> main
 [tours] push complete -> Netlify deploys any new commit (~1-2 min)

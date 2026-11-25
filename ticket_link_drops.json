@@ -1,5 +1,9 @@
 {
  "_comment": "Events auto-removed by verify_ticket_links.py because their ticket link did not resolve to that event's buying page. Rebuilt every run; an event returns once its link verifies.",
- "generated": "2026-11-24",
- "drops": {}
+ "generated": "2026-11-25",
+ "drops": {
+  "Tributo a Niña Pastori — Natalia Moraló (tardeo de rumba)": "CANNOT_FIX — no verifiable buy page (no live buy page found) [was GENERIC: homepage/search/listing: https://www.enterticket.es/ -> https://www.enterticket.es/]",
+  "La Verbena de la Paloma – Teatro Lírico Andaluz": "CANNOT_FIX — no verifiable buy page (no live buy page found) [was WRONG_EVENT: page 'Entradas Alhaurín de la Torre Cultura | Alhaurín de la Torre' has none of [",
+  "Credo – Cantores de Híspalis / Grupo Mundo": "CANNOT_FIX — no verifiable buy page (search failed (Command '['claude', '-p', 'Event: Credo – Cantores de Híspalis / Grupo Mundo\\nVenue: Teatro Metropolitano\\nD"
+ }
 }
