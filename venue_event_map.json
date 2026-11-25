@@ -1979,17 +1979,6 @@
      "city": "Málaga",
      "why": "ADDED 2026-11-17 (Sofia: 'should have been added months ago'). ECI (Awin 13034) page opened in the built-in browser 2026-11-17: 'Luli Pampin en Málaga', 18 de Diciembre de 2026, 18:00h, doors 16:00h, Palacio de Deportes José María Martín Carpena, Desde 33,00 EUR, COMPRAR live; organiser Conciertos del Mundo A.I.E. ECI files it under 'En familia / Teatro infantil' (URL /entradas/en-familia/), NOT /entradas/conciertos/, which is why concert-list scans never showed it. Arena tour show ('Millones de Gracias'), not a small kids' show. Commissioned (ECI). Delete after 18 Dec."
     },
-    "tributo a nina pastori": {
-     "url": "https://www.enterticket.es/eventos/tributo-a-nina-pastori-846805",
-     "prefer": "map",
-     "date": "29/11/2026",
-     "time": "17:30",
-     "price": "10 EUR",
-     "venue": "AWA Málaga",
-     "venue_name": "Tributo a Niña Pastori — Natalia Moraló (tardeo de rumba)",
-     "genre": "Flamenco",
-     "why": "ADDED 2026-11-16 (weekly vendor gap report). Browser-confirmed on Enterticket event 846805: Sun 29 Nov 2026, AWA Málaga (C. Cenit 2, Puerto de la Torre), 10 EUR incl. 1 drink or 2 consumiciones, InStock. No start time on the page (afternoon 'tardeo'). This is NOT the cancelled 17 Oct Niña Pastori show (that blocklist entry is scoped to Príncipe de Asturias + 17 Oct). Not commissioned. Retire after 29 Nov."
-    },
     "el nino lordcah": {
      "url": "https://www.enterticket.es/eventos/el-nino-lordcah-en-malaga-882238",
      "prefer": "map",
