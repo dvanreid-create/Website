@@ -1,0 +1,10 @@
+{
+ "_note": "Read by hand in the browser/web_fetch 2026-11-25 (space 2 = Teatro Metropolitano only; space 1 not read). tools/agent/cliqueo_links.py overwrites this on the box.",
+ "updated": "2026-11-25",
+ "events": [
+  {"title": "LA DESCONQUISTA", "date": "2026-12-06", "url": "https://culturalh.cliqueo.es/es/teatro-metropolitano/la-desconquista-2026/", "sold_out": false},
+  {"title": "ZAMBRA DE LA BUENA SALVAJE", "date": "2026-12-11", "url": "https://culturalh.cliqueo.es/es/teatro-metropolitano/zambra-de-la-buena-salvaje/", "sold_out": false},
+  {"title": "LA BELLA Y LA BESTIA", "date": "2026-12-18", "url": "https://culturalh.cliqueo.es/es/teatro-metropolitano/la-bella-y-la-bestia/", "sold_out": true},
+  {"title": "LA REINA BRAVA", "date": "2026-12-19", "url": "https://culturalh.cliqueo.es/es/teatro-metropolitano/la-reina-brava-2026/", "sold_out": false}
+ ]
+}
