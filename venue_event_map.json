@@ -1979,6 +1979,30 @@
      "city": "Málaga",
      "why": "ADDED 2026-11-17 (Sofia: 'should have been added months ago'). ECI (Awin 13034) page opened in the built-in browser 2026-11-17: 'Luli Pampin en Málaga', 18 de Diciembre de 2026, 18:00h, doors 16:00h, Palacio de Deportes José María Martín Carpena, Desde 33,00 EUR, COMPRAR live; organiser Conciertos del Mundo A.I.E. ECI files it under 'En familia / Teatro infantil' (URL /entradas/en-familia/), NOT /entradas/conciertos/, which is why concert-list scans never showed it. Arena tour show ('Millones de Gracias'), not a small kids' show. Commissioned (ECI). Delete after 18 Dec."
     },
+    "the jazz room cuba 30 ene": {
+     "url": "https://feverup.com/m/850545",
+     "prefer": "map",
+     "date": "30/01/2027",
+     "time": "18:00",
+     "price": "Desde 25,50 EUR",
+     "venue": "Sala Gold",
+     "venue_name": "The Jazz Room: Un viaje al corazón de Cuba",
+     "genre": "Jazz & Soul",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-26 (Sofia: add by hand). Fever 850545 read in Edge: Sala Gold, sessions 18:00/20:00, Entrada General 25,50 EUR, 20% Black Friday to 30 Nov. Run 30 Jan - 13 Mar 2027. Commissioned (Fever). Retire after 13 Mar 2027."
+    },
+    "the jazz room cuba 13 mar": {
+     "url": "https://feverup.com/m/850545",
+     "prefer": "map",
+     "date": "13/03/2027",
+     "time": "18:00",
+     "price": "Desde 25,50 EUR",
+     "venue": "Sala Gold",
+     "venue_name": "The Jazz Room: Un viaje al corazón de Cuba",
+     "genre": "Jazz & Soul",
+     "city": "Málaga",
+     "why": "ADDED 2026-11-26 (Sofia: add by hand). Fever 850545 read in Edge: Sala Gold, sessions 18:00/20:00, Entrada General 25,50 EUR, 20% Black Friday to 30 Nov. Run 30 Jan - 13 Mar 2027. Commissioned (Fever). Retire after 13 Mar 2027."
+    },
     "el nino lordcah": {
      "url": "https://www.enterticket.es/eventos/el-nino-lordcah-en-malaga-882238",
      "prefer": "map",

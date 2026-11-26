@@ -2,13 +2,13 @@
   "_README": "FEVER BLACK FRIDAY BADGE (Sofia 2026-11-10). SWITCHED OFF: enabled is false and plans is empty, so no badge can appear. To arm it, ALL of: (1) paste Isla Vilches's definitive list into plans (one entry per Fever plan, sku = the number in feverup.com/m/<sku>); (2) check campaign_start/campaign_end; (3) set enabled to true (the JSON value true, not the text \"true\"); (4) push. To switch off again: set enabled to false and push, or set env FEVER_PROMO_OFF=1 on the box. It switches itself off after campaign_end. A badge shows only for a listed sku, only inside the campaign window (and the plan's own from/to if given); if a plan has \"dates\" it shows only on those dates (main calendar cards; shelf tiles have no date so a plan with \"dates\" gets no shelf badge). The badge text is 'Up to 30% off on Fever' in 8 languages (override per plan with \"label\": {\"en\": \"...\"}). Never print a discounted price: only Fever's own page knows it. SHEET READ 2026-11-18 (Isla Vilches Black Friday sheet, Candlelight Concerts tab: Malaga 18 Nov 07:00 to 26 Nov 07:00; Teatro Flamenco 545294 is NOT in the sheet = no discount, no badge); now 19 plans. ARMED 2026-11-18 with the 10 Candlelight plans Fever's Malaga Black Friday page shows discounted that day. RE-CHECK FRI 20 NOV (early sales open for other experiences) and Fri 27 Nov (BF weekend); add plans then; campaign ends 30 Nov. LABELS DO NOT NAME FEVER (Sofia 2026-11-18: our copy must not send people to search for Fever and skip Malaga Live).",
   "enabled": true,
   "campaign_start": "2026-11-18",
-  "campaign_end": "2026-11-30",
+  "campaign_end": "2026-12-02",
   "label": {},
   "plans": [
     {
       "sku": "129317",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-11": 20,
         "2027-01-15": 20,
@@ -19,7 +19,7 @@
     {
       "sku": "643700",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-23": 10,
         "2027-03-07": 20
@@ -29,7 +29,7 @@
     {
       "sku": "545643",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-11-29": 30,
         "2027-01-31": 20,
@@ -40,7 +40,7 @@
     {
       "sku": "656280",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-05": 20
       },
@@ -49,7 +49,7 @@
     {
       "sku": "466621",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-11-29": 30
       },
@@ -58,7 +58,7 @@
     {
       "sku": "753379",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-12": 10,
         "2026-12-20": 20,
@@ -71,7 +71,7 @@
     {
       "sku": "643699",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-06": 20,
         "2026-12-27": 10,
@@ -82,7 +82,7 @@
     {
       "sku": "126888",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-20": 10,
         "2027-01-08": 10,
@@ -94,7 +94,7 @@
     {
       "sku": "714520",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-06": 40
       },
@@ -103,7 +103,7 @@
     {
       "sku": "198778",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-08": 20,
         "2027-02-28": 20
@@ -113,7 +113,7 @@
     {
       "sku": "746181",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-20": 10,
         "2027-01-24": 10,
@@ -124,7 +124,7 @@
     {
       "sku": "746180",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 10,
         "2026-12-27": 10
@@ -134,7 +134,7 @@
     {
       "sku": "792605",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 10,
         "2027-01-15": 20,
@@ -145,7 +145,7 @@
     {
       "sku": "404641",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-17": 20,
         "2027-02-14": 20
@@ -155,7 +155,7 @@
     {
       "sku": "631372",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 20,
         "2027-02-20": 20
@@ -165,7 +165,7 @@
     {
       "sku": "632234",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-09": 20
       },
@@ -174,7 +174,7 @@
     {
       "sku": "611306",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-23": 20
       },
@@ -183,7 +183,7 @@
     {
       "sku": "405933",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-08": 10
       },
@@ -192,7 +192,7 @@
     {
       "sku": "405940",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 20,
         "2027-01-08": 20
@@ -202,7 +202,7 @@
     {
       "sku": "437202",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-10": 10
       },
@@ -211,7 +211,7 @@
     {
       "sku": "677232",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-27": 10,
         "2027-01-09": 10
@@ -221,7 +221,7 @@
     {
       "sku": "738716",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-09": 20
       },
@@ -230,7 +230,7 @@
     {
       "sku": "806339",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-12": 30,
         "2027-01-23": 20,
@@ -241,7 +241,7 @@
     {
       "sku": "826451",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-27": 20,
         "2027-01-16": 20,
@@ -252,7 +252,7 @@
     {
       "sku": "88307",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-23": 10,
         "2027-01-31": 20,
@@ -264,7 +264,7 @@
     {
       "sku": "555765",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 10,
         "2027-01-09": 10,
@@ -276,7 +276,7 @@
     {
       "sku": "532802",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-09": 20,
         "2027-01-16": 20,
@@ -287,7 +287,7 @@
     {
       "sku": "259530",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-20": 10
       },
@@ -296,7 +296,7 @@
     {
       "sku": "653967",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-02-26": 20
       },
@@ -305,7 +305,7 @@
     {
       "sku": "364214",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-18": 10
       },
@@ -314,7 +314,7 @@
     {
       "sku": "364215",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-18": 20
       },
@@ -323,7 +323,7 @@
     {
       "sku": "433316",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2027-01-29": 20
       },
@@ -332,11 +332,21 @@
     {
       "sku": "746179",
       "from": "2026-11-18",
-      "to": "2026-11-30",
+      "to": "2026-12-02",
       "pct": {
         "2026-12-26": 10
       },
       "note": "BF re-audit 2026-11-26 (previously unaudited). Candlelight: Clasicos Navidenos (19:00). Fever date picker read in Edge; single date."
+    },
+    {
+      "sku": "850545",
+      "from": "2026-11-18",
+      "to": "2026-12-02",
+      "pct": {
+        "2027-01-30": 20,
+        "2027-03-13": 20
+      },
+      "note": "BF 2026-11-26. The Jazz Room: Un viaje al corazon de Cuba (Sala Gold). Fever shows a Black Friday banner and 20% on both dates (30 Jan, 13 Mar 2027), read in Edge. Added to the calendar by hand same day (Sofia)."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
@@ -352,6 +362,6 @@
     "note": "example only; the real entries come from Isla's list"
   },
   "bf_hero": true,
-  "bf_hero_until": "2026-11-30",
+  "bf_hero_until": "2026-12-02",
   "_bf_hero_note": "Black Friday homepage hero (Sofia 2026-11-18). Shown only while bf_hero is JSON true AND today <= bf_hero_until; after that the ORIGINAL hero (eyebrow pill, trusted-guide H1, acts line, green buy pill) AND the red Christmas pill return by themselves. Hero image: assets/hero-candles-bf.jpg. To switch off early: set bf_hero to false and push."
 }
