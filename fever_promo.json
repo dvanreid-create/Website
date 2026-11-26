@@ -6,523 +6,301 @@
   "label": {},
   "plans": [
     {
-      "sku": "701011",
-      "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
-      },
-      "note": "Adele 21 Nov 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-11-21"
-      ]
-    },
-    {
       "sku": "129317",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-11": 20,
+        "2027-01-15": 20,
+        "2027-02-19": 30
       },
-      "note": "Serrat 21 Nov 20% (Zona D agotado); 11 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-11-21"
-      ]
-    },
-    {
-      "sku": "701012",
-      "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
-      },
-      "note": "MJ Unicaja 27 Nov 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-11-27"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Serrat. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "643700",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-23": 10,
+        "2027-03-07": 20
       },
-      "note": "Coldplay vs Ed Sheeran 23 Dec 10%; 5 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-23"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Coldplay vs Ed Sheeran Miramar. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "545643",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2026-11-29"
-      ],
-      "label": {
-        "en": "10–20% off · Black Friday",
-        "es": "10–20 % dto. · Black Friday",
-        "de": "10–20 % Rabatt · Black Friday",
-        "fr": "-10 à -20 % · Black Friday",
-        "sv": "10–20 % rabatt · Black Friday",
-        "no": "10–20 % rabatt · Black Friday",
-        "da": "10–20 % rabat · Black Friday",
-        "fi": "10–20 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-11-29": 30,
+        "2027-01-31": 20,
+        "2027-03-07": 20
       },
-      "note": "La ley innata, Sun 29 Nov: Fever discounts PER SESSION (read in the date picker 2026-11-20): 17:00 = 20% off, 19:00 = 10% off, so the one card shows 10-20%. Badge restricted to 29 Nov (the only date verified); other dates of this SKU show no badge until checked."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). La Ley Innata Miramar. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "656280",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "Up to 10% off · Black Friday",
-        "es": "Hasta 10 % dto. · Black Friday",
-        "de": "Bis zu 10 % Rabatt · Black Friday",
-        "fr": "Jusqu'à -10 % · Black Friday",
-        "sv": "Upp till 10 % rabatt · Black Friday",
-        "no": "Opptil 10 % rabatt · Black Friday",
-        "da": "Op til 10 % rabat · Black Friday",
-        "fi": "Jopa 10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-05": 20
       },
-      "note": "Mecano 5 Dec: 17:00 10%, 19:00 no discount (zone agotado), so label is up-to. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-05"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Mecano. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "466621",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-11-29": 30
       },
-      "note": "Rock Classics 29 Nov 21:00 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-11-29"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Clasicos del Rock. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "753379",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-12": 10,
+        "2026-12-20": 20,
+        "2027-01-08": 10,
+        "2027-01-23": 20,
+        "2027-01-29": 20
       },
-      "note": "ADDED 2026-11-22 (Fever date picker, per-date labels): 23 Jan + 29 Jan 2027 are ALSO 10% (they enter the 61-day window before BF ends). MJ Thyssen 8 Jan 10%; 12 Dec and 20 Dec have NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2027-01-08",
-        "2027-01-23",
-        "2027-01-29"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). MJ Thyssen. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "643699",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-06": 20,
+        "2026-12-27": 10,
+        "2027-02-28": 30
       },
-      "note": "Best of the 80s 27 Dec is 10% (not 20%); 6 Dec has NO discount. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-27"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Best of the 80s. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "126888",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-20": 10,
+        "2027-01-08": 10,
+        "2027-02-20": 20,
+        "2027-03-13": 20
       },
-      "note": "Zimmer Premium 8 Jan 10%; 20 Dec NO discount. Fever lists no 9 Jan 2027 session (site row 9 Jan 22:15 not on Fever). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2027-01-08"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Zimmer Premium. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "714520",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-06": 40
       },
-      "note": "Leiva 6 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-06"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Leiva. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "198778",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-08": 20,
+        "2027-02-28": 20
       },
-      "note": "Morricone 8 Dec 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-08"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Morricone. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "746181",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-20": 10,
+        "2027-01-24": 10,
+        "2027-03-21": 20
       },
-      "note": "ADDED 2026-11-22 (Fever date picker): 24 Jan 2027 is 10% too (21 Mar is 20%, beyond window). Phil Collins 20 Dec is 10% (not 20%). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-20",
-        "2027-01-24"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Phil Collins. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "746180",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-26": 10,
+        "2026-12-27": 10
       },
-      "note": "Christmas Movie Soundtracks 26+27 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-26",
-        "2026-12-27"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Christmas Movie Soundtracks. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "792605",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-26": 10,
+        "2027-01-15": 20,
+        "2027-02-19": 30
       },
-      "note": "MJ Unicaja 26 Dec 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-26"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). MJ Unicaja. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "404641",
-      "from": "2026-11-19",
+      "from": "2026-11-18",
       "to": "2026-11-30",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "pct": {
+        "2027-01-17": 20,
+        "2027-02-14": 20
       },
-      "note": "Ballet of Lights 17 Jan 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2027-01-17"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Ballet of Lights. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "631372",
-      "from": "2026-11-19",
+      "from": "2026-11-18",
       "to": "2026-11-30",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "pct": {
+        "2026-12-26": 20,
+        "2027-02-20": 20
       },
-      "note": "Jazz Room Sinatra 26 Dec 18:00+20:00 20%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2026-12-26"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Jazz Room Sinatra. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "632234",
-      "from": "2026-11-20",
+      "from": "2026-11-18",
       "to": "2026-11-30",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "pct": {
+        "2027-01-09": 20
       },
-      "note": "Funzo 9 Jan 20:30 20% (read on the plan page). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone).",
-      "dates": [
-        "2027-01-09"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Funzo. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "611306",
-      "from": "2026-11-20",
-      "to": "2026-11-30",
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
-      },
-      "note": "The Jazz Room - New Orleans (our tile's plan): Fever Exclusive tab (listed under Marbella), Fever Originals = -20% per banner library; window per Isla's email 20-30 Nov. PER-DATE audit 2026-11-20: Jazz Room NO 23 Jan 2027 = 20% (only date on the plan page).",
-      "dates": [
-        "2027-01-23"
-      ]
-    },
-    {
-      "sku": "145066",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2027-01-10"
-      ],
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-23": 20
       },
-      "note": "Einaudi Hotel Miramar 10 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Jazz Room New Orleans. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "405933",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2027-01-08"
-      ],
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-08": 10
       },
-      "note": "Vivaldi Anantara 8 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Vivaldi Anantara. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "405940",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2026-12-26",
-        "2027-01-08"
-      ],
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-26": 20,
+        "2027-01-08": 20
       },
-      "note": "Zimmer Anantara 26 Dec + 8 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Zimmer Anantara. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "437202",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2027-01-10"
-      ],
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-10": 10
       },
-      "note": "Coldplay vs Imagine Dragons Anantara 10 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Coldplay&ID Anantara. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "677232",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2027-01-09"
-      ],
-      "label": {
-        "en": "20% off · Black Friday",
-        "es": "20 % dto. · Black Friday",
-        "de": "20 % Rabatt · Black Friday",
-        "fr": "-20 % · Black Friday",
-        "sv": "20 % rabatt · Black Friday",
-        "no": "20 % rabatt · Black Friday",
-        "da": "20 % rabat · Black Friday",
-        "fi": "20 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-27": 10,
+        "2027-01-09": 10
       },
-      "note": "Queen vs ABBA Anantara 9 Jan 20% (27 Dec none). PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Queen vs ABBA Anantara. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "738716",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "dates": [
-        "2027-01-09"
-      ],
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-09": 20
       },
-      "note": "La Ley Innata Marbella 9 Jan 10%. PER-DATE audit 2026-11-20: Fever date picker read for every date (each date + session clicked, discount tag per zone)."
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). La Ley Innata Marbella. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "806339",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-12": 30,
+        "2027-01-23": 20,
+        "2027-02-20": 20
       },
-      "note": "Bad Bunny Thyssen: 23 Jan 2027 20:30 10% (Fever 'Promocion' underline + 10 % descuento on Balcon/C/B, read in Sofia's Edge 2026-11-20). 12 Dec 22:15 and 20 Feb have NO promo. Outside the site window until ~22 Nov.",
-      "dates": [
-        "2027-01-23"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Bad Bunny Thyssen. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
       "sku": "826451",
       "from": "2026-11-18",
-      "to": "2026-11-25",
-      "label": {
-        "en": "10% off · Black Friday",
-        "es": "10 % dto. · Black Friday",
-        "de": "10 % Rabatt · Black Friday",
-        "fr": "-10 % · Black Friday",
-        "sv": "10 % rabatt · Black Friday",
-        "no": "10 % rabatt · Black Friday",
-        "da": "10 % rabat · Black Friday",
-        "fi": "10 % alennus · Black Friday"
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-27": 20,
+        "2027-01-16": 20,
+        "2027-02-06": 20
       },
-      "note": "Candlelight LOTR Thyssen: 16 Jan + 6 Feb 2027 10% (Fever Promocion underline + 10% discount on all zones, read in Sofia's Edge 2026-11-20). 27 Dec (20:30 and 22:15) has NO discount.",
-      "dates": [
-        "2027-01-16",
-        "2027-02-06"
-      ]
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). LOTR Thyssen. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "88307",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-23": 10,
+        "2027-01-31": 20,
+        "2027-02-21": 30,
+        "2027-03-21": 20
+      },
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Vivaldi Miramar. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "555765",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-26": 10,
+        "2027-01-09": 10,
+        "2027-01-16": 20,
+        "2027-03-12": 30
+      },
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Queen vs ABBA Unicaja. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "532802",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-09": 20,
+        "2027-01-16": 20,
+        "2027-03-12": 30
+      },
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Coldplay&ID Unicaja. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "259530",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-20": 10
+      },
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Queen vs The Beatles. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "653967",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2027-02-26": 20
+      },
+      "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). La La Love You Paris 15. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
@@ -538,6 +316,6 @@
     "note": "example only; the real entries come from Isla's list"
   },
   "bf_hero": true,
-  "bf_hero_until": "2026-11-25",
+  "bf_hero_until": "2026-11-30",
   "_bf_hero_note": "Black Friday homepage hero (Sofia 2026-11-18). Shown only while bf_hero is JSON true AND today <= bf_hero_until; after that the ORIGINAL hero (eyebrow pill, trusted-guide H1, acts line, green buy pill) AND the red Christmas pill return by themselves. Hero image: assets/hero-candles-bf.jpg. To switch off early: set bf_hero to false and push."
 }
