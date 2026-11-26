@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-11-25",
-  "count": 111,
+  "generated": "2026-11-26",
+  "count": 112,
   "items": [
     {
       "sku": "194665",
@@ -676,6 +676,20 @@
       "d": "<empty>"
     },
     {
+      "sku": "653967",
+      "n": "La La Love You Tour - Malaga - Paris 15",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €24",
+      "img": "0ff84774-599f-11f1-b141-ee2a4135a7f2.png",
+      "url": "https://feverup.com/m/653967/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=653967&u=https%3A%2F%2Ffeverup.com%2Fm%2F653967&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "La La Love You presents “La La Tour” on February 26, 2027, at Sala Paris 15, Malaga. Get your tickets to experience a unique live punk pop concert!"
+    },
+    {
       "sku": "693799",
       "n": "La Malagueta Bullring: Admission + Audio Guide",
       "c": "tours",
@@ -1172,7 +1186,7 @@
       "cat": "Food & Drink",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €27",
+      "p": "From €23",
       "img": "ae7b34c0-794c-11f1-9162-f6ecba384b1c.jpg",
       "url": "https://feverup.com/m/765350/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=765350&u=https%3A%2F%2Ffeverup.com%2Fm%2F765350&intsrc=CATF_15532",
