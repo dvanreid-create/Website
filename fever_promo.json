@@ -301,6 +301,42 @@
         "2027-02-26": 20
       },
       "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). La La Love You Paris 15. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
+    },
+    {
+      "sku": "364214",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-18": 10
+      },
+      "note": "BF re-audit 2026-11-26 (previously unaudited). Candlelight Navidad: Clasicos de Navidad (19:45). Fever date picker read in Edge; single date."
+    },
+    {
+      "sku": "364215",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-18": 20
+      },
+      "note": "BF re-audit 2026-11-26 (previously unaudited). Candlelight Navidad: Bandas Sonoras Navidenas (17:45). Fever date picker read in Edge; single date."
+    },
+    {
+      "sku": "433316",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2027-01-29": 20
+      },
+      "note": "BF re-audit 2026-11-26 (previously unaudited). Candlelight: Leyendas del Rock Britanico (22:15). Fever date picker read in Edge; single date."
+    },
+    {
+      "sku": "746179",
+      "from": "2026-11-18",
+      "to": "2026-11-30",
+      "pct": {
+        "2026-12-26": 10
+      },
+      "note": "BF re-audit 2026-11-26 (previously unaudited). Candlelight: Clasicos Navidenos (19:00). Fever date picker read in Edge; single date."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
