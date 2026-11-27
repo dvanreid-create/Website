@@ -123,6 +123,27 @@
    "expires": "2027-06-19"
   },
   {
+   "label": "Alice Cooper",
+   "program": "El Corte Inglés",
+   "aliases": [],
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Falice-cooper-starlite-occident-2027-marbella%2F",
+   "expires": "2027-07-08"
+  },
+  {
+   "label": "Lucho RK",
+   "program": "El Corte Inglés",
+   "aliases": [],
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Flucho-rk-starlite-occident-2027-marbella%2F",
+   "expires": "2027-08-05"
+  },
+  {
+   "label": "Los Secretos",
+   "program": "El Corte Inglés",
+   "aliases": [],
+   "host": "awin1.com/cread.php?awinmid=13034&awinaffid=2958081&ued=https%3A%2F%2Fwww.elcorteingles.es%2Fentradas%2Fconciertos%2Flos-secretos-starlite-occident-2027-marbella%2F",
+   "expires": "2027-08-10"
+  },
+  {
    "label": "David Bisbal",
    "program": "El Corte Inglés",
    "aliases": [],
