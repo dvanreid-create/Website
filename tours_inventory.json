@@ -1,7 +1,7 @@
 {
   "_comment": "Auto-written by tours_scrape.py each sweep; read by build_site.py for Málaga Tours & More. Tours first (biggest Fever commission).",
-  "generated": "2026-11-27",
-  "count": 112,
+  "generated": "2026-11-28",
+  "count": 110,
   "items": [
     {
       "sku": "194665",
@@ -466,6 +466,20 @@
       "d": "<empty>"
     },
     {
+      "sku": "860077",
+      "n": "Edgar Allan Poe Speakeasy Malaga",
+      "c": "tours",
+      "cat": "Experience",
+      "v": "Málaga",
+      "area": "Málaga",
+      "p": "From €33",
+      "img": "55b4bbf4-195c-11f1-8bbb-e6d239827f8b.jpg",
+      "url": "https://feverup.com/m/860077/en",
+      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=860077&u=https%3A%2F%2Ffeverup.com%2Fm%2F860077&intsrc=CATF_15532",
+      "feat": 0,
+      "d": "Disfruta de las obras de Edgar Allan Poe contadas por expertos historiadores y maridadas por cócteles temáticos en Málaga. ¡Consigue tus entradas!"
+    },
+    {
       "sku": "720957",
       "n": "Edgar Allan Poe Speakeasy Málaga",
       "c": "tours",
@@ -492,34 +506,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=655977&u=https%3A%2F%2Ffeverup.com%2Fm%2F655977&intsrc=CATF_15532",
       "feat": 0,
       "d": "Are you ready to immerse yourself in adventure and mystery? Get ready to solve riddles and puzzles with City Escape - get your tickets now!"
-    },
-    {
-      "sku": "708013",
-      "n": "FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA 2027",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €325",
-      "img": "e18c85c4-b2b0-11f1-84dd-8e6b9a8f3083.jpg",
-      "url": "https://feverup.com/m/708013/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=708013&u=https%3A%2F%2Ffeverup.com%2Fm%2F708013&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "MADRING is preparing to host the FORMULA 1 LENOVO GRAN PREMIO DE ESPAÑA in September 2027. Get your tickets now! for F1® in Madrid!"
-    },
-    {
-      "sku": "632234",
-      "n": "Funzo in Málaga",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €21",
-      "img": "c7ffa166-3eef-11f1-8e0f-ea9ced2918a7.jpg",
-      "url": "https://feverup.com/m/632234/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=632234&u=https%3A%2F%2Ffeverup.com%2Fm%2F632234&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Funzo presents his new album TDAH on January 09, 2027, at Sala Paris 15, Málaga. Get your tickets now!"
     },
     {
       "sku": "590844",
@@ -702,20 +688,6 @@
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=693799&u=https%3A%2F%2Ffeverup.com%2Fm%2F693799&intsrc=CATF_15532",
       "feat": 0,
       "d": "La Malagueta Bullring: Admission + Audio Guide in Málaga. Get your tickets on Fever now!"
-    },
-    {
-      "sku": "785182",
-      "n": "Losing Judgment - Monologue in Malaga by Sergio Alamar",
-      "c": "tours",
-      "cat": "Experience",
-      "v": "Málaga",
-      "area": "Málaga",
-      "p": "From €12",
-      "img": "283dccf2-bc6c-11f1-9f11-eef10690df03.jpeg",
-      "url": "https://feverup.com/m/785182/en",
-      "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=785182&u=https%3A%2F%2Ffeverup.com%2Fm%2F785182&intsrc=CATF_15532",
-      "feat": 0,
-      "d": "Sergio Alamar laughs at everything that"
     },
     {
       "sku": "319426",
@@ -976,7 +948,7 @@
       "cat": "Family",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €18",
+      "p": "From €19",
       "img": "3466e8ba-677e-11ee-a26e-ee441e875b0f",
       "url": "https://feverup.com/m/141847/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=141847&u=https%3A%2F%2Ffeverup.com%2Fm%2F141847&intsrc=CATF_15532",
@@ -1256,7 +1228,7 @@
       "cat": "Food & Drink",
       "v": "Málaga",
       "area": "Málaga",
-      "p": "From €72",
+      "p": "From €80",
       "img": "93b683c8-a397-11f0-a163-f67840145f8e",
       "url": "https://feverup.com/m/475995/en",
       "ticket": "https://fever.pxf.io/c/7440720/1928078/16345?prodsku=475995&u=https%3A%2F%2Ffeverup.com%2Fm%2F475995&intsrc=CATF_15532",
