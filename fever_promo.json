@@ -31,10 +31,11 @@
       "from": "2026-11-18",
       "to": "2026-12-02",
       "pct": {
-        "2026-11-29": 20,
+        "2026-11-29": 30,
         "2027-01-31": 20,
         "2027-03-07": 20
       },
+      "pct_lo": {"2026-11-29": 20},
       "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). La Ley Innata Miramar. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
@@ -105,8 +106,9 @@
       "to": "2026-12-02",
       "pct": {
         "2026-12-08": 20,
-        "2027-02-28": 20
+        "2027-02-28": 30
       },
+      "pct_lo": {"2027-02-28": 20},
       "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). Morricone. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
@@ -241,10 +243,11 @@
       "from": "2026-11-18",
       "to": "2026-12-02",
       "pct": {
-        "2026-12-27": 10,
+        "2026-12-27": 20,
         "2027-01-16": 20,
         "2027-02-06": 20
       },
+      "pct_lo": {"2026-12-27": 10},
       "note": "BF ROUND 2 re-audit 2026-11-26 (Sofia: Fever promos still on after our 25 Nov end). LOTR Thyssen. Fever date picker read for every date; per-date percent in \"pct\". Multi-session dates may differ by session (not split)."
     },
     {
@@ -336,6 +339,35 @@
         "2027-03-13": 20
       },
       "note": "BF 2026-11-26. The Jazz Room: Un viaje al corazon de Cuba (Sala Gold). Fever shows a Black Friday banner and 20% on both dates (30 Jan, 13 Mar 2027), read in Edge. Added to the calendar by hand same day (Sofia)."
+    },
+    {
+      "sku": "677233",
+      "from": "2026-11-18",
+      "to": "2026-12-02",
+      "pct": {
+        "2026-12-19": 20,
+        "2026-12-27": 20
+      },
+      "note": "BF 2026-11-28 (Sofia: add plans Fever discounts that we did not badge). Candlelight Tributo a Michael Jackson Marbella. Per-session discount read from Fever session data; the sold-out and undiscounted tiers are ignored (a date may have one undiscounted tier)."
+    },
+    {
+      "sku": "677230",
+      "from": "2026-11-18",
+      "to": "2026-12-02",
+      "pct": {
+        "2026-12-19": 20
+      },
+      "note": "BF 2026-11-28 (Sofia: add plans Fever discounts that we did not badge). Candlelight Coldplay vs Ed Sheeran Marbella. Per-session discount read from Fever session data; the sold-out and undiscounted tiers are ignored (a date may have one undiscounted tier)."
+    },
+    {
+      "sku": "826479",
+      "from": "2026-11-18",
+      "to": "2026-12-02",
+      "pct": {
+        "2026-12-20": 10,
+        "2027-01-10": 10
+      },
+      "note": "BF 2026-11-28 (Sofia: add plans Fever discounts that we did not badge). Candlelight Disney Journeys Marbella. Per-session discount read from Fever session data; the sold-out and undiscounted tiers are ignored (a date may have one undiscounted tier)."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
