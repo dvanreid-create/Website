@@ -368,6 +368,15 @@
         "2027-01-10": 10
       },
       "note": "BF 2026-11-28 (Sofia: add plans Fever discounts that we did not badge). Candlelight Disney Journeys Marbella. Per-session discount read from Fever session data; the sold-out and undiscounted tiers are ignored (a date may have one undiscounted tier)."
+    },
+    {
+      "sku": "142331",
+      "from": "2026-11-18",
+      "to": "2026-12-02",
+      "pct": {
+        "2026-12-26": 10
+      },
+      "note": "BF 2026-11-28 (Sofia screenshot of Fever Anantara Candlelight cards). Candlelight Navidad: Bandas Sonoras Navidenas Marbella, 26 Dec 21:00: Fever list 26,00 -> 23,40 (10%)."
     }
   ],
   "_plan_example_NOT_ACTIVE": {
